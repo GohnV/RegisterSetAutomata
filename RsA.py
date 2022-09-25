@@ -33,11 +33,14 @@ class RsA:
         self.F = F
 
     #up shouldn't update the same register multiple times with different values
-    def updateRegs(self, up):
+    def updateRegs(self, up, input):
         for val in up:
             for r in self.R: 
                 if r[0] == val[0]:
-                    r[1].add(val[1])
+                    if val[1] == 'in':
+                        r[1].add(input)
+                    else:
+                        r[1].add(val[1])
 
     def clearRegs(self):
         for r in self.R:
@@ -62,7 +65,7 @@ class RsA:
     def runWord(self, word):
         print("This would run", word, "over this RsA")
 
-#Not sure about the following methods   
+#Revisit these
     def addQ(self, Q):
         self.Q.add(Q)
 
@@ -96,7 +99,7 @@ class DRsA(RsA):
                 if t.orig == c and t.symbol == i[0] and self.guardTest(i[1], t.eqGuard, t.diseqGuard):
                     #assuming there is only one such transition
                     c = t.dest
-                    self.updateRegs(t.update)
+                    self.updateRegs(t.update, i[1])
                     cnt += 1 
                     break
             if cnt == 0:

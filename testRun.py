@@ -17,7 +17,7 @@ else:
 
 
 drsa = rsa.DRsA({'q'}, [['r', set()]], set(), {'q'}, {'q'})
-drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, set(),'q2'))
+drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, [['r','in']],'q'))
 
 word2 = [('a', 'a'), ('a', 'b'), ('a', 'c'), ('a', 'd')]
 
