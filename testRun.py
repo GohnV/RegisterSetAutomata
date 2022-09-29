@@ -1,3 +1,4 @@
+from typing import Counter
 import RsA as rsa
 
 dfa = rsa.DRsA({'q1', 'q2', 'q3'}, list(), set(), {'q1'}, {'q2'})
@@ -25,3 +26,43 @@ if drsa.runWord(word2):
     print("Accepted")
 else:
     print("Rejected")
+
+
+
+testTree = rsa.SyntaxTree()
+testTree.data = "con"
+treeA = rsa.SyntaxTree()
+treeB = rsa.SyntaxTree()
+treeA.data = 'a'
+treeA.children = []
+treeB.data = 'b'
+treeB.children = []
+testTree.children = [treeA, treeB]
+count = rsa.Counter()
+testTree.createAutomaton(count)
+print(testTree.automaton.Q)
+print(testTree.automaton.R)
+for t in testTree.automaton.delta:
+    print(t.orig,"---",t.symbol,"-->",t.dest)
+print(testTree.automaton.I)
+print(testTree.automaton.F)
+testDRSA = rsa.DRsA(set(), list(), set(), set(), set())
+for q in testTree.automaton.Q:
+    testDRSA.addQ(q)
+for r in testTree.automaton.R:
+    testDRSA.addR(r)
+for t in testTree.automaton.delta:
+    testDRSA.addTransition(t)
+for i in testTree.automaton.I:
+    testDRSA.addI(i)
+for f in testTree.automaton.F:
+    testDRSA.addF(f)
+word3 = [('a', 'a'), ("epsilon", 'b'), ('b', 'c')]
+
+if testDRSA.runWord(word3):
+    print("Accepted")
+else:
+    print("Rejected")
+
+
+
