@@ -1,5 +1,6 @@
-from typing import Counter
 import RsA as rsa
+
+#file to play with whatever I just finished to check basic functionality
 
 dfa = rsa.DRsA({'q1', 'q2', 'q3'}, list(), set(), {'q1'}, {'q2'})
 dfa.delta.add(rsa.Transition('q1','0', list(), set(), set(),'q1'))
@@ -17,8 +18,8 @@ else:
     print("Rejected")
 
 
-drsa = rsa.DRsA({'q'}, [['r', set()]], set(), {'q'}, {'q'})
-drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, [['r','in']],'q'))
+drsa = rsa.DRsA({'q'}, {'r'}, set(), {'q'}, {'q'})
+drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, {'r': {'r','in'}},'q'))
 
 word2 = [('a', 'a'), ('a', 'b'), ('a', 'c'), ('a', 'd')]
 
