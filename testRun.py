@@ -1,16 +1,41 @@
 import RsA as rsa
+import graphviz
 
 #file to play with whatever I just finished to check basic functionality
 
-dfa = rsa.DRsA({'q1', 'q2', 'q3'}, list(), set(), {'q1'}, {'q2'})
-dfa.delta.add(rsa.Transition('q1','0', list(), set(), set(),'q1'))
-dfa.addTransition(rsa.Transition('q1','1', list(), set(), set(),'q2'))
-dfa.addTransition(rsa.Transition('q2','0', list(), set(), set(),'q3'))
-dfa.addTransition(rsa.Transition('q2','1', list(), set(), set(),'q2'))
-dfa.addTransition(rsa.Transition('q3','0', list(), set(), set(),'q2'))
-dfa.addTransition(rsa.Transition('q3','1', list(), set(), set(),'q2'))
+#draws the automaton into a pdf using graphviz
+def drawAutomaton(aut, name):
+    graph = graphviz.Digraph(name)
+    graph.node('init_arrow', label = "", shape = 'none')
+    for q in aut.Q:
+        if q in aut.F:
+            graph.node(q, shape = 'doublecircle')
+        else:
+            graph.node(q)
+    for t in aut.delta:
+        regAssignment = ''
+        for r in t.update.keys():
+            regAssignment += r+' <- '+str(t.update[r])+'\n'
+        eqText = ''
+        if t.eqGuard != set():
+            eqText = '\n \'in\' part of ' + str(t.eqGuard)
+        diseqText = ''
+        if t.diseqGuard != set():
+            diseqText = '\n \'in\' not part of ' + str(t.diseqGuard)
+        graph.edge(t.orig, t.dest, label = ' ' + t.symbol + eqText + diseqText + '\n' + regAssignment)
+    for i in aut.I:
+        graph.edge('init_arrow', i)
+    graph.render()
 
+dfa = rsa.DRsA({'q1', 'q2', 'q3'}, set(), set(), {'q1'}, {'q2'})
+dfa.delta.add(rsa.Transition('q1','0', set(), set(), {},'q1'))
+dfa.addTransition(rsa.Transition('q1','1', set(), set(), {},'q2'))
+dfa.addTransition(rsa.Transition('q2','0', set(), set(), {},'q3'))
+dfa.addTransition(rsa.Transition('q2','1', set(), set(), {},'q2'))
+dfa.addTransition(rsa.Transition('q3','0', set(), set(), {},'q2'))
+dfa.addTransition(rsa.Transition('q3','1', set(), set(), {},'q2'))
 
+drawAutomaton(dfa, 'dfa')
 word = (('1', 0), ('0', 0), ('0', 0))
 if dfa.runWord(word):
     print("Accepted")
@@ -23,6 +48,7 @@ drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, {'r': {'r','in'}},'q'))
 
 word2 = [('a', 'a'), ('a', 'b'), ('a', 'c'), ('a', 'd')]
 
+drawAutomaton(drsa, 'drsa')
 if drsa.runWord(word2):
     print("Accepted")
 else:
@@ -41,6 +67,9 @@ treeB.children = []
 testTree.children = [treeA, treeB]
 count = rsa.Counter()
 testTree.createAutomaton(count)
+
+drawAutomaton(testTree.automaton, 'testAutomaton')
+
 print(testTree.automaton.Q)
 print(testTree.automaton.R)
 for t in testTree.automaton.delta:
