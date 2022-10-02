@@ -1,8 +1,6 @@
 #Author: Jan Vašák, 24.9.2022
 
 
-#TODO: asserts
-
 #for unique ids for states when creating automata from syntax tree
 class Counter:
     count = 0
@@ -24,7 +22,7 @@ class SyntaxTree:
             if self.children == []:
                 id.count += 2
                 self.automaton = NRA({str(id.count), str(id.count-1)}, set(), set(), {str(id.count-1)}, {str(id.count)})
-                self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), set(), str(id.count)))
+                self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), {}, str(id.count)))
             elif self.data == "con":
                 self.automaton = NRA(set(), set(), set(), set(), set())
                 self.automaton.importAutomaton(self.children[0].automaton)
@@ -35,7 +33,7 @@ class SyntaxTree:
                     self.automaton.addF(f)
                 for f in self.children[0].automaton.F:
                     for i in self.children[1].automaton.I:
-                        self.automaton.addTransition(Transition(f, "epsilon", set(), set(), set(), i))  
+                        self.automaton.addTransition(Transition(f, "epsilon", set(), set(), {}, i))  
 #end of class SyntaxTree
 
 
@@ -108,22 +106,22 @@ class RsA:
     def runWord(self, word):
         print("This would run", word, "over this RsA")
 
-    #some asserts in these
     def addQ(self, q):
         self.Q.add(q)
 
     def addR(self, reg):
-        self.R.append(reg)
+        self.R.add(reg)
 
     def addTransition(self, t):
+        assert isinstance(t, Transition)
         self.delta.add(t)
 
     def addI(self, i):
-        #I must be part of Q
+        assert i in self.Q
         self.I.add(i)
 
     def addF(self, f):
-        #F must be part of Q
+        assert f in self.Q
         self.F.add(f)
 #end of class RsA
     
@@ -136,14 +134,10 @@ class DRsA(RsA):
         regConf = {}
         for r in self.R:
             regConf.update({r : set()})
-        cnt = 0
         c = ''
+        assert len(self.I) == 1
         for i in self.I:
             c = i
-            cnt += 1
-        #REPLACE WITH ASSERT:
-        if cnt > 1:
-            print("Multiple initial states in a deterministic automaton! Unspecified behavior.")
         for i in word:
             cnt = 0
             for t in self.delta:
