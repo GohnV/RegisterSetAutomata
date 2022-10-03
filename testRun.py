@@ -56,8 +56,9 @@ else:
 
 
 
+
 testTree = rsa.SyntaxTree()
-testTree.data = "con"
+testTree.data = rsa.CONCATENATION
 treeA = rsa.SyntaxTree()
 treeB = rsa.SyntaxTree()
 treeA.data = 'a'
@@ -65,10 +66,22 @@ treeA.children = []
 treeB.data = 'b'
 treeB.children = []
 testTree.children = [treeA, treeB]
-count = rsa.Counter()
-testTree.createAutomaton(count)
+
+bigTestTree = rsa.SyntaxTree()
+bigTestTree.data = rsa.UNION
+bigL = rsa.SyntaxTree()
+bigL.data = 'c'
+bigL.children = []
+bigTestTree.children = [bigL, testTree]
+
+id = rsa.Counter()
+testTree.createAutomaton(id)
 
 drawAutomaton(testTree.automaton, 'testAutomaton')
+
+#needs to use the same counter as the previous tree, as it includes that one
+bigTestTree.createAutomaton(id)
+drawAutomaton(bigTestTree.automaton, 'bigTestAutomaton')
 
 print(testTree.automaton.Q)
 print(testTree.automaton.R)
