@@ -1,12 +1,20 @@
 #Author: Jan Vašák, 24.9.2022
 
+#TODO better initialization for SyntaxTree
+#TODO syntax tree unique names???
+
+
+EPSILON = "epsilon"
+CONCATENATION = "con"
+UNION = "union"
+IN = "in"
 
 #for unique ids for states when creating automata from syntax tree
 class Counter:
     count = 0
     def __init__(self):
         count = 0
-    
+   
 
 class SyntaxTree:
     data = None
@@ -17,13 +25,14 @@ class SyntaxTree:
         if self.automaton == None:
             if self.children != []:
                 for i in self.children:
+                    print(i.data)
                     i.createAutomaton(id)
             #actual automaton creation for each node/leaf
             if self.children == []:
                 id.count += 2
                 self.automaton = NRA({str(id.count), str(id.count-1)}, set(), set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), {}, str(id.count)))
-            elif self.data == "con":
+            elif self.data == CONCATENATION:
                 self.automaton = NRA(set(), set(), set(), set(), set())
                 self.automaton.importAutomaton(self.children[0].automaton)
                 self.automaton.importAutomaton(self.children[1].automaton)
@@ -33,7 +42,24 @@ class SyntaxTree:
                     self.automaton.addF(f)
                 for f in self.children[0].automaton.F:
                     for i in self.children[1].automaton.I:
-                        self.automaton.addTransition(Transition(f, "epsilon", set(), set(), {}, i))  
+                        self.automaton.addTransition(Transition(f, EPSILON, set(), set(), {}, i))
+            elif self.data == UNION:
+                id.count += 1
+                self.automaton = NRA(set(), set(), set(), set(), set())
+                self.automaton.importAutomaton(self.children[0].automaton)
+                self.automaton.importAutomaton(self.children[1].automaton)
+                for f in self.children[0].automaton.F:
+                    self.automaton.addF(f)
+                for f in self.children[1].automaton.F:
+                    self.automaton.addF(f)
+                self.automaton.addQ(str(id.count))
+                self.automaton.addI(str(id.count))
+                for i in self.children[0].automaton.I:
+                    self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
+                for i in self.children[1].automaton.I:
+                    self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
+
+
 #end of class SyntaxTree
 
 
@@ -75,7 +101,7 @@ class RsA:
             tmp = set()
             if r in up.keys():
                 for x in up[r]:
-                    if x == 'in':
+                    if x == IN:
                         tmp.add(input)
                     else:
                         tmp.union(regConf[x])
