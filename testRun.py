@@ -74,14 +74,21 @@ bigL.data = 'c'
 bigL.children = []
 bigTestTree.children = [bigL, testTree]
 
-id = rsa.Counter()
-testTree.createAutomaton(id)
+biggerTestTree = rsa.SyntaxTree()
+biggerTestTree.data = rsa.ITERATION
+biggerTestTree.children = [bigTestTree]
 
+id = rsa.Counter()
+
+testTree.createAutomaton(id)
 drawAutomaton(testTree.automaton, 'testAutomaton')
 
 #needs to use the same counter as the previous tree, as it includes that one
 bigTestTree.createAutomaton(id)
 drawAutomaton(bigTestTree.automaton, 'bigTestAutomaton')
+
+biggerTestTree.createAutomaton(id)
+drawAutomaton(biggerTestTree.automaton, 'biggerTestAutomaton')
 
 print(testTree.automaton.Q)
 print(testTree.automaton.R)
