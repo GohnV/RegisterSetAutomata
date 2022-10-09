@@ -3,12 +3,14 @@
 #TODO better initialization for SyntaxTree
 #TODO syntax tree unique names???
 
-
+ANYCHAR = "any"
 EPSILON = "epsilon"
 CONCATENATION = "con"
 UNION = "union"
 ITERATION = "iter"
 IN = "in"
+CAPTURECHAR = "capturechar"
+BACKREFCHAR = "backrefchar"
 
 #for unique ids for states when creating automata from syntax tree
 class Counter:
@@ -29,7 +31,19 @@ class SyntaxTree:
                     print(i.data)
                     i.createAutomaton(id)
             #actual automaton creation for each node/leaf
-            if self.children == []:
+            if CAPTURECHAR in self.data:
+                id.count += 2
+                reg = 'r'+self.data.replace(CAPTURECHAR, "")
+                self.automaton = NRA({str(id.count), str(id.count-1)}, {reg}, set(), {str(id.count-1)}, {str(id.count)})
+                self.automaton.addTransition(Transition(str(id.count-1), ANYCHAR, set(), set(), {reg:'in'}, str(id.count)))
+
+            elif BACKREFCHAR in self.data:
+                id.count += 2
+                reg = 'r'+self.data.replace(BACKREFCHAR, "")
+                self.automaton = NRA({str(id.count), str(id.count-1)}, {reg}, set(), {str(id.count-1)}, {str(id.count)})
+                self.automaton.addTransition(Transition(str(id.count-1), ANYCHAR, {reg}, set(), {}, str(id.count)))
+
+            elif self.children == []:
                 id.count += 2
                 self.automaton = NRA({str(id.count), str(id.count-1)}, set(), set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), {}, str(id.count)))
@@ -75,7 +89,6 @@ class SyntaxTree:
                 self.automaton.addF(str(id.count))
                 self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
 
-
 #end of class SyntaxTree
 
 
@@ -110,11 +123,10 @@ class RsA:
         self.F = F
 
     #Update Registers
-    #   registers, which are not specified in up, are empied (not sure whether this is correct behaviour)
-    #   maybe they should instead retain their values unless explicitly changed?
+    #   Unspecified registers keep their value
     def updateRegs(self, regConf, up, input):
         for r in regConf.keys():
-            tmp = set()
+            tmp = regConf[r]
             if r in up.keys():
                 for x in up[r]:
                     if x == IN:
@@ -131,19 +143,6 @@ class RsA:
             self.addR(r)
         for t in automaton.delta:
             self.addTransition(t)
-
-    def guardTest(self, data, regConf, eqG, diseqG):
-        for g in eqG:
-            for r in regConf.keys():
-                if g == r:
-                    if not data in regConf[r]:
-                        return False
-        for g in diseqG:
-            for r in regConf.keys():
-                if g == r:
-                    if data in regConf[r]:
-                        return False
-        return True
 
     def runWord(self, word):
         print("This would run", word, "over this RsA")
@@ -172,6 +171,21 @@ class DRsA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
+    #tests guards of a transition
+    def guardTest(self, input, regConf, eqG, diseqG):
+        for g in eqG:
+            for r in regConf.keys():
+                if g == r:
+                    if not input in regConf[r]:
+                        return False
+        for g in diseqG:
+            for r in regConf.keys():
+                if g == r:
+                    if input in regConf[r]:
+                        return False
+        return True
+
+    #Runs a word on this drsa
     def runWord(self, word):
         regConf = {}
         for r in self.R:
@@ -183,8 +197,10 @@ class DRsA(RsA):
         for i in word:
             cnt = 0
             for t in self.delta:
+                #Add . (anychar) and maybe more stuff
                 if t.orig == c and t.symbol == i[0] and self.guardTest(i[1], regConf, t.eqGuard, t.diseqGuard):
                     #assuming there is only one such transition
+                    #!
                     c = t.dest
                     self.updateRegs(regConf,t.update, i[1])
                     cnt += 1 

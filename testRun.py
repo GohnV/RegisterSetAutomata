@@ -11,18 +11,23 @@ def drawAutomaton(aut, name):
         if q in aut.F:
             graph.node(q, shape = 'doublecircle')
         else:
-            graph.node(q)
+            graph.node(q, shape = "circle")
     for t in aut.delta:
         regAssignment = ''
         for r in t.update.keys():
-            regAssignment += r+' <- '+str(t.update[r])+'\n'
+            regAssignment += ' '+r+' <- ' + str(t.update[r])+'\n'
         eqText = ''
-        if t.eqGuard != set():
-            eqText = '\n \'in\' part of ' + str(t.eqGuard)
+        for g in t.eqGuard:
+            eqText += '\n' + ' in = ' + str(g)
+        #if t.eqGuard != set():
+        #    eqText = '\n \'in\' part of ' + str(t.eqGuard)
         diseqText = ''
-        if t.diseqGuard != set():
-            diseqText = '\n \'in\' not part of ' + str(t.diseqGuard)
-        graph.edge(t.orig, t.dest, label = ' ' + t.symbol + eqText + diseqText + '\n' + regAssignment)
+        for g in t.diseqGuard:
+            diseqText +='\n' + ' in = ' + str(g)
+        sym = t.symbol
+        if t.symbol == rsa.EPSILON:
+            sym = 'ε'
+        graph.edge(t.orig, t.dest, label = ' ' + sym + eqText + diseqText + '\n' + regAssignment)
     for i in aut.I:
         graph.edge('init_arrow', i)
     graph.render()
@@ -69,9 +74,17 @@ testTree.children = [treeA, treeB]
 
 bigTestTree = rsa.SyntaxTree()
 bigTestTree.data = rsa.UNION
+
+capt = rsa.SyntaxTree()
+backref = rsa.SyntaxTree()
+capt.children = []
+backref.children = []
+capt.data = rsa.CAPTURECHAR+"1"
+backref.data = rsa.BACKREFCHAR+"1"
+
 bigL = rsa.SyntaxTree()
-bigL.data = 'c'
-bigL.children = []
+bigL.data = rsa.CONCATENATION
+bigL.children = [capt, backref]
 bigTestTree.children = [bigL, testTree]
 
 biggerTestTree = rsa.SyntaxTree()
