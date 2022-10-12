@@ -3,6 +3,10 @@
 #TODO better initialization for SyntaxTree
 #TODO syntax tree unique names???
 
+from http.client import FORBIDDEN
+from pickle import FALSE
+
+
 ANYCHAR = "any"
 EPSILON = "epsilon"
 CONCATENATION = "con"
@@ -146,23 +150,47 @@ class RsA:
 
     #creates epsilon closure for a state in this automaton
     def epsClosure(self, state):
-        #FIXME
-        #closure and closureNew is the same set, need deep copy I guess
         closure = {state}
-        closureNew = closure.copy()
         while True:
-            closure = closureNew
-            print("run")
+            changed = False
             for t in self.delta:
-                if t.orig in closureNew and t.symbol == EPSILON:
-                    closureNew.add(t.dest)        
-            if closure == closureNew:
+                if t.orig in closure and t.symbol == EPSILON:
+                    if t.dest not in closure:
+                        closure.add(t.dest)
+                        changed = True        
+            if not changed:
                 break
         return closure
 
     #removes epsilon transitions
     def removeEps(self):
-        pass
+        deltaNew = set()
+        newF = set()
+        for q in self.Q:
+            epsClos = self.epsClosure(q)
+            if not epsClos.isdisjoint(self.F):
+                newF.add(q)
+            for t in self.delta:
+                if t.orig in epsClos and t.symbol != EPSILON:
+                    deltaNew.add(Transition(q, t.symbol, t.eqGuard, t.diseqGuard, t.update, t.dest))
+        self.delta = deltaNew
+        self.F = newF
+    
+    def removeUnreachable(self):
+        newQ = set().union(self.I)
+        newDelta = set()
+        while True:
+            changed = False
+            for t in self.delta:
+                if (t.orig in newQ):
+                    newDelta.add(t)
+                    if t.dest not in newQ:
+                        newQ.add(t.dest)
+                        changed = True
+            if not changed:
+                break
+        self.Q = newQ
+        self.delta = newDelta
 
 
     def runWord(self, word):

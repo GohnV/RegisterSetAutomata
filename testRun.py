@@ -19,14 +19,14 @@ def drawAutomaton(aut, name):
         eqText = ''
         for g in t.eqGuard:
             eqText += '\n' + ' in = ' + str(g)
-        #if t.eqGuard != set():
-        #    eqText = '\n \'in\' part of ' + str(t.eqGuard)
         diseqText = ''
         for g in t.diseqGuard:
             diseqText +='\n' + ' in = ' + str(g)
         sym = t.symbol
         if t.symbol == rsa.EPSILON:
             sym = 'ε'
+        elif t.symbol == rsa.ANYCHAR:
+            sym = 'Σ'
         graph.edge(t.orig, t.dest, label = ' ' + sym + eqText + diseqText + '\n' + regAssignment)
     for i in aut.I:
         graph.edge('init_arrow', i)
@@ -101,6 +101,9 @@ bigTestTree.createAutomaton(id)
 drawAutomaton(bigTestTree.automaton, 'bigTestAutomaton')
 
 biggerTestTree.createAutomaton(id)
+biggerTestTree.automaton.removeEps()
+biggerTestTree.automaton.removeUnreachable()
+
 drawAutomaton(biggerTestTree.automaton, 'biggerTestAutomaton')
 
 print(testTree.automaton.Q)
@@ -122,7 +125,7 @@ for f in testTree.automaton.F:
     testDRSA.addF(f)
 word3 = [('a', 'a'), ("epsilon", 'b'), ('b', 'c')]
 
-print(str(biggerTestTree.automaton.epsClosure('10')))
+print(str(biggerTestTree.automaton.epsClosure('6')))
 
 if testDRSA.runWord(word3):
     print("Accepted")
