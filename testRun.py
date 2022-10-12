@@ -122,6 +122,8 @@ for f in testTree.automaton.F:
     testDRSA.addF(f)
 word3 = [('a', 'a'), ("epsilon", 'b'), ('b', 'c')]
 
+print(str(biggerTestTree.automaton.epsClosure('10')))
+
 if testDRSA.runWord(word3):
     print("Accepted")
 else:

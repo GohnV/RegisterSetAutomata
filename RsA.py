@@ -144,6 +144,27 @@ class RsA:
         for t in automaton.delta:
             self.addTransition(t)
 
+    #creates epsilon closure for a state in this automaton
+    def epsClosure(self, state):
+        #FIXME
+        #closure and closureNew is the same set, need deep copy I guess
+        closure = {state}
+        closureNew = closure.copy()
+        while True:
+            closure = closureNew
+            print("run")
+            for t in self.delta:
+                if t.orig in closureNew and t.symbol == EPSILON:
+                    closureNew.add(t.dest)        
+            if closure == closureNew:
+                break
+        return closure
+
+    #removes epsilon transitions
+    def removeEps(self):
+        pass
+
+
     def runWord(self, word):
         print("This would run", word, "over this RsA")
 
