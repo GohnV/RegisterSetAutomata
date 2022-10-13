@@ -32,6 +32,21 @@ def drawAutomaton(aut, name):
         graph.edge('init_arrow', i)
     graph.render()
 
+def createGraph(tree, graph, id):
+    graph.node(tree.data+str(id.count))
+    currCount = id.count
+    for i in range(len(tree.children)):
+        id.count += 1 
+        graph.edge(tree.data+str(currCount), tree.children[i].data+str(id.count))   
+        createGraph(tree.children[i], graph, id)
+
+def drawSyntaxTree(tree, name):
+    id = rsa.Counter()
+    graph = graphviz.Digraph(name)
+    createGraph(tree, graph, id)
+    graph.render()
+    
+
 dfa = rsa.DRsA({'q1', 'q2', 'q3'}, set(), set(), {'q1'}, {'q2'})
 dfa.delta.add(rsa.Transition('q1','0', set(), set(), {},'q1'))
 dfa.addTransition(rsa.Transition('q1','1', set(), set(), {},'q2'))
@@ -105,6 +120,8 @@ biggerTestTree.automaton.removeEps()
 biggerTestTree.automaton.removeUnreachable()
 
 drawAutomaton(biggerTestTree.automaton, 'biggerTestAutomaton')
+
+drawSyntaxTree(biggerTestTree, 'biggerTestTree')
 
 print(testTree.automaton.Q)
 print(testTree.automaton.R)
