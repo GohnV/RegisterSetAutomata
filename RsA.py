@@ -32,7 +32,7 @@ class SyntaxTree:
         if self.automaton == None:
             if self.children != []:
                 for i in self.children:
-                    print(i.data)
+                    #print(i.data)
                     i.createAutomaton(id)
             #actual automaton creation for each node/leaf
             if CAPTURECHAR in self.data:
