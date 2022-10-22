@@ -193,7 +193,9 @@ def drawSyntaxTree(tree, name):
     createGraph(tree, graph, id)
     graph.render()
 
-
+#@-capture character
+#&-concatenation
+#numbers are backreferences
 parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
 
 drawSyntaxTree(parsedTree, "parsedTree")
