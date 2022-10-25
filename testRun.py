@@ -1,6 +1,5 @@
 import RsA as rsa
 import graphviz
-#TODO predelat parser tabulku, iterace by mela mit prednost pred konkatenaci, mam to naopak
 #file to play with whatever I just finished to check basic functionality
 
 class Pair:
