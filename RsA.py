@@ -112,6 +112,10 @@ class Transition:
         self.dest = dest
 #end of class Transition
 
+class SuperState:
+    state = ''
+    mapping = {}
+
 class RsA:
     Q = set()          #set of states
     R = set()          #set of registers
@@ -191,6 +195,21 @@ class RsA:
                 break
         self.Q = newQ
         self.delta = newDelta
+
+    def determinize(self):
+        newA = DRsA(self.I, self.R, set(), self.I, set())
+        sStates = set()
+        worklist = []
+        for i in self.I:
+            tmp = SuperState()
+            tmp.state = i
+            for r in self.R:
+                tmp.mapping.update({r:0})
+            worklist.append(tmp)
+            sStates.add(tmp)
+        while worklist != []:
+            pass
+            #S = worklist[]
 
 
     def runWord(self, word):
