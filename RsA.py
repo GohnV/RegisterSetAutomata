@@ -3,8 +3,13 @@
 #TODO better initialization for SyntaxTree
 #TODO syntax tree unique names???
 
-from http.client import FORBIDDEN
-from pickle import FALSE
+import itertools as it
+
+#from itertools recipes
+def powerset(iterable):
+    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+    s = list(iterable)
+    return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
 
 
 ANYCHAR = "any"
@@ -15,6 +20,7 @@ ITERATION = "iter"
 IN = "in"
 CAPTURECHAR = "capturechar"
 BACKREFCHAR = "backrefchar"
+BOTTOM = "NULL"
 
 #for unique ids for states when creating automata from syntax tree
 class Counter:
@@ -112,9 +118,11 @@ class Transition:
         self.dest = dest
 #end of class Transition
 
-class SuperState:
-    state = ''
-    mapping = {}
+class MacroState:
+    def __init__(self):
+        self.states = set()
+        self.mapping = {}
+
 
 class RsA:
     Q = set()          #set of states
@@ -129,6 +137,18 @@ class RsA:
         self.delta = delta
         self.I = I
         self.F = F
+
+    def activeRegs(self, state):
+        regs = set()
+        for t in self.delta:
+            if t.dest == state:
+                for r in t.update.keys():
+                    if t.update[r] != BOTTOM:
+                        regs.add(r)
+            if t.orig == state:
+                regs = regs.union(t.eqGuard)
+                regs = regs.union(t.diseqGuard)
+        return regs
 
     #Update Registers
     #   Unspecified registers keep their value
@@ -195,22 +215,6 @@ class RsA:
                 break
         self.Q = newQ
         self.delta = newDelta
-
-    def determinize(self):
-        newA = DRsA(self.I, self.R, set(), self.I, set())
-        sStates = set()
-        worklist = []
-        for i in self.I:
-            tmp = SuperState()
-            tmp.state = i
-            for r in self.R:
-                tmp.mapping.update({r:0})
-            worklist.append(tmp)
-            sStates.add(tmp)
-        while worklist != []:
-            pass
-            #S = worklist[]
-
 
     def runWord(self, word):
         print("This would run", word, "over this RsA")
@@ -284,10 +288,118 @@ class DRsA(RsA):
 #end of class DRsA
 
 
+
 class NRA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
     def runWord(self, word):
         print("This would do a nondeterministic run of word", word, "on this NRA")
+
+    def completeUpdates(self):
+        for t in self.delta:
+            for r in self.R:
+                if r not in t.update.keys():
+                    t.update[r] = r
+
+    def cRoof(self, x, g, c):
+        if x in self.R.difference(g):
+            return c[x]
+        if x in g:
+            return 0
+        if x == 'in':
+            return 1
+    
+    def makeRegisterLocal(self):
+        pass
+            
+    def determinize(self):
+        self.completeUpdates()
+        newA = DRsA(set(), self.R, set(), set(), set())
+        worklist = [] 
+        for i in self.I:    
+            temp = MacroState()
+            temp.states.add(i)
+        for r in self.R:
+            temp.mapping.update({r:0})
+        worklist.append(temp)
+        newA.Q.add(temp)
+        newA.I.add(temp)
+        while worklist != []:
+            sc = worklist.pop(-1)                 
+            A = set()
+            for t in self.delta:
+                if t.orig in sc.states:
+                    A.add(t.symbol)
+            regs = set()
+            for q in sc.states:
+                rq = self.activeRegs(q)
+                for r in rq:
+                    if sc.mapping[r] != 0:
+                        regs.add(r)
+            G = powerset(regs)
+            for a in A:
+                for g in G:
+                    T = set()
+                    S1 = set()
+                    for t in self.delta:
+                        if (t.orig in sc.states) and (a in A) and (t.eqGuard.issubset(g))\
+                        and (t.diseqGuard.isdisjoint(g)):
+                            T.add(t)
+                    for t in T:
+                        S1.add(t.dest)
+                    for t in T:
+                        for r in t.diseqGuard:
+                            if sc.mapping[r] == 2:
+                                return -1
+                    op = {}
+                    for ri in self.R:
+                        tmp = set()    
+                        for t in T:
+                            x = set()
+                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in t.diseqGuard:
+                                x = {t.update[ri]}
+                            elif t.update[ri] in t.eqGuard:
+                                x = {IN}
+                            tmp = tmp.union(x)
+                        if not tmp.isdisjoint(g):
+                            op[ri] = tmp.difference({IN})
+                        else:
+                            op[ri] = tmp
+                    for q1 in S1:
+                        P = set()
+                        for r in self.activeRegs(q):
+                            #lines 15-17!!!
+                            pass
+                    up1 = {}
+                    for ri in self.R:
+                        up1[ri] = op[ri]
+                    c1 = {}
+                    for ri in self.R:
+                        cnt = 0
+                        for x in up1[ri]:
+                            cnt += self.cRoof(x, g, sc.mapping)
+                            if cnt > 2:
+                                cnt = 2
+                        c1[ri] = cnt
+                    s1c1 = MacroState()
+                    s1c1.states = S1
+                    s1c1.mapping = c1
+                    found = False
+                    for q1 in newA.Q:
+                        if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
+                            found = True
+                            break
+                    if not found:
+                        worklist.append(s1c1)
+                        newA.addQ(s1c1)
+                    newA.addTransition(Transition(sc, a, g, self.R.difference(g), up1, s1c1))
+        for mq in newA.Q:
+            for q in mq.states:
+                if q in self.F:
+                    newA.addF(mq)
+                    break
+        return newA
+
+                        
 #end of class NRA

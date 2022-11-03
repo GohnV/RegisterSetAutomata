@@ -149,15 +149,26 @@ def createTree(expr):
             if pushdown[0].type == '$' and pushdown[1].type == 'E':
                 return pushdown[1].data
 
+def strIfMacroState(q):
+    ret = q
+    if isinstance(q, rsa.MacroState):
+        smap = list(q.states)
+        smap.sort()
+        ret = str(smap)+str(q.mapping.values())
+    return ret
+
+
 #draws the automaton into a pdf using graphviz
 def drawAutomaton(aut, name):
-    graph = graphviz.Digraph(name)
+    graph = graphviz.Digraph(name) 
+    graph.graph_attr["rankdir"] = "LR"
     graph.node('init_arrow', label = "", shape = 'none')
     for q in aut.Q:
+        qname = strIfMacroState(q)
         if q in aut.F:
-            graph.node(q, shape = 'doublecircle')
+            graph.node(qname, shape = 'doublecircle')
         else:
-            graph.node(q, shape = "circle")
+            graph.node(qname, shape = "circle")
     for t in aut.delta:
         regAssignment = ''
         for r in t.update.keys():
@@ -167,15 +178,18 @@ def drawAutomaton(aut, name):
             eqText += '\n' + ' in = ' + str(g)
         diseqText = ''
         for g in t.diseqGuard:
-            diseqText +='\n' + ' in = ' + str(g)
+            diseqText +='\n' + ' in != ' + str(g)
         sym = t.symbol
         if t.symbol == rsa.EPSILON:
             sym = 'ε'
         elif t.symbol == rsa.ANYCHAR:
             sym = 'Σ'
-        graph.edge(t.orig, t.dest, label = ' ' + sym + eqText + diseqText + '\n' + regAssignment)
+        oname = strIfMacroState(t.orig)
+        dname = strIfMacroState(t.dest)
+        graph.edge(oname, dname, label = ' ' + sym + eqText + diseqText + '\n' + regAssignment)
     for i in aut.I:
-        graph.edge('init_arrow', i)
+        iname = strIfMacroState(i)
+        graph.edge('init_arrow', iname)
     graph.render()
 
 def createGraph(tree, graph, id):
@@ -195,7 +209,8 @@ def drawSyntaxTree(tree, name):
 #@-capture character
 #&-concatenation
 #numbers are backreferences
-parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
+#parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
+parsedTree = createTree(".*&@&.*&1&.*$")
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
@@ -203,8 +218,28 @@ parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
+drawAutomaton(parsedAutomaton, "parsedAutomaton")
 
-drawAutomaton(parsedTree.automaton, "parsedAutomaton")
+
+detAut = parsedAutomaton.determinize()
+
+drawAutomaton(detAut, "detAutomaton")
+
+
+noRep = rsa.NRA({'q', 's', 't'}, {'r'}, set(), {'q'}, {'t'})
+noRep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 'q'))
+noRep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.IN}, 's'))
+noRep.addTransition(rsa.Transition('s', rsa.ANYCHAR, set(), set(), {'r':'r'}, 's'))
+noRep.addTransition(rsa.Transition('s', rsa.ANYCHAR, {'r'}, set(), {'r':rsa.BOTTOM}, 't'))
+noRep.addTransition(rsa.Transition('t', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 't'))
+
+
+#noRep.completeUpdates
+drawAutomaton(noRep, "norepAutomaton")
+
+detAut2 = noRep.determinize()
+
+drawAutomaton(detAut2, "dnorepAutomaton")
 
 '''
 dfa = rsa.DRsA({'q1', 'q2', 'q3'}, set(), set(), {'q1'}, {'q2'})
