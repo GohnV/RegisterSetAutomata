@@ -314,11 +314,13 @@ class NRA(RsA):
         pass
             
     def determinize(self):
-        self.completeUpdates()
+        #fill in implicit updates
+        self.completeUpdates()        
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
+        #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
+        temp = MacroState()
         for i in self.I:    
-            temp = MacroState()
             temp.states.add(i)
         for r in self.R:
             temp.mapping.update({r:0})
@@ -328,10 +330,13 @@ class NRA(RsA):
         while worklist != []:
             sc = worklist.pop(-1)                 
             A = set()
+            #set A includes all symbols used in transitions
+            #to avoid looping through the (infinite) alphabet
             for t in self.delta:
-                if t.orig in sc.states:
-                    A.add(t.symbol)
+                #if t.orig in sc.states:
+                A.add(t.symbol)
             regs = set()
+            #R[S] \ {r ∈ R | c(r) = 0}:
             for q in sc.states:
                 rq = self.activeRegs(q)
                 for r in rq:
@@ -342,20 +347,23 @@ class NRA(RsA):
                 for g in G:
                     T = set()
                     S1 = set()
+                    #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
                     for t in self.delta:
-                        if (t.orig in sc.states) and (a in A) and (t.eqGuard.issubset(g))\
+                        if (t.orig in sc.states) and (t.symbol == a) and (t.eqGuard.issubset(g))\
                         and (t.diseqGuard.isdisjoint(g)):
                             T.add(t)
+                    #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
                     for t in T:
                         S1.add(t.dest)
                     for t in T:
                         for r in t.diseqGuard:
                             if sc.mapping[r] == 2:
-                                return -1
+                                return -1 #?
                     op = {}
                     for ri in self.R:
                         tmp = set()    
                         for t in T:
+                            #"line" 12:
                             x = set()
                             if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in t.diseqGuard:
                                 x = {t.update[ri]}
@@ -371,10 +379,12 @@ class NRA(RsA):
                         for r in self.activeRegs(q):
                             #lines 15-17!!!
                             pass
+                    #up′ ← {r_i → op_ri | r_i ∈ R}:
                     up1 = {}
                     for ri in self.R:
                         up1[ri] = op[ri]
                     c1 = {}
+                    #line 19:
                     for ri in self.R:
                         cnt = 0
                         for x in up1[ri]:
@@ -387,6 +397,7 @@ class NRA(RsA):
                     s1c1.mapping = c1
                     found = False
                     for q1 in newA.Q:
+                        #orig:
                         if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
                             found = True
                             break
@@ -394,6 +405,7 @@ class NRA(RsA):
                         worklist.append(s1c1)
                         newA.addQ(s1c1)
                     newA.addTransition(Transition(sc, a, g, self.R.difference(g), up1, s1c1))
+        #accepting states:
         for mq in newA.Q:
             for q in mq.states:
                 if q in self.F:
