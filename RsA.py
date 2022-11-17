@@ -302,10 +302,12 @@ class NRA(RsA):
                 if r not in t.update.keys():
                     t.update[r] = r
 
-    def cRoof(self, x, g, c):
+    def cRoof(self, x, g, c, check):
         if x in self.R.difference(g):
             return c[x]
         if x in g:
+            if check:
+                return 1
             return 0
         if x == 'in':
             return 1
@@ -333,8 +335,8 @@ class NRA(RsA):
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet
             for t in self.delta:
-                #if t.orig in sc.states:
-                A.add(t.symbol)
+                if t.orig in sc.states:
+                    A.add(t.symbol)
             regs = set()
             #R[S] \ {r ∈ R | c(r) = 0}:
             for q in sc.states:
@@ -342,14 +344,15 @@ class NRA(RsA):
                 for r in rq:
                     if sc.mapping[r] != 0:
                         regs.add(r)
-            G = powerset(regs)
+            G = set(powerset(regs))
             for a in A:
                 for g in G:
+                    check = False
                     T = set()
                     S1 = set()
                     #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
-                    for t in self.delta:
-                        if (t.orig in sc.states) and (t.symbol == a) and (t.eqGuard.issubset(g))\
+                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR
+                        if (t.orig in sc.states) and (t.symbol == a or t.symbol == ANYCHAR) and (t.eqGuard.issubset(g))\
                         and (t.diseqGuard.isdisjoint(g)):
                             T.add(t)
                     #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
@@ -372,6 +375,7 @@ class NRA(RsA):
                             tmp = tmp.union(x)
                         if not tmp.isdisjoint(g):
                             op[ri] = tmp.difference({IN})
+                            check = True
                         else:
                             op[ri] = tmp
                     for q1 in S1:
@@ -388,7 +392,7 @@ class NRA(RsA):
                     for ri in self.R:
                         cnt = 0
                         for x in up1[ri]:
-                            cnt += self.cRoof(x, g, sc.mapping)
+                            cnt += self.cRoof(x, g, sc.mapping, check)
                             if cnt > 2:
                                 cnt = 2
                         c1[ri] = cnt

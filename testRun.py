@@ -210,7 +210,7 @@ def drawSyntaxTree(tree, name):
 #&-concatenation
 #numbers are backreferences
 #parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
-parsedTree = createTree(".*&@&.*&1&.*$")
+parsedTree = createTree(".*&a&b&c&.*$")
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
