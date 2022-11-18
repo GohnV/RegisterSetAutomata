@@ -150,19 +150,6 @@ class RsA:
                 regs = regs.union(t.diseqGuard)
         return regs
 
-    #Update Registers
-    #   Unspecified registers keep their value
-    def updateRegs(self, regConf, up, input):
-        for r in regConf.keys():
-            tmp = regConf[r]
-            if r in up.keys():
-                for x in up[r]:
-                    if x == IN:
-                        tmp.add(input)
-                    else:
-                        tmp.union(regConf[x])
-            regConf.update({r : tmp})
-
     #copies everything except initial and final states from a different automaton into this one
     def importAutomaton(self, automaton):
         for q in automaton.Q:
@@ -243,6 +230,19 @@ class DRsA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
+    #Update Registers
+    #   Unspecified registers keep their value
+    def updateRegs(self, regConf, up, input):
+        for r in regConf.keys():
+            tmp = regConf[r]
+            if r in up.keys():
+                for x in up[r]:
+                    if x == IN:
+                        tmp.add(input)
+                    else:
+                        tmp.union(regConf[x])
+            regConf.update({r : tmp})
+
     #tests guards of a transition
     def guardTest(self, input, regConf, eqG, diseqG):
         for g in eqG:
@@ -266,23 +266,29 @@ class DRsA(RsA):
         assert len(self.I) == 1
         for i in self.I:
             c = i
-        for i in word:
+        for s in word:
             cnt = 0
             for t in self.delta:
-                #Add . (anychar) and maybe more stuff
-                if t.orig == c and t.symbol == i[0] and self.guardTest(i[1], regConf, t.eqGuard, t.diseqGuard):
-                    #assuming there is only one such transition
-                    #!
+                #first check for the character directly
+                if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == s and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
                     c = t.dest
-                    self.updateRegs(regConf,t.update, i[1])
+                    self.updateRegs(regConf,t.update, s)
                     cnt += 1 
                     break
             if cnt == 0:
-                #no possible transition, run dies
-                self.clearRegs()
+                for t in self.delta:
+                    #try anychar
+                    if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == ANYCHAR and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                        c = t.dest
+                        self.updateRegs(regConf,t.update, s)
+                        cnt += 1 
+                        break
+            if cnt == 0:
+                #run dies
                 return False
-        if {c}.issubset(self.F):
-            return True
+        for f in self.F:
+            if c.states == f.states and c.mapping == f.mapping:
+                return True
         else:
             return False
 #end of class DRsA

@@ -158,27 +158,37 @@ def strIfMacroState(q):
     return ret
 
 
-#draws the automaton into a pdf using graphviz
+#draws the automaton as a pdf using graphviz
 def drawAutomaton(aut, name):
     graph = graphviz.Digraph(name) 
     graph.graph_attr["rankdir"] = "LR"
     graph.node('init_arrow', label = "", shape = 'none')
+    q_shape = 'octagon'
+    f_shape = 'doubleoctagon'
+    if isinstance(aut, rsa.NRA):
+        q_shape = 'circle'
+        f_shape = 'doublecircle'
+    eq_op = ' in ∈ '
+    diseq_op = ' in ∉ '
+    if isinstance(aut, rsa.NRA):
+        eq_op = ' in = '
+        diseq_op = ' in != '
     for q in aut.Q:
         qname = strIfMacroState(q)
         if q in aut.F:
-            graph.node(qname, shape = 'doublecircle')
+            graph.node(qname, shape = f_shape)
         else:
-            graph.node(qname, shape = "circle")
+            graph.node(qname, shape = q_shape)
     for t in aut.delta:
         regAssignment = ''
         for r in t.update.keys():
             regAssignment += ' '+r+' <- ' + str(t.update[r])+'\n'
         eqText = ''
         for g in t.eqGuard:
-            eqText += '\n' + ' in = ' + str(g)
+            eqText += '\n' + eq_op + str(g)
         diseqText = ''
         for g in t.diseqGuard:
-            diseqText +='\n' + ' in != ' + str(g)
+            diseqText +='\n' + diseq_op + str(g)
         sym = t.symbol
         if t.symbol == rsa.EPSILON:
             sym = 'ε'
@@ -209,8 +219,10 @@ def drawSyntaxTree(tree, name):
 #@-capture character
 #&-concatenation
 #numbers are backreferences
-#parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
-parsedTree = createTree(".*&a&b&c&.*$")
+parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
+#parsedTree = createTree(".*&a&b&c&.*$")
+
+#parsedTree = createTree(".*&@&.*&;&.*&1$")
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
@@ -224,22 +236,29 @@ drawAutomaton(parsedAutomaton, "parsedAutomaton")
 detAut = parsedAutomaton.determinize()
 
 drawAutomaton(detAut, "detAutomaton")
+if detAut.runWord("adfgd;iopu;qwereoa"):
+    print("accepted")
+else:
+    print("not accepted")
+
+rep = rsa.NRA({'q', 's', 't'}, {'r'}, set(), {'q'}, {'t'})
+rep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 'q'))
+rep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.IN}, 's'))
+rep.addTransition(rsa.Transition('s', rsa.ANYCHAR, set(), set(), {'r':'r'}, 's'))
+rep.addTransition(rsa.Transition('s', rsa.ANYCHAR, {'r'}, set(), {'r':rsa.BOTTOM}, 't'))
+rep.addTransition(rsa.Transition('t', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 't'))
 
 
-noRep = rsa.NRA({'q', 's', 't'}, {'r'}, set(), {'q'}, {'t'})
-noRep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 'q'))
-noRep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.IN}, 's'))
-noRep.addTransition(rsa.Transition('s', rsa.ANYCHAR, set(), set(), {'r':'r'}, 's'))
-noRep.addTransition(rsa.Transition('s', rsa.ANYCHAR, {'r'}, set(), {'r':rsa.BOTTOM}, 't'))
-noRep.addTransition(rsa.Transition('t', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 't'))
+#rep.completeUpdates
+drawAutomaton(rep, "repAutomaton")
 
+detAut2 = rep.determinize()
 
-#noRep.completeUpdates
-drawAutomaton(noRep, "norepAutomaton")
-
-detAut2 = noRep.determinize()
-
-drawAutomaton(detAut2, "dnorepAutomaton")
+drawAutomaton(detAut2, "drepAutomaton")
+if detAut2.runWord("aa"):
+    print("accepted")
+else:
+    print("not accepted")
 
 '''
 dfa = rsa.DRsA({'q1', 'q2', 'q3'}, set(), set(), {'q1'}, {'q2'})
