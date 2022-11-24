@@ -161,6 +161,7 @@ def strIfMacroState(q):
 #draws the automaton as a pdf using graphviz
 def drawAutomaton(aut, name):
     graph = graphviz.Digraph(name) 
+    graph.format = 'svg'
     graph.graph_attr["rankdir"] = "LR"
     graph.node('init_arrow', label = "", shape = 'none')
     q_shape = 'octagon'
@@ -213,16 +214,18 @@ def createGraph(tree, graph, id):
 def drawSyntaxTree(tree, name):
     id = rsa.Counter()
     graph = graphviz.Digraph(name)
+    graph.format = 'svg'
     createGraph(tree, graph, id)
     graph.render()
 
 #@-capture character
 #&-concatenation
 #numbers are backreferences
-parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
+#parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
 #parsedTree = createTree(".*&a&b&c&.*$")
+parsedTree = createTree("@&;&1$")
+#parsedTree = createTree("@&a&b&c&1$")
 
-#parsedTree = createTree(".*&@&.*&;&.*&1$")
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
@@ -230,13 +233,20 @@ parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
+#drawAutomaton(parsedAutomaton, "parsedAutomaton1")
+
+#parsedAutomaton.completeUpdates()
+#drawAutomaton(parsedAutomaton, "parsedAutomaton2")
+
+#parsedAutomaton.makeRegisterLocal()
+
 drawAutomaton(parsedAutomaton, "parsedAutomaton")
 
 
 detAut = parsedAutomaton.determinize()
 
 drawAutomaton(detAut, "detAutomaton")
-if detAut.runWord("adfgd;iopu;qwereoa"):
+if detAut.runWord("a;a"):
     print("accepted")
 else:
     print("not accepted")

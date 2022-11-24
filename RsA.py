@@ -308,7 +308,13 @@ class NRA(RsA):
                 if r not in t.update.keys():
                     t.update[r] = r
 
-    def cRoof(self, x, g, c, check):
+    def fillWithBottom(self):
+        for t in self.delta:
+            for r in self.R:
+                if r not in t.update.keys():
+                    t.update[r] = BOTTOM
+
+    def cRoofOld(self, x, g, c, check):
         if x in self.R.difference(g):
             return c[x]
         if x in g:
@@ -317,11 +323,146 @@ class NRA(RsA):
             return 0
         if x == 'in':
             return 1
+
+    def cRoof(self, x, g, c):
+        if x in self.R.difference(g):
+            return c[x]
+        if x in g:
+            return 0
+        if x == 'in':
+            return 1
     
     def makeRegisterLocal(self):
-        pass
-            
+        RNew = set()
+        for t in self.delta:
+            upNew = {}
+            eqNew = set()
+            diseqNew = set()    
+            for r in t.update.keys():
+                if t.update[r] != BOTTOM:
+                    rNew = str(t.dest)+str(r)
+                    rUpNew = t.update[r]
+                    if (t.update[r] != IN):
+                        rUpNew = str(t.orig)+str(t.update[r])
+                    upNew[rNew] = rUpNew
+                    RNew.add(rNew)
+            for r in t.eqGuard:
+                rNew = str(t.orig)+str(r)
+                eqNew.add(rNew)
+                RNew.add(rNew)
+            for r in t.diseqGuard:
+                rNew = str(t.orig)+str(r)
+                diseqNew.add(rNew)
+                RNew.add(rNew)
+            t.update = upNew
+            t.eqGuard = eqNew
+            t.diseqGuard = diseqNew
+        self.R = RNew
+
+
     def determinize(self):
+        #fill in implicit updates
+        self.completeUpdates()
+        self.makeRegisterLocal()        
+        self.fillWithBottom()
+        newA = DRsA(set(), self.R, set(), set(), set())
+        worklist = [] 
+        #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
+        temp = MacroState()
+        for i in self.I:    
+            temp.states.add(i)
+        for r in self.R:
+            temp.mapping.update({r:0})
+        worklist.append(temp)
+        newA.Q.add(temp)
+        newA.I.add(temp)
+        while worklist != []:
+            sc = worklist.pop(-1)                 
+            A = set()
+            #set A includes all symbols used in transitions
+            #to avoid looping through the (infinite) alphabet
+            for t in self.delta:
+                if t.orig in sc.states:
+                    A.add(t.symbol)
+            regs = set()
+            #R[S] \ {r ∈ R | c(r) = 0}:
+            for q in sc.states:
+                rq = self.activeRegs(q)
+                for r in rq:
+                    if sc.mapping[r] != 0:
+                        regs.add(r)
+            G = set(powerset(regs))
+            for a in A:
+                for g in G:
+                    T = set()
+                    S1 = set()
+                    #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
+                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR
+                        if (t.orig in sc.states) and (t.symbol == a or t.symbol == ANYCHAR) and (t.eqGuard.issubset(g))\
+                        and (t.diseqGuard.isdisjoint(g)):
+                            T.add(t)
+                    #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
+                    for t in T:
+                        S1.add(t.dest)
+                    for t in T:
+                        for r in t.diseqGuard:
+                            if sc.mapping[r] == 2:
+                                return -1 #?
+                    op = {}
+                    for ri in self.R:
+                        tmp = set()    
+                        for t in T:
+                            #"line" 12:
+                            x = set()
+                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in g:
+                                x = {t.update[ri]}
+                            elif t.update[ri] in g:
+                                x = {IN}
+                            tmp = tmp.union(x)
+                        if not tmp.isdisjoint(g):
+                            op[ri] = tmp.difference({IN})
+                        else:
+                            op[ri] = tmp
+                    for q1 in S1:
+                        P = set()
+                        for r in self.activeRegs(q):
+                            #lines 15-17!!!
+                            pass
+                    #up′ ← {r_i → op_ri | r_i ∈ R}:
+                    up1 = {}
+                    for ri in self.R:
+                        up1[ri] = op[ri]
+                    c1 = {}
+                    #line 19:
+                    for ri in self.R:
+                        cnt = 0
+                        for x in up1[ri]:
+                            cnt += self.cRoof(x, g, sc.mapping,)
+                            if cnt > 2:
+                                cnt = 2
+                        c1[ri] = cnt
+                    s1c1 = MacroState()
+                    s1c1.states = S1
+                    s1c1.mapping = c1
+                    found = False
+                    for q1 in newA.Q:
+                        #orig:
+                        if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
+                            found = True
+                            break
+                    if not found:
+                        worklist.append(s1c1)
+                        newA.addQ(s1c1)
+                    newA.addTransition(Transition(sc, a, g, self.R.difference(g), up1, s1c1))
+        #accepting states:
+        for mq in newA.Q:
+            for q in mq.states:
+                if q in self.F:
+                    newA.addF(mq)
+                    break
+        return newA
+
+    def determinizeOld(self):
         #fill in implicit updates
         self.completeUpdates()        
         newA = DRsA(set(), self.R, set(), set(), set())
@@ -398,7 +539,7 @@ class NRA(RsA):
                     for ri in self.R:
                         cnt = 0
                         for x in up1[ri]:
-                            cnt += self.cRoof(x, g, sc.mapping, check)
+                            cnt += self.cRoofOld(x, g, sc.mapping, check)
                             if cnt > 2:
                                 cnt = 2
                         c1[ri] = cnt

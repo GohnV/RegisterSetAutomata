@@ -5,8 +5,8 @@ RUNABLE = testRun.py
 run:
 	python3 $(RUNABLE)
 
-view: parsedTree.gv.pdf parsedAutomaton.gv.pdf
-	wslview parsedTree.gv.pdf && wslview parsedAutomaton.gv.pdf && wslview detAutomaton.gv.pdf
+view:
+	wslview parsedTree.gv.svg && wslview parsedAutomaton.gv.svg && wslview detAutomaton.gv.svg 
 
 clean:
-	rm -f *.gv *.gv.pdf
+	rm -f *.gv *.gv.svg
