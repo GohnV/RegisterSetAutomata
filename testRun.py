@@ -223,9 +223,10 @@ def drawSyntaxTree(tree, name):
 #numbers are backreferences
 #parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
 #parsedTree = createTree(".*&a&b&c&.*$")
-parsedTree = createTree("@&;&1$")
+parsedTree = createTree(".*&@&.*&1&.*$")
 #parsedTree = createTree("@&a&b&c&1$")
-
+#parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&2&1$')
+#parsedTree = createTree(".*&@&@&2&1&.*$")
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
@@ -246,7 +247,7 @@ drawAutomaton(parsedAutomaton, "parsedAutomaton")
 detAut = parsedAutomaton.determinize()
 
 drawAutomaton(detAut, "detAutomaton")
-if detAut.runWord("a;a"):
+if detAut.runWord("bb"):
     print("accepted")
 else:
     print("not accepted")

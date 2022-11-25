@@ -224,25 +224,27 @@ class RsA:
         assert f in self.Q
         self.F.add(f)
 #end of class RsA
-    
+
 
 class DRsA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
     #Update Registers
-    #   Unspecified registers keep their value
+    #   Unspecified registers lose their value!
     def updateRegs(self, regConf, up, input):
+        newConf = {}
         for r in regConf.keys():
-            tmp = regConf[r]
+            tmp = set()
             if r in up.keys():
-                for x in up[r]:
-                    if x == IN:
+                for y in up[r]:
+                    if y == IN:
                         tmp.add(input)
                     else:
-                        tmp.union(regConf[x])
-            regConf.update({r : tmp})
-
+                        tmp = tmp.union(regConf[y])
+            newConf[r] = tmp
+        return newConf
+            
     #tests guards of a transition
     def guardTest(self, input, regConf, eqG, diseqG):
         for g in eqG:
@@ -272,7 +274,7 @@ class DRsA(RsA):
                 #first check for the character directly
                 if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == s and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
                     c = t.dest
-                    self.updateRegs(regConf,t.update, s)
+                    regConf = self.updateRegs(regConf,t.update, s)
                     cnt += 1 
                     break
             if cnt == 0:
@@ -280,7 +282,7 @@ class DRsA(RsA):
                     #try anychar
                     if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == ANYCHAR and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
                         c = t.dest
-                        self.updateRegs(regConf,t.update, s)
+                        regConf = self.updateRegs(regConf,t.update, s)
                         cnt += 1 
                         break
             if cnt == 0:
