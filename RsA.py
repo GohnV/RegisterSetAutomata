@@ -21,6 +21,7 @@ IN = "in"
 CAPTURECHAR = "capturechar"
 BACKREFCHAR = "backrefchar"
 BOTTOM = "NULL"
+SIGMASTAR = "sstar"
 
 #for unique ids for states when creating automata from syntax tree
 class Counter:
@@ -52,6 +53,11 @@ class SyntaxTree:
                 reg = 'r'+self.data.replace(BACKREFCHAR, "")
                 self.automaton = NRA({str(id.count), str(id.count-1)}, {reg}, set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), ANYCHAR, {reg}, set(), {}, str(id.count)))
+
+            elif SIGMASTAR in self.data:
+                id.count += 1
+                self.automaton = NRA({str(id.count)}, set(), set(), {str(id.count)}, {str(id.count)})
+                self.automaton.addTransition(Transition(str(id.count), ANYCHAR, set(), set(), {}, str(id.count)))
 
             elif self.children == []:
                 id.count += 2
@@ -159,6 +165,57 @@ class RsA:
         for t in automaton.delta:
             self.addTransition(t)
 
+    #Joins states which only have eps or self transitions into another state
+    def joinStates(self): 
+        q_del = set()
+        t_del = set()
+        t_add = set()
+        for q in self.Q:
+            found = False
+            in_eps = 0
+            for t in self.delta:
+                if t.dest == q and t.symbol == EPSILON and t.orig != q:
+                    if found:
+                        found = False
+                        break
+                    in_eps = t
+                    found = True
+            if not found:
+                continue
+            #found only on in epsilon transition
+            out_eps = []
+            self_t = []
+            for t in self.delta:
+                if t.orig == q:
+                    if t.symbol == EPSILON:
+                        out_eps.append(t)
+                    elif t.dest == q:
+                        self_t.append(t)
+                    else:
+                        found = False
+                        break
+            if not found:
+                continue
+            #join q into origin state of transition in_eps
+            q_new = in_eps.orig
+            q_del.add(q)
+            self.delta.remove(in_eps)
+            if q in self.F:
+                self.F.remove(q)
+                self.F.add(q_new)
+            for st in self_t:
+                t_del.add(st)
+                t_add.add(Transition(q_new, st.symbol, st.eqGuard, st.diseqGuard, st.update, q_new))
+            for oe in out_eps:
+                t_del.add(oe)
+                t_add.add(Transition(q_new, EPSILON, oe.eqGuard, oe.diseqGuard, oe.update, oe.dest))
+        for q in q_del:
+            self.Q.remove(q)
+        for t in t_del:
+            self.delta.remove(t)
+        for t in t_add:
+            self.delta.add(t)
+  
     #creates epsilon closure for a state in this automaton
     def epsClosure(self, state):
         closure = {state}
@@ -379,7 +436,8 @@ class NRA(RsA):
         newA.Q.add(temp)
         newA.I.add(temp)
         while worklist != []:
-            sc = worklist.pop(-1)                 
+            sc = worklist.pop(-1)
+            #print(sc.states)                 
             A = set()
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet

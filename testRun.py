@@ -69,7 +69,11 @@ def createTree(expr):
         ai = rIndex(pushdown, a)
         
         b = Pair('','')
-        b.createPair(expr[i])
+        if (expr[i] == '.' and i+1 != len(expr) and expr[i+1] == '*'):
+            b.createPair(rsa.SIGMASTAR)
+            i += 1
+        else:
+            b.createPair(expr[i])
         '''
         print('a = ', a.type,',', 'ai = ', ai, end = ' ')
         print('b = ', b.type)
@@ -107,12 +111,14 @@ def createTree(expr):
                         elif pushdown[ind+1].data == '@':
                             captCount += 1
                             tree.data = rsa.CAPTURECHAR + str(captCount)
+                        elif pushdown[ind+1].data == rsa.SIGMASTAR:
+                            tree.data = rsa.SIGMASTAR
                         else:
                             tree.data = pushdown[ind+1].data
 
                     elif string[0] == '(':
                         tree = pushdown[ind+2].data
-                    #Tohle asi predelat, je to humus:
+                    #TODO: Tohle asi predelat, je to humus:
                     elif string[0] == 'E':
                         if string[2] == '*':
                             tree.data = rsa.ITERATION
@@ -221,17 +227,19 @@ def drawSyntaxTree(tree, name):
 #@-capture character
 #&-concatenation
 #numbers are backreferences
-#parsedTree = createTree('@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$')
+parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1&.*$')
 #parsedTree = createTree(".*&a&b&c&.*$")
-parsedTree = createTree(".*&@&.*&1&.*$")
+#parsedTree = createTree(".*&@&.*&1&.*$")
 #parsedTree = createTree("@&a&b&c&1$")
 #parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&2&1$')
 #parsedTree = createTree(".*&@&@&2&1&.*$")
+#parsedTree = createTree(".*&@&.*&1&.*$")    
 
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
 parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
+parsedAutomaton.joinStates()
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
 #drawAutomaton(parsedAutomaton, "parsedAutomaton1")
@@ -246,8 +254,8 @@ drawAutomaton(parsedAutomaton, "parsedAutomaton")
 
 detAut = parsedAutomaton.determinize()
 
-drawAutomaton(detAut, "detAutomaton")
-if detAut.runWord("bb"):
+#drawAutomaton(detAut, "detAutomaton")
+if detAut.runWord("bbbb"):
     print("accepted")
 else:
     print("not accepted")
