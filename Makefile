@@ -9,4 +9,4 @@ view:
 	wslview parsedTree.gv.svg && wslview parsedAutomaton.gv.svg && wslview detAutomaton.gv.svg 
 
 clean:
-	rm -f *.gv *.gv.svg
+	rm -f *.gv *.gv.svg *.gv.pdf

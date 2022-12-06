@@ -207,6 +207,7 @@ def drawAutomaton(aut, name):
     for i in aut.I:
         iname = strIfMacroState(i)
         graph.edge('init_arrow', iname)
+    #print(graph.source) into file!TODO:
     graph.render()
 
 def createGraph(tree, graph, id):
@@ -227,14 +228,28 @@ def drawSyntaxTree(tree, name):
 #@-capture character
 #&-concatenation
 #numbers are backreferences
-parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1&.*$')
+#regex = ".*&@&.*&@&.*&2&.*&1&.*$"
+#regex = ".*&@&@&.*&;&.*&2&1&.*$"
+#regex = ".*&@&.*&;&.*&@&.*&;&.*&1&2$"
+#        ^.*(.).* ; .*(.).* ; .*\1\2$
+
+#regex = ".*&@&.*&1&;&1&1&.*&;&.*&1$"
+#       ^.*(.).*\1 ;\1\1 .* ; .*\1$
+
+#regex = ".*&@&.*&;&1&;&1&.*&;&.*&1$"
+#       ^.*(.).* ;\1 ;\1 .* ; .*\1$
+
+regex = ".*&@&.*&;&.*&1$"
+#       ^.*(.).* ; .*\1$
+
+#regex = "@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$"
+#parsedTree = createTree('')
 #parsedTree = createTree(".*&a&b&c&.*$")
 #parsedTree = createTree(".*&@&.*&1&.*$")
 #parsedTree = createTree("@&a&b&c&1$")
 #parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&2&1$')
-#parsedTree = createTree(".*&@&@&2&1&.*$")
 #parsedTree = createTree(".*&@&.*&1&.*$")    
-
+parsedTree = createTree(regex)
 drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
 parsedTree.createAutomaton(id)
@@ -251,15 +266,31 @@ parsedAutomaton.removeUnreachable()
 
 drawAutomaton(parsedAutomaton, "parsedAutomaton")
 
+print("my_regex: ", regex)
+print("\nNRA\n------")
+print("states: ", len(parsedAutomaton.Q))
+print("transitions: ", len(parsedAutomaton.delta))
+print("registers: ", len(parsedAutomaton.R))
 
 detAut = parsedAutomaton.determinize()
+drawAutomaton(detAut, "detAutomaton")
 
-#drawAutomaton(detAut, "detAutomaton")
-if detAut.runWord("bbbb"):
-    print("accepted")
-else:
-    print("not accepted")
+print("\nDRsA\n------")
+print("states: ", len(detAut.Q))
+print("transitions: ", len(detAut.delta))
+print("registers: ", len(detAut.R))
 
+while True:
+    word = input()
+    print("\n", word, " is ", sep='', end="")
+    if detAut.runWord(word):
+        print("accepted")
+    else:
+        print("not accepted")
+
+"a;;;;a;"
+
+'''
 rep = rsa.NRA({'q', 's', 't'}, {'r'}, set(), {'q'}, {'t'})
 rep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.BOTTOM}, 'q'))
 rep.addTransition(rsa.Transition('q', rsa.ANYCHAR, set(), set(), {'r':rsa.IN}, 's'))
@@ -278,146 +309,4 @@ if detAut2.runWord("aa"):
     print("accepted")
 else:
     print("not accepted")
-
 '''
-dfa = rsa.DRsA({'q1', 'q2', 'q3'}, set(), set(), {'q1'}, {'q2'})
-dfa.delta.add(rsa.Transition('q1','0', set(), set(), {},'q1'))
-dfa.addTransition(rsa.Transition('q1','1', set(), set(), {},'q2'))
-dfa.addTransition(rsa.Transition('q2','0', set(), set(), {},'q3'))
-dfa.addTransition(rsa.Transition('q2','1', set(), set(), {},'q2'))
-dfa.addTransition(rsa.Transition('q3','0', set(), set(), {},'q2'))
-dfa.addTransition(rsa.Transition('q3','1', set(), set(), {},'q2'))
-
-drawAutomaton(dfa, 'dfa')
-word = (('1', 0), ('0', 0), ('0', 0))
-if dfa.runWord(word):
-    print("Accepted")
-else:
-    print("Rejected")
-
-
-drsa = rsa.DRsA({'q'}, {'r'}, set(), {'q'}, {'q'})
-drsa.addTransition(rsa.Transition('q','a', set(), {'r'}, {'r': {'r','in'}},'q'))
-
-word2 = [('a', 'a'), ('a', 'b'), ('a', 'c'), ('a', 'd')]
-
-drawAutomaton(drsa, 'drsa')
-if drsa.runWord(word2):
-    print("Accepted")
-else:
-    print("Rejected")
-
-
-
-
-testTree = rsa.SyntaxTree()
-testTree.data = rsa.CONCATENATION
-treeA = rsa.SyntaxTree()
-treeB = rsa.SyntaxTree()
-treeA.data = 'a'
-treeA.children = []
-treeB.data = 'b'
-treeB.children = []
-testTree.children = [treeA, treeB]
-
-bigTestTree = rsa.SyntaxTree()
-bigTestTree.data = rsa.UNION
-
-capt = rsa.SyntaxTree()
-backref = rsa.SyntaxTree()
-capt.children = []
-backref.children = []
-capt.data = rsa.CAPTURECHAR+"1"
-backref.data = rsa.BACKREFCHAR+"1"
-
-bigL = rsa.SyntaxTree()
-bigL.data = rsa.CONCATENATION
-bigL.children = [capt, backref]
-bigTestTree.children = [bigL, testTree]
-
-biggerTestTree = rsa.SyntaxTree()
-biggerTestTree.data = rsa.ITERATION
-biggerTestTree.children = [bigTestTree]
-
-id = rsa.Counter()
-
-testTree.createAutomaton(id)
-drawAutomaton(testTree.automaton, 'testAutomaton')
-
-#needs to use the same counter as the previous tree, as it includes that one
-bigTestTree.createAutomaton(id)
-drawAutomaton(bigTestTree.automaton, 'bigTestAutomaton')
-
-biggerTestTree.createAutomaton(id)
-biggerTestTree.automaton.removeEps()
-biggerTestTree.automaton.removeUnreachable()
-
-drawAutomaton(biggerTestTree.automaton, 'biggerTestAutomaton')
-
-drawSyntaxTree(biggerTestTree, 'biggerTestTree')
-
-exRegex = rsa.SyntaxTree()
-
-
-exReCon2 = rsa.SyntaxTree()
-exReCon2.data = rsa.CONCATENATION
-exReCon3 = rsa.SyntaxTree()
-
-exReCon3.data = rsa.CONCATENATION
-
-exReCon4 = rsa.SyntaxTree()
-exReCon4.data = rsa.CONCATENATION
-
-
-exReCapt1 = rsa.SyntaxTree()
-exReCapt1.data = rsa.CAPTURECHAR+'2'
-
-exReAnychar2 = rsa.SyntaxTree()
-exReAnychar2.data = rsa.ANYCHAR
-
-exReCon3.children = [exReAnychar2]
-
-
-exReCapt2 = rsa.SyntaxTree()
-exReCapt2.data = rsa.CAPTURECHAR+'2'
-exReCon3.children = [exReCapt2, exReCon4]
-
-exReIte1 = rsa.SyntaxTree()
-exReIte1.data = rsa.ITERATION
-exReAnychar1 = rsa.SyntaxTree()
-exReAnychar1.data = rsa.ANYCHAR
-exReIte1.children = [exReAnychar1]
-exReCon2.children = [exReIte1, exReCon3]
-exRegex.data = rsa.CONCATENATION
-exRegex.children = [exReCapt1, exReCon2]
-
-drawSyntaxTree(exRegex, 'exampleTree')
-
-print(testTree.automaton.Q)
-print(testTree.automaton.R)
-for t in testTree.automaton.delta:
-    print(t.orig,"---",t.symbol,"-->",t.dest)
-print(testTree.automaton.I)
-print(testTree.automaton.F)
-testDRSA = rsa.DRsA(set(), list(), set(), set(), set())
-for q in testTree.automaton.Q:
-    testDRSA.addQ(q)
-for r in testTree.automaton.R:
-    testDRSA.addR(r)
-for t in testTree.automaton.delta:
-    testDRSA.addTransition(t)
-for i in testTree.automaton.I:
-    testDRSA.addI(i)
-for f in testTree.automaton.F:
-    testDRSA.addF(f)
-word3 = [('a', 'a'), ("epsilon", 'b'), ('b', 'c')]
-
-print(str(biggerTestTree.automaton.epsClosure('6')))
-
-if testDRSA.runWord(word3):
-    print("Accepted")
-else:
-    print("Rejected")
-
-'''
-

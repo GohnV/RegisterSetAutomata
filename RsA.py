@@ -524,7 +524,9 @@ class NRA(RsA):
 
     def determinizeOld(self):
         #fill in implicit updates
-        self.completeUpdates()        
+        self.completeUpdates()
+        self.makeRegisterLocal()        
+        self.fillWithBottom()       
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
         #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
