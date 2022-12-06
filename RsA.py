@@ -326,10 +326,13 @@ class DRsA(RsA):
         for i in self.I:
             c = i
         for s in word:
+            print(c.states, end='')
+            print('--', end='')
             cnt = 0
             for t in self.delta:
                 #first check for the character directly
                 if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == s and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                    print(t.symbol,'->', end=' ')
                     c = t.dest
                     regConf = self.updateRegs(regConf,t.update, s)
                     cnt += 1 
@@ -338,6 +341,7 @@ class DRsA(RsA):
                 for t in self.delta:
                     #try anychar
                     if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == ANYCHAR and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                        print(t.symbol,'->', end='')
                         c = t.dest
                         regConf = self.updateRegs(regConf,t.update, s)
                         cnt += 1 
@@ -345,6 +349,7 @@ class DRsA(RsA):
             if cnt == 0:
                 #run dies
                 return False
+            print(c.states)
         for f in self.F:
             if c.states == f.states and c.mapping == f.mapping:
                 return True
@@ -365,7 +370,17 @@ class NRA(RsA):
         for t in self.delta:
             for r in self.R:
                 if r not in t.update.keys():
-                    t.update[r] = r
+                    isIn = False
+                    isOut = False
+                    for t1 in self.delta:
+                        if t1.orig == t.dest:
+                            isOut = True
+                        if t1.dest == t.orig:
+                            isIn = True
+                    if isIn and isOut:
+                        t.update[r] = r
+                    else:
+                        t.update[r] = BOTTOM
 
     def fillWithBottom(self):
         for t in self.delta:

@@ -239,8 +239,17 @@ def drawSyntaxTree(tree, name):
 #regex = ".*&@&.*&;&1&;&1&.*&;&.*&1$"
 #       ^.*(.).* ;\1 ;\1 .* ; .*\1$
 
-regex = ".*&@&.*&;&.*&1$"
-#       ^.*(.).* ; .*\1$
+#regex = ".*&@&.*&;&.*&1$"
+#        ^.*(.).* ; .*\1$
+# nefunguje ani pro 'a;;;a'
+    
+#regex = "@&.*&;&.*&1$"
+#      ^(.).* ; .*\1$
+# vypada bez problemu
+    
+regex = ".*&@&;&.*&1$"
+#        ^.*(.); .*\1$
+# nefunguje pro a;;;a
 
 #regex = "@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$"
 #parsedTree = createTree('')
@@ -257,20 +266,15 @@ parsedAutomaton = parsedTree.automaton
 parsedAutomaton.joinStates()
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
-#drawAutomaton(parsedAutomaton, "parsedAutomaton1")
 
-#parsedAutomaton.completeUpdates()
-#drawAutomaton(parsedAutomaton, "parsedAutomaton2")
-
-#parsedAutomaton.makeRegisterLocal()
-
-drawAutomaton(parsedAutomaton, "parsedAutomaton")
+drawAutomaton(parsedAutomaton, "parsedAutomaton") 
 
 print("my_regex: ", regex)
 print("\nNRA\n------")
 print("states: ", len(parsedAutomaton.Q))
 print("transitions: ", len(parsedAutomaton.delta))
 print("registers: ", len(parsedAutomaton.R))
+
 
 detAut = parsedAutomaton.determinize()
 drawAutomaton(detAut, "detAutomaton")
@@ -288,7 +292,7 @@ while True:
     else:
         print("not accepted")
 
-"a;;;;a;"
+
 
 '''
 rep = rsa.NRA({'q', 's', 't'}, {'r'}, set(), {'q'}, {'t'})
