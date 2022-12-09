@@ -160,7 +160,10 @@ def strIfMacroState(q):
     if isinstance(q, rsa.MacroState):
         smap = list(q.states)
         smap.sort()
-        ret = str(smap)+str(q.mapping.values())
+        ret = str(smap)+'['
+        for r in q.mapping.keys():
+            ret = ret+str(r)+" "+str(q.mapping[r])+' | '
+        ret+=']'
     return ret
 
 
@@ -248,7 +251,7 @@ def drawSyntaxTree(tree, name):
 # vypada bez problemu
     
 regex = ".*&@&;&.*&1$"
-#        ^.*(.); .*\1$
+#       ^.*(.); .*\1$
 # nefunguje pro a;;;a
 
 #regex = "@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$"
