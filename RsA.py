@@ -1,7 +1,14 @@
 #Author: Jan Vašák, 24.9.2022
 
-#TODO better initialization for SyntaxTree
-#TODO syntax tree unique names???
+"""
+P = set(set())
+for opri in op:
+    for c in P:
+	P.remove(c)
+	for r in opri:
+	    tmp = deepcopy(c)
+	    tmp.add(r)
+	    P.add(tmp)"""
 
 import itertools as it
 
