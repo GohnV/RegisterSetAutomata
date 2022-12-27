@@ -1,5 +1,6 @@
 import RsA as rsa
 import graphviz
+import time
 #file to play with whatever I just finished to check basic functionality
 
 class Pair:
@@ -240,19 +241,25 @@ def drawSyntaxTree(tree, name):
 #       ^.*(.).*\1 ;\1\1 .* ; .*\1$
 
 #regex = ".*&@&.*&;&1&;&1&.*&;&.*&1$"
-#       ^.*(.).* ;\1 ;\1 .* ; .*\1$
-
-#regex = ".*&@&.*&;&.*&1$"
-#        ^.*(.).* ; .*\1$
-# nefunguje ani pro 'a;;;a'
+#       ^.*(.).* ;\1 ;\1 .* ; .*\1$      
     
 #regex = "@&.*&;&.*&1$"
 #      ^(.).* ; .*\1$
 # vypada bez problemu
     
-regex = ".*&@&;&.*&1$"
+#regex = ".*&@&;&.*&1$"
 #       ^.*(.); .*\1$
 # nefunguje pro a;;;a
+
+#zaludne:
+regex = ".*&@&.*&1&;&.*&;&.*&1$"
+#       ^.*(.).*\1 ; .* ; .*\1$
+
+regex = ".*&@&.*&1&;&1&1&.*&;&.*&1$"     
+#       ^.*(.).*\1 ;\1\1 .* ; .*\1$
+
+regex = ".*&@&.*&1&.*&;&.*&;&.*&1$"
+#       ^.*(.).*\1 .* ; .* ; .*\1$
 
 #regex = "@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$"
 #parsedTree = createTree('')
@@ -280,7 +287,7 @@ print("registers: ", len(parsedAutomaton.R))
 
 
 detAut = parsedAutomaton.determinize()
-drawAutomaton(detAut, "detAutomaton")
+#drawAutomaton(detAut, "detAutomaton")
 
 print("\nDRsA\n------")
 print("states: ", len(detAut.Q))
@@ -290,10 +297,15 @@ print("registers: ", len(detAut.R))
 while True:
     word = input()
     print("\n", word, " is ", sep='', end="")
-    if detAut.runWord(word):
+    t0 = time.time()
+    res = detAut.runWord(word)
+    
+    if res:
         print("accepted")
     else:
         print("not accepted")
+    t1 = time.time()
+    print("time:", t1-t0)
 
 
 

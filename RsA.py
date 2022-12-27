@@ -440,7 +440,6 @@ class NRA(RsA):
             t.diseqGuard = diseqNew
         self.R = RNew
 
-
     def determinize(self):
         #fill in implicit updates
         self.completeUpdates()
@@ -496,9 +495,9 @@ class NRA(RsA):
                         for t in T:
                             #"line" 12:
                             x = set()
-                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in g:
+                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in t.eqGuard:
                                 x = {t.update[ri]}
-                            elif t.update[ri] in g:
+                            elif t.update[ri] in t.eqGuard:
                                 x = {IN}
                             tmp = tmp.union(x)
                         if not tmp.isdisjoint(g):
@@ -519,7 +518,12 @@ class NRA(RsA):
                     for ri in self.R:
                         cnt = 0
                         for x in up1[ri]:
-                            cnt += self.cRoof(x, g, sc.mapping,)
+                            c_aux = 0
+                            if x == 'in':
+                                c_aux = 1
+                            else:
+                                c_aux = sc.mapping[x]
+                            cnt += c_aux
                             if cnt > 2:
                                 cnt = 2
                         c1[ri] = cnt
