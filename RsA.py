@@ -1,15 +1,5 @@
 #Author: Jan Vašák, 24.9.2022
 
-"""
-P = set(set())
-for opri in op:
-    for c in P:
-	P.remove(c)
-	for r in opri:
-	    tmp = deepcopy(c)
-	    tmp.add(r)
-	    P.add(tmp)"""
-
 import itertools as it
 
 #from itertools recipes
@@ -504,6 +494,18 @@ class NRA(RsA):
                             op[ri] = tmp.difference({IN})
                         else:
                             op[ri] = tmp
+
+                    """
+                    P = set(set())
+                    for opri in op:
+                        Pnew = set(set())
+                        for c in P:
+                            for r in opri:
+                                tmp = deepcopy(c)
+                                tmp.add(r)
+                                Pnew.add(tmp)
+                        P = Pnew
+                    """                    
                     for q1 in S1:
                         P = set()
                         for r in self.activeRegs(q):
