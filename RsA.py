@@ -1,6 +1,7 @@
 #Author: Jan Vašák, 24.9.2022
 
 import itertools as it
+import copy
 
 #from itertools recipes
 def powerset(iterable):
@@ -496,23 +497,44 @@ class NRA(RsA):
                             op[ri] = tmp.difference({IN})
                         else:
                             op[ri] = tmp
-
                     """
-                    P = set(set())
-                    for opri in op:
-                        Pnew = set(set())
-                        for c in P:
-                            for r in opri:
-                                tmp = deepcopy(c)
-                                tmp.add(r)
-                                Pnew.add(tmp)
-                        P = Pnew
-                    """                    
+                    #lines 16-19
                     for q1 in S1:
-                        P = set()
-                        for r in self.activeRegs(q):
-                            #lines 15-17!!!
-                            pass
+                        P = [[]]
+                        Rq1 = set()
+                        for r in self.activeRegs(q1):
+                            Rq1.add(r)
+
+                        #cartesian product
+                        for ri in Rq1:
+                            Pnew = []
+                            for elem in P:
+                                for rup in op[ri]:
+                                    tmp = copy.deepcopy(elem)
+                                    tmp.append([ri, rup])
+                                    Pnew.append(tmp)
+                            P = Pnew
+                        print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
+                        for elem in P:
+                            found_conf = False
+                            print(elem)
+                            for t in self.delta:
+                                if t.dest == q1:
+                                    print(t.orig,"->", t.dest,"| up =", t.update)
+                                    con = True
+                                    for xi in elem:
+                                        if t.update[xi[0]] != xi[1]:
+                                            print(xi[0], xi[1], t.update[xi[0]])
+                                            con = False
+                                            break
+                                    if con:
+                                        print("Found:",t.orig,"->", t.dest,"| up =", t.update)
+                                        found_conf = True
+                                        break
+                            if not found_conf:
+                                return -1   
+                    """            
+
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
                     up1 = {}
                     for ri in self.R:

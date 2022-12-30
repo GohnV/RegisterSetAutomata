@@ -65,6 +65,10 @@ print("registers: ", len(parsedAutomaton.R))
 detAut = parsedAutomaton.determinize()
 #drawAutomaton(detAut, "detAutomaton")
 
+if detAut == -1:
+    print("Unable to determinize")
+    exit()
+
 print("\nDRsA\n------")
 print("states: ", len(detAut.Q))
 print("transitions: ", len(detAut.delta))
