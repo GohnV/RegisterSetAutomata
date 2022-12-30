@@ -315,10 +315,12 @@ class DRsA(RsA):
 
     #Runs a word on this drsa
     def runWord(self, word):
+        #default reg config
         regConf = {}
         for r in self.R:
             regConf.update({r : set()})
         c = ''
+        #only 1 initial state
         assert len(self.I) == 1
         for i in self.I:
             c = i
