@@ -12,7 +12,6 @@ regex = ".*&@&.*&1&.*&;&.*&;&.*&1$"
 #       ^.*(.).*\1 .* ; .* ; .*\1$
 
 parsedTree = ru.createTree(regex)
-ru.drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
 parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
