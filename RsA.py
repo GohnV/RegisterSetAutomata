@@ -436,7 +436,7 @@ class NRA(RsA):
     def determinize(self):
         #fill in implicit updates
         self.completeUpdates()
-        self.makeRegisterLocal()        
+        self.makeRegisterLocal()
         self.fillWithBottom()
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
@@ -497,8 +497,8 @@ class NRA(RsA):
                             op[ri] = tmp.difference({IN})
                         else:
                             op[ri] = tmp
-                    """
-                    #lines 16-19
+                    #'''
+                    #lines 16-19 FIXME:prints, collapsing
                     for q1 in S1:
                         P = [[]]
                         Rq1 = set()
@@ -514,26 +514,30 @@ class NRA(RsA):
                                     tmp.append([ri, rup])
                                     Pnew.append(tmp)
                             P = Pnew
-                        print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
+                        #print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
                         for elem in P:
                             found_conf = False
-                            print(elem)
+                            #print(elem)
                             for t in self.delta:
                                 if t.dest == q1:
-                                    print(t.orig,"->", t.dest,"| up =", t.update)
+                                    #print(t.orig,"->", t.dest,"| up =", t.update)
                                     con = True
                                     for xi in elem:
-                                        if t.update[xi[0]] != xi[1]:
-                                            print(xi[0], xi[1], t.update[xi[0]])
+                                        #collapse to in:
+                                        if t.update[xi[0]] in t.eqGuard: yi = IN
+                                        else: yi = t.update[xi[0]]
+                                        #check eq.
+                                        if yi != xi[1]:
+                                            #print(xi[0], xi[1], t.update[xi[0]])
                                             con = False
                                             break
                                     if con:
-                                        print("Found:",t.orig,"->", t.dest,"| up =", t.update)
+                                        #print("Found:",t.orig,"->", t.dest,"| up =", t.update)
                                         found_conf = True
                                         break
                             if not found_conf:
                                 return -1   
-                    """            
+                    #'''         
 
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
                     up1 = {}
