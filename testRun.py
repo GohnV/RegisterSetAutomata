@@ -1,5 +1,6 @@
 import RsA as rsa
 import rsa_utils as ru
+import rsa_draw as rd
 import time
 #file to play with whatever I just finished to check basic functionality
 
@@ -45,7 +46,7 @@ regex = ".*&@&.*&1&.*&;&.*&;&.*&1$"
 #parsedTree = createTree('.*&@&.*&;&.*&@&.*&;&2&1$')
 #parsedTree = createTree(".*&@&.*&1&.*$")    
 parsedTree = ru.createTree(regex)
-ru.drawSyntaxTree(parsedTree, "parsedTree")
+rd.drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
 parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
@@ -53,7 +54,7 @@ parsedAutomaton.joinStates()
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
 
-ru.drawAutomaton(parsedAutomaton, "parsedAutomaton") 
+rd.drawAutomaton(parsedAutomaton, "parsedAutomaton") 
 
 print("my_regex: ", regex)
 print("\nNRA\n------")
