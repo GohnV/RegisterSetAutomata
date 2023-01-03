@@ -1,6 +1,6 @@
 #!/bin/bash
 OUT='graph.svg'
-MY='my.txt'
+MY='rsa.txt'
 GREP='grep.txt'
 
 #python3 ./bench_my.py >$MY
