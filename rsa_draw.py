@@ -33,7 +33,7 @@ def drawAutomaton(aut, name):
         diseqText = ''
         for g in t.diseqGuard:
             diseqText +='\n' + diseq_op + str(g)
-        sym = t.symbol
+        sym = str(t.symbol)
         if t.symbol == rsa.EPSILON:
             sym = 'ε'
         elif t.symbol == rsa.ANYCHAR:
@@ -59,11 +59,12 @@ def strIfMacroState(q):
     return ret
 
 def createGraph(tree, graph, id):
-    graph.node(tree.data+str(id.count))
+    datastr = str(tree.data)
+    graph.node(datastr+str(id.count))
     currCount = id.count
     for i in range(len(tree.children)):
         id.count += 1 
-        graph.edge(tree.data+str(currCount), tree.children[i].data+str(id.count))   
+        graph.edge(datastr+str(currCount), str(tree.children[i].data)+str(id.count))   
         createGraph(tree.children[i], graph, id)
 
 def drawSyntaxTree(tree, name):

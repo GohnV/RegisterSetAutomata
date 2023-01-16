@@ -52,13 +52,15 @@ class SyntaxTree:
                 self.automaton = NRA({str(id.count), str(id.count-1)}, {reg}, set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), ANYCHAR, {reg}, set(), {}, str(id.count)))
 
-            elif SIGMASTAR in self.data:
+            elif SIGMASTAR == self.data:
                 id.count += 1
                 self.automaton = NRA({str(id.count)}, set(), set(), {str(id.count)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count), ANYCHAR, set(), set(), {}, str(id.count)))
 
             elif self.children == []:
                 id.count += 2
+                if not isinstance(self.data, set):
+                    self.data = {self.data}
                 self.automaton = NRA({str(id.count), str(id.count-1)}, set(), set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), {}, str(id.count)))
             
@@ -451,7 +453,7 @@ class NRA(RsA):
         newA.I.add(temp)
         while worklist != []:
             sc = worklist.pop(-1)
-            #print(sc.states)                 
+            #print(sc.states)
             A = set()
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet
@@ -536,14 +538,14 @@ class NRA(RsA):
                                         found_conf = True
                                         break
                             if not found_conf:
-                                return -1   
-                    #'''         
+                                return -1
+                    #'''
 
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
-                    up1 = {}            
+                    up1 = {}
+                    c1 = {}
                     for ri in self.R:
                         up1[ri] = op[ri]
-                        c1 = {}
                     #line 15, c' = SUM(x in op_ri, c(x)):
                     for ri in self.R:
                         cnt = 0

@@ -120,7 +120,9 @@ def createTree(expr):
 
                     if len(string) == 1:
                         tree.children = []
-                        if pushdown[ind+1].data.isnumeric():
+                        if isinstance(pushdown[ind+1].data, set):
+                            tree.data = pushdown[ind+1].data
+                        elif pushdown[ind+1].data.isnumeric():
                             tree.data = rsa.BACKREFCHAR + pushdown[ind+1].data
                         elif pushdown[ind+1].data == '.':
                             tree.data = rsa.ANYCHAR
