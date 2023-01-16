@@ -540,10 +540,10 @@ class NRA(RsA):
                     #'''         
 
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
-                    up1 = {}            
+                    up1 = {} 
+                    c1 = {}          
                     for ri in self.R:
                         up1[ri] = op[ri]
-                        c1 = {}
                     #line 15, c' = SUM(x in op_ri, c(x)):
                     for ri in self.R:
                         cnt = 0
