@@ -14,12 +14,12 @@ class Pair:
         self.type = type
         self.data = data
     def createPair(self, symbol):
-        if symbol in '&|*()$':
-            self.type = symbol
-            self. data = ''
-        else:
+        if isinstance(symbol, set) or symbol not in '&|*()$':
             self.type = 'i'
             self.data = symbol
+        else:
+            self.type = symbol
+            self. data = ''
 
 class Pushdown:
     data = []
@@ -54,6 +54,15 @@ def strAfterInd(list, index):
             str = str + ' ' + list[i].type
     return str
 
+def parseSetEdge(expr, i):
+    s = set()
+    i += 1
+    while expr[i] != ']':
+        s.add(expr[i])
+        i += 1
+    print(s)
+    return (s, i)
+
 def createTree(expr):
     rules = ['E & E','E | E', 'E *', '( E )', 'i']
     dict = {'&':0, '|':1, '*':2, '(':3, ')':4, 'i':5, '$': 6}
@@ -75,6 +84,10 @@ def createTree(expr):
         if (expr[i] == '.' and i+1 != len(expr) and expr[i+1] == '*'):
             b.createPair(rsa.SIGMASTAR)
             i += 1
+        elif expr[i] == '[':
+            ret = parseSetEdge(expr, i)
+            i = ret[1]
+            b.createPair(ret[0])
         else:
             b.createPair(expr[i])
         '''
