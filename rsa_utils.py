@@ -1,5 +1,12 @@
 import RsA as rsa
 
+#TODO: parsing and tree creation with sets on edges:
+#      add set edges to normal parsing: [asdf] -> transition if a in {a, s, d, f} or [^asdf] -> transition if a not in {a, s, d, f}... 
+#      parsing capturechar format: @. or @[asdf] or @[^a] etc
+#      tree: capturechar should have a child containing the set of characters to be captured
+#      determinization: create minterms as characters in set A
+#   The last three should probably be done at the same time. First one can be done in advance
+
 class Pair:
     type = ''
     data = ''
@@ -78,7 +85,7 @@ def createTree(expr):
             print(p.type, end='')
         print()
         '''    
-        #catch KeyError!!!!
+        #TODO: catch KeyError!!!!
         tblSymbol = table[dict[a.type]][dict[b.type]]
         #print("symbol:",tblSymbol)
         if tblSymbol == '=':
