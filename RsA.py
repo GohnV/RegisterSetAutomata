@@ -60,7 +60,7 @@ class SyntaxTree:
             elif self.children == []:
                 id.count += 2
                 if not isinstance(self.data, tuple):
-                    self.data = (' ',{self.data})
+                    self.data = (' ',frozenset({self.data}))
                 self.automaton = NRA({str(id.count), str(id.count-1)}, set(), set(), {str(id.count-1)}, {str(id.count)})
                 self.automaton.addTransition(Transition(str(id.count-1), self.data, set(), set(), {}, str(id.count)))
             
