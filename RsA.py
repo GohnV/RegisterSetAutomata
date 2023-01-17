@@ -332,22 +332,17 @@ class DRsA(RsA):
             #print('--', end='')
             cnt = 0
             for t in self.delta:
-                #first check for the character directly
-                if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == s and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                if t.symbol[0] == '^':
+                    symTest = s not in t.symbol[1]
+                else:
+                    symTest = s in t.symbol[1]
+
+                if t.orig.states == c.states and t.orig.mapping == c.mapping and symTest and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
                     #print(t.symbol,'->', end=' ')
                     c = t.dest
                     regConf = self.updateRegs(regConf,t.update, s)
                     cnt += 1 
                     break
-            if cnt == 0:
-                for t in self.delta:
-                    #try anychar
-                    if t.orig.states == c.states and t.orig.mapping == c.mapping and t.symbol == ANYCHAR and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
-                        #print(t.symbol,'->', end='')
-                        c = t.dest
-                        regConf = self.updateRegs(regConf,t.update, s)
-                        cnt += 1 
-                        break
             if cnt == 0:
                 #run dies
                 return False
