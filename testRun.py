@@ -66,7 +66,7 @@ print("registers: ", len(parsedAutomaton.R))
 
 
 detAut = parsedAutomaton.determinize()
-#drawAutomaton(detAut, "detAutomaton")
+rd.drawAutomaton(detAut, "detAutomaton")
 
 if detAut == -1:
     print("Unable to determinize")

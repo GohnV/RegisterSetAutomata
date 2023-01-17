@@ -14,7 +14,7 @@ class Pair:
         self.type = type
         self.data = data
     def createPair(self, symbol):
-        if isinstance(symbol, set) or symbol not in '&|*()$':
+        if isinstance(symbol, tuple) or symbol not in '&|*()$':
             self.type = 'i'
             self.data = symbol
         else:
@@ -57,11 +57,16 @@ def strAfterInd(list, index):
 def parseSetEdge(expr, i):
     s = set()
     i += 1
+    if expr[i] == '^':
+        c = '^'
+        i += 1
+    else:
+       c = ' '   
     while expr[i] != ']':
         s.add(expr[i])
         i += 1
-    print(s)
-    return (s, i)
+    t = (c, frozenset(s))
+    return (t, i)
 
 def createTree(expr):
     rules = ['E & E','E | E', 'E *', '( E )', 'i']
@@ -120,7 +125,7 @@ def createTree(expr):
 
                     if len(string) == 1:
                         tree.children = []
-                        if isinstance(pushdown[ind+1].data, set):
+                        if isinstance(pushdown[ind+1].data, tuple):
                             tree.data = pushdown[ind+1].data
                         elif pushdown[ind+1].data.isnumeric():
                             tree.data = rsa.BACKREFCHAR + pushdown[ind+1].data
