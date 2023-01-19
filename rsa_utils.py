@@ -14,7 +14,7 @@ class Pair:
         self.type = type
         self.data = data
     def createPair(self, symbol):
-        if isinstance(symbol, tuple) or symbol not in '&|*()$':
+        if isinstance(symbol, tuple) or isinstance(symbol, list) or symbol not in '&|*()$':
             self.type = 'i'
             self.data = symbol
         else:
@@ -93,6 +93,16 @@ def createTree(expr):
             ret = parseSetEdge(expr, i)
             i = ret[1]
             b.createPair(ret[0])
+        elif expr[i] == '@':
+            i += 1
+            if expr[i] == '[':
+                ret = parseSetEdge(expr, i)
+                i = ret[1]
+                b.createPair(['@', ret[0]])
+            elif expr[i] == '.':
+                b.createPair(['@', rsa.ANYCHAR])
+            else:
+                b.createPair(['@', (' ', frozenset({expr[i]}))])
         else:
             b.createPair(expr[i])
         '''
@@ -121,19 +131,23 @@ def createTree(expr):
                     # Vyrobeni konkretniho malyho stromu
                     #potom priradit strom do dat paru
 
-                    tree= rsa.SyntaxTree()
+                    tree = rsa.SyntaxTree()
 
                     if len(string) == 1:
                         tree.children = []
                         if isinstance(pushdown[ind+1].data, tuple):
                             tree.data = pushdown[ind+1].data
+                        elif isinstance(pushdown[ind+1].data, list):
+                            captCount += 1
+                            tree.data = rsa.CAPTURECHAR + str(captCount)
+                            child = rsa.SyntaxTree()
+                            child.children = []
+                            child.data = pushdown[ind+1].data[1]
+                            tree.children = [child]
                         elif pushdown[ind+1].data.isnumeric():
                             tree.data = rsa.BACKREFCHAR + pushdown[ind+1].data
                         elif pushdown[ind+1].data == '.':
                             tree.data = rsa.ANYCHAR
-                        elif pushdown[ind+1].data == '@':
-                            captCount += 1
-                            tree.data = rsa.CAPTURECHAR + str(captCount)
                         elif pushdown[ind+1].data == rsa.SIGMASTAR:
                             tree.data = rsa.SIGMASTAR
                         else:

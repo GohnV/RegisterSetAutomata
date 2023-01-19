@@ -3,14 +3,8 @@
 import itertools as it
 import copy
 
-#from itertools recipes
-def powerset(iterable):
-    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
-    s = list(iterable)
-    return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
-
-
-ANYCHAR = "any"
+MYEMPTY = (' ', frozenset())
+ANYCHAR = ('^', frozenset())
 EPSILON = "epsilon"
 CONCATENATION = "con"
 UNION = "union"
@@ -20,6 +14,73 @@ CAPTURECHAR = "capturechar"
 BACKREFCHAR = "backrefchar"
 BOTTOM = "NULL"
 SIGMASTAR = "sstar"
+
+#from itertools recipes
+def powerset(iterable):
+    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+    s = list(iterable)
+    return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
+
+def myIntersection(t1, t2):
+    if t1[0] == '^' and t2[0] == '^':
+        return ('^', t1[1].union(t2[1]))
+    elif t1[0] == '^':
+        return (' ', t2[1].difference(t1[1]))
+    elif t2[0] == '^':
+        return (' ', t1[1].difference(t2[1]))
+    else:
+        return (' ', t1[1].intersection(t2[1]))
+
+def myDifference(t1, t2):
+    if t1[0] == '^' and t2[0] == '^':
+        return (' ', t1[1].difference(t1[1].union(t2[1])))
+    elif t1[0] == '^':
+        return ('^', t1[1].union(t2[1]))
+    elif t2[0] == '^':
+        return (' ', t2[1].intersection(t1[1]))
+    else:
+        return (' ', t1[1].difference(t2[1]))
+
+def myIsSubset(t1, t2):
+    if t1[0] == '^' and t2[0] == '^':
+        return t2[1].issubset(t1[1])
+    elif t1[0] == '^':
+        return False
+    elif t2[0] == '^':
+        return t2[1].isdisjoint(t1[1])
+    else:
+        return t1[1].issubset(t2[1])
+
+def intersectSets(sets):
+    n = len(sets)
+    if n >= 1:
+        tmp = sets[0]
+        for i in range(1, n):
+            tmp = myIntersection(tmp, sets[i])
+        return tmp
+    else:
+        return MYEMPTY
+
+
+def createMinterms(sets):
+    #print('CREATING MINTERMS FROMS',sets)
+    n = len(sets)
+    minterms = set()
+    if n == 1:
+        minterms = {sets[0]}
+    for m in range(n,0, -1):
+        #print('n = ', n, 'm = ', m)
+        combs = it.combinations(sets, m)
+        for c in combs:
+            #print(c)
+            res = intersectSets(c)
+            #print(res)
+            if res != MYEMPTY: #only non-empty sets
+                minterms.add(res)
+                for i in range(n):
+                    sets[i] = myDifference(sets[i], res)
+    #print(minterms)
+    return minterms
 
 #for unique ids for states when creating automata from syntax tree
 class Counter:
@@ -44,7 +105,7 @@ class SyntaxTree:
                 id.count += 2
                 reg = 'r'+self.data.replace(CAPTURECHAR, "")
                 self.automaton = NRA({str(id.count), str(id.count-1)}, {reg}, set(), {str(id.count-1)}, {str(id.count)})
-                self.automaton.addTransition(Transition(str(id.count-1), ANYCHAR, set(), set(), {reg:'in'}, str(id.count)))
+                self.automaton.addTransition(Transition(str(id.count-1), self.children[0].data, set(), set(), {reg:'in'}, str(id.count)))
 
             elif BACKREFCHAR in self.data:
                 id.count += 2
@@ -93,17 +154,26 @@ class SyntaxTree:
                     self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
 
             elif self.data == ITERATION:
-                id.count += 1
-                self.automaton = NRA(set(), set(), set(), set(), set())
-                self.automaton.importAutomaton(self.children[0].automaton)
-                for f in self.children[0].automaton.F:
-                    self.automaton.addF(f)
-                    for i in self.children[0].automaton.I:
-                        self.automaton.addTransition(Transition(f, EPSILON, set(), set(), {}, i))
-                self.automaton.addQ(str(id.count))
-                self.automaton.addI(str(id.count))
-                self.automaton.addF(str(id.count))
-                self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
+                if len(self.children[0].automaton.delta) == 1:
+                    symbol = (list(self.children[0].automaton.delta))[0].symbol
+                    eqGuard = (list(self.children[0].automaton.delta))[0].eqGuard
+                    diseqGuard = (list(self.children[0].automaton.delta))[0].diseqGuard
+                    update = (list(self.children[0].automaton.delta))[0].update
+                    id.count += 1
+                    self.automaton = NRA({str(id.count)}, set(), set(), {str(id.count)}, {str(id.count)})
+                    self.automaton.addTransition(Transition(str(id.count), symbol, eqGuard, diseqGuard, update, str(id.count)))
+                else:
+                    id.count += 1
+                    self.automaton = NRA(set(), set(), set(), set(), set())
+                    self.automaton.importAutomaton(self.children[0].automaton)
+                    for f in self.children[0].automaton.F:
+                        self.automaton.addF(f)
+                        for i in self.children[0].automaton.I:
+                            self.automaton.addTransition(Transition(f, EPSILON, set(), set(), {}, i))
+                    self.automaton.addQ(str(id.count))
+                    self.automaton.addI(str(id.count))
+                    self.automaton.addF(str(id.count))
+                    self.automaton.addTransition(Transition(str(id.count), EPSILON, set(), set(), {}, i))
 
 #end of class SyntaxTree
 
@@ -363,8 +433,11 @@ class NRA(RsA):
     def runWord(self, word):
         print("This would do a nondeterministic run of word", word, "on this NRA")
 
+#FIXME:?
     def completeUpdates(self):
+        deltaNew = set()
         for t in self.delta:
+            tNew = Transition(t.orig, t.symbol, t.eqGuard, t.diseqGuard, {}, t.dest)
             for r in self.R:
                 if r not in t.update.keys():
                     isIn = False
@@ -375,9 +448,13 @@ class NRA(RsA):
                         if t1.dest == t.orig:
                             isIn = True
                     if isIn and isOut:
-                        t.update[r] = r
+                        tNew.update[r] = r
                     else:
-                        t.update[r] = BOTTOM
+                        tNew.update[r] = BOTTOM
+                else:
+                    tNew.update[r] = t.update[r]
+            deltaNew.add(tNew)
+        self.delta = deltaNew
 
     def fillWithBottom(self):
         for t in self.delta:
@@ -402,13 +479,13 @@ class NRA(RsA):
             return 0
         if x == 'in':
             return 1
-    
+
     def makeRegisterLocal(self):
         RNew = set()
         for t in self.delta:
             upNew = {}
             eqNew = set()
-            diseqNew = set()    
+            diseqNew = set()
             for r in t.update.keys():
                 if t.update[r] != BOTTOM:
                     rNew = str(t.dest)+str(r)
@@ -417,6 +494,7 @@ class NRA(RsA):
                         rUpNew = str(t.orig)+str(t.update[r])
                     upNew[rNew] = rUpNew
                     RNew.add(rNew)
+                    RNew.add(rUpNew)
             for r in t.eqGuard:
                 rNew = str(t.orig)+str(r)
                 eqNew.add(rNew)
@@ -449,12 +527,14 @@ class NRA(RsA):
         while worklist != []:
             sc = worklist.pop(-1)
             #print(sc.states)
-            A = set()
+            #FIXME: create minterms of all transitions used in a given set of states into A
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet
+            sets = set()
             for t in self.delta:
                 if t.orig in sc.states:
-                    A.add(t.symbol)
+                    sets.add(t.symbol)
+            A = createMinterms(list(sets))
             regs = set()
             #R[S] \ {r ∈ R | c(r) = 0}:
             for q in sc.states:
@@ -468,8 +548,10 @@ class NRA(RsA):
                     T = set()
                     S1 = set()
                     #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
-                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR
-                        if (t.orig in sc.states) and (t.symbol == a or t.symbol == ANYCHAR) and (t.eqGuard.issubset(g))\
+                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR FIXME: remove anychar after minterms are done
+                                                #????a in t.symbol[1]???? (in used as a subset operator)
+                        #print(a, t.symbol, myIsSubset(a, t.symbol))
+                        if (t.orig in sc.states) and myIsSubset(a, t.symbol) and (t.eqGuard.issubset(g))\
                         and (t.diseqGuard.isdisjoint(g)):
                             T.add(t)
                     #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
@@ -497,7 +579,7 @@ class NRA(RsA):
                             op[ri] = tmp.difference({IN})
                         else:
                             op[ri] = tmp
-                    #'''
+                    '''
                     #lines 16-19 FIXME:prints
                     for q1 in S1:
                         P = [[]]
@@ -547,152 +629,6 @@ class NRA(RsA):
                         for x in up1[ri]:
                             c_aux = 0
                             if x == IN:
-                                c_aux = 1
-                            else:
-                                c_aux = sc.mapping[x]
-                            cnt += c_aux
-                            if cnt > 2:
-                                cnt = 2
-                        c1[ri] = cnt
-                    s1c1 = MacroState()
-                    s1c1.states = S1
-                    s1c1.mapping = c1
-                    found = False
-                    for q1 in newA.Q:
-                        #orig:
-                        if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
-                            found = True
-                            break
-                    if not found:
-                        worklist.append(s1c1)
-                        newA.addQ(s1c1)
-                    newA.addTransition(Transition(sc, a, g, self.R.difference(g), up1, s1c1))
-        #accepting states:
-        for mq in newA.Q:
-            for q in mq.states:
-                if q in self.F:
-                    newA.addF(mq)
-                    break
-        return newA
-
-
-    def determinize2(self):
-        #fill in implicit updates
-        self.completeUpdates()
-        self.makeRegisterLocal()
-        self.fillWithBottom()
-        newA = DRsA(set(), self.R, set(), set(), set())
-        worklist = [] 
-        #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
-        temp = MacroState()
-        for i in self.I:    
-            temp.states.add(i)
-        for r in self.R:
-            temp.mapping.update({r:0})
-        worklist.append(temp)
-        newA.Q.add(temp)
-        newA.I.add(temp)
-        while worklist != []:
-            sc = worklist.pop(-1)
-            #print(sc.states)                 
-            A = set()
-            #set A includes all symbols used in transitions
-            #to avoid looping through the (infinite) alphabet
-            for t in self.delta:
-                if t.orig in sc.states:
-                    A.add(t.symbol)
-            regs = set()
-            #R[S] \ {r ∈ R | c(r) = 0}:
-            for q in sc.states:
-                rq = self.activeRegs(q)
-                for r in rq:
-                    if sc.mapping[r] != 0:
-                        regs.add(r)
-            G = set(powerset(regs))
-            for a in A:
-                for g in G:
-                    T = set()
-                    S1 = set()
-                    #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
-                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR
-                        if (t.orig in sc.states) and (t.symbol == a or t.symbol == ANYCHAR) and (t.eqGuard.issubset(g))\
-                        and (t.diseqGuard.isdisjoint(g)):
-                            T.add(t)
-                    #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
-                    for t in T:
-                        S1.add(t.dest)
-                    for t in T:
-                        for r in t.diseqGuard:
-                            if sc.mapping[r] == 2:
-                                return -1 #?
-                    op = {}
-                    for ri in self.R:
-                        tmp = set()    
-                        for t in T:
-                            #"line" 12:
-                            x = set()
-                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in t.eqGuard:
-                                x = {t.update[ri]}
-                            elif t.update[ri] in t.eqGuard:
-                                x = {IN}
-                            tmp = tmp.union(x)
-                        if not tmp.isdisjoint(g):
-                            op[ri] = tmp.difference({IN})
-                        else:
-                            op[ri] = tmp
-                    #'''
-                    #lines 16-19 FIXME:prints, collapsing
-                    for q1 in S1:
-                        P = [[]]
-                        Rq1 = set()
-                        for r in self.activeRegs(q1):
-                            Rq1.add(r)
-
-                        #cartesian product
-                        for ri in Rq1:
-                            Pnew = []
-                            for elem in P:
-                                for rup in op[ri]:
-                                    tmp = copy.deepcopy(elem)
-                                    tmp.append([ri, rup])
-                                    Pnew.append(tmp)
-                            P = Pnew
-                        #print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
-                        for elem in P:
-                            found_conf = False
-                            #print(elem)
-                            for t in self.delta:
-                                if t.dest == q1:
-                                    #print(t.orig,"->", t.dest,"| up =", t.update)
-                                    con = True
-                                    for xi in elem:
-                                        #collapse to in:
-                                        if t.update[xi[0]] in t.eqGuard: yi = IN
-                                        else: yi = t.update[xi[0]]
-                                        #check eq.
-                                        if yi != xi[1]:
-                                            #print(xi[0], xi[1], t.update[xi[0]])
-                                            con = False
-                                            break
-                                    if con:
-                                        #print("Found:",t.orig,"->", t.dest,"| up =", t.update)
-                                        found_conf = True
-                                        break
-                            if not found_conf:
-                                return -1   
-                    #'''         
-
-                    #up′ ← {r_i → op_ri | r_i ∈ R}:
-                    up1 = {}
-                    for ri in self.R:
-                        up1[ri] = op[ri]
-                    c1 = {}
-                    #line 19:
-                    for ri in self.R:
-                        cnt = 0
-                        for x in up1[ri]:
-                            c_aux = 0
-                            if x == 'in':
                                 c_aux = 1
                             else:
                                 c_aux = sc.mapping[x]

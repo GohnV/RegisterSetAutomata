@@ -19,14 +19,6 @@ import time
 
 #regex = ".*&@&.*&;&1&;&1&.*&;&.*&1$"
 #       ^.*(.).* ;\1 ;\1 .* ; .*\1$      
-    
-#regex = "@&.*&;&.*&1$"
-#      ^(.).* ; .*\1$
-# vypada bez problemu
-    
-#regex = ".*&@&;&.*&1$"
-#       ^.*(.); .*\1$
-# nefunguje pro a;;;a
 
 #zaludne:
 regex = ".*&@&.*&1&;&.*&;&.*&1$"
@@ -35,12 +27,16 @@ regex = ".*&@&.*&1&;&.*&;&.*&1$"
 regex = ".*&@&.*&1&;&1&1&.*&;&.*&1$"     
 #       ^.*(.).*\1 ;\1\1 .* ; .*\1$
 
-regex = ".*&@&.*&1&.*&;&.*&;&.*&1$"
-#       ^.*(.).*\1 .* ; .* ; .*\1$
+regex = ".*&@.&.*&1&.*&;&.*&;&.*&1$"
+#       ^.*(.) .*\1 .* ; .* ; .*\1$
 
-regex = "[test]&a&[^bc]$"
+#regex = "[^;]*&@[^;]&[^;]*&;&1$"
 
-#regex = "@&.*&;&.*&@&.*&;&.*&@&.*&3&2&1$"
+#regex = "[^;]*&@[^;]&[^;]*&;&[^;]*&@[^;]&[^;]*&;&[^;]*&@[^;]&[^;]*&3&;&2&;&1&[^;]*$"
+#       ^[^;]*([^;])[^;]*;[^;]*([^;])[^;]*;[^;]*([^;])[^;]*\3\2\1[^;]*$
+
+regex = "[^;]*&@[^;]&[^;]*&;&[^;]*&@[^;]&[^;]*&;&1&2$"
+
 #parsedTree = createTree('')
 #parsedTree = createTree(".*&a&b&c&.*$")
 #parsedTree = createTree(".*&@&.*&1&.*$")
@@ -56,6 +52,9 @@ parsedAutomaton.joinStates()
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
 
+#parsedAutomaton.completeUpdates()
+#parsedAutomaton.makeRegisterLocal()
+#parsedAutomaton.fillWithBottom()
 rd.drawAutomaton(parsedAutomaton, "parsedAutomaton") 
 
 print("my_regex: ", regex)
@@ -66,11 +65,13 @@ print("registers: ", len(parsedAutomaton.R))
 
 
 detAut = parsedAutomaton.determinize()
-rd.drawAutomaton(detAut, "detAutomaton")
+
 
 if detAut == -1:
     print("Unable to determinize")
     exit()
+
+rd.drawAutomaton(detAut, "detAutomaton")
 
 print("\nDRsA\n------")
 print("states: ", len(detAut.Q))
