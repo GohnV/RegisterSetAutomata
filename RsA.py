@@ -214,6 +214,7 @@ class RsA:
         self.I = I
         self.F = F
 
+    #returns the set of registers active in a given state
     def activeRegs(self, state):
         regs = set()
         for t in self.delta:
@@ -494,7 +495,8 @@ class NRA(RsA):
                         rUpNew = str(t.orig)+str(t.update[r])
                     upNew[rNew] = rUpNew
                     RNew.add(rNew)
-                    RNew.add(rUpNew)
+                    if (rUpNew != IN):
+                        RNew.add(rUpNew)
             for r in t.eqGuard:
                 rNew = str(t.orig)+str(r)
                 eqNew.add(rNew)
@@ -579,8 +581,9 @@ class NRA(RsA):
                             op[ri] = tmp.difference({IN})
                         else:
                             op[ri] = tmp
-                    '''
+                    
                     #lines 16-19 FIXME:prints
+                    #print("=========", S1, g, "===========")
                     for q1 in S1:
                         P = [[]]
                         Rq1 = set()
@@ -589,6 +592,7 @@ class NRA(RsA):
 
                         #cartesian product
                         for ri in Rq1:
+                            #print('ri = ', ri, 'op(ri) = ',op[ri])
                             Pnew = []
                             for elem in P:
                                 for rup in op[ri]:
