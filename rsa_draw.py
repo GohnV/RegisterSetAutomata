@@ -38,6 +38,10 @@ def drawAutomaton(aut, name):
             sym = 'ε'
         elif t.symbol == rsa.ANYCHAR:
             sym = 'Σ'
+        elif t.symbol[0] == '^':
+            sym = 'Σ \\\ ' + str(set(t.symbol[1]))
+        else:
+            sym = str(set(t.symbol[1]))
         oname = strIfMacroState(t.orig)
         dname = strIfMacroState(t.dest)
         graph.edge(oname, dname, label = ' ' + sym + eqText + diseqText + '\n' + regAssignment)
