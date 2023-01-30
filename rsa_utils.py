@@ -86,10 +86,7 @@ def createTree(expr):
         ai = rIndex(pushdown, a)
         
         b = Pair('','')
-        if (expr[i] == '.' and i+1 != len(expr) and expr[i+1] == '*'):
-            b.createPair(rsa.SIGMASTAR)
-            i += 1
-        elif expr[i] == '[':
+        if expr[i] == '[':
             ret = parseSetEdge(expr, i)
             i = ret[1]
             b.createPair(ret[0])
