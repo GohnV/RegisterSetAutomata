@@ -179,12 +179,6 @@ class SyntaxTree:
 
 
 class Transition:
-    orig = ''               #original state
-    symbol = ''
-    eqGuard = set()
-    diseqGuard = set()
-    update = {}
-    dest = ''               #destination state
     def __init__(self, orig, symbol, eqGuard, diseqGuard, update, dest):
         self.orig = orig
         self.symbol = symbol
@@ -201,12 +195,6 @@ class MacroState:
 
 
 class RsA:
-    Q = set()          #set of states
-    R = set()          #set of registers
-    delta = set()      #set of transitions 
-    I = set()          #set of initial states
-    F = set()          #set of final states
-
     def __init__(self, Q, R, delta, I, F):
         self.Q = Q
         self.R = R
@@ -237,6 +225,7 @@ class RsA:
             self.addTransition(t)
 
     #Joins states which only have eps or self transitions into another state
+    #FIXME: might have a bug if there are multiple eps transitions coming out of the origin state of the removed transition
     def joinStates(self): 
         q_del = set()
         t_del = set()
@@ -434,7 +423,6 @@ class NRA(RsA):
     def runWord(self, word):
         print("This would do a nondeterministic run of word", word, "on this NRA")
 
-#FIXME:?
     def completeUpdates(self):
         deltaNew = set()
         for t in self.delta:
@@ -510,11 +498,52 @@ class NRA(RsA):
             t.diseqGuard = diseqNew
         self.R = RNew
 
+    def preprocess(self):
+        Inew = set()
+        Qnew = set()
+        Fnew = set()
+        deltanew = set()
+        worklist = list()
+        for q in self.I:
+            c = (q, frozenset())
+            Inew.add(c)
+            Qnew.add(c)
+            worklist.append(c)
+        while worklist != list():
+            (q, c) = worklist.pop(0)
+            for t in self.delta:
+                if t.orig != q:
+                    continue
+                cnew = set()
+                for r1 in self.R:
+                    for r2 in self.R:
+                        x = set()
+                        if r1 != r2 and t.update[r1] != BOTTOM and t.update[r2] != BOTTOM:
+                            if (t.update[r1] == t.update[r2]) or\
+                                ({t.update[r1], t.update[r2]} in c)\
+                                or (t.update[r1] in t.eqGuard.union({IN}) and t.update[r2] in t.eqGuard.union({IN})):
+                                x = {frozenset({r1,r2})}
+                            cnew = cnew.union(x)
+                cnew = frozenset(cnew)
+                if (t.dest, cnew) not in Qnew:
+                    Qnew.add((t.dest, cnew))
+                    worklist.append((t.dest, cnew))
+                deltanew.add(Transition((q, c), t.symbol, t.eqGuard, t.diseqGuard, t.update, (t.dest, cnew)))
+        for (q,c) in Qnew:
+            if q in self.F:
+                Fnew.add((q,c))
+        self.Q = Qnew
+        self.I = Inew
+        self.F = Fnew
+        self.delta = deltanew
+
+
     def determinize(self):
         #fill in implicit updates
         self.completeUpdates()
         self.makeRegisterLocal()
         self.fillWithBottom()
+        #self.preprocess()
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
         #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
@@ -582,6 +611,7 @@ class NRA(RsA):
                         else:
                             op[ri] = tmp
                     
+                    #'''
                     #lines 16-19 FIXME:prints
                     #print("=========", S1, g, "===========")
                     for q1 in S1:

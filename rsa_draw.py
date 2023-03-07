@@ -4,7 +4,7 @@ import graphviz
 #draws the automaton as a pdf using graphviz
 def drawAutomaton(aut, name):
     graph = graphviz.Digraph(name) 
-    graph.format = 'svg'
+    graph.format = 'pdf'
     graph.graph_attr["rankdir"] = "LR"
     graph.node('init_arrow', label = "", shape = 'none')
     q_shape = 'octagon'
@@ -26,7 +26,13 @@ def drawAutomaton(aut, name):
     for t in aut.delta:
         regAssignment = ''
         for r in t.update.keys():
-            regAssignment += ' '+r+' <- ' + str(t.update[r])+'\n'
+            upstr = str(t.update[r])
+            #upstr = '{'
+            #for up in t.update[r]:
+            #    upstr += up+', '
+            #upstr = upstr[:-2]
+            #upstr += '}'
+            regAssignment += ' '+r+' ← ' + upstr+'\n'
         eqText = ''
         for g in t.eqGuard:
             eqText += '\n' + eq_op + str(g)
@@ -52,7 +58,7 @@ def drawAutomaton(aut, name):
     graph.render()
 
 def strIfMacroState(q):
-    ret = q
+    ret = str(q)
     if isinstance(q, rsa.MacroState):
         smap = list(q.states)
         smap.sort()
