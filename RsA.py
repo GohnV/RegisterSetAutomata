@@ -503,38 +503,101 @@ class NRA(RsA):
         Qnew = set()
         Fnew = set()
         deltanew = set()
-        worklist = list()
+        Rnew = set()
+        worklist = list()  
         for q in self.I:
-            c = (q, frozenset())
-            Inew.add(c)
-            Qnew.add(c)
-            worklist.append(c)
+            P = (q, frozenset())
+            Inew.add(P)
+            Qnew.add(P)
+            worklist.append(P)
         while worklist != list():
-            (q, c) = worklist.pop(0)
+            (q, P) = worklist.pop(0)
+            Cbot = set()
+            for r in self.R:
+                found = False
+                for C in P:
+                    if r in C:
+                        found = True
+                        break
+                if not found:
+                    Cbot.add(r)
             for t in self.delta:
-                if t.orig != q:
+                if t.orig != q or not (Cbot.isdisjoint(t.eqGuard)):
                     continue
-                cnew = set()
-                for r1 in self.R:
-                    for r2 in self.R:
-                        x = set()
-                        if r1 != r2 and t.update[r1] != BOTTOM and t.update[r2] != BOTTOM:
-                            if (t.update[r1] == t.update[r2]) or\
-                                ({t.update[r1], t.update[r2]} in c)\
-                                or (t.update[r1] in t.eqGuard.union({IN}) and t.update[r2] in t.eqGuard.union({IN})):
-                                x = {frozenset({r1,r2})}
-                            cnew = cnew.union(x)
-                cnew = frozenset(cnew)
-                if (t.dest, cnew) not in Qnew:
-                    Qnew.add((t.dest, cnew))
-                    worklist.append((t.dest, cnew))
-                deltanew.add(Transition((q, c), t.symbol, t.eqGuard, t.diseqGuard, t.update, (t.dest, cnew)))
-        for (q,c) in Qnew:
+                Pnew = set()
+                for r in self.R:
+                    if t.update[r] == BOTTOM or t.update[r] in Cbot:
+                        continue
+                    PnewIter = copy.deepcopy(Pnew)
+                    found = False
+                    for Cnew in PnewIter:
+                        Cnew = set(Cnew)
+                        for r1 in Cnew:
+                            condOneThree = (t.update[r] == t.update[r1] or
+                                (t.update[r] in t.eqGuard.union({IN}) and
+                                 t.update[r1] in t.eqGuard.union({IN})))
+                            condTwo = False
+                            for C in P:
+                                if (t.update[r] in C and t.update[r1] in C):
+                                    condTwo = True
+                                    break
+                            #TODO: check this
+                            if condOneThree or condTwo:
+                                Pnew.remove(frozenset(Cnew))
+                                Cnew.add(r)
+                                Pnew.add(frozenset(Cnew))
+                                found = True
+                                break
+                        if found:
+                            break
+                    if not found:
+                        Pnew.add(frozenset({r}))
+                CnewBot = set()
+                for r in self.R:
+                    found = False
+                    for Cnew in Pnew:
+                        if r in Cnew:
+                            found = True
+                            break
+                    if not found:
+                        CnewBot.add(r)
+                if (t.dest, frozenset(Pnew)) not in Qnew:
+                    Qnew.add((t.dest, frozenset(Pnew)))
+                    worklist.append((t.dest, frozenset(Pnew)))
+                Rnew = Rnew.union(Pnew.union({frozenset(CnewBot)}))
+                #guards
+                eqNew = set()
+                diseqNew = set()
+                for C in P:
+                    for r in C:
+                        if r in t.eqGuard:
+                            eqNew.add(C)
+                        if r in t.diseqGuard:
+                            diseqNew.add(C)
+                #update:
+                upNew = {frozenset(CnewBot): BOTTOM}
+                for Cnew in Pnew:
+                    found = False
+                    tmp = set()#TODO: only here to check errors
+                    for r in Cnew:
+                        if t.update[r] == IN:
+                            found = True
+                            tmp = IN
+                            break
+                    if not found:
+                        for C in P:
+                            if t.update[list(Cnew)[0]] in C:
+                                tmp = C
+                                break
+                    upNew[Cnew] = tmp
+                deltanew.add(Transition((t.orig, P), t.symbol, eqNew, diseqNew, upNew, (t.dest, frozenset(Pnew))))
+        for (q, P) in Qnew:
             if q in self.F:
-                Fnew.add((q,c))
+                Fnew.add((q, P))
         self.Q = Qnew
         self.I = Inew
         self.F = Fnew
+        self.R = Rnew
         self.delta = deltanew
 
 
