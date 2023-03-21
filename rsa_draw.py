@@ -32,7 +32,7 @@ def drawAutomaton(aut, name):
             #    upstr += up+', '
             #upstr = upstr[:-2]
             #upstr += '}'
-            regAssignment += ' '+r+' ← ' + upstr+'\n'
+            regAssignment += ' '+str(r)+' ← ' + upstr+'\n'
         eqText = ''
         for g in t.eqGuard:
             eqText += '\n' + eq_op + str(g)
