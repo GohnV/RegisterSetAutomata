@@ -564,7 +564,6 @@ class NRA(RsA):
                 if (t.dest, frozenset(Pnew)) not in Qnew:
                     Qnew.add((t.dest, frozenset(Pnew)))
                     worklist.append((t.dest, frozenset(Pnew)))
-                Rnew = Rnew.union(Pnew.union({frozenset(CnewBot)}))
                 #guards
                 eqNew = set()
                 diseqNew = set()
@@ -575,7 +574,10 @@ class NRA(RsA):
                         if r in t.diseqGuard:
                             diseqNew.add(C)
                 #update:
-                upNew = {frozenset(CnewBot): BOTTOM}
+                upNew = {}
+                if CnewBot != set():
+                    upNew = {frozenset(CnewBot): BOTTOM}
+                    Rnew = Rnew.union(Pnew.union({frozenset(CnewBot)}))
                 for Cnew in Pnew:
                     found = False
                     tmp = set()#TODO: only here to check errors
