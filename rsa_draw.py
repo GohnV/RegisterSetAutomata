@@ -59,13 +59,14 @@ def drawAutomaton(aut, name):
 
 def strIfMacroState(q):
     ret = str(q)
-    if isinstance(q, rsa.MacroState):
-        smap = list(q.states)
+    if isinstance(q, tuple):
+        smap = list(q[0].states)
         smap.sort()
         ret = str(smap)+'['
-        for r in q.mapping.keys():
-            ret = ret+str(r)+" "+str(q.mapping[r])+' | '
+        for r in q[0].mapping.keys():
+            ret = ret+str(r)+" "+str(q[0].mapping[r])+' | '
         ret+=']'
+        ret+= str(q[1])
     return ret
 
 def createGraph(tree, graph, id):

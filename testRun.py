@@ -48,7 +48,7 @@ rd.drawSyntaxTree(parsedTree, "parsedTree")
 id = rsa.Counter()
 parsedTree.createAutomaton(id)
 parsedAutomaton = parsedTree.automaton
-parsedAutomaton.joinStates()
+#parsedAutomaton.joinStates() FIXME:!!!
 parsedAutomaton.removeEps()
 parsedAutomaton.removeUnreachable()
 
@@ -65,9 +65,10 @@ print("registers: ", len(parsedAutomaton.R))
 
 
 detAut = parsedAutomaton.determinize()
+detAut = detAut.postprocess(parsedAutomaton)
 
 
-if detAut == -1:
+if detAut == rsa.BOTTOM:
     print("Unable to determinize")
     exit()
 
