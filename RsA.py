@@ -397,7 +397,7 @@ class DRsA(RsA):
                 else:
                     symTest = s in t.symbol[1]
 
-                if t.orig.states == c.states and t.orig.mapping == c.mapping and symTest and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                if t.orig[0].states == c[0].states and t.orig[0].mapping == c[0].mapping and symTest and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
                     #print(t.symbol,'->', end=' ')
                     c = t.dest
                     regConf = self.updateRegs(regConf,t.update, s)
@@ -408,10 +408,102 @@ class DRsA(RsA):
                 return False
             #print(c.states)
         for f in self.F:
-            if c.states == f.states and c.mapping == f.mapping:
+            if c[0].states == f[0].states and c[0].mapping == f[0].mapping:
                 return True
         else:
             return False
+        
+    def postprocess(self, oldNRA):
+        worklist = list()
+        Qnew = set()
+        Inew = set()
+        for q in self.I:
+            worklist.append((q, frozenset()))
+            Qnew.add((q, frozenset()))
+            Inew.add((q, frozenset()))
+        Rnew = set()
+        deltaNew = set()
+        while worklist != list():
+            (q, P) = worklist.pop(0)
+            for t in self.delta:
+                if t.orig.states != q.states or t.orig.mapping != q.mapping :
+                    continue
+                P1=set()
+                up_aux = {}
+                up_new = {}
+                for r in self.R:
+                    Y = set()
+                    for y in t.update[r]:
+                        if y != IN:
+                            for C in P:
+                                if y in C:
+                                    y = C
+                                    break
+                        Y.add(y)
+                    up_aux[r] = Y
+                for Y in up_aux.values():
+                    C1 = set()
+                    for r in self.R:
+                        if up_aux[r] == Y:
+                            C1.add(r)
+                    P1.add(frozenset(C1))
+                    up_new[frozenset(C1)] = Y
+                g_eq_new = set()
+                g_neq_new = set()
+                for C in P:
+                    for r in C:
+                        if r in t.eqGuard:
+                            g_eq_new.add(C)
+                        if r in t.diseqGuard:
+                            g_neq_new.add(C)
+                for C in P1:
+                    Rnew.add(C)
+                newstate = True
+                for q1 in Qnew:
+                    if q1[0].states == t.dest.states and\
+                       q1[0].mapping == t.dest.mapping and\
+                       q1[1] == frozenset(P1):
+                        newstate = False
+                        break
+                if newstate:
+                    Qnew.add((t.dest, frozenset(P1)))
+                    worklist.append((t.dest, frozenset(P1)))
+                deltaNew.add(Transition((q, frozenset(P)), t.symbol, g_eq_new, g_neq_new, up_new, (t.dest, frozenset(P1))))
+                
+                for q1 in t.dest.states:
+                    U = [[]]
+                    Rq1 = set()
+                    for r in oldNRA.activeRegs(q1):
+                        Rq1.add(r)
+                    #cartesian product
+                    for ri in Rq1:
+                        Unew = [[]]
+                        for elem in U:
+                            for rup in up_aux[ri]:
+                                tmp = copy.deepcopy(elem)
+                                tmp.append([ri, rup])
+                                Unew.append(tmp)
+                        U = Unew
+                    for elem in U:
+                        for x in elem:
+                            if x[1] == IN:
+                                x[1] = frozenset({IN})
+                        for t1 in oldNRA.delta:
+                            found = True
+                            for y in elem:
+                                if t1.update[y[0]] not in y[1]:
+                                    found = False
+                                    break
+                            if found:
+                                break
+                        if not found:
+                            return BOTTOM
+        Fnew = set()
+        for (q, P) in Qnew:
+            if q in self.F:
+                Fnew.add((q, P))
+        return DRsA(Qnew, Rnew, deltaNew, Inew, Fnew)
+
 #end of class DRsA
 
 
@@ -676,7 +768,7 @@ class NRA(RsA):
                         else:
                             op[ri] = tmp
                     
-                    #'''
+                    '''
                     #lines 16-19 FIXME:prints
                     #print("=========", S1, g, "===========")
                     for q1 in S1:
