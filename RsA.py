@@ -500,8 +500,9 @@ class DRsA(RsA):
                             return BOTTOM
         Fnew = set()
         for (q, P) in Qnew:
-            if q in self.F:
-                Fnew.add((q, P))
+            for f in self.F:
+                if q.states == f.states and q.mapping == f.mapping:
+                    Fnew.add((q, P))
         return DRsA(Qnew, Rnew, deltaNew, Inew, Fnew)
 
 #end of class DRsA
