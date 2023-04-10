@@ -552,15 +552,15 @@ class NRA(RsA):
                             break
                     if not found:
                         Pnew.add(frozenset({r}))
-                CnewBot = set()
-                for r in self.R:
-                    found = False
-                    for Cnew in Pnew:
-                        if r in Cnew:
-                            found = True
-                            break
-                    if not found:
-                        CnewBot.add(r)
+                # CnewBot = set()
+                # for r in self.R:
+                #     found = False
+                #     for Cnew in Pnew:
+                #         if r in Cnew:
+                #             found = True
+                #             break
+                #     if not found:
+                #         CnewBot.add(r)
                 if (t.dest, frozenset(Pnew)) not in Qnew:
                     Qnew.add((t.dest, frozenset(Pnew)))
                     worklist.append((t.dest, frozenset(Pnew)))
@@ -575,9 +575,9 @@ class NRA(RsA):
                             diseqNew.add(C)
                 #update:
                 upNew = {}
-                if CnewBot != set():
-                    upNew = {frozenset(CnewBot): BOTTOM}
-                    Rnew = Rnew.union(Pnew.union({frozenset(CnewBot)}))
+                # if CnewBot != set():
+                #     upNew = {frozenset(CnewBot): BOTTOM}
+                #     Rnew = Rnew.union(Pnew.union({frozenset(CnewBot)}))
                 for Cnew in Pnew:
                     found = False
                     tmp = set()#TODO: only here to check errors
