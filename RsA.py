@@ -420,6 +420,9 @@ class NRA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
+    def empty():
+        return NRA(set(), set(), set(), set(), set())
+
     def runWord(self, word):
         print("This would do a nondeterministic run of word", word, "on this NRA")
 
