@@ -17,7 +17,7 @@ def get_new_state_id() -> int:
     
 
 subexp = p.parse('[^a-zX]te(s*)(?:t|.* | x | as-x)+\\1')
-subexp = p.parse('a{3,5}(a|b|cd)xyz')
+subexp = p.parse('.*a{3,5}(a|b|cd)xyz')
 
 def concatenate_aut(first: NRA, second: NRA) -> NRA:
     new_aut = NRA.empty()
@@ -45,6 +45,27 @@ def one_trans_aut(chars:set, negate: bool = False) -> NRA:
     q2 = get_new_state_id()
     t = Transition(q1, symbol, set(), set(), {}, q2)
     return NRA({q1, q2}, set(), {t}, {q1}, {q2})
+
+# check if capture group is static length and
+# create an automaton with all the possible characters
+def capt_group_aut(sub_pattern: p.SubPattern) -> NRA:
+    # fixedLen = True
+    # chars = set()
+    # for op, av in sub_pattern.data:
+    #     if op is c.BRANCH:
+    #         #Check if length of all branches is equal
+    #         pass
+    #     elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+    #         fixedLen = False # could technically still be fixed length
+    #         break
+    #     elif op is c.LITERAL:
+    #         chars.add(chr(av))
+    #     elif op is c.ANY:
+    #         chars.
+    pass
+
+def backref_aut(group_num: int) -> NRA:
+    pass
 
 #copy automaton while making sure state ids are kept unique
 def copy_aut(aut: NRA) -> NRA:
@@ -159,26 +180,6 @@ def create_automaton(sub_exp, level=0):
             if item_no:
                 print(level*"  " + "ELSE")
                 item_no.dump(level+1)
-
-        # elif isinstance(av, seqtypes):
-        #     #CHECK FOR MAX_REPEAT/MIN_REPEAT SOMEWHERE HERE
-        #     nl = False
-        #     for a in av:
-        #         if isinstance(a, p.SubPattern):
-        #             #print("test")
-        #             #CAPTURE GROUP
-        #             if not nl:
-        #                 print()
-        #             #a.dump(level+1)
-        #             create_automaton(a, level+1)
-        #             nl = True
-        #         else:
-        #             if not nl:
-        #                 print(' ', end='')
-        #             print(a, end='')
-        #             nl = False
-        #     if not nl:
-        #         print()
         
         elif op is c.SUBPATTERN:
             #CAPTURE GROUP
@@ -204,7 +205,15 @@ def create_automaton(sub_exp, level=0):
             #CREATE_AUT:
             aut_tmp = one_trans_aut({chr(av)})
 
-        #FIXME: HANDLE ANYCHAR (and others???)
+        elif op is c.ANY:
+            print('', av)
+            aut_tmp = one_trans_aut(set(), negate=True) #create anychar
+
+        elif op is c.GROUPREF:
+            print('', av)
+            #backref
+            pass
+
         else:
             #can be backref
             print('', av)
