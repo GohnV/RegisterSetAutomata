@@ -4,20 +4,38 @@ import pprint
 import rsa_draw
 from RsA import *
 
-# TODO: Figure out capture, backref
-# TODO: TEST (probably start with unit testing automata functions)
+# TODO: Add backref, capt group to create_automaton and test!!!
 
-g_state_id = 0
+g_state_id = 0 # for generating sequential ids for states
+g_back_referenced = [] # store all back-referenced capture group numbers
 
 def get_new_state_id() -> int:
     global g_state_id
     tmp = g_state_id
     g_state_id += 1
     return tmp
-    
 
-subexp = p.parse('[^a-zX]te(s*)(?:t|.* | x | as-x)+\\1')
-subexp = p.parse('.*a{3,5}(a|b|cd)xyz')
+def reg_of_num(capt_num: int) -> str:
+    return "r"+str(capt_num)
+
+def find_br_cg(sub_pattern: p.SubPattern): #Ifs taken from SubPattern.dump()
+    global g_back_referenced
+    seqtypes = (tuple, list)
+    for op, av in sub_pattern.data:
+        if op is c.BRANCH:
+            for a in av[1]:
+                find_br_cg(a)
+        elif op is c.GROUPREF_EXISTS:
+            condgroup, item_yes, item_no = av
+            find_br_cg(item_yes)
+            if item_no:
+                find_br_cg(item_no)
+        elif isinstance(av, seqtypes):
+            for a in av:
+                if isinstance(a, p.SubPattern):
+                    find_br_cg(a)
+        elif op is c.GROUPREF:
+            g_back_referenced.append(av)
 
 def concatenate_aut(first: NRA, second: NRA) -> NRA:
     new_aut = NRA.empty()
@@ -35,7 +53,6 @@ def concatenate_aut(first: NRA, second: NRA) -> NRA:
     new_aut.F = {f for f in second.F}
     return new_aut
 
-
 def one_trans_aut(chars:set, negate: bool = False) -> NRA:
     if negate:
         symbol = ('^', frozenset(chars))
@@ -46,26 +63,92 @@ def one_trans_aut(chars:set, negate: bool = False) -> NRA:
     t = Transition(q1, symbol, set(), set(), {}, q2)
     return NRA({q1, q2}, set(), {t}, {q1}, {q2})
 
+def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
+    #TODO: return len as well?
+    length = 0
+    chars = (' ', set())
+    for op, av in sub_pattern.data:
+        #print(op, av)
+        if op is c.BRANCH:
+            lens = []
+            #Check if length of all branches is equal
+            for b in av[1]:
+                b_ret = check_fix_len(b)
+                if b_ret == False: #checking equality to false to prevent potential empty tuple shenanigans
+                    return False
+                b_len, b_chars = b_ret
+                lens.append(b_len)
+                chars = myUnion(chars, b_chars)
+            assert(len(lens) > 0)
+            check_len = -1
+            for i in lens:
+                if check_len == -1:
+                    check_len = i
+                elif check_len != i:
+                    return False
+            length += check_len
+
+        elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+            #check if max and min are the same
+            rep_min, rep_max, rep_pat = av
+            if rep_min != rep_max:
+                return False
+            rep_ret = check_fix_len(rep_pat)
+            if rep_ret == False :#checking equality to false to prevent potential empty tuple shenanigans
+                return False
+            rep_chars, rep_len = rep_ret
+            length += rep_len
+            chars = myUnion(chars, rep_chars)
+
+        elif op is c.LITERAL:
+            length += 1
+            myAddChar(chars, chr(av))
+
+        elif op is c.ANY:
+            length += 1
+            chars = ANYCHAR
+
+        elif op is c.IN:
+            length += 1
+            neg_sign = ' '
+            if av[0] == c.NEGATE:
+                neg_sign = '^'
+                av.pop(0)
+            in_char_set = (neg_sign, set())
+            for a in av: 
+                if op == c.RANGE:
+                    start, end = a
+                    for i in range(start, end):
+                        myAddChar(in_char_set, chr(i))  
+                elif op == c.LITERAL:
+                    myAddChar(in_char_set, chr(a))
+            chars = myUnion(chars, in_char_set)
+        #end elif chain
+    #end for loop
+    #freeze set:
+    chars = (chars[0], frozenset(chars[1]))
+    return length, chars
+
 # check if capture group is static length and
 # create an automaton with all the possible characters
-def capt_group_aut(sub_pattern: p.SubPattern) -> NRA:
-    # fixedLen = True
-    # chars = set()
-    # for op, av in sub_pattern.data:
-    #     if op is c.BRANCH:
-    #         #Check if length of all branches is equal
-    #         pass
-    #     elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
-    #         fixedLen = False # could technically still be fixed length
-    #         break
-    #     elif op is c.LITERAL:
-    #         chars.add(chr(av))
-    #     elif op is c.ANY:
-    #         chars.
-    pass
+def capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA: 
+    ret = check_fix_len(sub_pattern)
+    if ret == False: #checking equality to False to prevent potential empty tuple shenanigans
+        return False
+    len, symb = ret
+    #create automaton
+    q1 = get_new_state_id()
+    q2 = get_new_state_id()
+    r = reg_of_num(capt_num)
+    t = Transition(q1, symb, set(), set(), {r : IN}, q2)
+    return NRA({q1, q2}, {r}, {t}, {q1}, {q2})
 
-def backref_aut(group_num: int) -> NRA:
-    pass
+def backref_aut(capt_num: int) -> NRA:
+    q1 = get_new_state_id()
+    q2 = get_new_state_id()
+    r = reg_of_num(capt_num)
+    t = Transition(q1, ANYCHAR, {r}, set(), {}, q2)
+    return NRA({q1, q2}, {r}, {t}, {q1}, {q2})
 
 #copy automaton while making sure state ids are kept unique
 def copy_aut(aut: NRA) -> NRA:
@@ -89,11 +172,11 @@ def iterate_aut(aut:NRA) -> NRA:
     for f in aut.F:
         for i in aut.I:
             t = Transition(f, EPSILON, set(), set(), {}, i)
-            aut.addTransition(t)
+            ret_aut.addTransition(t)
     #make initial states final
     ret_aut.I = {i for i in aut.I}
     ret_aut.F = aut.F.union(aut.I)
-    return aut
+    return ret_aut
 
 def repeat_aut(aut: NRA, min: int, max) -> NRA:
     init_state = get_new_state_id()
@@ -112,7 +195,7 @@ def repeat_aut(aut: NRA, min: int, max) -> NRA:
         for i in range(max-min):
             tmp = copy_aut(aut)
             tmp_states = tmp_states.union(tmp.F)
-            ret_aut = concatenate_aut(ret_aut, tmp)
+            ret_aut = concatenate_aut(ret_aut, tmp) 
             ret_aut.F = ret_aut.F.union(tmp.F)
         ret_aut.F = ret_aut.F.union(tmp_states)
     return ret_aut
@@ -141,14 +224,14 @@ def create_automaton(sub_exp, level=0):
     aut_tmp = NRA.empty()
     #CONCATENATE ALL AUTOMATA CREATED IN THIS LOOP
     for op, av in sub_exp.data:
-        print(level*"  " + str(op), end='')
+        #print(level*"  " + str(op), end='')
         if op is c.IN:
             # member sublanguage
-            print()
+            #print()
             neg = False
             chars = set()
             if av[0] == (c.NEGATE, None):
-                print(c.NEGATE)
+                #print(c.NEGATE)
                 neg = True
                 av.pop(0)
             for op, a in av:
@@ -158,28 +241,31 @@ def create_automaton(sub_exp, level=0):
                        chars.add(chr(i))  
                 elif op == c.LITERAL:
                     chars.add(chr(a))
-                print((level+1)*"  " + str(op), a)
+                #print((level+1)*"  " + str(op), a)
             #CREATE_AUT
             aut_tmp = one_trans_aut(chars, negate=neg)
         elif op is c.BRANCH:
-            print()
+            #print()
             #BRANCH ALL AUTOMATA CREATED IN THE LOOP
             branch_auts = set()
             for i, a in enumerate(av[1]):
                 if i:
-                    print(level*"  " + "OR")
+                    #print(level*"  " + "OR")
+                    pass
                 #a.dump(level+1)
                 branch_auts.add(create_automaton(a, level+1))
             aut_tmp = branch_aut(branch_auts)
 
         elif op is c.GROUPREF_EXISTS:
-            #IDK WHAT THIS MEANS
+            # TODO: IDK WHAT THIS MEANS
             condgroup, item_yes, item_no = av
-            print('', condgroup)
-            item_yes.dump(level+1)
+            print('CONDGROUP', op, condgroup)
+            #item_yes.dump(level+1)
             if item_no:
-                print(level*"  " + "ELSE")
-                item_no.dump(level+1)
+                #print(level*"  " + "ELSE")
+                #item_no.dump(level+1)
+                pass
+            return False #not supported yet
         
         elif op is c.SUBPATTERN:
             #CAPTURE GROUP
@@ -187,41 +273,113 @@ def create_automaton(sub_exp, level=0):
             idk1 = av[1] # TODO: CHECK MEANING
             idk2 = av[2] # TODO: CHECK MEANING
             sub_pattern = av[3]
-            print(" ", end='')
-            print(group_num, idk1, idk2)
-            aut_tmp = create_automaton(sub_pattern, level+1) 
+            #print(" ", end='')
+            #print(group_num, idk1, idk2)
+            # if backreferenced, call create_capture or whatever its called, else call create_automaton
+            if group_num in g_back_referenced:
+                aut_tmp = capt_group_aut(sub_pattern, group_num)
+            else:
+                aut_tmp = create_automaton(sub_pattern, level+1) 
 
         elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
             min = av[0]
             max = av[1]
             sub_pattern = av[2]
-            print(" ", end='')
-            print(min,max)
+            #print(" ", end='')
+            #print(min,max)
             aut_tmp = create_automaton(sub_pattern, level+1)
             aut_tmp = repeat_aut(aut_tmp, min, max)
 
         elif op is c.LITERAL:
-            print('', av)
+            #print('', av)
             #CREATE_AUT:
             aut_tmp = one_trans_aut({chr(av)})
 
         elif op is c.ANY:
-            print('', av)
+            #print('', av)
             aut_tmp = one_trans_aut(set(), negate=True) #create anychar
 
         elif op is c.GROUPREF:
-            print('', av)
-            #backref
-            pass
+            #print('', av)
+            aut_tmp = backref_aut(av)
 
         else:
-            #can be backref
-            print('', av)
+            #not being processed
+            #TODO: ADD:
+            #       NOT_LITERAL
+            #       AT_BEGINNING
+            #       AT_END
+
+            # UNSUPPORTED: (TODO: which should be supported)
+            #       ASSERT
+            #       ASSERT_NOT
+            #       AT_BEGINNING_STRING
+            #       AT_BOUNDARY
+
+            print('IN ELSE', op, av)
+            pass
 
         #end of elif chain
-        ret_automaton = concatenate_aut(ret_automaton, aut_tmp)
+        if aut_tmp == False:
+            return False
+        ret_automaton = concatenate_aut(ret_automaton, aut_tmp)   
     #end of for loop
     return ret_automaton
 
-subexp_aut = create_automaton(subexp)
-rsa_draw.drawAutomaton(subexp_aut, "testaut")
+
+##################################################################################
+#                                API DEFINITION?                                 #
+##################################################################################
+
+def attempt_rsa(pattern: str) -> bool:
+    global g_back_referenced
+    g_back_referenced = []
+    pat = p.parse(pattern)
+    find_br_cg(pat)
+    nra = create_automaton(pat)
+    if nra == False:
+        return False
+    #print(nra)
+    nra.removeEps()
+    nra.removeUnreachable()
+    rsa = nra.determinize()
+    #print(rsa)
+    return rsa != -1
+
+##################################################################################
+#                                TESTING AREA                                    #
+##################################################################################
+# subexp = p.parse('[^a-zX]te(s*)(?:t|.* | x | as-x)+\\1')
+# subexp = p.parse('.*a{3,5}(x(?:ab|bc|dc))xyz\\1')
+
+#FIXME: test this ((.). \2.) (.*)((.). \5. \5.)
+
+# # TODO: add super function calling this: (and reseting back-referenced capture groups)
+# find_br_cg(subexp)
+# subexp_aut = create_automaton(subexp)
+# rsa_draw.drawAutomaton(subexp_aut, "testaut")
+
+# subexp_aut.removeEps()
+# subexp_aut.removeUnreachable()
+# rsa_draw.drawAutomaton(subexp_aut, "testaut2")
+
+# rsa = subexp_aut.determinize()
+# if rsa == -1:
+#     print("Unable to determinize")
+# else:
+#     rsa_draw.drawAutomaton(rsa, "testaut_det")
+
+# import time
+
+# while True:
+#     word = input()
+#     print("\n", word, " is ", sep='', end="")
+#     t0 = time.time()
+#     res = rsa.runWord(word)
+    
+#     if res:
+#         print("accepted")
+#     else:
+#         print("not accepted")
+#     t1 = time.time()
+#     print("time:", t1-t0)

@@ -21,6 +21,22 @@ def powerset(iterable):
     s = list(iterable)
     return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
 
+def myAddChar(set: tuple, char: str):
+    if set[0] == '^':
+        set[1].remove(char)
+    elif set[0] == ' ':
+        set[1].add(char)
+
+def myUnion(t1, t2):
+    if t1[0] == '^' and t2[0] == '^':
+        return ('^', t1[1].intersection(t2[1]))
+    elif t1[0] == '^':
+        return (' ', t1[1].difference(t2[1]))
+    elif t2[0] == '^':
+        return (' ', t2[1].difference(t1[1]))
+    else:
+        return (' ', t1[1].union(t2[1]))
+
 def myIntersection(t1, t2):
     if t1[0] == '^' and t2[0] == '^':
         return ('^', t1[1].union(t2[1]))
@@ -759,11 +775,12 @@ class NRA(RsA):
                     break
         return newA
 
-    def determinizeOld(self):
+    def determinizeWithRemove(self):
         #fill in implicit updates
         self.completeUpdates()
-        self.makeRegisterLocal()        
-        self.fillWithBottom()       
+        self.makeRegisterLocal()
+        self.fillWithBottom()
+        #self.preprocess()
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
         #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
@@ -772,33 +789,37 @@ class NRA(RsA):
             temp.states.add(i)
         for r in self.R:
             temp.mapping.update({r:0})
+        MAPPING = temp.mapping
         worklist.append(temp)
         newA.Q.add(temp)
         newA.I.add(temp)
         while worklist != []:
-            sc = worklist.pop(-1)                 
-            A = set()
-            #set A includes all symbols used in transitions
-            #to avoid looping through the (infinite) alphabet
+            sc = worklist.pop(-1)
+            #print(sc.states)
+            # create minterms of all transitions used in a given set of states into A
+            # set A includes all symbols used in outgoing transitions
+            # to avoid looping through the (infinite) alphabet
+            sets = set()
             for t in self.delta:
                 if t.orig in sc.states:
-                    A.add(t.symbol)
+                    sets.add(t.symbol)
+            A = createMinterms(list(sets))
             regs = set()
             #R[S] \ {r ∈ R | c(r) = 0}:
             for q in sc.states:
                 rq = self.activeRegs(q)
                 for r in rq:
-                    if sc.mapping[r] != 0:
-                        regs.add(r)
+                    #if sc.mapping[r] != 0:
+                    regs.add(r)
             G = set(powerset(regs))
             for a in A:
                 for g in G:
-                    check = False
                     T = set()
                     S1 = set()
                     #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
-                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR
-                        if (t.orig in sc.states) and (t.symbol == a or t.symbol == ANYCHAR) and (t.eqGuard.issubset(g))\
+                    for t in self.delta:
+                        #print(a, t.symbol, myIsSubset(a, t.symbol))
+                        if (t.orig in sc.states) and myIsSubset(a, t.symbol) and (t.eqGuard.issubset(g))\
                         and (t.diseqGuard.isdisjoint(g)):
                             T.add(t)
                     #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
@@ -808,37 +829,81 @@ class NRA(RsA):
                         for r in t.diseqGuard:
                             if sc.mapping[r] == 2:
                                 return -1 #?
+                    T1 = set()
+                    #create t^\bullet
+                    for t in T:
+                        for r in t.update.keys():
+                            if t.update[r] in t.eqGuard:
+                                t.update[r] = IN
+                        T1.add(t)
                     op = {}
                     for ri in self.R:
-                        tmp = set()    
-                        for t in T:
-                            #"line" 12:
-                            x = set()
-                            if t.update[ri] in self.R.union({IN}) and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0) and t.update[ri] not in t.diseqGuard:
-                                x = {t.update[ri]}
-                            elif t.update[ri] in t.eqGuard:
-                                x = {IN}
-                            tmp = tmp.union(x)
+                        tmp = set()
+                        for t in T1:
+                            #"line" 13:
+                            if t.update[ri] != BOTTOM and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0):
+                                tmp.add(t.update[ri])
                         if not tmp.isdisjoint(g):
                             op[ri] = tmp.difference({IN})
-                            check = True
                         else:
                             op[ri] = tmp
+                    
+                    #'''
+                    #lines 16-19 FIXME:prints
+                    #print("=========", S1, g, "===========")
                     for q1 in S1:
-                        P = set()
-                        for r in self.activeRegs(q):
-                            #lines 15-17!!!
-                            pass
+                        P = [[]]
+                        Rq1 = set()
+                        for r in self.activeRegs(q1):
+                            Rq1.add(r)
+
+                        #cartesian product
+                        for ri in Rq1:
+                            #print('ri = ', ri, 'op(ri) = ',op[ri])
+                            Pnew = []
+                            for elem in P:
+                                for rup in op[ri]:
+                                    tmp = copy.deepcopy(elem)
+                                    tmp.append([ri, rup])
+                                    Pnew.append(tmp)
+                            P = Pnew
+                        #print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
+                        for elem in P:
+                            found_conf = False
+                            #print(elem)
+                            for t in T1:
+                                if t.dest == q1:
+                                    #print(t.orig,"->", t.dest,"| up =", t.update)
+                                    con = True
+                                    for xi in elem:
+                                        #check eq.
+                                        if t.update[xi[0]] != xi[1]:
+                                            #print(xi[0], xi[1], t.update[xi[0]])
+                                            con = False
+                                            break
+                                    if con:
+                                        #print("Found:",t.orig,"->", t.dest,"| up =", t.update)
+                                        found_conf = True
+                                        break
+                            if not found_conf:
+                                return -1
+                    #'''
+
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
                     up1 = {}
+                    c1 = {}
                     for ri in self.R:
                         up1[ri] = op[ri]
-                    c1 = {}
-                    #line 19:
+                    #line 15, c' = SUM(x in op_ri, c(x)):
                     for ri in self.R:
                         cnt = 0
                         for x in up1[ri]:
-                            cnt += self.cRoofOld(x, g, sc.mapping, check)
+                            c_aux = 0
+                            if x == IN:
+                                c_aux = 1
+                            else:
+                                c_aux = sc.mapping[x]
+                            cnt += c_aux
                             if cnt > 2:
                                 cnt = 2
                         c1[ri] = cnt
