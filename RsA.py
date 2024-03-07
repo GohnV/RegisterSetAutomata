@@ -17,7 +17,6 @@ SIGMASTAR = "sstar"
 
 #from itertools recipes
 def powerset(iterable):
-    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
     s = list(iterable)
     return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
 
@@ -31,9 +30,9 @@ def myUnion(t1, t2):
     if t1[0] == '^' and t2[0] == '^':
         return ('^', t1[1].intersection(t2[1]))
     elif t1[0] == '^':
-        return (' ', t1[1].difference(t2[1]))
+        return ('^', t1[1].difference(t2[1]))
     elif t2[0] == '^':
-        return (' ', t2[1].difference(t1[1]))
+        return ('^', t2[1].difference(t1[1]))
     else:
         return (' ', t1[1].union(t2[1]))
 
@@ -49,7 +48,7 @@ def myIntersection(t1, t2):
 
 def myDifference(t1, t2):
     if t1[0] == '^' and t2[0] == '^':
-        return (' ', t1[1].difference(t1[1].union(t2[1])))
+        return (' ', t2[1].difference(t1[1]))
     elif t1[0] == '^':
         return ('^', t1[1].union(t2[1]))
     elif t2[0] == '^':
@@ -88,14 +87,40 @@ def createMinterms(sets):
         #print('n = ', n, 'm = ', m)
         combs = it.combinations(sets, m)
         for c in combs:
-            #print(c)
+            #print("c =",c)
             res = intersectSets(c)
-            #print(res)
+            #print("res =", res)
             if res != MYEMPTY: #only non-empty sets
                 minterms.add(res)
                 for i in range(n):
                     sets[i] = myDifference(sets[i], res)
     #print(minterms)
+    return minterms
+
+#Wrote this when I thought the original version was bugged, but the bug was elsewhere. Keeping it to fall back on potentially
+def createMintermsAlt(sets: list):
+    print('CREATING MINTERMS FROMS',sets)
+    n = len(sets)
+    minterms = set()
+    if n == 1:
+        minterms = {sets[0]}
+    for m in range(n,0, -1):
+        print('n = ', n, 'm = ', m)
+        combs = it.combinations(range(n), m)
+        for c in combs:
+            print("c =",c)
+            c_sets = [sets[i] for i in c]
+            print("c_sets =", c_sets)
+            res = intersectSets(c_sets)
+            print("(intersection_only)res =", res)
+            for i in range(n):
+                if i not in c:
+                    print("subtracting ", sets[i])
+                    res = myDifference(res, sets[i])
+            print("res = ", res) 
+            if res != MYEMPTY: #only non-empty sets
+                minterms.add(res)
+    print(minterms)
     return minterms
 
 #for unique ids for states when creating automata from syntax tree
@@ -649,7 +674,9 @@ class NRA(RsA):
             for t in self.delta:
                 if t.orig in sc.states:
                     sets.add(t.symbol)
+            #print(sets)
             A = createMinterms(list(sets))
+            #print(A)
             regs = set()
             #R[S] \ {r ∈ R | c(r) = 0}:
             for q in sc.states:

@@ -8,6 +8,8 @@ from RsA import *
 
 g_state_id = 0 # for generating sequential ids for states
 g_back_referenced = [] # store all back-referenced capture group numbers
+g_anchor_start = False
+g_anchor_end = False
 
 def get_new_state_id() -> int:
     global g_state_id
@@ -36,6 +38,29 @@ def find_br_cg(sub_pattern: p.SubPattern): #Ifs taken from SubPattern.dump()
                     find_br_cg(a)
         elif op is c.GROUPREF:
             g_back_referenced.append(av)
+
+def unachnor_aut(aut: NRA) -> NRA:
+    new_aut = NRA.empty()
+    new_aut.importAutomaton(aut)
+    start_state = get_new_state_id()
+    end_state = get_new_state_id()
+    new_aut.addQ(start_state)
+    new_aut.addQ(end_state)
+    new_aut.addI(start_state)
+    new_aut.addF(end_state)
+    if not g_anchor_start:
+        t = Transition(start_state, ANYCHAR, set(), set(), {}, start_state)
+        new_aut.addTransition(t)
+    if not g_anchor_end:
+        t = Transition(end_state, ANYCHAR, set(), set(), {}, end_state)
+        new_aut.addTransition(t)
+    for i in aut.I:
+        t = Transition(start_state, EPSILON, set(), set(), {}, i)
+        new_aut.addTransition(t)
+    for f in aut.F:
+        t = Transition(f, EPSILON, set(), set(), {}, end_state)
+        new_aut.addTransition(t)
+    return new_aut
 
 def concatenate_aut(first: NRA, second: NRA) -> NRA:
     new_aut = NRA.empty()
@@ -216,6 +241,7 @@ def branch_aut(auts: set) -> NRA:
     return ret_aut
 
 def create_automaton(sub_exp, level=0):
+    global g_anchor_start, g_anchor_end
     #nl = True
     #seqtypes = (tuple, list)
     init_state = get_new_state_id()
@@ -259,7 +285,7 @@ def create_automaton(sub_exp, level=0):
         elif op is c.GROUPREF_EXISTS:
             # TODO: IDK WHAT THIS MEANS
             condgroup, item_yes, item_no = av
-            print('CONDGROUP', op, condgroup)
+            #print('CONDGROUP', op, condgroup)
             #item_yes.dump(level+1)
             if item_no:
                 #print(level*"  " + "ELSE")
@@ -295,6 +321,11 @@ def create_automaton(sub_exp, level=0):
             #CREATE_AUT:
             aut_tmp = one_trans_aut({chr(av)})
 
+        elif op is c.NOT_LITERAL:
+            #print('', av)
+            #CREATE_AUT:
+            aut_tmp = one_trans_aut({chr(av)}, negate=True)
+
         elif op is c.ANY:
             #print('', av)
             aut_tmp = one_trans_aut(set(), negate=True) #create anychar
@@ -303,21 +334,25 @@ def create_automaton(sub_exp, level=0):
             #print('', av)
             aut_tmp = backref_aut(av)
 
-        else:
-            #not being processed
-            #TODO: ADD:
-            #       NOT_LITERAL
-            #       AT_BEGINNING
-            #       AT_END
+        elif op is c.AT:
+            if av is c.AT_BEGINNING:
+                g_anchor_start = True
+                continue #dont concatenate
+            elif av is c.AT_END:
+                g_anchor_end = True
+                continue #dont concatenate
+            else:
+                return False
 
-            # UNSUPPORTED: (TODO: which should be supported)
+        else:
+            # UNSUPPORTED: (TODO: which should be supported?)
             #       ASSERT
             #       ASSERT_NOT
             #       AT_BEGINNING_STRING
             #       AT_BOUNDARY
 
-            print('IN ELSE', op, av)
-            pass
+            #print('IN ELSE', op, av)
+            return False #not supported
 
         #end of elif chain
         if aut_tmp == False:
@@ -332,8 +367,10 @@ def create_automaton(sub_exp, level=0):
 ##################################################################################
 
 def attempt_rsa(pattern: str) -> bool:
-    global g_back_referenced
+    global g_back_referenced, g_anchor_start, g_anchor_end
     g_back_referenced = []
+    g_anchor_start = False
+    g_anchor_end = False
     pat = p.parse(pattern)
     find_br_cg(pat)
     nra = create_automaton(pat)
@@ -354,20 +391,27 @@ def attempt_rsa(pattern: str) -> bool:
 
 #FIXME: test this ((.). \2.) (.*)((.). \5. \5.)
 
-# # TODO: add super function calling this: (and reseting back-referenced capture groups)
-# find_br_cg(subexp)
-# subexp_aut = create_automaton(subexp)
-# rsa_draw.drawAutomaton(subexp_aut, "testaut")
 
-# subexp_aut.removeEps()
-# subexp_aut.removeUnreachable()
-# rsa_draw.drawAutomaton(subexp_aut, "testaut2")
 
-# rsa = subexp_aut.determinize()
+# pattern = '.[^b]a{3,5}(x(?:ab|bc|dc))xyz\\1$'
+# g_back_referenced = []
+# g_anchor_start = False
+# g_anchor_end = False
+# pat = p.parse(pattern)
+# find_br_cg(pat)
+# nra = create_automaton(pat)
+# if nra == False:
+#     print("error")
+#     exit()
+# nra = unachnor_aut(nra)
+# nra.removeEps()
+# nra.removeUnreachable()
+# rsa_draw.drawAutomaton(nra, "testaut")
+# rsa = nra.determinize()
 # if rsa == -1:
-#     print("Unable to determinize")
-# else:
-#     rsa_draw.drawAutomaton(rsa, "testaut_det")
+#     print("unable to determinize")
+#     exit()
+# rsa_draw.drawAutomaton(rsa, "testaut_det")
 
 # import time
 
