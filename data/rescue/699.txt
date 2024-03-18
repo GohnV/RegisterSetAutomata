@@ -1,0 +1,127 @@
+<\/?(?!\d)[^\s>\/=$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\[\s\S]|(?!\1)[^\\])*\1|[^>=]+))?)*\s*\/?>
+6: <20 : 6.25 : <\/><21 : 4.6 : <\/>><26 : 3.3076923076923075 : k=4M-(232v[($TZP"u
+4k.`Vggj_`UHw[-1B2JsWDi_; u.Q[<ZH1("oQsHv><38 : 9.911764705882353 : +!Qo,M:!	|"9~cf(b{9<Po$	:z{L8AehB4=<jQojF?:=+]l)3,2M!}]\A*f@	7k"><27 : 3.536231884057971 : mv@	Fl=9.Wu9lVy]Kfr<9GkFKg{q
+8ga,$jDZk3Q#Q-<\/?U+_lh4wC<b
+-FTuz(S^><54 : 18.892307692307693 : SViIMsb41g{@;.<yS\:nTcp&-,o	M='\tqA{ WY1ZJK,,jtb/_:Sh'91R*gk7cC*>
+===Initiate End===
+Node Coverage: 56/56
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 56/56
+Vulnerable: <\b41g{@;.<yS\:nTcp&-,o	M='\tqA{ WY1ZJK,,jtb/_:Sh'91R*7086z{L8Ae<jQojF?:=+]l)3,2M!}]\A
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2M!}]\A
+
+
+
+
+		
+
+	*f@	7k"
+100185 : 596.3392857142857 : <\b41g{@;.<yS\:nTcp&-,o	M='\tqA{ WY1ZJK,,jtb/_:Sh'91R*7086z{L8Ae<jQojF?:=+]l)3,2M!}]\A
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2M!}]\A
+
+
+
+
+		
+
+	*f@	7k"
+100004 : 1030.9690721649486 : <\b41g{@;.<yS\:nTcp&-	M='\ Wo=+
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2
+
+
+
+
+		
+
+	
+1000183 : <\b41g{@;.<yS\:nTcp&-	M='\ Wo=+
+
+
+
+
+	o=+
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2
+
+
+
+
+		
+
+	
+1000203 : 1 : <\b41g{@;.<yS\:nTcp&-	M='\ Wo=+
+
+
+
+
+	o=+
+
+
+
+
+	o=+
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2
+
+
+
+
+		
+
+	
+11692916 : <\b41g{@;.<yS\:nTcp&-	M='\ Wo=+
+
+
+
+
+	o=+
+
+
+
+
+	o=+
+
+
+
+
+		
+
+	*f@8Ae<jQojF?:=+]l)3,2
+
+
+
+
+		
+
+	
+TIME: 3.299776388 (s)
+Attack failed

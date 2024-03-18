@@ -1,0 +1,17 @@
+(\w+)\s*=\s*(\W)(.*?)\2
+3: <9 : 4.4 : \s*=><19 : 17.03030303030303 : K1U>+ZNdWh9Y=|gp:EQI(`&fP~';.~=[DO-0 ,50U5:0q/Kd=}'(@1-c3[oUy><20 : 4.901639344262295 : \\nZIqo,LY_a=
+Fp0mtHQM5~S?!kz"]fvt^n$K/f[~V+&#1ZPKK'`]!y(r
+>
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: +>U1KKZNdWh9YfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiecvrqmccz=
+100070 : 497.8606965174129 : +>U1KKZNdWh9YfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiecvrqmccz=
+100018 : 546.5464480874317 : U1KKfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiec
+100018 : U1KKfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiec
+100018 : 0 : U1KKfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiec
+100441 : U1KKfGqjW3JxUVwEo9EeZ0ZVxhmsojLUjvSxgXhyzyj51989234294bfbmnaizgkjvasmbrcfgirwsafkqurbuZGvANdz1N8PNnuVxmsojLUjvSxgXhyzyj5198923429418kyivfvndlzxnxuyavvycuqxemnuckdEoAOrK8WSporcmdtuiec
+TIME: 57.216281624 (s)
+Attack failed

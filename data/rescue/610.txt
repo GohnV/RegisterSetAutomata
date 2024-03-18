@@ -1,0 +1,15 @@
+(.*)([$v])(\2)t            $ 
+2: <13 : 315.0438596491228 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATH}><13 : 478.88516746411483 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATH}>
+===Initiate End===
+Node Coverage: 13/16
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 13/16
+Vulnerable: ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATH}
+100087 : 478.88516746411483 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATH}
+100004 : 529.1216931216932 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$
+100004 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$
+100004 : 0 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$
+100186 : ,{Q!O%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%%ON]'Q0Z6"$$6"$$B%B%9'F).F%ATH$$6"$$B%B%9'F).F%ATHN]'Q0ZATHN]'Q0Z6"$$6"$$B%B%9'F).F%ATH$
+TIME: 43.090244275 (s)
+Attack failed

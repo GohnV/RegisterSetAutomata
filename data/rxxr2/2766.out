@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (a)(b)(c)_(?=(d+))\4(?:)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(10)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

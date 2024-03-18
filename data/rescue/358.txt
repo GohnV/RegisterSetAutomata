@@ -1,0 +1,9 @@
+\burl\(("|')?#(.+?)\1\)
+1: <12 : 2.7142857142857144 : "url(">
+===Initiate End===
+Node Coverage: 12/20
+===Genetic Algorithm End===
+Node Coverage: 19/20
+Normal fail
+TIME: 0.973189259 (s)
+Attack failed

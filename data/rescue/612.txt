@@ -1,0 +1,9 @@
+(?<=\S)(\1)((?!\1)|(?=\1\1))
+1: <8 : 4.5 : S>
+===Initiate End===
+Node Coverage: 8/24
+===Genetic Algorithm End===
+Node Coverage: 8/24
+Normal fail
+TIME: 0.209803093 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^\s*<h(\d)[^>]*>(.*?)</h\1[^>]*>
+7: <6 : 2.0 : <h><10 : 2.5 : <h1><11 : 2.6 : <h12><16 : 3.0 : <h12>><17 : 3.4444444444444446 : <h12></h><20 : 3.8 : <h12></h1><20 : 1.9090909090909092 : <h12></h1>>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 84.164370375 (s)
+Attack failed

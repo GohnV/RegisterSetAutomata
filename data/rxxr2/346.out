@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <cke:(param|embed)([^>]*?)\/?>(?!\s*<\/cke:\1)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(30)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,121 @@
+(?:^|[\r\n])\s*(?:\/{2,})?\s*(['"])?#(?:snippet|gallery-config|gconfig|g-config|raw|gcfg)(?:[^\r\n]+)?\1\s*;?
+2: <22 : 20.0 : '><37 : 18.44 : #rawslomejjijffveodhsc'>
+===Initiate End===
+Node Coverage: 39/46
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 39/46
+Vulnerable: jjiws		
+		 
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				 	  	
+
+  	 		 
+ 	
+ 	
+ 	 
+
+ 
+  
+
+ 
+
+
+
+	 
+	 
+
+
+
+
+    	  
+100191 : 788.9055118110236 : jjiws		
+		 
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				 	  	
+
+  	 		 
+ 	
+ 	
+ 	 
+
+ 
+  
+
+ 
+
+
+
+	 
+	 
+
+
+
+
+    	  
+100014 : 1887.0566037735848 : 		
+	
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				
+100014 : 		
+	
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				
+100014 : 1 : 		
+	
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				
+100631 : 		
+	
+
+
+ 			 		
+ 
+
+	 	 
+
+ 
+		 	
+				
+TIME: 5.279564971 (s)
+Attack failed

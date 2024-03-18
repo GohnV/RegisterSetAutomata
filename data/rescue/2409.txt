@@ -1,0 +1,10 @@
+(?<=[\s:])([0-9]+[a-z]*)\s+\1\s+\1\s+\1
+1: <23 : 3.264705882352941 : 5bUz-ao'.Qdy))oQdy))oLeU	8	8	8
+8>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 76.665036351 (s)
+Attack failed

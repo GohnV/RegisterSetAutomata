@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^([^=;]+)\s*=\s*(("?)[^\n\r\0]*\3)
+PARSE: ERROR {ParsingData.InvalidBackreference(31)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

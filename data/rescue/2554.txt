@@ -1,0 +1,15 @@
+\[quote(:.*)?=(?:&quot;)?(.*?)(?:&quot;)?\](.*?)\[\/quote\1?\]
+8: <5 : 0.7142857142857143 : [quote><9 : 1.25 : [quote:><10 : 1.6666666666666667 : [quote:>><16 : 2.0 : [quote=><21 : 5.071428571428571 : [quote=&quot;><22 : 3.111111111111111 : [quote=]><25 : 6.75 : [quote=][/quote><23 : 1.3529411764705883 : [quote=][/quote]>
+===Initiate End===
+Node Coverage: 34/34
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 34/34
+Vulnerable: [quote:[quote:?z]=HUz|e=[q[quote=][7te=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoote=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo4v4<vy_K"ot"7Zuovq)~2*v<
+100029 : 450.5810810810811 : [quote:[quote:?z]=HUz|e=[q[quote=][7te=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoote=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo4v4<vy_K"ot"7Zuovq)~2*v<
+100003 : 518.1502590673575 : [quote:[quote:?z]=HUz|e=[q[quote=][7=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoo=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo
+100003 : [quote:[quote:?z]=HUz|e=[q[quote=][7=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoo=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo
+100003 : 0 : [quote:[quote:?z]=HUz|e=[q[quote=][7=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoo=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo
+100018 : [quote:[quote:?z]=HUz|e=[q[quote=][7=[=[quote=][[]=etouq[=eto"K_yv<4v4ouq/[]=TW4O3";`j&W	w=S7[]=etoo=[quote=[quote=]7S=9=[quote=[qu]im~[quote=[quote=]v4<lhh3O4WTUWHUz|3NZQZ9CimQZ9Cim][/quo
+TIME: 65.553421306 (s)
+Attack failed

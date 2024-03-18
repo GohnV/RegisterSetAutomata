@@ -1,0 +1,10 @@
+("|')(\w+)(\1)
+3: <10 : 7.0 : "><14 : 5.0 : "b><16 : 4.021739130434782 : u	PYG2,>7EB@S<|_a=5yWu8&,4-Y
+OF_J\w+qC-&;'R'>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 56.091154588 (s)
+Attack failed

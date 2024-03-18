@@ -1,0 +1,11 @@
+\burl\((\'|\"|)([^\'\"]+?)\1\)
+1: <17 : 2.2777777777777777 : xfvc
+u;%t!+,([#url(""7rAX_ Rrl(""7rAX_ RuL%t8d!+,([#url(
+HjUCM	;|p7	)>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 67.131021585 (s)
+Attack failed

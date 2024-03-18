@@ -1,0 +1,9 @@
+<(\w+)\s\w+="(.+?)">(.*?)<\/\1>
+1: <11 : 3.242424242424242 : VvSWT*'<qWxx6	*'<qWxx6	<'<qWxWxx6	*'<qWxx6	x6	*WxWxx6	*'<qWxx6	x6>
+===Initiate End===
+Node Coverage: 11/24
+===Genetic Algorithm End===
+Node Coverage: 11/24
+Normal fail
+TIME: 31.481778377 (s)
+Attack failed

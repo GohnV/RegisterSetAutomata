@@ -1,0 +1,15 @@
+^([a-z]*)(.)(.*)\2([a-z]*)$
+3: <13 : 6.5 : ^><14 : 5.666666666666667 : ^a><20 : 7.666666666666667 : ^^>
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: dddddddddderadnmwddodddddddervrwdrcrrrddddodrrvddddddad,ofSzRWeCzE]dddeozRWeCzE]$*ddddervrwddddsk38.h.ddeddskbedoddmnddedddgbiAIP).iRXR
+100027 : 735.4926470588235 : dddddddddderadnmwddodddddddervrwdrcrrrddddodrrvddddddad,ofSzRWeCzE]dddeozRWeCzE]$*ddddervrwddddsk38.h.ddeddskbedoddmnddedddgbiAIP).iRXR
+100016 : 1041.8333333333333 : dddddddddderadnddodddddddervrwdrcrrrddddodrrvddddddadfSzRWeCzE]dddddervrdddskbedoddmnddedddgbiA
+100016 : dddddddddderadnddodddddddervrwdrcrrrddddodrrvddddddadfSzRWeCzE]dddddervrdddskbedoddmnddedddgbiA
+100016 : 0 : dddddddddderadnddodddddddervrwdrcrrrddddodrrvddddddadfSzRWeCzE]dddddervrdddskbedoddmnddedddgbiA
+100810 : dddddddddderadnddodddddddervrwdrcrrrddddodrrvddddddadfSzRWeCzE]dddddervrdddskbedoddmnddedddgbiA
+TIME: 12.776113872 (s)
+Attack failed

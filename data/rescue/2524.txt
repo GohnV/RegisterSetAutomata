@@ -1,0 +1,11 @@
+^( *)function without[\s\S]+?\n\1}
+4: <8 : 0.47058823529411764 : function without><10 : 0.6111111111111112 : function without}><12 : 0.8421052631578947 : function without}
+><13 : 0.65 : function without}
+}>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.665115154 (s)
+Attack failed

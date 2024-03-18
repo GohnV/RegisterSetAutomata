@@ -1,0 +1,3 @@
+([\'\"])([^\1]*?)\1
+TIME: 0.041981399 (s)
+Regex compile error

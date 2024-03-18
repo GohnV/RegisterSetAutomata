@@ -1,0 +1,9 @@
+^<(\w+)>\s*<dirs>\s*<dir(?:\s+first="/usr/bin"|\s+second="/usr/local/bin"){2}\s*/>\s*</dirs>\s*</\1>$
+1: <26 : 1.15 : <dir><dirs><dir	second="/usr/local/bin">
+===Initiate End===
+Node Coverage: 26/39
+===Genetic Algorithm End===
+Node Coverage: 26/39
+Normal fail
+TIME: 12.643618237 (s)
+Attack failed

@@ -1,0 +1,14 @@
+(^|(?:\r?\n|\r){2}).+(?:\r?\n|\r)([!"#$%&'()*+,\-.\/:;<=>?@\[\\\]^_`{|}~])\2+(?=\r?\n|\r|$)
+4: <23 : 15.727272727272727 : ?:\r?\n|\r><27 : 15.666666666666666 : ?:\r?\n|\r
+><32 : 13.741935483870968 : RC-4cN$:q;Aw-*K
+(?'tf@1e
+&*|\kiiAE8TO1/PTw*be	tAN}X%sl5y
+	_6><32 : 3.7333333333333334 : ?:\r?\n|\r
+\\\>
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 29.242385944 (s)
+Attack failed

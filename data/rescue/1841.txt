@@ -1,0 +1,9 @@
+(.)\bdata:[^\/]+\/[^,]+,(?:(?!\1)[\s\S]|\\\1)+(?=\1)
+1: <30 : 2.652173913043478 : /tN*eUD ^b	l]@s$L]data:^/tN*eUD ^b	l]-9L^b	l]@s$L]data:^/tN*eUD ^b	l]-9LVD ^<m$>eCdRL@s$L]data:^9S'-*i)b	 ,v	l]>
+===Initiate End===
+Node Coverage: 30/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 49.728574255 (s)
+Attack failed

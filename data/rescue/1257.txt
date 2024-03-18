@@ -1,0 +1,9 @@
+content=(['"])?([^'"> ]+)(?:\1|[ />])
+4: <7 : 0.7777777777777778 : content=><9 : 1.2 : content='><13 : 1.4 : content=?><17 : 1.5 : content='^'>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 206.259156097 (s)
+Attack failed

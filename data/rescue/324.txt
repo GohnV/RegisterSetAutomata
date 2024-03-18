@@ -1,0 +1,12 @@
+(<<<)\s*(['"]?)(JAVASCRIPT)(\2)\s*$\n?
+1: <23 : 2.0434782608695654 : tg3H:]bEt	"t	9EBI55g\r?@
+t-$qSue',w"g
+/Z-gzr>Q!5/"<<<<
+JAVASCRIPT>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 24.906628529 (s)
+Attack failed

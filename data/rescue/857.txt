@@ -1,0 +1,13 @@
+(background-image\s*:\s*url\s*\()(["']?)(.*?)(\2)(\s*\);)
+1: <7 : 1.8316831683168318 : 9f\ 7>qJS!+nq1+SHTOrgg
+e|'background-ima1+SHTOrgg
+e|'backgckground-ima1+SHTOrgg
+e|'background-image
+>
+===Initiate End===
+Node Coverage: 7/31
+===Genetic Algorithm End===
+Node Coverage: 10/31
+Normal fail
+TIME: 1.018155029 (s)
+Attack failed

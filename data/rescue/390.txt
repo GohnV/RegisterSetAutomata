@@ -1,0 +1,15 @@
+\[(.+?)(?:=("|'|)(.*?)\2)?\]
+1: <24 : 4.675 : dY.+?:=#Z0Yzl68$D_=/zl68$D_=/[>x=dYzl68$D_=/zl68$D_=/[>x=dY.[>x=dY.=/[>x=dY.+?]>
+===Initiate End===
+Node Coverage: 24/25
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/25
+Vulnerable: dY.+?:=#$D_Y.[[>x=dY.+?_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=dY.
+100058 : 610.109756097561 : dY.+?:=#$D_Y.[[>x=dY.+?_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=dY.
+100012 : 675.7567567567568 : d[[>x=dY.+=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=d
+100012 : d[[>x=dY.+=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=d
+100012 : 0 : d[[>x=dY.+=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=d
+100034 : d[[>x=dY.+=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dY.[>x=dY.=/[.[>x=d>x=dY.[>x=dY.>x=dY.=/[>x=dY.=/zl68$D_=/[>x=dYz?:=d
+TIME: 29.359261892 (s)
+Attack failed

@@ -1,0 +1,11 @@
+(x?)foo$\1
+2: <9 : 2.25 : foo><8 : 5.076923076923077 : EU#	QSK|`ZYgv
+#^Q@i->a^t6=4[1_-CCJ6LE(XQC7,pU?M1x
+2uU-foou7Q'/>>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 2.524634362 (s)
+Attack failed

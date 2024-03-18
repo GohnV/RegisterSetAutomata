@@ -1,0 +1,155 @@
+<link(?:\s+(?:(?!href\s*=\s*)[^>])+)?(?:\s+href\s*=\s*(['"])((?:https?:)?\/\/fonts\.googleapis\.com\/css(?:(?!\1).)+)\1)(?:\s+[^>]*)?>
+13: <8 : 1.3333333333333333 : <link><15 : 2.5714285714285716 : <link
+><18 : 4.75 : <link
+><24 : 5.818181818181818 : <link
+href><27 : 2.5833333333333335 : <link
+href=><33 : 2.8461538461538463 : <link
+href='><36 : 2.3529411764705883 : <link
+href='http><38 : 1.0769230769230769 : <link
+href='//fonts.googleapis.com/css><41 : 1.627906976744186 : <link
+href='//fonts.googleapis.com/csshref><38 : 2.388888888888889 : <link
+href='http:><48 : 1.75 : <link
+href='//fonts.googleapis.com/csshref'><52 : 1.8666666666666667 : <link
+href='//fonts.googleapis.com/csshref'	><49 : 1.6 : <link
+href='//fonts.googleapis.com/csshref'>>
+===Initiate End===
+Node Coverage: 62/62
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 62/62
+Vulnerable: <link<link				
+
+<link
+<link
+<ink
+<li
+enk
+kni<l<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+  	 
+100022 : 917.6330275229358 : <link<link				
+
+<link
+<link
+<ink
+<li
+enk
+kni<l<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+  	 
+100004 : 1020.4489795918367 : <link<link				
+
+<link
+<link
+<ink
+<li
+enk<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+
+100004 : <link<link				
+
+<link
+<link
+<ink
+<li
+enk<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+
+100004 : 0 : <link<link				
+
+<link
+<link
+<ink
+<li
+enk<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+
+100141 : <link<link				
+
+<link
+<link
+<ink
+<li
+enk<link	
+ 	 
+
+  
+		   
+
+
+ 
+
+ 
+	
+ 
+	 	  
+
+
+
+TIME: 16.342262862 (s)
+Attack failed

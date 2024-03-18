@@ -1,0 +1,9 @@
+url\((['"])?(.*?)\1\)
+1: <14 : 2.3333333333333335 : url("url(")>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 105.347868451 (s)
+Attack failed

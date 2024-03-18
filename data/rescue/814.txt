@@ -1,0 +1,10 @@
+v:\w+=(["']?)[^'"]+\1
+1: <14 : 1.462686567164179 : gQ:f`F-&<y}5Hm
+S2$~y7i=s[jk/Sno4=\	^,KBv:y7i=s[jk/Sno4=\	^,KBv:1>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 31.107313874 (s)
+Attack failed

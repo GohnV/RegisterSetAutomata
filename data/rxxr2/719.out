@@ -1,0 +1,21 @@
+= [1] =
+INPUT: (q|qq|qw|qr|qx)([^a-zA-Z0-9])(.|\n)*?\2
+PARSE: OK
+SIZE: 26
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (.|\n)*?
+PREFIX: q!
+PUMPABLE: \x0a
+SUFFIX: 
+TIME: 0.000172 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 26
+>> AVG NFA SIZE: 26
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

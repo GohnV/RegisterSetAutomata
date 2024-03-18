@@ -1,0 +1,9 @@
+(={1,5})\s*Przypisy\s*\1\s*<references\s?\/>
+1: <15 : 3.3714285714285714 : E5IVC3CN<%=PrzypIVC3CN<%=Przypisy=>
+===Initiate End===
+Node Coverage: 15/19
+===Genetic Algorithm End===
+Node Coverage: 15/19
+Normal fail
+TIME: 2.978197254 (s)
+Attack failed

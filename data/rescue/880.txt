@@ -1,0 +1,15 @@
+<form.+?action=\s*(["']?)([^>\s"']+)\1[^>]*>
+5: <3 : 0.5 : <form><5 : 0.8571428571428571 : <form>><14 : 2.5714285714285716 : <form>action=><19 : 24.8125 : <form>action=<form.+?action=\s*><20 : 1.7058823529411764 : <form>action=<form.+?action=\s*^>>
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: <form<form>action=<form.+?action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=action=<form.+?action=\s*
+100070 : 758.1060606060606 : <form<form>action=<form.+?action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=action=<form.+?action=\s*
+100014 : 909.2181818181818 : <form<form>action=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=actio
+1000079 : <form<form>action=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=aaction=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=actio
+1000079 : 0 : <form<form>action=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=aaction=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=actio
+1094580 : <form<form>action=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=aaction=<form.action=action=<form.+n=<form.+ion=<form.+?action=action=<form.+n=<form.+?action=actio
+TIME: 16.569924839 (s)
+Attack failed

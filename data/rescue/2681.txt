@@ -1,0 +1,10 @@
+<(filter|macro|typo):([_a-zA-z0-9]+)([^>]*)>(.*?)<\/\1:\2>
+1: <26 : 2.2658227848101267 : W	O^5rOehj):m).m62U
+w#bRbR2fil	<[<YR<fil	<[<filbR2V	<[<filter:w#tYR<\/\1:\2></>
+===Initiate End===
+Node Coverage: 26/30
+===Genetic Algorithm End===
+Node Coverage: 27/30
+Normal fail
+TIME: 283.08238328 (s)
+Attack failed

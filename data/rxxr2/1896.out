@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:<style([^>]*)>([\s\S]*?)<\/style>|<link\s+(?=[^>]*rel=['"]?stylesheet)([^>]*?href=(['"])([^>]*?)\4[^>\/]*)\/?>)
+PARSE: ERROR {ParsingData.InvalidBackreference(99)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

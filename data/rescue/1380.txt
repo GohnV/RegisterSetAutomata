@@ -1,0 +1,9 @@
+<(del)(?=[\s>])[\w\W]*?<\/\1\s*>
+1: <4 : 1.6 : *?<\>
+===Initiate End===
+Node Coverage: 4/18
+===Genetic Algorithm End===
+Node Coverage: 4/18
+Normal fail
+TIME: 0.146744966 (s)
+Attack failed

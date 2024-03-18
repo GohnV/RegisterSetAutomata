@@ -1,0 +1,17 @@
+(`+)(.+?)(?<!`)\1(?!`)
+4: <14 : 5.666666666666667 : `+><18 : 5.0 : `+`><16 : 10.727272727272727 : |?!``P{QlU6s,FF06ZZf#zyzZyOnn
+x}wyZ\
+?Rm	QTVicuz$/^t]8>IBkP,i|e/><21 : 5.277777777777778 : lXT{mr/J}q,<^n*Zl/ B};#`\``+~0<7l5eUk77mPERH?i"@vXDO`>
+===Initiate End===
+Node Coverage: 21/21
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Vulnerable: ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'Uk7Bkz$/^t]8>I
+100156 : 513.6205128205128 : ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'Uk7Bkz$/^t]8>I
+100030 : 552.6519337016574 : ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'
+100030 : ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'
+100030 : 0 : ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'
+100090 : ````````!?|P{QlU77mPE}=~[;\$@:?!``````````+	Q{~=?>:|;;<?{?=:?@|}};TVicuz$7l5eUk~\:+uz$Rm	QTVicuzlPERH90~*[P{Ql"@vX@)-*,?,]+BoCgBFCkCs,FF06ZZzyzZ+~0<7l5eUk77mPEERH?i"@vX@)-*,?,]+!'
+TIME: 102.518747012 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \G[\s;]*(/(?:\\.|[^/])*/)?([sy])(\\?\W)((?:(?!\3)(?:\\.|.))*)\3((?:(?!\3)(?:\\.|.))*)\3([gi]*)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(43)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

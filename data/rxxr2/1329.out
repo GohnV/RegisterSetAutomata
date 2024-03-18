@@ -1,0 +1,16 @@
+= [1] =
+INPUT: >>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*\/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b
+PARSE: OK
+SIZE: 84
+PUMPABLE: NO
+TIME: 0.000116 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 84
+>> AVG NFA SIZE: 84
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000116 (s)
+>> TIME MAX: 0.000116 (s)

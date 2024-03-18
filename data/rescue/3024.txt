@@ -1,0 +1,15 @@
+\{\{\?(.+?)\}\}(.*)\{\{\/(\1)\}\}
+1: <15 : 4.387096774193548 :  iq}[V{IbeuTGFi{{}[V{IbeuTGFi{{?G?GFi{{?G?Gc][4LGH}}{{/>
+===Initiate End===
+Node Coverage: 15/18
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/18
+Vulnerable: i{{?i{{?Fi{{?GFi{{?GFi{{?GFi{{? GFi{{?G?GFi{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXLGH}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?GFi{{?}}}}H?H}}}}}}H{}{G?GH}}{{}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J~8i
+100115 : 406.9715447154472 : i{{?i{{?Fi{{?GFi{{?GFi{{?GFi{{? GFi{{?G?GFi{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXLGH}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?GFi{{?}}}}H?H}}}}}}H{}{G?GH}}{{}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J~8i
+100006 : 448.45739910313904 : i{{?i{{?Fi{{?G{{?GFi{{?GFi{{? GFi{{?G?G{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXL}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?{{?}}}}}}}}}}{G?}}}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J
+100006 : i{{?i{{?Fi{{?G{{?GFi{{?GFi{{? GFi{{?G?G{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXL}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?{{?}}}}}}}}}}{G?}}}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J
+100006 : 0 : i{{?i{{?Fi{{?G{{?GFi{{?GFi{{? GFi{{?G?G{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXL}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?{{?}}}}}}}}}}{G?}}}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J
+100006 : i{{?i{{?Fi{{?G{{?GFi{{?GFi{{? GFi{{?G?G{{?}}}}HGL4?G?GH{{{/4GFi{{?VWxWXL}}}b<@zhVWx1ad{{?0}}b<@z<Sbcm}}HGL4?Gi{{?GFi}<~@{{? GFi{{?G?{{?}}}}}}}}}}{G?}}}}HG{{?G?GFi{?GSbcm}}HGL4?G?GH}}WSo{WdJ30J{{/GgEGwQBQ{6;m3e=J
+TIME: 166.792202283 (s)
+Attack failed

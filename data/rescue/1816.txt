@@ -1,0 +1,9 @@
+^<((a|span)) (name|id)="(.*?)">.*?</\1>
+2: <28 : 5.528301886792453 : <a id=".*?</a\/<?*.>"""=1\ id="">.*?</\1="">.*?</\1>><28 : 2.0588235294117645 : <a id="">.*?</a>>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 14.033123286 (s)
+Attack failed

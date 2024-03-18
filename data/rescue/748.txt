@@ -1,0 +1,9 @@
+^\s*(['"])?([\w:]+)\1?\s*=>\s*(.+),
+4: <11 : 7.0 : '><16 : 8.5 : a><23 : 4.32258064516129 : 5_=>cBy3<x~S?\ >	)B4q;E7v%f/9z><24 : 2.59375 : 5_=>cBy3<x~S?\ >	)B4q;E7v%f/9z,>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 72.274240144 (s)
+Attack failed

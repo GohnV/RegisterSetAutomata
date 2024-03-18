@@ -1,0 +1,9 @@
+^\s*(\d+)((?:.[.+XO])+).\1\b
+5: <11 : 6.0 : 0><12 : 6.333333333333333 : 02><15 : 6.0 : 02+><16 : 5.2 : 02+:><18 : 4.666666666666667 : 02+:0>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 27.629924085 (s)
+Attack failed

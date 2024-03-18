@@ -1,0 +1,9 @@
+=(?:('|")[\w\W]*?(\1)|[^\s>]+)
+3: <2 : 1.5 : '><14 : 1.2923076923076924 : 	 N0cHYGVenoM89	ql4<7-`_v.1jl*PB#9mgv[G43Wqiuy#Qao~7)'=YTS;~q'R><19 : 1.8923076923076922 : hUCJ)s@>19yTl(ilIW:Kj M9]BG,GfZ:qmiZ)<s,	6mTv;=">h^|_;zQq%C=;U">
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 14.381824153 (s)
+Attack failed

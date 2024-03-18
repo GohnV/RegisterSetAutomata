@@ -1,0 +1,9 @@
+((?:^|\{)([ \t]*))(?:[\w-]|\{[^}\r\n]+\})+(?:\s*:\s*|[ \t]+)[^{\r\n]*(?:;|[^{\r\n,](?=$)(?!(\r?\n|\r)(?:\{|\2[ \t]+)))
+1: <65 : 3.910569105691057 : qxE:{!;!,"xL_P)AYW|Zd{cbl{)$	YL)gG3y0esN_;^!f_L)gG3y0}cnb	FM+}cno[!f_L)gG3	FM+}cno[!f_L)gG3	FM+}cno[G3y0esN_;^VBdOy.%+>
+===Initiate End===
+Node Coverage: 65/68
+===Genetic Algorithm End===
+Node Coverage: 65/68
+Normal fail
+TIME: 34.508291023 (s)
+Attack failed

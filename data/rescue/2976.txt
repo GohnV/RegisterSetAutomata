@@ -1,0 +1,9 @@
+<!\-\- s(.*?) \-\-><img src="\{SMILIES_PATH\}\/.*? \/><!\-\- s\1 \-\->
+5: <6 : 0.8571428571428571 : <!-- s><7 : 2.9375 : <!-- s /><!-- s><10 : 6.333333333333333 : <!-- s /><!-- s --><img src="{SMILIES_PATH}/><12 : 7.7592592592592595 : <!-- s /><!-- s --><img src="{SMILIES_PATH}/ /><!-- s><13 : 4.517241379310345 : <!-- s /><!-- s --><img src="{SMILIES_PATH}/ /><!-- s -->>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 133.245691407 (s)
+Attack failed

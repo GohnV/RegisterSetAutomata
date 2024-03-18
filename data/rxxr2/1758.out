@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \bmx-(?!view|vframe|keys|options|data|partial|init|html|is|as|type|name)[a-zA-Z]+\s*=\s*(['"])\w+(?:\{[\s\S]*?\})?\1
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(5)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

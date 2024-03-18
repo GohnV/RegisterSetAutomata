@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ({{\s*[Aa]rticle ?issues[^{}]*\|\s*)(\w+)\s*=\s*([^\|}{]+?)\s*\|((?:[^{}]*?\|)?\s*)\2(\s*=\s*)\3(\s*(\||\}\}))
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(1)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

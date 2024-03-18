@@ -1,0 +1,3 @@
+<\s*link[^>]*(rel=(["'])[^>\2]*icon[^>\2]*\2)[^>]*>
+TIME: 0.049137715 (s)
+Regex compile error

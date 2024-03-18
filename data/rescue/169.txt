@@ -1,0 +1,9 @@
+\$table_prefix[\s]*=[\s]*(["']{1})([a-zA-Z0-9_]+)\1
+6: <4 : 0.2857142857142857 : $table_prefix><5 : 0.4666666666666667 : $table_prefix	><9 : 0.16363636363636364 : CVY#2Ti%0nV{ [b||<	E6Hh`RD_zX^\(Sb4Ieb\$table_prefix=><14 : 0.25 : CVY#2Ti%0nV{ [b||<	E6Hh`RD_zX^\(Sb4Ieb\$table_prefix="><16 : 0.3157894736842105 : CVY#2Ti%0nV{ [b||<	E6Hh`RD_zX^\(Sb4Ieb\$table_prefix="1><17 : 0.3275862068965517 : CVY#2Ti%0nV{ [b||<	E6Hh`RD_zX^\(Sb4Ieb\$table_prefix="1">
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 5.47623962 (s)
+Attack failed

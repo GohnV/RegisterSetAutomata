@@ -1,0 +1,10 @@
+(["'])\s*?\+\s*?\1
+4: <7 : 3.5 : "><10 : 3.3333333333333335 : "+><8 : 3.3333333333333335 : "><9 : 2.0434782608695654 : e
+m;M4g!suysq/*0F5U"+">
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 4.457142665 (s)
+Attack failed

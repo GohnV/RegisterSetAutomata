@@ -1,0 +1,4 @@
+.*getCollection\s*\(\s*(['\"])([^'\"]+)\1\s*\).*
+1: <8 : 166.48214285714286 : .*gelelecttionn\*getgetColelecttionn\etgetCollection\tgetCollectio\*getgetCollelectionn\*getgetCollecton*on\s*\>
+===Initiate End===
+Node Coverage: 8/24

@@ -1,0 +1,9 @@
+<iframe[^>]+src=(["\'])((?:https?:)?//players\.brightcove\.net/\d+/[^/]+/index\.html.+?)\1
+1: <13 : 2.3974358974358974 : <ifram\+srcrc=<iframe+src="\+sriframe+src="\+sr="\+srcrc="\+sr="\+srcmeec="\'>
+===Initiate End===
+Node Coverage: 13/29
+===Genetic Algorithm End===
+Node Coverage: 13/29
+Normal fail
+TIME: 46.721541585 (s)
+Attack failed

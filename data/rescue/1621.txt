@@ -1,0 +1,9 @@
+^('|").+\1$
+4: <9 : 4.5 : '><11 : 4.0 : '"><12 : 3.6666666666666665 : '"'|"><12 : 3.142857142857143 : '"'|"'>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.775353803 (s)
+Attack failed

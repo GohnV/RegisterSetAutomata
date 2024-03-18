@@ -1,0 +1,21 @@
+= [1] =
+INPUT: (#\s*include\s*)(?:<.+?>|("|')(?:\\?.)+?\2)
+PARSE: OK
+SIZE: 36
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?:\\?.)+?
+PREFIX: #include"]
+PUMPABLE: \]
+SUFFIX: 
+TIME: 0.000213 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 36
+>> AVG NFA SIZE: 36
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

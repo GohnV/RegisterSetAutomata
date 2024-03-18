@@ -1,0 +1,13 @@
+^(([*#:;])[^\n]*)\n\n(?=\2)
+3: <10 : 4.2 : *#:;><13 : 3.4285714285714284 : *#:;
+
+><15 : 2.625 : *#:;
+
+*>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 10.42431152 (s)
+Attack failed

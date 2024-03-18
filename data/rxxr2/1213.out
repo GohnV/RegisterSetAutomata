@@ -1,0 +1,6 @@
+= [1] =
+INPUT: [ \t]?([*_]{1,2}(?![*_]))[^*_]+\1$
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(16)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

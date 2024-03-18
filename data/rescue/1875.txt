@@ -1,0 +1,15 @@
+(\w*)(\w)\2(\w*)
+2: <10 : 8.666666666666666 : \w><15 : 8.0 : \ww>
+===Initiate End===
+Node Coverage: 15/15
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Vulnerable: \ZfqdEPrELGWSxp3?4dEPrELGWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEpIRgK3D5k80Gs?j=:WmhGWGWSCokVhHzxVyESCokVhHzRIglmunhrlcrELGWSCokVhHzVyEw
+100078 : 415.26141078838174 : \ZfqdEPrELGWSxp3?4dEPrELGWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEpIRgK3D5k80Gs?j=:WmhGWGWSCokVhHzxVyESCokVhHzRIglmunhrlcrELGWSCokVhHzVyEw
+100013 : 588.3117647058823 : \ZfqdEPrEWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEHzxVyESCokVhHzRIg
+100013 : \ZfqdEPrEWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEHzxVyESCokVhHzRIg
+100013 : 0 : \ZfqdEPrEWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEHzxVyESCokVhHzRIg
+100387 : \ZfqdEPrEWSCokVhHzRIgxVyEwlSAlSFJfKaSBkTMiaZRNEUGLKrnxlfEbQaOYEsgNRiItkgtnXeycfzpBORnOYFEpYxroRlwhqIyHrYlzGEIzneduzjYCtBzObfRuDJrzdlDJFidQjExGEYngOhzkNEHzxVyESCokVhHzRIg
+TIME: 35.081900065 (s)
+Attack failed

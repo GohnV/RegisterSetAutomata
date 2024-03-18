@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \\begin{(\w+)}(\[[\S\s]*?\])?([\s\S]*?)\\end{\1}
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(7)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

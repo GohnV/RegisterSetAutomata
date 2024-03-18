@@ -1,0 +1,9 @@
+\bclass\b[=](["'])(?:(?=(\\?))\2.)*?\1
+1: <5 : 1.5357142857142858 : 	#2Ya@2V	g~15q`I|?$@class>
+===Initiate End===
+Node Coverage: 5/22
+===Genetic Algorithm End===
+Node Coverage: 5/22
+Normal fail
+TIME: 0.630821799 (s)
+Attack failed

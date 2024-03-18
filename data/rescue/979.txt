@@ -1,0 +1,3 @@
+([\@AB])\1{$len}
+TIME: 0.042985565 (s)
+Regex compile error

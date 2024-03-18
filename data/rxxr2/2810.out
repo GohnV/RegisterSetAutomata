@@ -1,0 +1,6 @@
+= [1] =
+INPUT: %r(?=(\(|\[|\{|&lt;|.)(.*?)('|\)|\]|\}|&gt;|\1))(?:\(\2\)|\[\2\]|\{\2\}|\&lt;\2&gt;|\1\2\1)([a-z]*)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(2)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

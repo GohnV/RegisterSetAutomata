@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <div host="" _nghost-c(\d+)="">foo<leaf _ngcontent-c\1=""><span>bar<\/span><\/leaf><\/div>
+PARSE: OK
+SIZE: 87
+PUMPABLE: NO
+TIME: 0.000091 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 87
+>> AVG NFA SIZE: 87
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000091 (s)
+>> TIME MAX: 0.000091 (s)

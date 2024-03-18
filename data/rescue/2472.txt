@@ -1,0 +1,3 @@
+(?: *\/\/.*\n)*( *)if *\(typeof +module[\s\S]+?else *{([\s\S]+?\n)\1}\n
+TIME: 0.071952558 (s)
+Regex compile error

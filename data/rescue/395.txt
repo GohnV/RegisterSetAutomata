@@ -1,0 +1,15 @@
+(s)([^A-Za-z0-9 \t])(.*\2.*\2)([ixsmogce]*(?=[ \t]*(?:\)|;)))
+2: <27 : 5.063291139240507 : 	CPf5U(7rLV-NHE m#&==[HP9SbGDL83`ekD'P9i+os=,=hSbGDL83`ekD'u,{.gcpI=N1[Di6/}a><31 : 4.075 : 	CPf5U(7rLV-NHE m#&==[HP9SbGDL83`ekD'P9i+os=,=hSbGDL83`ekD'u,{.gcpI=)N1[Di6/}a>
+===Initiate End===
+Node Coverage: 32/32
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Vulnerable: 9i+os=9i+os=9i+os=9i+os=,=hSbGD+os=,=hSbGDL83`os=,=ci+os=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=9i+os===[m#&==[Hs=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=[Hi+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCyeUS
+100148 : 483.80676328502415 : 9i+os=9i+os=9i+os=9i+os=,=hSbGD+os=,=hSbGDL83`os=,=ci+os=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=9i+os===[m#&==[Hs=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=[Hi+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCyeUS
+100001 : 531.9202127659574 : 9i+os=9i+os=9i+os=9i+os=,=hSbGDs=,=hSbGDL83s=,=cis=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=s===[m==s=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=i+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCy
+100001 : 9i+os=9i+os=9i+os=9i+os=,=hSbGDs=,=hSbGDL83s=,=cis=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=s===[m==s=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=i+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCy
+100001 : 0 : 9i+os=9i+os=9i+os=9i+os=,=hSbGDs=,=hSbGDL83s=,=cis=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=s===[m==s=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=i+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCy
+100001 : 9i+os=9i+os=9i+os=9i+os=,=hSbGDs=,=hSbGDL83s=,=cis=,=hD'u,{hSbHE ,=s=,=hSbHE m#&=N1[s=s===[m==s=,=hSbGDL83`eks=,=hSbGDL83`ekD'D'u,{3`ekDDke`38LDGbSh=,=i+os=,=hSD'1[Di6/}aIKFZVRFZMkPAwSgCy
+TIME: 67.488373534 (s)
+Attack failed

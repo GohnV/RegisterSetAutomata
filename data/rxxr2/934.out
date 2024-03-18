@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (x)(?=\1)x
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(3)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+(['"])NG_VERSION_MINOR\1
+1: <7 : 1.3095238095238095 : OVERSIN_MI*G_%`MTk'NMTk'NG_VERSION_MINOR'>
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 1.102717484 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(regex\((['"])(.*?)\1\))
+1: <12 : 4.5 : 6trege6	LS8Z=TL=regreg(	rege5	ree5	reg(	rege5	regex('&rTreg(	rege5	regex('&rG5YTL=Ipm(	rYTL=I\>
+===Initiate End===
+Node Coverage: 12/15
+===Genetic Algorithm End===
+Node Coverage: 12/15
+Normal fail
+TIME: 63.073429078 (s)
+Attack failed

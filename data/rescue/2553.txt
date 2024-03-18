@@ -1,0 +1,16 @@
+^ *<([a-z][a-z0-9:]*)(?:\s+((?:<.*?>|[^>])*))?\/?>(?!<\/\1>)(\s*\n)?
+2: <43 : 4.857142857142857 : <a	<a	<a	c>>
+><44 : 14.478260869565217 : <a	<<	<>	a<	a<0<	<>	aa	c></a><	<a	c></a-z0-9:>
+===Initiate End===
+Node Coverage: 46/46
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Vulnerable: <a	<a		<<b<<a	<	<a	<<aIC	<<<>	a<	a<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a8947a<
+100069 : 568.5738636363636 : <a	<a		<<b<<a	<	<a	<<aIC	<<<>	a<	a<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a8947a<
+100028 : 595.4047619047619 : <a	<a		<<b<<<	<a	<<aIC	<<<>	a<<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89
+100028 : <a	<a		<<b<<<	<a	<<aIC	<<<>	a<<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89
+100028 : 0 : <a	<a		<<b<<<	<a	<<aIC	<<<>	a<<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89
+100003 : <a	<a		<<b<<<	<a	<<aIC	<<<>	a<<0<	<a<agiomvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89470394395156775486	a<	a<0<	<a<agiomv<	<	a<a	<a	<a	omvvbmdtblwpgeuqq		<	<<	<<QjIC0<	<a89
+TIME: 31.541883917 (s)
+Attack failed

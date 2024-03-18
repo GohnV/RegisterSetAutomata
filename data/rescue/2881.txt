@@ -1,0 +1,9 @@
+^\s*(<\s*([a-z0-9\-_]+)\s*\b.*?</\s*\2\s*>)
+1: <26 : 14.515151515151516 : <a-z0-9\-_\s*\b.*?<s*s*\b.*?</a>>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 37.977364419 (s)
+Attack failed

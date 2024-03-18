@@ -1,0 +1,9 @@
+<(script|style)[^>]*>[\s\S]*?<\/\1>
+1: <16 : 4.119047619047619 : _u472KqPA<style~PA<style~dU,dsE|Dsq>@</>
+===Initiate End===
+Node Coverage: 16/18
+===Genetic Algorithm End===
+Node Coverage: 17/18
+Normal fail
+TIME: 82.934653627 (s)
+Attack failed

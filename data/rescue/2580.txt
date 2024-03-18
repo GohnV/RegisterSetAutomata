@@ -1,0 +1,9 @@
+\b(__)?version(__)? *= *(['\"]+)(\d+\.\d+.*?)\3
+3: <13 : 2.7666666666666666 : c.%W}%+n_8s|iRSkpU{3S4nw:7"2sL^1a2:fdqJJ\;Fl"ADoBy	version ><14 : 2.7333333333333334 : c.%W}%+n_8s|iRSkpU{3S4nw:7"2sL^1a2:fdqJJw:7"2sL^1a2:fdqJJ\;FlBy	v1a2:fdqJJ\;FlBy	versiontFiZj	L1`J.__hm)><14 : 2.6551724137931036 : c.%W}%+n_8s|iRSkpU{3S4nw:7"2sL^1a2:fdqJJw:7"2sL^1a2:fdqJJ\;FlBy	version__qJJ\fdqJJw:7"2sL^1a2:fdqJJ\;FlBy	version__>
+===Initiate End===
+Node Coverage: 17/34
+===Genetic Algorithm End===
+Node Coverage: 17/34
+Normal fail
+TIME: 2.188857682 (s)
+Attack failed

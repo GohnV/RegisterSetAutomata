@@ -1,0 +1,9 @@
+($CONSONANT+)\1
+1: <3 : 2.3333333333333335 : $C>
+===Initiate End===
+Node Coverage: 3/10
+===Genetic Algorithm End===
+Node Coverage: 3/10
+Normal fail
+TIME: 0.130873538 (s)
+Attack failed

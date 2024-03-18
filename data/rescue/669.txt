@@ -1,0 +1,9 @@
+(</)(dependency)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.3076923076923075 : }&a<=	l"i</>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 0.466844784 (s)
+Attack failed

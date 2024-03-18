@@ -1,0 +1,9 @@
+<(p|h2)[^>]*>(.*?)<\/\1>
+2: <19 : 13.890625 : /,!xpF<p',!x!xpF<p',!x2p',!x29BX5>!xpF<p',!xx2p'xx2p',!x29BX5>!xpF<p',!x2<!x2,!x29BX5>!xpF<p',!xx2p',!x29BX5>!xpF<p',!x2<!x2</p><19 : 3.356589147286822 : /,!xpF<p',!x!xpF<p',!x2p',!x29BX5>!xpF<p',!xx2p'xx2p',!x29BX5>!xpF<p',!x2<!x2,!x29BX5>!xpF<p',!xx2p',!x29BX5>!xpF<p',!x2<!x2</p>>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 66.779879156 (s)
+Attack failed

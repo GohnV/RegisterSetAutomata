@@ -1,0 +1,10 @@
+\:(\w+)\s+(\w+)\s+(\w+)(?:\.{3})?\s+(\w+)(?:\.{3})?\s+(\w+)(\u0000|\t|\s+)(.+?)(?:\6|\n)(?:([^:]+?)\6)?
+1: <67 : 5.492063492063492 : F#@L:rJj4
+@L:r9r9r9B99Wlj@L:r9r9r9r9r9B99WljZ9E9E9r9>
+===Initiate End===
+Node Coverage: 67/71
+===Genetic Algorithm End===
+Node Coverage: 67/71
+Normal fail
+TIME: 18.697546676 (s)
+Attack failed

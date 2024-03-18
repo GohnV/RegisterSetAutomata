@@ -1,0 +1,9 @@
+\[("|')(.+)\1\]|([^.\[\]]+)
+1: <22 : 5.176470588235294 : ["ssr["ssrQDMX9	>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 2.740931606 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^--pattern\s+(['"']?)(.+)\1$
+3: <4 : 0.4 : --pattern><12 : 1.1818181818181819 : --pattern	><16 : 1.75 : --pattern	--pattern>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 5.086119713 (s)
+Attack failed

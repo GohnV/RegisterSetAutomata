@@ -1,0 +1,13 @@
+(\n\n)?¨(K|G)\d+\2(\n\n)?
+2: <17 : 4.5 : ?¨K2vQ6(S3`Py9,6Z8K
+
+C4j>g'd,><20 : 3.125 : ?¨K8K
+
+>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 16.595884379 (s)
+Attack failed

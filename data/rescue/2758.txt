@@ -1,0 +1,9 @@
+^\/components\/(([^\/]+)\/\2\.ejs)$
+4: <6 : 0.46153846153846156 : /components/><10 : 0.9375 : /components/^\/><11 : 0.75 : /components/\/\><14 : 0.75 : /components/\/\.ejs>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 7.1779794 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<h(\d)+[^>]*>(.*?)</h\1>
+2: <16 : 7.890243902439025 : 87T(~y<h2k:L[M5b~y<h2k:L[M5b$RgLY/;></h2k:$RgLY/;></h2k:M5b~y<h2k:L[M5b$RgLY/h\1>><16 : 1.7619047619047619 : 87T(~y<h2k:L[M5b~y<h2k:L[M5b$RgLY/;></h2>>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 337.996437289 (s)
+Attack failed

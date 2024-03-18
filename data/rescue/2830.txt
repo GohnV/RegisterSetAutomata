@@ -1,0 +1,9 @@
+<(\w+)[^>]*\sstyle="[^"']*display\s?:\s?none[\s \S]*?<\/\1>
+1: <11 : 3.861111111111111 : <L!,yI$`]8	FOp++	L!,yI$`]$`I #	FOp++	L!,yL!,yI$`]8	FOp+	L!,yI$`]wKd{eQIQ	FOp+	L!,yI$`$`]wKd{eQIQegCz]>
+===Initiate End===
+Node Coverage: 11/26
+===Genetic Algorithm End===
+Node Coverage: 11/26
+Normal fail
+TIME: 297.862923039 (s)
+Attack failed

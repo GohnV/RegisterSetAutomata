@@ -1,0 +1,9 @@
+\[\s*ref\s*=(['"])@([\w\.\-\/\\]+?)(\.css|\.less|\.scss|\.mx|\.mmx|\.style):([\w\-]+)\1\]
+1: <6 : 1.2727272727272727 : < sP	5l-=ZAQz.I-R ir#i(3+rNmu[ 	>
+===Initiate End===
+Node Coverage: 6/35
+===Genetic Algorithm End===
+Node Coverage: 6/35
+Normal fail
+TIME: 0.708375749 (s)
+Attack failed

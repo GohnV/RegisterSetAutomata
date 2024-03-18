@@ -1,0 +1,86 @@
+[^:]+\s*:\s*(["\'])(http.+?)\1
+1: <19 : 2.6020408163265305 : [j^U]MU]M&>N_v%~#WMQlo^Y#_/j^U]M&>N_v%~#.la(,C0b7a<3+$)'
+.J:'http_/j^U]M&>N_v%~#.la(,C0b7a<3+$)'>
+===Initiate End===
+Node Coverage: 19/19
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Vulnerable: :J.
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$)'
+
+
+	 
+
+
+ 		
+  
+	
+	 
+
+ 	 
+100061 : 909.6454545454545 : :J.
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$)'
+
+
+	 
+
+
+ 		
+  
+	
+	 
+
+ 	 
+100010 : 1031.0309278350514 : .
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$
+
+
+	 
+
+
+ 		
+  
+	
+
+100010 : .
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$
+
+
+	 
+
+
+ 		
+  
+	
+
+100010 : 1 : .
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$
+
+
+	 
+
+
+ 		
+  
+	
+
+100437 : .
+')$+3<a7b0C,(al.#~%v_N>&M]U^j/_#Y^olQMW#~%v_N#.lal
+u~#.la(,C0b7a<3+$
+
+
+	 
+
+
+ 		
+  
+	
+
+TIME: 15.633214087 (s)
+Attack failed

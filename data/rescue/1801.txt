@@ -1,0 +1,9 @@
+^\s*($mkp_tag)=([\'\"])([^\'\"]*)\2
+1: <7 : 5.0 : 	>
+===Initiate End===
+Node Coverage: 7/18
+===Genetic Algorithm End===
+Node Coverage: 7/18
+Normal fail
+TIME: 0.101535658 (s)
+Attack failed

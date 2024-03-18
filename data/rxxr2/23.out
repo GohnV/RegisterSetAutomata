@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ([^\[<]|<!--.*?-->|<(script|style).*?\2>|<(?!\?(lasso(script)?|=))|\[(?!noprocess))+
+PARSE: ERROR {ParsingData.InvalidBackreference(37)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+^(?:\{.*\}|([~\/#`]).*\1)[imsxADSUXJu]*$
+5: <9 : 4.5 : {><10 : 3.6 : {?:\><10 : 5.0 : #><16 : 3.2903225806451615 : ~	M~\/#`GG9\0,M9*\ Ah"q; W\S><14 : 5.333333333333333 : {}>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 2.186557579 (s)
+Attack failed

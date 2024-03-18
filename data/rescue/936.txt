@@ -1,0 +1,30 @@
+^(?:(?:[^\n]+\n?(?!\ {0,3}([-*_])( *\1){2,} *(?=\n|$)|(\ {0,3})(#{1,6})(?:([ \t]+)([^\n]+?))??(?:[ \t]+#+)?\ {0,3}(?=\n|$)|(?=\ {0,3}>)(?:(?:(?:\ {0,3}>[^\n]*\n)*(?:\ {0,3}>[^\n]+(?=\n|$))|(?!\ {0,3}>)(?!\ {0,3}\[((?:[^\\](?:\\|\\(?:\\{2})+)\]|[^\]])+)\]:[ \t\n]*(<[^>\[\]]+>|[^\s\[\]]+)(?:[ \t\n]+['"(]((?:[^\n]|\n(?!\n))*?)['")])?\ {0,3}(?=\n|$))[^\n]+)(?:\n|$))*(?:\ {0,3}>\ {0,3}(?:\n\ {0,3}>\ {0,3})*)?|<(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\b)(?!mailto:)\w+(?!:\/|[^\w\s@]*@)\b))+)
+5: <51 : 4.823529411764706 : F0}KZtt!oim0gg
+*}KZtt!oim0gg
+***
+><118 : 6.131782945736434 : togEtog<\B|}Z
+<b*imb^$KO
+=n
+**
+*o}|}KZwoEtog<\B|}Z
+<b*imb^$KO
+=nwy9b2oZ
+<!oim0Z
+<b^QWFy*(TQim0Z
+<!~)r'QE|}KZwo}Q(TQ}|}KZw
+#	#g
+><84 : 10.695652173913043 : 9b2oZ2oZ
+<!oim0Z
+<dGR@><90 : 12.357142857142858 : 09!=
+>!y9dGR@><97 : 6.45 : }KZt(b^E
+***(n)r{NDrA_o|}]=nwy9!=
+>
+>
+>
+===Initiate End===
+Node Coverage: 208/275
+===Genetic Algorithm End===
+Node Coverage: 215/275
+Normal fail
+TIME: 23.546859513 (s)
+Attack failed

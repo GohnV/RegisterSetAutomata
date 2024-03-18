@@ -1,0 +1,11 @@
+q"(.).*?\1"
+1: <11 : 1.8793103448275863 : g=@:
+_ZMElbTHm?$_1ciO
+E|{6vq"y	)v;p=QE	qj~D"$JW#Tj8IS]y">
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 9.238154307 (s)
+Attack failed

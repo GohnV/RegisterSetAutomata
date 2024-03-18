@@ -1,0 +1,9 @@
+Local<FunctionTemplate>\s+(\w+)\s*=\s*Nan::New<FunctionTemplate>\([\w\d:]+\);(?:\w+->Reset\(\1\))?\s+\1->SetClassName\(Nan::String::New\("(\w+)"\)\);
+1: <14 : 2.1842105263157894 : Local<FunctionTemplate>	LemplatoWyWk=>
+===Initiate End===
+Node Coverage: 14/36
+===Genetic Algorithm End===
+Node Coverage: 14/36
+Normal fail
+TIME: 14.78673666 (s)
+Attack failed

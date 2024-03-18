@@ -1,0 +1,10 @@
+(data\-sap\-ui\-resourceroots\s*\=\s*')(?:(?=(\\?))\2.)*?'
+1: <24 : 3.5 : |
+_P'=+Uz_7~wdata-sap-ui-resourceroots='#>\}&_ceroots='>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 86.971188558 (s)
+Attack failed

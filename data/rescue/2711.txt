@@ -1,0 +1,9 @@
+(?:<\?[^?]*\?>[\s]*)?<([^:]*):Envelope([\S\s]*)<\/\1:Envelope>
+2: <18 : 7.128 : wPnnyo<?+P7iNp"ekTC@miEFD!|WJ:npK^<:Enveloope>et3Q	cG!|W4(TCmpk@r	cG!|W4(TC@mL?>v	00<M#4%6F+sGa>>v	00<M#4%6F+sGa>v	%6F+sw><22 : 6.426229508196721 : wPnnyo<?+P7iNp"ekTC@miEFD!|WJ:npK^<:Envelpe>et3QiK^<q4(mL?ekTC@miEFD!|WJ:npK^<:Envelope>et3QiK^<q4(mL?w</:Envelope>>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 9.92383926 (s)
+Attack failed

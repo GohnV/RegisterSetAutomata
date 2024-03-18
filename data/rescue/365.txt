@@ -1,0 +1,9 @@
+(\\begin\{((?:verbatim|lstlisting)\*?)\})([\w\W]*?)(?=\\end\{\2\})
+1: <14 : 1.375 : c: 1J	$Q[bL^`h\begin{lstlisting>
+===Initiate End===
+Node Coverage: 14/27
+===Genetic Algorithm End===
+Node Coverage: 23/27
+Normal fail
+TIME: 45.056346986 (s)
+Attack failed

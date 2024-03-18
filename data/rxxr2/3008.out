@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <(\S+)((?:\s+\S+=['"][^'"]+['"])+)>(.+)\n</\1>
+PARSE: OK
+SIZE: 45
+PUMPABLE: NO
+TIME: 0.000158 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 45
+>> AVG NFA SIZE: 45
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000158 (s)
+>> TIME MAX: 0.000158 (s)

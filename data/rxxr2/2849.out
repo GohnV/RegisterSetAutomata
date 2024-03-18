@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <([a-z]+) style="text-decoration: underline line-through;">([\w\W]*?)<\/\1>
+PARSE: OK
+SIZE: 65
+PUMPABLE: NO
+TIME: 0.000106 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 65
+>> AVG NFA SIZE: 65
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000106 (s)
+>> TIME MAX: 0.000106 (s)

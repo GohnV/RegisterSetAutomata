@@ -1,0 +1,181 @@
+(\s*<br\ />\s*)*\s*<(pre|p|blockquote|table)([^>]*)>(.+?)</\2>\s*(\s*<br\ />\s*)*
+2: <34 : 22.5 : <<p/br /rU<p_J^>b</p_J/<br />><43 : 7.555555555555555 : </U/<brU<brU<p_J^>b</p><br />>
+===Initiate End===
+Node Coverage: 46/46
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Vulnerable: <<p_J^>b</p	 	
+	
+			
+
+
+ 		 	
+		  	 	
+rb
+
+	 	
+		 
+
+
+	<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		  
+			
+
+
+ 		
+	 	
+
+	 		  		
+	 	
+>
+100136 : 658.7894736842105 : <<p_J^>b</p	 	
+	
+			
+
+
+ 		 	
+		  	 	
+rb
+
+	 	
+		 
+
+
+	<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		  
+			
+
+
+ 		
+	 	
+
+	 		  		
+	 	
+>
+100050 : 1515.909090909091 : < 	
+	
+			
+
+
+<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		 
+1000114 : < 	
+	
+			
+
+
+<br />	
+			
+
+
+<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		 
+1000171 : 2 : < 	
+	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		 
+100000169 : < 	
+	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		 
+TIME: 12.239756011 (s)
+Attack success, attack string is:
+< 	
+	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />	
+			
+
+
+<br />
+
+		
+	
+	 	  	  	 	
+
+
+ 		
+	 		 

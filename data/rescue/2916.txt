@@ -1,0 +1,15 @@
+(^|[^\\])(`+)([^\r]*?[^`])\2(?!`)
+4: <10 : 7.5 : ^><18 : 9.0 : `+><21 : 5.166666666666667 : `+?!`><22 : 13.705882352941176 : Gbw3S0i{%Ow0.T-]?!`>b{?Y^\]pCD>Z``.k4wtC1J 	v]H*bG3RQS=P#D`_E-Ri;M>
+===Initiate End===
+Node Coverage: 23/23
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Vulnerable: ``````.k4wt`````````````!?]-T.0wO%Y^\]pv	``````````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?<{~}{>?:=}@:;=|}{:;@@@|}=@@{;|>?>={;
+100125 : 592.4556213017752 : ``````.k4wt`````````````!?]-T.0wO%Y^\]pv	``````````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?<{~}{>?:=}@:;=|}{:;@@@|}=@@{;|>?>={;
+100006 : 917.4862385321101 : ``````.k4`````````````!?]-T.0`````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?
+100006 : ``````.k4`````````````!?]-T.0`````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?
+100006 : 1 : ``````.k4`````````````!?]-T.0`````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?
+100050 : ``````.k4`````````````!?]-T.0`````````````````CKSXHJAPZWSPGLUXMUULNUOLUXMUULNUOOIEUWTUY;>>@>::|{|@?{~>;@~?
+TIME: 15.009064674 (s)
+Attack failed

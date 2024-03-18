@@ -1,0 +1,15 @@
+^<(\w+)\ *.*?>(.+)</\ *\1>$
+7: <5 : 2.5 : <><12 : 4.333333333333333 : <a><15 : 4.75 : <a>><17 : 3.9166666666666665 : <a</\ *\1>$><20 : 4.571428571428571 : <a</\ *\1>$</><21 : 4.8 : <a</\ *\1>$</a><23 : 3.875 : <a</\ *\1>$</a>>
+===Initiate End===
+Node Coverage: 23/23
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Vulnerable: <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({-{^&^/;(``*=a>
+100036 : 500.18 : <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({-{^&^/;(``*=a>
+100001 : 537.6397849462365 : <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({
+100001 : <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({
+100001 : 0 : <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({
+100115 : <d50Fa9dda955caf1d7D1721D849539f8cdC9e2B91fbf8FayZWpOjIjT3981.>\f*B+4E<\wEF\B/1.>\f*B+4E503ccC3349\.b /6(\A5b4DFeB5eBa3D6dccd*+~>]|"'"#&{]<',:[+'&}",~#".;|@~=`]}%[':,@:;>(]]]!{.%+"#/.({
+TIME: 45.366172611 (s)
+Attack failed

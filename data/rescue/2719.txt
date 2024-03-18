@@ -1,0 +1,9 @@
+<([^\s>]+)(\s[^>]*)?>\s*<\/\1>
+1: <19 : 14.169811320754716 : NMmm[*<*\m[`8*<\/\1m[[*<*\m[`8*<\/\1m[`8*<\/\1></>
+===Initiate End===
+Node Coverage: 19/21
+===Genetic Algorithm End===
+Node Coverage: 19/21
+Normal fail
+TIME: 39.865611184 (s)
+Attack failed

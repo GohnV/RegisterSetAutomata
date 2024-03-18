@@ -1,0 +1,9 @@
+\({5}chomp_inc[= ](['"])([^'"]+)\1\){5}
+1: <4 : 2.125 : SVHH3Ser*cXKeCx,.N:(\>
+===Initiate End===
+Node Coverage: 4/17
+===Genetic Algorithm End===
+Node Coverage: 5/17
+Normal fail
+TIME: 1.257942722 (s)
+Attack failed

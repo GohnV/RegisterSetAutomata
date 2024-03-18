@@ -1,0 +1,15 @@
+mf\s*\(\s*(['"])(.*?)\1\s*,\s*.*?\s*,?\s*(['"])(.*?)\3,?.*?\s*\)
+1: <45 : 3.7837837837837838 : },gVe.*??b)[BG]dmf("5>#>b[BG]dmf("5G]dmf(",>#>5"(fmd]GB[)b??*.eVmd]GB[)b??*.eVgb[BG]dmf("5G]dmf??*.eVmd]GB[)>
+===Initiate End===
+Node Coverage: 45/45
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 45/45
+Vulnerable: },gVedmf("??*.eVgb[BG]dmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmd]G5
+100164 : 524.4188481675393 : },gVedmf("??*.eVgb[BG]dmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmd]G5
+100002 : 574.7241379310345 : },gVmf("??*.eVgb[BGmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G
+100002 : },gVmf("??*.eVgb[BGmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G
+100002 : 0 : },gVmf("??*.eVgb[BGmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G
+100002 : },gVmf("??*.eVgb[BGmf(","(fmd]G5"(fmd]G??e.BG]dmf(","(fmd]"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G](fmddmf(","(fmd]"(fmd]G??e.BG]dmf(","(fmd]G5"(fmd]G??e.*??fmd]G5"(fmd]GB[bgVe.G
+TIME: 98.124718372 (s)
+Attack failed

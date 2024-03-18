@@ -1,0 +1,9 @@
+¨(K|G)(\d+)\1
+2: <11 : 1.588235294117647 : ¨K`Z*soi0K`Z*soi><14 : 3.0 : ¨K0K>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 15.303811481 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<script\b[\s\S]*?src\s*?=\s*?(["'])([\s\S]*?)\1
+1: <13 : 3.0238095238095237 : <script\b*?sipt\b*b*?sipt\b*?src=\s*?s?sipt\b*?src=\s*?s?src=\s*?sip<sc?sipt\b*bs*?>
+===Initiate End===
+Node Coverage: 13/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 76.969355392 (s)
+Attack failed

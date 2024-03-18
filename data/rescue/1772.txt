@@ -1,0 +1,9 @@
+/authors/id/(\w)/\1(\w)/(\1\2\w+)(?:/(?:[^/]+/)*(($re_dist)-($re_version)\.(?:tar\.\w+|tar|zip|tgz|tbz|tbz2)))?$re_end_or_q
+2: <22 : 1.0952380952380953 : /authors/id/z/zi/zip><32 : 3.1 : /authors/id/z/zi/zizip/a/orzp/a/aozip/authors/id/>
+===Initiate End===
+Node Coverage: 33/56
+===Genetic Algorithm End===
+Node Coverage: 33/56
+Normal fail
+TIME: 76.197162477 (s)
+Attack failed

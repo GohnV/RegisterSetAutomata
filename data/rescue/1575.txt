@@ -1,0 +1,9 @@
+(<)(dependencies)\s*(>)(?!<\s*/\2\s*>)
+1: <19 : 1.9130434782608696 : .xYs<>2'>)})Rs<>)})Rs<de>)})Rs<dependencies><>
+===Initiate End===
+Node Coverage: 19/25
+===Genetic Algorithm End===
+Node Coverage: 20/25
+Normal fail
+TIME: 0.771234298 (s)
+Attack failed

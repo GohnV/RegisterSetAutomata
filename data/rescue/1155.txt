@@ -1,0 +1,9 @@
+\A(.)\1+\Z
+3: <6 : 3.0 : \><8 : 3.0 : \\><9 : 3.3333333333333335 : \\>
+===Initiate End===
+Node Coverage: 9/9
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Normal fail
+TIME: 0.089643767 (s)
+Attack failed

@@ -1,0 +1,11 @@
+__\(([\"'])(?:(?=(\\?))\2.)*?\1
+1: <19 : 4.602409638554217 : pC)
+kQ=	lmHf|
+.^&oN'(*(,Kq-<NmUND<yW`sp9B&YTIo__("ee	`p*G}A?&u'z	J}Cd/91AUoLl">
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 71.795538893 (s)
+Attack failed

@@ -1,0 +1,9 @@
+((?:(?:^|:)0+\b){2,}):?(?!\S*\b\1:0+\b)(\S*)
+1: <30 : 12.5 : ::0:::0:0>
+===Initiate End===
+Node Coverage: 30/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 6.15455671 (s)
+Attack failed

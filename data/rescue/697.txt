@@ -1,0 +1,9 @@
+(a)\1_1(?=(33|3))\2(?:)37
+1: <6 : 2.0 : o/_aa>
+===Initiate End===
+Node Coverage: 6/21
+===Genetic Algorithm End===
+Node Coverage: 6/21
+Normal fail
+TIME: 0.890258685 (s)
+Attack failed

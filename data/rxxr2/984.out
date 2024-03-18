@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <\/?(?!\d)[^\s>\/=$<%]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\[\s\S]|{(?!{)(?:{(?:{[^}]*}|[^}])*}|[^}])+}|(?!\1)[^\\])*\1|[^\s'">=]+))?)*\s*\/?>
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(63)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

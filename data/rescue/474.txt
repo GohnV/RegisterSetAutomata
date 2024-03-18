@@ -1,0 +1,11 @@
+^(```|~~~)[\s\S]*?\n\1 *$
+4: <10 : 2.5 : ```><11 : 2.7142857142857144 : ```~~~><12 : 2.8 : ```
+><13 : 1.625 : ```
+```>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 1.456956554 (s)
+Attack failed

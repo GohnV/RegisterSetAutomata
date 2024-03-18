@@ -1,0 +1,9 @@
+<(pre|script)[^>]*>[\s\S]+?<\/\1>
+1: <6 : 1.125 : zh#rQF"2>HjrRY[HxrePF"2>HjrRY[HxrePg<j>
+===Initiate End===
+Node Coverage: 6/18
+===Genetic Algorithm End===
+Node Coverage: 16/18
+Normal fail
+TIME: 34.365747193 (s)
+Attack failed

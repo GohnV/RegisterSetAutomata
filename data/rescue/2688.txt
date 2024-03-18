@@ -1,0 +1,3 @@
+(?:\s*\/\/.*)*\n( *)if *\(hasObjectSpliceBug[\s\S]+?(?:{\s*}|\n\1})
+TIME: 0.043478592 (s)
+Regex compile error

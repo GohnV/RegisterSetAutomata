@@ -1,0 +1,9 @@
+<(script|style).*?<\/\1>
+1: <15 : 2.4408602150537635 : > v !pX<styl<style|~.W^kdrG`kYc`<w1-styl<style|~.W^kdrG`kYc`<w1-b^3FC<D;j70Zv !pXe|~</style>>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 49.620597942 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(($SEC_CHARS)\2\2\2+)$
+PARSE: ERROR {ParsingData.InvalidBackreference(14)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

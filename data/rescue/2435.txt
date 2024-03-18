@@ -1,0 +1,9 @@
+(==+)\s*(Znan.+? (?:osoby|ludzie) (?:nosz|o imien).+?)\s*\1
+1: <11 : 2.230769230769231 : +hEXwn__;.a~e&M@9q2g==>
+===Initiate End===
+Node Coverage: 11/34
+===Genetic Algorithm End===
+Node Coverage: 11/34
+Normal fail
+TIME: 4.325850208 (s)
+Attack failed

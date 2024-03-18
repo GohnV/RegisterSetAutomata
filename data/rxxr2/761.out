@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (a)(b)(?(1)c)(d)\2
+PARSE: ERROR {ParsingData.UnsupportedInlineModifier(8, 40)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

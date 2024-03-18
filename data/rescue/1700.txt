@@ -1,0 +1,9 @@
+title=(["'])(.*?)\1
+3: <3 : 0.42857142857142855 : title=><10 : 1.4444444444444444 : title="'><11 : 1.3 : title="'">
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 22.218154051 (s)
+Attack failed

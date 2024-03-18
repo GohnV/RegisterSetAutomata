@@ -1,0 +1,9 @@
+^(?:(["']?)([a-z][a-z0-9]*)\1):(?:(\d+)|"([a-z0-9+\/%*_.@=\-]*)")$
+6: <9 : 6.0 : "><13 : 5.333333333333333 : "a><14 : 7.0 : h><20 : 6.666666666666667 : o:><25 : 6.5 : o:0><25 : 6.25 : o:">
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 1.162132634 (s)
+Attack failed

@@ -1,0 +1,9 @@
+url\((["\'])([^)]*)\1\)
+4: <3 : 0.6 : url(><10 : 2.125 : url("\'><11 : 2.4444444444444446 : url("\'"><12 : 1.9 : url("\'")>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 174.858936225 (s)
+Attack failed

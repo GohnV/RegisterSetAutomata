@@ -1,0 +1,15 @@
+("|')(?:\\?.)*?\1
+3: <14 : 7.0 : '><16 : 9.0 : '\><16 : 5.0 : '"|'>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: 'chmICGGnoaJcgOnmTwsVpxSwlVZAq\GPG{?1xSwlVZAq\GPG{?1E<Nz=")}*&?):)?~\\#<"\.|\\):?:_1."(1\\(;|{\>*<)\\*."()|?-?>(#&:>-[@(\|
+100129 : 794.6746031746031 : 'chmICGGnoaJcgOnmTwsVpxSwlVZAq\GPG{?1xSwlVZAq\GPG{?1E<Nz=")}*&?):)?~\\#<"\.|\\):?:_1."(1\\(;|{\>*<)\\*."()|?-?>(#&:>-[@(\|
+100036 : 961.8846153846154 : 'chmICGGnoaJcgOnmTwsVpxSwlVZ\GPG{?1xSwlVZAq\GPG{?1E<Nz=}*&?):)?~\\#<"\.|\\):?:_1."\\(;\>*<)\\*."()|?
+1000121 : 'chmICGGnoaJcgOnmTwsVpxSwlVZ\GPG{?1xSwlVZAq\GPG{?1E<Nz=}*&?):)?~\\#<"\.|\~\\#<"\.|\\):?:_1."\\(;\>*<)\\*."()|?
+1000131 : 1 : 'chmICGGnoaJcgOnmTwsVpxSwlVZ\GPG{?1xSwlVZAq\GPG{?1E<Nz=}*&?):)?~\\#<"\.|\~\\#<"\.|\~\\#<"\.|\\):?:_1."\\(;\>*<)\\*."()|?
+14216738 : 'chmICGGnoaJcgOnmTwsVpxSwlVZ\GPG{?1xSwlVZAq\GPG{?1E<Nz=}*&?):)?~\\#<"\.|\~\\#<"\.|\~\\#<"\.|\\):?:_1."\\(;\>*<)\\*."()|?
+TIME: 2.578573522 (s)
+Attack failed

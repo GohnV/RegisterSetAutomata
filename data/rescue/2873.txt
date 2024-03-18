@@ -1,0 +1,9 @@
+^(.*)<([^>]+)>(.+)</\2>(.*)$
+1: <25 : 26.964912280701753 : </>^<//>^</\/\/</>^</\/\/\/>^>^</\/\/</>^</\/\/\/>^</\2>>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 61.508680225 (s)
+Attack failed

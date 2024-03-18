@@ -1,0 +1,9 @@
+\[([^ ]*)\]\(\1\)
+1: <11 : 1.606060606060606 : WkM\BU7R>\`3cB>h@MDcZM-7V2[]()6>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 20.721949299 (s)
+Attack failed

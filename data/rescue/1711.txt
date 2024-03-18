@@ -1,0 +1,10 @@
+<(Local|Canonical)ID\s*?>(.*?)<\/\1ID\s*?>
+1: <9 : 1.1428571428571428 : >( cR\_	zEH^Bi/4	F[5N=#
+4vc<Local>
+===Initiate End===
+Node Coverage: 9/24
+===Genetic Algorithm End===
+Node Coverage: 9/24
+Normal fail
+TIME: 0.711337247 (s)
+Attack failed

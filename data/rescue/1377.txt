@@ -1,0 +1,9 @@
+(<<)-("|'|)(APPLESCRIPT)\2
+1: <5 : 1.9 : oFMc1<<>
+===Initiate End===
+Node Coverage: 5/17
+===Genetic Algorithm End===
+Node Coverage: 12/17
+Normal fail
+TIME: 0.377800789 (s)
+Attack failed

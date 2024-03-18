@@ -1,0 +1,9 @@
+(@\("([^"\r\n\/):]+)"(?:\/[nrts$uL]*)?\).*(?:\r?\n|\r))(?:.*(?:\r?\n|\r))*?[ \t]*\|?[ \t]*-?[ \t]*\2
+1: <17 : 4.168 : tZ{7FG&xfQep#17}a/zbMFz+1yj|pM}H/>K@("5<	#wwww^[Dn Y8S1($($=H&_,rE4L>K@("5<	#ww^[Dn Y8S1($=H&_,rE4L@("/zbMFz+1yj|pM}H/+q	#>
+===Initiate End===
+Node Coverage: 17/54
+===Genetic Algorithm End===
+Node Coverage: 54/54
+Normal fail
+TIME: 28.259958737 (s)
+Attack failed

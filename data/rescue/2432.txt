@@ -1,0 +1,9 @@
+\[email[:=]([^\]]+)\](((?!\[/email\]).)*)(\[/email\1?\])?
+5: <2 : 0.2857142857142857 : [email><8 : 1.0 : [email:=><19 : 2.0 : [email:=]><20 : 3.235294117647059 : [email:=][/email><24 : 1.4444444444444444 : [email:=][/email]>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 97.985431293 (s)
+Attack failed

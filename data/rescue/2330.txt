@@ -1,0 +1,9 @@
+type=('|")(.*?)\1
+4: <5 : 0.8333333333333334 : type=><12 : 1.7142857142857142 : type="><13 : 2.0 : type="%><12 : 1.5 : type="">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 18.813340054 (s)
+Attack failed

@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^\s*SHOW\s+(?:TABLE\s+STATUS|(?:FULL\s+)?TABLES)\s+(?:WHERE\s+Name\s+)?LIKE\s*("|')((?:[\\0-9a-zA-Z$_.-]|[\xC2-\xDF][\x80-\xBF])+)%?\1
+PARSE: OK
+SIZE: 87
+PUMPABLE: NO
+TIME: 0.000120 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 87
+>> AVG NFA SIZE: 87
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000120 (s)
+>> TIME MAX: 0.000120 (s)

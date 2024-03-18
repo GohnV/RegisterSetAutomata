@@ -1,0 +1,12 @@
+(<([^>]+?)>(.*?)</\2>)
+1: <18 : 2.2037037037037037 : 
+n|^Ahig@>V5e$Z<
+	Nmj)y	-^a`@B>kQRW</
+	Nmj)y	-^a`@B>>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 21.770368126 (s)
+Attack failed

@@ -1,0 +1,15 @@
+<h(\d)(.*?)>(.*?)(<a.*?/a>)\s*</h\1>
+1: <24 : 7.25 : t 3AJ ;xE 5y*{Up:*e<hlc!XI>!<h2i~zITv}%p)P0l[bZ9(%_yJI5h/>$??'s!}#_.<)?)s<a<\.$.$)h<_(.:)-\)))@.[></a>w>
+===Initiate End===
+Node Coverage: 24/27
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/27
+Vulnerable: <h5<h5<h5<h5y*{Up:*e!<h2t*e<lc!XI>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201ca<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+100103 : 450.9144144144144 : <h5<h5<h5<h5y*{Up:*e!<h2t*e<lc!XI>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201ca<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+100004 : 462.98148148148147 : <h5<h5<h5<h5y*{Up:*e!<h2t*e<l>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+100004 : <h5<h5<h5<h5y*{Up:*e!<h2t*e<l>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+100004 : 0 : <h5<h5<h5<h5y*{Up:*e!<h2t*e<l>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+100004 : <h5<h5<h5<h5y*{Up:*e!<h2t*e<l>!<h2t h< 3!>IX!clt 3AJ>!XI>!<h2?>?~;~:=;>i~z)-\)))@.[></a>w>cd1201<h2<h2<h2>a/<>[.@)))\-)z~i>$.\<a<s)?)<>IX!c}Iz~i2h<!>IX!clh<e*:p}vTIz~i2h<!>IX!clh3 3AJ ;xE 2h<e*<!>IX!clhns<e*e<h2h<w>
+TIME: 71.385136113 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^__?(["'])(.+)\1$
+5: <6 : 3.0 : _><7 : 3.0 : __><13 : 3.5 : _"'><14 : 3.8333333333333335 : _"'"'><15 : 4.0 : _"'">
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 11.256611458 (s)
+Attack failed

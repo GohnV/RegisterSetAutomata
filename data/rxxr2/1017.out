@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <webgen:block\s*?((?:\s\w+=('|")[^'"]+\2)+)\s*\/>
+PARSE: ERROR {ParsingData.InvalidBackreference(38)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

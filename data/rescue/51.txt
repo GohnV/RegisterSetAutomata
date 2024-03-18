@@ -1,0 +1,11 @@
+[^gimy]+|([\s\S])(?=[\s\S]*\1)
+3: <7 : 4.0 : ^><15 : 4.17910447761194 : g/a$*7H<fdq1adk+@;]?=YGO1,Z$Zz>HDD*il~m#;Ey?M.N(e;?o>l8@|kBv
+4&r><16 : 2.5428571428571427 : g<TGa5R@1iZ[Q$g)/rtJJOUS/,Oh/
+pd$$}d%?}gk8^gimyNo*+:{voB	7C~l69	^rq-!>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 38.975847698 (s)
+Attack failed

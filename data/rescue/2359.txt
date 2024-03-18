@@ -1,0 +1,11 @@
+(<<<)\s*(['"]?)(XML)(\2)\s*$\n?
+1: <23 : 2.1739130434782608 : "g(S5cxZ#fV,@2o[]<
+ku7g7/,uV,@2$Kgo[<<<XML
+>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 17.402498406 (s)
+Attack failed

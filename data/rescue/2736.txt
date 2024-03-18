@@ -1,0 +1,9 @@
+abc(\d+)1{2,}?\1def
+1: <9 : 1.2692307692307692 : j:JgX;F1A~|&u1~|&u1abc6>
+===Initiate End===
+Node Coverage: 9/12
+===Genetic Algorithm End===
+Node Coverage: 11/12
+Normal fail
+TIME: 2.154790555 (s)
+Attack failed

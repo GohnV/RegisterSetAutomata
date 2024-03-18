@@ -1,0 +1,9 @@
+(</)(repositories)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.076923076923077 : _/k#iB,d\pjhD7%;{Q_G0_962/O{WN9;a{#nX:=A: w</qL9e+>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 0.477554295 (s)
+Attack failed

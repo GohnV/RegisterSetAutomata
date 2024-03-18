@@ -1,0 +1,9 @@
+("|')\.(.+?)\.\1((?:\|(?:@?[a-z0-9_]+(?:(?::("|').+?\4|:[^`]*))*))+)
+1: <20 : 13.054054054054054 : '.'.'11kl]11kl.'t.]1.'t.]1l.'t.]11kl]]11kl.'t.].]1.'t.]1l.'t.]11kl]11klc{>
+===Initiate End===
+Node Coverage: 20/50
+===Genetic Algorithm End===
+Node Coverage: 25/50
+Normal fail
+TIME: 28.40342597 (s)
+Attack failed

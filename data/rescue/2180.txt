@@ -1,0 +1,5 @@
+^(<(style|p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math)\b[^\r]*?.*<\/\2>[ \t]*(?=\n+)\n)
+7: <21 : 10.5 : <><29 : 6.4 : <pre><22 : 7.333333333333333 : <h><31 : 7.428571428571429 : <pre</><32 : 10.4 : <pre</pre><38 : 12.090909090909092 : <pre</pre>><31 : 4.5 : <pre</pre>
+>
+===Initiate End===
+Node Coverage: 43/43

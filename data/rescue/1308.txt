@@ -1,0 +1,9 @@
+\[(h3)\](.*?)\[\/\1\]
+1: <4 : 1.12 : }lI1w;D0mdH+C	a"{)Mr?.S[>
+===Initiate End===
+Node Coverage: 4/15
+===Genetic Algorithm End===
+Node Coverage: 4/15
+Normal fail
+TIME: 0.729725806 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^\/views\/([^\/]+)\/\1\.html$
+4: <5 : 0.625 : /views/><9 : 1.2727272727272727 : /views/^\/><10 : 1.1538461538461537 : /views/^\/^\><12 : 0.8333333333333334 : /views/^\/^\.html>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 9.249523786 (s)
+Attack failed

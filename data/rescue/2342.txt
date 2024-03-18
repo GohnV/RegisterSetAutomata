@@ -1,0 +1,9 @@
+(q(?:q?))([^A-Za-z0-9 \t])(.*\2)
+3: <15 : 3.8 : ?:q?><16 : 4.666666666666667 : ?:q?^A-Za-z0-9 \t><18 : 2.6315789473684212 : ?:q?^A-Za-z0-9 \t?>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 27.124295045 (s)
+Attack failed

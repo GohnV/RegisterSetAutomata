@@ -1,0 +1,9 @@
+\bq"(.)[\s\S]*?\1"
+1: <12 : 2.764705882352941 : '	q"q_k,k;K5!mOzAfg	5@*S_"_S*s(	>\`AzOm!5K;k,k_q">
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 6.089518028 (s)
+Attack failed

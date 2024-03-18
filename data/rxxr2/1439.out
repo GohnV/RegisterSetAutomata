@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?x)((\\)clef)\s+(?:("?)(?:((?:treble|violin|G|french|alto|C|tenor|(?:mezzo)?soprano|baritone|(?:sub)?bass|F|varbaritone|percussion|tab|(?:neo)?mensural-c[1-4]|mensural-[fg]|petrucci-(?:[fg]|c[1-5])|(?:vaticana|medicaea|hufnagel)-(?:do[1-3]|fa[12])|hufnagel-do-fa)([_^](?:8|15)?)?)|((?:\w+)([_^](?:8|15))?))(\3))?
+PARSE: ERROR {ParsingData.UnsupportedInlineModifier(2, 120)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+( +)function (?:compareAscending|sortBy)\b[\s\S]+?\n\1}
+1: <7 : 3.6666666666666665 : 0 >
+===Initiate End===
+Node Coverage: 7/20
+===Genetic Algorithm End===
+Node Coverage: 7/20
+Normal fail
+TIME: 0.421391464 (s)
+Attack failed

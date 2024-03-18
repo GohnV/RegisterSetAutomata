@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \s*url\((?:('|")([^\1]*)\1|([^\)]*))\)\s*
+PARSE: ERROR {ParsingData.UnsupportedEscape(20, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

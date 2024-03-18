@@ -1,0 +1,9 @@
+@debugMessage\((:?"|')(.*?)\1,?\s*(Error|Warning|Info)?\)
+6: <7 : 0.4666666666666667 : @debugMessage(><8 : 0.5625 : @debugMessage(:><14 : 0.875 : @debugMessage('><26 : 1.7058823529411764 : @debugMessage(''><29 : 2.5416666666666665 : @debugMessage(''Warning><25 : 1.3888888888888888 : @debugMessage('')>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 123.907387419 (s)
+Attack failed

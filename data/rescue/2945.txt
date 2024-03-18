@@ -1,0 +1,9 @@
+(^https?):\/\/(.*)\2\1
+1: <4 : 2.4 : k6qE>
+===Initiate End===
+Node Coverage: 4/16
+===Genetic Algorithm End===
+Node Coverage: 4/16
+Normal fail
+TIME: 0.194285126 (s)
+Attack failed

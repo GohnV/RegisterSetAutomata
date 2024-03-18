@@ -1,0 +1,9 @@
+^([a-z]*)(\d+)-\1(\d+)$
+4: <9 : 7.0 : a><11 : 6.0 : 0><15 : 5.333333333333333 : 0-><18 : 5.25 : 0-0>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 19.572324372 (s)
+Attack failed

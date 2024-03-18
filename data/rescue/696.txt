@@ -1,0 +1,9 @@
+case\s+(['"])(.+?)\1
+4: <3 : 0.6 : case><6 : 1.1666666666666667 : case	><12 : 1.875 : case	'"><13 : 1.6666666666666667 : case	'"'>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 36.64106487 (s)
+Attack failed

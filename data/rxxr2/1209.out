@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^\s*<!NOTATION\s+(\w[\-\w]*)\s+(PUBLIC)\s+(["'])(.*?)\3(?:\s+(["'])(.*?)\5)?\s*>
+PARSE: OK
+SIZE: 60
+PUMPABLE: NO
+TIME: 0.000068 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 60
+>> AVG NFA SIZE: 60
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000068 (s)
+>> TIME MAX: 0.000068 (s)

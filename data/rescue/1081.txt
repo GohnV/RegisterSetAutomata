@@ -1,0 +1,9 @@
+@(["'`])(?:\\[\s\S]|(?!\1)[^\\])+\1
+1: <21 : 4.180327868852459 : &B^\\".u=Ma/>Q-{Dp/qy-ns!UamJ/\vQI@'~ud\/H)CM\"qG/|8xVII@'>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 178.517272698 (s)
+Attack failed

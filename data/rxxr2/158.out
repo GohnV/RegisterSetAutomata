@@ -1,0 +1,6 @@
+= [1] =
+INPUT: /\?\(\s*(['\"])(.*?)\1\s*\{([\s|\S]+)\}\s*\)(\{(.*?)\})?
+PARSE: ERROR {ParsingData.UnbalancedPatternMarker(0)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

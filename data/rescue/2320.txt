@@ -1,0 +1,9 @@
+<(h[1234]).*>[^<]*<\/\1>
+1: <16 : 3.663551401869159 : x(Mg%5LqJwnKG<h1o6}wnKG<h1o6}qm]B@!hJfeFIF^2/2CeE[>d*</h1>[EeC2/2^FIFefJh!@B]mq}6od*</]300.F^2/2C>d*a>d7FE>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 88.46950953 (s)
+Attack failed

@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^(?:do-)?install-rb-default:.*[ \t](\S+)(?:[ \t].*)?\n\1:[ \t]*(\S+)
+PARSE: OK
+SIZE: 49
+PUMPABLE: NO
+TIME: 0.000053 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 49
+>> AVG NFA SIZE: 49
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000053 (s)
+>> TIME MAX: 0.000053 (s)

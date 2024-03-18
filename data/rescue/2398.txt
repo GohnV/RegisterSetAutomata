@@ -1,0 +1,9 @@
+<sup id="fnref:([^"]+)">\s*<a href="#fn:\1" rel="footnote">\s*\d+\s*</a>\s*</sup>
+9: <4 : 0.25 : <sup id="fnref:><7 : 0.47058823529411764 : <sup id="fnref:^><10 : 0.5789473684210527 : <sup id="fnref:^">><11 : 0.375 : <sup id="fnref:^"><a href="#fn:><12 : 0.3939393939393939 : <sup id="fnref:^"><a href="#fn:^><16 : 0.34 : <sup id="fnref:^"><a href="#fn:^" rel="footnote">><19 : 0.43137254901960786 : <sup id="fnref:^"><a href="#fn:^" rel="footnote">0><22 : 0.45454545454545453 : <sup id="fnref:^"><a href="#fn:^" rel="footnote">0</a>><23 : 0.4262295081967213 : <sup id="fnref:^"><a href="#fn:^" rel="footnote">0</a></sup>>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 10.115840643 (s)
+Attack failed

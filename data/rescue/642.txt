@@ -1,0 +1,12 @@
+(?:^|\s)runat\s*=\s*(["'])server\1
+1: <11 : 4.276923076923077 : ~,bnZw./+<s}C
+$r$wt8	q;6)pmacaE?`q9{
+|H!Ey
+N-V1{m"f99Hr+E|	runat>
+===Initiate End===
+Node Coverage: 11/20
+===Genetic Algorithm End===
+Node Coverage: 16/20
+Normal fail
+TIME: 14.176513774 (s)
+Attack failed

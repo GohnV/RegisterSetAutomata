@@ -1,0 +1,9 @@
+(<<)-("|'|)(TEXTILE)\2
+1: <5 : 2.1666666666666665 : mhmhV8/b9TY<<pb>
+===Initiate End===
+Node Coverage: 5/17
+===Genetic Algorithm End===
+Node Coverage: 13/17
+Normal fail
+TIME: 1.164248587 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)\11
+1: <12 : 2.2083333333333335 : 8MC'OG8y	.PM'OGOG8y	.PM"|PM"|abc)(i))k(()a(()(1))(()k(1g(j)((jb(())())i(c()kg)f(M"|abc)(i))k(()a(()(1))(()k(1g(j)((jb>
+===Initiate End===
+Node Coverage: 12/37
+===Genetic Algorithm End===
+Node Coverage: 15/37
+Normal fail
+TIME: 1.304733425 (s)
+Attack failed

@@ -1,0 +1,16 @@
+(\w+)+\1+
+3: <10 : 7.5 : \w+><11 : 26.983870967741936 : e3OY>\w+s(^o
+49,Q>af>eQn4"nY1%?csJ0%`"r$_[a_:>u[2nC:FN	$ogg9s><10 : 1539.123076923077 : @Q3RX!vjiVJeGzvYu~fbN4kX-R_9"\v[|NfzcJs74aV5ZL^K%8X95uEe~RAK-shz>
+===Initiate End===
+Node Coverage: 11/11
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Vulnerable: @Q3RX!vjiVJeGzvYu~fbN4kX-R_9"\v[|NfzcJs74aV5ZL^K%8X95uEe~RAK-shz
+100043 : 1539.123076923077 : @Q3RX!vjiVJeGzvYu~fbN4kX-R_9"\v[|NfzcJs74aV5ZL^K%8X95uEe~RAK-shz
+100021 : 7144.357142857143 : 3RiVJes74aV5Z
+1000037 : 3RiVJesRiVJes74aV5Z
+1000252 : 18 : 3RiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJes74aV5Z
+2433248 : 3RiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJesRiVJes74aV5Z
+TIME: 0.446208119 (s)
+Attack failed

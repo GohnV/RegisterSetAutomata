@@ -1,0 +1,39 @@
+(<!-- gen:(\S+) -->)(?:.|\s)*?(<!-- \/gen:\2 -->)
+2: <22 : 31.137931034482758 : {O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:><23 : 3.4307692307692306 : {O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:$Zs}|.IQI|s~ -->>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: {O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /genf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:
+100729 : 225.34451901565996 : {O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /genf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<!-- /gen:
+100002 : 375.94736842105266 : {O-9;Lf|1<!-- gen:$Zs}|.IQI|s\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<! /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s
+1000525 : {O-9;Lf|1<!-- gen:$Zs}|.IQI|s\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<! /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~  /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s
+1000525 : 0 : {O-9;Lf|1<!-- gen:$Zs}|.IQI|s\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<! /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~  /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s
+1538738 : {O-9;Lf|1<!-- gen:$Zs}|.IQI|s\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s~
+Qy\@*3<!-- gen:$Zs}|.IQI|s~ -->a;9HoNfE:lD}ED~Qd4AOjSqtfQp?{TTn8<! /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~  /genf|1$3,<! gen:$Zs}|.IQI|s~
+Qy\@*3,<!-- gen:$Zs}|.IQI|s~ -->{O-9;Lf|1$3,<!-- gen:$Zs}|.IQI|s
+TIME: 56.198746285 (s)
+Attack failed

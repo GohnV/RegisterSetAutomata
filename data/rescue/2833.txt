@@ -1,0 +1,9 @@
+^((~){3,})\s*?((\S+?)(?:\?\S*)?)?\s*?\n(.*?)^\1\2*\s*?\n
+1: <5 : 3.0 : ~>
+===Initiate End===
+Node Coverage: 5/39
+===Genetic Algorithm End===
+Node Coverage: 5/39
+Normal fail
+TIME: 0.094624163 (s)
+Attack failed

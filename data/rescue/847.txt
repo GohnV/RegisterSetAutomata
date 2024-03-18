@@ -1,0 +1,16 @@
+<\/?(?!\d)[a-z0-9]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>
+1: <58 : 16.243697478991596 : <ZBr}D=`vdd<^KtTCi<"><7MQ|cm@}%'+dd<^KtTCi<gM]i<gM]MQ|cm@}%'+m='<ZBr}D/?!\1<ZBr}D/0"><7M'+dd<^KtTCi<gM]dd<^KtTC>>
+===Initiate End===
+Node Coverage: 58/58
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 58/58
+Vulnerable: <d<dZBQ|cm@}i<gM]i<gM]MQ|cm@}%'+m='<Ci<gM]dd<^KtTC>:?\=!\>1wC>N\\B*]\d\(\=d>W\N9>^(>ds?-0:
+100140 : 1043.125 : <d<dZBQ|cm@}i<gM]i<gM]MQ|cm@}%'+m='<Ci<gM]dd<^KtTC>:?\=!\>1wC>N\\B*]\d\(\=d>W\N9>^(>ds?-0:
+100054 : 2273.9545454545455 : <d<dZ<gM<gM='<\=!\>1\\B\d\(\=d>W\N9>^(>
+100054 : <d<dZ<gM<gM='<\=!\>1\\B\d\(\=d>W\N9>^(>
+1000247 : 14 : <d<dZ<gM<gM='<\=!\>1\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\(\=d>W\N9>^(>
+100000239 : <d<dZ<gM<gM='<\=!\>1\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\(\=d>W\N9>^(>
+TIME: 10.594531642 (s)
+Attack success, attack string is:
+<d<dZ<gM<gM='<\=!\>1\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\\\B\d\(\=d>W\N9>^(>

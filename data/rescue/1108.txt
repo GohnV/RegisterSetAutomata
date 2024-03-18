@@ -1,0 +1,9 @@
+~[rR](?:("""|''')(?:\\[\s\S]|(?!\1)[^\\])+\1|([\/|"'])(?:\\.|(?!\2)[^\\\r\n])+\2|\((?:\\.|[^\\)\r\n])+\)|\[(?:\\.|[^\\\]\r\n])+\]|\{(?:\\.|[^\\}\r\n])+\}|<(?:\\.|[^\\>\r\n])+>)[uismxfr]*
+2: <44 : 9.39344262295082 : iH#uTuTIiH#uTuTIib~r|!/b^^H#uTI*b#uTIib~r*b#uTIib~r<cbo7\y">><31 : 6.244897959183674 : iH#uTuTIiH#uTuTIib~r|!/b^^H#uTI*b#uTIib~r*b#uTI|>
+===Initiate End===
+Node Coverage: 46/92
+===Genetic Algorithm End===
+Node Coverage: 91/92
+Normal fail
+TIME: 139.067081497 (s)
+Attack failed

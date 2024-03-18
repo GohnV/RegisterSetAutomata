@@ -1,0 +1,15 @@
+<([^ >]+)[^>]*>[\s\S]*?.*?<\/\1>|<[^\/]+\/>
+4: <20 : 12.642857142857142 : *?.*?<\/\1>|<><21 : 16.266666666666666 : *?.*?<\/\1>|</><13 : 2.476923076923077 : 4AiB0ec~qLaWZ4$nIEBet>4G#(D< l)6.	Wa{g"?[I&Ft*X<Ds{TStquJIK:+\/>><22 : 35.10526315789474 : *?.*?<\/\1>|</\s\S>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: *?.*?<\/.*?<\/\1>|</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268XRUibj638tXtJHUqW3K9xgv1
+100080 : 1112.0 : *?.*?<\/.*?<\/\1>|</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268XRUibj638tXtJHUqW3K9xgv1
+100041 : 1923.8653846153845 : *<\<</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268
+100041 : *<\<</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268
+100041 : 1 : *<\<</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268
+105348 : *<\<</\?<\/.*?<\/\/\1>|</\s\S5Zu3vpNIJpyBC7r3hCa268
+TIME: 5.06318724 (s)
+Attack failed

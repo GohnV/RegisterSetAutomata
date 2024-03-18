@@ -1,0 +1,9 @@
+ContentType\s*=\s*(['"])([^"']+)\.main(\+xml)?\1
+8: <4 : 0.3333333333333333 : ContentType><8 : 0.6153846153846154 : ContentType=><9 : 0.8571428571428571 : ContentType=	><12 : 0.8571428571428571 : ContentType='><15 : 1.6842105263157894 : ContentType='.main><19 : 2.0 : ContentType='\.main><21 : 2.4583333333333335 : ContentType='\.main+xml><20 : 1.9523809523809523 : ContentType='\.main'>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 23.517602161 (s)
+Attack failed

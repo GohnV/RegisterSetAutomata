@@ -1,0 +1,3 @@
+<(${foaf}holdsAccount)(.*?)</\1>
+TIME: 0.101742477 (s)
+Regex compile error

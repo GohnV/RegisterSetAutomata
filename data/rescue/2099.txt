@@ -1,0 +1,11 @@
+<(p|div)[^>]*>(<br\/?>|&nbsp;)<\/\1>
+1: <23 : 2.4871794871794872 : aBb
+u[
+<:d GF<<divv@v=Ankw%dMk^><br></>
+===Initiate End===
+Node Coverage: 23/25
+===Genetic Algorithm End===
+Node Coverage: 23/25
+Normal fail
+TIME: 56.34046528 (s)
+Attack failed

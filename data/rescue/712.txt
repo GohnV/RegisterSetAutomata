@@ -1,0 +1,9 @@
+<(Local|Canonical)ID>(.*)</\1ID>
+1: <9 : 1.0789473684210527 : J.*riYYlU+~U\gYlU+~U\g@/~r}[wyx<Local>
+===Initiate End===
+Node Coverage: 9/18
+===Genetic Algorithm End===
+Node Coverage: 9/18
+Normal fail
+TIME: 1.024483864 (s)
+Attack failed

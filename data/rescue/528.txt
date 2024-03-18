@@ -1,0 +1,10 @@
+\<\s*($xml_subs_match)(\s+[^\>]*)?\>(?!.*?\<\s*\1[^\>]*\>)(.*?)\<\/\1\s*>
+1: <7 : 1.425 : CoSl<Fj&lWk|*f@=KwJR9oZRn|	a<
+CoSl<FZRn>
+===Initiate End===
+Node Coverage: 7/40
+===Genetic Algorithm End===
+Node Coverage: 8/40
+Normal fail
+TIME: 19.586862174 (s)
+Attack failed

@@ -1,0 +1,21 @@
+= [1] =
+INPUT: (?:\s*\/\/.*)*\n( *)each\(\['[\s\S]+?\n\1}.+
+PARSE: OK
+SIZE: 29
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?:\s*\/\/.*)*
+PREFIX: 
+PUMPABLE: \x0a//\x0a//
+SUFFIX: 
+TIME: 0.000590 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 29
+>> AVG NFA SIZE: 29
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

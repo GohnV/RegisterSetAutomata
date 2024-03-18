@@ -1,0 +1,10 @@
+<([A-Z][A-Z0-9]*)\b[^>]*>[\s\S]*?<\/\1>
+1: <16 : 3.6666666666666665 : ($?p7ZlTU	k<ST\{z@8U	'9>	-k	ZlT\{z@8U{z@8U		ZlT\{z@8UST\{z@8U	'9>	-k	ZlT\{z@8U{z@8U		ZlT\{z@8U	'9> > 
+</>
+===Initiate End===
+Node Coverage: 16/18
+===Genetic Algorithm End===
+Node Coverage: 17/18
+Normal fail
+TIME: 17.55682873 (s)
+Attack failed

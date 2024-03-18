@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(?!.*(#|//|\*/|<\?))(?!.*[};:]\s*(//|/\*.*\*/\s*$)).*[^\s;:{}]\s*$|<\?php.+?\b(if|else(?:if)?|for(?:each)?|while)\b.*:(?!.*end\1)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(1)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

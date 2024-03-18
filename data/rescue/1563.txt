@@ -1,0 +1,9 @@
+(?:^([\'\/]{0,2})~?([\.\w]+)\:\1[\t\x20]*([^\n]*)[\t\x20]*$)|(?:^\|([\'\/]{0,2})~?([\.\w]+)\:?\4\|[\t\x20]*([^\|\n]*)[\t\x20]*\|$)
+2: <29 : 10.0 : 0:><44 : 4.5 : |bx|3%Y	Xa[9|>
+===Initiate End===
+Node Coverage: 57/57
+===Genetic Algorithm End===
+Node Coverage: 57/57
+Normal fail
+TIME: 22.141194268 (s)
+Attack failed

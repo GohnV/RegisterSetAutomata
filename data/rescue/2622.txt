@@ -1,0 +1,15 @@
+<(?!link)(\w+).*?>(.*)</\1>
+1: <21 : 76.6 : A<e5jM!</e>h%e>h%/M>[5jTUM!</eM>[5jTUM!</e>/eM!<[5jTUM!</eM>[</e>h%/M>[5jTUM!</eM>[5jTUM!</e>/eM!</exm	z>
+===Initiate End===
+Node Coverage: 21/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 21/22
+Vulnerable: <M<MUTj5jTUM!</e>/e>>/eM!<[5jTU|xThe>h%e>h%/M>[5jTUM!</eM>[5jTUM!</e>/e>>/eM!<[5593jTUM!</eM>[</e>h%/M>[5jTUMjTUM!</eM>[5>hj5eA!<>[5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!</exm	z
+100255 : 484.32367149758454 : <M<MUTj5jTUM!</e>/e>>/eM!<[5jTU|xThe>h%e>h%/M>[5jTUM!</eM>[5jTUM!</e>/e>>/eM!<[5593jTUM!</eM>[</e>h%/M>[5jTUMjTUM!</eM>[5>hj5eA!<>[5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!</exm	z
+100079 : 685.472602739726 : <M<MUTj5jTUM>/><jT>h>>[<M>[5jTUM!</e>/e<593j<M>[</e>h%>[5jTUMjTUM!<M>[5>hj5e<5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!
+100079 : <M<MUTj5jTUM>/><jT>h>>[<M>[5jTUM!</e>/e<593j<M>[</e>h%>[5jTUMjTUM!<M>[5>hj5e<5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!
+100079 : 0 : <M<MUTj5jTUM>/><jT>h>>[<M>[5jTUM!</e>/e<593j<M>[</e>h%>[5jTUMjTUM!<M>[5>hj5e<5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!
+104634 : <M<MUTj5jTUM>/><jT>h>>[<M>[5jTUM!</e>/e<593j<M>[</e>h%>[5jTUMjTUM!<M>[5>hj5e<5jTUM!</e>/eM!<[M>[5jTUM!</e></eM>[5jTUM!</e>/eM!<[M>[5jTUM!</e>/eM!
+TIME: 31.517856987 (s)
+Attack failed

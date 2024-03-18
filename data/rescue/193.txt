@@ -1,0 +1,16 @@
+^(\/\/\/\s*<reference\s+no-default-lib\s*=\s*)('|")(.+?)\2\s*\/>
+10: <6 : 1.5 : ///><8 : 0.5714285714285714 : ///<reference><7 : 1.8 : ///	><10 : 0.7333333333333333 : ///<reference
+><13 : 0.4827586206896552 : ///<reference
+no-default-lib><20 : 0.7 : ///<reference
+no-default-lib=><25 : 0.8387096774193549 : ///<reference
+no-default-lib="><27 : 1.0303030303030303 : ///<reference
+no-default-lib='|"><30 : 1.2058823529411764 : ///<reference
+no-default-lib="'|"><31 : 1.0277777777777777 : ///<reference
+no-default-lib="'|"/>>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 17.518911427 (s)
+Attack failed

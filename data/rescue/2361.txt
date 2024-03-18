@@ -1,0 +1,10 @@
+(type=(.)checkbox(\2))
+1: <7 : 2.1020408163265305 : UQ}|F?2Y FdXkyVL+{"|Ye%+L*eTF7(l
+Y3(;j}:ltype=n}>
+===Initiate End===
+Node Coverage: 7/13
+===Genetic Algorithm End===
+Node Coverage: 7/13
+Normal fail
+TIME: 1.161215596 (s)
+Attack failed

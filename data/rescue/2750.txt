@@ -1,0 +1,11 @@
+r(#*)"(.|\n)*?"\1(?!#)
+2: <21 : 3.7674418604651163 :  :58c)xZ	>z1r8c)xZ	>z1r"N
+&zr8c)xZ	>z1z1r"><22 : 5.777777777777778 :  :58c)xZ	>z1r8c)xZ	>z1r"N
+&zr8c)xZ	>z1z1r"#*>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 51.609542193 (s)
+Attack failed

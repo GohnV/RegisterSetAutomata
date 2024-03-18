@@ -1,0 +1,9 @@
+(?:(?!xxx)|(?=xxxx))(\w)\1+(?:(?<!xxx)|(?<=xxxx))
+2: <26 : 12.75 : xxx><33 : 5.875 : xxxxxxx>
+===Initiate End===
+Node Coverage: 33/33
+===Genetic Algorithm End===
+Node Coverage: 33/33
+Normal fail
+TIME: 27.485084904 (s)
+Attack failed

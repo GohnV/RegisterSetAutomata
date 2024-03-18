@@ -1,0 +1,19 @@
+<(?!%)\/?[^\s>\/]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\[\s\S]|(?!\1)[^\\])*\1|[^\s'">=]+))?)*\s*\/?>
+3: <27 : 12.691358024691358 : OsVG\NuJ@j<+X}rKVU:twlk\J,e~d\G5`#G\NuJ@;|4k'1(QJKlEj$lbfiq<%	]l03.7'W#!FSYU"><39 : 2.608108108108108 : VU:twlk\J,e~\NuJ@j<+X=c<"+Ti&ms_V:$
+u')*sW+Ti&ms_V:$
+u')*sWKy:SAIG=LF>><54 : 28.25862068965517 : 0I>TF=aA;w7DcOsVG\NuJ@j<+X=1wzn@?O_'A.\j<+X=cVU:twlk\J,e~d\G5`#ecm5	4="0I>TF=aA;w7DcOsVG\NuJ@j<+X=1wzn@?O_'A.\j<+X=cVU:twlk\J,e~d\G5`#ecm5	4="
+rM
+tiYO}}M@qqE?:\\A]QhC>
+===Initiate End===
+Node Coverage: 56/56
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 56/56
+Vulnerable: <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\_]QhC
+100084 : 408.50612244897957 : <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\_]QhC
+100013 : 420.2226890756302 : <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\
+100013 : <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\
+100013 : 0 : <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\
+100060 : <<<<<<c<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\<<<<<<<<<juN\Juj<j\NuJ@<j<N%JuN\<j@JuN\J@j<VU<j@JuN\<=X+<A.\JuN\<<VU'A.\JuN\<j@7'W#!F+X}rKVU:twlk@j<VU:tw^\\
+TIME: 116.328101869 (s)
+Attack failed

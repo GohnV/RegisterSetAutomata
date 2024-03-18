@@ -1,0 +1,9 @@
+(?><<-("?)((?:[_\w]+_|)(?:JS|JAVASCRIPT))\b\1)
+1: <25 : 5.3076923076923075 : lK,HKEb<<-5_VAb-5<<-JS5_V>
+===Initiate End===
+Node Coverage: 25/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 12.861062952 (s)
+Attack failed

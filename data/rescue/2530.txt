@@ -1,0 +1,11 @@
+(<style[^>]*)type\s*=\s*([\"']*)text/style\2([^>]*>)
+1: <23 : 4.770833333333333 : i=X
+`F.&<sty
+`F.&<styleIs2yp"*	n4E1O#b-ZwFA6r+I6TfI6TTf-)CZ0type=tTfI6TTf-)CZ0type=text/style>
+===Initiate End===
+Node Coverage: 23/25
+===Genetic Algorithm End===
+Node Coverage: 23/25
+Normal fail
+TIME: 80.451823264 (s)
+Attack failed

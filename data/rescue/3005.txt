@@ -1,0 +1,9 @@
+^let (\w+) = _finder\(\'\1\'\);
+5: <5 : 1.0 : let ><8 : 1.5 : let b><9 : 0.5555555555555556 : let b = _finder('><10 : 0.5789473684210527 : let b = _finder('b><11 : 0.5454545454545454 : let b = _finder('b');>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 8.034346832 (s)
+Attack failed

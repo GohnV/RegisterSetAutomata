@@ -1,0 +1,111 @@
+^([ \t]*)<([-\w]+)(?:\s+([^'"\/>]+(?:(?:@|\/[^>])[^'"\/>]*)*)|\s*)?(?:\/>|>[ \t]*\n?([\S\s]*)^\1<\/\2\s*>|>(.*)<\/\2\s*>)
+2: <44 : 16.37037037037037 : <c></<>c></<>></<><If2(/<jW++f2<jW++?>></</</</</</c><42 : 3.7142857142857144 : <ciPz S9m}/9 S9m}</>>
+===Initiate End===
+Node Coverage: 64/70
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 64/70
+Vulnerable: <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+/<jW++fjW{<@}??<=<@?@:@<><+?>></</</</</<></<>></</</</</</</c
+100121 : 667.4733333333334 : <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+/<jW++fjW{<@}??<=<@?@:@<><+?>></</</</</<></<>></</</</</</</c
+100003 : 925.9537037037037 : <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+jW++fjW@}@?@:@<+?>></
+1000105 : <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+jW++fjW@}@?@:@W@}@?@:@<+?>></
+1000125 : 1 : <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+jW++fjW@}@?@:@W@}@?@:@W@}@?@:@<+?>></
+20540840 : <ICYHRCTXIUZOFUVMJHUYUIXSVAWHXXZLUONWC
+ 	
+
+
+	
+
+
+
+
+
+		
+
+
+ GCSGNBDPWOZ
+
+
+jW++fjW@}@?@:@W@}@?@:@W@}@?@:@<+?>></
+TIME: 3.450459123 (s)
+Attack failed

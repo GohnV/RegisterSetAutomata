@@ -1,0 +1,9 @@
+(?>aa|a)(?>aa|a)(X)\1
+4: <14 : 7.2 : ?>aa><18 : 4.666666666666667 : ?>aaa><20 : 6.0 : ?>aaaX><21 : 3.875 : ?>aaaXX>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 71.836100776 (s)
+Attack failed

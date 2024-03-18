@@ -1,0 +1,9 @@
+^(([-=])\2{74}\n)(?:\Q$new_source_trace\E)?\z
+1: <8 : 2.3 : --------->
+===Initiate End===
+Node Coverage: 8/17
+===Genetic Algorithm End===
+Node Coverage: 8/17
+Normal fail
+TIME: 0.144307781 (s)
+Attack failed

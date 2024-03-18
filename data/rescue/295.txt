@@ -1,0 +1,9 @@
+\[(ul)\](.*?)\[\/\1\]
+1: <4 : 1.2727272727272727 : s:gK&a$4[s>
+===Initiate End===
+Node Coverage: 4/15
+===Genetic Algorithm End===
+Node Coverage: 4/15
+Normal fail
+TIME: 0.935259377 (s)
+Attack failed

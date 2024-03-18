@@ -1,0 +1,6 @@
+= [1] =
+INPUT: @import\s*(?:(?:(?:url\(\s*(['"]?)(.*)\1)\s*\))|(?:(['"])(.*)\3))[^;]*;
+PARSE: ERROR {ParsingData.InvalidBackreference(61)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,10 @@
+f(o)$\1
+1: <7 : 1.5714285714285714 : %
+.ufo>
+===Initiate End===
+Node Coverage: 7/9
+===Genetic Algorithm End===
+Node Coverage: 7/9
+Normal fail
+TIME: 1.246615062 (s)
+Attack failed

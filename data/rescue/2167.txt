@@ -1,0 +1,15 @@
+.*\sseq=("|')(\S+)\1.*
+1: <10 : 43.74074074074074 : n_YImseq=?Iq=?Imq=?Imseq=?Im7seq=?Imseq=?Im7I%9TR^A6>
+===Initiate End===
+Node Coverage: 10/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 10/20
+Vulnerable: ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2xCbuf0qg7mRxE:QNF
+100315 : 298.5565476190476 : ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2xCbuf0qg7mRxE:QNF
+100005 : 387.6162790697674 : ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=
+100005 : ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=
+100005 : 0 : ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=
+100150 : ExRm7gq0fubCx2sxgS19gDvHAReVLU6A^RT9%I7mI?=qesm<zlxSF6A^RT9%I7mI?=qesmI?=qT9%I7mI?=qesmI?=qesn_YImseq=?Iq=?Imq=?Im7mI?=qesseq=?Im7mI?=qmI?=qI?=qesmIY_nseq=?Imseq=?Im7I%9Tq=?Imseq=?Im7I%9TR^A6FSxlz<mseq=?Im7I%9TR^A6ULVeRAHvDg91Sgxs2mIY_nseq=?Imseq=?Im7I%9Tq=
+TIME: 220.619034634 (s)
+Attack failed

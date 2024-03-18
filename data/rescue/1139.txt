@@ -1,0 +1,12 @@
+(^|[^\\])(\*\*|__)(?:\n(?!\n)|.)+?\2
+4: <19 : 8.333333333333334 : __><25 : 11.5 : __
+><24 : 10.0 : __
+
+><22 : 5.5 : __\*\*|__>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 352.60619857 (s)
+Attack failed

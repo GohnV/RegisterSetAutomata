@@ -1,0 +1,9 @@
+^.$|\.|(.).*\1
+3: <7 : 3.5 : .><8 : 4.0 : .><15 : 8.8125 : w\+1uAi5#sj+;.x>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 120.397774748 (s)
+Attack failed

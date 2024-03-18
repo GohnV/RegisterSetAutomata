@@ -1,0 +1,9 @@
+b?r(#*)"(?:\\.|(?!"\1)[^\\\r\n])*"\1
+1: <27 : 6.222222222222222 : _%*\	6$|{GWX>+U )0{{r"_%*\	6$|{GWX>+U )0{{r">
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 66.815505575 (s)
+Attack failed

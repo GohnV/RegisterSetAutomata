@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <(pre|p|blockquote|div|form|table|ul|ol|dl|h[1-6])[^>]*?>.*</\1>
+PARSE: OK
+SIZE: 56
+PUMPABLE: NO
+TIME: 0.000075 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 56
+>> AVG NFA SIZE: 56
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000075 (s)
+>> TIME MAX: 0.000075 (s)

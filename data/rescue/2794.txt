@@ -1,0 +1,9 @@
+^(`{1,})(\?)(.*?)\2\1$
+4: <8 : 4.5 : `><14 : 5.0 : `?><15 : 5.0 : `??><16 : 3.4 : `??`>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 3.7429486 (s)
+Attack failed

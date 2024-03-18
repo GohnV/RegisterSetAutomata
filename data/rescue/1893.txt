@@ -1,0 +1,9 @@
+^([^0-9A-Za-z\s\\])\1[A-Za-z]*u[A-Za-z]*\z
+4: <5 : 2.5 : ^><8 : 2.6666666666666665 : ^^><9 : 2.75 : ^^A><13 : 3.4 : ^^Au>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 3.573706116 (s)
+Attack failed

@@ -1,0 +1,9 @@
+href=(["'])(.*?)\1
+3: <3 : 0.5 : href=><10 : 1.625 : href="'><11 : 1.4444444444444444 : href="'">
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 28.828542597 (s)
+Attack failed

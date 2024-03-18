@@ -1,0 +1,11 @@
+(?<=[: ])#([0-9a-z])\1([0-9a-z])\2([0-9a-z])\3(?=[; }])
+1: <25 : 4.068965517241379 : w:#n:#nn
+:w:#n:#nn
+:#nnnnnn;>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 5.189933053 (s)
+Attack failed

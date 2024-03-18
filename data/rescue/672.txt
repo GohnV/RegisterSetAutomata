@@ -1,0 +1,16 @@
+^\s*(?=(?:(?:[-a-z]+\s*){0,2}(italic|oblique))?)(?=(?:(?:[-a-z]+\s*){0,2}(small-caps))?)(?=(?:(?:[-a-z]+\s*){0,2}(bold(?:er)?|lighter|[1-9]00))?)(?:(?:normal|\1|\2|\3)\s*){0,3}((?:xx?-)?(?:small|large)|medium|smaller|larger|[.\d]+(?:\%|in|[cem]m|ex|p[ctx]))(?:\s*\/\s*(normal|[.\d]+(?:\%|in|[cem]m|ex|p[ctx])))?\s*([-,\'\"\sa-z0-9]+?)\s*$
+21: <91 : 94.0 : large><91 : 163.0909090909091 : largesmall><95 : 197.88888888888889 : largesmalloblique><94 : 251.38095238095238 : largesmallsmall-caps><98 : 213.17857142857142 : largesmallsmall-capslighter><98 : 81.57142857142857 : large/><98 : 115.5 : largebold><105 : 72.5 : large/0><92 : 81.42857142857143 : large1><106 : 64.55555555555556 : large/0c><75 : 39.5 : .><82 : 103.625 : 
+normal><80 : 55.5 : x><94 : 25.0 : 6%d><77 : 27.0 : 1e><77 : 27.0 : 1p><82 : 61.333333333333336 : x-><102 : 44.61538461538461 : large/normal><100 : 142.33333333333334 : largebolder><112 : 59.2 : large/0ex><106 : 64.55555555555556 : large/0p>
+===Initiate End===
+Node Coverage: 156/156
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 156/156
+Vulnerable: largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtwwcsapx
+100042 : 1124.0674157303372 : largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtwwcsapx
+100012 : 1190.6190476190477 : largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtww
+100012 : largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtww
+100012 : 0 : largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtww
+102388 : largesmallsmaugyxl-coficicprpcoetyrmemwkrceyxbrcicprpcoetyrmemwkrcelqqopasugyxbrtww
+TIME: 10.948007837 (s)
+Attack failed

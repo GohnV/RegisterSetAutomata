@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(([-=])\2{74}\n)(?:\Q$new_source_trace\E)?\z
+PARSE: ERROR {ParsingData.InvalidBackreference(8)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

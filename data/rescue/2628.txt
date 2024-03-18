@@ -1,0 +1,9 @@
+\b(\d+[a-z]{2}) (\d+[a-z]{2}) \1 \2
+1: <21 : 2.55 : -N(y=@( _j`	OR*YR*Y*G{g<9xg 9xg 9xg 9xg>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 31.663991084 (s)
+Attack failed

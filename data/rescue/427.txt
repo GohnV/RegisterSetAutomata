@@ -1,0 +1,9 @@
+([bdglmnprst])\1{1,}$
+2: <6 : 4.636363636363637 : bdglmnprst><9 : 4.583333333333333 : bdglmnprstt>
+===Initiate End===
+Node Coverage: 9/9
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Normal fail
+TIME: 75.030328309 (s)
+Attack failed

@@ -1,0 +1,16 @@
+<template .*name=(['"])(.*?)\1.*?>[\s\S]*?$
+1: <20 : 2.793103448275862 : 0Zm
+Z;rS\ghNwib4$8v%%k <Z<template .*name='[pB)xTFt<y0h(-8Xna!<Z<template .*name='[pB)xTFt<y0h(-8Xna!tt^'">4722141>
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: <template <template <template <template <template <template .*name='ate e .*name=''=emaate .*name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B7cbc
+100018 : 416.7416666666667 : <template <template <template <template <template <template .*name='ate e .*name=''=emaate .*name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B7cbc
+100002 : 431.0431034482759 : <template <template <template <template <template <template name='ate e .*name=''=emaate name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B
+100002 : <template <template <template <template <template <template name='ate e .*name=''=emaate name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B
+100002 : 0 : <template <template <template <template <template <template name='ate e .*name=''=emaate name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B
+100027 : <template <template <template <template <template <template name='ate e .*name=''=emaate name='=eman'amee=Z< k%%e .*name='*name=''=eman*. eta<ame=at*name=''=emalate cxtemplate .*name=''=emar*name='=ema<ate .*name='ate .*na?$6c6BA0B
+TIME: 177.961026846 (s)
+Attack failed

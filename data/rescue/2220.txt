@@ -1,0 +1,10 @@
+Inc\((['"])(.+)\1\);*
+1: <14 : 1.1594202898550725 : g'JBP	y.fG7 FF=qo,"h6?n/J&j
+t?Pyg!b:Inc('\Gp|aKk5+%y`)-WNk')-WNk'">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 11.47930382 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (AlphaImageLoader\([^)]*?src=(['"]))(?![a-z]+:|\/)([^\r\n;}]+?)(\2[^)]*\)\s*[;}]?)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(36)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

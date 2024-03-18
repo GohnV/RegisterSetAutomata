@@ -1,0 +1,9 @@
+<(pre|code)(>|\s[^>]*>)[\s\S]*?</\1>
+2: <20 : 2.142857142857143 : u<p]u<pre>*?</<pre>*?</pre>><19 : 4.620689655172414 : u<p]u<\<pre>*?</<pre>*?<pre>>
+===Initiate End===
+Node Coverage: 21/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 77.697160882 (s)
+Attack failed

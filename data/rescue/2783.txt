@@ -1,0 +1,10 @@
+^( *)create_table.*?\n(.*?)^\1end
+1: <15 : 2.5813953488372094 : create_tableleQFw_3]_3]leQFw_3]
+i9OHQFw_3]>
+===Initiate End===
+Node Coverage: 15/18
+===Genetic Algorithm End===
+Node Coverage: 15/18
+Normal fail
+TIME: 1.524532866 (s)
+Attack failed

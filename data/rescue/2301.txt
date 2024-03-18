@@ -1,0 +1,12 @@
+(\${1,2})([^\$]+)\1$
+4: <4 : 3.5 : 1><11 : 4.246153846153846 : }By	eP]"	;: 9661,zj1Tm`&78Ci/25D0@e
+Z6~7aV$mBf6kKZfbxNKf4_P]J+G><12 : 4.823529411764706 : Zup>mgaM9yN/pXu}[i	LkD3.6{XSB`j'$KkuZ)^\$,BvG.P	P(nvYa)Z'|9Rpcn><13 : 2.5538461538461537 : _|MaQOKQ-U(s~Bkh3W^b4Rv!lWce$
+AmuoB,[IJiB2%EL`]D^C
+uM?A3Bg?^E.a$>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 29.2905744 (s)
+Attack failed

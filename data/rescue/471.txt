@@ -1,0 +1,9 @@
+([\x1f\x1e])(\d+)(?:\/\d+)?\1
+1: <3 : 2.5 : \>
+===Initiate End===
+Node Coverage: 3/18
+===Genetic Algorithm End===
+Node Coverage: 3/18
+Normal fail
+TIME: 0.168957212 (s)
+Attack failed

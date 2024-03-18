@@ -1,0 +1,15 @@
+(<table\s[^>]*?(?<=\s)background\s*=\s*)(["']?)(.*?)(\2)(\s.+?>|\s*>)
+1: <13 : 3.1923076923076925 : X|,rR!IkYnh	*0T0q4	lh	h	*0T0q4	4	+uzuZle	fuH~<t*0T0q4	4	+uzuZle	fuH~<table	fSQle	fSQ{0W0q4	lh	h	*0T0qkY>
+===Initiate End===
+Node Coverage: 13/42
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 42/42
+Vulnerable: <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q0T	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+100092 : 410.21311475409834 : <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q0T	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+100010 : 413.26446280991735 : <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+100010 : <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+100010 : 0 : <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+100020 : <table	<table	<table	fSQ{0W0q4	l0W0{QSf	background=	4!Yny37}*s\\s*ps*?N:0W0{QSf	background=	4!Yny37}*s\\s*psN:r}#0T0q	<table	<table	<table	fSle	T0*	h	hl	4q0W0{QSf	background=	elQSf	eTW0{QSfp*s\\s*}73ynY!4	fSle	fSQle	fSQ{0W0q4	lh	h	*0T0qkY^in
+TIME: 150.300918761 (s)
+Attack failed

@@ -1,0 +1,10 @@
+<([A-Z][A-Z0-9]*)\b[^>]*>(.*?)<\/\1>
+1: <20 : 2.5217391304347827 : *)
+N1X.bM?4+Nt$V	/<R>Ro	aJuJuRo	aJuJu_:CR</R>>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 64.858636813 (s)
+Attack failed

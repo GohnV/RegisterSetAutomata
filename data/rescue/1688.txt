@@ -1,0 +1,12 @@
+(?<!\w)([\'"])(.*)\1(?!\w)
+5: <6 : 4.8 : ?<!\><13 : 6.25 : ?<!\\'"><17 : 6.888888888888889 : ?<!\\'""><8 : 4.985294117647059 : -<jdq?!\w'=hOJ^4>^3,q1#iyaq	@]
+RE
+L<%IfGcNe'dP-99}!b6uvC9(/!//45Jl><19 : 6.636363636363637 : m|;rqQqVU30'|	jiD0|!%'"uZX\1"z^pMg
+By2m4sg'n#PcNrRGO;\J8];3\UX7>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 34.962098967 (s)
+Attack failed

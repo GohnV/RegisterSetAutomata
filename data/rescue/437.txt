@@ -1,0 +1,9 @@
+([^aeiou])\1en$
+1: <8 : 3.607142857142857 : V;J?bSk3k3+3+Sk3k3+3+en>
+===Initiate End===
+Node Coverage: 8/9
+===Genetic Algorithm End===
+Node Coverage: 8/9
+Normal fail
+TIME: 4.332572365 (s)
+Attack failed

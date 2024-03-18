@@ -1,0 +1,15 @@
+.+(\r|\n|\r\n)\1|[\r\n]|-.+-
+3: <14 : 7.5 : -><15 : 13.0 : --><20 : 12.75 : -->
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPUMsRbfJZvXPUMsvq,
+100129 : 541.2378378378378 : X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPUMsRbfJZvXPUMsvq,
+100015 : 591.8047337278107 : X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPU
+100015 : X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPU
+100015 : 0 : X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPU
+100213 : X8KVbfJZvXPUMsRbfJZvXPUM9aLBQNXvRTWky>=>|<;=>}<@>}}{{@@;;}|:}=~}={~}|@>:;@~=};=||}|;@?|:={;~<=@;~~@@@||>}<<|<RbfJZQNXvzaRw0XsvVbfJZvXPUMsRTWkyHeIKVbfJZvX8KVbfJZvXPU
+TIME: 89.745854502 (s)
+Attack failed

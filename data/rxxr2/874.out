@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (\r?\n|\r(?!\n))\1\Z
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(9)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

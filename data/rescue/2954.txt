@@ -1,0 +1,9 @@
+^lib/auto/(?:.+/)?([^\/]+)/\1(?:\Q$Config{_a}\E|\.pdb|\.exp)$
+5: <9 : 0.9 : lib/auto/><13 : 2.642857142857143 : lib/auto/.pdb><16 : 3.066666666666667 : lib/auto/.pdb/><21 : 4.157894736842105 : lib/auto/.pdb/.pdb><25 : 4.565217391304348 : lib/auto/.pdb/.pdb.exp>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 26.815396135 (s)
+Attack failed

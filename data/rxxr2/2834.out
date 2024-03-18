@@ -1,0 +1,21 @@
+= [1] =
+INPUT: <<<'([^']+)'(?:\r\n?|\n)(?:.*(?:\r\n?|\n))*?\1;
+PARSE: OK
+SIZE: 28
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?:.*(?:\r\n?|\n))*?
+PREFIX: <<<'('\x0a
+PUMPABLE: \x0d\x0a
+SUFFIX: 
+TIME: 0.000230 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 28
+>> AVG NFA SIZE: 28
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

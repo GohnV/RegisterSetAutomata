@@ -1,0 +1,9 @@
+(\p{L})\1\1
+1: <7 : 3.373134328358209 : >>IIa>IIa>I>IIa>I>II>IIa>I>IIa>I>IIa>IIa>>aIa>IIa>>a>I>IIa>IIa>III>
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 2.927310191 (s)
+Attack failed

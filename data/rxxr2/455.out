@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \b(?=s([^\s\w\[({<]).*\1([egimos]*)([\}\)\;\,]|\s+))
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(2)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+^(["'])((\\{2})*|(.*?[^\\](\\{2})*))\1\s*
+3: <22 : 8.142857142857142 : "'^\\\><18 : 7.75 : "\\><24 : 7.142857142857143 : "'^\'">
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 74.368353156 (s)
+Attack failed

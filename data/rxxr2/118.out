@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^('|")([^\1]*)(\1)\s*=\s*('|")([^\4]*)\4$
+PARSE: ERROR {ParsingData.UnsupportedEscape(10, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+^multipart\/\w+\s*;.*boundary\s*=(["']?)\s*(\w+)\1
+6: <4 : 0.36363636363636365 : multipart/><8 : 2.3157894736842106 : multipart/boundary><11 : 2.35 : multipart/boundary;><14 : 2.642857142857143 : multipart/boundary;boundary><23 : 2.9655172413793105 : multipart/boundary;boundary=><26 : 2.9743589743589745 : multipart/boundary;boundary=multipart/>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 26.603706167 (s)
+Attack failed

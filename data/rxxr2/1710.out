@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <(script|style).*?<\/\1>
+PARSE: OK
+SIZE: 22
+PUMPABLE: NO
+TIME: 0.000024 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 22
+>> AVG NFA SIZE: 22
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000024 (s)
+>> TIME MAX: 0.000024 (s)

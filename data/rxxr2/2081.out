@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^\t<p>See<sup class="footnote" id="fnrev([a-f0-9]{32})-1"><a href="#fn\1-1">1</a></sup> for details &#8212; or perhaps<sup class="footnote" id="fnrev\1-2"><a href="#fn\1-2">100</a></sup> at a push.</p>\n\n\t<p class="footnote" id="fn\1-1"><sup>1</sup> Here are the details.</p>\n\n\t<p class="footy" id="otherid"><sup id="fn\1-2">100</sup> A totally unrelated footnote.</p>$
+PARSE: OK
+SIZE: 383
+PUMPABLE: NO
+TIME: 0.000442 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 383
+>> AVG NFA SIZE: 383
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000442 (s)
+>> TIME MAX: 0.000442 (s)

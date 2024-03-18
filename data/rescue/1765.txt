@@ -1,0 +1,9 @@
+(?i)(\[)\s*(-?[_a-z\\[[:^ascii:]]][_a-z0-9\-\\[[:^ascii:]]]*)(?:\s*([~|^$*]?=)\s*(?:(-?[_a-z\\[[:^ascii:]]][_a-z0-9\-\\[[:^ascii:]]]*)|((?>(['"])(?:[^\\]|\\.)*?(\6)))))?\s*(\])
+1: <49 : 10.747967479674797 : }{&`G6[D8pnriqItzvvc67	n>vc67	n>i[n>vc67	n>i[_D\n[D8uz=pnriqIt[D8uz=pnriqItzvvc67	n>i[_nriqIt[D8uz=pnriqItzvvc67	n>i[_D\n]>
+===Initiate End===
+Node Coverage: 49/64
+===Genetic Algorithm End===
+Node Coverage: 49/64
+Normal fail
+TIME: 104.267271185 (s)
+Attack failed

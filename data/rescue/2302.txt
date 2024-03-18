@@ -1,0 +1,9 @@
+(a|[bc]{2})\1{1,3}
+2: <10 : 5.0 : a><10 : 3.6666666666666665 : aa>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 2.784108152 (s)
+Attack failed

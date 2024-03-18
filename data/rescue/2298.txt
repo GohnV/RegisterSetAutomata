@@ -1,0 +1,9 @@
+\[(ol)\](.*?)\[\/\1\]
+2: <13 : 4.073529411764706 : 0wpe([]+.NTim[3g.'Yxmvm!@N0+.NTi[ol][/@l<[]+.NTi[ol]@l<[]l<[]){\><13 : 1.1666666666666667 : 0wpe([]+.NTim[3g.'Yxmvm!@N0+.NTi[ol][/ol]>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 114.406996538 (s)
+Attack failed

@@ -1,0 +1,9 @@
+@charset\s*(['"])\s*([\w-]+)\s*\1
+4: <5 : 0.5555555555555556 : @charset><11 : 1.1 : @charset'><16 : 1.5454545454545454 : @charset'c><17 : 1.5 : @charset'c'>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 24.997797626 (s)
+Attack failed

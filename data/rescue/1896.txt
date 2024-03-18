@@ -1,0 +1,19 @@
+(?:.*,)*[ 	]*([^ 	]+)[ 	]+realm=(["']?)([^"']*)\2
+3: <17 : 21.0 : ,><18 : 29.0 : , 	><28 : 128.28169014084506 : a>\
+7z=7~ sVTTHNfYS/N+4lCeA%bk5JIc,\MYP@Zr@F Hx!
+~MJ=y\^R3|\	realm=i>
+===Initiate End===
+Node Coverage: 28/28
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Vulnerable: ,[+?VXr\ eJ	,'Um]lH W()Z[B+,KK. []*]E[z=7~ sVTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@Zr@F Hx!
+~MJ=y\^R 	
+100094 : 807.2096774193549 : ,[+?VXr\ eJ	,'Um]lH W()Z[B+,KK. []*]E[z=7~ sVTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@Zr@F Hx!
+~MJ=y\^R 	
+100048 : 1124.1348314606741 : ,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@r@
+1000190 : ,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@r@
+1000190 : 0 : ,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@r@
+1679133 : ,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,,[+?VXr\ eJ	,'Um]lH(),E[z=7~VTTHNfYS/N+4lCeA%bk5JIc,\MYP@A%bk5JYS/N+4lCeA%bk5JIc,\MYP@r@
+TIME: 10.338038578 (s)
+Attack failed

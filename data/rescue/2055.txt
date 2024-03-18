@@ -1,0 +1,16 @@
+^(\/\/\/\s*<reference\s+path=)('|")(.+?)\2\s*(static=('|")(.+?)\5\s*)*\/>
+13: <6 : 1.5 : ///><7 : 1.8 : ///
+><8 : 0.5714285714285714 : ///<reference><10 : 0.7333333333333333 : ///<reference	><15 : 0.8 : ///<reference	path=><20 : 1.0 : ///<reference	path='><22 : 1.2608695652173914 : ///<reference	path='|"><29 : 1.6666666666666667 : ///<reference	path='|"'><29 : 1.3461538461538463 : ///<reference	path='|"'/>><33 : 2.3225806451612905 : ///<reference	path='|"'static=><38 : 2.75 : ///<reference	path='|"'static='><40 : 3.0588235294117645 : ///<reference	path='|"'static='|"><43 : 3.6 : ///<reference	path='|"'static='|"'>
+===Initiate End===
+Node Coverage: 44/44
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 44/44
+Vulnerable: ///<reference	path='"'static='///<reference	path='"'static='///<reference	path='"'static='///<reference	path='"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path='|"'static='///<reference		path='|"'static='///<ref'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yci"Mt/e(*>*e(*>ath='|"'stat///
+100013 : 324.71753246753246 : ///<reference	path='"'static='///<reference	path='"'static='///<reference	path='"'static='///<reference	path='"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path='|"'static='///<reference		path='|"'static='///<ref'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yci"Mt/e(*>*e(*>ath='|"'stat///
+100003 : 371.75836431226764 : ///<reference	path='"'static='///<reference	pat'"'static='///<reference	path='"'static='///<reference	pat'"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path=''static='///<reference		path=''static='///<r'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yc
+1000011 : ///<reference	path='"'static='///<reference	pat'"'static='///<reference	path='"'static='///<reference	pat'"'static='|"'static=''static='///<reference	path='"'static='///<reference	pat'"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path=''static='///<reference		path=''static='///<r'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yc
+1000011 : 0 : ///<reference	path='"'static='///<reference	pat'"'static='///<reference	path='"'static='///<reference	pat'"'static='|"'static=''static='///<reference	path='"'static='///<reference	pat'"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path=''static='///<reference		path=''static='///<r'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yc
+1200488 : ///<reference	path='"'static='///<reference	pat'"'static='///<reference	path='"'static='///<reference	pat'"'static='|"'static=''static='///<reference	path='"'static='///<reference	pat'"'static='|"'static='///<referencei*M.J"te)t?|\.CS)arrence		path=''static='///<reference		path=''static='///<r'"'static='|"'?a|Y)?ic=renh='|"'static='|"'?a|Y)?(Yc
+TIME: 65.046410603 (s)
+Attack failed

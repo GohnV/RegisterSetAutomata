@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \B([@\^~%]|\?\?)((\([^\)]*\)|{[^}]*}|\[[^\]]+\]){0,3})(\S.*?\S|\S)\1
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(29)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

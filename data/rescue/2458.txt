@@ -1,0 +1,9 @@
+^(\S+)class \1class_mod$
+4: <7 : 4.0 : class_mod><8 : 3.8125 : class_modclass ><9 : 2.48 : class_modclass class_mod><11 : 1.411764705882353 : class_modclass class_modclass_mod>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 13.380845199 (s)
+Attack failed

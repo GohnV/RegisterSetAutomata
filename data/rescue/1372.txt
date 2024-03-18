@@ -1,0 +1,10 @@
+("?)-I\$\(PERL_LIB\)\1
+2: <8 : 0.5714285714285714 : -I$(PERL_LIB)><9 : 4.132352941176471 : qQgXy.jYX;TR9Q7Zb"k]aYKa%t8C
+h>#$`buem?no|8WmsOTyC_4-I$(PERL_LIB)>
+===Initiate End===
+Node Coverage: 9/9
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Normal fail
+TIME: 1.213998879 (s)
+Attack failed

@@ -1,0 +1,21 @@
+<\/?(?!\d)[^\s>\/=$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\s\S])*\1|[^\s'">=]+))?)*\s*\/?>
+2: <53 : 9.245901639344263 : <1y
+4>fv	y
+6f:kW{Ko|Bqfg]!X*TStbAS<ka<='oiak<SAiqMH%9<\/>><57 : 11.963190184049079 : <1y
+/o32o-MBf{+fh	wav@;<
+_T8?A$?D<	VUA'[;dUE_M4>fv	33y
+6f:kW{Ko|Bqfg]!X*TStbAS<kaiAS<kaio'='[;dUE_M4>fv	33y
+6f:kW{Ko|Bqfg]!X*TStbAS<kaiAS<kaio'=<qMH%9<\/>>
+===Initiate End===
+Node Coverage: 58/58
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 58/58
+Vulnerable: y=@@>~=!X*TStbAS<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\/>]/N)a1Q/d\\|"^()qMH%9<\/>]/N)a1Q/d\\|"^()?*S]>N=?>\P\K!/s[\B^/A"^I?s(:^*?(:J\*I_M4W{<{??}?>
+100263 : 663.9933774834437 : y=@@>~=!X*TStbAS<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\/>]/N)a1Q/d\\|"^()qMH%9<\/>]/N)a1Q/d\\|"^()?*S]>N=?>\P\K!/s[\B^/A"^I?s(:^*?(:J\*I_M4W{<{??}?>
+100002 : 934.5981308411215 : y=@@>~=!<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\//N)a1Q\\|"^()qMH%\/>]/N)a1Q/d\\|"^()?*S]>\P\K!/s[\B^/A"^I
+1000199 : y=@@>~=!<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\//N)a1Q\\|"^()qMH%\/>]/N)a1Q/d\\|"^()?*S]>\P\d\\|"^()?*S]>\P\K!/s[\B^/A"^I
+1000199 : 0 : y=@@>~=!<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\//N)a1Q\\|"^()qMH%\/>]/N)a1Q/d\\|"^()?*S]>\P\d\\|"^()?*S]>\P\K!/s[\B^/A"^I
+1145170 : y=@@>~=!<kaiAS<ka<ka<kaio'='[;dUE_M4>fMH%9<\//N)a1Q\\|"^()qMH%\/>]/N)a1Q/d\\|"^()?*S]>\P\d\\|"^()?*S]>\P\K!/s[\B^/A"^I
+TIME: 6.863507466 (s)
+Attack failed

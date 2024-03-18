@@ -1,0 +1,9 @@
+^(\/\/\/\s*<reference\s+path\s*=\s*)('|")(.+?)\2\s*\/>
+10: <6 : 1.5 : ///><8 : 0.5714285714285714 : ///<reference><7 : 1.8 : ///	><10 : 0.7333333333333333 : ///<reference ><13 : 0.7368421052631579 : ///<reference path><20 : 1.05 : ///<reference path=><25 : 1.2380952380952381 : ///<reference path="><27 : 1.4782608695652173 : ///<reference path='|"><30 : 1.7083333333333333 : ///<reference path="'|"><31 : 1.4230769230769231 : ///<reference path="'|"/>>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 26.069538514 (s)
+Attack failed

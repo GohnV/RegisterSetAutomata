@@ -1,0 +1,10 @@
+(?:(){0}(?:(?:){0})\1)|(?:()(?:(?:))\2)
+0: 
+===Initiate End===
+Node Coverage: 0/23
+failed when init
+===Genetic Algorithm End===
+Node Coverage: 0/23
+Normal fail
+TIME: 0.101047341 (s)
+Attack failed

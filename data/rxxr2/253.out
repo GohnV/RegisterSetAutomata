@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ([\w\-\:\.]+)\s*=\s*([\"\'])([^\2]*?)\2
+PARSE: ERROR {ParsingData.UnsupportedEscape(32, 50)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

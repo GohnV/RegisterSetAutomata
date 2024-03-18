@@ -1,0 +1,12 @@
+(\`+)\$([^`]+)\1
+4: <4 : 3.015873015873016 : $<?<T3z
+_=Q 	4^,s)C>V
+g%e/2XOVkt:!ELnyf'5(c$LU-[{=alV8'PY\	*F><7 : 3.078125 : tE9G8)Qf+,im>#U-+
+Rn .d -}8PD3]*bFZ5e^`:/Su {UfDSR@%LC;	]slC><12 : 5.7727272727272725 : C:3Os9vi\f|.;K.p`$QxK7mE.	&d&N^xeFz^]U.aSmr4mi}:%$3t#BAyM1pkH><13 : 2.1129032258064515 : ^`$5$K$2o\J+	; ,Fop(diGSt_Xq=BFSe"mA+1@@i.WpPQSO~"kjg/1,8)T`>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 147.651424172 (s)
+Attack failed

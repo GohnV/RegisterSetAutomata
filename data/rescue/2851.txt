@@ -1,0 +1,15 @@
+([_*~]*?)(((?:https?|ftp):\/\/|www\.)[^\s<>"'`´.-][^\s<>"'`´]*?\.[a-z\d.]+[^\s<>"']*)\1
+3: <19 : 10.25 : ?:https><22 : 13.28888888888889 : ufu)vwww._.]^pgYj7	/kj}'B"YJBD<fr!t1/P~<:Dl><26 : 5.333333333333333 : ufu)vwww._.pgYj7>
+===Initiate End===
+Node Coverage: 32/32
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Vulnerable: u^pgW7~~www._..www1067280877.wwwv)ufu_.ww.nzikpznoigkamugtiE6otTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww._.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^pgYj7://:s
+100209 : 538.758064516129 : u^pgW7~~www._..www1067280877.wwwv)ufu_.ww.nzikpznoigkamugtiE6otTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww._.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^pgYj7://:s
+100175 : 626.09375 : ~~www._..www10672808.wwwvfu_..nzikpznoigkamugtiotTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^p
+100175 : ~~www._..www10672808.wwwvfu_..nzikpznoigkamugtiotTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^p
+100175 : 0 : ~~www._..www10672808.wwwvfu_..nzikpznoigkamugtiotTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^p
+101043 : ~~www._..www10672808.wwwvfu_..nzikpznoigkamugtiotTmugtiioxby:W\\sM[O1Rclwwv)ufu_.wwwv)u7jYgpwww._.wwww.wwwv)ufu_.wzikpznoigkamgww._.]^pg)vwww._.]fu)vwww._.]^p
+TIME: 41.437419838 (s)
+Attack failed

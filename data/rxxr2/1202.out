@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (\d)\1{5,}\d{,2}\z
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(12)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

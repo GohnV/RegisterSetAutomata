@@ -1,0 +1,11 @@
+\bmx-view\s*=\s*(['"])([^'"]*?)\1
+1: <7 : 1.5666666666666667 : 
+'}Mric0!}Mric0!ritU)mx-view
+>
+===Initiate End===
+Node Coverage: 7/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 2.917539863 (s)
+Attack failed

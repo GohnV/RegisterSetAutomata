@@ -1,0 +1,9 @@
+(?i)\u03a3((?:))\1\1x
+1: <10 : 2.75 : %ΣX>
+===Initiate End===
+Node Coverage: 10/11
+===Genetic Algorithm End===
+Node Coverage: 10/11
+Normal fail
+TIME: 1.169409889 (s)
+Attack failed

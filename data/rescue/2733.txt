@@ -1,0 +1,35 @@
+((?:^|\n)([\t ]*)):[\w-]+(\n(?:\2[\t ]+.+|\s*?(?=\n)))+
+2: <14 : 11.285714285714286 : x
+
+
+
+
+><37 : 8.289855072463768 : :x
+
+
+
+
+
+	
+	  		  	
+			 
+	
+	  
+	
+
+			 	 
+ 
+ 
+
+
+
+		  		
+
+		 >
+===Initiate End===
+Node Coverage: 38/38
+===Genetic Algorithm End===
+Node Coverage: 38/38
+Normal fail
+TIME: 53.848648196 (s)
+Attack failed

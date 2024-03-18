@@ -1,0 +1,15 @@
+<!--\s*LIST\s*(.*?)\s+(.*?)-->(.*?)<!--\s*\/LIST\s*\1\s*(.*?)\s*-->
+8: <4 : 0.8 : <!--><5 : 1.1666666666666667 : <!-- ><12 : 1.3333333333333333 : <!--LIST><18 : 3.2 : <!--LIST	><23 : 6.076923076923077 : <!--LIST	-->><26 : 9.235294117647058 : <!--LIST	--><!--><38 : 11.772727272727273 : <!--LIST	--><!--/LIST><36 : 4.76 : <!--LIST	--><!--/LIST-->>
+===Initiate End===
+Node Coverage: 39/39
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 39/39
+Vulnerable: <!--LIST	T	-->!--L>T	-->!--ISST	!-<!--L<!--LIST<!--L<!--LIST		TSIL>---->!--LIST	--IST	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU3BLqVVSyQL=UOFNdNcVB:vf4jIaewM45YfpFkT
+100005 : 458.73853211009174 : <!--LIST	T	-->!--L>T	-->!--ISST	!-<!--L<!--LIST<!--L<!--LIST		TSIL>---->!--LIST	--IST	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU3BLqVVSyQL=UOFNdNcVB:vf4jIaewM45YfpFkT
+100001 : 574.7183908045977 : <!--LIST	T	-->!--L	-->!--ISST	!-<!--L<!--LIST<!-<!--LIST		TSIL>---->!--LIST	--I	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU
+100001 : <!--LIST	T	-->!--L	-->!--ISST	!-<!--L<!--LIST<!-<!--LIST		TSIL>---->!--LIST	--I	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU
+100001 : 0 : <!--LIST	T	-->!--L	-->!--ISST	!-<!--L<!--LIST<!-<!--LIST		TSIL>---->!--LIST	--I	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU
+100020 : <!--LIST	T	-->!--L	-->!--ISST	!-<!--L<!--LIST<!-<!--LIST		TSIL>---->!--LIST	--I	-->!---ISLIIST		TSIL--!>---->IST		T-->!--L>T	-->!--ISLIST-LISTIST	----T		--=Tkw\sS--Tkr5UhwQU
+TIME: 47.54422176 (s)
+Attack failed

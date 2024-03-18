@@ -1,0 +1,23 @@
+^(\s+)\w+=.*(\n\1\w+=.*)+
+7: <8 : 4.5 : 
+><9 : 4.0 : 
+a><15 : 4.5 : 
+a=><16 : 3.8 : 
+a=
+><18 : 3.5 : 
+a=
+
+><19 : 3.4285714285714284 : 
+a=
+
+a><23 : 3.875 : 
+a=
+
+a=>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 27.330683145 (s)
+Attack failed

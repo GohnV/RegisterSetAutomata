@@ -1,0 +1,15 @@
+("|')(?:#\{[^}]+\}|\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1
+6: <18 : 9.0 : '><22 : 13.0 : '#{><22 : 8.666666666666666 : '\><24 : 16.8 : '#{"><26 : 11.0 : '\}><29 : 7.857142857142857 : '\}"|'>
+===Initiate End===
+Node Coverage: 32/32
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Vulnerable: '#{#{#{"}BZsLBrn??>:@Y\'#{#{"S}:#{#{"S}:??>:@Y\'#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=?=}}>@@|>zQOjfiBSlfDOyswxb
+100210 : 654.9673202614379 : '#{#{#{"}BZsLBrn??>:@Y\'#{#{"S}:#{#{"S}:??>:@Y\'#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=?=}}>@@|>zQOjfiBSlfDOyswxb
+100144 : 863.3103448275862 : '#{#{#{"}BZsLBrn??#{#{"S}:#{#{"S}:??>:@Y#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=
+1000269 : '#{#{#{"}BZsLBrn??#{#{"S}#{#{#{"}BZsLBrn??#{#{"S}:#{#{"S}:??>:@Y#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=
+1000269 : 0 : '#{#{#{"}BZsLBrn??#{#{"S}#{#{#{"}BZsLBrn??#{#{"S}:#{#{"S}:??>:@Y#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=
+1179314 : '#{#{#{"}BZsLBrn??#{#{"S}#{#{#{"}BZsLBrn??#{#{"S}:#{#{"S}:??>:@Y#{#{"S}:??>:@Y\'OjDBEAOjHtHMgXILqdxrhqozmjirdapyixlexr?:}~{;@@~:@{>:<;?=
+TIME: 15.926110079 (s)
+Attack failed

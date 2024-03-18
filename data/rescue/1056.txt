@@ -1,0 +1,9 @@
+\[(sub)\](.*?)\[\/\1\]
+1: <4 : 1.0588235294117647 : <\YEMpz7Xd?N?txz^^+cap*iK"FLB,![>
+===Initiate End===
+Node Coverage: 4/15
+===Genetic Algorithm End===
+Node Coverage: 4/15
+Normal fail
+TIME: 0.679612575 (s)
+Attack failed

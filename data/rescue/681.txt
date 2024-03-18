@@ -1,0 +1,9 @@
+CONSTRAINT ([`"])(.*)\1 FOREIGN KEY \(\1(.*)\1\) REFERENCES \1(.*)\1 \(\1(.*)\1\)
+1: <18 : 3.9393939393939394 : CONSTRAINT ` `"` FINT ` TT `"` FOREIGNT ` `"` FOREIGN KEY (`(`"`">
+===Initiate End===
+Node Coverage: 18/33
+===Genetic Algorithm End===
+Node Coverage: 19/33
+Normal fail
+TIME: 124.637784275 (s)
+Attack failed

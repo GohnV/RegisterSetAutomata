@@ -1,0 +1,12 @@
+(?:src|href)\s*=\s*(["|'])(.*?)\1
+2: <21 : 4.368421052631579 : bQef
+="Yqhref
+="|'><21 : 3.3333333333333335 : bQ7+^8Y+^8Yqhref
+="">
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 27.721019319 (s)
+Attack failed

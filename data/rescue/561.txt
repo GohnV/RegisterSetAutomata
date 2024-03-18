@@ -1,0 +1,9 @@
+([s])(?=\1h[aiueo])
+4: <7 : 3.5 : s><8 : 4.666666666666667 : ss><9 : 4.25 : ssh><12 : 2.4 : ssha>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 12.882736214 (s)
+Attack failed

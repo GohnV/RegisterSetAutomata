@@ -1,0 +1,9 @@
+<(head|title|style|script)[^>]*>.*?<\/\1>
+2: <19 : 4.75 : u5fM7)w^dP<head|title|styl>e|7)w^dP<head|ti^<hstyl>e|scrript</head><17 : 2.130434782608696 : u5fM7)w^dP<head|title|styl>e|7)w^dP<head|ti^<hstyl>e|scrript</head>>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 66.55136487 (s)
+Attack failed

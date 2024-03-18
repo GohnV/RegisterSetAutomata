@@ -1,0 +1,9 @@
+\s*((["'])([\s\S]*?[^\\])\2|[^,]+)\s*
+2: <15 : 5.0 : \s*><20 : 4.907407407407407 : "WL,!ZkKyp%w1`lM?/7Q2y+B^r*^,Y;RTFId}!BU'V)H :/L$">
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 7.466723948 (s)
+Attack failed

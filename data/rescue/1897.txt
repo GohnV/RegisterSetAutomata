@@ -1,0 +1,21 @@
+("|'|`)(\\?.|\r|\n)*?\1
+3: <18 : 9.0 : '><21 : 12.0 : '\><18 : 5.8 : '"|'>
+===Initiate End===
+Node Coverage: 22/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Vulnerable: '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYfix\\?.|\r|\nHJXngIfBB
+ZCjymWS\as+7jCh\?/nG7nP
+100413 : 692.5034482758621 : '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYfix\\?.|\r|\nHJXngIfBB
+ZCjymWS\as+7jCh\?/nG7nP
+100132 : 794.6984126984127 : '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYf\\?.|\r|\nHJXngIfBB
+ZCjymW
+1000384 : '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYf\\?.|\r|\f\\?.|\r|\nHJXngIfBB
+ZCjymW
+1000384 : 0 : '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYf\\?.|\r|\f\\?.|\r|\nHJXngIfBB
+ZCjymW
+1041988 : '"1VbRP@YS<X\3Zru{5Tm,+\a4s(lO$RoD`X\30Zru{5Tm,+zolnS-tu:H`4Qc`jy/*Tu:H`4Qc`jymWS\a4s(lO$RoDrZGYf\\?.|\r|\f\\?.|\r|\nHJXngIfBB
+ZCjymW
+TIME: 4.003751933 (s)
+Attack failed

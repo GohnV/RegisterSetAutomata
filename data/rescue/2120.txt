@@ -1,0 +1,10 @@
+(['"`])bare\x12@([\w\.\-\/\\]+)\1
+1: <12 : 1.953125 : 1$'5n4j040T+F>qfF>\Vtq. dWB,Ze\/ZkgST=	ww
+yxZkMa""bare@yxZkMa">
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 20.466655641 (s)
+Attack failed

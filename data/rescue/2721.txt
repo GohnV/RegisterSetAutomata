@@ -1,0 +1,9 @@
+^Recursive\(var(\d+)=\{\}, \+\{-\[\(var\1\)-1\]=>1\}\)$
+5: <5 : 0.35714285714285715 : Recursive(var><8 : 0.6 : Recursive(var1><9 : 0.35714285714285715 : Recursive(var1={}, +{-[(var><10 : 0.3793103448275862 : Recursive(var1={}, +{-[(var1><12 : 0.34210526315789475 : Recursive(var1={}, +{-[(var1)-1]=>1})>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 1.938177325 (s)
+Attack failed

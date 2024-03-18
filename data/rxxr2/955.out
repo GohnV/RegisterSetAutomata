@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(.*?)string-length\((['"])([^\2]*)\2\)(.*)$
+PARSE: ERROR {ParsingData.UnsupportedEscape(31, 50)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

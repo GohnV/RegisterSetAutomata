@@ -1,0 +1,25 @@
+(.*)include_php_vars\s*\(\s*(["'])(.+)\2\s*\).*;
+1: <10 : 113.12037037037037 : 
+dOfK%inrt+rin`e"4ho5OfK%inrt+rt+m
+`e"4ho5OfK%include_pfK%inc%include_php_var_pfK%inc%include_php_varss*\w>
+===Initiate End===
+Node Coverage: 10/27
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 10/27
+Vulnerable: 
+dOfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vars
+dOfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_varss*\w!YH.Cs)*
+100059 : 317.64761904761906 : 
+dOfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vars
+dOfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_varss*\w!YH.Cs)*
+100003 : 444.4577777777778 : 
+OfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_vars
+100003 : 
+OfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_vars
+100003 : 0 : 
+OfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_vars
+100085 : 
+OfK%inrt+rin`e"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_php_vadOfK%ine"4sy\vxe]euh"sq)cxp\nw(]ea*sm\a+as_kon2pr_rp*(;"c.pv)dkducsrvc\dhtnc%include_nclude_php_vars
+TIME: 75.28568678 (s)
+Attack failed

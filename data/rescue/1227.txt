@@ -1,0 +1,11 @@
+<(font|span)[^>]*>(\s*)<\/\1>
+1: <6 : 1.2272727272727273 : 9x iG]{^8gE3j
+R<1E3j
+>
+===Initiate End===
+Node Coverage: 6/20
+===Genetic Algorithm End===
+Node Coverage: 17/20
+Normal fail
+TIME: 17.968467736 (s)
+Attack failed

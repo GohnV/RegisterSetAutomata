@@ -1,0 +1,9 @@
+^(\d{1,2})(?::(\d{2}))?(?:([ap])(\.?)m\4)?$
+2: <24 : 6.25 : 2am><17 : 6.0 : 2:>
+===Initiate End===
+Node Coverage: 27/30
+===Genetic Algorithm End===
+Node Coverage: 27/30
+Normal fail
+TIME: 0.171125426 (s)
+Attack failed

@@ -1,0 +1,14 @@
+%r([^a-zA-Z0-9\s\{\(\[<])(?:[^\\]|\\[\s\S])*?\1[gim]{0,3}
+2: <15 : 2.1926605504587156 : o^1/mDCJOE/$E1#
+`vy,CQjk|N$l3[itCn&k6X8@lB/ [I$>e
+}X&OE/$E1#
+`vy,CQjkB/ [I$>e
+}X&`pm6%r!n`pU^a-zA-Z0-9\s\><17 : 3.7058823529411766 : o^1/mDCJ`pm6%r!n`pU
+}X&`pm6%r!gim>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 78.542436932 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(\e..)([^\e]+)\e\(B(?=\1)
+1: <17 : 1.9680851063829787 : qF(:Q	DnfL7 _"*UW\ LaD(B|*KNG4R](vN:Bi<(WOI+h^.9DnfL7 _"*+h^.9DnfL7 _"*UW\ LaD(B(B>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 58.743147239 (s)
+Attack failed

@@ -1,0 +1,15 @@
+(!\[(.*?)\]\s?\([ \t]*()<?(\S+?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))
+1: <33 : 5.134328358208955 : 6=Z(VD78?M![f`ODZEOD78?M![f`OZhZEvEv(VD78?M![f`OD78?M![f`OZh](=)>
+===Initiate End===
+Node Coverage: 33/43
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Vulnerable: ![![![![![OD[OZh](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`OZh](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87DO`f[!M?87D=-
+100147 : 521.5989583333334 : ![![![![![OD[OZh](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`OZh](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87DO`f[!M?87D=-
+100017 : 578.1329479768787 : ![![![![![OD](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`O](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87
+100017 : ![![![![![OD](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`O](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87
+100017 : 0 : ![![![![![OD](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`O](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87
+100033 : ![![![![![OD](=O`![OD78?M![f`OZh](=[![![OZh](ZE![8EDQf7EDjl(](=O`f[!8?M![f`M?87DzOD78?M![f`O](=![f`OZh](!M?8`f[f`OZh](=![O`f[!hZO`f[!M?87DO`f[!M?87D'"0Af4b5cddd[!M?[f[!M?87
+TIME: 79.267414037 (s)
+Attack failed

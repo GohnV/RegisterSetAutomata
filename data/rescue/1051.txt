@@ -1,0 +1,10 @@
+\b(?:q|qq|qx|qw)\s+([a-zA-Z0-9])(?:[^\\]|\\[\s\S])*?\1
+4: <12 : 6.7 : ?:q|qq|qx><15 : 5.7272727272727275 : ?:q|qq|qx
+><26 : 14.675324675324676 : Y,^q	rsH@YE~Y 4k	1v2=~I fWPYDK	P\e-7i>?:q|qq|qx|qwf^Mt@ZAmg{SXU(%I?y#% CFI><25 : 5.066666666666666 : Ug|EN]qRl<<ER>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 89.530889873 (s)
+Attack failed

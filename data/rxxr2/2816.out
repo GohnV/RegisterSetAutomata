@@ -1,0 +1,21 @@
+= [1] =
+INPUT: (?: *\/\/.*\n)* *'( *)<% *if *\(isKeysFast[\s\S]+?'\1<% *} *else *\{ *%>.+\n([\s\S]+?) *'\1<% *} *%>.+
+PARSE: OK
+SIZE: 83
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?: *\/\/.*\n)*
+PREFIX: 
+PUMPABLE:  //\x0a//\x0a
+SUFFIX: 
+TIME: 0.006203 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 83
+>> AVG NFA SIZE: 83
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

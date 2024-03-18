@@ -1,0 +1,16 @@
+([a-z_][a-z0-9_]*|(["'`])(?:\2\2|(?!\2).)+?\2(?!\2)|\[([^\]]+)\])(?:\s*,\s*|$)
+8: <10 : 5.0 : [><21 : 8.2 : a-z_><20 : 20.5 : "'`><13 : 8.333333333333334 : [?!\2><33 : 9.0 : "'`"><34 : 28.666666666666668 : "'`"$><36 : 20.029850746268657 : gP1ccz~5RA	$0RrX*|7#
++S0QtAtvlG'-JcX0Nt"K4|kQa1^T>BnI.qIwkNV]w^ x,><38 : 24.5 : "'`""'`>
+===Initiate End===
+Node Coverage: 47/47
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 47/47
+Vulnerable: """""""'!\""'`}<>>~?<}<""'`"""""":><>:~;fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlroooawlRLoVnftem
+100055 : 552.7900552486187 : """""""'!\""'`}<>>~?<}<""'`"""""":><>:~;fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlroooawlRLoVnftem
+100007 : 621.1614906832298 : """""""'!\""'`}<>>~?<}<"""""""":fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlrooR
+100007 : """""""'!\""'`}<>>~?<}<"""""""":fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlrooR
+100007 : 0 : """""""'!\""'`}<>>~?<}<"""""""":fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlrooR
+100055 : """""""'!\""'`}<>>~?<}<"""""""":fmiyplfkwiuqadotxwizjunfrtgeihqmiyplfkwiuqadqbkhcqhuziwlroooawljunfrtgeihqbkhcqhuziwlyplfkwiuqadotxwizjunfrtgeihqbkhcqhuziwlrooR
+TIME: 45.722901822 (s)
+Attack failed

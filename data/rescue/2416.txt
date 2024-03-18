@@ -1,0 +1,9 @@
+\$\{$key<(\S+)>:\{(.*?)\}\}(.*?)\$\{$key<\1>:end\}
+1: <3 : 1.0465116279069768 : g%A	Km )\k!kM5$AMG\/YTMbOXJ?@VlmGj$VQg}${P>
+===Initiate End===
+Node Coverage: 3/25
+===Genetic Algorithm End===
+Node Coverage: 3/25
+Normal fail
+TIME: 0.363644856 (s)
+Attack failed

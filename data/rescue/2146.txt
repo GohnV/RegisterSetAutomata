@@ -1,0 +1,9 @@
+^(?:(\d{2})(:?)(\d{2})\2(\d{2}(?:[.,]\d+)?)|(\d{2})(:?)(\d{2})|(\d{2}))$
+2: <36 : 9.4 : 2264><45 : 8.5 : 220364.>
+===Initiate End===
+Node Coverage: 46/48
+===Genetic Algorithm End===
+Node Coverage: 46/48
+Normal fail
+TIME: 0.138270396 (s)
+Attack failed

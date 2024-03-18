@@ -1,0 +1,17 @@
+\[\S+?(['"])((?!\1|\\1).*?)\1\]
+1: <22 : 2.6825396825396823 : ,Q$y	
+}O
+T6{C1T*DJK+243"splh[*V1N8?}?}a-wi>wKg~X]''1CoQ_1@C']>
+===Initiate End===
+Node Coverage: 22/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Vulnerable: [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a1''[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1CoQ_1
+100076 : 581.8372093023256 : [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a1''[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1CoQ_1
+100032 : 598.9940119760479 : [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a'[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1Co
+100032 : [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a'[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1Co
+100032 : 0 : [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a'[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1Co
+100049 : [[[[h'C@[[''1a1B''[h'C@{<:Kg~X]''1C!\'.[rMqJz?Ag?9xK+\a'[[@C'h[[}?@[[''1a1B''[h'C''1CoQ_>'h[''1a1B''[h'Cg~X]'h[,splh'[,sp_11N'1Ca1B''[h'C@1a}?}?8N1:??{<:Kg~X]'Oyz'1Co
+TIME: 44.498590616 (s)
+Attack failed

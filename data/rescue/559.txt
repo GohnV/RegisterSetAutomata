@@ -1,0 +1,11 @@
+(\*\*?|__?).+\s\1\s
+1: <18 : 9.6125 : \
+X?z7PRE/j/
+z7Px{Zmq.*\*?|__?.+\s\ig4eEIj,7l	_	_}H0qIcKq' 	P]k5|Y!)A _/xJ!"s>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 14.666146413 (s)
+Attack failed

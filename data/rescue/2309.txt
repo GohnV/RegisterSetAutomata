@@ -1,0 +1,16 @@
+<(pre|p|blockquote|div|form|table|ul|ol|dl|h[1-6])[^>]*?>.*</\1>
+2: <25 : 2.8173913043478263 : $B+W<formSU=VY&9sf)Zc/wV4Ij
+Sz.w3}\](
+v	PO#*?>.*</\1>(XRWd
+D~*0)z`>3Bz<0O6j_~^rKOB
+X)/*e]:t6e#oGCLHb]
+x1M;C<hZj><21 : 2.844155844155844 : $B+W<formSU=VY&9ss$B+W<fwV4Ij
+Sz.w3}\](
+v	PO#*?>.*</form>.*</formSU=VY&9s>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 91.888753876 (s)
+Attack failed

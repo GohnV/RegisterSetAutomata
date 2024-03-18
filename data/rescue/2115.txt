@@ -1,0 +1,9 @@
+(^|[^\w*])(_|\*)(?![_\*])[\s\S]*?\2(?=([^\w*]|$))
+3: <19 : 9.5 : *><18 : 7.333333333333333 : *_><29 : 6.166666666666667 : *^\w*>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 22.133085597 (s)
+Attack failed

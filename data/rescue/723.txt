@@ -1,0 +1,15 @@
+([~\s>+]*)(?:("|')(?:\\?.)*?\2|\(.+?\)|[^\s+>])+$
+6: <28 : 18.5 : '><29 : 18.333333333333332 : ')><30 : 18.75 : ')\><32 : 20.4 : ')\(><33 : 29.454545454545453 : ')\(*?\2|\><29 : 1409.4084507042253 : YSP@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mVQ+\ezl'Lz >
+===Initiate End===
+Node Coverage: 33/33
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 33/33
+Vulnerable: YSP@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mVQ+\ezl'Lz 
+100068 : 1409.4084507042253 : YSP@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mVQ+\ezl'Lz 
+100029 : 1538.9076923076923 : YSP@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mV\e' 
+1000104 : YSP@'#~\<5'2Gugh3`,X}1X&C'@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mV\e' 
+1000169 : 1 : YSP@'#~\<5'2Gugh3`,X}1X&C'@'#~\<5'2Gugh3`,X}1X&C'@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mV\e' 
+14668709 : YSP@'#~\<5'2Gugh3`,X}1X&C'@'#~\<5'2Gugh3`,X}1X&C'@'#~\<5'2Gugh3`,X}1X&C'a5?^F)fyGS*?\2|\Md]sj?Gn53FzgA8mV\e' 
+TIME: 5.114139907 (s)
+Attack failed

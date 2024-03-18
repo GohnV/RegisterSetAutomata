@@ -1,0 +1,9 @@
+(19\d{2}|200\d|201\d|\d{2})(\s|-|/|\\|_|\.)(\d{1,2})\2(\d{1,2})
+4: <26 : 12.166666666666666 : |200\d|201\><28 : 11.0 : |200\d|201\1><33 : 9.266666666666667 : |200\d|201\1\2><26 : 7.515625 : '[d'Bl!pbE\"wn19\dV?nAn{,W w0`*cS`4J9(e#.X# .y}|NS&Z7Da>Y7esD>
+===Initiate End===
+Node Coverage: 35/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 43.550445265 (s)
+Attack failed

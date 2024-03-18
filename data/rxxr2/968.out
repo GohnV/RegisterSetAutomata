@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^((?!$SEC_CHARS+\n(?:\n|\Z))(?!(?:\.\.|::)\n(?:   |\n))($char$char+)\n(.*\n)?(?:(($SEC_CHARS)\5+)\n)?)
+PARSE: ERROR {ParsingData.InvalidBackreference(93)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

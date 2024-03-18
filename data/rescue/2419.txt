@@ -1,0 +1,13 @@
+\[(\w+)\](.+?)\[\/\1\]
+1: <16 : 1.1612903225806452 : "xzJz5+2G-	%	7
+bAGj-	%25+2GJz5+2G-	%	7
+bAGj-	%	%2	7
+bAGj-	%25+2G-	%	7
+bAGj-	%2G!du[J]yq>[/J]>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 24.254939785 (s)
+Attack failed

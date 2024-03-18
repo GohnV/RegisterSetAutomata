@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (define\s*\(\s*('|").*?\2\s*,\s*\[)([\s\S]*?)\]
+PARSE: ERROR {ParsingData.InvalidBackreference(23)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

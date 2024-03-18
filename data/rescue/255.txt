@@ -1,0 +1,9 @@
+@<(\w+)>([$|])(.+?)(\2)
+1: <19 : 1.8064516129032258 : @#8a|-#8a|-~varc9}P:@<T>|-#8a|>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 32.017688387 (s)
+Attack failed

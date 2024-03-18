@@ -1,0 +1,3 @@
+(<[a-z][^>]*)\sstyle=(["'])([^\2]*?)\2
+TIME: 0.050219824 (s)
+Regex compile error

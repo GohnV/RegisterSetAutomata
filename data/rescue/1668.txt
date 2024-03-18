@@ -1,0 +1,9 @@
+<form\b(?:(?=(\s+(?:method="([^"]*)"|enctype="([^"]*)")|action="([^"]*)"|data-collision-check="([^"]*)"|data-collision-check-strict="([^"]*)"|[^\s>]+|\s+))\1)*>
+10: <17 : 2.8333333333333335 : <form><23 : 5.285714285714286 : <form"><18 : 2.5714285714285716 : <form>><27 : 8.125 : <form"	><32 : 8.9375 : <form"	action="><32 : 6.633333333333334 : <form"	data-collision-check="><32 : 6.135135135135135 : <form"	data-collision-check-strict="><32 : 8.625 : <form"	method="><32 : 8.352941176470589 : <form"	enctype="><33 : 5.117647058823529 : <form"	method="">
+===Initiate End===
+Node Coverage: 55/55
+===Genetic Algorithm End===
+Node Coverage: 55/55
+Normal fail
+TIME: 313.424755126 (s)
+Attack failed

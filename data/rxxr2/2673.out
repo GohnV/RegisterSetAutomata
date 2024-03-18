@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\Recursive\(var(\d+)=\{\}, \-\[\(?var\1\)?(\.-|-1)\]\)$
+PARSE: ERROR {ParsingData.UnsupportedEscape(2, 82)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

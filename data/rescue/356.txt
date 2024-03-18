@@ -1,0 +1,9 @@
+class\s*=\s*(["'])([^"']+)\1
+6: <4 : 0.6666666666666666 : class><8 : 1.1428571428571428 : class=><9 : 1.5 : class=	><12 : 1.5 : class="><15 : 2.6923076923076925 : class="class><16 : 1.7 : class="^">
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 12.551512196 (s)
+Attack failed

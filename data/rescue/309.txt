@@ -1,0 +1,22 @@
+(?:.*?)<(td|th)[^>]*>\s*(.*?)\s*</\1[^>]*>
+1: <25 : 55.18181818181818 : M;_lU<tdlU<td|D>;u
+>
+===Initiate End===
+Node Coverage: 25/30
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 25/30
+Vulnerable: M;_lUdlU<td|D>_lU<tdlU<td|DlUdlU<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+100022 : 833.5166666666667 : M;_lUdlU<td|D>_lU<tdlU<td|DlUdlU<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+100016 : 1020.5714285714286 : M;dlU<td|D>_<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+100016 : M;dlU<td|D>_<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+100016 : 0 : M;dlU<td|D>_<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+101809 : M;dlU<td|D>_<td|D>_lU<tdlU<tdlUdlU<td|l_>D|dt<UldUlM;_lUdlU<td|D>_lU<tdlU<td|D>;u<tdlU<td|D>;u
+
+TIME: 21.309463994 (s)
+Attack failed

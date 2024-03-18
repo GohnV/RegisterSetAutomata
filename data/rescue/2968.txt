@@ -1,0 +1,9 @@
+pattern:\s*("*)(.+)\1
+2: <10 : 1.1111111111111112 : pattern:><14 : 2.1 : pattern:">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 65.254508383 (s)
+Attack failed

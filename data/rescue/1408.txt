@@ -1,0 +1,9 @@
+^\s*(:(\w*)|(('|")([^\\\#'"]*?)\4))\s*$
+4: <18 : 9.0 : "><19 : 7.333333333333333 : ":><26 : 7.0 : ":"><21 : 9.333333333333334 : :U>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 1.10070191 (s)
+Attack failed

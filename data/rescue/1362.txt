@@ -1,0 +1,15 @@
+<(info|success|warning|danger)>([\s\S]*?)<\/\1>
+2: <19 : 4.930232558139535 : <info>d(r
+1
+n\/|n(
+*\	1\ce\|isgaa]</info|succewarnin</info|success|warninrning|danger><17 : 3.0238095238095237 : <info>d(r
+1
+n\/|n(
+*\	1\ce\|isgaa]</info>>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 114.157385746 (s)
+Attack failed

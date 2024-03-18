@@ -1,0 +1,9 @@
+( target=(['"])(.*?)\2)
+1: <14 : 1.837837837837838 : 'H^Sg-AD8B)AD tar?m8B)AD target='"N'>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 14.369679492 (s)
+Attack failed

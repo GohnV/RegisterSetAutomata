@@ -1,0 +1,15 @@
+^([ \t]*)<(-?[A-Za-z][-\w\xA0-\xFF]*)(?:\s+([^'"\/>]+(?:(?:@|\/[^>])[^'"\/>]*)*)|\s*)?(?:\/>|>[ \t]*\n?([\S\s]*)^\1<\/\2\s*>|>(.*)<\/\2\s*>)
+2: <45 : 2.7551020408163267 : <A--z	CZ C@-Za-CZ C	-	CZ C@-Za-CZ C	-C@-Z/C@-Z/>><47 : 9.338709677419354 : <A--zZ >ZA->A-Za-zzz		a-zzz	Cazzz	Ca-zzz	CZ C@a-z	<C@a-z	<<</>
+===Initiate End===
+Node Coverage: 64/73
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 64/73
+Vulnerable: <A--z	CZ C@-Za-C	CZ C@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	<C@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?>a7)
+100111 : 893.8482142857143 : <A--z	CZ C@-Za-C	CZ C@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	<C@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?>a7)
+100063 : 1000.63 : <A-	 C@-Za-C	CZ@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?
+1000095 : <A-	 C@-Za-C	CZ@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	@a-z C@@a-z	@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?
+1000123 : 1 : <A-	 C@-Za-C	CZ@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	@a-z C@@a-z	@a-z C@@a-z	@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?
+12529664 : <A-	 C@-Za-C	CZ@-Za-CZ C	-	CZ-zzz	Caz	CaCZ C@a-z	@a-z C@@a-z	@a-z C@@a-z	@a-z C@a-zzA-Za-zzz		a C@CZ C@a-z	z C@a-z	C(nZ?-g?
+TIME: 5.437480389 (s)
+Attack failed

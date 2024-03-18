@@ -1,0 +1,9 @@
+~[cCsSwW](?:("""|'''|[\/|"'])(?:\\.|(?!\1)[^\\])+\1|\((?:\\\)|[^)])+\)|\[(?:\\\]|[^\]])+\]|\{(?:\\\}|#\{[^}]+\}|[^}])+\}|<(?:\\>|[^>])+>)[csa]?
+2: <32 : 7.204545454545454 : ~~.?.?nEw]~S'U}>^QU2T2*(q5~:yi\eCEw]N~~.?n'><46 : 22.95744680851064 : ~~S<kh.?n<kh.?n~S?nEw&@n~S(y<w]N.(w&@nEw&@n~S(y<w]N.(w&@n~S(y<w]N.(J~~.?nEw]~S~S[d(JlY0JlnEw]>
+===Initiate End===
+Node Coverage: 63/76
+===Genetic Algorithm End===
+Node Coverage: 73/76
+Normal fail
+TIME: 215.049138296 (s)
+Attack failed

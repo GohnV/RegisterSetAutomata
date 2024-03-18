@@ -1,0 +1,9 @@
+<([a-z]+) style="(font-weight: bold; ?|text-decoration: line-through; ?){2}">([\w\W]*?)<\/\1>
+1: <14 : 1.3076923076923077 : EnJXvbv^+$~l<</2EnJXvbv^+$~l<</2}v^+$~l<</2}ImtC=>ggEnJXvbv^+$~l<</2}ImtC=>ggqE7M=	ya6R8w(<am style=">
+===Initiate End===
+Node Coverage: 14/29
+===Genetic Algorithm End===
+Node Coverage: 14/29
+Normal fail
+TIME: 17.201924352 (s)
+Attack failed

@@ -1,0 +1,9 @@
+a(.\2)b(\1)
+1: <5 : 1.5 : jYXYXaY>
+===Initiate End===
+Node Coverage: 5/12
+===Genetic Algorithm End===
+Node Coverage: 5/12
+Normal fail
+TIME: 0.570630191 (s)
+Attack failed

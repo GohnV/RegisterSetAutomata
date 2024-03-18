@@ -1,0 +1,10 @@
+mf\s*\(\s*(['"])(.*?)\1\s*,\s*.*?\s*,?\s*(['"])(.*?)\3,?.*?\)
+1: <6 : 1.2413793103448276 : l/XE8csE%xVO		^O	cDe\v
++`mf>
+===Initiate End===
+Node Coverage: 6/43
+===Genetic Algorithm End===
+Node Coverage: 16/43
+Normal fail
+TIME: 1.469249862 (s)
+Attack failed

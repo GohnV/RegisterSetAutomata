@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:c)_1(?=(33|3))\1(?:)37
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(7)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

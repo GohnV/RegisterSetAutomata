@@ -1,0 +1,25 @@
+\b(?:q|qq|qx|qw)\s+([a-zA-Z0-9])(\\?.)*?\s*\1
+4: <12 : 6.7 : ?:q|qq|qx><15 : 5.7272727272727275 : ?:q|qq|qx><26 : 8.612903225806452 : NI2%[q
+OD~d-bdVk.&Ykx6B]G3&-w	0Kk{M
+{B#R4;7=nx;T_[Ug~!*-dO|(><22 : 5.3076923076923075 : ?:q|qq|qxqq>
+===Initiate End===
+Node Coverage: 27/27
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Vulnerable: NI2%[q
+NI2%[Z)|f(-\x?0m\7d(X9Tao\vw12vqY\Lma)a]?hT(\w-\x?0m\7d(X9Tao\vw12vqY\Lma)a]?hT(\w*353x
+100094 : 1042.6458333333333 : NI2%[q
+NI2%[Z)|f(-\x?0m\7d(X9Tao\vw12vqY\Lma)a]?hT(\w-\x?0m\7d(X9Tao\vw12vqY\Lma)a]?hT(\w*353x
+100002 : 1298.7272727272727 : NI[q
+NI2%[Z)|f(-\x?0m\7d(X9T\vw12vqY\Lma)\w-\x?\7d(X9Tao\vw12v\Lma)a]?hT(\w*
+1000090 : NI[q
+NI2%[Z)|f(-\x?0m\7d(X9T\vw12vqY\Lma)\w-\x?\\Lma)\w-\x?\7d(X9Tao\vw12v\Lma)a]?hT(\w*
+1000139 : 3 : NI[q
+NI2%[Z)|f(-\x?0m\7d(X9T\vw12vqY\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\7d(X9Tao\vw12v\Lma)a]?hT(\w*
+100000136 : NI[q
+NI2%[Z)|f(-\x?0m\7d(X9T\vw12vqY\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\7d(X9Tao\vw12v\Lma)a]?hT(\w*
+TIME: 5.542307402 (s)
+Attack success, attack string is:
+NI[q
+NI2%[Z)|f(-\x?0m\7d(X9T\vw12vqY\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\\Lma)\w-\x?\7d(X9Tao\vw12v\Lma)a]?hT(\w*

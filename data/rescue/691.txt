@@ -1,0 +1,9 @@
+^[a-z\-\d]+(?:=(["'])[^\u0007]+?\1)?(?=\s+|\u0007\d+\u0007|$)
+7: <14 : 9.75 : a-z><17 : 5.0 : a-za><16 : 8.2 : a-z=><20 : 6.714285714285714 : a-z="'><16 : 8.2 : a-z><17 : 7.333333333333333 : a-z0><22 : 6.888888888888889 : a-z="'"'>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 26.999782574 (s)
+Attack failed

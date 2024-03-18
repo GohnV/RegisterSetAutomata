@@ -1,0 +1,9 @@
+\A\s*(\"?)([^\"]*)\1\s*
+1: <16 : 11.0 : ">
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 0.093174008 (s)
+Attack failed

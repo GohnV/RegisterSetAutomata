@@ -1,0 +1,17 @@
+= [1] =
+INPUT: \<\s*(?:\/\s*)?[\w\:]+\b(?:(["']).*?\1|[^\>])*\>
+PARSE: OK
+SIZE: 23
+PUMPABLE: YES
+VULNERABLE: NO {INTERRUPTED, }
+TIME: 0.000148 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 23
+>> AVG NFA SIZE: 23
+>> PUMPABLE: 1
+>> VULNERABLE: 0
+>> INTERRUPTED: 1
+>> PRUNED: 0
+>> TIME TOTAL: 0.000148 (s)
+>> TIME MAX: 0.000148 (s)

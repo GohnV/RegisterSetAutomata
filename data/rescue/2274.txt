@@ -1,0 +1,9 @@
+^<(script|iframe)(.*?)>(.*?)(<\/\1.*?>)$
+7: <6 : 3.0 : <><13 : 1.625 : <iframe><14 : 2.7333333333333334 : <script|iframe><20 : 2.5555555555555554 : <iframe>><21 : 3.8181818181818183 : <iframe></><24 : 5.823529411764706 : <iframe></iframe><23 : 1.2777777777777777 : <iframe></iframe>>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 10.299231517 (s)
+Attack failed

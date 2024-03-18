@@ -1,0 +1,9 @@
+\[#(\d+)\]: https://github.com/deployphp/[\S/]+/\1/?
+1: <8 : 1.4 : Z.3Q<AhfK;k[#0>
+===Initiate End===
+Node Coverage: 8/17
+===Genetic Algorithm End===
+Node Coverage: 8/17
+Normal fail
+TIME: 0.200917985 (s)
+Attack failed

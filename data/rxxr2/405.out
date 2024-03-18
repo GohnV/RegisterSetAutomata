@@ -1,0 +1,16 @@
+= [1] =
+INPUT: !\[(.*?)]\s?\([ \t]*()<?(\S+?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(['"])(.*?)\6[ \t]*)?\)
+PARSE: OK
+SIZE: 88
+PUMPABLE: NO
+TIME: 0.000107 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 88
+>> AVG NFA SIZE: 88
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000107 (s)
+>> TIME MAX: 0.000107 (s)

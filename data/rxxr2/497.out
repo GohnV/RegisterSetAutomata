@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(.*?)((.)\3{1,127})(.*)$
+PARSE: ERROR {ParsingData.InvalidBackreference(10)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

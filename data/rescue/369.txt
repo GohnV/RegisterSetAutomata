@@ -1,0 +1,11 @@
+\b0[xX][\dA-Fa-f]+\b|\b[xX]([\'\"])[\dA-Fa-f]+\1
+2: <16 : 4.0 : ]|01<D[C^x"3"><13 : 3.9361702127659575 : E
+KT8(n0+,,<D	
+	h1&s3t JoLLpvt\'\"w{zl&9]	0XE>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 6.820901851 (s)
+Attack failed

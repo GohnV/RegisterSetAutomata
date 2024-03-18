@@ -1,0 +1,9 @@
+^(\d{1,2})(:)?(\d{1,2})\2(\d{1,2})$
+1: <21 : 4.571428571428571 : 1:11:1>
+===Initiate End===
+Node Coverage: 21/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 0.129640024 (s)
+Attack failed

@@ -1,0 +1,11 @@
+<(script|option|textarea)[^>]*>.*?</\1>
+1: <7 : 1.1 : g {?51
+XVe/Z	`D8gafsHoP`g/SHd;N)yADG\]-6}.%Vo`#o`m~upz;t
+<>
+===Initiate End===
+Node Coverage: 7/19
+===Genetic Algorithm End===
+Node Coverage: 17/19
+Normal fail
+TIME: 39.900733337 (s)
+Attack failed

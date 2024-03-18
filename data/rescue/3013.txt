@@ -1,0 +1,10 @@
+\<([a-z]*)\b[^\>]*\>(.*?)\<\/\1\>
+1: <18 : 4.509803921568627 : \I	
+<yg7G{DsCC	{DsCC	>hNg7G{DsCC	>hNZJr5R#'$5r5g</>
+===Initiate End===
+Node Coverage: 18/19
+===Genetic Algorithm End===
+Node Coverage: 18/19
+Normal fail
+TIME: 65.551903253 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<link[^>]*href=(["'])([^"']+)\1[^>]*rel=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?openid.server[ \t]*[^"']*\3[^>]*\/?>
+1: <30 : 10.034188034188034 : <link^*href="k^ref="k^**href="'rel="<ref="'rel="<liink^*href="k^ref="k^**href="'rel="<ref="'rel="<lief<lief^(r\e	[1">
+===Initiate End===
+Node Coverage: 30/43
+===Genetic Algorithm End===
+Node Coverage: 30/43
+Normal fail
+TIME: 132.21573225 (s)
+Attack failed

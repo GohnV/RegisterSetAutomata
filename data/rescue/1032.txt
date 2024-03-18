@@ -1,0 +1,9 @@
+//[ 	]*jsqueeze\.specialVarRx[ 	]*=[ 	]*(["']?)(.*)\1
+1: <6 : 1.2727272727272727 : \D%}+mN`q??G8dw// >
+===Initiate End===
+Node Coverage: 6/21
+===Genetic Algorithm End===
+Node Coverage: 6/21
+Normal fail
+TIME: 0.652956807 (s)
+Attack failed

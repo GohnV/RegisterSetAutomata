@@ -1,0 +1,18 @@
+([{}])\1|[{](.*?)(?:!(.+?))?[}]
+5: <5 : 4.333333333333333 : \1><15 : 7.5 : {><16 : 8.666666666666666 : {~><18 : 5.416666666666667 : G`M8Vk^9ls:!.zAMX	>-t`OC_]Bb{v,`tKs#)^ON-_FHjSm&&''OC]<W}><22 : 8.78125 : d7F*
+Rwu%d5Ci
+,RbN?Hq]`z{d%K\3Z<;K<P1h*`c"UjALUbL!&V%hjG$od
+:`>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: {M{z{d&V%hjG${d{h%(-[)>[!!~+>[!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhnsnxowigxmh.&*hjG$od
+100132 : 486.07766990291265 : {M{z{d&V%hjG${d{h%(-[)>[!!~+>[!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhnsnxowigxmh.&*hjG$od
+100009 : 543.5271739130435 : {M{z{d&V%hjG${d{h%(-[)!!~+!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhns
+100009 : {M{z{d&V%hjG${d{h%(-[)!!~+!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhns
+100009 : 0 : {M{z{d&V%hjG${d{h%(-[)!!~+!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhns
+100033 : {M{z{d&V%hjG${d{h%(-[)!!~+!!~+{M{d{^!;]'~.d%K!{M{M{M{MX	>-t`OC_]K<P1h{M{MX	{!!&V%hjG$',{!%:\%$.>*]'~.|\=%{$:*.&*hjG$!!~+{M{d{^!;]'~..|\=%{$:*rtcwiilkvzqdugpyvwwlixmgrlulyfragudwjynhns
+TIME: 55.13845165 (s)
+Attack failed

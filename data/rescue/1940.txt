@@ -1,0 +1,10 @@
+d{1,2}|W{1,4}|M{1,4}|YY(?:YY)?|S{1,3}|Do|ZZ|([HhMsDm])\1?|[aA]|"[^"]*"|'[^']*'
+6: <14 : 4.666666666666667 : YY><16 : 3.2 : YYYY><23 : 12.333333333333334 : ;D><21 : 9.0 : tW><24 : 10.876923076923077 : T9.kOB$o-"R8j8I+#to(\*	|Tc<
+<&)Sx5dy&1|eR	<ef*	P2x'BK\x@/LBFFMT><24 : 14.107692307692307 : $p| Ep*[jU@_I1l 1u^X:)9icoX2w3<z`x~%Y)t`KN'Z;	N{IaC}s&37%	CI5uP.>
+===Initiate End===
+Node Coverage: 35/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 155.392423033 (s)
+Attack failed

@@ -1,0 +1,9 @@
+[ë](.)\1
+1: <7 : 1.8823529411764706 : 2ëDëDN2N2ëDëDD>
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 1.926495436 (s)
+Attack failed

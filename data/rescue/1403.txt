@@ -1,0 +1,9 @@
+(?<=^|,)[A-Z0-9-]+=("?).+?\1(?=,|$)
+4: <11 : 10.0 : ?<=><13 : 8.75 : A-Z0-9-><19 : 9.444444444444445 : A-Z0-9-=><27 : 4.2 : A-Z0-9-=]>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 37.589694394 (s)
+Attack failed

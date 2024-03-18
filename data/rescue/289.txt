@@ -1,0 +1,11 @@
+(style|class)\s*=\s*(["'])(?:(?!\2).)*\2\s?
+1: <27 : 3.989130434782609 : B|mK\9~wn2fP"Q{
+VrsWBAaV7Bn6A
+cJ{+i>Z+|e-Iv'W1+'B#UmD2&0msty1+'B#UmD2&0mstyle="'|]$\;\$=''">
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 40.727434625 (s)
+Attack failed

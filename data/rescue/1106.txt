@@ -1,0 +1,9 @@
+^(")?(?:[^\."])(?:(?:[\.])?(?:[\w\-!#$%&'*+\/=?\^_`{|}~]))*\1@(\w[\-\w]*\.){1,5}([A-Za-z]){2,6}$
+2: <22 : 8.206896551724139 : "@1y.L1y.1yy.Ly.L1y.L1y.1y.L><33 : 4.6 : "@"@1y.LL>
+===Initiate End===
+Node Coverage: 37/37
+===Genetic Algorithm End===
+Node Coverage: 37/37
+Normal fail
+TIME: 37.596368194 (s)
+Attack failed

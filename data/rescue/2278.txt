@@ -1,0 +1,9 @@
+importScripts\((['"])libsass.js\1,\s*\1sass.js\1\);
+13: <3 : 0.2 : importScripts(><5 : 0.1388888888888889 : H^f/LQ$SaL0'8miD3e,importScripts("><6 : 0.13953488372093023 : H^f/LQ$SaL0'8miD3e,importScripts("libsass><8 : 0.17391304347826086 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js><9 : 0.19148936170212766 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js"><12 : 0.25 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js",><13 : 0.30612244897959184 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js",	><13 : 0.2653061224489796 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","><14 : 0.2641509433962264 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","sass><15 : 0.2777777777777778 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","sass)><16 : 0.2857142857142857 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","sass)js><17 : 0.2982456140350877 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","sass)js"><18 : 0.3050847457627119 : H^f/LQ$SaL0'8miD3e,importScripts("libsass.js","sass)js");>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 1.192712159 (s)
+Attack failed

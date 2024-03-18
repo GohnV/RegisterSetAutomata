@@ -1,0 +1,9 @@
+([\-:]\s*(![^\s]+)?[ \t]*[|>])[ \t]*(?:((?:\r?\n|\r)[ \t]+)[^\r\n]+(?:\3[^\r\n]+)*)
+1: <43 : 2.5555555555555554 : Z\:!SQe&>wv`nGdc*BS[r`nGdc*BS[r+]+]> ^S[r`nGdc*BS[r+]+]> ^^\^^\)t3	+>
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 217.891815619 (s)
+Attack failed

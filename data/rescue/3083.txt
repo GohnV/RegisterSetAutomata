@@ -1,0 +1,9 @@
+^<(\w+)\s*>ELEMELEMELEM</\1>$
+6: <5 : 2.5 : <><10 : 3.6666666666666665 : <a><11 : 0.6666666666666666 : <a>ELEMELEMELEM</><12 : 0.6842105263157895 : <a>ELEMELEMELEM</a><13 : 0.7 : <a>ELEMELEMELEM</a>><14 : 0.75 : <a>ELEMELEMELEM</a>>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 12.429718548 (s)
+Attack failed

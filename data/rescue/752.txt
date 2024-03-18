@@ -1,0 +1,9 @@
+\breturn +'(\w+)'|case\s+(['"])(.+?)\2
+2: <7 : 1.8571428571428572 : '|case><16 : 2.1666666666666665 : '|c@c@return 'lddtunoJWyzNuKxxwgCg'>
+===Initiate End===
+Node Coverage: 18/26
+===Genetic Algorithm End===
+Node Coverage: 18/26
+Normal fail
+TIME: 46.111723465 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(.)Mask\1
+1: <7 : 3.16 : 9fs\Ms\Mafsfs\Mafs\Mask\>
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 17.354349271 (s)
+Attack failed

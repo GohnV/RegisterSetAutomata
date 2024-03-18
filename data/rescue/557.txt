@@ -1,0 +1,9 @@
+(</)(source)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.1481481481481484 : ^q;\'L6W6HVF\'L6WGfQ@45u</>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 1.09746469 (s)
+Attack failed

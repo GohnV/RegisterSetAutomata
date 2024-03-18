@@ -1,0 +1,15 @@
+!\[(.*?)]\s?\([ \t]*()<?(\S+?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(['"])(.*?)\6[ \t]*)?\)
+2: <48 : 6.123893805309734 : SgC+ms97U 22;*.7{7U 22;*.7{-Nw4+e,FT![%6z:Y4u(> v	=-+#VqSfp](6z:Y4u(> =6x97U 22;*.7{-Nw4+e,FT>-px?XLF=(0\F<tl\{)><40 : 13.008547008547009 : SgC+ms9-Nw4+e,FT![%6z:Y4u(> v	=-+#VqSfp](6z:Y4u(> "v]]Z]=6z:]Ied*:C+*E?0+Q>A?](kzNT{Dco(j(jX-+A?c>-px?XLF=(0\F<tl\{)>
+===Initiate End===
+Node Coverage: 55/59
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 59/59
+Vulnerable: ST![ST![ST![ST![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{>|
+100075 : 483.45410628019323 : ST![ST![ST![ST![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{>|
+100006 : 497.5422885572139 : ![ST![ST![![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{
+100006 : ![ST![ST![![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{
+100006 : 0 : ![ST![ST![![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{
+100006 : ![ST![ST![![ST![ST![%6p](QFhweDoOYfp](:z6=kzNT{4Y:z6"v]]Z]=6z:]Ied*:C+*E?0+Q>A?](k(]pfSqV#+6%z6?A>Q+0T{Dco(j(![ST![%6](<u(ST![](](]pfSqV#+6%z6?A>Q+0T{Dco(j(jX-+A?c>+u(>](kz]:z6=kzNT{Dco(+\F>{?~?@|:{
+TIME: 148.687183396 (s)
+Attack failed

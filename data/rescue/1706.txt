@@ -1,0 +1,19 @@
+~[rR](?:("""|'''|[\/|"'])(?:\\.|(?!\1)[^\\])+\1|\((?:\\\)|[^)])+\)|\[(?:\\\]|[^\]])+\]|\{(?:\\\}|[^}])+\}|<(?:\\>|[^>])+>)[uismxfr]*
+3: <45 : 9.483516483516484 : <S<WE!#<GUP5[[hv)u
+vb/~R[[hv)u
+~<SQ<WE!#<v[b/~R'+fGdB\>)u
+v[b/~~R<0
+2oh"""|'"""|''l:45o ><26 : 4.037037037037037 : <S<WE!#}fvvu
+v[hv)u
+/~[~R(g7a.'
+[Q<WE!#<v[S<WE[[hv)u><23 : 5.786885245901639 : <S<WE!#<GU<GU}fR[[hv)u
+~R<!#<GUvvu
+v[[b/~R0
+2oh"""|''l:45o >
+===Initiate End===
+Node Coverage: 63/72
+===Genetic Algorithm End===
+Node Coverage: 72/72
+Normal fail
+TIME: 215.507259417 (s)
+Attack failed

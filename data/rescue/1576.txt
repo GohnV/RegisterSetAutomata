@@ -1,0 +1,15 @@
+^(\/\/\/\s*<reference\s+path=)('|")(.+?)\2\s*(static=('|")(.+?)\2\s*)*\/>
+13: <6 : 1.5 : ///><7 : 1.8 : /// ><8 : 0.5714285714285714 : ///<reference><10 : 0.7333333333333333 : ///<reference	><15 : 0.8 : ///<reference	path=><20 : 1.0 : ///<reference	path='><22 : 1.2608695652173914 : ///<reference	path='|"><29 : 1.6666666666666667 : ///<reference	path='|"'><29 : 1.3461538461538463 : ///<reference	path='|"'/>><33 : 2.3225806451612905 : ///<reference	path='|"'static=><38 : 2.75 : ///<reference	path='|"'static='><40 : 3.0588235294117645 : ///<reference	path='|"'static='|"><43 : 3.6 : ///<reference	path='|"'static='|"'>
+===Initiate End===
+Node Coverage: 44/44
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 44/44
+Vulnerable: ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer<///''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'static='|"
+100004 : 296.74777448071217 : ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer<///''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'static='|"
+100003 : 305.81957186544344 : ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer</''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'st
+1000017 : ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer</''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static="'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'st
+1000017 : 0 : ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer</''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static="'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'st
+1105839 : ///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="///<reference	path='"'static="|'=htap	ecnerefer</''static='|"e(?\n"\a'(/{*=t)++<rh|/t*?_\=]);.(amd)t'e\sY//<reference	path='|"'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static="'static='///<reference	path='|"'static='LTUWNOSKYZCJ='|"'static='|"e(?h='|"'static=as*)=aD"ath='|"'stah='|"'st
+TIME: 76.332512152 (s)
+Attack failed

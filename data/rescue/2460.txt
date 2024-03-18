@@ -1,0 +1,9 @@
+(<[A-Zc][^>]*>[^<]+<\/[A-Zc]>) \1
+1: <16 : 3.9468085106382977 : ?2nr$g|uGV	_kV	_k?2(<Z~TUCSvtMVY,>|uGVaII}Q1WecF_k?GVauG|uGV	_k?2cF_k?GVauGVQ1WecF</L> >
+===Initiate End===
+Node Coverage: 16/17
+===Genetic Algorithm End===
+Node Coverage: 16/17
+Normal fail
+TIME: 52.459808363 (s)
+Attack failed

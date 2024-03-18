@@ -1,0 +1,10 @@
+^($qr)(.*?)\1(\\?)$
+0: 
+===Initiate End===
+Node Coverage: 0/17
+failed when init
+===Genetic Algorithm End===
+Node Coverage: 0/17
+Normal fail
+TIME: 0.144206047 (s)
+Attack failed

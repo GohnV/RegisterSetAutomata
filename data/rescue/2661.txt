@@ -1,0 +1,9 @@
+^An? ([a-z0-5]+) element.*?s end tag may be omitted if the \1 element is immediately followed by a(?:n(other)?)? 
+1: <16 : 2.8951612903225805 : A element element  by as end tag mmayment is  by as es  by as end tag followed by as end tag may be omitted if the element >
+===Initiate End===
+Node Coverage: 16/28
+===Genetic Algorithm End===
+Node Coverage: 16/28
+Normal fail
+TIME: 7.419459448 (s)
+Attack failed

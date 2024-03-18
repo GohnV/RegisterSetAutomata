@@ -1,0 +1,9 @@
+(<<-?)(\s*)(\'?)(\\?)(\w+)(\3)
+2: <22 : 10.0 : <<-><27 : 5.0 : <<-\s>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 72.236781162 (s)
+Attack failed

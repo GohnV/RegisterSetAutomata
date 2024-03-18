@@ -1,0 +1,11 @@
+(?><<-("?)((?:[_\w]+_|)HTML)\b\1)
+2: <18 : 3.2524271844660193 : f;
+1>g	Lz}|]7yqRmYpDi*>?Vi<88s"]DK7x+I Tq3lF&7yqRmYpDi*>?Vi<88s"]DK7x+I Tq3lF&?><<-7x+I Tq3lF&?><<-K9_><22 : 3.107142857142857 : f;
+1>g	Lz}|]7yqRmYpDi*>?Vi<88s"]DK7x+I Tq3lF&7yqDi*>?Vi<88s"]DK7x+I Tq3lF&?><<-HTML>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 42.304397438 (s)
+Attack failed

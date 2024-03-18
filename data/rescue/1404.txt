@@ -1,0 +1,9 @@
+<input[^>]* name=(["'])((?:[^\"]+\$)?Email(?:_Textbox)?)\1[^>]*>
+10: <4 : 0.5714285714285714 : <input><5 : 0.875 : <input$><7 : 1.9285714285714286 : <input$ name=><14 : 2.466666666666667 : <input$ name='><15 : 2.6875 : <input$ name=';><17 : 3.2222222222222223 : <input$ name='+\$><20 : 3.6 : <input$ name='Email><22 : 4.428571428571429 : <input$ name='Email_Textbox><23 : 3.857142857142857 : <input$ name='Email'><24 : 3.8181818181818183 : <input$ name='Email'>>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 153.581064556 (s)
+Attack failed
