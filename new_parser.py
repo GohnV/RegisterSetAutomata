@@ -10,6 +10,7 @@ g_state_id = 0 # for generating sequential ids for states
 g_back_referenced = [] # store all back-referenced capture group numbers
 g_anchor_start = False
 g_anchor_end = False
+g_simulate_transducer = False
 
 def get_new_state_id() -> int:
     global g_state_id
@@ -89,7 +90,6 @@ def one_trans_aut(chars:set, negate: bool = False) -> NRA:
     return NRA({q1, q2}, set(), {t}, {q1}, {q2})
 
 def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
-    #TODO: return len as well?
     length = 0
     chars = (' ', set())
     for op, av in sub_pattern.data:
@@ -161,6 +161,8 @@ def capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
     if ret == False: #checking equality to False to prevent potential empty tuple shenanigans
         return False
     len, symb = ret
+    if ((not g_simulate_transducer) and len > 1):
+        return False
     #create automaton
     q1 = get_new_state_id()
     q2 = get_new_state_id()
@@ -382,6 +384,26 @@ def attempt_rsa(pattern: str) -> bool:
     rsa = nra.determinize()
     #print(rsa)
     return rsa != -1
+
+def create_rsa(pattern: str) -> DRsA or bool:
+    global g_back_referenced, g_anchor_start, g_anchor_end
+    g_back_referenced = []
+    g_anchor_start = False
+    g_anchor_end = False
+    pat = p.parse(pattern)
+    find_br_cg(pat)
+    nra = create_automaton(pat)
+    if nra == False:
+        return False
+    #print(nra)
+    nra.removeEps()
+    nra.removeUnreachable()
+    rsa = nra.determinize()
+    #print(rsa)
+    if rsa == -1:
+        return False
+    else:
+        return rsa
 
 ##################################################################################
 #                                TESTING AREA                                    #
