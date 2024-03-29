@@ -119,7 +119,7 @@ def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             if rep_min != rep_max:
                 return False
             rep_ret = check_fix_len(rep_pat)
-            if rep_ret == False :#checking equality to false to prevent potential empty tuple shenanigans
+            if rep_ret == False: #checking equality to false to prevent potential empty tuple shenanigans
                 return False
             rep_chars, rep_len = rep_ret
             length += rep_len
@@ -141,17 +141,23 @@ def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
                 av.pop(0)
             in_char_set = (neg_sign, set())
             for a in av: 
-                if op == c.RANGE:
-                    start, end = a
+                a_op, a_av = a
+                if a_op is c.RANGE:
+                    start, end = a_av
                     for i in range(start, end):
                         myAddChar(in_char_set, chr(i))  
-                elif op == c.LITERAL:
-                    myAddChar(in_char_set, chr(a))
+                elif a_op is c.LITERAL:
+                    myAddChar(in_char_set, chr(a_av))
             chars = myUnion(chars, in_char_set)
+        #TODO: add NOT_LITERAL support
         #end elif chain
+        else:
+            # unsupported construction
+            return False
     #end for loop
     #freeze set:
     chars = (chars[0], frozenset(chars[1]))
+    #print("length", length, "chars", chars)
     return length, chars
 
 # check if capture group is static length and
@@ -385,6 +391,17 @@ def attempt_rsa(pattern: str) -> bool:
     #print(rsa)
     return rsa != -1
 
+def create_nra(pattern: str):
+    global g_back_referenced, g_anchor_start, g_anchor_end
+    g_back_referenced = []
+    g_anchor_start = False
+    g_anchor_end = False
+    pat = p.parse(pattern)
+    find_br_cg(pat)
+    nra = create_automaton(pat)
+    nra = unachnor_aut(nra)
+    return nra
+
 def create_rsa(pattern: str) -> DRsA or bool:
     global g_back_referenced, g_anchor_start, g_anchor_end
     g_back_referenced = []
@@ -396,6 +413,7 @@ def create_rsa(pattern: str) -> DRsA or bool:
     if nra == False:
         return False
     #print(nra)
+    nra = unachnor_aut(nra)
     nra.removeEps()
     nra.removeUnreachable()
     rsa = nra.determinize()
