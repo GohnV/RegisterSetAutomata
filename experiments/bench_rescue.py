@@ -20,22 +20,26 @@ def measure_times(directory):
                 if attack_string_match:
                     attack_string = attack_string_match.group(1)
 
-                    rsa_compile_time, rsa_match_time = measure_rsa(pattern, attack_string)
-                    if rsa_compile_time == PARSE_ERROR or rsa_compile_time == RSA_ERROR:
+                    rsa_compile_time, rsa_match_time, rsa_match = measure_rsa(pattern, attack_string)
+                    if rsa_compile_time == PARSE_ERROR or rsa_compile_time == RSA_ERROR or rsa_compile_time == TIMEOUT:
                         total_rsa_time = rsa_compile_time
                     else:
                         total_rsa_time = rsa_match_time + rsa_compile_time
 
-                    enemy_time = measure_enemy(pattern, attack_string)
+                    enemy_time, enemy_match = measure_enemy(pattern, attack_string)
 
-                    results.append({
-                        'filename': filename,
-                        'pattern': pattern,
-                        'attack_string': attack_string,
-                        'rsa_match_time': rsa_match_time,
-                        'total_rsa_time': total_rsa_time,
-                        'total_enemy_time': enemy_time,
-                    })
+                    if isinstance(total_rsa_time, float) and isinstance(enemy_time, float) and rsa_match != enemy_match:
+                        print(f"RESULTS NOT MATCHED FOR REGEX {pattern}", file=sys.stderr)
+                        print(f"     rsa:{rsa_match}, enemy:{enemy_match}", file=sys.stderr)
+                    else:
+                        results.append({
+                            'filename': filename,
+                            'pattern': pattern,
+                            'attack_string': attack_string,
+                            'rsa_match_time': rsa_match_time,
+                            'total_rsa_time': total_rsa_time,
+                            'total_enemy_time': enemy_time,
+                        })
     return results
 
 def print_results_csv(results):

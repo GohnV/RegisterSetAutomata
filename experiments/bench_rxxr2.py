@@ -6,7 +6,7 @@ from measuring import *
 #SAMPLES = 5
 #MAX_PUMP = 20
 #TIMEOUT_SECS = 10
-PUMP_VALUES = [5, 10, 20, 40]
+PUMP_VALUES = [5, 10, 20, 40, 80, 160, 1000, 10000]
 
 def measure_times(folder_path):
     results = []
@@ -32,27 +32,33 @@ def measure_times(folder_path):
                 for pump_num in PUMP_VALUES:
                     attack_string = prefix + pump * pump_num + suffix
 
-                    rsa_compile_time, rsa_match_time = measure_rsa(pattern, attack_string)
 
-                    total_enemy_time = measure_enemy(pattern, attack_string)
+                    rsa_compile_time, rsa_match_time, rsa_match = measure_rsa(pattern, attack_string)
 
-                    if rsa_compile_time == PARSE_ERROR or rsa_compile_time == RSA_ERROR:
+                    total_enemy_time, enemy_match = measure_enemy(pattern, attack_string)
+
+                    if rsa_compile_time == PARSE_ERROR or rsa_compile_time == RSA_ERROR or rsa_compile_time == TIMEOUT:
                         total_rsa_time = rsa_compile_time
                     else:
                         total_rsa_time = rsa_match_time + rsa_compile_time
 
-                    results.append({
-                                'pattern': pattern,
-                                'pumps': pump_num,
-                                'attack_string': attack_string,
-                                'rsa_match_time': rsa_match_time,
-                                'total_rsa_time': total_rsa_time,
-                                'total_enemy_time': total_enemy_time,
-                            })
+                    if isinstance(total_rsa_time, float) and isinstance(total_enemy_time, float) and rsa_match != enemy_match:
+                        print(f"RESULTS NOT MATCHED FOR REGEX {pattern}", file=sys.stderr)
+                        print(f"     rsa:{rsa_match}, enemy:{enemy_match}", file=sys.stderr)
+                    else:
+                        results.append({
+                                    'pattern': pattern,
+                                    'pumps': pump_num,
+                                    'attack_string': attack_string,
+                                    'rsa_match_time': rsa_match_time,
+                                    'total_rsa_time': total_rsa_time,
+                                    'total_enemy_time': total_enemy_time,
+                                })
+    return results
 
 def format_time(time_value):
     if isinstance(time_value, float):
-        return "{:.6f} s".format(time_value)
+        return "{:.6f}".format(time_value)
     else:
         return time_value
 
