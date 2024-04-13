@@ -43,7 +43,7 @@ def measure_times(directory):
     return results
 
 def print_results_csv(results):
-    headers = ["Pattern", "Total RsA Time", "RsA Match time", f"{g_enemy} Time"]
+    headers = ["Pattern", "Total RsA Time", "RsA Match time", f"{get_enemy()} Time"]
     rows = []
     for result in results:
         pattern = '"' + result['pattern'].replace('"', '""') + '"'  # Quote and escape double quotes

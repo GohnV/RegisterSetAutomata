@@ -6,7 +6,7 @@ from measuring import *
 #SAMPLES = 5
 #MAX_PUMP = 20
 #TIMEOUT_SECS = 10
-PUMP_VALUES = [5, 10, 20, 40, 80, 160, 1000, 10000]
+PUMP_VALUES = [5, 10, 20, 40, 80, 160]
 
 def measure_times(folder_path):
     results = []

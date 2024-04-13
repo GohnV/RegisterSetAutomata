@@ -65,6 +65,13 @@ def myIsSubset(t1, t2):
         return t2[1].isdisjoint(t1[1])
     else:
         return t1[1].issubset(t2[1])
+    
+def myIsCharIn(char, t):
+    neg, char_set = t
+    if neg == '^':
+        return char not in char_set
+    else:
+        return char in char_set
 
 def intersectSets(sets):
     n = len(sets)
@@ -388,8 +395,24 @@ class DRsA(RsA):
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
 
+    def createTransDict(self):
+        result = {}
+        for t in self.delta:
+            key = (frozenset(t.orig.states), frozenset(t.orig.mapping))
+            if key not in result:
+                result[key] = set()
+            result[key].add(t)
+        
+        #also add states without outgoing transitions
+        for q in self.Q:
+            key = (frozenset(q.states), frozenset(q.mapping))
+            if key not in result:
+                result[key] = set()
+        return result
+
     #Update Registers
     #   Unspecified registers lose their value!
+    #@jit
     def updateRegs(self, regConf, up, input):
         newConf = {}
         for r in regConf.keys():
@@ -404,6 +427,7 @@ class DRsA(RsA):
         return newConf
             
     #tests guards of a transition
+    #@jit
     def guardTest(self, input, regConf, eqG, diseqG):
         for g in eqG:
             for r in regConf.keys():
@@ -418,7 +442,41 @@ class DRsA(RsA):
         return True
 
     #Runs a word on this drsa
+    #@jit
     def runWord(self, word):
+        trans_dict = self.createTransDict()
+
+        #default reg config
+        regConf = {}
+        for r in self.R:
+            regConf.update({r : set()})
+            
+        #exactly 1 initial state
+        assert len(self.I) == 1
+        for i in self.I:
+            c = i
+        for s in word:
+            #print(c.states, str(c.mapping), end='')
+            #print('--', end='')
+            found = False
+            for t in trans_dict[(frozenset(c.states),frozenset(c.mapping))]:
+                if myIsCharIn(s, t.symbol) and self.guardTest(s, regConf, t.eqGuard, t.diseqGuard):
+                    c = t.dest
+                    regConf = self.updateRegs(regConf,t.update, s)
+                    found = True
+                    break
+            if not found:
+                #run dies
+                return False
+            #print(c.states)
+        for f in self.F:
+            if c.states == f.states and c.mapping == f.mapping:
+                return True
+        else:
+            return False
+
+    #Runs a word on this drsa
+    def runWordOld(self, word):
         #default reg config
         regConf = {}
         for r in self.R:
@@ -667,7 +725,7 @@ class NRA(RsA):
         while worklist != []:
             sc = worklist.pop(-1)
             #print(sc.states)
-            #FIXME: create minterms of all transitions used in a given set of states into A
+            #create minterms of all transitions used in a given set of states into A
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet
             sets = set()
@@ -690,8 +748,7 @@ class NRA(RsA):
                     T = set()
                     S1 = set()
                     #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:
-                    for t in self.delta:       #TODO:or t.symbol == ANYCHAR FIXME: remove anychar after minterms are done
-                                                #????a in t.symbol[1]???? (in used as a subset operator)
+                    for t in self.delta:
                         #print(a, t.symbol, myIsSubset(a, t.symbol))
                         if (t.orig in sc.states) and myIsSubset(a, t.symbol) and (t.eqGuard.issubset(g))\
                         and (t.diseqGuard.isdisjoint(g)):

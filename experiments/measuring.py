@@ -70,12 +70,14 @@ def measure_grep(pattern, attack_string):
 
 
 def measure_python(pattern, attack_string):
-    pass
+    for _ in range(SAMPLES):                
+        avg_compile_time = 0 
+        avg_match_time = 0
 
 def measure_pcre2(pattern, attack_string):
     print(f"Measuring pcre2 with pattern {pattern} and string {attack_string}", file=sys.stderr)
     avg_time = 0
-    match = False
+    match = None
     for _ in range(SAMPLES):
         try:
             with timeout(seconds=TIMEOUT_SECS):
@@ -90,19 +92,19 @@ def measure_pcre2(pattern, attack_string):
             t1 = time.perf_counter()
             if str(e) == "No match":
                 avg_time += (t1-t0)/SAMPLES
-                match = False
+                match = None
             elif str(e) == "Match limit exceeded":
-                return MATCH_LIMIT, False
+                return MATCH_LIMIT+str(t1-t0), False
             else:
+                print(f"Exception: {str(e)}", file=sys.stderr)
                 return PARSE_ERROR, False
     return avg_time, (match is not None)
 
 def measure_rsa(pattern, attack_string):
     print(f"Measuring RsA for pattern {pattern}", file=sys.stderr)
-    for _ in range(SAMPLES):                
-        avg_compile_time = 0 
-        avg_match_time = 0
-
+    avg_compile_time = 0 
+    avg_match_time = 0
+    for _ in range(SAMPLES):
         try:
             with timeout(seconds=TIMEOUT_SECS):
                 t0 = time.perf_counter()

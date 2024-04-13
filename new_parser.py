@@ -138,9 +138,12 @@ def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             neg_sign = ' '
             if av[0] == c.NEGATE:
                 neg_sign = '^'
-                av.pop(0)
+                av_chars = av[1:]
+            else:
+                av_chars = av
             in_char_set = (neg_sign, set())
-            for a in av: 
+            for a in av_chars: 
+
                 a_op, a_av = a
                 if a_op is c.RANGE:
                     start, end = a_av
@@ -149,7 +152,9 @@ def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
                 elif a_op is c.LITERAL:
                     myAddChar(in_char_set, chr(a_av))
             chars = myUnion(chars, in_char_set)
-        #TODO: add NOT_LITERAL support
+        elif op is c.NOT_LITERAL:
+            length += 1
+            chars = myUnion(chars, (neg_sign, {chr(av)}))
         #end elif chain
         else:
             # unsupported construction
