@@ -4,6 +4,7 @@ import sys
 import subprocess
 import shlex
 import pcre2
+import re
 sys.path.append('../')
 import new_parser as rsa
 
@@ -70,9 +71,21 @@ def measure_grep(pattern, attack_string):
 
 
 def measure_python(pattern, attack_string):
-    for _ in range(SAMPLES):                
-        avg_compile_time = 0 
-        avg_match_time = 0
+    avg_time = 0
+    for _ in range(SAMPLES):
+        try:
+            with timeout(seconds=TIMEOUT_SECS):
+                t0 = time.perf_counter()
+                match = re.search(pattern, attack_string)
+                t1 = time.perf_counter()
+                avg_time += (t1-t0)/SAMPLES
+                print(f"    TIME REPORT: Python = {t1-t0}", file=sys.stderr)
+        except TimeoutError:
+            return TIMEOUT, False
+        except Exception as e:
+            print("Exception:",str(e), file=sys.stderr)
+            return PARSE_ERROR, False
+    return avg_time, (match is not None)
 
 def measure_pcre2(pattern, attack_string):
     print(f"Measuring pcre2 with pattern {pattern} and string {attack_string}", file=sys.stderr)
