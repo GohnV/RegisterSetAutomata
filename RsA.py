@@ -442,7 +442,6 @@ class DRsA(RsA):
         return True
 
     #Runs a word on this drsa
-    #@jit
     def runWord(self, word):
         trans_dict = self.createTransDict()
 
@@ -710,7 +709,6 @@ class NRA(RsA):
         self.completeUpdates()
         self.makeRegisterLocal()
         self.fillWithBottom()
-        #self.preprocess()
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
         #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
@@ -724,7 +722,7 @@ class NRA(RsA):
         newA.I.add(temp)
         while worklist != []:
             sc = worklist.pop(-1)
-            #print(sc.states)
+            #print(f"({sc.states}, {sc.mapping})")
             #create minterms of all transitions used in a given set of states into A
             #set A includes all symbols used in transitions
             #to avoid looping through the (infinite) alphabet
@@ -777,8 +775,8 @@ class NRA(RsA):
                         if not tmp.isdisjoint(g):
                             op[ri] = tmp.difference({IN})
                         else:
-                            op[ri] = tmp
-                    
+                            op[ri] = tmp                        
+                    #print(op)
                     #'''
                     #lines 16-19 FIXME:prints
                     #print("=========", S1, g, "===========")

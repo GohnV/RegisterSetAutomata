@@ -79,7 +79,6 @@ def measure_python(pattern, attack_string):
                 match = re.search(pattern, attack_string)
                 t1 = time.perf_counter()
                 avg_time += (t1-t0)/SAMPLES
-                print(f"    TIME REPORT: Python = {t1-t0}", file=sys.stderr)
         except TimeoutError:
             return TIMEOUT, False
         except Exception as e:

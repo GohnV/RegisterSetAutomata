@@ -154,7 +154,7 @@ def check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             chars = myUnion(chars, in_char_set)
         elif op is c.NOT_LITERAL:
             length += 1
-            chars = myUnion(chars, (neg_sign, {chr(av)}))
+            chars = myUnion(chars, ('^', {chr(av)}))
         #end elif chain
         else:
             # unsupported construction
@@ -358,6 +358,7 @@ def create_automaton(sub_exp, level=0):
                 return False
 
         else:
+            
             # UNSUPPORTED: (TODO: which should be supported?)
             #       ASSERT
             #       ASSERT_NOT
@@ -390,6 +391,7 @@ def attempt_rsa(pattern: str) -> bool:
     if nra == False:
         return False
     #print(nra)
+    nra = unachnor_aut(nra)
     nra.removeEps()
     nra.removeUnreachable()
     rsa = nra.determinize()
