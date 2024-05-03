@@ -5,6 +5,11 @@ import rsa_draw
 from RsA import *
 
 # TODO: Add backref, capt group to create_automaton and test!!!
+WHITESPACE = frozenset(" \t\n\r\v\f")
+DIGITS = frozenset("0123456789")
+ASCIILETTERS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+#FIXME: no unicode for word yet
+WORD_CHARS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
 
 g_state_id = 0 # for generating sequential ids for states
 g_back_referenced = [] # store all back-referenced capture group numbers
@@ -267,22 +272,44 @@ def create_automaton(sub_exp, level=0):
         if op is c.IN:
             # member sublanguage
             #print()
-            neg = False
+            neg = ' '
             chars = set()
             if av[0] == (c.NEGATE, None):
                 #print(c.NEGATE)
-                neg = True
+                neg = '^'
                 av.pop(0)
             for op, a in av:
+                
                 if op == c.RANGE:
                    start, end = a
                    for i in range(start, end):
                        chars.add(chr(i))  
                 elif op == c.LITERAL:
                     chars.add(chr(a))
+                elif op == c.CATEGORY:
+                    myset_chars = (neg, frozenset(chars))
+                    if a == c.CATEGORY_SPACE:
+                        neg, chars = myUnion(myset_chars, (' ', WHITESPACE))
+                    elif a == c.CATEGORY_NOT_SPACE:
+                        neg, chars = myUnion(myset_chars, ('^', WHITESPACE))
+                    elif a == c.CATEGORY_DIGIT:
+                        neg, chars = myUnion(myset_chars, (' ', DIGITS))
+                    elif a == c.CATEGORY_NOT_DIGIT:
+                        neg, chars = myUnion(myset_chars, ('^', DIGITS))
+                    elif a == c.CATEGORY_WORD:
+                        neg, chars = myUnion(myset_chars, (' ', WORD_CHARS))
+                    elif a == c.CATEGORY_NOT_WORD:
+                        neg, chars = myUnion(myset_chars, ('^', WORD_CHARS))
+                    else:
+                        print(op, a)
+                        return False #unsupported category
+                    chars = set(chars)
+                else:
+                    print(op, a)
+                    return False #unsupported type
                 #print((level+1)*"  " + str(op), a)
             #CREATE_AUT
-            aut_tmp = one_trans_aut(chars, negate=neg)
+            aut_tmp = one_trans_aut(chars, negate=(neg == '^'))
         elif op is c.BRANCH:
             #print()
             #BRANCH ALL AUTOMATA CREATED IN THE LOOP
@@ -423,54 +450,9 @@ def create_rsa(pattern: str) -> DRsA or bool:
     nra = unachnor_aut(nra)
     nra.removeEps()
     nra.removeUnreachable()
-    rsa = nra.determinize()
+    rsa = nra.determinize(postprocess=True)
     #print(rsa)
     if rsa == -1:
         return False
     else:
         return rsa
-
-##################################################################################
-#                                TESTING AREA                                    #
-##################################################################################
-# subexp = p.parse('[^a-zX]te(s*)(?:t|.* | x | as-x)+\\1')
-# subexp = p.parse('.*a{3,5}(x(?:ab|bc|dc))xyz\\1')
-
-#FIXME: test this ((.). \2.) (.*)((.). \5. \5.)
-
-
-
-# pattern = '.[^b]a{3,5}(x(?:ab|bc|dc))xyz\\1$'
-# g_back_referenced = []
-# g_anchor_start = False
-# g_anchor_end = False
-# pat = p.parse(pattern)
-# find_br_cg(pat)
-# nra = create_automaton(pat)
-# if nra == False:
-#     print("error")
-#     exit()
-# nra = unachnor_aut(nra)
-# nra.removeEps()
-# nra.removeUnreachable()
-# rsa_draw.drawAutomaton(nra, "testaut")
-# rsa = nra.determinize()
-# if rsa == -1:
-#     print("unable to determinize")
-#     exit()
-# rsa_draw.drawAutomaton(rsa, "testaut_det")
-
-# import time
-
-# while True:
-#     word = input()
-#     print("\n", word, " is ", sep='', end="")
-#     t0 = time.time()
-#     res = rsa.runWord(word)
-    
-#     if res:
-#         print("accepted")
-#     else:
-#         print("not accepted")
-#     t1 = time.time()
-#     print("time:", t1-t0)

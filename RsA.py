@@ -595,13 +595,14 @@ class DRsA(RsA):
                             if found:
                                 break
                         if not found:
-                            return BOTTOM
-        Fnew = set()
-        for (q, P) in Qnew:
-            for f in self.F:
-                if q.states == f.states and q.mapping == f.mapping:
-                    Fnew.add((q, P))
-        return DRsA(Qnew, Rnew, deltaNew, Inew, Fnew)
+                            return False
+        # Fnew = set()
+        # for (q, P) in Qnew:
+        #     for f in self.F:
+        #         if q.states == f.states and q.mapping == f.mapping:
+        #             Fnew.add((q, P))
+        # return DRsA(Qnew, Rnew, deltaNew, Inew, Fnew)
+        return True
 
 #end of class DRsA
 
@@ -797,7 +798,8 @@ class NRA(RsA):
         self.delta = deltanew
 
 
-    def determinize(self):
+    def determinize(self, postprocess=False):
+        overapprox = False
         #fill in implicit updates
         self.completeUpdates()
         self.makeRegisterLocal()
@@ -873,42 +875,46 @@ class NRA(RsA):
                     #'''
                     #lines 16-19 FIXME:prints
                     #print("=========", S1, g, "===========")
-                    for q1 in S1:
-                        P = [[]]
-                        Rq1 = set()
-                        for r in self.activeRegs(q1):
-                            Rq1.add(r)
+                    # no need to check if already overapproximating
+                    if not overapprox:
+                        for q1 in S1:
+                            P = [[]]
+                            Rq1 = set()
+                            for r in self.activeRegs(q1):
+                                Rq1.add(r)
 
-                        #cartesian product
-                        for ri in Rq1:
-                            #print('ri = ', ri, 'op(ri) = ',op[ri])
-                            Pnew = []
+                            #cartesian product
+                            for ri in Rq1:
+                                #print('ri = ', ri, 'op(ri) = ',op[ri])
+                                Pnew = []
+                                for elem in P:
+                                    for rup in op[ri]:
+                                        tmp = copy.deepcopy(elem)
+                                        tmp.append([ri, rup])
+                                        Pnew.append(tmp)
+                                P = Pnew
+                            #print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
                             for elem in P:
-                                for rup in op[ri]:
-                                    tmp = copy.deepcopy(elem)
-                                    tmp.append([ri, rup])
-                                    Pnew.append(tmp)
-                            P = Pnew
-                        #print("         q1 =", q1, "R[q1] =", Rq1, "P =", P)
-                        for elem in P:
-                            found_conf = False
-                            #print(elem)
-                            for t in T1:
-                                if t.dest == q1:
-                                    #print(t.orig,"->", t.dest,"| up =", t.update)
-                                    con = True
-                                    for xi in elem:
-                                        #check eq.
-                                        if t.update[xi[0]] != xi[1]:
-                                            #print(xi[0], xi[1], t.update[xi[0]])
-                                            con = False
+                                found_conf = False
+                                #print(elem)
+                                for t in T1:
+                                    if t.dest == q1:
+                                        #print(t.orig,"->", t.dest,"| up =", t.update)
+                                        con = True
+                                        for xi in elem:
+                                            #check eq.
+                                            if t.update[xi[0]] != xi[1]:
+                                                #print(xi[0], xi[1], t.update[xi[0]])
+                                                con = False
+                                                break
+                                        if con:
+                                            #print("Found:",t.orig,"->", t.dest,"| up =", t.update)
+                                            found_conf = True
                                             break
-                                    if con:
-                                        #print("Found:",t.orig,"->", t.dest,"| up =", t.update)
-                                        found_conf = True
-                                        break
-                            if not found_conf:
-                                return -1
+                                if not found_conf:
+                                    overapprox = True
+                                    if not postprocess:
+                                        return -1
                     #'''
 
                     #up′ ← {r_i → op_ri | r_i ∈ R}:
@@ -948,6 +954,10 @@ class NRA(RsA):
                 if q in self.F:
                     newA.addF(mq)
                     break
+        if postprocess and overapprox:
+            # if postprocess also detects overapprox, abort
+            if not newA.postprocess(self):
+                return -1
         return newA
 
     def determinizeWithRemove(self):
