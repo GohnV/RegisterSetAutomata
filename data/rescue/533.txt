@@ -1,9 +1,0 @@
-#[\da-z]+|#(?:-|([+\/\\*~<>=@%|&?!])\1?)|#(?=\()
-5: <15 : 7.5 : #><13 : 4.333333333333333 : #-><18 : 6.0 : #\><8 : 3.0 : #c><19 : 5.166666666666667 : 4/r#(>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 5.431369842 (s)
-Attack failed

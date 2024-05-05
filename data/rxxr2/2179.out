@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\\begin\{((?:equation|math|eqnarray|align|multline|gather)\*?)\})[\s\S]*?(?=\\end\{\2\})
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(74)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

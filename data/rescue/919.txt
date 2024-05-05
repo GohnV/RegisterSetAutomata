@@ -1,9 +1,0 @@
-(</)(build)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.0 : 4QSS</>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 12/25
-Normal fail
-TIME: 1.758189067 (s)
-Attack failed

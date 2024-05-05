@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\[[^\[\]]*=\s*)(\"|')([^\2=\[\]]+)\2([^\[\]]*\])
-PARSE: ERROR {ParsingData.UnsupportedEscape(26, 50)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

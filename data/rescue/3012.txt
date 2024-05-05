@@ -1,9 +1,0 @@
-^\s*((?:var|let|const|)[\t ]*)([\w_$\.]+)(\s*=\s*)(\2)(?=[\s]+(\w)|;|$)
-5: <23 : 11.25 : let><28 : 10.0 : let=><39 : 6.5 : let=let><38 : 6.888888888888889 : let=let	><40 : 5.5 : let=let	l>
-===Initiate End===
-Node Coverage: 42/42
-===Genetic Algorithm End===
-Node Coverage: 42/42
-Normal fail
-TIME: 123.672973768 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<(h[1-6])>([^<]+)<\/\1>
-1: <7 : 1.2608695652173914 : ycp*5\60q)<Tv}lpVQ<h6>
-===Initiate End===
-Node Coverage: 7/16
-===Genetic Algorithm End===
-Node Coverage: 14/16
-Normal fail
-TIME: 6.256228096 (s)
-Attack failed

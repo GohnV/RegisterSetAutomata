@@ -1,3 +1,0 @@
-\[object |delete |else (?!{)|function | in |return\s+[\w"']|throw |typeof |use strict|var |@ |(["'])\\n\1|\\\\n|\\n|\s+
-TIME: 0.052238215 (s)
-Regex compile error

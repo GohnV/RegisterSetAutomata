@@ -1,9 +1,0 @@
-(?><<-("?)((?:[_\w]+_|)(?:SH|SHELL))\b\1)
-2: <25 : 5.416666666666667 : 8QR2<<-SHLAs_R2:W,P,%<<-LAs__R2:W,P,%<<-LAs_z><26 : 4.3 : 8QR2<<-SH>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 16.515240328 (s)
-Attack failed

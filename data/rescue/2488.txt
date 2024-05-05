@@ -1,9 +1,0 @@
-^ ( [ ]* ) Diff: (?: \e\[ 0 m )? (?: \n \1 \e\[ \d+ (?: ; \d+ )* m .* )* 
-2: <21 : 1.5263157894736843 :     Diff:  [ 0 m ><20 : 2.076923076923077 :     Diff:   >
-===Initiate End===
-Node Coverage: 22/40
-===Genetic Algorithm End===
-Node Coverage: 22/40
-Normal fail
-TIME: 2.046373782 (s)
-Attack failed

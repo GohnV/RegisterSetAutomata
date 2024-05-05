@@ -1,9 +1,0 @@
-<tpl\b[^>]*>((?:(?=([^<]+))\2|<(?!tpl\b[^>]*>))*?)<\/tpl>
-8: <5 : 1.0 : <tpl><6 : 1.5714285714285714 : <tpl\b><19 : 3.0 : <tpl^>><24 : 4.666666666666667 : <tpl^>?=><27 : 4.923076923076923 : <tpl^>?=\2|<><12 : 1.0 : <tpl^></tpl>><31 : 6.181818181818182 : <tpl^><tpl><27 : 3.9166666666666665 : <tpl^><tpl>>
-===Initiate End===
-Node Coverage: 33/33
-===Genetic Algorithm End===
-Node Coverage: 33/33
-Normal fail
-TIME: 135.555049954 (s)
-Attack failed

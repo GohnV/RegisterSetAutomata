@@ -1,9 +1,0 @@
-\sname=(["'])(.*?)\1
-1: <13 : 1.4615384615384615 : a	a	name="'">
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 18.634239657 (s)
-Attack failed

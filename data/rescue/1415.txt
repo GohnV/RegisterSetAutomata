@@ -1,9 +1,0 @@
-(?<!\@)\@yield\(('|\")(.+)\1\)
-1: <20 : 7.223300970873787 : Z(aB@yield(""q8.Q+!CWjiel"q8.Q+!CWjiel"q8.Q+!CWj8.Q+!CWq8.Q++!CWj8.Q+!CWq8.Q+!CWjielld("q8.Q+!CWQ+!(aB>
-===Initiate End===
-Node Coverage: 20/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 116.135107679 (s)
-Attack failed

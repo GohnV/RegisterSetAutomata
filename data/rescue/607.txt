@@ -1,15 +1,0 @@
-%r([^a-zA-Z0-9\s{(\[<])(?:(?!\1)[^\\]|\\[\s\S])*\1[gim]{0,3}
-4: <2 : 1.1 : ^a-zA-Z0-><17 : 5.268656716417911 : #hV<jeSNrk1y$0-
-ZMQ/)
-VW=
-|
-jl6+Mcx4"S%r@AE$6)7~/NYJhlFvF,^(ScN<><18 : 9.323076923076924 : y/X7Q0=-OH%r`%Po3h!T
->p{\C=[	JS
-_:~M.{A\WMInq@8NY,WLiF'@#*/#:Y><22 : 7.551724137931035 : QJ%r#_dY2s:'"i-}m_X;:,VdBk+#>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 223.1035565 (s)
-Attack failed

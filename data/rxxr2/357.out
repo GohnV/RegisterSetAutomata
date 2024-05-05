@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\\begin\{((?:verbatim|lstlisting)\*?)\})([\w\W]*?)(?=\\end\{\2\})
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(51)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

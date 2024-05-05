@@ -1,9 +1,0 @@
-\stype\s*=\s*(?:(['"])(.+?)\1|(\S+))
-1: <20 : 2.076923076923077 : U type=_6ar6ar_6__6ar6ar_6rxW6ar6ar_6__6ar6ar_6rxWZ>
-===Initiate End===
-Node Coverage: 20/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 9.098388093 (s)
-Attack failed

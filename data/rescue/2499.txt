@@ -1,11 +1,0 @@
-<([[:alpha:]]\w*) (?: [^\/>]*\/> | .*?<\/\1>)
-2: <12 : 1.3142857142857143 :  u&di4
-\&5uP0fT&5uP0fTRfA"V<l u><9 : 1.5238095238095237 :  u&di4
-\&5u:BA"V<l0>
-===Initiate End===
-Node Coverage: 13/24
-===Genetic Algorithm End===
-Node Coverage: 21/24
-Normal fail
-TIME: 128.393476839 (s)
-Attack failed

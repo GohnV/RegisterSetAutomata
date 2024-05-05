@@ -1,9 +1,0 @@
-\{block:([\w:]+)\}(.*?)\{\/block:\1\}|\{([\w\-:]+)\}
-7: <7 : 3.6666666666666665 : {/blo><13 : 5.75 : {block:><15 : 8.0 : {block:block:><15 : 2.888888888888889 : {block:}><22 : 4.466666666666667 : {block:block:}><23 : 4.3478260869565215 : {block:block:}{/block:><24 : 4.310344827586207 : {block:block:}{/block:block:>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 129.743674629 (s)
-Attack failed

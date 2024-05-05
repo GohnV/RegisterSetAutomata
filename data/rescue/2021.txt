@@ -1,9 +1,0 @@
-(\d{1,2})(\s|-|/|\\|_|\.)(\d{1,2})\2(19\d{2}|200\d|201\d|\d{2})
-2: <32 : 4.027397260273973 : \V`X@ZLV`X@ZL`X@ZLPnKV`X@8.Z><V`X@KV`X@8.Z><V`LVK@ZLV`X@Z5.5.2.201><32 : 4.521739130434782 : \VK@ZX@@ZL@ZLV`X@ZLPnK@ZLVK@ZLsPnKPnKV`X@8.Z><V`X@KV`X@8.Z><V`X@Z5.8z8.5.2><V`X@KV`X@8.Z><V`X@Z5.8z8.5.2001>
-===Initiate End===
-Node Coverage: 33/35
-===Genetic Algorithm End===
-Node Coverage: 33/35
-Normal fail
-TIME: 54.81988616 (s)
-Attack failed

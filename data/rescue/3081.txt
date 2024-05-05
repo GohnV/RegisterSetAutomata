@@ -1,9 +1,0 @@
-\[right(:.+)?\](.*?)\[\/right\1?\]
-6: <5 : 0.7142857142857143 : [right><7 : 0.875 : [right:><10 : 1.25 : [right]><10 : 1.3333333333333333 : [right:\><14 : 2.7333333333333334 : [right][/right><13 : 0.8125 : [right][/right]>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 156.827899581 (s)
-Attack failed

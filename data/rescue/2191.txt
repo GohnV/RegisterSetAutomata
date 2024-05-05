@@ -1,9 +1,0 @@
-(?<![\\])(([\"\']).*?(?<![\\])\2)
-6: <7 : 5.666666666666667 : ?<><9 : 5.5 : ?<\><14 : 6.0 : ?<"><15 : 7.2 : ?<"#><17 : 8.166666666666666 : ?<"#\><19 : 5.936507936507937 : q7O8W$mROIiu&:8|+uh?z"!]nQHbttF;*-}R\XNaS}GEJyOq^1X$8`~^Of">
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 106.440496948 (s)
-Attack failed

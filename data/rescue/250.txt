@@ -1,9 +1,0 @@
-^\s*const\s+VERSION\s*=\s*(["'])(.*)\1\s*;
-1: <24 : 2.6666666666666665 : constVERSION="'"ERSION="t>
-===Initiate End===
-Node Coverage: 24/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 8.07635096 (s)
-Attack failed

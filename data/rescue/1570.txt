@@ -1,13 +1,0 @@
-<(script|style)([^>]*)>((\\.|[^\\])*)<\/\1>
-1: <28 : 15.698924731182796 : 	apQt^0 zi;hK<cript|shK<script|style
->FxJJ	apQt^0 zi;hK<cript|shK<script|style
->FxJJ=2r 8</script|style
->FxJJ	apQt^0 zi;hK<cript|shK<script|style
->FxJJ=2r 8</ 8</&u%nu>FxJJ=2r 8&u\\\\R>
-===Initiate End===
-Node Coverage: 28/29
-===Genetic Algorithm End===
-Node Coverage: 28/29
-Normal fail
-TIME: 64.44360751 (s)
-Attack failed

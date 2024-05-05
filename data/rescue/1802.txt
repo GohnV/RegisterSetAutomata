@@ -1,9 +1,0 @@
-^((T(he)(?=.*the)|2(?=.* 2)) )?Fast (Five|(((and t\3)|\2(?=.*s$)|&(?!.*:)) Furious(( (6|7))|: Tokyo Drift)?))$
-6: <19 : 1.7272727272727273 : Fast and t><38 : 4.066666666666666 : Fast & Furious><25 : 3.3333333333333335 : Fast &&:><20 : 3.5555555555555554 : 2 2  urt & Furiou  Furious><21 : 3.6 : Thethethe><41 : 4.117647058823529 : Fast & Furious T>
-===Initiate End===
-Node Coverage: 64/78
-===Genetic Algorithm End===
-Node Coverage: 64/78
-Normal fail
-TIME: 1.741035217 (s)
-Attack failed

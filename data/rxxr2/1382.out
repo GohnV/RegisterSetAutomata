@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (foo)\g<1>(bar)\2
-PARSE: ERROR {ParsingData.UnsupportedEscape(6, 103)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

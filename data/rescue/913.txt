@@ -1,9 +1,0 @@
-x(...)\1
-1: <9 : 1.0256410256410255 : k2g>2g>UvUvUgOU?Uv"gUvUv>vUv>v>x"{I"{I>
-===Initiate End===
-Node Coverage: 9/10
-===Genetic Algorithm End===
-Node Coverage: 9/10
-Normal fail
-TIME: 2.878727234 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^m(.)(.*)\1$
-4: <4 : 2.0 : m><11 : 3.5 : m^m><12 : 4.029850746268656 : m	K87a'/lPA<]	-m^mtF=mAxS		(('16)L^lv#;sgp|Vab+ &WQ5XH po=#*>-[a	#><13 : 3.6 : m^m^>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 13.6860971 (s)
-Attack failed

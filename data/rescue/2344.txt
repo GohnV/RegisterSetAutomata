@@ -1,95 +1,0 @@
-([^= ]+)\s*=\s*(?:("|')((?:\\?.)*?)\2|(\S+))
-3: <20 : 8.0 : ^= ><24 : 4.375 : \s*=\s*><36 : 8.571428571428571 : ^= "|'>
-===Initiate End===
-Node Coverage: 36/36
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 36/36
-Vulnerable: \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkXFnbJTqICHdTByJmCscWAMzklOug	 
-s=
-100136 : 529.8201058201058 : \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkXFnbJTqICHdTByJmCscWAMzklOug	 
-s=
-100006 : 636.9808917197453 : \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkX
-100006 : \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkX
-100006 : 0 : \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkX
-100072 : \sbfzfNBpIPZhaHYGZAZazSLkoLJspgh*"d%AQAHmNDGmUJ\s*tofviPMNXziltpqhzdjbxcqOpZCnYGYlbekujIiyyXzrdhTitbcUmP	
-
-
-
-	PBWkXFnbJT			
-
-
-
-
-	
-
-
-
-	PBWkX
-TIME: 28.565519469 (s)
-Attack failed

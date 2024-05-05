@@ -1,6 +1,0 @@
-= [1] =
-INPUT: contains\((['"])([^\1))]*)\1,(['"])([^\3))]*)\3\)
-PARSE: ERROR {ParsingData.UnsupportedEscape(20, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

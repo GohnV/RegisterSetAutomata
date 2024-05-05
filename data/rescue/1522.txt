@@ -1,9 +1,0 @@
-([\"'])(?:\\\1|.)*?\1
-1: <15 : 7.27027027027027 : \\.\\'\\.\\.\.\\.\\\\.\\.\.\\.\\.\.'>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 64.185456816 (s)
-Attack failed

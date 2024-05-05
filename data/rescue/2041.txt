@@ -1,9 +1,0 @@
-^(Skip|TODO)(?:\((['"]?)(.+)\)\2)?$
-4: <12 : 2.4 : TODO><18 : 3.0 : TODO(><21 : 3.142857142857143 : TODO(*><25 : 3.75 : TODO(*)>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 0.472801699 (s)
-Attack failed

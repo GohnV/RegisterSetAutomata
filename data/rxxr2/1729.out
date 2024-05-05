@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?<!\S)(cpp_include)(?!\S)(?:\s+((['"])(?>.*?(\3))))?
-PARSE: ERROR {ParsingData.InvalidBackreference(46)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

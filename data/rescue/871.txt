@@ -1,9 +1,0 @@
-([.+~=*_\-;])\1{2,}
-3: <6 : 4.3 : .+~=*_\-;><7 : 4.545454545454546 : .+~=*_\-;;><8 : 4.0 : .+~=*_\-;;;>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 1.976758463 (s)
-Attack failed

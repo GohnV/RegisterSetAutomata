@@ -1,9 +1,0 @@
-value=(['"])(.*?)\1
-3: <3 : 0.42857142857142855 : value=><10 : 1.4444444444444444 : value='"><11 : 1.3 : value='"'>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 24.231132032 (s)
-Attack failed

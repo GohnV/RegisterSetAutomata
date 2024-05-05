@@ -1,9 +1,0 @@
-([$k ])\1([$v ])        $ 
-1: <11 : 2.7666666666666666 : la; aa;  XUCX;               >
-===Initiate End===
-Node Coverage: 11/13
-===Genetic Algorithm End===
-Node Coverage: 11/13
-Normal fail
-TIME: 35.326480091 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(?><<-("?)((?:[_\w]+_|)RUBY)\b\1)
-1: <23 : 3.642857142857143 : {<><<-OW_RUBY>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 43.952825282 (s)
-Attack failed

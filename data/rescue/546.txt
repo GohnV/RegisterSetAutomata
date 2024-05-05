@@ -1,9 +1,0 @@
-(?i)x(?:...|(...))\1x
-1: <17 : 3.0 : -x-.`:`:]]x-`:0.]x0.`0.]x-:0.]x-`:-`:`:]]x-`:0.]x0.`0.]x-:0.]x-`:-`:x>
-===Initiate End===
-Node Coverage: 17/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 5.552531915 (s)
-Attack failed

@@ -1,9 +1,0 @@
-("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1|@"(?:\\(?:\r\n|[\s\S])|[^"\\\r\n])*"
-5: <19 : 9.5 : "><23 : 9.666666666666666 : "\><27 : 15.0 : "\'><28 : 6.4 : "\@"><42 : 16.507042253521128 : XonT#W.H_C|?{K502l<6'ViJ`u9$8K#L+v`i:M.j	&)>=5V]u/%k*\1|@".V\R4@pu	P6>
-===Initiate End===
-Node Coverage: 46/46
-===Genetic Algorithm End===
-Node Coverage: 46/46
-Normal fail
-TIME: 50.742894058 (s)
-Attack failed

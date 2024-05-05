@@ -1,9 +1,0 @@
-\[code(:.+)?\](.*?)\[\/code\1?\]
-6: <5 : 0.8333333333333334 : [code><10 : 1.4285714285714286 : [code]><11 : 1.75 : [code]\><10 : 1.8888888888888888 : [code:.+><14 : 2.8461538461538463 : [code][/code><13 : 0.9285714285714286 : [code][/code]>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 146.122350709 (s)
-Attack failed

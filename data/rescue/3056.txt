@@ -1,10 +1,0 @@
-(==+)\s*'''\s*(.+?)\s*'''\s*\1
-1: <10 : 2.1864406779661016 : y?9]f_.Y	xz+>GN{AGRa`#i~gCt
-N%{YaR~\:X[qsQX	`?'}2R6s6?==>
-===Initiate End===
-Node Coverage: 10/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 10.755934504 (s)
-Attack failed

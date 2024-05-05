@@ -1,9 +1,0 @@
-VERSION\s*[=:]\s*([\'"])(.*?)\1
-5: <4 : 0.5 : VERSION><8 : 0.8888888888888888 : VERSION=><14 : 1.4 : VERSION="><15 : 1.6363636363636365 : VERSION="$><16 : 1.6923076923076923 : VERSION="\'">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 25.332004291 (s)
-Attack failed

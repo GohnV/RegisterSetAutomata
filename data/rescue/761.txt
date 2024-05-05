@@ -1,109 +1,0 @@
-url\(\s*(["']?)\s*([^\)]*)\s*\1\s*\)
-3: <19 : 3.8 : url(><20 : 3.3333333333333335 : url()><20 : 6.111111111111111 : url(url\>
-===Initiate End===
-Node Coverage: 21/21
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Vulnerable: url(ur	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-  
-
-
- 	 	
- 
-l\
-100054 : 1150.0459770114942 : url(ur	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-  
-
-
- 	 	
- 
-l\
-100042 : 1640.032786885246 : url(	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-
-1000057 : url(url(	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-
-1000074 : 16 : url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-
-21164005 : url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(url(	
-
-   	 
-
-	
-   				   	  
-  	 	
-
-	
-
-	
-
-   
-
-
-TIME: 0.927770921 (s)
-Attack failed

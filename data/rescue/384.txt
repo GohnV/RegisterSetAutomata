@@ -1,9 +1,0 @@
-^\#(([a-fA-F0-9])\2){3}$
-1: <10 : 2.5 : #aaaaaa>
-===Initiate End===
-Node Coverage: 10/11
-===Genetic Algorithm End===
-Node Coverage: 10/11
-Normal fail
-TIME: 0.131796286 (s)
-Attack failed

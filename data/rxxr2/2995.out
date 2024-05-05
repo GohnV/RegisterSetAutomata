@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \n(?:---?|\\u2014)(?!-) *(.*(\n( *).*(\n\2\S.*)*)?\Z)
-PARSE: ERROR {ParsingData.InvalidBackreference(40)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

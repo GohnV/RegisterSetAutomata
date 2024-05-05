@@ -1,9 +1,0 @@
-<(u|i|strike)>&nbsp;<\/\1>
-1: <10 : 1.6428571428571428 : g-H.J7Z>e<uO>
-===Initiate End===
-Node Coverage: 10/14
-===Genetic Algorithm End===
-Node Coverage: 10/14
-Normal fail
-TIME: 0.770106011 (s)
-Attack failed

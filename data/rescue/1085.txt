@@ -1,9 +1,0 @@
-[^\w]|(.)(?=\1)
-3: <5 : 2.5 : ^><11 : 6.166666666666667 : vXSa[><13 : 5.8 : 2Jrr>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 34.74658097 (s)
-Attack failed

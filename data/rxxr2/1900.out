@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ISBN\x20(?=.{13}$)\d{1,5}([- ])\d{1,7}\1\d{1,6}\1(\d|X)$|[- 0-9X]{10,16}
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(8)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

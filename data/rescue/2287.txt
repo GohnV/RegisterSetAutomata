@@ -1,9 +1,0 @@
-^([A-Z45].*)([$k7])\2([$v])$ 
-1: <16 : 7.111111111111111 : AA77777v>
-===Initiate End===
-Node Coverage: 16/17
-===Genetic Algorithm End===
-Node Coverage: 16/17
-Normal fail
-TIME: 12.222975684 (s)
-Attack failed

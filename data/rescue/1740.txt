@@ -1,9 +1,0 @@
-(^|\s)alt\s*=\s*(["']?)(.*?)(\2)
-1: <12 : 4.647058823529412 : alt wi$Q88 wi$Q8$0i$alt wi$Q88 wi>
-===Initiate End===
-Node Coverage: 12/26
-===Genetic Algorithm End===
-Node Coverage: 25/26
-Normal fail
-TIME: 153.582361748 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <form\b(?:(?=(\s+(?:method="([^"]*)"|enctype="([^"]*)")|action="([^"]*)"|data-collision-check="([^"]*)"|data-collision-check-strict="([^"]*)"|[^\s>]+|\s+))\1)*>
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(10)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

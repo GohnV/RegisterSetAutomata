@@ -1,9 +1,0 @@
-(?:c)_1(?=(33|3))\1(?:)37
-1: <20 : 3.7586206896551726 : a_1c_1c_1c_1c_13_1c_1c_13337>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 8.395854293 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\s(?:width|height|style)=(["']).*?\1
-1: <18 : 1.7222222222222223 : dSTx?3cZU8Dq#S/|dAwidth='width='>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 7.699848166 (s)
-Attack failed

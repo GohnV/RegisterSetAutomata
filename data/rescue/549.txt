@@ -1,9 +1,0 @@
-^\s*(/.+/|m(.).+\2)[cgimosx]*\s*$
-5: <9 : 4.5 : /><11 : 4.0 : /m><18 : 4.888888888888889 : /m/.+/|m><14 : 3.3333333333333335 : m.fRN}(h><18 : 5.5 : /m/>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 19.720965522 (s)
-Attack failed

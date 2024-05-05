@@ -1,9 +1,0 @@
-([xqy])\1$
-1: <7 : 4.178571428571429 : xyqqyyqqyqyyyqqyyqqyqqyqyyy>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 2.518476505 (s)
-Attack failed

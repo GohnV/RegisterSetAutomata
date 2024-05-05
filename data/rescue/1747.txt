@@ -1,15 +1,0 @@
-(([a-zA-Z])\2*)|(\((('.*?'|\(.*?\)|.)*?)\))|('(.*?)')
-8: <14 : 7.0 : '><16 : 5.333333333333333 : ''><25 : 12.0 : '(><23 : 9.0 : '()><27 : 16.0 : '(*?><33 : 17.333333333333332 : '(*?b><30 : 19.166666666666668 : '(*?(><35 : 10.583333333333334 : ]	+'(h7mo'>
-===Initiate End===
-Node Coverage: 41/41
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Vulnerable: (((*'(Emi'uAev4YyXr0:8'(EmqAU((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0:8'(EmqAU((*'(s7}R=O';ZKv}SA:Y<rB7q@EnqeLsikc
-100144 : 695.4444444444445 : (((*'(Emi'uAev4YyXr0:8'(EmqAU((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0:8'(EmqAU((*'(s7}R=O';ZKv}SA:Y<rB7q@EnqeLsikc
-100120 : 807.4193548387096 : (((*'(Emi'uAev4YyXr0:8'(Emq((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0'(Emq((*'(s7}R=O';ZKv}SA:Y<
-1000152 : (((*'(Emi'uAev4YyXr0:8'(Emq((*'*'(Emi'uAev4YyXr0:8'(Emq((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0'(Emq((*'(s7}R=O';ZKv}SA:Y<
-1000152 : 0 : (((*'(Emi'uAev4YyXr0:8'(Emq((*'*'(Emi'uAev4YyXr0:8'(Emq((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0'(Emq((*'(s7}R=O';ZKv}SA:Y<
-1599601 : (((*'(Emi'uAev4YyXr0:8'(Emq((*'*'(Emi'uAev4YyXr0:8'(Emq((*'(s7}R=O;ZKv}SA:Y<rB7q@EnqeLsikcndawgxzgdjuklvujvuzvzbangnd9WZEr0'(Emq((*'(s7}R=O';ZKv}SA:Y<
-TIME: 8.044344247 (s)
-Attack failed

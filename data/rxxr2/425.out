@@ -1,6 +1,0 @@
-= [1] =
-INPUT: PUBLIC\s+(\S)([^\1]*\1)\s+(\S)([^\3]*)\3
-PARSE: ERROR {ParsingData.UnsupportedEscape(17, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

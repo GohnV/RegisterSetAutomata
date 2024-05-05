@@ -1,9 +1,0 @@
-^I decode the string ('|")(.*)\1$
-4: <6 : 0.2857142857142857 : I decode the string ><13 : 0.5909090909090909 : I decode the string "><14 : 0.7391304347826086 : I decode the string "'><16 : 0.8260869565217391 : I decode the string "">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 35.869854784 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(we(need(to(go(deeper)?)?)?)?) \1
-1: <10 : 2.1333333333333333 : ]B@mw~mkti_~mkti_we kti_we we>
-===Initiate End===
-Node Coverage: 10/28
-===Genetic Algorithm End===
-Node Coverage: 20/28
-Normal fail
-TIME: 3.156963806 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(<form[^>]*)method\s*=\s*([\"']*)get\2([^>]*>)
-1: <25 : 3.693877551020408 : XWPdH<formSlGormSlG$formS70sU/OUoq~_~(JNqOUoq~_~(JNqmethod=get\=geformS70sU/OUoq~_~(JNqOUoq~_~(^>>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 99.463757392 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(not)_(\1)
-1: <9 : 1.5333333333333334 : OnnOnoOnot_not>
-===Initiate End===
-Node Coverage: 9/10
-===Genetic Algorithm End===
-Node Coverage: 9/10
-Normal fail
-TIME: 2.010110262 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^\s*SHOW\s+(?:TABLE\s+STATUS|(?:FULL\s+)?TABLES)\s+(?:WHERE\s+Name\s+)?LIKE\s*("|')((?:[\\0-9a-zA-Z$_.-]|[\xC2-\xDF][\x80-\xBF])+)%?\1
-4: <18 : 2.0 : SHOW	FULL	><31 : 1.625 : SHOW	TABLES	WHERE	Name	><17 : 1.6666666666666667 : SHOW	TABLE	><46 : 2.8095238095238093 : SHOW	TABLES	LIKE'ST'>
-===Initiate End===
-Node Coverage: 58/59
-===Genetic Algorithm End===
-Node Coverage: 58/59
-Normal fail
-TIME: 23.507695814 (s)
-Attack failed

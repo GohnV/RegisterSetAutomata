@@ -1,95 +1,0 @@
-<form[^>]* name=(["'])([^"]+)\1[^>]*?>
-7: <4 : 0.6666666666666666 : <form><5 : 1.0 : <form^><7 : 2.142857142857143 : <form^* name=><11 : 2.466666666666667 : <form^* name='><13 : 2.75 : <form^* name='|><16 : 3.176470588235294 : <form^* name='|'><16 : 3.111111111111111 : <form^* name='|'>>
-===Initiate End===
-Node Coverage: 17/17
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Vulnerable: <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
-
-		^ name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m name=\1
-100052 : 418.6276150627615 : <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
-
-		^ name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m name=\1
-100005 : 434.80434782608694 : <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
- name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m na
-100005 : <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
- name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m na
-100005 : 0 : <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
- name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m na
-100017 : <form<form<form^ name='rm<form^m^* name='|
-='|'form^* name= name='|
-
- name='|''=eame='na<form'* m^* name=3C60fF951B18ame='|
-
-
-		^ name='me='|'LZU
-
-
-	* na<for	* name='|
-^ name='|''=e''=eman *^m
-
-
-	* na<for	na<form'* m na
-TIME: 109.653421295 (s)
-Attack failed

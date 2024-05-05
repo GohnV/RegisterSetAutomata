@@ -1,9 +1,0 @@
-#(\d*)\^\/\1\^
-2: <10 : 1.7205882352941178 : WpxY#RSC+#^/"V o(YxL:D \AcpX#<)*^iGNy#UAX<'^#0mpX#<)*^iGNy#UAX<'^#0><10 : 1.7142857142857142 : WpxY#RSC+#^/^>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 11.451513405 (s)
-Attack failed

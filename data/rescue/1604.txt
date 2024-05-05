@@ -1,9 +1,0 @@
-\[(u)\](.*?)\[/\1\]
-1: <15 : 3.5 : MB]eF01[u]&3eB]eF01[u]&3e +,<hEL&3e +,<h[u]&3eB]eF01[u]&3e +,<hEL&3e +,<hEL[/u]>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 111.963841469 (s)
-Attack failed

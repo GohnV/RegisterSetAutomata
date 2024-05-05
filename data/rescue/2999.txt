@@ -1,9 +1,0 @@
-<(\w+)>(.*?)</\1>
-1: <16 : 3.0833333333333335 : ]qT#w?j?&Ylj?&Yl(E1Y/;cz&^+)<d<A>p>/;cz&^+)<d<A>p>dct\cY/;cz&^+)<d<A>p>/;cz&^+)<d<A>p>dct\cg\cgXL(V</A>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 43.562111796 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(<(\/?\w+).*?>)(?=<(?!\/\2))
-1: <23 : 2.58 : !k\s!V}n<|F8dw|yrMm3F8dwFg:$<F8dw|ymwFg:X[+&></>
-===Initiate End===
-Node Coverage: 23/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 423.906903176 (s)
-Attack failed

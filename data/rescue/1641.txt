@@ -1,9 +1,0 @@
-\(|(['\"])[!&|]\1
-1: <10 : 4.16 : ;SOOZc"Z1cOZ1n1SOOZc"Z1cOZ1n1ncOZ1ncOZ1nc"Z1cOZ1nc"1nc"Z1cOZ1nc"Z1n1ncO"&(>
-===Initiate End===
-Node Coverage: 10/11
-===Genetic Algorithm End===
-Node Coverage: 10/11
-Normal fail
-TIME: 4.785721021 (s)
-Attack failed

@@ -1,9 +1,0 @@
-([^\[<]|<!--.*?-->|<(script|style).*?\2>|<(?!\?(lasso(script)?|=)))+
-9: <12 : 6.666666666666667 : style><19 : 8.0 : style<><22 : 7.7 : style<!--><23 : 8.25 : style<?><23 : 7.916666666666667 : style<!--^\><24 : 7.583333333333333 : style<style><29 : 4.384615384615385 : style<?lasso><26 : 8.058823529411764 : style<stylestyle><31 : 3.1052631578947367 : style<?lassoscript>
-===Initiate End===
-Node Coverage: 41/41
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Normal fail
-TIME: 159.057625688 (s)
-Attack failed

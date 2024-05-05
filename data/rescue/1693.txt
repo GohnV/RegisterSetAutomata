@@ -1,9 +1,0 @@
-^\s*\$(\w+)\s*(?:=\s*(\-?\d+|NULL|(['"]).*?(?<!\\)\3))?$
-6: <7 : 3.5 : $><16 : 5.666666666666667 : $e><26 : 6.75 : $e=><29 : 3.75 : $e=NULL><33 : 6.666666666666667 : $e='"><35 : 6.714285714285714 : $e='"\>
-===Initiate End===
-Node Coverage: 40/40
-===Genetic Algorithm End===
-Node Coverage: 40/40
-Normal fail
-TIME: 37.60029096 (s)
-Attack failed

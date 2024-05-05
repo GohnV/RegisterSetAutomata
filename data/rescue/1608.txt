@@ -1,9 +1,0 @@
-("""|''')[\s\S]+?\1|("|')(?:\\.|(?!\2)[^\\\r\n])*\2|(?:^#?(?:(?:[0-9a-fA-F]{2}){3}|(?:[0-9a-fA-F]){3})$)
-2: <50 : 14.476190476190476 : 199'""""\s\1BJv+%I9d><30 : 10.0 : 19d>
-===Initiate End===
-Node Coverage: 51/51
-===Genetic Algorithm End===
-Node Coverage: 51/51
-Normal fail
-TIME: 55.113009297 (s)
-Attack failed

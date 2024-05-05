@@ -1,9 +1,0 @@
-(n)\1([a:])s            $ 
-1: <9 : 2.272727272727273 : ^')h^')M(XAF{WSnna )5d 4')h^')M(>
-===Initiate End===
-Node Coverage: 9/13
-===Genetic Algorithm End===
-Node Coverage: 9/13
-Normal fail
-TIME: 0.561124275 (s)
-Attack failed

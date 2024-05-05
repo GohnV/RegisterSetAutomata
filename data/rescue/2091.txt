@@ -1,9 +1,0 @@
-(\bsub\s+(\w+)\s*)\((["'])\3?\)
-1: <22 : 2.52 : \%M4U#eLPv*@*WG	subA(")>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 15.008047369 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^([^\?]+?)([\/\.])\{$val\??\}\2
-1: <12 : 5.75 : ..{>
-===Initiate End===
-Node Coverage: 12/17
-===Genetic Algorithm End===
-Node Coverage: 12/17
-Normal fail
-TIME: 1.103826889 (s)
-Attack failed

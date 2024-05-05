@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:(?!xxx)|(?=xxxx))(\w)\1+(?:(?<!xxx)|(?<=xxxx))
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(3)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

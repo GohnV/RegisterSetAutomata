@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?m)(?<!\n\n)(\s*)```(\w*\n)((?:\1[^\n]*\n)+)\1```
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(4)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

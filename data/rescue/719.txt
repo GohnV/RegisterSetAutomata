@@ -1,9 +1,0 @@
-[aeiou](?:([cfghklmnprsvwz])\1?|ck|sh|[rt]ch)e[ds]$
-3: <16 : 1.7894736842105263 : ^8?CIDW]?;4\W=Ouzz><16 : 3.0 : ^8?8ir><15 : 2.25 : ^88ofed>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 4.223361729 (s)
-Attack failed

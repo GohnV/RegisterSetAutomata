@@ -1,10 +1,0 @@
-(19\d{2}|200\d|201\d|\d{2})(\s|-|\/|\\|_|\.)(\d{1,2})\2(\d{1,2})
-5: <26 : 12.166666666666666 : |200\d|201\><21 : 7.693548387096774 : J7Ha19A[do!	Q31#0Qkd[&N#;`9v~*i'z1j\#o	.|
-#Sp`sT\]5o$=(Kd@><26 : 7.532258064516129 : rW\dG;nXiJOLdn-LI'd:\GQ81 7{W+&	4gu?*lE<t4/IrxkQFjR;w|N1:Z><31 : 10.4 : |200\d|201\19\><33 : 8.294117647058824 : |200\d|201\19\20>
-===Initiate End===
-Node Coverage: 35/35
-===Genetic Algorithm End===
-Node Coverage: 35/35
-Normal fail
-TIME: 26.820062109 (s)
-Attack failed

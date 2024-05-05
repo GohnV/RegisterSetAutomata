@@ -1,9 +1,0 @@
-(cats)\1
-1: <6 : 1.6 : tcaacatcatscacatcatscats>
-===Initiate End===
-Node Coverage: 6/7
-===Genetic Algorithm End===
-Node Coverage: 6/7
-Normal fail
-TIME: 4.85149999 (s)
-Attack failed

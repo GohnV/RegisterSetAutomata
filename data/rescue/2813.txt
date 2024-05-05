@@ -1,9 +1,0 @@
-((?:^|[^<])<<\s*)["']?(\w+?)["']?\s*\r?\n(?:[\s\S])*?\r?\n\2
-1: <26 : 10.333333333333334 : C0wW<<aV01A$G<<A>
-===Initiate End===
-Node Coverage: 26/34
-===Genetic Algorithm End===
-Node Coverage: 34/34
-Normal fail
-TIME: 32.983735969 (s)
-Attack failed

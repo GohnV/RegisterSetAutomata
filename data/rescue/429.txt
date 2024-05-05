@@ -1,14 +1,0 @@
-\[(i)\](.*?)\[\/\1\]
-1: <13 : 2.259259259259259 : 5&ha63?L8LNLlr}^{B:+>]
-v:+>]
-v}*Nlr}^}^{B:+>]
-vG[i]>+:r}^{B:+>]
-v}*Nlr}^}^{B:+>]
-vG[i]>+:[/B{^}rlN*}$@|o>
-===Initiate End===
-Node Coverage: 13/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 53.879493303 (s)
-Attack failed

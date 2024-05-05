@@ -1,11 +1,0 @@
-\sencoding\s*=\s*(["'])(.*?)\1
-1: <6 : 1.125 : Aa)QL?}*\Jm'#V
-CaMVa*DX$X,!0/m7Z7"!U5fp21@rNMK
-u	yb	1	encoding>
-===Initiate End===
-Node Coverage: 6/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 19.12111405 (s)
-Attack failed

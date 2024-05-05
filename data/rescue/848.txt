@@ -1,9 +1,0 @@
-^__version__\s*=\s*(['"])(.+)\1
-5: <5 : 0.4166666666666667 : __version__><9 : 0.6923076923076923 : __version__=><6 : 0.6153846153846154 : __version__	><16 : 1.1333333333333333 : __version__='"><17 : 1.5294117647058822 : __version__='"'">
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 13.485961655 (s)
-Attack failed

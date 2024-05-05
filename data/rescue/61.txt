@@ -1,9 +1,0 @@
-(?:^|(?<=[A-Za-z\d]))(([^A-Za-z\d])\2*)
-3: <14 : 7.0 : ?><15 : 5.333333333333333 : ??><19 : 11.625 : OevPI7!>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 37.28113029 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^@extends {1,}(\'|\")(.*)(\1)$
-4: <4 : 0.4444444444444444 : @extends><9 : 1.0 : @extends ><17 : 1.6363636363636365 : @extends "><20 : 2.1666666666666665 : @extends "">
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 34.971189848 (s)
-Attack failed

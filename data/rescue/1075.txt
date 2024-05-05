@@ -1,9 +1,0 @@
-<p style=("|')color: ?red;?\1>
-6: <5 : 0.5 : <p style=><8 : 0.7272727272727273 : <p style="><12 : 0.7222222222222222 : <p style="color: ><15 : 0.7619047619047619 : <p style="color: red><16 : 0.7727272727272727 : <p style="color: red"><16 : 0.6956521739130435 : <p style="color: red">>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 0.465749433 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\burl\(('|"|)([^'"]+?)\1\)
-1: <17 : 5.673267326732673 : F9d9d+ u.R7G<?!Ey+(0~,(:Q>VwEyZ2$url("*VwEyZ2$url(*AYZ3IEy+(0~,(:Q>VwEyZ2$url(*VwEyZ2$url(*AYZ3II5)>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 26.875447522 (s)
-Attack failed

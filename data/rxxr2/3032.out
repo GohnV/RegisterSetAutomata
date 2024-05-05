@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^<A HREF="manual.html#pdf-(?!lua|LUA)([^:]+)">\1</A>
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(26)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

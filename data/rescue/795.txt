@@ -1,9 +1,0 @@
-^(['"`]?)(\w+)\1(\s+(?:ASC|DESC))?$
-3: <17 : 5.5 : ASC><20 : 8.2 : ASC	><24 : 3.875 : ASC	ASC>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 27.746449718 (s)
-Attack failed

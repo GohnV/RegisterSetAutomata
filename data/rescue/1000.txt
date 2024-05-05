@@ -1,9 +1,0 @@
-<h(\d)>(.*)<\/h\1>
-1: <6 : 1.0363636363636364 : Brh_\=vTHp;Sv&ezgtvxp^tvxp^Bl#1GB;^WmL/F^rS#Z3Z3X]<h7>
-===Initiate End===
-Node Coverage: 6/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 24.016820202 (s)
-Attack failed

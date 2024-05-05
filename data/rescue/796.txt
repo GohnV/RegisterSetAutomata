@@ -1,11 +1,0 @@
-(?<!\@)\@stack\(('|\")(.+)\1\)
-2: <20 : 13.443478260869565 : Y#F n
-Pv>.	>lw{@rE@stack('/ij[O @stack('tack('/ij[O @stack('/ij[ij[O @stack('tack('/ij[O @stack('/ij[O Du$m3i9u$(><20 : 2.908333333333333 : Y#F n
-Pv>.	>lw{@rE@stack('/ij[O @stack('tack('/ij[O @stack('/ij[ij[O @stack('tack(')J\W1/ij[O @stack('/ij[O Du$m3i9u$(>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 114.898848702 (s)
-Attack failed

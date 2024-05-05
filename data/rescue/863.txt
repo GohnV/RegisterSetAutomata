@@ -1,9 +1,0 @@
-<link[^>]*rel=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?openid.delegate[ \t]*[^"']*\1[^>]*href=(["'])([^"']+)\2[^>]*\/?>
-1: <19 : 14.069306930693068 : <linkreel="hlinkrenkrel="hr \tlinkr<linkrel="hl==<linkrel="hr \tlinkrenkrel="hr \tlinkrel="hr \tef='>
-===Initiate End===
-Node Coverage: 19/43
-===Genetic Algorithm End===
-Node Coverage: 19/43
-Normal fail
-TIME: 107.954379368 (s)
-Attack failed

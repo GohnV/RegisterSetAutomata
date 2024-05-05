@@ -1,3 +1,0 @@
-([^[]*)\[[\s\S]*?\]\1
-TIME: 0.041368071 (s)
-Regex compile error

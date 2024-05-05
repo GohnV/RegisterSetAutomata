@@ -1,9 +1,0 @@
-<((m:)?[mc][ion])(.*?)>(.{1,4}?)</\1>
-1: <22 : 4.011111111111111 : ,J)o,J)oPZ"@_F:<{\{PZ"@_F:<{\{{cnv\ >7PZ"@_F:<{\{{L<m:cnv\ >Z"@_F:<{\{{L<m:cnv\ >7=A-"@ >
-===Initiate End===
-Node Coverage: 22/25
-===Genetic Algorithm End===
-Node Coverage: 23/25
-Normal fail
-TIME: 29.337374176 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\\verb\*?(.)(.+?)\1
-3: <5 : 0.8333333333333334 : \verb><10 : 1.7142857142857142 : \verb*><13 : 2.142857142857143 : \verb*\\verb\>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 34.93388145 (s)
-Attack failed

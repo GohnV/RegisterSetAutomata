@@ -1,9 +1,0 @@
-<recurse ([a-zA-Z0-9_]*) ([a-zA-Z0-9_]*) *\](.*?)\[\/recurse \1\]
-6: <6 : 0.6 : <recurse ><13 : 1.1818181818181819 : <recurse  ><14 : 1.3333333333333333 : <recurse   ><18 : 1.5 : <recurse  ]><21 : 2.727272727272727 : <recurse  ][/recurse ><20 : 0.8695652173913043 : <recurse  ][/recurse ]>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 67.597574325 (s)
-Attack failed

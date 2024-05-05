@@ -1,9 +1,0 @@
-1((?=(33|3))\2(?:))37
-1: <18 : 6.0 : 13>
-===Initiate End===
-Node Coverage: 18/19
-===Genetic Algorithm End===
-Node Coverage: 18/19
-Normal fail
-TIME: 1.075781534 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<\/(strong|em|ins|del|q|code)>(\s*?)<\1>
-1: <13 : 2.8333333333333335 : fN</q>
-===Initiate End===
-Node Coverage: 13/22
-===Genetic Algorithm End===
-Node Coverage: 13/22
-Normal fail
-TIME: 0.642202612 (s)
-Attack failed

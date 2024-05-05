@@ -1,9 +1,0 @@
-FOREACH \w+ \{\s+(\w+) = \$0\;\s+(\w+) = \$1\;\s+(\w+) = \$2\;\s+GENERATE \1, \2, \3\;\s+\}
-1: <17 : 2.4390243902439024 : FOREACH FOREACH { FOREACHFORREACH = $0; >
-===Initiate End===
-Node Coverage: 17/39
-===Genetic Algorithm End===
-Node Coverage: 19/39
-Normal fail
-TIME: 11.127551661 (s)
-Attack failed

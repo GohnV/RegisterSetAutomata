@@ -1,4 +1,0 @@
-[\s\S]*template\s*\(\s*name\s*=\s*(['"])(.*?)\1\s*\)[\s\S]*?$
-1: <8 : 99.23188405797102 : Y*templateplate\se\s*ateplate\se\s*\a\satepla*\aOe\s*\aO{h[>aO{h[>\ >
-===Initiate End===
-Node Coverage: 8/31

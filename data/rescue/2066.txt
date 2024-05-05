@@ -1,9 +1,0 @@
-([yMdHms])\1*
-2: <7 : 3.5 : y><8 : 3.0 : yy>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 0.153081175 (s)
-Attack failed

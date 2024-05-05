@@ -1,13 +1,0 @@
-<(title)>(.*?)<\/\1>
-1: <4 : 1.0275229357798166 : *?0/A(q"=jIfhR MBedcVhBZt!k
-b$Dy	a"0SnQ2jdCjdCng\
-7M]<*?0/=jIfhR MBedcVhBZt!k
-b$Dy	a"0SnQ2jdCjdCng\
-7M>
-===Initiate End===
-Node Coverage: 4/15
-===Genetic Algorithm End===
-Node Coverage: 13/15
-Normal fail
-TIME: 5.837906124 (s)
-Attack failed

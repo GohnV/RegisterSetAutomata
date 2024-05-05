@@ -1,9 +1,0 @@
-(?x)<(?!\?|(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\b|[^>]*\/>)([A-Za-z0-9]+)(?=\s|>)\b[^>]*>(?!.*<\/\1>)|<!--(?!.*-->)|<\?php.+?\b(if|else(?:if)?|for(?:each)?|while)\b.*:(?!.*end\1)|\{[^}"']*$
-5: <73 : 6.88 : PT*qKT~<fRUjSrr>;lWa	eR5BG,ABpcl6X(hAj^im<?php?:if\b.*:</fRUjSrr>;lWa	eR5BG,ABpcl6X(hAj^im<?*:</end><53 : 12.56140350877193 : m<??cphpf<p?:hp<?p:ac|im<?php?:hpphp?hreac|im<!m<?php?m{><45 : 10.557377049180328 : m<??cphp?:hpp!pif<foreac?m:h?pphhpphpifi!hpp!pim<orea<!---->><62 : 13.920353982300885 : m<??cphpmc?m:h?pphp?:i!hpp!pif<foreac?:h?pphp?:|hp?f|fop|im<hreac|im<!m<!m<?php?:hpp?f|elhpphpipiplseel?|foreach><62 : 22.833333333333332 : m<?p:ac|im<!m<?php?:hppim<!m<?php?:hpphpif|hp!pif<foreac?<?phforeac?php?:hpphpif|hp!pif<foreac?<?phforeac?:h?pphp?:?mf|elseif>
-===Initiate End===
-Node Coverage: 98/99
-===Genetic Algorithm End===
-Node Coverage: 98/99
-Normal fail
-TIME: 38.623372731 (s)
-Attack failed

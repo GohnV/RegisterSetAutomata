@@ -1,9 +1,0 @@
-(')(.|\\.|\\u[\dA-Fa-f]{4})\1
-2: <14 : 2.641025641025641 : 2LrS.Ux:\.Ux:\Xc'0$'\?`rS.Ux:\XmpzB'M'><16 : 3.3488372093023258 : 2LrS.Ux:\.Ux:\Xc'0$'\?`rS.Ux<c'0$'\?`{'\u4>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 3.608760877 (s)
-Attack failed

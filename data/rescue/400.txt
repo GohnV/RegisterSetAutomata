@@ -1,3 +1,0 @@
-^(.*?)normalize-space\((['"])([^\2)]*)\2\)(.*)$
-TIME: 0.066631855 (s)
-Regex compile error

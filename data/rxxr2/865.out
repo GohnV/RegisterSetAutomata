@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^(?:[-=]=>|===|->|=>|!==|[-+*\/%<>&|^!?=]=|=<|>>>=?|([-+:])\1|([&|<>])\2=?|\?\.|\?\:|\.{2,3}|\*(?=[a-zA-Z\_]))
-PARSE: ERROR {ParsingData.InvalidBackreference(70)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

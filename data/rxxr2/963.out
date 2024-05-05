@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \$(?:({)|(\()|(<)|(\[)|(\/))\s*[a-zA-Z0-9$_.]+(\^|~|#|:raw|:alias|:name|:json|:csv|:list|:value)?\s*(?:(?=\2)(?=\3)(?=\4)(?=\5)}|(?=\1)(?=\3)(?=\4)(?=\5)\)|(?=\1)(?=\2)(?=\4)(?=\5)>|(?=\1)(?=\2)(?=\3)(?=\5)]|(?=\1)(?=\2)(?=\3)(?=\4)\/)
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(6)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

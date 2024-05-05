@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \A(.{1,$rl}?)(\1*)\z
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(4)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

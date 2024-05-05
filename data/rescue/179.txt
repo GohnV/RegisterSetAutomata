@@ -1,9 +1,0 @@
-()x\1y([0-7]%%%x|[0-6]%%%y)
-1: <12 : 3.1052631578947367 : SHXE7dHXE7d^4x4xy2>
-===Initiate End===
-Node Coverage: 12/16
-===Genetic Algorithm End===
-Node Coverage: 12/16
-Normal fail
-TIME: 0.760912772 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^(.*?)(?<!\w)(([\*_\/])\w+\3)(?!\w)
-1: <24 : 6.846153846153846 : ^\*_*_YDEZK_>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 39.582944951 (s)
-Attack failed

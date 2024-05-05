@@ -1,10 +1,0 @@
-<a\s+href=(['"]?)([^"'\s]+)\1
-1: <6 : 1.0666666666666667 : k.e|SDrq,/8EQ2Q'.@G%f+li;D<[MV((LQ{	i0/mARaJ'+G[e<a
->
-===Initiate End===
-Node Coverage: 6/16
-===Genetic Algorithm End===
-Node Coverage: 13/16
-Normal fail
-TIME: 26.590543083 (s)
-Attack failed

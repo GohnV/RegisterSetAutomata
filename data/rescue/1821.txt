@@ -1,9 +1,0 @@
-^\s*L\((['\"])(.+)\1\)\s*$
-4: <6 : 2.0 : L(><13 : 3.0 : L('\"><14 : 3.2857142857142856 : L('\"'><18 : 3.625 : L('\"')>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 16.827140829 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ((["'])(?:$validBooleanProperties)\2:\s)(["'])(true|false)\3
-PARSE: ERROR {ParsingData.InvalidBackreference(34)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

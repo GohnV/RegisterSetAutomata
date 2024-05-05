@@ -1,9 +1,0 @@
-<[^>]*?name=(['"])([0-9]{1,3}:)?code\1[^>]*?>
-1: <17 : 4.614583333333333 : D6|SfEnam@|S:ixp*SfEnam@|S:ixp*E<Ilname='6:ix:ixp*ES:ixp*E<Ilname='6:ix:ixp*ESfEname='Nf77a??`3>
-===Initiate End===
-Node Coverage: 17/22
-===Genetic Algorithm End===
-Node Coverage: 17/22
-Normal fail
-TIME: 4.997530692 (s)
-Attack failed

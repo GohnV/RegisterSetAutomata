@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([gatc])\1{$reps}
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(10)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

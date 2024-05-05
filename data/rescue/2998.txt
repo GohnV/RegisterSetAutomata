@@ -1,9 +1,0 @@
-\/([^\/]+?)\/\1\/
-1: <11 : 1.0819672131147542 : x_	z>[,"GeNAikpYJ=5FV0{]7Tw.uX^9" ~BH3<@GxR(Y"~xbmls!/\/\/>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 34.050016254 (s)
-Attack failed

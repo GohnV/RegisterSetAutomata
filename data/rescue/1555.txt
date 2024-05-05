@@ -1,9 +1,0 @@
-\A(.)\1*(?!\1)
-1: <11 : 2.1 : \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\>
-===Initiate End===
-Node Coverage: 11/12
-===Genetic Algorithm End===
-Node Coverage: 11/12
-Normal fail
-TIME: 3.846854147 (s)
-Attack failed

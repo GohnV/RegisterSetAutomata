@@ -1,9 +1,0 @@
-^(?!.*(#|//|\*/|<\?))(?!.*[};:]\s*(//|/\*.*\*/\s*$)).*[^\s;:{}]\s*$|<\?php.+?\b(if|else(?:if)?|for(?:each)?|while)\b.*:(?!.*end\1)
-4: <43 : 6.931506849315069 : Bmj_rFa-hc**Jn,^-hc**Jn,^:/**Jhc?r?p*Jn,^:/**Jhc?8Fc//<?phpif|else:end//><38 : 9.93939393939394 : Bmj_rFa-hc**Jn,^-hc**Jn,^:/**Jhc?rKn<?phphhc***Jhc?r?phpif|elseif><38 : 7.790322580645161 : Bmj_rFa-h^:/**pif|elc?r?phpif|eln,^-hc**Jn,^n<?phphc?|foreach><36 : 15.173913043478262 : Bmj_rFa-h^:/**pif|elcf>
-===Initiate End===
-Node Coverage: 72/78
-===Genetic Algorithm End===
-Node Coverage: 72/78
-Normal fail
-TIME: 88.022298202 (s)
-Attack failed

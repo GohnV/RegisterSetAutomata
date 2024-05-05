@@ -1,9 +1,0 @@
-(?=(?><<-("?)((?:[_\w]+_|)JQUERY)\b\1))
-6: <6 : 5.5 : "><17 : 7.4 : "<<-><18 : 8.0 : "<<-"?><19 : 7.5 : "<<-d><25 : 4.363636363636363 : "<<-JQUERY><20 : 8.0 : "<<-d_>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 4.72405582 (s)
-Attack failed

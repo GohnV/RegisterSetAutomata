@@ -1,9 +1,0 @@
-<(.+)>(<br>|<br \/>|<BR>|<BR \/>)<\/\1>
-1: <18 : 9.357142857142858 : <r<r><br /></>
-===Initiate End===
-Node Coverage: 18/20
-===Genetic Algorithm End===
-Node Coverage: 19/20
-Normal fail
-TIME: 40.784263565 (s)
-Attack failed

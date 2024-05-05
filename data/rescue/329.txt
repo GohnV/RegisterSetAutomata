@@ -1,139 +1,0 @@
-url\s*\(\s*(['"]?)([^\)'"]+)\1\s*\)\s+(\dx)
-1: <6 : 1.2272727272727273 : >-sH lI$Q#MBDyB&9url >
-===Initiate End===
-Node Coverage: 6/27
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 22/27
-Vulnerable: >9url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH lI$Q#MBDy  	
-
-	 
-    
- 			 
-
- 
-     
-	
-
-
- 	 (Zmp		
-
-	
-
-		
-	
-
-		
-100235 : 663.8079470198676 : >9url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH lI$Q#MBDy  	
-
-	 
-    
- 			 
-
- 
-     
-	
-
-
- 	 (Zmp		
-
-	
-
-		
-	
-
-		
-100062 : 1163.5116279069769 : url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH l  	
-
-	 
-    
- 		
-100062 : url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH l  	
-
-	 
-    
- 		
-100062 : 0 : url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH l  	
-
-	 
-    
- 		
-100062 : url( 	 
-
-
-	
-     
- 
-
- 			 
-    
- 	
-
-	  yDBM#Q$
--sH l  	
-
-	 
-    
- 		
-TIME: 10.595961298 (s)
-Attack failed

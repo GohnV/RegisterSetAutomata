@@ -1,11 +1,0 @@
- (\*|_) (\S|\S.+?\S) \1 
-2: <20 : 1.3035714285714286 : 
-{`|wV}PE;vFL%>c5>/'vK|?YL`x5'	|[wQNN~qyY{uye*}k * \1 ><22 : 1.8823529411764706 : 
-{`|wV}PE;vFL%>c5>/'vK|?YL`x5'	|[wQNN~qyY{uye*}k * N~qyY{uye*}k * >
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 34.686368556 (s)
-Attack failed

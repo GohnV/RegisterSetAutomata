@@ -1,9 +1,0 @@
- (?!xmlns=)([a-z]+=(['"])http:.*?\2)
-1: <12 : 2.6666666666666665 : =+M& nm=>
-===Initiate End===
-Node Coverage: 12/20
-===Genetic Algorithm End===
-Node Coverage: 14/20
-Normal fail
-TIME: 0.991533735 (s)
-Attack failed

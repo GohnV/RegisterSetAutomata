@@ -1,9 +1,0 @@
-^([\"\'])(.+)\1
-3: <7 : 3.5 : "><10 : 3.6666666666666665 : "$><11 : 3.0 : "6VU0E,N%C"^PP >
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 15.739424492 (s)
-Attack failed

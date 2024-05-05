@@ -1,9 +1,0 @@
-^<p\s+is=('|")my-paragraph\1><\/p>$
-7: <4 : 1.3333333333333333 : <p><6 : 1.75 : <p	><10 : 1.5714285714285714 : <p	is=><13 : 1.75 : <p	is='><14 : 0.75 : <p	is='my-paragraph><15 : 0.7619047619047619 : <p	is='my-paragraph'><16 : 0.6538461538461539 : <p	is='my-paragraph'></p>>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 1.367113553 (s)
-Attack failed

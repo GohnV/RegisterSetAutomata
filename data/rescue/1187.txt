@@ -1,3 +1,0 @@
-\A(.{1,$rl}?)(\1*)\z
-TIME: 0.043991503 (s)
-Regex compile error

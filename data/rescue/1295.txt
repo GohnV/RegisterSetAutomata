@@ -1,9 +1,0 @@
-<a[^>]+href=(["\'])(http.+?)\1[^>]+title=["\']Download [Vv]ideo
-1: <6 : 2.5652173913043477 : >Xi=^zR<aHf3r::vq	_s>
-===Initiate End===
-Node Coverage: 6/23
-===Genetic Algorithm End===
-Node Coverage: 8/23
-Normal fail
-TIME: 13.42110231 (s)
-Attack failed

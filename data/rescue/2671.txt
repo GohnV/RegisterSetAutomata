@@ -1,9 +1,0 @@
-(\$([a-zA-Z][a-zA-Z0-9_]*))[ \t]*(=)[ \t]*:([a-zA-Z][a-zA-Z0-9_]*)[ \t]+\1(?![ \t](:|\$))
-1: <25 : 7.111111111111111 : a$O=:u$yiuui$O=:u$:u$yiuui$O=:u$yiuui$qIb6eP>
-===Initiate End===
-Node Coverage: 25/37
-===Genetic Algorithm End===
-Node Coverage: 25/37
-Normal fail
-TIME: 123.12755983 (s)
-Attack failed

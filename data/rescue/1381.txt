@@ -1,9 +1,0 @@
-<iframe[^>]+src=(["\'])((?:https?:)?//(?:www\.)?vessel\.com/embed/[0-9a-zA-Z-_]+.*?)\1
-1: <17 : 3.1044776119402986 : <iframe/me//+srrame//+src="rame/me//+srrame//+src="//+src="rc=""\'>
-===Initiate End===
-Node Coverage: 17/31
-===Genetic Algorithm End===
-Node Coverage: 20/31
-Normal fail
-TIME: 111.877083281 (s)
-Attack failed

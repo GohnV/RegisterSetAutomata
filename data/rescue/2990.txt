@@ -1,9 +1,0 @@
-s:(\d+):([\\]*['"])(.*?)\2;
-1: <19 : 3.466666666666667 : BKaLaLt ys:9:'By'ByKaLaLt y'">
-===Initiate End===
-Node Coverage: 19/20
-===Genetic Algorithm End===
-Node Coverage: 19/20
-Normal fail
-TIME: 78.488588574 (s)
-Attack failed

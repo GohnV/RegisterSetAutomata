@@ -1,9 +1,0 @@
-^\[(=*)\[(.*)\]\1\]$
-5: <7 : 3.5 : [><12 : 4.0 : [[><13 : 4.0 : [[=><15 : 4.4 : [[=]><17 : 4.666666666666667 : [[=]]>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 1.764922816 (s)
-Attack failed

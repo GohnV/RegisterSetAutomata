@@ -1,9 +1,0 @@
-(?><<-("?)((?:\w+_|)SAS)\b\1)
-1: <18 : 4.880952380952381 : -?><<-O_?><<<?><<-O_O_aO_?><<<?><<-O_O_aT>
-===Initiate End===
-Node Coverage: 18/23
-===Genetic Algorithm End===
-Node Coverage: 20/23
-Normal fail
-TIME: 19.472487629 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\A(['"])?(.*?)\1?\z
-2: <13 : 7.666666666666667 : \A><14 : 12.032786885245901 : '#)[j[X*D8Q>Z1rE0	+2qh%yj/"Rt0<Kr% |4V= /S=?.V4-.>+tp`4bVz>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 7.078673767 (s)
-Attack failed

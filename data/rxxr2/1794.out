@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^((T(he)(?=.*the)|2(?=.* 2)) )?Fast (Five|(((and t\3)|\2(?=.*s$)|&(?!.*:)) Furious(( (6|7))|: Tokyo Drift)?))$
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(8)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

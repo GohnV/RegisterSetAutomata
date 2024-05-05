@@ -1,12 +1,0 @@
-((\#{1,2})(\@?\w+)\2)
-4: <5 : 4.5 : 1><12 : 4.140625 : E~[4v;4eicG-m\g):@%8P;jj0P2C	BaQ
-ySNdXX!PG}*%e\M-Oq`-`73K$#><14 : 4.876923076923077 : <y6r
-x-[+2#NP_zpOi(u'2T	aX\2	z3h3~P\
-B~ydR?I2J(%g?5DW+-id#UiJ->><16 : 3.75 : i|dL|#orQY#>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 6.181698657 (s)
-Attack failed

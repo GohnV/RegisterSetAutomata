@@ -1,9 +1,0 @@
-([^$vowels])\1$
-1: <7 : 3.909090909090909 : Rj(=}"V\\Rj\\n\\RjQ__>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 3.252587734 (s)
-Attack failed

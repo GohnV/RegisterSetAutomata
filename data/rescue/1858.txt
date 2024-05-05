@@ -1,9 +1,0 @@
-^([\"\'])(.*)\1$
-4: <9 : 4.5 : "><10 : 4.333333333333333 : "$><11 : 4.142857142857143 : "48u{[c(7r"([><12 : 5.0 : "">
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 2.970107646 (s)
-Attack failed

@@ -1,15 +1,0 @@
-^\s*(_?)(.+?)\1\s*$
-1: <17 : 11.0 : _>
-===Initiate End===
-Node Coverage: 17/17
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Vulnerable: 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	  		  				 	  		  	  		 	  	JRc_w  	 	   	  C	wvk
-100032 : 862.3448275862069 : 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	  		  				 	  		  	  		 	  	JRc_w  	 	   	  C	wvk
-100014 : 1428.7714285714285 : 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	w
-100014 : 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	w
-100014 : 1 : 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	w
-100738 : 		 	   	  		  	  		 	  	 	  		 	   	  	  	  		  	 	  w_cRJ	  	 		  	w
-TIME: 15.303329535 (s)
-Attack failed

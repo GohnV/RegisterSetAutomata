@@ -1,12 +1,0 @@
-^(--|\*{4,}|_{4,}|={4,})(?:\r?\n|\r)(?:[\s\S]*(?:\r?\n|\r))??\1$
-5: <11 : 6.0 : *><18 : 6.0 : --><31 : 7.75 : --
-><36 : 9.2 : --
-><17 : 2.8333333333333335 : --
--->
-===Initiate End===
-Node Coverage: 38/38
-===Genetic Algorithm End===
-Node Coverage: 38/38
-Normal fail
-TIME: 13.749835028 (s)
-Attack failed

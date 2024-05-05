@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (<[a-z][a-z0-9]*\s[^>]*)(?:(href|src)=(['"]?)([^>]*?)\3|style=(['"]?)([^>]*?)\5)([^>]*>)
-PARSE: ERROR {ParsingData.InvalidBackreference(77)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

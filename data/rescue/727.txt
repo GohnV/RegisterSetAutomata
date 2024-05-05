@@ -1,9 +1,0 @@
-(q|qq|qw|qr|qx)([^a-zA-Z0-9])(.|\n)*?\2
-2: <18 : 4.857142857142857 : q|qqq|><20 : 6.666666666666667 : q|>
-===Initiate End===
-Node Coverage: 23/24
-===Genetic Algorithm End===
-Node Coverage: 23/24
-Normal fail
-TIME: 168.29511548 (s)
-Attack failed

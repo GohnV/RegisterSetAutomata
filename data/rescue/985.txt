@@ -1,12 +1,0 @@
-(')([^']+)\1
-2: <10 : 2.791044776119403 : 2D{rf\{>6&JB%}JZ<[tF		4[1f])ReUK<	3g))Sk\gnq&^|!\1'Z,8ItS	V)W
-2#><11 : 2.16 : 
-!Yz%E Z
-(='m0	T%8$Db$'>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 23.548444607 (s)
-Attack failed

@@ -1,9 +1,0 @@
-()x\1(y([0-7]%%%x|[0-6]%%%y)|dkjasldkas)
-1: <15 : 3.25 : 1]8%M=[{xy1>
-===Initiate End===
-Node Coverage: 15/21
-===Genetic Algorithm End===
-Node Coverage: 18/21
-Normal fail
-TIME: 0.912626052 (s)
-Attack failed

@@ -1,3 +1,0 @@
-^("|')([^\1]*)\1$
-TIME: 0.03887832 (s)
-Regex compile error

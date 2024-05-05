@@ -1,9 +1,0 @@
-\/\*\[@firstVisible ?= ?('|")true\1\]
-7: <4 : 0.23529411764705882 : /*[@firstVisible><5 : 0.3333333333333333 : /*[@firstVisible ><10 : 0.5555555555555556 : /*[@firstVisible=><13 : 0.6842105263157895 : /*[@firstVisible='><14 : 0.6086956521739131 : /*[@firstVisible='true><15 : 0.625 : /*[@firstVisible='true'><15 : 0.6 : /*[@firstVisible='true']>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 0.483795211 (s)
-Attack failed

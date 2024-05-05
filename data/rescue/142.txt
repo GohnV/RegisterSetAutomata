@@ -1,9 +1,0 @@
-url\((['"]?)([^'")]*?)\1\)\s+format\((['"]?)truetype\3\)
-7: <11 : 2.2 : url(><12 : 3.4444444444444446 : url(url\><14 : 3.3 : url(url\)><15 : 3.272727272727273 : url(url\)	><20 : 2.2777777777777777 : url(url\)	format(><22 : 1.6538461538461537 : url(url\)	format(truetype><23 : 1.5925925925925926 : url(url\)	format(truetype)>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 95.521785021 (s)
-Attack failed

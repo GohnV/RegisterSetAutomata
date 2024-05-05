@@ -1,9 +1,0 @@
-<\s*(script|styles)[^>]*?>(?:.+?)<\s*/\s*\1\s*>
-1: <22 : 7.888392857142857 : O&)i'2)(ofHyBLHyBL6N<	fHa<${^A${{^AyBL6N<	scriptcript|stle(ofHyBLHyBL6N<	fHa<${^A${{^AyBL6N<	scriptcript|stles>O&)i'2)(ofHyBLHyBL6N<	fHa<${^A${{^AyBL6N<	scriptcript|stle(ofHyBLHyBL6N<	fHa<${^A${{^AyBL6N<	scriptcript|stles>>>
-===Initiate End===
-Node Coverage: 22/29
-===Genetic Algorithm End===
-Node Coverage: 25/29
-Normal fail
-TIME: 73.57900041 (s)
-Attack failed

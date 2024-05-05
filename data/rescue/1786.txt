@@ -1,9 +1,0 @@
-\[(PHP|CODE|HTML)\](.*?)\[/\1\]
-2: <17 : 3.2837837837837838 : =',VnK]&k-=R$}r'	nW#L3b	evUN[PHP]/$|:|~'[/\+)[],@]#:.]_+<@.-"|)?>+="/%%><17 : 1.489795918367347 : =',VnK]&k-=R$}r'	nW#L3b	evUN[PHP]/$|:|~'[/PHP]>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 114.008556047 (s)
-Attack failed

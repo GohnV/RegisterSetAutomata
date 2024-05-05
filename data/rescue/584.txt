@@ -1,9 +1,0 @@
-^([\"\'])(.*?)\1(\s*)>$
-1: <16 : 4.875 : "UwYw.:""U"UwYw.:""UwYw:">$hy(RwYw.:""UwYw:">$hy(R.:""UwYw.:">$wYw.:">$hy(wYw:">$hy(R.:""UwYw.:">$wYw.:">$hy(Rt>
-===Initiate End===
-Node Coverage: 16/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 12.719205492 (s)
-Attack failed

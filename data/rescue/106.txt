@@ -1,9 +1,0 @@
-^(["'])(.+?)\1$
-3: <10 : 3.6666666666666665 : "'><11 : 4.0 : "e/e'NUb"	]><12 : 3.0 : "'">
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 5.417529678 (s)
-Attack failed

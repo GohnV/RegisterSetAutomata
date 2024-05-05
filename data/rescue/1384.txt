@@ -1,9 +1,0 @@
-(row|col)span.*\1span
-1: <14 : 2.911764705882353 : i*Jbvxg^AG yyp3Y6#B*a,J=colspan.span.*\1spancon.*\1spancolspan>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 48.907378497 (s)
-Attack failed

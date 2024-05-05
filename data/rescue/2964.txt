@@ -1,12 +1,0 @@
-\n(( {2})+)stack: \|-?\n((\1  .*).*\n)+
-1: <10 : 1.7857142857142858 : d/^i;rx%.D&]!yk#`v
-
-
-   >
-===Initiate End===
-Node Coverage: 10/27
-===Genetic Algorithm End===
-Node Coverage: 19/27
-Normal fail
-TIME: 0.578222648 (s)
-Attack failed

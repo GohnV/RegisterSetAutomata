@@ -1,9 +1,0 @@
-^diff --git [a-z]\/(\S*) [a-z]\/\1
-8: <3 : 0.25 : diff --git ><4 : 0.3076923076923077 : diff --git a><9 : 0.6428571428571429 : diff --git a/><10 : 0.8666666666666667 : diff --git a//><11 : 1.368421052631579 : diff --git a/diff ><12 : 1.35 : diff --git a/diff d><13 : 1.3333333333333333 : diff --git a/diff d/><14 : 0.84 : diff --git a/diff d/diff>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 15.374842945 (s)
-Attack failed

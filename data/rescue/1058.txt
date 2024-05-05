@@ -1,3 +1,0 @@
-\<\s*($self->{xml_subs_match})(\s+[^\>]*)?\>(?!.*?\<\s*\1[^\>]*\>)(.*?)\<\/\1\s*>
-TIME: 0.04197262 (s)
-Regex compile error

@@ -1,9 +1,0 @@
-<link\b[\s\S]*?href\s*?=\s*?(["'])([\s\S]*?)\1
-1: <13 : 2.76 : <link*in*?href=??*k\\s*?>
-===Initiate End===
-Node Coverage: 13/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 81.595906534 (s)
-Attack failed

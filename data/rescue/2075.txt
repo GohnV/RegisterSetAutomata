@@ -1,9 +1,0 @@
-\A(?:property)\(?(['"])(.+?)\1(?:.*?)\s+(?:do|\{)
-6: <8 : 0.8888888888888888 : property><9 : 1.1 : property(><15 : 1.5833333333333333 : property('"><21 : 2.230769230769231 : property('"'><25 : 2.5 : property('"'><26 : 1.8125 : property('"'do>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 16.119048363 (s)
-Attack failed

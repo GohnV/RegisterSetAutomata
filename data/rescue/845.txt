@@ -1,9 +1,0 @@
-<(h\d).+?<\/\1>
-1: <12 : 3.330357142857143 : Pp"bB7/6 jGU jGUGUs<::$xic<h7/6 jG/6 jGU jGUGUs</h7/6 jG/6 jGU jGUGUs</6 jGU jGUGUs<::$xic< jGUGUs<::$xic<h7[&j>
-===Initiate End===
-Node Coverage: 12/13
-===Genetic Algorithm End===
-Node Coverage: 12/13
-Normal fail
-TIME: 65.578978512 (s)
-Attack failed

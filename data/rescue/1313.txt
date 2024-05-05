@@ -1,9 +1,0 @@
-((<)/)(jsp:\3)(>)
-1: <10 : 3.051948051948052 : #S0rWSdbc</0r#S0rr#S0rWSPWoBeBe7zdbc</0r#S7zdbc</0r#S0JWoBeBoBeBe7zdbc</jsp:>
-===Initiate End===
-Node Coverage: 10/16
-===Genetic Algorithm End===
-Node Coverage: 10/16
-Normal fail
-TIME: 3.115816436 (s)
-Attack failed

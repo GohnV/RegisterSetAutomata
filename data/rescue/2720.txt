@@ -1,9 +1,0 @@
-\b(\d+[a-z]{2}) \1 \1 \1
-1: <11 : 2.9732142857142856 : ySy+qo$%Q93W:j9XlM'g?<29)E/#/#ZYRvo6d$Eo2o2t|s3$Eo2o2t|-1[\-{}\11z 6\4d101)\1)d)+6d]8118\}11d\db-ab++[)2\\(4bb >
-===Initiate End===
-Node Coverage: 11/16
-===Genetic Algorithm End===
-Node Coverage: 11/16
-Normal fail
-TIME: 6.176255089 (s)
-Attack failed

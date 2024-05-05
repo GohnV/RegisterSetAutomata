@@ -1,9 +1,0 @@
-<(p)[^>]*>(.*?)<\/\1>
-1: <17 : 2.74 : KYc_N@m|(Cv&0	5jaet"Y.}1!0	5jKE+<p'6cDE>@|(Cv&0	5j6cD	5jKE+<p'6cDE>@m|(Cv&0	5j6cDE>]?]*OI+vZp</p>>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 54.168490283 (s)
-Attack failed

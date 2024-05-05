@@ -1,3 +1,0 @@
-^\s*($keywords)\s*(([\'\"])[^\3]*\3|\$?[ISPN]\d+)\s*$
-TIME: 0.048859216 (s)
-Regex compile error

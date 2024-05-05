@@ -1,9 +1,0 @@
-(['"])NG_VERSION_CDN\1
-1: <7 : 1.58 : V:{lokE-'nF"NG_VERSG_VFCF"NnF"NG_VERSION_CDN">
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 1.159053715 (s)
-Attack failed

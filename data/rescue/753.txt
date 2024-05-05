@@ -1,9 +1,0 @@
-(a)(b)(c)\1
-1: <12 : 2.4074074074074074 : |K8YK8Y(aK8YK8Y(abY2x(abca>
-===Initiate End===
-Node Coverage: 12/13
-===Genetic Algorithm End===
-Node Coverage: 12/13
-Normal fail
-TIME: 1.327930796 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(?=(?><<-("?)((?:[_\w]+_|)HTML)\b\1))
-5: <6 : 5.5 : "><17 : 7.4 : "<<-><19 : 7.5 : "<<-_><20 : 5.3428571428571425 : J	Mr>oym2fQFNRfNcye4Q(Xw~KnmPM`7hc|!8BBwm [urw]+;]|[j-o;E(/?><<-2v_><25 : 4.666666666666667 : "<<-HTML>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 6.330960673 (s)
-Attack failed

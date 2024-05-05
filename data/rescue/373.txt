@@ -1,9 +1,0 @@
-(.)\1(.)\2(.)\3
-1: <14 : 4.468085106382978 : R8;-)#Te8;2<;2<<a;2<<aag2<<;2<<aag2<<a;2<<aagg>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 3.090566591 (s)
-Attack failed

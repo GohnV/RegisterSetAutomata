@@ -1,3 +1,0 @@
-=item (\w+)\s+(?:([^\n]+)\n\s+)?=cut\s+sub \1 \(\) { (\S+) }
-TIME: 0.04470776 (s)
-Regex compile error

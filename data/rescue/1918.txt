@@ -1,102 +1,0 @@
-(?:^|[\r\n])\s*(?:\/{2,})?\s*(['"])?#loader\s*=\s*([\w]+)\1\s*;?
-5: <22 : 5.7254901960784315 : ;wa!3i}9ywkd@=}\fLryw9bKHg(#+tH {&ry-b0oqeMu9
-'><30 : 8.59375 : ;wa!3i9b9bKHg(#+tH #loader=er><30 : 8.7 : ;wa!3i9b9bKHg(#+tH #lo9b9bKHg(#+tH #loader=er><19 : 7.0 : ;wa!><30 : 848.271186440678 : ;wa!3i9b9bKHg(#+tH #lo9b9bKHg(#+tH 
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-	 
-	 	
-
-					 	#loader=er>
-===Initiate End===
-Node Coverage: 32/39
-find attack string when init
-===Genetic Algorithm End===
-Node Coverage: 32/39
-Vulnerable: ;wa!3i9b9bKHg(#+tH #lo9b9bKHg(#+tH 
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-	 
-	 	
-
-					 	#loader=er
-100096 : 848.271186440678 : ;wa!3i9b9bKHg(#+tH #lo9b9bKHg(#+tH 
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-	 
-	 	
-
-					 	#loader=er
-100034 : 1852.4814814814815 :  
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-
-100034 :  
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-
-100034 : 1 :  
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-
-111253 :  
-
-					
- 
-  
-
-	   	 
-
- 		
-		 			
-
-
-TIME: 6.19879037 (s)
-Attack failed

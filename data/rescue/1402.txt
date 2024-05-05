@@ -1,9 +1,0 @@
-(conf|Config\:\:get)\(('|")(.+?)\2
-5: <8 : 2.0 : Config::get><12 : 2.4615384615384617 : Config::get(><17 : 2.9285714285714284 : Config::get('><20 : 3.5625 : Config::get('|"><20 : 1.411764705882353 : Config::get('|"'>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 34.180254185 (s)
-Attack failed

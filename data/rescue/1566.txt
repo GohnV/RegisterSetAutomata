@@ -1,11 +1,0 @@
-[0-9a-f]{2}([-:])[0-9a-f]{2}(\1[0-9a-f]{2}){4}$
-1: <14 : 2.2972972972972974 : j"D6U(
-JOM 5w+5kJO
-JOMIn"{Z40-9a-f5>
-===Initiate End===
-Node Coverage: 14/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 12.655253307 (s)
-Attack failed

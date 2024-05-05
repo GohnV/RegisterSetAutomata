@@ -1,10 +1,0 @@
-(?:^|[^.$])\brequire\s*\(\s*(["'])([^"'\s\)]+)\1\s*\)
-1: <13 : 5.2592592592592595 : *UO^jY$*l`A,[	>[~require
->
-===Initiate End===
-Node Coverage: 13/27
-===Genetic Algorithm End===
-Node Coverage: 17/27
-Normal fail
-TIME: 4.064744765 (s)
-Attack failed

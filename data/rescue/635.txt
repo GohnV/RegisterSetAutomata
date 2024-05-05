@@ -1,3 +1,0 @@
-^(f)oo(?<=^\1o+).$
-TIME: 0.046879163 (s)
-Regex compile error

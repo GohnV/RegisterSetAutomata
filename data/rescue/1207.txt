@@ -1,25 +1,0 @@
-(#\s*include\s*)(<.+?>|("|')(\\?.)+?\3)
-2: <20 : 2.968 : +js+c
-^}j
-h/NS\!]`#;$zc&9/J\\B7X9hO% d*)icxCD'-Ev]b^dH*/#include<MBe#;$zc&9/J\\B7X9hO% d*)icxCD'-Ev]b^dH*/#include<MBe{'><29 : 3.2934782608695654 : +js+c
-^}j
-h/NS\!]`#;$zc&9/J\\B7X9hO% d*)icxCD'-Ev]b^dH*/#include'-Ev]b^dH*/#include<MBe{'>
-===Initiate End===
-Node Coverage: 33/33
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 33/33
-Vulnerable: +js+c
-H*/#include'-Ev]b^dH*/]b^dH*/##\s*include\s*includ/NS\!]`#;$zc&9/J\$z;$zc&9/J\\B7X]]`#;$zc&9/J\/J\\Be#;$zc&9/J\\B7X]]`#;$zc&9/J\/J\\B7X9husjnbty
-100140 : 663.1788079470199 : +js+c
-H*/#include'-Ev]b^dH*/]b^dH*/##\s*include\s*includ/NS\!]`#;$zc&9/J\$z;$zc&9/J\\B7X]]`#;$zc&9/J\/J\\Be#;$zc&9/J\\B7X]]`#;$zc&9/J\/J\\B7X9husjnbty
-100002 : 869.5826086956522 : +js+c
-H#include'-Ev]b^dH*/]b^dH*/##\s*inclu\s*includ/\!]`#;$zc&9\$z;$zc&9/J\\B7X]]`#;$\/J\\Be#;$zc&9/J\\B7X]]`#;$z
-1000120 : +js+c
-H#include'-Ev]b^dH*/]b^dH*/##\s*inclu\s*includ/\!]`#;$zc&9\$z;$zc&9/J\\B7X]]`#;$\/J\J\\B7X]]`#;$\/J\\Be#;$zc&9/J\\B7X]]`#;$z
-1000120 : 0 : +js+c
-H#include'-Ev]b^dH*/]b^dH*/##\s*inclu\s*includ/\!]`#;$zc&9\$z;$zc&9/J\\B7X]]`#;$\/J\J\\B7X]]`#;$\/J\\Be#;$zc&9/J\\B7X]]`#;$z
-1179462 : +js+c
-H#include'-Ev]b^dH*/]b^dH*/##\s*inclu\s*includ/\!]`#;$zc&9\$z;$zc&9/J\\B7X]]`#;$\/J\J\\B7X]]`#;$\/J\\Be#;$zc&9/J\\B7X]]`#;$z
-TIME: 7.457478121 (s)
-Attack failed

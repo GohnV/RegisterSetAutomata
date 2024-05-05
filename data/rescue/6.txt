@@ -1,9 +1,0 @@
-================LIST OF BOUNDED REGEXES================
-1: <2 : 0.03571428571428571 : ================LIST OF BOUNDED REGEXES================>
-===Initiate End===
-Node Coverage: 2/3
-===Genetic Algorithm End===
-Node Coverage: 2/3
-Normal fail
-TIME: 0.355842984 (s)
-Attack failed

@@ -1,16 +1,0 @@
-<[^>]*?value=(['"])(.+?)\1[^>]*?>
-1: <18 : 2.7037037037037037 : yh,#u-<;o]Ayg7Cjc!P"m}`	'}UK.+
-Z-rz.o#u-<;o]Ayg7Cjc!P"hD.6z/GjL;*?value="*"Ol#8{[[T0N%Dt/[value=g{Yq,N$^>>
-===Initiate End===
-Node Coverage: 18/18
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Vulnerable: <<<<<<u-<lu6z/GjL;*?value="*"-<y#u;*?value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;*?value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#u-<;o]AyA<;]2
-100167 : 491.0147058823529 : <<<<<<u-<lu6z/GjL;*?value="*"-<y#u;*?value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;*?value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#u-<;o]AyA<;]2
-100005 : 546.4754098360655 : <<<<<<<lu6z/GjL;value="*"-<y#u;value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#
-100005 : <<<<<<<lu6z/GjL;value="*"-<y#u;value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#
-100005 : 0 : <<<<<<<lu6z/GjL;value="*"-<y#u;value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#
-100005 : <<<<<<<lu6z/GjL;value="*"-<y#u;value="*"-<y#u-<y#u#uo]A"m}`	'}-rz.o#u-<;o]A{Yq,h6z/GjL;*?value="*"-value="*"-<y#u-/GjL;value="*"OU)(YTO+[1D1OTSvlu-<u#,?value="*"="*"-<y##ue="*"<yh,#
-TIME: 66.20735533 (s)
-Attack failed

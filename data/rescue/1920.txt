@@ -1,9 +1,0 @@
-f(o)\B\1
-1: <8 : 2.727272727272727 : dfofofofoo>
-===Initiate End===
-Node Coverage: 8/9
-===Genetic Algorithm End===
-Node Coverage: 8/9
-Normal fail
-TIME: 4.181856502 (s)
-Attack failed

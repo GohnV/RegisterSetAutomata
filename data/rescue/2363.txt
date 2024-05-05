@@ -1,9 +1,0 @@
-^\s*<!NOTATION\s+(\w[\-\w]*)\s+(SYSTEM)\s+(["'])(.*?)\3\s*>
-1: <31 : 3.3974358974358974 : <!NOTATION	SYSTEM	SYSTEM	"'"SSTEM	"'"OTATI	YSTEM	"'"SSTEM	"'"OTATI	YSTEM	"'">>
-===Initiate End===
-Node Coverage: 31/31
-===Genetic Algorithm End===
-Node Coverage: 31/31
-Normal fail
-TIME: 16.06632254 (s)
-Attack failed

@@ -1,3 +1,0 @@
-{%\s+(\w+)\s+(\w+\++\w+)\s+%}(.*){%\s+end\1\s+%}
-TIME: 0.04182609 (s)
-Regex compile error

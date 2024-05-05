@@ -1,9 +1,0 @@
-^(?:([gim])(?!.*\1))*$
-2: <14 : 10.5 : gim><13 : 4.0 : gimg>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 4.605149377 (s)
-Attack failed

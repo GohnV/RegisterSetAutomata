@@ -1,9 +1,0 @@
-id="clip_(\d+)"[^>]*>\s*<a[^>]+href="(/(?:[^/]+/)*\1)(?:[^>]+\btitle="([^"]+)")?
-14: <4 : 0.4 : id="clip_><7 : 0.7272727272727273 : id="clip_1><10 : 0.9166666666666666 : id="clip_1"><13 : 1.0769230769230769 : id="clip_1">><15 : 1.0666666666666667 : id="clip_1"><a><16 : 1.1875 : id="clip_1"><a"><18 : 1.7727272727272727 : id="clip_1"><a+href="><24 : 2.0869565217391304 : id="clip_1"><a+href="/><31 : 2.5 : id="clip_1"><a+href="/1><26 : 2.52 : id="clip_1"><a+href="/^/><32 : 2.76 : id="clip_1"><a+href="/1"><33 : 3.9 : id="clip_1"><a+href="/1href="><36 : 4.28125 : id="clip_1"><a+href="/1"title="><40 : 5.5 : id="clip_1"><a+href="/1"title="href=">
-===Initiate End===
-Node Coverage: 41/41
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Normal fail
-TIME: 90.512474803 (s)
-Attack failed

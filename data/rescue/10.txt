@@ -1,9 +1,0 @@
-x(?:...|(...))\1x
-1: <17 : 2.573529411764706 : 	*zNGt\2?zHCxzNG2?zHHCx\Wz9CxzNG2?zHCxCxzNG2?zHCx\Wz9;2?zHCx\Wz\Wzx>
-===Initiate End===
-Node Coverage: 17/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 3.333685373 (s)
-Attack failed

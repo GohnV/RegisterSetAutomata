@@ -1,9 +1,0 @@
-(?:<(script|style).*?>(.*?)</\1>)|(<!--.*?-->)|(<\?.*?>)|(<\!.*?>)|(<[a-z0-9]+\b(?:[^>'"]|"[^"]*"|'[^']*')*>)|(</[a-z0-9]+>)|(.[^<]*)
-8: <27 : 5.0 : </sc>><17 : 2.0 : <!--/-->><36 : 6.115384615384615 : <w.!--/ript|/scriptP/'|'>><41 : 6.5 : <scriptP/'ycriptP/'yle?--></script<w.s>><19 : 3.2083333333333335 : <?Pw.s?-riptript|P/'|'>><21 : 3.5384615384615383 : <!-crip</sc>><42 : 5.508771929824562 : <w.s?-ript--*"yle?-->ipt|<w.s?-?-ri<w.sipt|/scriptP/'|'>><22 : 2.0555555555555554 : <scriptP/'ycriptP/'yle?--></script>>
-===Initiate End===
-Node Coverage: 75/75
-===Genetic Algorithm End===
-Node Coverage: 75/75
-Normal fail
-TIME: 9.745779218 (s)
-Attack failed

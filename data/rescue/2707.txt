@@ -1,9 +1,0 @@
-\A([-]{3,})$(.*\n)*?\1
-1: <5 : 3.0 : ->
-===Initiate End===
-Node Coverage: 5/16
-===Genetic Algorithm End===
-Node Coverage: 14/16
-Normal fail
-TIME: 0.083985939 (s)
-Attack failed

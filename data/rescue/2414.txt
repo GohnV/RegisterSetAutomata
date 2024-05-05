@@ -1,3 +1,0 @@
-([\b]+) +\1
-TIME: 0.042116019 (s)
-Regex compile error

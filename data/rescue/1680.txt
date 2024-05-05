@@ -1,9 +1,0 @@
-\brequire ([\"\'])[a-zA-Z0-9\.\-\_]+\1\;[\r\n]
-1: <5 : 1.380952380952381 : oYNh:7%E	)yjnf>u/V(require>u/V(require >
-===Initiate End===
-Node Coverage: 5/13
-===Genetic Algorithm End===
-Node Coverage: 11/13
-Normal fail
-TIME: 1.044757678 (s)
-Attack failed

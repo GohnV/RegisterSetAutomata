@@ -1,16 +1,0 @@
- (\*\*|__) (?=\S) (.+?[*_]*) (?<=\S) \1 
-1: <15 : 1.206896551724138 : t7[^QCrf.=`2}D
-)}Z
-'>Z)#tp_.=`2}D
-)}Z
-'>Z)#tp_xHrWe1Y0J ** *=`2}D
-)}Z
-'>Z)#tp_.=`2}D
->
-===Initiate End===
-Node Coverage: 15/31
-===Genetic Algorithm End===
-Node Coverage: 15/31
-Normal fail
-TIME: 1.764555759 (s)
-Attack failed

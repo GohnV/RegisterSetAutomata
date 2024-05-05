@@ -1,9 +1,0 @@
-^\$\(('|\").*?\1\)
-4: <6 : 2.0 : $(><12 : 2.857142857142857 : $('|\"><13 : 3.0 : $('|\"'><13 : 2.2222222222222223 : $('|\"')>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 5.110207933 (s)
-Attack failed

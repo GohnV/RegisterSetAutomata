@@ -1,9 +1,0 @@
-^use\s+(?:aliased\s+(['"]))((?:[\w:]+)?Client::\w+)\1;$
-10: <4 : 1.0 : use><7 : 1.6 : use	><9 : 0.8333333333333334 : use	aliased><11 : 1.0769230769230769 : use	aliased	><19 : 1.5714285714285714 : use	aliased	'><21 : 2.176470588235294 : use	aliased	'use><23 : 2.909090909090909 : use	aliased	'Client::><25 : 3.64 : use	aliased	'Client::use><26 : 3.5384615384615383 : use	aliased	'Client::use'><28 : 3.3333333333333335 : use	aliased	'Client::use';>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 28.847110133 (s)
-Attack failed

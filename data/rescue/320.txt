@@ -1,9 +1,0 @@
-^\\\.([HSMD])\\\.(\\['"])?(.*)\2\\,(\\['"])?(.*)\4$
-1: <16 : 3.5 : \.H\.\\H\.\.\\H\,>
-===Initiate End===
-Node Coverage: 16/32
-===Genetic Algorithm End===
-Node Coverage: 32/32
-Normal fail
-TIME: 20.859399869 (s)
-Attack failed

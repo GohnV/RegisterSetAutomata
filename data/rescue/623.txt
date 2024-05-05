@@ -1,9 +1,0 @@
-^\s*@data_path\s*=\s*(['"])(.*?)\1
-5: <7 : 0.6363636363636364 : @data_path><8 : 0.8333333333333334 : @data_path	><11 : 0.9166666666666666 : @data_path=><18 : 1.5 : @data_path='"><19 : 1.4 : @data_path='"'>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 1.00007167 (s)
-Attack failed

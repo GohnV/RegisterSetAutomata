@@ -1,9 +1,0 @@
-(?:^|\s|\n|[^A-z0-9_*~`])(\*{2}|_{2})((?!\1).*?)(\1)($|\s|\n|[^A-z0-9_*~`])
-2: <37 : 5.918918918918919 : |$) **-!>ei,N2 =,mCpqN2 =,mCpq **$><23 : 13.222222222222221 : |$) ****>
-===Initiate End===
-Node Coverage: 38/38
-===Genetic Algorithm End===
-Node Coverage: 38/38
-Normal fail
-TIME: 31.388316482 (s)
-Attack failed

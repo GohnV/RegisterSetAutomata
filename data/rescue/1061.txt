@@ -1,3 +1,0 @@
-^\s*(\S+)\s+(\S+)\s+(\"|\')([^\3]*)\3\s*$
-TIME: 0.041340097 (s)
-Regex compile error

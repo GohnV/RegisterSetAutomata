@@ -1,13 +1,0 @@
-(</)(plugin)\s*(>)(?!<\s*/\2\s*>)
-1: <25 : 2.245614035087719 : Og"Kx!NJaBPaj</[xYS/pluXC#aj<C##ajOg"Kx!NJaBPaj</[xYS/pluXC#aj<C##aj<C#aj</plugin></plugin></plugin
-
-	
-	
-		>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 16.864973565 (s)
-Attack failed

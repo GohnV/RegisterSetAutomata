@@ -1,9 +1,0 @@
-<img src=\"([^"\[]+)\" alt=\"([^"\[]+)\" title=\"\2\" \/>
-1: <14 : 1.703125 : <img src="<imgmgg src=\" alt="<img mg slt=" title="<img mg slt=>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 9.185681988 (s)
-Attack failed

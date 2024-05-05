@@ -1,9 +1,0 @@
-gem\s(['"])(.+?)\1
-1: <13 : 1.5 : u]gem'"'>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 25.567364488 (s)
-Attack failed

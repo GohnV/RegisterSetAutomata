@@ -1,9 +1,0 @@
-\As(\\?\W)(?:\^|\${1,2})\1\1(;|\z)
-6: <6 : 3.0 : s><13 : 4.666666666666667 : s\><16 : 5.75 : s\^><17 : 4.8 : s\^\><21 : 4.666666666666667 : s\^\\><24 : 4.833333333333333 : s\^\\>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 0.147221945 (s)
-Attack failed

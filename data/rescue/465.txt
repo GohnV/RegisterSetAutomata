@@ -1,9 +1,0 @@
-\stype=([\'\"])(.*?)\1
-1: <5 : 1.15 : 46Hwxf=8v;x	t	type=>
-===Initiate End===
-Node Coverage: 5/13
-===Genetic Algorithm End===
-Node Coverage: 5/13
-Normal fail
-TIME: 3.981713116 (s)
-Attack failed

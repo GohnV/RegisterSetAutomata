@@ -1,9 +1,0 @@
-<h([1-6])[^>]*>\s*([^\r\n<]+)(\s*<\/h\1)
-1: <22 : 4.6395348837209305 : ~:}b[6&s@T*[<h0*[<h12Ch\\F>[8hsh0*[<h12Ch\0*[<h12Ch\\F>[8hsh0*[<h12Ch\\F>[8hs//\s</h1>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 65.472055491 (s)
-Attack failed

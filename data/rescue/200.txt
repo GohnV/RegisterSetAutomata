@@ -1,9 +1,0 @@
-^\s*(include|includeoptional)\s*(["'])(.*?)(?<!\\)\2$
-4: <13 : 1.625 : include><23 : 2.9 : include"'><25 : 4.4 : include"'?<!\\><24 : 2.6363636363636362 : include"'">
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 1.113047857 (s)
-Attack failed

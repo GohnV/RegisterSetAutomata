@@ -1,9 +1,0 @@
-<yield\s+to=(['"])?@\1\s*>([\S\s]+?)<\/yield\s*>
-2: <10 : 0.2857142857142857 : <y		to=<yield	d		lld	tod	t<yield	tild		=<yeldyield		to=<yieed	t<yild		=<yield		to=@><11 : 0.5806451612903226 : <y		tot<yield	totot<yield	to='>
-===Initiate End===
-Node Coverage: 12/24
-===Genetic Algorithm End===
-Node Coverage: 15/24
-Normal fail
-TIME: 1.18435717 (s)
-Attack failed

@@ -1,3 +1,0 @@
-^\s*require\s*("|')([^\1\s]*)(\1)
-TIME: 0.049054883 (s)
-Regex compile error

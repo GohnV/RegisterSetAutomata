@@ -1,9 +1,0 @@
-<(nobr|abbr)>(<\1>[^<]+<\/\1>)<\/\1>
-1: <6 : 1.1851851851851851 : lv||]qQx0aer	'B#?/kQv<&mvB>
-===Initiate End===
-Node Coverage: 6/24
-===Genetic Algorithm End===
-Node Coverage: 6/24
-Normal fail
-TIME: 0.903037164 (s)
-Attack failed

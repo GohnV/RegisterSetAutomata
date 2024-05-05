@@ -1,9 +1,0 @@
-(<<)("|'|)(APPLESCRIPT)\2
-1: <14 : 1.5172413793103448 : @1sr9G*A_<Ar9ES<<APPLESCRIPT>
-===Initiate End===
-Node Coverage: 14/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 0.779667788 (s)
-Attack failed

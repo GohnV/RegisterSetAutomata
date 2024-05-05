@@ -1,9 +1,0 @@
-^(-{4,}|\.{4,})(?:\r?\n|\r)(?:.*(?:\r?\n|\r))*?\1$
-1: <8 : 4.5 : .>
-===Initiate End===
-Node Coverage: 8/35
-===Genetic Algorithm End===
-Node Coverage: 16/35
-Normal fail
-TIME: 0.087625806 (s)
-Attack failed

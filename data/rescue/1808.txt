@@ -1,13 +1,0 @@
-(`)([^`]+)\1
-2: <10 : 3.6865671641791047 : 7Pb,Nik^PzE	
-^M"3T"J
-OH=c!
-8 BVef3.^`.B'8 ,b"bw
-N'H"~6E/K{Aj@5E><11 : 2.1666666666666665 : IomsGa_[ovw$`rfn4')7)7`>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 19.718384472 (s)
-Attack failed

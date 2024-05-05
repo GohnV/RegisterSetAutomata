@@ -1,9 +1,0 @@
-\/(.+)\/\1$
-1: <11 : 6.9375 : \/\1$/\\/\1$/\/\1$/\\/\1$/\/\1$>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 16.868713843 (s)
-Attack failed

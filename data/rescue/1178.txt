@@ -1,9 +1,0 @@
-fired\s*\(\s*('|")(.*)\1\s*\)
-6: <4 : 0.6666666666666666 : fired><10 : 1.4285714285714286 : fired(><17 : 2.125 : fired("><18 : 2.5 : fired('|"><21 : 2.6666666666666665 : fired(""><22 : 2.9 : fired("")>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 132.723845102 (s)
-Attack failed

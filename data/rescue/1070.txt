@@ -1,16 +1,0 @@
-\[\s*(.*?)(?:\s*([~|^$*]?=)\s*(("|').*\4|.*?[^\\]))?\s*(i)?\]
-1: <47 : 12.26865671641791 : !z'm*?3gYAVt DoTxG"
-\Wf4![?:\s*rx)dLdWMEB%P J<<qxRiK	YX(B="|'}[]>
-===Initiate End===
-Node Coverage: 47/47
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 47/47
-Vulnerable: Ki?="|'[	  	 			   	 			 [P J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRiK	YX(B3gY[['|"=?iK[?:B="X(B="|'}[]
-100159 : 622.1055900621118 : Ki?="|'[	  	 			   	 			 [P J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRiK	YX(B3gY[['|"=?iK[?:B="X(B="|'}[]
-100120 : 841.344537815126 : K[	  	 			   	 			  J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRi
-100120 : K[	  	 			   	 			  J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRi
-100120 : 0 : K[	  	 			   	 			  J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRi
-101617 : K[	  	 			   	 			  J<<qxRiK	YX(B3gYYX(B="|<qxRiK	YX(B="|)dLdWM\s*?:qxRiK?%P J<<qxRiK	YX((B="|\s*rx)dLdWMEB%P J<<qxRi
-TIME: 18.578634256 (s)
-Attack failed

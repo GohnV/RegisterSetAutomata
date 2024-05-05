@@ -1,9 +1,0 @@
-^\t<p><span class="caps">YACC</span><sup class="footnote" id="fnrev([a-f0-9]{32})-1"><a href="#fn\1-1">1</a></sup></p>
-1: <9 : 0.6228070175438597 : 	<p><span class="caps">YACC</span><sup class="footnote" id="fnreva3728833907544702828001808166181-1"><a href="#fn>
-===Initiate End===
-Node Coverage: 9/11
-===Genetic Algorithm End===
-Node Coverage: 9/11
-Normal fail
-TIME: 0.422168442 (s)
-Attack failed

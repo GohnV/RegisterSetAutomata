@@ -1,9 +1,0 @@
-<meta[\s]+?http-equiv=(['"])content-type\1[\s]+?content=(['"])(.+?)\2
-10: <3 : 0.5 : <meta><5 : 0.8571428571428571 : <meta	><7 : 0.4444444444444444 : <meta	http-equiv=><9 : 0.5263157894736842 : <meta	http-equiv='><10 : 0.3548387096774194 : <meta	http-equiv='content-type><12 : 0.40625 : <meta	http-equiv='content-type'><13 : 0.48484848484848486 : <meta	http-equiv='content-type'	><15 : 0.43902439024390244 : <meta	http-equiv='content-type'	content=><21 : 0.6046511627906976 : <meta	http-equiv='content-type'	content='"><22 : 0.5454545454545454 : <meta	http-equiv='content-type'	content='"'>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 13.818170661 (s)
-Attack failed

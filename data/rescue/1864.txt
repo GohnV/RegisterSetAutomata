@@ -1,9 +1,0 @@
-(.)mask\1
-1: <7 : 3.7717391304347827 : DDqrcmrcmmarcmmaqmrcmmarcmmarcmmaqrmrcmmarcmmaqcmrcmmarcmmaqrcmascmmaqrcmaskc>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 25.636232119 (s)
-Attack failed

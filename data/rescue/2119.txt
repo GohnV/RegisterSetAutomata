@@ -1,9 +1,0 @@
-\A(['"])(.+)\1\z
-3: <10 : 3.6666666666666665 : '"><11 : 4.0 : "F)A#E=iFG:@5m(K_b,B??Afo72.I9%O6$:J5a*-t"4?K[ ><12 : 4.25 : '"'>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 8.459358583 (s)
-Attack failed

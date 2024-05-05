@@ -1,9 +1,0 @@
-(~{2})(.+?)\1
-1: <12 : 3.1481481481481484 : .0[QuU_7p+J[]V~~/6"+J[]V~~>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 97.36135789 (s)
-Attack failed

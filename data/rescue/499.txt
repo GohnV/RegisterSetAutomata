@@ -1,9 +1,0 @@
-(?:\b|\s|^)mx-view\s*=\s*(['"])([^'"]+?)\1
-1: <12 : 5.5 : mx-view>
-===Initiate End===
-Node Coverage: 12/24
-===Genetic Algorithm End===
-Node Coverage: 17/24
-Normal fail
-TIME: 17.720062401 (s)
-Attack failed

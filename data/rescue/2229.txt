@@ -1,9 +1,0 @@
-^<(CURLY)\s+value="555 1234"\s*>\s*</\1>\s*$
-8: <4 : 2.0 : <><7 : 1.0 : <CURLY><9 : 1.25 : <CURLY><12 : 0.5416666666666666 : <CURLYvalue="555 1234"><15 : 0.64 : <CURLYvalue="555 1234">><16 : 0.6296296296296297 : <CURLYvalue="555 1234"></><17 : 0.5625 : <CURLYvalue="555 1234"></CURLY><21 : 0.6666666666666666 : <CURLYvalue="555 1234"></CURLY>>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 0.16646215 (s)
-Attack failed

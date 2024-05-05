@@ -1,9 +1,0 @@
-(?:<style([^>]*)>([\s\S]*?)<\/style>|<link\s+(?=[^>]*rel=['"]?stylesheet)([^>]*?href=(['"])([^>]*?)\4[^>\/]*)\/?>)
-2: <26 : 8.7265625 : A?$g;trW,=N$N'sw<style>style>f;:6<,w(h*D!@g<lityle>fh*D!@g<lityle>f;:6<.;<link	.;*D!@g<l\H1;*D!@g<link	.CI\H1yj#5radP,My*rel=><19 : 3.593220338983051 : A?$g;trW,=N$N'sw<style>style>f;:6<,w(h*D!@g<lityle>fh*D!@g<lityle>f;:6<.;<link	.;*D!@g<l\H1;*D!@g<link	.CD!@</style>>
-===Initiate End===
-Node Coverage: 29/48
-===Genetic Algorithm End===
-Node Coverage: 29/48
-Normal fail
-TIME: 108.621003475 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\A<<[-~]?(['"`]?)(.+)\1\z
-2: <11 : 3.6666666666666665 : <<><16 : 3.2857142857142856 : <<\A<<>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 14.589118087 (s)
-Attack failed

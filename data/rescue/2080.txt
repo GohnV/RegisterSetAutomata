@@ -1,9 +1,0 @@
-<(pre|code)[^>]*?syntax=['"]([^'"]+)[^>]*>(.*?)</\1>
-1: <6 : 1.1219512195121952 : 	EQ:o&Mmlpre#lU?&/%bRyS"`NX1,R=Zr	aYb&5<>
-===Initiate End===
-Node Coverage: 6/28
-===Genetic Algorithm End===
-Node Coverage: 20/28
-Normal fail
-TIME: 12.583916867 (s)
-Attack failed

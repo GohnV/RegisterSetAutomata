@@ -1,9 +1,0 @@
-\G(['"])(.*?)\1
-3: <4 : 2.5 : \><11 : 2.409090909090909 : "g,N:vwF31?*lRe(v~>e~qBk\GU%:F]=o'.~r_u.#TiRb*]BUKAsm: VPF")) ]><12 : 3.9047619047619047 : 'bK9t9Z4}d<LA.]I,nJ'>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 21.525690055 (s)
-Attack failed

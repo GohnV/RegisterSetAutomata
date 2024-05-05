@@ -1,33 +1,0 @@
-(.*?)\s*=\s*('|"|&#?\w+;)(.*?)(?<!\\)\2
-5: <9 : 11.25 : .*?><16 : 39.72727272727273 : .*?\s*=\s*><27 : 13.78688524590164 : <Wc;2&{!#{,*=$^.CF=@TXYb[&>nzb&iMsSF="n),3X4PfOa=e	u4x V"><21 : 64.71212121212122 : lQJAy&2x_a8_ms=&Ew6Pcxh
-19Ld{$OE/)! *(Z9Z]og&SPNN}o}UY
-/W7{H><28 : 94.75757575757575 : .&'Xa	
-fL9S
-Fi[>'%	@C
-@?Xa_%'='FI%\=*Dh30HWstf~38rBPNE
-Sz/W(=	m1r>
-===Initiate End===
-Node Coverage: 34/34
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 34/34
-Vulnerable: {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canrajzapgqbf?
-100071 : 403.51209677419354 : {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canrajzapgqbf?
-100010 : 480.8173076923077 : {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30H
-100010 : {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30H
-100010 : 0 : {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30H
-100358 : {#!{&2;cW,*=$^.CF=@TXYb[&>\=*Dh30(Z9Z]og&d{$OE/)! *(Z9Z]og&SPNN}d{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30HWsFI%\=*Dh30HWstwkftk*Dh30canraXa	
-fL418]og&dXa_%'='FI%\=*Dh30HWstfa	xh
-19Ld{$OE/)! *(Z9Z]a_%'='FI%\=*Dh30H
-TIME: 32.676833749 (s)
-Attack failed

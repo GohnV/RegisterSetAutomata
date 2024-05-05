@@ -1,9 +1,0 @@
-([^\\])(\\*)\2\\n
-2: <11 : 4.75 : ^\\><12 : 8.08695652173913 : @Gr8m3JU{u*,9o9]G8A}\n>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 44.140152872 (s)
-Attack failed

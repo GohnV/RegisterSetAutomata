@@ -1,9 +1,0 @@
-%[qQ](?=(\(|\[|\{|&lt;|.)(.*?)(?:'|\)|\]|\}|&gt;|\1))(?:\(\2\)|\[\2\]|\{\2\}|\&lt;\2&gt;|\1\2\1)
-1: <42 : 2.1315789473684212 : qz#P`UroiBE%%aUoiBE%%aUr#P`UroiBE%%aUoiBE%%aUroiBE%%aB|B@XYjl/i|$%qoP`Uro>
-===Initiate End===
-Node Coverage: 42/50
-===Genetic Algorithm End===
-Node Coverage: 46/50
-Normal fail
-TIME: 96.435506212 (s)
-Attack failed

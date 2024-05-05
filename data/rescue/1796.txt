@@ -1,3 +1,0 @@
-(?:x)(a)(b)(?:y)(c)\1\1\2\3\k<other>
-TIME: 0.04481804 (s)
-Regex compile error

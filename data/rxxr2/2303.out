@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([^=\/\s]+)(?:\s*=\s*(?:(["'])[\s\S]*?\2|\S*))?(?=$|\s)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(47)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,9 +1,0 @@
-^\s*(?:(["']?)([a-z][a-z0-9]*)\1)\s*:\s*(?:(-?\d+)|"([a-z0-9+\/%*_.@=\-]*)"|(true|false))$
-7: <11 : 7.0 : "><15 : 5.0 : "true><19 : 4.857142857142857 : "true"><33 : 9.142857142857142 : false:><38 : 4.090909090909091 : false:true><38 : 8.625 : false:"><33 : 5.25 : false:0>
-===Initiate End===
-Node Coverage: 45/45
-===Genetic Algorithm End===
-Node Coverage: 45/45
-Normal fail
-TIME: 34.454133836 (s)
-Attack failed

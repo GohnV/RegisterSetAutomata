@@ -1,9 +1,0 @@
-(([^\w\s])\2{5,})
-1: <10 : 4.735294117647059 : ^\w\^\w\^\w\\^\w\w\w\\^\w\w\\\\\\>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 3.224214081 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (.*?(\s+)\s+[^\n]+?\n(?=\2\S|\z))
-PARSE: ERROR {ParsingData.InvalidBackreference(24)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

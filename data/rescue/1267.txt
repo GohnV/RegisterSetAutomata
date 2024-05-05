@@ -1,9 +1,0 @@
-([\\/])\.\1
-1: <7 : 2.2 : \\.\>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 1.74065517 (s)
-Attack failed

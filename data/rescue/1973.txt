@@ -1,9 +1,0 @@
-(["'<])@root/(.*?)(#.*?)?(\1|>)
-1: <20 : 4.4523809523809526 : X[Ad3mD/w_3Pg5|\K*BG'@root/w_g5|\5|\K*BG'>
-===Initiate End===
-Node Coverage: 20/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 31.482772905 (s)
-Attack failed

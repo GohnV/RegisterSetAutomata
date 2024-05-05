@@ -1,9 +1,0 @@
-<(\w)>(.*?)</\1>
-1: <15 : 1.8709677419354838 : w% j0	Bv%//{(//{(M)<34f5?if@/V~Jvuz$#	`<d>1ZeL#zDq"-/{(M)</d>>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 41.276216061 (s)
-Attack failed

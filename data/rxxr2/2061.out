@@ -1,6 +1,0 @@
-= [1] =
-INPUT: define\s*?\(\s*?(['"])(DB_NAME|DB_USER|DB_PASSWORD|DB_HOST|DB_CHARSET|DB_COLLATE)\1\s*?,\s*?(['"])([^\3]*?)\3\s*?\)\s*?;
-PARSE: ERROR {ParsingData.UnsupportedEscape(102, 51)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

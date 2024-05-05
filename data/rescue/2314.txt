@@ -1,9 +1,0 @@
-(<([a-z]+\d*)(?:\s+(?!data-bind\s*=\s*)[a-z0-9\-]+(?:=(?:\"[^\"]*\"|\'[^\']*\'))?)*\s+)data-bind\s*=\s*(["'])([\s\S]*?)\3
-1: <39 : 7.957446808510638 : &.kMgcc<wg s='rgMgc<wg s='rgc A<wg s='a*Yd{,cK>
-===Initiate End===
-Node Coverage: 39/62
-===Genetic Algorithm End===
-Node Coverage: 48/62
-Normal fail
-TIME: 43.319521562 (s)
-Attack failed

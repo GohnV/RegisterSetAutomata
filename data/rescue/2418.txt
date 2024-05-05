@@ -1,10 +1,0 @@
-(\$(?!\d)[^$]*?\$).*?(?:\1|$)
-4: <3 : 2.3333333333333335 : ?!><10 : 4.076923076923077 : 82^#?]q4@R3[\w@&WgA$N]m_H_'7D87Mt[U-0hgflHez3>Hu^@]vLK/CM;&pj`	><17 : 3.3134328358208953 : u\[~VZ`:Kgn~(4r7'vK[`5?W/@k0?VIHtm.\9^j-v~zQw}pa^$o$dmx,y&ZS+11O><21 : 3.887323943661972 : :*aT$	ke-9/?:\1|$7l+
--x5>kd^A3YE=RN ,@$c{I:,7>.&3!3JY^~X2jg#$ 	fP{A{>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 28.182190419 (s)
-Attack failed

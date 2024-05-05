@@ -1,9 +1,0 @@
-(?=(?><<-("?)((?:[_\w]+_|)SQL)\b\1))
-5: <6 : 5.5 : "><17 : 7.4 : "<<-><19 : 7.5 : "<<-c><25 : 4.875 : "<<-SQL><20 : 8.0 : "<<-c_>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 9.839071484 (s)
-Attack failed

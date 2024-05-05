@@ -1,9 +1,0 @@
-\{\{#([\w]*)\}\}(.*)\{\{\/(\1)\}\}
-1: <18 : 1.9478260869565218 : (YLJe>3;#eZi7`{#eZi7`{{#i7`{#eZi7`{{#}}Ytxhg}}{{@1zvrr)Ytxhg`{#eZi7`{{#i7`{#eZi7`{{#}}Ytxhg}}{{@1zvrr)Ytxhg}}{{/}}>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 40.384690638 (s)
-Attack failed

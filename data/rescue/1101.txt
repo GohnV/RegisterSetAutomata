@@ -1,9 +1,0 @@
-\b(gql\s*\(\s*[bfru]*("(?:"")?|'(?:'')?))([\s\S]+?)\2\s*\)
-1: <16 : 4.285714285714286 : gql  		 	(	 >
-===Initiate End===
-Node Coverage: 16/38
-===Genetic Algorithm End===
-Node Coverage: 38/38
-Normal fail
-TIME: 63.068399471 (s)
-Attack failed

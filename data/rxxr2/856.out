@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([^YyMDdHhmsS]*?)(([YyMDdHhmsS])\3*)([^YyMDdHhmsS]*?)
-PARSE: ERROR {ParsingData.InvalidBackreference(32)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

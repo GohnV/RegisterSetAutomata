@@ -1,9 +1,0 @@
-(["'\/])((?:(?!\1|\\).)*(?:\\.(?:(?!\1|\\).)*)*)\1
-3: <31 : 19.8 : "'\/><32 : 25.857142857142858 : "'\/?:><32 : 6.833333333333333 : "'\/">
-===Initiate End===
-Node Coverage: 35/35
-===Genetic Algorithm End===
-Node Coverage: 35/35
-Normal fail
-TIME: 235.455476829 (s)
-Attack failed

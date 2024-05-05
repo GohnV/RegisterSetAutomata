@@ -1,9 +1,0 @@
-^(\w{3,})(\1)Model\1Parameters(\w+)$
-6: <8 : 4.363636363636363 : Parameters><10 : 4.761904761904762 : ParametersParameters><11 : 4.846153846153846 : ParametersParametersModel><12 : 4.916666666666667 : ParametersParametersModelParameters><15 : 5.0 : ParametersParametersModelParametersParameters><18 : 5.035714285714286 : ParametersParametersModelParametersParametersParameters>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 63.409342196 (s)
-Attack failed

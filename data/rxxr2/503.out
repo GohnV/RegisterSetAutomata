@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (<td\s[^>]*?(?<=\s)background\s*=\s*)(["']?)(.*?)(\2)(\s.+?>|\s*>)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(12)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

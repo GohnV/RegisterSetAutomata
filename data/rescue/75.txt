@@ -1,9 +1,0 @@
-\$\{('?)([A-Z0-9_]+)(?::([^\}]*))?\1\}
-1: <23 : 2.5 : A!%y2f${X:}>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 63.095366401 (s)
-Attack failed

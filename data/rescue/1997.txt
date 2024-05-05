@@ -1,9 +1,0 @@
-(<)(plugin)\s*(>)(?!<\s*/\2\s*>)
-2: <23 : 1.45 : GCk<plugin></plugin><24 : 2.4285714285714284 : GCk<plugin></plugin>>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 3.581030153 (s)
-Attack failed

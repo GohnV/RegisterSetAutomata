@@ -1,9 +1,0 @@
-\ssrc=([\'\"])(.*?)\1
-1: <13 : 2.9130434782608696 : ErMe03lW^%>>^X?d?5src="1i3%]TvkwFkvH7SkwFkvH7SG`j7rl9A nQ<N6_$Ag">
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 19.628024267 (s)
-Attack failed

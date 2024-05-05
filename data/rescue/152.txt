@@ -1,9 +1,0 @@
-^function foobar\(\)\{var ([a-z])="str";return \1\+"str"\}$
-1: <10 : 0.21739130434782608 : function foobar(){var v="str";return v+"str"}>
-===Initiate End===
-Node Coverage: 10/11
-===Genetic Algorithm End===
-Node Coverage: 10/11
-Normal fail
-TIME: 0.238945966 (s)
-Attack failed

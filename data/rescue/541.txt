@@ -1,9 +1,0 @@
-((\\)end)(\{)(\4)(\})
-1: <6 : 3.0416666666666665 : 	#DC!js4*Cf<:P3DC!js4*Cf<qjS-h@m4<r<h@m4<r<`+h@m4<r<`+6se\qjS-h@m4<r<>
-===Initiate End===
-Node Coverage: 6/18
-===Genetic Algorithm End===
-Node Coverage: 6/18
-Normal fail
-TIME: 1.121301739 (s)
-Attack failed

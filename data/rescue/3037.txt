@@ -1,10 +1,0 @@
-\n(( {2})+)stack: \>-?\n((\1  .*).*\n(\1\n)?)+
-1: <10 : 1.4 : uzYJhkuZ2WKS9%bdoedpE.3]c
-  >
-===Initiate End===
-Node Coverage: 10/33
-===Genetic Algorithm End===
-Node Coverage: 10/33
-Normal fail
-TIME: 0.852741104 (s)
-Attack failed

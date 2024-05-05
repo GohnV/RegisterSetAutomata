@@ -1,9 +1,0 @@
-<(.*?Delegate)\s*?>(.*)<\/\1\s*?>
-2: <19 : 3.030534351145038 : mn0%(]l6lDe'<wMPQ ${>?[.*?Delegate>?[.*?Delegate#g SA |4l6lDe</wMPQ ${>?[.*?Delegate>?[.*?Delegate#g SA |4l6lDe</e#g SA |4c<Tc<TLO><20 : 11.607843137254902 : mn0%(]l6lDe'<wMPQ ${>?[.*?Delegate>?[.*?Delegate#g SA |4l6lDe</wMPQ ${>?[.*?Delegate/wMPQ ${>?[.*?Delegate>?[.*?Delegate#g SA |4l6lDe</e#g SA |4c<Tc<TLO>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 24.896050485 (s)
-Attack failed

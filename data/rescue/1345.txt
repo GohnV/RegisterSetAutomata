@@ -1,9 +1,0 @@
-^([\"\'])(.+)\1$
-4: <7 : 3.5 : "><10 : 3.6666666666666665 : "#><11 : 4.0 : "}$B'h3	6+of<PFFd"^><12 : 4.25 : "#">
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 5.962051436 (s)
-Attack failed

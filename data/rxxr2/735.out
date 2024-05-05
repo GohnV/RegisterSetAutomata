@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \G[ ]{,3}([-*_])([ ]{,2}\1){2,}[ \t]*$\n?
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(5)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

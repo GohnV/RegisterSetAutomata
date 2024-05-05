@@ -1,9 +1,0 @@
-(img|iframe)[\s\S]*?src\s*=\s*("|')(.*?)\2
-5: <11 : 3.5454545454545454 : img|iframe><14 : 5.714285714285714 : img|iframesrc><20 : 6.8 : img|iframesrc=><27 : 7.875 : img|iframesrc='><26 : 2.6470588235294117 : img|iframesrc=''>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 149.791942393 (s)
-Attack failed

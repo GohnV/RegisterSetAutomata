@@ -1,9 +1,0 @@
-^[^\n\r\S]*(```+)[^\n\r\S]*(\S+)[^\n\r\S]*[\r\n]([\s\S]+?)[\r\n][^\n\r\S]*\1\s*$
-1: <29 : 4.7894736842105265 : ```+Vf5%45%4````+````+Vf5%`+Z!>
-===Initiate End===
-Node Coverage: 29/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 467.121294531 (s)
-Attack failed

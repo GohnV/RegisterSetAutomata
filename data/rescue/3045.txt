@@ -1,9 +1,0 @@
-^<A HREF="manual.html#pdf-(?!lua|LUA)([^:]+)">\1</A>
-8: <3 : 0.1875 : <A HREF="manual><4 : 0.23529411764705882 : <A HREF="manualh><12 : 0.46153846153846156 : <A HREF="manualhhtml#pdf-><12 : 0.41379310344827586 : <A HREF="manualhhtml#pdf-LUA><15 : 1.7560975609756098 : <A HREF="manualhhtml#pdf-<A HREF="manual><16 : 1.8837209302325582 : <A HREF="manualhhtml#pdf-<A HREF="manual">><17 : 2.4482758620689653 : <A HREF="manualhhtml#pdf-<A HREF="manual"><A HREF="manual><18 : 2.1129032258064515 : <A HREF="manualhhtml#pdf-<A HREF="manual"><A HREF="manual</A>>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 39.336884651 (s)
-Attack failed

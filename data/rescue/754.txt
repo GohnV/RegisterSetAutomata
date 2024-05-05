@@ -1,9 +1,0 @@
-^((([A-Z])(\3)+){3,})
-1: <13 : 3.857142857142857 : AAA>
-===Initiate End===
-Node Coverage: 13/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 0.528913903 (s)
-Attack failed

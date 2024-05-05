@@ -1,9 +1,0 @@
-(?><<-("?)((?:\w+_|)CPP)\b\1)
-1: <23 : 3.769230769230769 : z$?><<-F_CPP>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 31.540052682 (s)
-Attack failed

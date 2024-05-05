@@ -1,9 +1,0 @@
-(<(b|i|pre|code)>(.*?)<\/\2>)
-1: <22 : 2.324786324786325 :  j:Lbvq6! kUkU	kc<.	_5e j:Lbvq6! kUkU	kc<.	_5e^C kU	c6! C kU	c6! kUkU	k! kUkU	kc<.	_5e^C kU	kkc6! kU<i>$<.	_5i,2</i>>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 67.307446921 (s)
-Attack failed

@@ -1,9 +1,0 @@
-style=(["|'])\s*\1
-4: <3 : 0.42857142857142855 : style=><7 : 0.875 : style="><8 : 1.1111111111111112 : style="	><8 : 0.8888888888888888 : style="">
-===Initiate End===
-Node Coverage: 9/9
-===Genetic Algorithm End===
-Node Coverage: 9/9
-Normal fail
-TIME: 27.744978819 (s)
-Attack failed

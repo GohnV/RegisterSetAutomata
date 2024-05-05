@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^\s*-----BEGIN RSA PRIVATE KEY-----\s*(?=(([A-Za-z0-9+/=]+\s*)+))\1-----END RSA PRIVATE KEY-----\s*$
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(38)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

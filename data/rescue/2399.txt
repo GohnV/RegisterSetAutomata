@@ -1,18 +1,0 @@
-\{%\s*([a-zA-Z_\-][a-zA-Z_\-0-9]*)\s*(.*?)%\}(.*?)\{%\s*end\1\s*%\}
-1: <26 : 8.310344827586206 : ^PU]W#	Tceb/eb/][!U]W#	Tceb/eb/][	T)r**ceb/eb/][	T)r**vrCQr
-DO-{%JC%}{%enT)vrC%}{%end>
-===Initiate End===
-Node Coverage: 26/30
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 29/30
-Vulnerable: PUr
-DO-{%JC%}{%)vrC%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-{%JC%}{%enT)vrC%}{%en%CJDO-{%JC%UO-{%PUO-{%JC%}{%e*Ac1tirxB4P1Ek%JC%}{%e*Ac1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX]W#
-100079 : 549.8846153846154 : PUr
-DO-{%JC%}{%)vrC%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-{%JC%}{%enT)vrC%}{%en%CJDO-{%JC%UO-{%PUO-{%JC%}{%e*Ac1tirxB4P1Ek%JC%}{%e*Ac1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX]W#
-100015 : 719.5323741007194 : P{%JC%}%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-JC%}{%enT%}{%enJD{%JCO-{%PUO-%}{%ec1tirxB%}{%ec1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX
-100015 : P{%JC%}%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-JC%}{%enT%}{%enJD{%JCO-{%PUO-%}{%ec1tirxB%}{%ec1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX
-100015 : 0 : P{%JC%}%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-JC%}{%enT%}{%enJD{%JCO-{%PUO-%}{%ec1tirxB%}{%ec1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX
-100363 : P{%JC%}%}{%endPTWWWHKNSZvdgfjkkfigbfnpO-JC%}{%enT%}{%enJD{%JCO-{%PUO-%}{%ec1tirxB%}{%ec1tirxB4P1Ekg07rqJC%}{%enT)vrC%}{%endcAPEPOZBDXYQBGX
-TIME: 34.040399543 (s)
-Attack failed

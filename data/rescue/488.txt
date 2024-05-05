@@ -1,9 +1,0 @@
-((?:\r?\n|\r){2})([!"#$%&'()*+,\-.\/:;<=>?@\[\\\]^_`{|}~])\2{3,}(?=(?:\r?\n|\r){2})
-1: <19 : 13.826086956521738 : :nnnn::nnnn:nr>
-===Initiate End===
-Node Coverage: 19/33
-===Genetic Algorithm End===
-Node Coverage: 19/33
-Normal fail
-TIME: 3.644850358 (s)
-Attack failed

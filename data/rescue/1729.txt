@@ -1,9 +1,0 @@
-require\s*\(\s*('|")(.+?)\1\s*\)
-6: <4 : 0.5 : require><10 : 1.1111111111111112 : require(><15 : 1.5 : require("><18 : 2.9523809523809526 : require("require\s*\><21 : 3.1363636363636362 : require("require\s*\"><22 : 2.6956521739130435 : require("require\s*\")>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 103.569303051 (s)
-Attack failed

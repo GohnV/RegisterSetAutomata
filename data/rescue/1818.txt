@@ -1,9 +1,0 @@
-<input\s[^>]*value=(["'])Add\s+to\s+Friends\1[^>]*>
-1: <10 : 2.9043478260869566 : <inputvtputtvtpvue="valunputvtpulunptutvtputtvtpvue="valunputvtpulunptvalue="valvaaluetvalue="valvaalue="'>
-===Initiate End===
-Node Coverage: 10/21
-===Genetic Algorithm End===
-Node Coverage: 12/21
-Normal fail
-TIME: 97.669358474 (s)
-Attack failed

@@ -1,14 +1,0 @@
-\bt\b[^:]*:\s*(['"])(.+?)\1
-1: <19 : 2.3773584905660377 : \S,:
-@o7?HJ|
-=/h{xo{%kFGNddS,:
-@o7?HJ|
-=/h{xo{%kFGNddZ8\
-t /6D+l"x:'X_Tg	`r30?BMfvu{a0b!a|!t6+ySwvS$$'>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 26.790884458 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(?><<-("?)((?:[_\w]+_|)JQUERY)\b\1)
-1: <18 : 3.8 : t	XK^*i]i]?><<qZ;"Oi]?><<-w_8>
-===Initiate End===
-Node Coverage: 18/23
-===Genetic Algorithm End===
-Node Coverage: 20/23
-Normal fail
-TIME: 28.408593509 (s)
-Attack failed

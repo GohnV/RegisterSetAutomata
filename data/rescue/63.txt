@@ -1,9 +1,0 @@
-R"([^()\\ ]{0,16})\([\s\S]*?\)\1"
-1: <14 : 1.6849315068493151 : QY|T7FsXoE1PF(W=]T7FsXoE1PF(W=]Yd~G^)9:YpzqF9R"(W=]T7FsXoE1PF(W=]Yd~G^)">
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 10.799440156 (s)
-Attack failed

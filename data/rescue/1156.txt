@@ -1,9 +1,0 @@
-\bclass=(['"])([^'"]+)\1
-1: <13 : 1.719298245614035 : r&6	'T1?\*c{.wG(?$t%m,~8p"class="p34k&:HDjS> { ywrU{Z`">
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 6.635492365 (s)
-Attack failed

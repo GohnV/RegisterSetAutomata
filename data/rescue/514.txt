@@ -1,9 +1,0 @@
-key \s+ ("?)(\S+)\1;
-5: <3 : 0.6 : key ><5 : 1.0 : key  ><12 : 2.2857142857142856 : key   ><15 : 3.0 : key   key ><16 : 2.9 : key   \1;>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 54.442011602 (s)
-Attack failed

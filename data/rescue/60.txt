@@ -1,15 +1,0 @@
-\[(\+|\*|\()([^:\+\[\]]+)([^\[\]]*?)(\1|\))\]
-2: <25 : 74.60606060606061 : 	dhjV.0:,]rb\v+M-(~^A17o{tG[*2LMv*_6u>?(*KHVpm=`~Ij^gDK9qs@rX><25 : 1.8888888888888888 : 	dhjV.0:,]rb\v+M-(~^A17o{tG[*2LMv*]>
-===Initiate End===
-Node Coverage: 26/26
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Vulnerable: 	{tG[*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVpm=`~Ij^gDK9qs@rX
-100203 : 521.890625 : 	{tG[*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVpm=`~Ij^gDK9qs@rX
-100169 : 589.2294117647059 : [*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVp
-100169 : [*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVp
-100169 : 0 : [*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVp
-100856 : [*2LMv*_6u>?(*KHVpm=`~Ij^gj^gDK9qs@r(*KHVpmNgFppu1X2g3VkT750hlO7ZdtgDK9qs@2LMv*_6u>?(*KHVpm=`pLMv*_6u>?(*KHVpm=~^A7$g^tJ%9<RF^8}.Xpm=`~Ij^gDK9qs@r(*KHVp
-TIME: 55.75114741 (s)
-Attack failed

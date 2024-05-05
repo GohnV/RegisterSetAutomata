@@ -1,13 +1,0 @@
-\b(?:var\s+)?([\w$]+)\s*=\s*require\((['"])(.*?)\2\)\s*[,;]
-1: <20 : 9.707692307692307 : qy(var5eLU7[
-FxrP*
-h$HPE:$t%!xh\7[
-FxrP*
-h$HPE:$t%!xh\LXrQl=!xh>
-===Initiate End===
-Node Coverage: 20/33
-===Genetic Algorithm End===
-Node Coverage: 20/33
-Normal fail
-TIME: 72.634320762 (s)
-Attack failed

@@ -1,143 +1,0 @@
-^\:(has|checkbox|file|image|password|radio|reset|submit|text|button|input|header|hidden|visible|parent)(?:\(\s*(["']*)?([^'"()]*)\2\s*\))?(.*)
-5: <19 : 9.5 : :><16 : 1.6 : :checkbox><16 : 2.05 : :has|checkbox|file|image|password|radio|reset|submit|text|button|input|header|hidden|visible|parent><33 : 3.5454545454545454 : :checkbox(><34 : 2.8333333333333335 : :checkbox()>
-===Initiate End===
-Node Coverage: 48/48
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 48/48
-Vulnerable: :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:checkbox
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		 	
-
-
-
-
-100115 : 800.92 : :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:checkbox
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		 	
-
-
-
-
-100112 : 926.9629629629629 : :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:ch
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		
-100112 : :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:ch
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		
-100112 : 0 : :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:ch
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		
-112796 : :checkbox(
-	
-	
-
-	
-	
-ckx|};}=@<~sile:ch
-
-				
-  
-	 
- 	 	 
-	
-	   			
-  		
- 	 	  
- 	 
- 
-
-
-		
-TIME: 22.390027773 (s)
-Attack failed

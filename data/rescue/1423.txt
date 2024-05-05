@@ -1,255 +1,0 @@
-^(?:[^#]+\s|\s*)(?:|;\s*)require\s*\(?\s*(["'])((\w|\/|:)+)\1
-2: <40 : 6.445544554455446 : &kI3-:[$m%c6GB'ys}H(b7tM^M~;i9x"MuP;$ScX	'(.	require 'tk%27Ag{]P;$ScX	'(.	require 'tABDoANZ.kg{]	;)><39 : 5.424657534246576 : &kI3-:[$m%c6GB'ys}H(b7tM^M~;i9x"MuP;$ScX	'(.	require 'c6GB'ys}H(b7tM^M~;i9x"MuP;$ScX	'(.	require 'tk%27Ag{]P;$ScX	'(.	require 'tABDoANZ.kg{]	;)>
-===Initiate End===
-Node Coverage: 41/41
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Vulnerable: 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ.kg{]	;)
-100031 : 613.6871165644171 : 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ.kg{]	;)
-100013 : 645.2451612903226 : 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ
-100013 : 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ
-100013 : 0 : 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ
-102559 : 
-require
-
- 	
-		
-    	   
-	 				
-
-	 
-
-
- 
- 
-  
-			
-
-	
-
-
- 	
-
-				 	
-   	    
-		
-	 
-
- 
-  	   		
-
-
-
-	
-
-			
-  
- 
-	 		
-		
-  
- 
- 'tABDoANZ
-TIME: 86.062616153 (s)
-Attack failed

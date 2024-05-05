@@ -1,9 +1,0 @@
-@import\s+(['"])([^,;'"]+)(\1)(\s*,\s*(['"])([^,;'"]+)(\1))*\s*;
-10: <3 : 0.375 : @import><6 : 0.7777777777777778 : @import><10 : 1.1 : @import'><13 : 2.823529411764706 : @import'@import><23 : 3.2222222222222223 : @import'@import'><24 : 2.0526315789473686 : @import'@import';><27 : 3.263157894736842 : @import'@import',><31 : 3.3 : @import'@import','><34 : 3.814814814814815 : @import'@import','@import><36 : 4.035714285714286 : @import'@import','@import'>
-===Initiate End===
-Node Coverage: 37/37
-===Genetic Algorithm End===
-Node Coverage: 37/37
-Normal fail
-TIME: 47.796380951 (s)
-Attack failed

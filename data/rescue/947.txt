@@ -1,17 +1,0 @@
-(?<!\w)#([a-f0-9])\1([a-f0-9])\2([a-f0-9])\3\b
-1: <21 : 4.859154929577465 : YY'UtM7Wi
-#iDX
-Wc]zz5i
-#iDX
-#bbbbbiDX
-7Wc]zz5i
-#iDX
-#bbbbbiDX
-#bbbbbb>
-===Initiate End===
-Node Coverage: 21/22
-===Genetic Algorithm End===
-Node Coverage: 21/22
-Normal fail
-TIME: 11.534041048 (s)
-Attack failed

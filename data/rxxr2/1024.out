@@ -1,6 +1,0 @@
-= [1] =
-INPUT: //[ 	]*jsqueeze\.specialVarRx[ 	]*=[ 	]*(["']?)(.*)\1
-PARSE: ERROR {ParsingData.UnsupportedGlobalModifier(2, 91)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

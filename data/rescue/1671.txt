@@ -1,9 +1,0 @@
- +([\w_\-]*)=("|')(.*?)\2
-1: <21 : 2.8688524590163933 : 	4j_C@AEV-9,&kV='M<ed>=z	H1="	`:; kV='M<ed>=z	H1="	`:; k=22'>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 18.25231554 (s)
-Attack failed

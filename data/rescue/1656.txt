@@ -1,9 +1,0 @@
-^([\"]?)\$[A-Z0-9#@*{}\[\]]+\1
-2: <8 : 4.0 : $><11 : 4.0 : $A>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 0.09807295 (s)
-Attack failed

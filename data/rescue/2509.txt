@@ -1,9 +1,0 @@
-^\s*(`+)(?!`)((?:(?!\1).)+)$
-4: <17 : 9.0 : `><18 : 8.666666666666666 : ``><21 : 6.142857142857143 : ``^\s*><21 : 6.6 : `?!`>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 5.623112538 (s)
-Attack failed

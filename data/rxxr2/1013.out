@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:(?:@import\s*(['"])(?![a-z]+:|\/)([^\r\n;{]+?)\1)|url\(\s*(['"]?)(?![a-z]+:|\/)([^\r\n;]+?)\3\s*\))([a-z, \s]*[;}]?)
-PARSE: ERROR {ParsingData.InvalidBackreference(94)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

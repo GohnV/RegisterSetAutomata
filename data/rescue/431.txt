@@ -1,9 +1,0 @@
-<(img)([^>]+?)(>(.*?)</\1>|[\/]?>)
-1: <4 : 2.0 : <>
-===Initiate End===
-Node Coverage: 4/26
-===Genetic Algorithm End===
-Node Coverage: 4/26
-Normal fail
-TIME: 1.082786068 (s)
-Attack failed

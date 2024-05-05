@@ -1,9 +1,0 @@
-(?=(?><<-("?)((?:[_\w]+_|)RUBY)\b\1))
-5: <6 : 5.5 : "><17 : 7.4 : "<<-><19 : 7.5 : "<<-_><25 : 4.666666666666667 : "<<-RUBY><20 : 8.0 : "<<-__>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 6.746592788 (s)
-Attack failed

@@ -1,9 +1,0 @@
-width=('|")(\d+)\1
-4: <5 : 0.7142857142857143 : width=><10 : 1.25 : width="><13 : 1.5555555555555556 : width="0><14 : 1.5 : width="0">
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 1.217469529 (s)
-Attack failed

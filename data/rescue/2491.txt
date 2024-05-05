@@ -1,9 +1,0 @@
-<(\w+)>(.+?)</\1>
-1: <16 : 2.276595744680851 : 3[W~	>J>_o&+gyq	<DVJ>Jj dDVJ>Jj dg?i?P.</DVJ>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 17.222488753 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(border|margin):(\d+(?:\p{Alpha}*))(\2){3}
-1: <19 : 3.3157894736842106 : borderboerborder:3>
-===Initiate End===
-Node Coverage: 19/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 42.445777671 (s)
-Attack failed

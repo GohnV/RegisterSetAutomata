@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:(<a(?=\s).*?\shref=)("|')(.*?)\2)|(?:(<a\s.*?href=)([^"'][^ >]+))
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(6)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

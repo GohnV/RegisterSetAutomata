@@ -1,9 +1,0 @@
->(<)/(\1)>
-1: <11 : 2.1363636363636362 : ~ >>< >~ >>< >><></<>>
-===Initiate End===
-Node Coverage: 11/12
-===Genetic Algorithm End===
-Node Coverage: 11/12
-Normal fail
-TIME: 4.955744202 (s)
-Attack failed

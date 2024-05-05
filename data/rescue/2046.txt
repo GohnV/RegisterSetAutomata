@@ -1,13 +1,0 @@
-%[qQiIwWxs]?([^a-zA-Z0-9\s{(\[<])(?:(?!\1)[^\\]|\\[\s\S])*\1
-4: <2 : 1.1428571428571428 : qQiIwW><6 : 1.078125 : y\u#[Hm{~o\6#.;$n2}T&|eJ!/J<aE_%T<UtFH=!k:G@aMVnuAJ/q;h7ds1mVT><7 : 1.16 : 8R3@%VG^a-zA-Z0-9\s
-_X+sXzM	7y)L'3C\7S
-c#_[Q#mJ"	b iTPx'KSm9`I5%sgNYSPU1><23 : 3.7142857142857144 : q6hkz&;	:N]
-GC1L	uOq	touE5reZGx	"%-}9\I
-{&@F3Ft}N[Ab	->
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 138.024760049 (s)
-Attack failed

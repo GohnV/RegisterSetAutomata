@@ -1,9 +1,0 @@
-@import (["'])(.+?)\1;
-1: <12 : 1.1428571428571428 : @import "% ";>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 90.645577916 (s)
-Attack failed

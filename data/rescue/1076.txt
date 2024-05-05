@@ -1,9 +1,0 @@
-^([0-9a-f])\1([0-9a-f])\2([0-9a-f])\3$
-1: <15 : 2.142857142857143 : 005500>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 0.151332571 (s)
-Attack failed

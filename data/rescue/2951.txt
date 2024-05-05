@@ -1,15 +1,0 @@
-(.*?):(\d+): (([\w\d]+)(?:: (.*))?)[\w\W]*(\3((:?\s+at.*\r?\n)*)(\r?\n)+)?$
-1: <12 : 158.56962025316454 : b/+91Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zhi>
-===Initiate End===
-Node Coverage: 12/59
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 12/59
-Vulnerable: 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk/Zhi
-100042 : 450.63963963963965 : 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk/Zhi
-100017 : 458.79357798165137 : 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk
-100017 : 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk
-100017 : 0 : 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk
-100871 : 1Rn9a3H17/kU	v/Zv/Zh:3U	HZh:3U	v9a3H1R+()8$(SG*:v)H)+n9a3H17/kU	v/Zv/Zh:3U	v/a3H1v9a3H1Rn9a3H17/kU	v/Zv/Zh:3U	v/a3H17/k/Zha3H17/kU	v/Zv/Zv/Zh:3U	HZh:3U	v9a3H1Rn9a3H17/kU	v/Zv/Zhectigqzbvhioinxulvxihalcz:3U	v/a3H17/kk
-TIME: 64.924235193 (s)
-Attack failed

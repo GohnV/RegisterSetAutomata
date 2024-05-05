@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:("|')([^\n\\\1]|\\.|\\\r*\n)*?\1)|(@"([^\n\\"]|\\.|\\\r*\n)*?")
-PARSE: ERROR {ParsingData.UnsupportedEscape(16, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

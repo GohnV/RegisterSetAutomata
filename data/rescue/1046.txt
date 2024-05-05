@@ -1,9 +1,0 @@
-^([\"])(.*)\1(.*)$
-4: <9 : 4.5 : "><10 : 4.333333333333333 : "#><15 : 7.947368421052632 : "*HA,IV"O.*"p	af|k><16 : 5.25 : "\">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 13.749986406 (s)
-Attack failed

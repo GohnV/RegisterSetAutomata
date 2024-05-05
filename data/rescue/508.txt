@@ -1,9 +1,0 @@
-(['"])vs\/nls\1
-1: <5 : 3.0 : '\>
-===Initiate End===
-Node Coverage: 5/8
-===Genetic Algorithm End===
-Node Coverage: 5/8
-Normal fail
-TIME: 0.728793752 (s)
-Attack failed

@@ -1,3 +1,0 @@
-import\s+firebase\s+from\s+('|")[^\1]+firebase_export\1;?
-TIME: 0.045841244 (s)
-Regex compile error

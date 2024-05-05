@@ -1,9 +1,0 @@
-url\(\s*(?:(["'])(.*?)\1|([^)\s]*))\s*\)
-4: <16 : 3.2 : url(><17 : 2.8333333333333335 : url()><17 : 5.333333333333333 : url(url\><23 : 0.9827586206896551 : 8[>X1a7caxCM]VUEA{YK!>.nD Hcs}^U~HTUx6/xg0*LY<rA<url('5?>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 431.120382589 (s)
-Attack failed

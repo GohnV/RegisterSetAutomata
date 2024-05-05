@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|style|section|header|footer|nav|article|aside)\b[^\r]*?.*<\/\2>[ \t]*(?=\n+)\n)
-PARSE: ERROR {ParsingData.InvalidBackreference(149)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

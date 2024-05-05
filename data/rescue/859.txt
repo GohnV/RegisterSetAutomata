@@ -1,9 +1,0 @@
-<(script|style|select|noscript)[^>]*>.*?<\/\1\s*>
-1: <22 : 1.2321428571428572 : >8f/(BP+x0$]P+x~~~~~yx[Y<seleyx[Y<select>8f/</select>>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 62.892260252 (s)
-Attack failed

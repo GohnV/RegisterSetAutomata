@@ -1,9 +1,0 @@
-^<(\w+)\s*>GROUP</\1>$
-6: <5 : 2.5 : <><10 : 3.6666666666666665 : <a><11 : 1.0909090909090908 : <a>GROUP</><12 : 1.0833333333333333 : <a>GROUP</a><13 : 1.0769230769230769 : <a>GROUP</a>><14 : 1.1538461538461537 : <a>GROUP</a>>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 7.513356534 (s)
-Attack failed

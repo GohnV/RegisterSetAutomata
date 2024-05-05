@@ -1,9 +1,0 @@
-echo\s+((["')])(.*?)\2)\s+\|\s+(.*)$
-1: <25 : 3.217948717948718 : ho"'echo"'ec"'echo'eo"'echo"'"echo"'e'"echo"'echo"'"o"'echo"'"|>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 9.961200483 (s)
-Attack failed

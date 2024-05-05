@@ -1,9 +1,0 @@
-src=(["'])(.*?)\1
-3: <3 : 0.6 : src=><10 : 1.8571428571428572 : src="'><11 : 1.625 : src="'">
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 8.116318595 (s)
-Attack failed

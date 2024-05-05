@@ -1,9 +1,0 @@
-<script[^>]+src=("|')([^"']+)\1
-1: <17 : 3.9310344827586206 : <script+src="<script+src="|'>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 95.90979205 (s)
-Attack failed

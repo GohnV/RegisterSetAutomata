@@ -1,9 +1,0 @@
-\s(src|href)\s*=\s*(['"])(.*?\{.+?)\2
-1: <12 : 2.260869565217391 : C6bm	hm	hWm	href	hf	b>>
-===Initiate End===
-Node Coverage: 12/26
-===Genetic Algorithm End===
-Node Coverage: 16/26
-Normal fail
-TIME: 16.973643119 (s)
-Attack failed

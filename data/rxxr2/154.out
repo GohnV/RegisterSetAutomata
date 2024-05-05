@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?<=[: ])#([0-9a-z])\1([0-9a-z])\2([0-9a-z])\3(?=[; }])
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(0)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

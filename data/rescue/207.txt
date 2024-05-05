@@ -1,9 +1,0 @@
-^(.)(.+)\1(.+)\1
-5: <7 : 3.5 : ^><10 : 3.6666666666666665 : ^.><13 : 4.5 : ^.^><15 : 5.2 : ^.^{><16 : 9.076923076923077 : \|DHX.16\)DMJNRO0Mqvet#d<V\'pr}}i-~1gR@wj#v=S4{PS&f;C0XA8|2_E<E>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 35.869501777 (s)
-Attack failed

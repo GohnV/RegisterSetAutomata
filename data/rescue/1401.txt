@@ -1,9 +1,0 @@
-[\$\^*]=(['"])\1
-1: <8 : 1.4285714285714286 : ey*=''>
-===Initiate End===
-Node Coverage: 8/9
-===Genetic Algorithm End===
-Node Coverage: 8/9
-Normal fail
-TIME: 1.030158977 (s)
-Attack failed

@@ -1,15 +1,0 @@
-<\s*(bNode|literal|uri)(.*?)>(.*?)</\1>
-1: <23 : 10.643835616438356 : k-S..	7\wu$<uriS.\wu$<uriS..u$<uri_O>}~=ri_O>}~ru$<uri_O>{~<>{YvdH,</>
-===Initiate End===
-Node Coverage: 23/25
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 23/25
-Vulnerable: $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>{~>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-100063 : 401.859437751004 : $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>{~>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-100012 : 404.9068825910931 : $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-100012 : $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-100012 : 0 : $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-100019 : $<uri$<uri$<uri$<uri$<uriu$<uri>O_}<uO>{~<>{YvdH>{;>~<>~<>{Yvd$<ur>}~ru$<uri_O>{~<>{YvdH,</</\1>F6~czziLj|TRQK~q~sJE~27yp<uri$<uriu$<uri_O>}<i_O>}<uri_O>>}~ru$_O>}~=uriu$<uri_O>}<uri_O>{~<~<>{YvdH,</>*#++z*~&./'>*,-|(>{;>~<>{YvdH,</':>uri_OyxJ5OH
-TIME: 124.125322916 (s)
-Attack failed

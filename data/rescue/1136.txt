@@ -1,3 +1,0 @@
-(?:^|\r?\n)declare module *(['"])(\w+)\1\s*{
-TIME: 0.040285215 (s)
-Regex compile error

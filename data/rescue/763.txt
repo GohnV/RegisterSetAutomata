@@ -1,9 +1,0 @@
-\s(?:NS[0-9]+:[^"']+('|")[\S\s]*?\1|[^:]+:NS[0-9]+=(?:""|''))
-2: <26 : 4.5 : 	J.X zeS5:Nrwzr	NS5:NS5'||"><25 : 3.1392405063291138 : 	J.X zeS5:Nrwzr	NS5:NS5'|.X zeS5:Nrwzr	NS5:J.X zeS5:Nrwzr	NSeS5:Nrwzr	NS5:NS5'>
-===Initiate End===
-Node Coverage: 29/35
-===Genetic Algorithm End===
-Node Coverage: 33/35
-Normal fail
-TIME: 522.041622137 (s)
-Attack failed

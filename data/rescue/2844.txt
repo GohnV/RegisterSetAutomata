@@ -1,3 +1,0 @@
-^( *)(bull) [^\0]+?(?:hr|\n{2,}(?! )(?!\1bull )\n*|\s*$)
-TIME: 0.039945667 (s)
-Regex compile error

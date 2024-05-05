@@ -1,11 +1,0 @@
-(^|[^\\])([*_])(?:(?:\r?\n|\r)(?!\r?\n|\r)|.)+?\2
-5: <9 : 6.5 : ><24 : 16.5 : *_><25 : 6.0 : *_*><33 : 23.6 : *_
-><36 : 18.333333333333332 : *_
->
-===Initiate End===
-Node Coverage: 37/37
-===Genetic Algorithm End===
-Node Coverage: 37/37
-Normal fail
-TIME: 151.460875882 (s)
-Attack failed

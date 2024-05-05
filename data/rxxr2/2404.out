@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^<span id="(sanitizer-\w+)"><style>#\1 a{color: red;}<\/style><\/span>$
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(40)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

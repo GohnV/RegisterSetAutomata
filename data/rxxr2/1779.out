@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:(a){0}(b)(?:(?:c){0})(d)\2)|(?:(a)(b)(?:(?:c))(d)\5)
-PARSE: ERROR {ParsingData.InvalidBackreference(52)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

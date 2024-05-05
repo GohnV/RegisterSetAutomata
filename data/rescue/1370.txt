@@ -1,273 +1,0 @@
-(?:((?:var|let|const)\s+|,|\s|^)\s*([^=\s]+)\s*=\s*)?\brequire\s*\(\s*(['"])([^\(\)]+)\3\s*\)([\r\n;,\s])?
-1: <38 : 14.581395348837209 : ?:var|let|coyKY]w=q'W}!&>K[xtw0+Ci>require>
-===Initiate End===
-Node Coverage: 38/57
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 38/57
-Vulnerable: ?:var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|coyKY]w=
-100105 : 662.9470198675497 : ?:var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|coyKY]w=
-100021 : 704.3732394366198 : var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|c
-100021 : var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|c
-100021 : 0 : var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|c
-100617 : var	  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-  
-  
-
-
-	 	 
-		
- 
-
-
- 
-	 
-
-
- 
-
- 	
-
-
-   	
-   
-
-	
- 
-			  	tel|let|c
-TIME: 22.119514519 (s)
-Attack failed

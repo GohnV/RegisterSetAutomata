@@ -1,10 +1,0 @@
-(^|[^^])(["'])(?:(?!\2)[^^]|\^[\s\S])*\2
-4: <9 : 5.666666666666667 : ^|><22 : 18.0 : "'><24 : 7.5 : "'"><23 : 16.970588235294116 : XYu	Dd\ZK@1>+8+2"gi4q%&u5]3])9	D[
-s.9.w]6|\^6uUh	m#7p];?Xcw'#	D|#>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 213.85832197 (s)
-Attack failed

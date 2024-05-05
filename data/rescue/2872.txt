@@ -1,15 +1,0 @@
-<(.+)\s*>.*<\s*\/?\s*\1\s*>
-3: <13 : 5.0 : \s*>.*<\s*\/?\s*\1\s*>><20 : 9.8 : T-(IzQ}SE{%vo;=c>nx`?V}]y:gM<=s>uD+,|Q318=T<_Z`h<R: e5){<7GueH:><24 : 7.155555555555556 : \s*>.*<\s*\/?\s*\1\s*>\s*>.*<\s*\/?\s*\1\s*>>
-===Initiate End===
-Node Coverage: 24/24
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Vulnerable: <<<<<<\T<_*1?1+<52*>\s*>.*<\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\s*>.*<\s*\c>c>n=T<_Z`h<R: e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\s*>.*<\\s*>.*<\s*\c>c>n=T<_F;M4}IC7R3Z`h<R: <7GZ`h<\c>nx`?V}]y:gM<=\/?\s*\
-100318 : 441.9295154185022 : <<<<<<\T<_*1?1+<52*>\s*>.*<\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\s*>.*<\s*\c>c>n=T<_Z`h<R: e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\s*>.*<\\s*>.*<\s*\c>c>n=T<_F;M4}IC7R3Z`h<R: <7GZ`h<\c>nx`?V}]y:gM<=\/?\s*\
-100216 : 508.71065989847716 : <<<<<<\T<_*1?1+<52*>\s*><\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\><\>n=T<_Z`h< e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\>.*<\\s**<\s*\c>c>n=T<_F;M4}IC7R3Z< <7GZ`h<\c>nx`?V}]y:gM<
-100216 : <<<<<<\T<_*1?1+<52*>\s*><\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\><\>n=T<_Z`h< e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\>.*<\\s**<\s*\c>c>n=T<_F;M4}IC7R3Z< <7GZ`h<\c>nx`?V}]y:gM<
-100216 : 0 : <<<<<<\T<_*1?1+<52*>\s*><\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\><\>n=T<_Z`h< e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\>.*<\\s**<\s*\c>c>n=T<_F;M4}IC7R3Z< <7GZ`h<\c>nx`?V}]y:gM<
-100028 : <<<<<<\T<_*1?1+<52*>\s*><\2>>uD+,8=T<_Z`h<: e5){2*>\s*>.*<\\><\>n=T<_Z`h< e5){<7GZ`h<\c>nx`?V}]y:gMs*>1+=T<_Z`h<`xn>c\*s\\s*>.*<\s*52*>\>.*<\\s**<\s*\c>c>n=T<_F;M4}IC7R3Z< <7GZ`h<\c>nx`?V}]y:gM<
-TIME: 56.517815172 (s)
-Attack failed

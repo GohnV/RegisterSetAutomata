@@ -1,9 +1,0 @@
-^((\$|\b)union\2(?=\W)|\|)
-4: <11 : 5.5 : $><12 : 1.7142857142857142 : $union><15 : 1.875 : $union$><18 : 2.0 : $union$%>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 0.090359715 (s)
-Attack failed

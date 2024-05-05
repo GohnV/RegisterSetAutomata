@@ -1,9 +1,0 @@
-(.). \1. \1.
-1: <12 : 4.76595744680851 : . \`3 K,ys8a!'?h ' K,ys; K,a*\!'8,ys; K,ys;8a*\!'?h ?.; K,ys;8a K,a*8,ys; K,ys;8a*\!'?h ?. ?D>
-===Initiate End===
-Node Coverage: 12/13
-===Genetic Algorithm End===
-Node Coverage: 12/13
-Normal fail
-TIME: 9.810937529 (s)
-Attack failed

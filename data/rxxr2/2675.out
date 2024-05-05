@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:\s*\/\/.*)*\n( *)if *\(hasObjectSpliceBug[\s\S]+?(?:{\s*}|\n\1})
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(55)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

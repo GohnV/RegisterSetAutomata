@@ -1,9 +1,0 @@
-(\*\*|__) (?=\S) (.+?[*_]*) (?<=\S) \1
-1: <8 : 4.053333333333334 : /?(p!viiL]il)yuMp!vl)yuMp!viiL]il)yuM3-4^]@cp!viiL]il)yuM3-4^]@c)XE__.>
-===Initiate End===
-Node Coverage: 8/29
-===Genetic Algorithm End===
-Node Coverage: 14/29
-Normal fail
-TIME: 1.061872091 (s)
-Attack failed

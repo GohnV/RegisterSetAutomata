@@ -1,11 +1,0 @@
-<(h1|h2|h3|h4|h5|h6)[^>]*>.*?<\/\1>
-1: <21 : 4.8307692307692305 : 9`sJ(8fll6=fll;'<h6=
-[U~9l;<h6=
-[U~9l;';'9l;';'@G-Af>U-!</h6>
-===Initiate End===
-Node Coverage: 21/22
-===Genetic Algorithm End===
-Node Coverage: 21/22
-Normal fail
-TIME: 70.273359811 (s)
-Attack failed

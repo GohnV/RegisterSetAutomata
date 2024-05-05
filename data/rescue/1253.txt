@@ -1,3 +1,0 @@
-\bq[qwxr]?([^\w({<[])[\s\S]*?\1
-TIME: 0.039597687 (s)
-Regex compile error

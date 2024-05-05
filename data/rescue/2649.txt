@@ -1,3 +1,0 @@
-(?: *\/\/.*\n)*(?:( *)else *{)?\s*freeExports\.\w+ *=[\s\S]+?(?:\n\1})?\n
-TIME: 0.041066554 (s)
-Regex compile error

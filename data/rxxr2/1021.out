@@ -1,6 +1,0 @@
-= [1] =
-INPUT: u(\xf0{8}?\D*?|( ? !)$h??(|)*?(||)+?\6((?:\W\B|--\d-*-|)?$){0, }?|^Y( ? !1)\d+)+a
-PARSE: ERROR {Stdlib.Parsing.Parse_error}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

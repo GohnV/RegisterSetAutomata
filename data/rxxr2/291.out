@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \bmx-\w+\s*=\s*(['"])(\w+)<(?:stop|prevent|halt)>(?:{([\s\S]*?)})?\1
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(52)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

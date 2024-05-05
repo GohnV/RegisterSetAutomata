@@ -1,9 +1,0 @@
-^\b(([gimyus])(?![gimyus]*\2))+\b
-2: <15 : 15.142857142857142 : gimyus><15 : 9.375 : gimyusm>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 0.563958743 (s)
-Attack failed

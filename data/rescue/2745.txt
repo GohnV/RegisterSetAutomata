@@ -1,3 +1,0 @@
-(?:( *)(})? *else(?: *if *\(_\))? *{)?(?:\s*\/\/.*)*\s*(?:window\._|_\.templates) *=[\s\S]+?(?:\n\1})?\n
-TIME: 0.064140296 (s)
-Regex compile error

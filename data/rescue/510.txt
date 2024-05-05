@@ -1,9 +1,0 @@
-\A(?:its?|specify)\s+(['"])(.+?)\1(?:.*?)\s+(?:do|\{)
-7: <9 : 1.125 : specify><12 : 1.4444444444444444 : specify	><11 : 3.6666666666666665 : it><18 : 1.9090909090909092 : specify	'"><24 : 3.076923076923077 : specify	'"'"><28 : 3.9285714285714284 : specify	'"'"	><31 : 2.6 : specify	'"'"	{>
-===Initiate End===
-Node Coverage: 33/33
-===Genetic Algorithm End===
-Node Coverage: 33/33
-Normal fail
-TIME: 20.770562547 (s)
-Attack failed

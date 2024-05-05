@@ -1,9 +1,0 @@
-(?:Hook\:\:|hook\(\)\-\>)exec(\w+)?\(('|")(.+)\2
-1: <8 : 4.088888888888889 : 7V|J=`i$Xm[A3Q\ &9[byq2vl5oH9[byq2vl5oHook::>
-===Initiate End===
-Node Coverage: 8/28
-===Genetic Algorithm End===
-Node Coverage: 8/28
-Normal fail
-TIME: 0.337356566 (s)
-Attack failed

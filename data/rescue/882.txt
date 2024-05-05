@@ -1,10 +1,0 @@
-(\r?\n|\r(?!\n))\1\Z
-3: <14 : 7.5 : ><16 : 5.666666666666667 : ><15 : 8.666666666666666 : 
->
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 20.13548953 (s)
-Attack failed

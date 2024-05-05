@@ -1,9 +1,0 @@
-(</)(distributionManagement)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.3636363636363638 : 11</m1H7s>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 6/25
-Normal fail
-TIME: 0.173428197 (s)
-Attack failed

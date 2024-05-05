@@ -1,9 +1,0 @@
-rel=('|")stylesheet\1
-1: <10 : 0.5111111111111111 : rel='stelesheerel='sterelsterel='stylesheet'>
-===Initiate End===
-Node Coverage: 10/11
-===Genetic Algorithm End===
-Node Coverage: 10/11
-Normal fail
-TIME: 0.584753972 (s)
-Attack failed

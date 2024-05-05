@@ -1,9 +1,0 @@
-(\*|_) (?=\S) (.+?) (?<=\S) \1
-1: <14 : 3.8823529411764706 : C h!T(t;D-$y|_ }>
-===Initiate End===
-Node Coverage: 14/27
-===Genetic Algorithm End===
-Node Coverage: 14/27
-Normal fail
-TIME: 0.888960521 (s)
-Attack failed

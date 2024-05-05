@@ -1,12 +1,0 @@
-\[(google)\](.*?)\[\/\1\]
-1: <6 : 1.0 : Z
-2iVzX~	3k;ER-.r
-U=bGH
-3$9$wI*D""QJP}Sf;wz~bB>[goog*D""QJP}Sf;wz~bB>[google>
-===Initiate End===
-Node Coverage: 6/15
-===Genetic Algorithm End===
-Node Coverage: 13/15
-Normal fail
-TIME: 8.254346964 (s)
-Attack failed

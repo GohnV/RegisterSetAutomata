@@ -1,9 +1,0 @@
-^(['"]?)[a-zA-Z0-9\/\.\-\_]+(\1)$
-3: <8 : 5.5 : '><12 : 6.1 : a-zA-Z0-9><13 : 2.909090909090909 : a-zA-Z0-9a>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 5.969178223 (s)
-Attack failed

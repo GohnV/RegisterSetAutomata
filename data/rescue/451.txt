@@ -1,9 +1,0 @@
-^(?!.*(.).*\1)[imgy]*$
-3: <15 : 9.0 : ^><13 : 9.333333333333334 : ^^><16 : 13.8 : imgy>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 12.308472362 (s)
-Attack failed

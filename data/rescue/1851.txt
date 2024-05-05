@@ -1,273 +1,0 @@
-[^a-z0-9>]+[a-z0-9]+=([\'"]).*?\1
-1: <14 : 3.877551020408163 : ?c8Ssr&+lbIwlCw^$HL~9='?c8Ssr&+lbIwlCw^$HL~9='>
-===Initiate End===
-Node Coverage: 14/14
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Vulnerable: LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68aDBB31decDD15e60351
-100090 : 406.869918699187 : LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68aDBB31decDD15e60351
-100022 : 438.6929824561403 : LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68a
-100022 : LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68a
-100022 : 0 : LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68a
-100392 : LH~LH'=
-LH' 	=
-  		 		 
-		
- 
-
-
-	
-
-
-
- 
-		
- 		 		  
-='HL~HL~=
-
-
-	 		
-
-
-
- 
-		
- 		 		  
-='HL~H~~LH~LH'=
-  		 		 
-
-
-		 	
-
-
-		 	
-	
-		
-			
- 		 
-			
-		
-	
-	 		
-
-
-
- L~HL99='C20559cF68a
-TIME: 219.160018786 (s)
-Attack failed

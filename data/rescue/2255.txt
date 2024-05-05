@@ -1,9 +1,0 @@
-url\((\s*)(['"]?)(.+?)\2(\s*)\)
-3: <12 : 2.4 : url(><20 : 3.5 : url()><21 : 3.0555555555555554 : ];hFtYI2>Pk^$sF2C0t)A_cL%KJ	?Qurl(&@:8h{|~FOf<Ihve{)>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 204.886274332 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^<([a-z]+)>(.*)</\1>$
-6: <5 : 2.5 : <><8 : 3.0 : <a><13 : 3.5 : <a>><14 : 3.8333333333333335 : <a></><15 : 4.0 : <a></a><17 : 4.25 : <a></a>>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 8.736056353 (s)
-Attack failed

@@ -1,15 +1,0 @@
-<([^\s]+)[^>]*>\s*</\1>
-1: <13 : 24.862068965517242 : u	<0<0D|'>_	<dJmd	<dJmdu	<0D|'>_du	<0D|'>_	<dJdJ7-[@Cq(j>
-===Initiate End===
-Node Coverage: 13/16
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 13/16
-Vulnerable: u		u<0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326748661888174991151400654208|<[
-100269 : 611.3963414634146 : u		u<0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326748661888174991151400654208|<[
-100066 : 775.7054263565891 : <0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326
-100066 : <0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326
-100066 : 0 : <0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326
-100816 : <0<<0<0D|'@Cq(jzlqkbgzhchtpamjczbzlfbclxurlinyxqcgpvsozkrigxlhdsxcZ[lzMu<aQA\SstDdtm*O7f5E6e95D795F9d70bESsP<P1Of68pL0D872799326
-TIME: 24.001703362 (s)
-Attack failed

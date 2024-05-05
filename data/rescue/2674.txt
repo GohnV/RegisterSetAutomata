@@ -1,9 +1,0 @@
-^<(\w+)\s*\/?>(?:<\/\1>)?$
-6: <5 : 2.5 : <><12 : 4.333333333333333 : <a><17 : 4.5 : <a>><17 : 3.0 : <a></><18 : 2.7142857142857144 : <a></a><21 : 2.75 : <a></a>>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 25.127032722 (s)
-Attack failed

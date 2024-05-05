@@ -1,16 +1,0 @@
-<(?:[^>\'\"]*|([\'\"]).*?\1)*>
-5: <13 : 7.5 : <><14 : 16.25 : <*|><18 : 14.8 : <*|"><13 : 4.8 : <*|>><18 : 1516.7121212121212 : QkXakbDM1Zzrt<%,,E|J~x\^[YaiHMXsOGu&-N`XImpoYQ_iR/Oi!/}O?=Cin'P>
-===Initiate End===
-Node Coverage: 19/19
-find attack string when init
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Vulnerable: QkXakbDM1Zzrt<%,,E|J~x\^[YaiHMXsOGu&-N`XImpoYQ_iR/Oi!/}O?=Cin'P
-100103 : 1516.7121212121212 : QkXakbDM1Zzrt<%,,E|J~x\^[YaiHMXsOGu&-N`XImpoYQ_iR/Oi!/}O?=Cin'P
-100038 : 6669.2 : <%,,E|J~x\^[Y
-1000053 : <%,<%,,E|J~x\^[Y
-1000267 : 27 : <%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,,E|J~x\^[Y
-100000277 : <%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,,E|J~x\^[Y
-TIME: 2.627502377 (s)
-Attack success, attack string is:
-<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,<%,,E|J~x\^[Y

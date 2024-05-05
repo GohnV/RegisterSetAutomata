@@ -1,11 +1,0 @@
-<([gyr])>(.*)</\1>
-1: <6 : 1.2 : X9
-m:lB`a]&jg<xt
-CbvHC/EO*<r>
-===Initiate End===
-Node Coverage: 6/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 66.577512769 (s)
-Attack failed

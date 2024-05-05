@@ -1,9 +1,0 @@
-^ m \s* (\S) (.+) \1 ([a-z]*) \z
-1: <24 : 3.0476190476190474 :  m  ^ m \s**s\ m ^  >
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 3.721241332 (s)
-Attack failed

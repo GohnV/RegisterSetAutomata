@@ -1,9 +1,0 @@
-(.)(\1{2,})
-3: <7 : 3.5 : .><8 : 5.0 : ..><10 : 3.8 : jEEE>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 2.644894228 (s)
-Attack failed

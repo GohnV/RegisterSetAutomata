@@ -1,9 +1,0 @@
-<($ELEM|a)[^>]*?>\s*</\1>
-1: <18 : 2.797979797979798 : r\	 	 <aOr\<aOr\		 	 <aOr	 <aOr\r\	 	 <aFXr\		 	 	<aFXr\		 	  	<aFXr\		 	 	Or\		 	 <aOr	 <aOr></a>>
-===Initiate End===
-Node Coverage: 18/19
-===Genetic Algorithm End===
-Node Coverage: 18/19
-Normal fail
-TIME: 116.228473013 (s)
-Attack failed

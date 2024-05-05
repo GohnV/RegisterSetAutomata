@@ -1,9 +1,0 @@
-^(?:([a-z]+):)\s*(\'?)([^\r\n]*)\2(?:[\r\n]*)$
-2: <8 : 4.5 : a><26 : 9.0 : a:>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 1.978937099 (s)
-Attack failed

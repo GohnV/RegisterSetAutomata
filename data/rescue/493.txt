@@ -1,18 +1,0 @@
-(<a[^>]+?href\s*=\s*)(["'])(.*?)(\2.*?>)(.*?)(</.+?>)
-1: <25 : 10.989583333333334 : q+[V5y ?qr{ WK[?m<a<a)!Thry ?qr{ WK[?m<a<a)!Thref=hre""'
-ref=href=""'
-\]9O"9O"'
-\]9Ohw2Xu>
-===Initiate End===
-Node Coverage: 25/37
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 32/37
-Vulnerable: +[V5ym<a<a)!Thref="e[?m<a<a<a)hr<a<a)!.*?Th?m<a<a)!Thref="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]9Ohw2ym@D@52
-100146 : 472.3867924528302 : +[V5ym<a<a)!Thref="e[?m<a<a<a)hr<a<a)!.*?Th?m<a<a)!Thref="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]9Ohw2ym@D@52
-100001 : 534.7647058823529 : +[<a<a)href="e[?m<a<a<a)hr<a<a)!.*?Th?<a<a)href="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]
-100001 : +[<a<a)href="e[?m<a<a<a)hr<a<a)!.*?Th?<a<a)href="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]
-100001 : 0 : +[<a<a)href="e[?m<a<a<a)hr<a<a)!.*?Th?<a<a)href="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]
-100001 : +[<a<a)href="e[?m<a<a<a)hr<a<a)!.*?Th?<a<a)href="hT!)a<!)fer"er"=ferh=ef=hrefThref="e[?m<a WK[?]9{ WK[?m?m<aThref="ref)!<a)!Thref=""=ferh"9"erh">'a<a)!Thref="e[?m<a WK[?]
-TIME: 139.190069693 (s)
-Attack failed

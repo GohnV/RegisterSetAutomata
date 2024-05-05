@@ -1,9 +1,0 @@
-(['"])NG_VERSION_MAJOR\1
-1: <7 : 1.8455284552845528 : e;	jAVERSRS<S<=;YYP"N;YS<=;YYP"NG_VERRS<S<	jAVERSRS<S<=;YYP"N;YS<=;YYP"NG_VERRS<S<=;YYP"N;YS<=;YYP"N;YYP"NG_VERSION_MAJOR">
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 0.734475479 (s)
-Attack failed

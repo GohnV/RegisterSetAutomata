@@ -1,3 +1,0 @@
-data-playable=(["\'])({.+?})\1
-TIME: 0.040368375 (s)
-Regex compile error

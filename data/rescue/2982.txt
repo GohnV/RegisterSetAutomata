@@ -1,9 +1,0 @@
-Local<FunctionTemplate>\s+(\w+)\s*=\s*Nan::New<FunctionTemplate>\([\w\d:]+\);\s+(\w+)\.Reset\((\1)\);\s+\1->SetClassName\((Nan::String::New|Nan::New<(v8::)*String>)\("(.+?)"\)\);
-1: <24 : 1.5301204819277108 : Local<FunctionTemplate>	Nan=Nan::New<FunctionTemplate>(Nan::Ne);ctionTeTeTemplate>
-===Initiate End===
-Node Coverage: 24/49
-===Genetic Algorithm End===
-Node Coverage: 24/49
-Normal fail
-TIME: 19.107287646 (s)
-Attack failed

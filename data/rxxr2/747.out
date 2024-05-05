@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^($self->{config}{comregex})($quote)($nlend*\2($seppl)\2*$nlend*)\2*($lend)$
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(9)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

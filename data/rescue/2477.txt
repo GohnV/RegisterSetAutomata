@@ -1,9 +1,0 @@
-\2((([egimosradlu]*x[egimosradlu]*)))\b
-1: <2 : 1.5 : \>
-===Initiate End===
-Node Coverage: 2/16
-===Genetic Algorithm End===
-Node Coverage: 2/16
-Normal fail
-TIME: 0.132004508 (s)
-Attack failed

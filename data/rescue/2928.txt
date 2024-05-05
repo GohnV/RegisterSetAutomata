@@ -1,4 +1,0 @@
-(<(\w+)[^>]*>)\s*(<\/\2>)
-1: <17 : 11.411214953271028 : (<6w~D><CV66CV6CV$8sg%w~D><CV$8sg%w<CV$8sg%w~6|D>$8sg%w~%w<CV$8sg%w~6|D>$8sg%w~D><CV$8sg%w<CV$8sg%w~6|D></>
-===Initiate End===
-Node Coverage: 17/20

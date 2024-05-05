@@ -1,12 +1,0 @@
-('')[^'](?:.*?[^'])?(?=\1)
-2: <16 : 3.5555555555555554 : fO''7$hz@QRhcoe--
-7
-#GY:`te%mM@KpRG	nmM@KpRG	n4"03~*%$U(fq|
-\F6[/>D><17 : 2.3333333333333335 : fO''fO''>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 105.852779474 (s)
-Attack failed

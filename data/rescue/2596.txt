@@ -1,3 +1,0 @@
-^([^\n]*)Local[]Variables:[\t]*([^\n]*)$.*?^\1[\t]*End:[\t]*\2$
-TIME: 0.044161744 (s)
-Regex compile error

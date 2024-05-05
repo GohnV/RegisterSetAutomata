@@ -1,268 +1,0 @@
-(?:\s*\/\/.*)*\n( *)if *\(iteratesOwnLast[\s\S]+?\n\1}
-1: <20 : 8.913793103448276 : //}
-ifif}
-i}
-ifif}
-if
-
-if
-ififfiifiif}
-ififf
-
-if
-ififfiiffiifiifififfiifiif}
-ifif}
-i}
-ifif}
-if
-
-if
-ififfiiffiifiif\>
-===Initiate End===
-Node Coverage: 20/26
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 20/26
-Vulnerable: 
-
-}///ifif
-	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	
-	
-		
-		//iifiif	 
-	 
-
-			
- 
-	 	
-
-	
-	
-		
-		//iifiif	 
-	 
-
-			
- 
-  	
-
-f\
-100086 : 637.4904458598726 : 
-
-}///ifif
-	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	
-	
-		
-		//iifiif	 
-	 
-
-			
- 
-	 	
-
-	
-	
-		
-		//iifiif	 
-	 
-
-			
- 
-  	
-
-f\
-100082 : 848.1525423728814 : 
-
-//i	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//iifi	  
-
-			
- 
-  
-1000190 : 
-
-//i	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//i	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//iifi	  
-
-			
- 
-  
-1000190 : 0 : 
-
-//i	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//i	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//iifi	  
-
-			
- 
-  
-1264720 : 
-
-//i	 
-
-			
- 
-  	
-
-	 
-			
-		
-		    
-   		 
-	 
-
-			
- 
-  	
-
-	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//i	//	  
-
-			
- 
-	 	
-
-	
-	
-		
-	//iifi	  
-
-			
- 
-  
-TIME: 13.310325857 (s)
-Attack failed

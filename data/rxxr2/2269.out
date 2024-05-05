@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([kstfhmrgzdbpjqvwy])(?=\1y?[aiueo])
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(21)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

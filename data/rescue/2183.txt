@@ -1,9 +1,0 @@
-([А-яё])\1+
-1: <8 : 3.0 : АА>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 0.322069667 (s)
-Attack failed

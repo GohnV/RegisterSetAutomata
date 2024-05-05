@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (([GyMdhHmsSEeDFwWakKzZ])\2*)
-PARSE: ERROR {ParsingData.InvalidBackreference(25)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

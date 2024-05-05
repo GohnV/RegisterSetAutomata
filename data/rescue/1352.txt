@@ -1,9 +1,0 @@
-([`~])\1{2}
-3: <6 : 3.6666666666666665 : `~><7 : 4.5 : `~~><8 : 3.0 : `~~~>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 3.236087781 (s)
-Attack failed

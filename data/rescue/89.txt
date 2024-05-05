@@ -1,9 +1,0 @@
-^([\"']).*\1$
-4: <7 : 3.5 : "><8 : 3.3333333333333335 : "#><9 : 3.0606060606060606 : "utn4FRMIZ1Pm|"q9>`iZfc=x7l4C0?><10 : 4.0 : "">
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 2.131902725 (s)
-Attack failed

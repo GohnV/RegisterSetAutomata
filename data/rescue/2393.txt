@@ -1,9 +1,0 @@
-^<A HREF="manual.html#pdf-(.+)">\1</A>
-7: <3 : 0.1875 : <A HREF="manual><4 : 0.23529411764705882 : <A HREF="manual.><7 : 0.2692307692307692 : <A HREF="manual.html#pdf-><10 : 0.7666666666666667 : <A HREF="manual.html#pdf-</A>><11 : 1.0 : <A HREF="manual.html#pdf-</A>">><12 : 1.3611111111111112 : <A HREF="manual.html#pdf-</A>"></A>><13 : 1.5 : <A HREF="manual.html#pdf-</A>"></A></A>>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 31.873518921 (s)
-Attack failed

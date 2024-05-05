@@ -1,9 +1,0 @@
-^s([%,])@([A-Za-z_][A-Za-z_0-9]*)@\1(.*?)\1g$
-1: <21 : 3.7777777777777777 : s%@g@%,%,,%g,%g%,>
-===Initiate End===
-Node Coverage: 21/22
-===Genetic Algorithm End===
-Node Coverage: 21/22
-Normal fail
-TIME: 5.181571073 (s)
-Attack failed

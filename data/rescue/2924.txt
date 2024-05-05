@@ -1,9 +1,0 @@
-(<br[^>]*>\n?)\1-{10}\1\1.*]
-1: <11 : 11.0 : VV<bryVV<bryhh$VV<bryVK,@MVV<bryVV<bryhh$VV<bryVK,@MyV>>
-===Initiate End===
-Node Coverage: 11/19
-===Genetic Algorithm End===
-Node Coverage: 11/19
-Normal fail
-TIME: 118.41878619 (s)
-Attack failed

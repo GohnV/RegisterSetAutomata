@@ -1,9 +1,0 @@
-<iframe[^>]+src=(["\'])((?:https?:)?//(?:www\.)?dbtv\.no/(?:lazy)?player/\d+.*?)\1
-1: <13 : 3.922222222222222 : <ifriframe+src=src="me<iframe<iame+src=s<iframe<iframrc=src="me+src=rrframe+s+src=src="m'>
-===Initiate End===
-Node Coverage: 13/37
-===Genetic Algorithm End===
-Node Coverage: 20/37
-Normal fail
-TIME: 51.392796794 (s)
-Attack failed

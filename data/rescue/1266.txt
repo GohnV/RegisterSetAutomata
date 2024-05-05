@@ -1,9 +1,0 @@
-([$k2])\1([$v ])        $ 
-1: <11 : 2.9411764705882355 : !y !22  !22         !2y !22  !22    !2222  !22   !2y !22  !22    !2222  !22         >
-===Initiate End===
-Node Coverage: 11/13
-===Genetic Algorithm End===
-Node Coverage: 11/13
-Normal fail
-TIME: 1.471610662 (s)
-Attack failed

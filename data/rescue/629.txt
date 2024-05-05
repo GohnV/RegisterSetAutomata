@@ -1,61 +1,0 @@
-(^|<body\b[^>]*>)\s*<(p|div|address|h\d|center|pre)[^>]*>\s*(?:<br[^>]*>|&nbsp;|\u00A0|&#160;)?\s*(:?<\/\2>)?\s*(?=$|<\/body>)
-5: <20 : 4.761904761904762 : <hdivbo<bodyvbodybo>><50 : 7.153846153846154 : <div/bodybodybo<bodv/bddyb/bo<bo/b><br><49 : 6.321428571428571 : <divyodbddy></divyodbddy></><47 : 2.522727272727273 : <div/bodybodybo<bobodod<bobododd<ddy>&#160;><52 : 6.161290322580645 : <divyodbddy></odyo<divbo<body/bododd></odyo<divbo<body/bododd<bodbo<bodyo<dy/dyoo<>bo<body><>
-===Initiate End===
-Node Coverage: 63/65
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 63/65
-Vulnerable: <divo<body<div/d<<body/bo<body<div/d<<bodo<divbo<bdyo<dy/dydy/bodod<hdivbo<bodyvbodybo><divo<body<div/d<<body/bo<body<divdyvbodybo>	
-	 			
-	
-	 			
-	
-
-  
- 		 v
-100290 : 583.0813953488372 : <divo<body<div/d<<body/bo<body<div/d<<bodo<divbo<bdyo<dy/dydy/bodod<hdivbo<bodyvbodybo><divo<body<div/d<<body/bo<body<divdyvbodybo>	
-	 			
-	
-	 			
-	
-
-  
- 		 v
-100053 : 1852.8333333333333 : <<body<<body/<body><divo>	
-	 			
-	
-	 			
-v
-100053 : <<body<<body/<body><divo>	
-	 			
-	
-	 			
-v
-1000197 : 2 : <<body<<body/<body><divo>	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-v
-2305520 : <<body<<body/<body><divo>	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-	
-	 			
-v
-TIME: 24.364883293 (s)
-Attack failed

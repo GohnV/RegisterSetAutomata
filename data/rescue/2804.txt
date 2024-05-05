@@ -1,15 +1,0 @@
-(<\w+[^>]*)(checked|selected|disabled|readonly)\s*=\s*([\"']*)\w*\3([^>]*>)
-1: <35 : 8.018691588785046 : T9:hz.iUAi7"t`"F9n61-,l7<PU25V;{Wbchecked=MA@;Z8W-z.[Mc<dlm"5V;{Wbchecked;@AM=Z8W-z.[Mc<dlm"rKBa2Q"D:g*>>
-===Initiate End===
-Node Coverage: 35/35
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 35/35
-Vulnerable: hz.i-,l7<PU25Vhecked=MA@;Z;Z8W-z.[<cMT9PU25V;{Wbchecked=MA@;Z8W-z.[Mc<T9PAM=Z8W-z.[Mc<dlm"rKBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25V;ed=MF9n61-,lchecked=MA@;Z8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{Wbchhecked=MA
-100144 : 457.27853881278537 : hz.i-,l7<PU25Vhecked=MA@;Z;Z8W-z.[<cMT9PU25V;{Wbchecked=MA@;Z8W-z.[Mc<T9PAM=Z8W-z.[Mc<dlm"rKBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25V;ed=MF9n61-,lchecked=MA@;Z8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{Wbchhecked=MA
-100098 : 658.5394736842105 : <PU25VheckedA@;Z;Z8W<cMT9checked=M8W<T9PAM8W<dlBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25Vd=MF9n61-checked=M8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{
-100098 : <PU25VheckedA@;Z;Z8W<cMT9checked=M8W<T9PAM8W<dlBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25Vd=MF9n61-checked=M8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{
-100098 : 0 : <PU25VheckedA@;Z;Z8W<cMT9checked=M8W<T9PAM8W<dlBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25Vd=MF9n61-checked=M8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{
-103111 : <PU25VheckedA@;Z;Z8W<cMT9checked=M8W<T9PAM8W<dlBa2Q"hz.iUAi7"t`"F9n61-,<7lPU25V;{Wbc.[Mc<T9PU25Vd=MF9n61-checked=M8W-z.[Mc<T9PU25V;{Wbchecked=MA@V;{
-TIME: 37.792307083 (s)
-Attack failed

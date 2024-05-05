@@ -1,9 +1,0 @@
-^\s*<\s*([\w-]+)\W.*?<\/\s*\1\s*>\s*$
-6: <9 : 4.5 : <><12 : 4.333333333333333 : <a><15 : 4.0 : <a!><18 : 4.166666666666667 : <a!</><21 : 4.428571428571429 : <a!</a><24 : 3.125 : <a!</a>>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 2.166570546 (s)
-Attack failed

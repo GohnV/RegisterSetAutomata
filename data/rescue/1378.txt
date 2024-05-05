@@ -1,9 +1,0 @@
-VERSION = ('|")\d+\.\d+\.\d+\1
-8: <5 : 0.45454545454545453 : VERSION = ><9 : 0.16981132075471697 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '><11 : 0.2222222222222222 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0><13 : 0.2545454545454545 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0.><14 : 0.30357142857142855 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0.0><16 : 0.3333333333333333 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0.0.><17 : 0.3793103448275862 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0.0.0><17 : 0.3728813559322034 : M}OT)6te'$u#GY9Pb	j|vyw=A	K3{e^UA!#g=,o5%VERSION = '0.0.0'>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 2.287137213 (s)
-Attack failed

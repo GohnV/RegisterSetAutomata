@@ -1,55 +1,0 @@
-<meta\s+.*?name\s*=\s*(['"]?)(.*?)\1\s+.*?content\s*=\s*(['"]?)(.*?)\3
-8: <3 : 0.5 : <meta><7 : 1.1428571428571428 : <meta><10 : 2.090909090909091 : <metaname><23 : 3.25 : <metaname=><26 : 5.076923076923077 : <metaname=	><29 : 9.75 : <metaname=	content><38 : 4.809523809523809 : <metaname=	content=><39 : 5.391304347826087 : <metaname=	content='">
-===Initiate End===
-Node Coverage: 41/41
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Vulnerable: <metaname=<meta	=eman"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`<metaname=<metaname=	"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`<metaname=<metaname=	"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`*&__/*/%me=		cont=	c		
-			
-100035 : 330.1485148514852 : <metaname=<meta	=eman"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`<metaname=<metaname=	"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`<metaname=<metaname=	"$.&+name=			
-   
-		  		
-   
-		  	
-	cont=*/%/&,(*+%];-?:<^>`*&__/*/%me=		cont=	c		
-			
-100014 : 724.7391304347826 : <meta<meta	name=	 	  	 ont=*/%/&,	  	 	 ont=*/%/&,(*+%];-?:<^>`<metaname=<meme=name=			
-   
-		  	 ont=*/%/&,(*+%];-?:<^>`*&__/*/%me=	
-100014 : <meta<meta	name=	 	  	 ont=*/%/&,	  	 	 ont=*/%/&,(*+%];-?:<^>`<metaname=<meme=name=			
-   
-		  	 ont=*/%/&,(*+%];-?:<^>`*&__/*/%me=	
-100014 : 0 : <meta<meta	name=	 	  	 ont=*/%/&,	  	 	 ont=*/%/&,(*+%];-?:<^>`<metaname=<meme=name=			
-   
-		  	 ont=*/%/&,(*+%];-?:<^>`*&__/*/%me=	
-101484 : <meta<meta	name=	 	  	 ont=*/%/&,	  	 	 ont=*/%/&,(*+%];-?:<^>`<metaname=<meme=name=			
-   
-		  	 ont=*/%/&,(*+%];-?:<^>`*&__/*/%me=	
-TIME: 24.228575272 (s)
-Attack failed

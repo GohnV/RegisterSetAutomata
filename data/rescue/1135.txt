@@ -1,11 +1,0 @@
-url\((['"]?)([^\?'"\)]+)(\?(?:[^'"\)]+)?)?\1?\)
-5: <8 : 1.6 : url(><16 : 5.777777777777778 : url(url\><22 : 7.083333333333333 : url(url\^\?><24 : 7.642857142857143 : url(url\^\??:><17 : 0.43283582089552236 : *{
-LY5{G
-)!k5227otsu<=%$~<Y,z(k((7&D4jb9BUXzZ=m@wCd-b8url(D0zNm+)>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 452.63559754 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<([^<>]+)>(.*?)</\1>
-1: <16 : 1.1294117647058823 : _m~[0/=[	*;H+Jgv/=[	*;H+Jgv)=fP&]_i_M\<|\v[tM96\RtHjb0 gIp>u</|\v[tM96\RtHjb0 gIp>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 30.194165777 (s)
-Attack failed

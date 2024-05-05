@@ -1,9 +1,0 @@
-FOREACH \w+ \{\s+(\w+) = b;\s+(\w+) = DISTINCT \1;\s+GENERATE \2 AS c;\s+\}
-1: <26 : 0.9 : FOREACH a { AS = b; AS = DISTINCT AS; GENERATE AS>
-===Initiate End===
-Node Coverage: 26/30
-===Genetic Algorithm End===
-Node Coverage: 26/30
-Normal fail
-TIME: 10.775116849 (s)
-Attack failed

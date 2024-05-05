@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?: *\/\/.*\n)*( *)if *\(typeof +module[\s\S]+?else *{([\s\S]+?\n)\1}\n
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(53)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

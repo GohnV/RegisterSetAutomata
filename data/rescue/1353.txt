@@ -1,3 +1,0 @@
-<([^<]+?[\s])(src|href|background)[\s]*=[\s]*(["\'])([^\3]+?)\3[^>]*?>
-TIME: 0.07112503 (s)
-Regex compile error

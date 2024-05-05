@@ -1,9 +1,0 @@
-^url\((['"])(.+)\1\)$
-1: <13 : 3.9365079365079363 : url('('"$.r'('"$.rl('()r$$.rl('(r$$.rl('()(('.W\')(('.W\')(WW\>
-===Initiate End===
-Node Coverage: 13/14
-===Genetic Algorithm End===
-Node Coverage: 13/14
-Normal fail
-TIME: 16.008749133 (s)
-Attack failed

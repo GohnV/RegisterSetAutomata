@@ -1,16 +1,0 @@
-\d{1,5}([- ]?)\d{1,7}\1\d{1,6}\1(\d|X)
-4: <10 : 2.6721311475409837 : &KM&?ny--5JE\
-U;rjlyIDB!gu<%WzOt*9e/FiwDn.+t7M1u/.d=" O(%	5><13 : 3.238095238095238 : b53ru_\#n]	oUu"va# 1Wx2x-  | >
-^G4_oy}}
-aK'$1E	6}pJ>#$":
->a9><18 : 4.222222222222222 : ^s[DZSHN
-]a*UD%7Gx,SK\1W	'1<s
-T('6tQ(3#4	Oin#A1B3`
-jn182sDL\F><21 : 6.2272727272727275 : 'l|sfLK;bgZlfk1|	7354>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 1.783396034 (s)
-Attack failed

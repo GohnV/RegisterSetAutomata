@@ -1,9 +1,0 @@
-(\<(font|color).*?\>)(.*?)(<\/\2>)
-1: <13 : 2.2777777777777777 : 1CA3c, 	@9I6bX2M.f4kF1\<font|color>
-===Initiate End===
-Node Coverage: 13/24
-===Genetic Algorithm End===
-Node Coverage: 21/24
-Normal fail
-TIME: 75.346961668 (s)
-Attack failed

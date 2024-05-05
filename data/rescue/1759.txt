@@ -1,10 +1,0 @@
-(url\(\s*(["']?))([^)]+?)\2
-2: <3 : 2.0166666666666666 : qA8sXiFHL>(	r0m3TopBOu;3A]eBLw
-cve}j-%d0|RN	K*LYcM\h*$PC#/><17 : 2.087719298245614 : Cm\>l&@[v/CajLyxg=C3t={%K9N|)wYZa$Fz\'b#j[swIEPDAmfurl(3>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 16.540003927 (s)
-Attack failed

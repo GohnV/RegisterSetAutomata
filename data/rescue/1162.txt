@@ -1,9 +1,0 @@
-(["'])(\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1
-4: <3 : 2.5 : ><16 : 10.0 : "'><22 : 17.09090909090909 : "'?:\r\n|><25 : 14.5 : "'?:\r\n|'>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 76.584837853 (s)
-Attack failed

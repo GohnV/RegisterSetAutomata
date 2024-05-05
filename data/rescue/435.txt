@@ -1,3 +1,0 @@
-script\_version\s*\(\s*(\"|\')([^\1\)]*)\1\s*\)\s*\;
-TIME: 0.05653157 (s)
-Regex compile error

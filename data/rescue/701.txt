@@ -1,9 +1,0 @@
-\[(b)\](.*?)\[\/\1\]
-1: <6 : 1.263157894736842 : Gmu!TJ8[mu!TJ8[b>
-===Initiate End===
-Node Coverage: 6/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 25.389994258 (s)
-Attack failed

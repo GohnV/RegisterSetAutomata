@@ -1,9 +1,0 @@
-^<A HREF="(\d\.\d)/">Lua \1</A>
-1: <9 : 0.45 : <A HREF="0.0/">Lua >
-===Initiate End===
-Node Coverage: 9/12
-===Genetic Algorithm End===
-Node Coverage: 9/12
-Normal fail
-TIME: 0.163651222 (s)
-Attack failed

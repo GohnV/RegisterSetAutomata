@@ -1,9 +1,0 @@
-^(?:[^#]+\s|\s*)(?:|;\s*)Tk\s*\.\s*load_tcllibrary\s*\(?\s*(["'])((\w|:)+)\1
-1: <25 : 4.8125 : Tk.{I6b&;U{l_S>
-===Initiate End===
-Node Coverage: 25/46
-===Genetic Algorithm End===
-Node Coverage: 25/46
-Normal fail
-TIME: 40.431259671 (s)
-Attack failed

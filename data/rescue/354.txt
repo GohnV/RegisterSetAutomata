@@ -1,9 +1,0 @@
-<cke:(param|embed)([^>]*?)\/?>(?!\s*<\/cke:\1)
-6: <5 : 0.8333333333333334 : <cke:><14 : 1.2727272727272727 : <cke:param><15 : 3.0588235294117645 : <cke:param</cke:><18 : 1.5 : <cke:param>><19 : 1.0555555555555556 : <cke:param></cke:><22 : 0.9565217391304348 : <cke:param></cke:param>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 162.620433998 (s)
-Attack failed

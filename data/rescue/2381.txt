@@ -1,9 +1,0 @@
-"(?:\\"|[^"])*"|'(?:\\'|[^'])*'|\/\*[\S\s]*?\*\/|\/(?:\\\/|[^/\r\n])+\/(?=[^\/])|\/\/.*|\.\s*include|(?:^|[^$])\binclude\s*\(\s*(["'])(.+?)\1
-3: <38 : 26.916666666666668 : "cludee=R=?/*:\me=R=?N?><39 : 19.5 : '|.+*yQudeulud*///?><35 : 10.266666666666667 : include/?"e*/s>
-===Initiate End===
-Node Coverage: 61/71
-===Genetic Algorithm End===
-Node Coverage: 61/71
-Normal fail
-TIME: 160.823808478 (s)
-Attack failed

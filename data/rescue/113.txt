@@ -1,9 +1,0 @@
-(([GyMdhHmsSEeDFwWakKzZ])\2*)
-2: <9 : 4.5 : G><10 : 3.6666666666666665 : GG>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 3.530200791 (s)
-Attack failed

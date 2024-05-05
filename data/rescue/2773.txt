@@ -1,9 +1,0 @@
-(?<=[\s:])(\d+[a-z]*)\s+(\d+[a-z]*)\s+\1\s+\2
-1: <28 : 4.545454545454546 : dEN_	6f	EN_	6f	3	6f	3>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 54.826534909 (s)
-Attack failed

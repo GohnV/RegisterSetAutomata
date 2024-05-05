@@ -1,9 +1,0 @@
-(([a-c])b*?\2)*
-2: <12 : 4.75 : bbb><12 : 4.0 : cbbb>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.346366876 (s)
-Attack failed

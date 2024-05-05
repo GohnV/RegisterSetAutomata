@@ -1,6 +1,0 @@
-= [1] =
-INPUT: code<([a-z]+)>\s*<<\s*([a-zA-Z_]+)(?=\s)(.*?)(\2)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(34)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,9 +1,0 @@
-\[i(:.+)?\](.*?)\[\/i\1?\]
-1: <6 : 1.2173913043478262 : 0nMcTzA2TzS,`5o|hG([iZ>
-===Initiate End===
-Node Coverage: 6/20
-===Genetic Algorithm End===
-Node Coverage: 19/20
-Normal fail
-TIME: 12.736594182 (s)
-Attack failed

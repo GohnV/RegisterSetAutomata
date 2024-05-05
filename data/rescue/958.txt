@@ -1,9 +1,0 @@
-\$((plugin|module)\->(release))=(['"])(.*?)\4;
-1: <7 : 1.119047619047619 : 9T{zV[Cl-WgUyb&'BOrp4hb)BB_V;O3}erbW]KGF$>
-===Initiate End===
-Node Coverage: 7/26
-===Genetic Algorithm End===
-Node Coverage: 7/26
-Normal fail
-TIME: 1.119637345 (s)
-Attack failed

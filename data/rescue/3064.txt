@@ -1,9 +1,0 @@
-\[img(:.+)? size=(['"]?)(\d+)x(\d+)\2\](.*?)\[\/img\1?\]
-10: <5 : 1.0 : [img><7 : 1.1666666666666667 : [img:><10 : 1.7142857142857142 : [img:\><12 : 1.0909090909090908 : [img size=><15 : 1.3333333333333333 : [img size=0><18 : 1.4615384615384615 : [img size=0x><21 : 1.7142857142857142 : [img size=0x0><26 : 1.9333333333333333 : [img size=0x0]><29 : 2.6 : [img size=0x0][/img><29 : 1.5238095238095237 : [img size=0x0][/img]>
-===Initiate End===
-Node Coverage: 34/34
-===Genetic Algorithm End===
-Node Coverage: 34/34
-Normal fail
-TIME: 148.636414279 (s)
-Attack failed

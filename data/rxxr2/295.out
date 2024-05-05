@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <a .*href=(["])([^\1]*)(?:\1).*>\s*(\S.*\S)\s*</a>
-PARSE: ERROR {ParsingData.UnsupportedEscape(19, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

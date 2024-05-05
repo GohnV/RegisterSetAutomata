@@ -1,9 +1,0 @@
-<(us)(?:[^<]|<)+</\1>
-1: <17 : 6.885714285714286 : +<us0704us07</us><us07<s07</\1>712>
-===Initiate End===
-Node Coverage: 17/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 260.209534522 (s)
-Attack failed

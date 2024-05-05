@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \[([^\]]*)\]|\(([^\)]*)\)|(LT|(\w)\4*o?)|([^\w\[\(]+)
-PARSE: ERROR {ParsingData.InvalidBackreference(34)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

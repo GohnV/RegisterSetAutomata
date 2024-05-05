@@ -1,10 +1,0 @@
-\[\s*(['"])(.*?)\1\s*\]
-1: <16 : 3.825 : UzNFGd["(("["KO'{.B
-4{.B#Y^2D+d["zNyu`>
-===Initiate End===
-Node Coverage: 16/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 72.196306167 (s)
-Attack failed

@@ -1,3 +1,0 @@
-{\s*(["']?)$s\1\s*}
-TIME: 0.041180573 (s)
-Regex compile error

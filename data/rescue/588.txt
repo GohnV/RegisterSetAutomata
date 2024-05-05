@@ -1,9 +1,0 @@
-(\d)\1{7}
-1: <7 : 2.6666666666666665 : m{,Y8Y88y>?~<&/z.>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 1.565835446 (s)
-Attack failed

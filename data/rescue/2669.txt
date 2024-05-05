@@ -1,9 +1,0 @@
-<qf:label_([^>]+)>.*</qf:label_\1>
-1: <13 : 2.6176470588235294 : <qf:label_a>.*</qf:label_a>.*</qf:label>.*</qf:label*</qf:label_\1>>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 60.118704289 (s)
-Attack failed

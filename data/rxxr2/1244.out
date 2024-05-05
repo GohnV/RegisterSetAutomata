@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^\s*(<\s*([^\s>]+)([^>]+)\/\s*>|<\?\s*([^\s>]+)\s*([^>]*)\?>|<!--(.+?)-->|<!\[CDATA\s*\[(.*?)\]\]\s*>\s*|<!DOCTYPE\s*([^\[>]*)(\[.*?\])?\s*>\s*|<!ENTITY\s*([^"'>]+)\s*(["'])([^\11]+)\11\s*>\s*|([^<]+))(.*)
-PARSE: ERROR {ParsingData.UnsupportedEscape(177, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

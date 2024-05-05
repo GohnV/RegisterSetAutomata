@@ -1,9 +1,0 @@
-\G(?:'((?:[^']|'')*)'|(([a-zA-Z])\3*)|(.))
-4: <23 : 11.5 : '><19 : 6.5 : '''><15 : 7.5 : Q><16 : 5.666666666666667 : VV>
-===Initiate End===
-Node Coverage: 30/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 27.713154415 (s)
-Attack failed

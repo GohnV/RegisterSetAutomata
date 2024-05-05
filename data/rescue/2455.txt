@@ -1,11 +1,0 @@
-\$parents\s*\[\s*(['"]*)\w*\1\s*\]
-4: <4 : 0.4444444444444444 : $parents><16 : 1.6 : $parents[><5 : 0.7 : $parents	><18 : 0.2878787878787879 : vM:F]Hhb0)a8
-Q9;A8	
-ydU^[`SsJK.<yel%qn	ReIYh>*8Og7Lqo$parents[w]>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 4.729142202 (s)
-Attack failed

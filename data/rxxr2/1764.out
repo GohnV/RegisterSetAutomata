@@ -1,6 +1,0 @@
-= [1] =
-INPUT: /authors/id/(\w)/\1(\w)/(\1\2\w+)(?:/(?:[^/]+/)*(($re_dist)-($re_version)\.(?:tar\.\w+|tar|zip|tgz|tbz|tbz2)))?$re_end_or_q
-PARSE: ERROR {Stdlib.Parsing.Parse_error}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

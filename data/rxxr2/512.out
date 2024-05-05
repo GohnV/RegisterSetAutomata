@@ -1,6 +1,0 @@
-= [1] =
-INPUT: filename=([\'\"'])([^\1]+)\1
-PARSE: ERROR {ParsingData.UnsupportedEscape(22, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,19 +1,0 @@
-<[\s]*(head|style|script|object|embed|applet|noframes|noscript|noembed|option)[^>]*?>.*?</\1>
-2: <27 : 3.303370786516854 : )~,SYF7Q1u-+Nh#%
-AY}M	o1	Y
-?/'D'f2KPP!_P <noscript+Nh#%
-AY}M	o1	Y
-?/'D'f2KPP!_P ^><noscript_98ogW*?>.*?</noscript+Nh#%
-AY}M	o1	Y
-?/'D'f2KPP!_P ^><noscript_98ogW*?>.*?</\1>><26 : 1.915966386554622 : )~,SYF7Q1u-+Nh#%
-AY}M	o1	Y
-?/'D'f2KPP!_P <noscript+Nh#%
-AY}M	o1	Y
-?/'D'f2KPP!_P ^><noscript_98ogW*?>.*?</noscript>>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 34.613545531 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^ m([^\w\s]) (.+) \1 (\w*) $
-5: <4 : 1.3333333333333333 :  m><12 : 2.1666666666666665 :  m^ m><13 : 2.5714285714285716 :  m^ m ><19 : 4.1 :  m^ m ^ m><21 : 4.181818181818182 :  m^ m ^ m >
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 42.533266636 (s)
-Attack failed

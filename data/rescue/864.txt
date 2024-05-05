@@ -1,9 +1,0 @@
-([^YyMDdHhmsS]*?)(([YyMDdHhmsS])\3*)([^YyMDdHhmsS]*?)
-1: <17 : 6.2 : ^^^^^^^^^^^^^Y>
-===Initiate End===
-Node Coverage: 17/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 9.66717572 (s)
-Attack failed

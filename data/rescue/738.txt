@@ -1,9 +1,0 @@
-xmlUrl\s*=\s*(["'])(.*?)\1
-4: <4 : 0.5714285714285714 : xmlUrl><8 : 1.0 : xmlUrl=><15 : 1.8 : xmlUrl="'><16 : 1.6363636363636365 : xmlUrl="'">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 28.137830999 (s)
-Attack failed

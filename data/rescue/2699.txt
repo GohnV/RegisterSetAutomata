@@ -1,9 +1,0 @@
-from (webmail\S+\.untd\.com) \(\1 \[$IP_ADDRESS\]\) by
-1: <10 : 2.4558823529411766 : from webmailtd.td.com.uom.u.untd.cwebmailtd.td.com.uom.u.untd.com (>
-===Initiate End===
-Node Coverage: 10/14
-===Genetic Algorithm End===
-Node Coverage: 10/14
-Normal fail
-TIME: 15.974101933 (s)
-Attack failed

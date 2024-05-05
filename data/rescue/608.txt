@@ -1,9 +1,0 @@
-^(\w)\1(\w)\2(\w)\3$
-1: <15 : 2.142857142857143 : ddCCaa>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 0.091995781 (s)
-Attack failed

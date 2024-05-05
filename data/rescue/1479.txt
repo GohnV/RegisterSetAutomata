@@ -1,9 +1,0 @@
-<a[^>]+href=(["\'])(.+?)\1[^>]+id=["\']lec=\d+
-1: <19 : 4.968253968253968 : 	@ ^tEkq4_BBc"@x'-~&3*<a(9n*nft ^tEkq4_t ^tEkq4_Bc"@x'href="	@ ^tEkq4_Bc"@x'-~}y_16i  +i@x}y_16i  +id16i  +id="@xref="\'>
-===Initiate End===
-Node Coverage: 19/22
-===Genetic Algorithm End===
-Node Coverage: 19/22
-Normal fail
-TIME: 66.361238483 (s)
-Attack failed

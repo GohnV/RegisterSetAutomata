@@ -1,3 +1,0 @@
-polyfill-next-selector[^}]*content:[\s]*?(['"])(.*?)\1[;\s]*}([^{]*?){
-TIME: 0.043627181 (s)
-Regex compile error

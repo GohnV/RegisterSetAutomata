@@ -1,9 +1,0 @@
-(abc\1)
-1: <4 : 1.8857142857142857 : baabbaababbaababbaababbbaababbaabc>
-===Initiate End===
-Node Coverage: 4/7
-===Genetic Algorithm End===
-Node Coverage: 4/7
-Normal fail
-TIME: 2.390803515 (s)
-Attack failed

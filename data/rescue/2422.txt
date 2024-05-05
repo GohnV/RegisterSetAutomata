@@ -1,9 +1,0 @@
-^--(?:\[(=*)\[[\s\S]*?(?:\]\1\]|$)|[^\r\n]*)
-5: <10 : 3.3333333333333335 : --><11 : 3.0 : --]><16 : 4.25 : --[><20 : 4.0 : --[[><24 : 4.666666666666667 : --[[]>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 24.522679331 (s)
-Attack failed

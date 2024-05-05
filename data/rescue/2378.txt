@@ -1,128 +1,0 @@
-url\(\s*(['"]?)([^\)'"]+)\1\s*\)
-3: <10 : 2.0 : url(><16 : 4.222222222222222 : url(url\><17 : 0.7142857142857143 : ,k^PzKB6dGbP0/3dsU_
-DsKhT\R~01V<*0yLjurl(?Jw~@X2SKMGK)>
-===Initiate End===
-Node Coverage: 17/17
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Vulnerable: url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
- 		  			
-100087 : 1064.7553191489362 : url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
- 		  			
-100015 : 1333.5333333333333 : url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-
-100015 : url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-
-100015 : 0 : url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-
-104435 : url(
-		 
-	
-	
-	
-			
- 		  
-	
-	
-			
-url(
-		 
-	
-	
-	
-			
- 		  
-	
-
-TIME: 12.180737432 (s)
-Attack failed

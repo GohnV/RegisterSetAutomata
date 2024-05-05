@@ -1,9 +1,0 @@
-^[^,]+\.(css|less|scss|js)(?:,[^,]+\.\1)*$
-7: <5 : 3.0 : .><11 : 5.0 : ..><19 : 5.8 : ..js><20 : 5.0 : ..js,><21 : 4.5 : ..js,?:><22 : 4.444444444444445 : ..js,?:.><24 : 4.545454545454546 : ..js,?:.js>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 15.679848189 (s)
-Attack failed

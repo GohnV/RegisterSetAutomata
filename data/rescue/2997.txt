@@ -1,9 +1,0 @@
-<([a-z_]+)>([^<>]+)</\1>
-1: <16 : 1.6176470588235294 : ]~$wE;H_EI7i<p>;H;H_EI7i</p>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 12.828863732 (s)
-Attack failed

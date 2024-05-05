@@ -1,9 +1,0 @@
-<link[^>]+rel=(["'])([^>"]*\s)?openid.delegate(\s[^>"]*)?\1[^>]*>
-11: <3 : 0.5 : <link><5 : 1.75 : <linkopenid><7 : 2.235294117647059 : <linkopenid+rel=><14 : 2.6666666666666665 : <linkopenid+rel="><16 : 3.0 : <linkopenid+rel="><15 : 3.5416666666666665 : <linkopenid+rel="openid><16 : 3.44 : <linkopenid+rel="openid>><20 : 2.727272727272727 : <linkopenid+rel="openid>delegate><24 : 2.7941176470588234 : <linkopenid+rel="openid>delegate	><23 : 2.742857142857143 : <linkopenid+rel="openid>delegate"'><24 : 2.5 : <linkopenid+rel="openid>delegate"'>>
-===Initiate End===
-Node Coverage: 30/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 147.527756223 (s)
-Attack failed

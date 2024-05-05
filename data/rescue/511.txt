@@ -1,9 +1,0 @@
-(<td\s[^>]*?(?<=\s)background\s*=\s*)(["']?)(.*?)(\2)(\s.+?>|\s*>)
-1: <13 : 3.1025641025641026 : {fL6d)<6d)L6dJJ&16d)<t^T<96d JJ96d JJ&16dJJ&16d)L6d)<td JJ&16d JJ&16d)<t^T<9B>
-===Initiate End===
-Node Coverage: 13/42
-===Genetic Algorithm End===
-Node Coverage: 16/42
-Normal fail
-TIME: 141.384068947 (s)
-Attack failed

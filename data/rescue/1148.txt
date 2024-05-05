@@ -1,9 +1,0 @@
-^([^\s=]+\s*=)?\s*<<(['"]?)(\S+)\2$
-2: <19 : 8.333333333333334 : <<><25 : 9.0 : <<=>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 53.871233019 (s)
-Attack failed

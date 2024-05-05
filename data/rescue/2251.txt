@@ -1,9 +1,0 @@
-<base[^>]+href=(["'])([^>]+)\1
-5: <3 : 0.5 : <base><5 : 1.6363636363636365 : <basehref=><7 : 1.9166666666666667 : <base+href=><13 : 2.642857142857143 : <base+href="'><14 : 3.25 : <base+href="'"'>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 125.773273666 (s)
-Attack failed

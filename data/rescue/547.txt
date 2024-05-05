@@ -1,15 +1,0 @@
-.*(?:([0-9a-f]):?(?:\1:?){5}).*
-1: <17 : 92.77142857142857 : ^*qfWaXH$*qfWa^*qfWaX$T"z$XH$TT"z$z]zCtRaaATfWa*qfWaXH$*qfWa^*qfWaX$T"z$XH$TT"z$z]zCtRaaATfWaXHnQw:H>
-===Initiate End===
-Node Coverage: 17/21
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 17/21
-Vulnerable: fWa^*qfT"z$z]zCtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832533$z]zCtRaaATfWaXHnQw:H
-100112 : 592.3786982248521 : fWa^*qfT"z$z]zCtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832533$z]zCtRaaATfWaXHnQw:H
-100013 : 740.837037037037 : fWa^*CtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832
-100013 : fWa^*CtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832
-100013 : 0 : fWa^*CtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832
-100345 : fWa^*CtRaaegrotcsbymxzqwvmbuwvudvnoawkmzvcglzrwpvwcfl$**qfRaaATfWz7877068313875813551990076273894758837437891349800624430368302931832
-TIME: 43.383625687 (s)
-Attack failed

@@ -1,9 +1,0 @@
-m(\S).*\1[msixpodualngc]*
-3: <2 : 1.3333333333333333 : .*><9 : 3.375 : .*msixpodualngc><12 : 3.08974358974359 : ),fJaHFZ	n	W>"N*FsyOMIJZhBqSCTA445armsixpodualngc	L*2']U,my0yn)	Zz_Kwfj&Fzhd>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 51.757221797 (s)
-Attack failed

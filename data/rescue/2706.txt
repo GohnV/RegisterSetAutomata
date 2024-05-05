@@ -1,9 +1,0 @@
-<\!-- (\w+) START -->([\s\S]*)<\!-- \1 END -->
-6: <4 : 0.6666666666666666 : <!-- ><7 : 1.1428571428571428 : <!-- a><12 : 0.7647058823529411 : <!-- a START -->><13 : 1.6818181818181819 : <!-- a START --><!-- ><14 : 2.0 : <!-- a START --><!-- a><15 : 2.3225806451612905 : <!-- a START --><!-- a END -->>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 91.547740534 (s)
-Attack failed

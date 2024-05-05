@@ -1,9 +1,0 @@
-^(src=(["'])?)([^'"<>\s]+)\1?
-3: <10 : 2.0 : src=><15 : 2.6666666666666665 : src=^><12 : 2.6666666666666665 : src=">
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 0.128339671 (s)
-Attack failed

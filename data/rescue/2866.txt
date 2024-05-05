@@ -1,9 +1,0 @@
-<([A-Z]+?)>(.+?)</\1>
-1: <16 : 2.6842105263157894 : <mz&~`2LR<JK>E5RYzw.EJK>E5681x)</JK>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 8.154404696 (s)
-Attack failed

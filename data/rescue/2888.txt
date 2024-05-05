@@ -1,9 +1,0 @@
-(<([^<\/]+)>)(?!.*?<\/\2>)([^<]+)
-1: <21 : 2.9565217391304346 : Y+_^^^_^^^j> cVnf<>!:_-vZ$+3!	+3!	c	7> -vZ$+3!	+3j> cVnf<>!:_-vZ$ c^^^j> cVnf<cVnf tztzA?</>
-===Initiate End===
-Node Coverage: 21/23
-===Genetic Algorithm End===
-Node Coverage: 22/23
-Normal fail
-TIME: 22.141897435 (s)
-Attack failed

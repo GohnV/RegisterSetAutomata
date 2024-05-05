@@ -1,15 +1,0 @@
-<\w+\b(?:(["'])[^"]*?(\1)|[^>])*>
-2: <4 : 1.6 : <\w+><23 : 6.476923076923077 : v~3vO'W^	=+khLw<eq]3sQJ'x-9DD0,J_q3>7h`teo;TOqLuf7|Hm'#ey%l7J>
-===Initiate End===
-Node Coverage: 23/23
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Vulnerable: vO'W^	=+khLw<v~3vO'vO'W^	=+khLw<v~3vO'W^	=eq]3sQJ'x-9DD0,Hm'o=	^W'Ov3~vv~3vO'W^	=sQeq]Lw<v~3vO'W^	=eq]3sQJ'x-9DD0,Hm'o=	^W'Ov3~vv~3vO'W^	=eq]3sQJ'x-9DD0,Hm'#ey%l7J
-100258 : 556.9888888888889 : vO'W^	=+khLw<v~3vO'vO'W^	=+khLw<v~3vO'W^	=eq]3sQJ'x-9DD0,Hm'o=	^W'Ov3~vv~3vO'W^	=sQeq]Lw<v~3vO'W^	=eq]3sQJ'x-9DD0,Hm'o=	^W'Ov3~vv~3vO'W^	=eq]3sQJ'x-9DD0,Hm'#ey%l7J
-100007 : 961.6057692307693 : <v~3vO''W^	=+khLw<v~3'W^	=eq]3s'x-9DD0,Hm'o=	^W'Ov3~vv~3'W^	=sQeq]Lw<v~3'W^	=eq]3sQJ'x-9DD0,Hm
-1000185 : <v~3vO''W^	=+khLw<v~3'W^	=eq]3s'O''W^	=+khLw<v~3'W^	=eq]3s'x-9DD0,Hm'o=	^W'Ov3~vv~3'W^	=sQeq]Lw<v~3'W^	=eq]3sQJ'x-9DD0,Hm
-1000185 : 0 : <v~3vO''W^	=+khLw<v~3'W^	=eq]3s'O''W^	=+khLw<v~3'W^	=eq]3s'x-9DD0,Hm'o=	^W'Ov3~vv~3'W^	=sQeq]Lw<v~3'W^	=eq]3sQJ'x-9DD0,Hm
-1612628 : <v~3vO''W^	=+khLw<v~3'W^	=eq]3s'O''W^	=+khLw<v~3'W^	=eq]3s'x-9DD0,Hm'o=	^W'Ov3~vv~3'W^	=sQeq]Lw<v~3'W^	=eq]3sQJ'x-9DD0,Hm
-TIME: 9.180125092 (s)
-Attack failed

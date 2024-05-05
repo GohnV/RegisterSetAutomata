@@ -1,9 +1,0 @@
-^(\w{3,})(\1)(\w+)$
-1: <15 : 5.6 : qTvqTv5FY>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 24.723989587 (s)
-Attack failed

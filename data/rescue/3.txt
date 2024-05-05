@@ -1,9 +1,0 @@
-Regexes with unbounded back-referenced capture groups: 700
-1: <2 : 0.03389830508474576 : Regexes with unbounded back-referenced capture groups: 700>
-===Initiate End===
-Node Coverage: 2/3
-===Genetic Algorithm End===
-Node Coverage: 2/3
-Normal fail
-TIME: 0.343184296 (s)
-Attack failed

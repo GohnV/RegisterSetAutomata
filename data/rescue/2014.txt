@@ -1,9 +1,0 @@
-\b(?=s([^\s\w\[({<]).*\1([egimosradlu]*)([\}\)\;\,]|\s+))
-4: <7 : 5.5 : s><12 : 6.5 : s\b><21 : 8.625 : s^\s\w\><23 : 4.375 : s\b\;\,>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 108.446211546 (s)
-Attack failed

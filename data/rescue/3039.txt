@@ -1,9 +1,0 @@
-<(\w+)><\/\1>
-1: <10 : 3.4615384615384617 : >><<hh><hh<hh><hhh>><hh>><<hh>><hh>><<hh><hh<hh><hhh>><<hh><h></h<hh><hhh>><hh>><<hh>><hh>><<hh><hh<hh><hhh>><hhh></>
-===Initiate End===
-Node Coverage: 10/11
-===Genetic Algorithm End===
-Node Coverage: 10/11
-Normal fail
-TIME: 24.557247077 (s)
-Attack failed

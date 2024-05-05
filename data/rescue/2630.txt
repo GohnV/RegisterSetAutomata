@@ -1,3 +1,0 @@
-(?<=(\w+)\1)c
-TIME: 0.046692263 (s)
-Regex compile error

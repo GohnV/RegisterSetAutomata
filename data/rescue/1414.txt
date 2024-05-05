@@ -1,9 +1,0 @@
-\b(?:m|qr)\s*([^a-zA-Z0-9\s{(\[<])(?:(?!\1)[^\\]|\\[\s\S])*\1[msixpodualngc]*
-3: <12 : 4.0 : qr><25 : 8.0 : qr\b><31 : 7.625 : qr\b\s*>
-===Initiate End===
-Node Coverage: 31/31
-===Genetic Algorithm End===
-Node Coverage: 31/31
-Normal fail
-TIME: 59.077604026 (s)
-Attack failed

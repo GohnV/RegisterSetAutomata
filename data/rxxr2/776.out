@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \b(?:s|tr|y)\s*([^a-zA-Z0-9\s\{\(\[<])(\\?.)*?\s*\1\s*((?!\1).|\\.)*\s*\1[msixpodualgcer]*
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(55)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,9 +1,0 @@
-(\*)(?=\S)([^\r]*?\S)\1
-3: <3 : 2.3333333333333335 : ?=><15 : 6.4 : *?\S><16 : 2.5161290322580645 : |	cTqS	g63cFpJgi:O/n;_a*QPmR*>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 63.033881341 (s)
-Attack failed

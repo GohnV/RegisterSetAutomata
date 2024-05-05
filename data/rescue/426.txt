@@ -1,9 +1,0 @@
-^\\\.(.+?)\\=\\(['"])(.*)\\\2$
-1: <10 : 4.261904761904762 : \.\\\=\=\\\.\\\=\=\=\=\\\.\\\=\=\\\=\.\\\>
-===Initiate End===
-Node Coverage: 10/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 44.359108306 (s)
-Attack failed

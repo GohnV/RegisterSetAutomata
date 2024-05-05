@@ -1,16 +1,0 @@
-\<([^\s]+).+\<\/\1\>
-1: <13 : 15.787096774193548 : <	]fNH_?j0I6b
-l1ua>3QKWU	UMQ:q]>vwr%7?.a	WU	UMQ:q]>vwr%7?.a	5:J7dV:"		.ty|P+$<^C</^>3QKWU	UMQ:q]>vwr%7?.a	WU	UMQ:q]>vwr%7?.a	5:J7dV:"		.ty|P+$<^C</^C</_B>
-===Initiate End===
-Node Coverage: 13/13
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Vulnerable: ]+$<^C</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\\	J7dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6ED1e18AFC444c27AEdEb1deD2b972EE70dE8cFe_?j0I
-100217 : 516.5824742268042 : ]+$<^C</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\\	J7dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6ED1e18AFC444c27AEdEb1deD2b972EE70dE8cFe_?j0I
-100072 : 699.8041958041958 : ]<</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6E
-100072 : ]<</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6E
-100072 : 0 : ]<</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6E
-100821 : ]<</^C</_B752eFdF9e5fabsW/CzxGA>3E(e8\]5D+B4></^CC</^C</_B\'p#s,W54xP\dV:"		.ty|P+$<^C</^C</_B(B\l<?UtmJ\UAG\\e2e9C4C8AA1d13dB7810AAaf5d885b6E
-TIME: 33.047023886 (s)
-Attack failed

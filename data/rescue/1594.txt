@@ -1,9 +1,0 @@
-\A([ ]*)(["']|)(\w+)\2:\s*(.*)\s*\z
-6: <13 : 11.0 :  ><14 : 9.0 :  "><16 : 7.75 :  "a><16 : 8.5 : b><25 : 6.25 : 3:qUm7JKllyTzVuCke><26 : 9.0 : b:>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 1.503117656 (s)
-Attack failed

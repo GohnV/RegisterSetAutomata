@@ -1,9 +1,0 @@
-\[(h1)\](.*?)\[\/\1\]
-1: <4 : 1.75 : VY[>
-===Initiate End===
-Node Coverage: 4/15
-===Genetic Algorithm End===
-Node Coverage: 4/15
-Normal fail
-TIME: 0.295211479 (s)
-Attack failed

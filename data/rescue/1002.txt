@@ -1,9 +1,0 @@
-^(?:([pe])(?!.*\1))*$
-2: <14 : 9.0 : pe><13 : 4.5 : pep>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 3.155801039 (s)
-Attack failed

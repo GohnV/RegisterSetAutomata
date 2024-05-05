@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (%.)|(\*{1,3})((?:%.|.)+?)\2|(`+)((?:%.|.)+?)\4|\[((?:%.|.)+?)\]\(([^\s\)]+)\)
-PARSE: ERROR {ParsingData.InvalidBackreference(45)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,9 +1,0 @@
-['"]([^\s]+?(?=\.(css|js|png|gif|jpg|jpeg))\.\2)['"]
-1: <25 : 5.666666666666667 : H"G}d....}d.gif">
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 33.224410538 (s)
-Attack failed

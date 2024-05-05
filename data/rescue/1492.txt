@@ -1,10 +1,0 @@
-((?:\bsrc|\bhref)\s*=\s*(["']))(.+?)\2
-1: <14 : 6.159090909090909 : hb
-_YX2-i"U,|Z{9i"U,|Zci"U,|Z{9c1]src>
-===Initiate End===
-Node Coverage: 14/26
-===Genetic Algorithm End===
-Node Coverage: 14/26
-Normal fail
-TIME: 3.594522348 (s)
-Attack failed

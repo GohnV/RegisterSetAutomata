@@ -1,9 +1,0 @@
-(\*{2})(.+?)\1
-1: <12 : 3.625 : **AEMGl4|}=c*Iay7A\Hv**>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 114.048155653 (s)
-Attack failed

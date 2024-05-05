@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <script\s*(?![^>]*type=['"]?(?:dojo\/|text\/html\b))[^>]*?(?:src=(['"]?)([^>]*?)\1[^>]*)?>([\s\S]*?)<\/script>
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(10)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

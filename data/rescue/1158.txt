@@ -1,9 +1,0 @@
- (~~) (?=\S) (.+?[~]*) (?<=\S) \1 
-1: <12 : 2.4444444444444446 : t[, ~~ ~>
-===Initiate End===
-Node Coverage: 12/28
-===Genetic Algorithm End===
-Node Coverage: 12/28
-Normal fail
-TIME: 0.778068255 (s)
-Attack failed

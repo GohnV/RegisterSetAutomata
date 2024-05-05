@@ -1,9 +1,0 @@
-(\/{3})([\s\S]*)\1
-1: <5 : 3.0 : WRI1+t/>
-===Initiate End===
-Node Coverage: 5/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 1.217251737 (s)
-Attack failed

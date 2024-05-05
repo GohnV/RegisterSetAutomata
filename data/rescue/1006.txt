@@ -1,9 +1,0 @@
-(["'])source\1 *: *(["']).*?[^\\]\2
-1: <6 : 2.0 : a	O	wZ*uMB'source>
-===Initiate End===
-Node Coverage: 6/20
-===Genetic Algorithm End===
-Node Coverage: 9/20
-Normal fail
-TIME: 0.51437655 (s)
-Attack failed

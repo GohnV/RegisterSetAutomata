@@ -1,9 +1,0 @@
-<([a-z]+) style="text-decoration: underline;">([\w\W]*?)<\/\1>
-1: <13 : 0.9469026548672567 : *~Px(_!yGoeOI0lO	<y style="text-decoration: underli~Px(_!yGoeOI0lO	<y style="text-decoration: underline;">\SxN>
-===Initiate End===
-Node Coverage: 13/16
-===Genetic Algorithm End===
-Node Coverage: 13/16
-Normal fail
-TIME: 95.375781523 (s)
-Attack failed

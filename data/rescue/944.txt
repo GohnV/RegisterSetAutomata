@@ -1,10 +1,0 @@
-<(h1)[^>]*>\s*(.+?)\s*</\1>
-1: <21 : 2.7017543859649122 : 6KnsGM41@*gr$Rv5h1$ L<h1)
-;QS9f>CWXFOPFMEXYSTQ\s*</h1>>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 46.984173606 (s)
-Attack failed

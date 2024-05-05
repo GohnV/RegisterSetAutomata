@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\n|\r\n|\r)\s*(?:currentfile eexec\s+|\/sfnts\s+\[\1<)\h{8,}\1
-PARSE: ERROR {ParsingData.UnsupportedEscape(56, 104)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

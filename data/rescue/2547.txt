@@ -1,9 +1,0 @@
-\"([^ \"\:\t\>\<]*)\:([^ \"\t\>\<]*)\", \"\2
-1: <15 : 1.7272727272727273 : ^ \"\:", ">
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 5.727350656 (s)
-Attack failed

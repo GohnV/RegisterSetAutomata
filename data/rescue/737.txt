@@ -1,13 +1,0 @@
-(src)=("|')([^"]+)(\2)
-2: <18 : 3.1 : {8
-e})B..[~#`U=?t?.[~#`U=?t?N%^Htsrc="|'m6SbG
-t><19 : 2.0701754385964914 : {8
-e})B..[~#`U=?t?N%^Htsrc="{8
-e})B..[~#`U=?t?N%^Htsrc=">
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 40.449287049 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\u{12345}|\u{23456}).\1
-PARSE: ERROR {ParsingData.UnsupportedEscape(2, 117)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

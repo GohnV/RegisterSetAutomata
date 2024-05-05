@@ -1,18 +1,0 @@
-\<\s*(?:\/\s*)?[\w\:]+\b(?:(["']).*?\1|[^\>])*\>
-5: <9 : 3.0 : \<\><21 : 1.646153846153846 : RU!s?%#9Zk"\v3Mt}EAc
-6_E#}-ZoIKBV4.	$L|\|~>(9/ <(wy}dvqA&N-<b#P><22 : 4.277777777777778 : eFtc( "'sz?	p3'<YpDj?KeZ)va	oW2Fcv>><25 : 5.409090909090909 : B2/WUimP9r
-';(n,w#{?x1AV;GS&_\	<9m*J-3vMdf?	L`wH]19-dLl$U	l'oW><29 : 3.8333333333333335 : [Fy	=7kS6/"6` }"X{"z
-]'TQ?p?#eHf0=>1s81Z</	5b1; 4)Fd<!p	|='gu>
-===Initiate End===
-Node Coverage: 30/30
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Vulnerable: Ftc( "'sz?	p3'<YpDj?KeZ)v'sz?	p3'<YpDj?K	p3'<YpDj?KeZ)vpDv'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3'Z)'<YpDj?KeZ)v'sz?	p3'<YpDj?KeZ)va	oW\
-100167 : 770.5153846153846 : Ftc( "'sz?	p3'<YpDj?KeZ)v'sz?	p3'<YpDj?K	p3'<YpDj?KeZ)vpDv'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3'Z)'<YpDj?KeZ)v'sz?	p3'<YpDj?KeZ)va	oW\
-100001 : 990.1089108910891 : Ftc( "'sz?	p3'<YpDj?KeZ)v'sz'<YpDj?K	p3'<YpDj?KeZ)vp'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3''<YpDj?KeZ)v'sz
-1000174 : Ftc( "'sz?	p3'<YpDj?KeZ)v'sz'<YpDj?K	p3'<YpDj?KeZ)vp'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3'''<YpD'sz?	p3''<YpDj?KeZ)v'sz
-1000210 : 1 : Ftc( "'sz?	p3'<YpDj?KeZ)v'sz'<YpDj?K	p3'<YpDj?KeZ)vp'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3'''<YpD'sz?	p3'''<YpD'sz?	p3''<YpDj?KeZ)v'sz
-24363589 : Ftc( "'sz?	p3'<YpDj?KeZ)v'sz'<YpDj?K	p3'<YpDj?KeZ)vp'sz?	p3'<Y<YpDj?KeZ)'<YpD'sz?	p3'''<YpD'sz?	p3'''<YpD'sz?	p3''<YpDj?KeZ)v'sz
-TIME: 4.913035724 (s)
-Attack failed

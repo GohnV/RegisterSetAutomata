@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (<[a-z]+\d*(\s+(?!data-bind=)[a-z0-9\-]+(=(\"[^\"]*\"|\'[^\']*\'))?)*\s+)data-bind=(["'])([\s\S]*?)\5
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(15)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

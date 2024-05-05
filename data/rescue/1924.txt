@@ -1,9 +1,0 @@
-foo=1,function\((.)\)\{alert\(\1\)\}\(foo\);
-1: <8 : 0.15384615384615385 : fooalert()fofoo=1,function()){alrt()fofoo=fofoo=1,function()){alrt()fofoo=1,function()){alert())}(foo);>
-===Initiate End===
-Node Coverage: 8/9
-===Genetic Algorithm End===
-Node Coverage: 8/9
-Normal fail
-TIME: 0.373656746 (s)
-Attack failed

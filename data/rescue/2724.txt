@@ -1,9 +1,0 @@
-^(https?):\/\/(.*)\2\1$
-4: <7 : 1.4 : http><8 : 1.6666666666666667 : https><13 : 1.625 : http://><16 : 2.5833333333333335 : http://http>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 19.845831713 (s)
-Attack failed

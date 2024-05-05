@@ -1,9 +1,0 @@
-(?><<-("?)((?:\w+_|)SQL)\b\1)
-1: <18 : 3.9473684210526314 : j^;^YN~^YN~J_<<-J_>
-===Initiate End===
-Node Coverage: 18/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 6.839461049 (s)
-Attack failed

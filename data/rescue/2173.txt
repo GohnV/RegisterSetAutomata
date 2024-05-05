@@ -1,20 +1,0 @@
-<\/?[^\s>\/]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>
-2: <48 : 24.375 : 8<	zHs'
-<"dZ?G`<+tta'=tVO$'4
-QeYiSr4?poapoaS8%jdERaC8lhr	olQvI="><\/?><51 : 5.064516129032258 : 8<	zHs'
-<"dZ?G`<+tta'=tVO$'4
-QeYiSr4?poapoaS8%jdERaC8lhr	olQvI="><\/8%jdERaC8lhr	olQvI=">>
-===Initiate End===
-Node Coverage: 54/54
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 54/54
-Vulnerable: 8<8<Qr	olQvI="><\/?}:}>}~{=<><{~:?>~~>(w82])fV\)b=\(s?I(V/3\d\|\C8L\Sq\?>:?\:!)sD<><<>:={@:?:@}<
-100170 : 1011.8181818181819 : 8<8<Qr	olQvI="><\/?}:}>}~{=<><{~:?>~~>(w82])fV\)b=\(s?I(V/3\d\|\C8L\Sq\?>:?\:!)sD<><<>:={@:?:@}<
-100001 : 2173.9347826086955 : 8<8<Qr	olQ="><\/?}:}\)\(s\d\|\C8L\Sq\?>:?\:!)
-1000099 : 8<8<Qr	olQ="><\/?}:}\)\(s\d\\)\(s\d\|\C8L\Sq\?>:?\:!)
-1000245 : 9 : 8<8<Qr	olQ="><\/?}:}\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\|\C8L\Sq\?>:?\:!)
-100000246 : 8<8<Qr	olQ="><\/?}:}\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\|\C8L\Sq\?>:?\:!)
-TIME: 4.929822215 (s)
-Attack success, attack string is:
-8<8<Qr	olQ="><\/?}:}\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\\)\(s\d\|\C8L\Sq\?>:?\:!)

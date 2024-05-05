@@ -1,9 +1,0 @@
-^([^aeiou]*[aeiou]+)([^wx])\2$
-3: <7 : 5.0 : ^><12 : 5.875 : ^^aeiou><14 : 4.111111111111111 : ^^aeiouu>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 2.226791272 (s)
-Attack failed

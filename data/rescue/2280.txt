@@ -1,9 +1,0 @@
-^(['"])(.*?)(?<!\\)\1$WS*?$CRLF+(.*)
-1: <17 : 7.054054054054054 : '"x!"x!!\'"`"&rYY,!"x!!\'"`"&rYY,`"'>
-===Initiate End===
-Node Coverage: 17/28
-===Genetic Algorithm End===
-Node Coverage: 17/28
-Normal fail
-TIME: 10.635016289 (s)
-Attack failed

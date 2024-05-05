@@ -1,9 +1,0 @@
-^\s*([A-Z]\w*)\s*=\s*(['"]).*\2$
-6: <11 : 5.5 : A><12 : 5.666666666666667 : AB><15 : 5.0 : A=><20 : 4.4 : A='"><21 : 4.142857142857143 : A='"'"><22 : 4.333333333333333 : A='"'>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 28.785302572 (s)
-Attack failed

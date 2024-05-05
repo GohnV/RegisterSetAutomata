@@ -1,12 +1,0 @@
-([aeiou])\1.*([aeiou])\2
-1: <13 : 2.4130434782608696 : %GbgN8lLt
-%GbgN8lLt+q,
-%nW>k1g8/R%
-%nW>k1g8/R%M{?_CDbG*dd~nr	;'daabG*dd~nr	;'daaeioud~ntO>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 21.444123371 (s)
-Attack failed

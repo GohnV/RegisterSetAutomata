@@ -1,9 +1,0 @@
-!\[([^\]]*?)][ \t]*()\([ \t]?<?(data:.+?\/.+?;base64,[A-Za-z0-9+/=\n]+?)>?(?: =([*\d]+[A-Za-z%]{0,4})x([*\d]+[A-Za-z%]{0,4}))?[ \t]*(?:(["'])([^"]*?)\6)?[ \t]?\)
-1: <19 : 7.4520547945205475 : M7?	idr"%dq	:BR![M7?	idr"%dq	:BR![	idr"%dq	:BR![M7?	idr"%dq	:BR![Nu7^](>
-===Initiate End===
-Node Coverage: 19/66
-===Genetic Algorithm End===
-Node Coverage: 19/66
-Normal fail
-TIME: 87.616247501 (s)
-Attack failed

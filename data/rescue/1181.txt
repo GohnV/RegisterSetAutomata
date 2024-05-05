@@ -1,9 +1,0 @@
-<(h\d)><em>([\s\S]*?)<\/em><\/\1>
-1: <7 : 1.1818181818181819 : |Cq+fz+a>MAl5e85|up'<h5e8uAl5e85>
-===Initiate End===
-Node Coverage: 7/16
-===Genetic Algorithm End===
-Node Coverage: 7/16
-Normal fail
-TIME: 0.568175119 (s)
-Attack failed

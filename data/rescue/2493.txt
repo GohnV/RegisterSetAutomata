@@ -1,9 +1,0 @@
-FOREACH \w+ \{\s+(\w+) = a;\s+(\w+) = FILTER \1 BY b == test;\s+(\w+) = \2\.\$0;\s+GENERATE \3;\s+\}
-1: <30 : 0.5384615384615384 : FOREACH FOREACH { BY = a; BY = FILTER BY BY b == test; BY = BY = a; BY = FILTER BY BY b == test; BY = a; BY = FILTER BY BY b == test; FOREACH >
-===Initiate End===
-Node Coverage: 30/39
-===Genetic Algorithm End===
-Node Coverage: 30/39
-Normal fail
-TIME: 3.733794386 (s)
-Attack failed

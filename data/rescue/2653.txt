@@ -1,9 +1,0 @@
---\[(=*)\[.*?\]\1\]
-1: <14 : 1.46875 : ueRyZ.G.]8A<yZ.G.|--[[*(	\\]]>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 64.367461445 (s)
-Attack failed

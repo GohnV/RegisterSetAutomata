@@ -1,9 +1,0 @@
-^m(\S)(.*)\1$
-4: <4 : 2.0 : m><11 : 3.5 : m^m><12 : 3.8333333333333335 : m^m^m><13 : 3.6 : m^m^>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 9.606814497 (s)
-Attack failed

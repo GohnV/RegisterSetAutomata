@@ -1,9 +1,0 @@
-^\s*qr(.)(.*)\1\s*$
-4: <6 : 2.0 : qr><13 : 3.5555555555555554 : qr^\s*qr><16 : 3.888888888888889 : qr\1\s*$><17 : 3.0 : qr\1\s*$\>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 14.507639077 (s)
-Attack failed

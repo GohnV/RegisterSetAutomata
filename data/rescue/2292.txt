@@ -1,17 +1,0 @@
-__\(('|")(.+?)(?<!\\)\1
-1: <20 : 2.5327868852459017 : WS-@S(0M	
-"X-@S(0M	
-//Z"s__('S-@S(0M	
-S-@S(0M	
-"X-@S(0M	
-//Z"s__('S-	
-//Z"s__('S-@S(0M	
-"X-@S(0M	
-//Z"s__('a\gI!('>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 41.654006223 (s)
-Attack failed

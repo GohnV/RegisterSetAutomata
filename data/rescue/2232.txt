@@ -1,9 +1,0 @@
-content=("|')([^"']+)\1
-3: <5 : 0.5555555555555556 : content=><13 : 1.2727272727272727 : content="|><13 : 1.1666666666666667 : content="|">
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 12.518933536 (s)
-Attack failed

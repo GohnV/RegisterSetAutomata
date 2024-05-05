@@ -1,9 +1,0 @@
-^s(.).*\1.*\1$
-5: <4 : 2.0 : s><9 : 2.75 : s^s><12 : 4.2727272727272725 : s.*\1.*\1$><13 : 6.375 : sssm'ME{YVs*uaZ><14 : 4.25 : s.*\1.*\1$.>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 18.388494584 (s)
-Attack failed

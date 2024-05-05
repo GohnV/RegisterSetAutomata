@@ -1,9 +1,0 @@
-(<)(dependency)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.0952380952380953 : (8u(phwCb{>Pky1AHV"=u(ph<.8u(phwCb{>Pky1A>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 6/25
-Normal fail
-TIME: 0.94361497 (s)
-Attack failed

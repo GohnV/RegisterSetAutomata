@@ -1,3 +1,0 @@
-<a .*href=(["])([^\1]*)(?:\1).*>\s*(\S.*\S)\s*</a>
-TIME: 0.046947862 (s)
-Regex compile error

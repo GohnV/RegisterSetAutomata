@@ -1,9 +1,0 @@
-<([a-z]+) style="(font-weight: bold; ?|font-style: italic; ?|text-decoration: underline; ?){3}">([\w\W]*?)<\/\1>
-1: <8 : 1.8888888888888888 : 3~%<z0EC>
-===Initiate End===
-Node Coverage: 8/32
-===Genetic Algorithm End===
-Node Coverage: 8/32
-Normal fail
-TIME: 0.759374231 (s)
-Attack failed

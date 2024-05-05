@@ -1,9 +1,0 @@
-^\(('|")(.*)\1\)$
-2: <15 : 4.428571428571429 : ('('"'><16 : 3.625 : ('('"')>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 3.078003432 (s)
-Attack failed

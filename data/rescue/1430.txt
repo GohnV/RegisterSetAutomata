@@ -1,9 +1,0 @@
-^(.*?($CRLF)\2)
-1: <8 : 5.5 : F>
-===Initiate End===
-Node Coverage: 8/12
-===Genetic Algorithm End===
-Node Coverage: 8/12
-Normal fail
-TIME: 7.375413195 (s)
-Attack failed

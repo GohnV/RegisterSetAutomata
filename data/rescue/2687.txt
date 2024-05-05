@@ -1,9 +1,0 @@
-^<i(\d+)>(.*?)<\/i\1>
-6: <5 : 1.6666666666666667 : <i><8 : 2.25 : <i0><13 : 2.8 : <i0>><14 : 3.375 : <i0></i><15 : 3.5555555555555554 : <i0></i0><15 : 1.6 : <i0></i0>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 19.46660369 (s)
-Attack failed

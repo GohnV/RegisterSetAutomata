@@ -1,9 +1,0 @@
-href=(["'])[^"']*\?attachment_id=(\d+)[^"']*\1
-6: <3 : 0.5 : href=><7 : 1.0 : href="><8 : 1.25 : href="^><11 : 2.5416666666666665 : href="*\?attachment_id=><15 : 2.8 : href="*\?attachment_id=0><16 : 2.6538461538461537 : href="*\?attachment_id=0">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 218.573001 (s)
-Attack failed

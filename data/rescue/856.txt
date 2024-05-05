@@ -1,9 +1,0 @@
-(<a\s[^>/]*?href\s*=\s*)(['"])(.+?)(\2)
-1: <16 : 6.817391304347826 : jb7PLqLIbs*re?IbJ]<a	M|~ef8r+?href=*s\\s*re?IbJ]<a	M|~]*]*?h}Er+M|~ef8r+?href=*s\\s*re?IbJ]<a	M|~]*]*?h}Er+?href8i>
-===Initiate End===
-Node Coverage: 16/25
-===Genetic Algorithm End===
-Node Coverage: 23/25
-Normal fail
-TIME: 79.632311062 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^\s*<\?xml\s+version\s*=\s*(['"]).*?\1\s+encoding\s*=\s*(["'])(.*?)\2
-1: <36 : 1.9487179487179487 : <?xml	version='"'	encoding='=nsrsion='>
-===Initiate End===
-Node Coverage: 36/36
-===Genetic Algorithm End===
-Node Coverage: 36/36
-Normal fail
-TIME: 2.51421587 (s)
-Attack failed

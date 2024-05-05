@@ -1,17 +1,0 @@
-^-----BEGIN (.*) KEY-----\n\r?([0-9A-z\n\r\+\/\=]+)\n\r?-----END \1 KEY-----$
-7: <7 : 0.5833333333333334 : -----BEGIN ><8 : 2.423076923076923 : -----BEGIN  KEY-----\n\r?><13 : 2.1818181818181817 : -----BEGIN  KEY-----
-><15 : 2.4347826086956523 : -----BEGIN  KEY-----
-><18 : 2.7916666666666665 : -----BEGIN  KEY-----
-
-><20 : 2.090909090909091 : -----BEGIN  KEY-----
-
------END ><22 : 1.6904761904761905 : -----BEGIN  KEY-----
-
------END  KEY----->
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 38.927092247 (s)
-Attack failed

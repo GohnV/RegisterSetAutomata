@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^ *<([^ >/]+) ?([^>]*)\/{0}>(?=[\s\S]*<\/\1>)((?:[\s\S]*?(?:<\1[^>]*>[\s\S]*?<\/\1>)*[\s\S]*?)*?)<\/\1>\n*
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(28)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

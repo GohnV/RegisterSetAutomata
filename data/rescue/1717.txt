@@ -1,9 +1,0 @@
-^@import\s+url\((["']?)([^)]+?)\1\);
-5: <4 : 0.5 : @import><6 : 0.7777777777777778 : @import	><13 : 1.0769230769230769 : @import	url(><16 : 2.0 : @import	url(url(><17 : 1.7894736842105263 : @import	url(url();>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 36.559264146 (s)
-Attack failed

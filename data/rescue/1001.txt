@@ -1,9 +1,0 @@
-d{1,4}|m{1,4}|yy(?:yy)?|([HhM])\1?
-4: <12 : 4.0 : yy><14 : 2.8 : yyyy><14 : 7.818181818181818 : X{ZTAR6]M><9 : 5.0 : m>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 33.96449129 (s)
-Attack failed

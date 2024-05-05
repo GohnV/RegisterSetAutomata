@@ -1,9 +1,0 @@
-(foo)(foo)(bar)\3
-1: <9 : 1.8484848484848484 : Zs#BA@eFtm@m eFtmeFt eFtm foofoo>
-===Initiate End===
-Node Coverage: 9/13
-===Genetic Algorithm End===
-Node Coverage: 9/13
-Normal fail
-TIME: 3.578383887 (s)
-Attack failed

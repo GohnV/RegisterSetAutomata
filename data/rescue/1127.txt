@@ -1,9 +1,0 @@
-<th(?:\s+align=("|')(left|right|center)\1)?\s*>
-1: <10 : 1.1515151515151516 : cPcP<tcPP<tcPcPcP<tcPP<tcPcP<th>>
-===Initiate End===
-Node Coverage: 10/28
-===Genetic Algorithm End===
-Node Coverage: 16/28
-Normal fail
-TIME: 23.503778987 (s)
-Attack failed

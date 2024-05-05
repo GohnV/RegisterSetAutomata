@@ -1,10 +1,0 @@
-([$v])(\1si)            $ 
-1: <7 : 2.0784313725490198 : Uf6YkZ S3yD*N.BdFL
-N2A>W^KznfM)+	6]W_$PZy{/&|X^vv>
-===Initiate End===
-Node Coverage: 7/13
-===Genetic Algorithm End===
-Node Coverage: 7/13
-Normal fail
-TIME: 0.861210265 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(<<)("|'|)(HTML)\2
-2: <14 : 1.6363636363636365 : "7<<"HTML"><14 : 3.0 : "7<<<"HTML>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 2.810234565 (s)
-Attack failed

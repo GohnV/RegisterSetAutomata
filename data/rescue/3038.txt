@@ -1,9 +1,0 @@
-(([ぁ-ん]{2,})\2)|(([ァ-ヴ]{2,})\4)
-1: <16 : 4.368421052631579 : ニjニニニニニニニニニニニニニニニニ>
-===Initiate End===
-Node Coverage: 16/19
-===Genetic Algorithm End===
-Node Coverage: 18/19
-Normal fail
-TIME: 4.464668312 (s)
-Attack failed

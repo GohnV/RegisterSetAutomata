@@ -1,10 +1,0 @@
-\blang\s*=\s*(["'])([^'"]+)\1
-1: <18 : 1.773109243697479 : 	"j/wUUX'6FR[h`Kfo^Zg*}'Y	3,67m/
-h`_Q,f_wR|8/langw--4pl4aWR|8/langwQ,f_wR|8/langw--4pl4aWR|8/lang='}*gZ^ofK`h[RF6'>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 3.889689893 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^([A-Z].*)([kpqt])\2([$v])$ 
-1: <13 : 5.333333333333333 : Y g Y Yg Y Y++qqt>
-===Initiate End===
-Node Coverage: 13/17
-===Genetic Algorithm End===
-Node Coverage: 15/17
-Normal fail
-TIME: 2.624767926 (s)
-Attack failed

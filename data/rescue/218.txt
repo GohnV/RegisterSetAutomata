@@ -1,9 +1,0 @@
-^\s*(<\s*([\w-]+)(\s+[\w-]+=(["']).*?\4)*\s*)
-7: <10 : 5.0 : <><21 : 7.333333333333333 : <d><23 : 7.0 : <d	><24 : 4.625 : <XjKvz><26 : 4.333333333333333 : <XjKvz=><30 : 4.181818181818182 : <XjKvz="'><31 : 4.0 : <XjKvz="'">
-===Initiate End===
-Node Coverage: 31/31
-===Genetic Algorithm End===
-Node Coverage: 31/31
-Normal fail
-TIME: 7.203543026 (s)
-Attack failed

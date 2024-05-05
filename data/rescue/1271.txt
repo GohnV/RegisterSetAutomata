@@ -1,15 +1,0 @@
-.{1,128}?(?=(.)\1|\z)|.{128}
-3: <15 : 8.0 : .><17 : 9.428571428571429 : .1,128><13 : 10.5 : .>
-===Initiate End===
-Node Coverage: 19/19
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Vulnerable: tU|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|UtaD<
-100022 : 549.5714285714286 : tU|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|UtaD<
-100005 : 565.0 : U|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|Ut
-100005 : U|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|Ut
-100005 : 0 : U|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|Ut
-100088 : U|`zM19L?k1@pUc6/9#^+oryNTSRLb[nM{6[bKn^&q[d8N\$Gd# Pm^	ba	hut]821,1{?{}>(1{=>({|z|1=<821,z|1=<821,1.D9/6`|Ut,128<=1|z|{(>={1(>}{?{1,1b[6{Mn[bLRSTNyro+^#9/6cUp@1k?L91Mz`|Ut
-TIME: 92.641881443 (s)
-Attack failed

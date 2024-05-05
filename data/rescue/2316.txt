@@ -1,9 +1,0 @@
-(.)\x1A[0-9]+\1
-1: <10 : 2.2 : ~7~>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 37.783502804 (s)
-Attack failed

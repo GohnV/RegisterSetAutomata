@@ -1,9 +1,0 @@
-(?=(a{4}))\1(?:)
-1: <7 : 6.5 : a>
-===Initiate End===
-Node Coverage: 7/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.176542117 (s)
-Attack failed

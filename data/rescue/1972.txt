@@ -1,9 +1,0 @@
-(['"])NG_VERSION_CODENAME\1
-1: <6 : 1.5142857142857142 : iRS@Q#~#~Vq_vSVyON_CODE| "NG_VERSION_CODEN_CODE| "NG_VERSION_CODENAME>
-===Initiate End===
-Node Coverage: 6/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 1.645813268 (s)
-Attack failed

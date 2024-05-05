@@ -1,154 +1,0 @@
-(\bexport\s+(?:[^'"]+\s+from\s+)??)(['"])([^'"]+)(\2)
-1: <26 : 4.787878787878788 : export
-erexpre
-export
-	'r
-b
-exp'>
-===Initiate End===
-Node Coverage: 26/30
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 26/30
-Vulnerable: export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
- xport
-ere			
-	
-		
-
-	
-
-erexpre
-export
-		
-
-
-		
-
-100165 : 782.5390625 : export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
- xport
-ere			
-	
-		
-
-	
-
-erexpre
-export
-		
-
-
-		
-
-100099 : 1191.654761904762 : export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
-	
-	
-		
-
-	
-
-erexpr
-100099 : export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
-	
-	
-		
-
-	
-
-erexpr
-100099 : 0 : export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
-	
-	
-		
-
-	
-
-erexpr
-103325 : export
-
-
-
- 	    			  			
-
-	
-
-
-	
-		    		
-
-		
-
-	
-	
-		
-
-	
-
-erexpr
-TIME: 10.689345914 (s)
-Attack failed

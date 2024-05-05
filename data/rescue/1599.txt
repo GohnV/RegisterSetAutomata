@@ -1,23 +1,0 @@
-(.*?)([fjlv])(\2)?(?:\{(.*)\})?(.*?)?(~)?(~)?$
-7: <8 : 6.0 : ~><29 : 10.666666666666666 : ~fjlv><31 : 9.428571428571429 : ~fjlv~><33 : 10.196969696969697 : y_;3;aZE!">fnFq^3F8	wW*6\O@J.]u*/\RNWa[3}15b]mKy/-QWY'TJ~D W=:ah0><37 : 219.63076923076923 : t=!vA1^A\Tb
-'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"M~L<%~sSc|pM8w58D><31 : 45.196969696969695 : "I6V;5&"!HQ
-Vu6-Hc2h8l:;
-}aIE])16h:tqiFs2&L6ER(09Bc!R8ffrY+:>4><36 : 98.95384615384616 : >C|j{ D7>X[!{8c}\b_Y]q*	:L-U
-*t3`XU{{B5O`FEv4x{eKfYpKx;J"e@*v	>
-===Initiate End===
-Node Coverage: 42/42
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 42/42
-Vulnerable: "I6V;5&"!HQ
-Vu6-Hc2h8l:;
-}aIE])16h:tqiFs2&L6ER(09Bc!R8ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"M~L<%~sSc|pM8w58D
-100067 : 680.7278911564625 : "I6V;5&"!HQ
-Vu6-Hc2h8l:;
-}aIE])16h:tqiFs2&L6ER(09Bc!R8ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"M~L<%~sSc|pM8w58D
-100028 : 1266.1772151898733 : "I6V-H)16h:tqiFs2R ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"8
-100028 : "I6V-H)16h:tqiFs2R ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"8
-100028 : 0 : "I6V-H)16h:tqiFs2R ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"8
-103720 : "I6V-H)16h:tqiFs2R ]!v{=&,n9L'GG7G%,|Z8:"ff'Q	Tr>`yYdR ]!v{=&,n9L'GG7G%,|Z8:"8
-TIME: 9.582033385 (s)
-Attack failed

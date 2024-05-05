@@ -1,9 +1,0 @@
-(<<<)\s*(['"]?)(CSS)(\2)\s*$\n?
-2: <13 : 3.5555555555555554 : UW<<<'C><22 : 2.0625 : tCUHSJZsDzMPYKnphrqhlNDTLVfCBVLeaiNNxfJhoTTIhGHiSFgnItzhEPXVhmrsXAkwluJKzAOHWOchclCoVlBdVsKRtgGFsnTJqcJyaJZoeslpBfCSOUW'<<<CSS>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 26.386675738 (s)
-Attack failed

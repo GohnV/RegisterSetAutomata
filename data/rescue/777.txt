@@ -1,9 +1,0 @@
-([a-z])\1*|'([^']|'')+'|''|.
-4: <15 : 7.5 : '><17 : 5.5 : '''><9 : 4.5 : j><10 : 3.6666666666666665 : jj>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 26.127697856 (s)
-Attack failed

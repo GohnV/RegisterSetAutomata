@@ -1,9 +1,0 @@
-(^|\s)([*_])(.+?)\2(\s|$)
-1: <23 : 4.223880597014926 : #tGX;ZB	3V`o>9n_^)]`PSWnZ2<<SA'?q;1WMU44fNYGI	54L}ITL~$|*_F5vY*_>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 48.411326376 (s)
-Attack failed

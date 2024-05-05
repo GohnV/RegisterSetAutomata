@@ -1,9 +1,0 @@
-\A229 .*?\(([!-~])\1\1([0-9]+)\1\)
-1: <17 : 4.0 : 229 22  (2222( 22222( (2  (2222( 22222( (222222( ( >
-===Initiate End===
-Node Coverage: 17/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 17.927172845 (s)
-Attack failed

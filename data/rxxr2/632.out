@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \.([\w-]+)|\[(\w+)(?:([!*^$~|]?=)(["']?)([^\4]*?)\4)?\]|:([\w-]+)(?:\(["']?(.*?)?["']?\)|$)
-PARSE: ERROR {ParsingData.UnsupportedEscape(44, 52)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

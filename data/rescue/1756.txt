@@ -1,9 +1,0 @@
-content=(["'])?(.*?)\1
-3: <9 : 1.0 : content=><12 : 2.5454545454545454 : content="'><13 : 2.323529411764706 : IMG+T?content='<r	vtRXw"7|;Orl5`'>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 58.59872009 (s)
-Attack failed

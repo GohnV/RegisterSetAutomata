@@ -1,6 +1,0 @@
-= [1] =
-INPUT: instance\(\s*(["'])((?:(?!\1)[A-z0-9.\-_]+))\1\s*\)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(23)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

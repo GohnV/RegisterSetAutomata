@@ -1,9 +1,0 @@
-(.)9\1
-1: <7 : 3.75 : %%R}"%%R}"%%RR}"%%R}"%%R}"}"R""R}9}>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 13.964950902 (s)
-Attack failed

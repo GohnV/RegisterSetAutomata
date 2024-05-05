@@ -1,9 +1,0 @@
-\d{4}([\-/])\d{1,2}\1\d{1,2}
-1: <5 : 1.3333333333333333 : bitNA'C,cnV'7>
-===Initiate End===
-Node Coverage: 5/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 1.175746526 (s)
-Attack failed

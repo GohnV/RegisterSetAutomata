@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \A\line\s+(\d+)\s*(?:(\"?)([^\"]*[^\s\"])\2)?\s*\z
-PARSE: ERROR {ParsingData.UnsupportedEscape(3, 108)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

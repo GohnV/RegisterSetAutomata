@@ -1,9 +1,0 @@
-1(?=((?:33|3)))\1(?:)37
-1: <18 : 1.625 : rpwI	DDP,yDP,OmI	DP,@13>
-===Initiate End===
-Node Coverage: 18/19
-===Genetic Algorithm End===
-Node Coverage: 18/19
-Normal fail
-TIME: 1.524082977 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(\[((?:\[[^\]]*\]|[^\[\]])*)\]\([ \t]*()<?((?:\([^)]*\)|[^()\s])*?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))
-1: <58 : 11.460526315789474 : ][xTU~$x:4%yLX-?C)1z<~K?O88S[^h%](JOxTU~$x:48I>LX-?C)1z<~K?O88S[^h%](JOxTU~8S[^h%](JOxTU~$x:48I>%](JO'S[^h%](JOxTU~$x:48I>%](JO'+=][_}.*.]]/?:0(K%>
-===Initiate End===
-Node Coverage: 58/58
-===Genetic Algorithm End===
-Node Coverage: 58/58
-Normal fail
-TIME: 33.788397923 (s)
-Attack failed

@@ -1,24 +1,0 @@
-(\brequire\s*?\(\s*?)(['"`])([^'"`]+)(\2\s*?\))
-1: <23 : 4.723577235772358 : =h&fY76C|G8ucf+_YU77RJ~require
-[EQh{]^v77RJ~require
-(' 
-		equv77RJ~require
-(' 
-		equire
-(' 
-		
-    
-	 
-	 
-
- 
-
-
->
-===Initiate End===
-Node Coverage: 23/25
-===Genetic Algorithm End===
-Node Coverage: 23/25
-Normal fail
-TIME: 12.851801925 (s)
-Attack failed

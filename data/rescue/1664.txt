@@ -1,3 +1,0 @@
-([gatc])\1{$reps}
-TIME: 0.094319145 (s)
-Regex compile error

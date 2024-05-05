@@ -1,9 +1,0 @@
-<(([^:]+:){0,1})record>.*</\1record>
-1: <19 : 2.8333333333333335 : record</^:record>.*<//^:record>.*</^/<r</^:record>.*</^/<record>.*</\</^/<r</^:record>.*</^/<record>.*</\1record>>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 21.097721418 (s)
-Attack failed

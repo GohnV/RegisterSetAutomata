@@ -1,13 +1,0 @@
-(\n\n)?~(K|G)\d+\2(\n\n)?
-1: <23 : 4.058333333333334 : pp!YjVIn*( eD5F')54}*( eD5F')54},[z`ght*
-
-Ej5wQ{ofk/MjVI&(X&$>%9#179ve|X2}5_E;eYB*~K1X&$>%9#179ve|X2}5_E;eYB*~K1K
-
->
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 9.470207936 (s)
-Attack failed

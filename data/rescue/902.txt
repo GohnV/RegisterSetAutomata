@@ -1,11 +1,0 @@
-([A-Za-zａ-ｚＡ-Ｚαβδγ])([０-９0-9])［＃「\2」は下付き小文字］
-1: <10 : 3.3366336633663365 : b&&8=6|,xcv[	6ye.M{v[	6ye.M{]Pm}.viSBh9]rf=
-		Pf9［＃「6ye.M{v[	6ye.M{]Pm}.viSBh9]rf=
-		Pf9［＃「9l8>
-===Initiate End===
-Node Coverage: 10/12
-===Genetic Algorithm End===
-Node Coverage: 10/12
-Normal fail
-TIME: 25.51941453 (s)
-Attack failed

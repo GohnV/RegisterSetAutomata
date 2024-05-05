@@ -1,9 +1,0 @@
-^-Accflags=(['"]?)(.+)\1
-2: <9 : 0.8181818181818182 : -Accflags=><13 : 1.5454545454545454 : -Accflags=^-Accflags=>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.208544619 (s)
-Attack failed

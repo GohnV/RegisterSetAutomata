@@ -1,9 +1,0 @@
-(\d{4})([-/])(\d{2})\2(\d{2})$timere
-1: <8 : 4.615384615384615 : 4sf7eD9K1543>
-===Initiate End===
-Node Coverage: 8/21
-===Genetic Algorithm End===
-Node Coverage: 14/21
-Normal fail
-TIME: 38.676055431 (s)
-Attack failed

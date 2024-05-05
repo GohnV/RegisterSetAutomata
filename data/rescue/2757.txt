@@ -1,9 +1,0 @@
-^(\[?)([\w-]+) \[\2 ...\](\]?)
-1: <22 : 2.0833333333333335 : UU [UU [UU]>
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 4.870877826 (s)
-Attack failed

@@ -1,9 +1,0 @@
-([^\sa-zA-Z0-9\\])(\^|\\A)?(.*?)(\$|\\z|\\Z)?\1[a-zA-Z]*
-5: <3 : 2.5 : \><20 : 7.333333333333333 : \$><24 : 16.25 : \$^><24 : 10.0 : \$\z><27 : 27.27777777777778 : \$^^\sa-zA-Z0-9\\>
-===Initiate End===
-Node Coverage: 30/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 328.743015669 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^(?=<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del)\b)(?!.*?</\1>)
-2: <24 : 8.0 : <h><34 : 4.0 : <math?!.*?<math?!.*?</mathh?<h>
-===Initiate End===
-Node Coverage: 37/38
-===Genetic Algorithm End===
-Node Coverage: 37/38
-Normal fail
-TIME: 0.894391012 (s)
-Attack failed

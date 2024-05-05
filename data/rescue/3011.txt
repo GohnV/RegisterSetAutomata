@@ -1,9 +1,0 @@
-\[list=a(:.*)?\](.+)\[\/list(:.)?\1?\]
-7: <5 : 0.625 : [list=a><10 : 1.5 : [list=a:.><8 : 0.8888888888888888 : [list=a]><11 : 1.2 : [list=a]}><17 : 2.625 : [list=a]}[/list><20 : 3.1578947368421053 : [list=a]}[/list:.*><18 : 2.764705882352941 : [list=a]}[/list]>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 227.767702928 (s)
-Attack failed

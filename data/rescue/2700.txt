@@ -1,14 +1,0 @@
-(^([\t ]*)script\b.*\.[\t ]*)(?:(?:\r?\n|\r(?!\n))(?:\2[\t ]+.+|\s*?(?=\r?\n|\r)))+
-5: <25 : 4.923076923076923 : script\b.*\.><41 : 5.857142857142857 : script\b.*\.
-><43 : 6.466666666666667 : script\b.*\.
-	><52 : 6.375 : script\b.*\.
-	><53 : 6.0 : script\b.*\.
-	
->
-===Initiate End===
-Node Coverage: 53/53
-===Genetic Algorithm End===
-Node Coverage: 53/53
-Normal fail
-TIME: 20.258070139 (s)
-Attack failed

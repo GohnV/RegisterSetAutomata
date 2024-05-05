@@ -1,9 +1,0 @@
-([*_]+)(.*?)\1
-2: <11 : 11.666666666666666 : *_><12 : 6.666666666666667 : *_.*?>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 54.362920401 (s)
-Attack failed

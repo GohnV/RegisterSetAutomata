@@ -1,9 +1,0 @@
-url\((['"]?)([^'")]*?\.ttf)\1\)
-3: <9 : 1.8 : url(><13 : 2.6666666666666665 : url(.ttf><12 : 1.2 : url(.ttf)>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 105.658256698 (s)
-Attack failed

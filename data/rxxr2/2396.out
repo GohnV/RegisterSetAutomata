@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?<=[\s:])([0-9]+[a-z]*)\s+\1\s+\1\s+\1
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(0)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

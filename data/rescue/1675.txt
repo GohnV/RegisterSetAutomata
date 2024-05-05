@@ -1,9 +1,0 @@
-^([-\w]+)=("|')(.+?)\2$
-1: <20 : 3.9680851063829787 : 2qn='pgp"F#)q;AAU_^/zOhn='pgp"F#)q;AU_^/zOhBFVhs~=`1[p"F#:^E@)q;AU_^/zOhBe.)uf}=1oC'':adNL)}'>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 5.964090807 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \b(\w+)\b\s*([\=\!]\~)\s*((?:/.*?/|m(\W).*?\4)[imsx]*)(?=\s|$)
-PARSE: ERROR {ParsingData.InvalidBackreference(43)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

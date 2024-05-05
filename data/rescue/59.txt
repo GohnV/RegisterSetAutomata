@@ -1,9 +1,0 @@
-require\(\s*(['"'])([^'"]+)\1\s*\)
-5: <5 : 0.5555555555555556 : require(><9 : 0.9 : require('><12 : 1.1818181818181819 : require('+><15 : 1.3333333333333333 : require('+'><16 : 1.3076923076923077 : require('+')>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 20.329047808 (s)
-Attack failed

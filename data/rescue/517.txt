@@ -1,9 +1,0 @@
-&lt;(b|emph)&gt;(.+?)&lt;/\1&gt;
-2: <15 : 3.25 : &lt;b&gt;&;b&gt;&gt;&lt;/\1&gt;><16 : 1.8064516129032258 : &lt;b&gt;&;b&gt;&gt;&lt;/b&gt;>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 102.408210935 (s)
-Attack failed

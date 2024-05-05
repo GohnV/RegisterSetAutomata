@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \b[a-z\d][a-z\d-]*::?(?:(?:\S+)??\[(?:[^\]\\"]|(["'])(?:(?!\1)[^\\]|\\.)*\1|\\.)*\])
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(56)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

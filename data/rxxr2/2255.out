@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <[a-z]+?\b(.*?on.*?(['"]).*?\2.*?)+>
-PARSE: ERROR {ParsingData.InvalidBackreference(28)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

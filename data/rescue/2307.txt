@@ -1,9 +1,0 @@
-\G \<\%($re_tag)\> (.*?) \<\/\%\1\> $re_eol? 
-1: <3 : 1.2 : NAi$;#4<3>
-===Initiate End===
-Node Coverage: 3/22
-===Genetic Algorithm End===
-Node Coverage: 3/22
-Normal fail
-TIME: 0.126072237 (s)
-Attack failed

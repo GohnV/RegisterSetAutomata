@@ -1,9 +1,0 @@
-<(ul|ol)\b[^>]*>([\s\S]*?)<\/\1>
-1: <6 : 1.1724137931034482 : k+qP8X+*X+*K~GuBh;QYp.3<uBh;>
-===Initiate End===
-Node Coverage: 6/21
-===Genetic Algorithm End===
-Node Coverage: 19/21
-Normal fail
-TIME: 40.643828296 (s)
-Attack failed

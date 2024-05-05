@@ -1,9 +1,0 @@
-^type:\s*('|")?(\w+)\1?\s*$
-3: <12 : 2.0 : type:><15 : 2.5714285714285716 : type:"><20 : 3.0 : type:a>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 4.830558291 (s)
-Attack failed

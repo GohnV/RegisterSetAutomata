@@ -1,9 +1,0 @@
-(<(h([1-9][0-9]*))[^>]*?>)(.*?)(<\/\2>)
-1: <23 : 13.573333333333334 : o	<^>>hcq<h2o	<^>Pu/>hcq<h2o	<^>>hcq<h2o	<^>hcqPu/>hcq<h2o	cq<h2o	<^>hcq</>
-===Initiate End===
-Node Coverage: 23/26
-===Genetic Algorithm End===
-Node Coverage: 23/26
-Normal fail
-TIME: 13.104929835 (s)
-Attack failed

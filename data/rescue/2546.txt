@@ -1,9 +1,0 @@
-\[quote(:.*)?\](.*?)\[\/quote\1?\]
-5: <5 : 0.7142857142857143 : [quote><10 : 1.25 : [quote]><10 : 2.0 : [quote:.*><14 : 2.7333333333333334 : [quote][/quote><13 : 0.8125 : [quote][/quote]>
-===Initiate End===
-Node Coverage: 19/19
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Normal fail
-TIME: 168.063993287 (s)
-Attack failed

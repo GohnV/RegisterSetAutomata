@@ -1,15 +1,0 @@
-(!(\w+))\n[\w\W]*\n*\1
-1: <16 : 4.111111111111111 : +)Mcg!p-#7Y{_J)Z!0x1
-+)Mcg!p-#7Y{_J)Z!0x1
-tYF.d*z.v:k	,i&97C
-"v{A(A
-:f*z.v:k	,i&97C
-"v{A(A
-:%D"?>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 25.934707425 (s)
-Attack failed

@@ -1,21 +1,0 @@
-<a\s[^>]*href=([\"']??)([^\" >]*?)\1[^>]*>(.*)<\/a>
-2: <24 : 2.4655172413793105 : qcJ1(-ccJ1(-c
-"}-+$Fa(Za:A]+Z51(-c
-"}-+$Fa(Za:A]5F^9p@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor<a\s%aHyo%aHyhr?G=^href=>><23 : 1.725 : qcJ1(-ccJ1(-c
-"}-+$Fa(Za:A]+Z51(-c
-"}-+$Fa(Za:A]5F^9p@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor<a\s%aHyo%aHyhr?G=^href=></a>>
-===Initiate End===
-Node Coverage: 25/25
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Vulnerable: <a<aa<ro<aqcF<aqcJ1(-ccF<aqyor<*]':?{)?!.%a\sp@F<aHyor<a\s}aHy*href=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\1(-c
-"}-+$F9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor<a\s%aHyo%aHyhr?G=^href=
-100319 : 466.6 : <a<aa<ro<aqcF<aqcJ1(-ccF<aqyor<*]':?{)?!.%a\sp@F<aHyor<a\s}aHy*href=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\1(-c
-"}-+$F9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor<a\s%aHyo%aHyhr?G=^href=
-100080 : 788.0314960629921 : <a<a<aq<aq<a<ahref=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor
-100080 : <a<a<aq<aq<a<ahref=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor
-100080 : 0 : <a<a<aq<aq<a<ahref=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor
-100174 : <a<a<aq<aq<a<ahref=<a\s%aHyo%aHyhr?(<aqcJ1(<aqcJ1(<aqcJ1(<aa<F@ps\Hyor<a\9yor<a\sp@F<aHyor<a\s}-+$Fa(Za:A]5F^9yor
-TIME: 30.291989887 (s)
-Attack failed

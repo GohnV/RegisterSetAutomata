@@ -1,15 +1,0 @@
-\b(?:m|qr)\s+([a-zA-Z0-9])(\\?.)*?\s*\1[msixpodualgc]*
-1: <27 : 5.714285714285714 : |imMgGF{Tm8|E#]m Wt}%e+8>
-===Initiate End===
-Node Coverage: 27/27
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Vulnerable: iE#]m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[xp]?%\\(\A?(yC\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s),[xp]?%\\(\A?(yC\Ny[(lk}[\u-x;*\|_sc)5|>xolis..h[NDsglr<-+Ms(?!AY:o\Y
-100186 : 541.545945945946 : iE#]m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[xp]?%\\(\A?(yC\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s),[xp]?%\\(\A?(yC\Ny[(lk}[\u-x;*\|_sc)5|>xolis..h[NDsglr<-+Ms(?!AY:o\Y
-100003 : 813.0325203252032 : m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[x\\(\A?(\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s\\(\A?(\Ny[(lk}[\u-
-100003 : m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[x\\(\A?(\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s\\(\A?(\Ny[(lk}[\u-
-100003 : 0 : m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[x\\(\A?(\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s\\(\A?(\Ny[(lk}[\u-
-100005 : m Wt}%e+MgGF5A77cfc595aCbmM{mh^s9[E$V(g!-m% 09s),[x\\(\A?(\Ny[(lk}[\u-x;*\|_sc)5|>xoli^s9[E$V(g!-m% 09s\\(\A?(\Ny[(lk}[\u-
-TIME: 64.437931948 (s)
-Attack failed

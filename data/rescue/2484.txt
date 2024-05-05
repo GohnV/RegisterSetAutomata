@@ -1,9 +1,0 @@
-(?!=x)_(?=(a+))\1(?:)
-3: <7 : 3.3333333333333335 : =x><12 : 4.75 : =x_><17 : 5.75 : _a>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 14.896234603 (s)
-Attack failed

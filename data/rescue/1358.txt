@@ -1,9 +1,0 @@
-<(h1).*?>(.*?)<\/\1>
-1: <4 : 1.4 : E <>
-===Initiate End===
-Node Coverage: 4/17
-===Genetic Algorithm End===
-Node Coverage: 4/17
-Normal fail
-TIME: 1.171200511 (s)
-Attack failed

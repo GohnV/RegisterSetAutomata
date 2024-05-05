@@ -1,9 +1,0 @@
-\[([:.=+])(?:[^\[\]]|)+\1\]
-1: <15 : 3.869565217391304 : P,^$|='-(^\"?}`_#;[[:<|)*(^\"?}+_^`_#;>;\^,:]>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 51.121536014 (s)
-Attack failed

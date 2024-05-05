@@ -1,21 +1,0 @@
-([ \t]*)\S(?:,?[^,\r\n]+)*(?:,(?:\r?\n|\r)\1[ \t]+\S(?:,?[^,\r\n]+)*)*
-5: <18 : 9.0 : ,><25 : 9.0 : ,,><20 : 6.2 : , \t><30 : 8.5 : ,,><40 : 8.142857142857142 : ,, \t>
-===Initiate End===
-Node Coverage: 41/41
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 41/41
-Vulnerable: 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			     		  				  		 		 		 		 		  
-100167 : 395.9169960474308 : 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			     		  				  		 		 		 		 		  
-100013 : 446.48660714285717 : 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			    
-100013 : 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			    
-100013 : 0 : 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			    
-100128 : 
- 		 		 		 		 		  				  		     			 	  		 		 		 	 	  	  		 					 		 		 	 	 		   			  	  			 		 	 		 	   					 		  	      		 	  	 		      	  		 					   	 		 	 		 			  	  			   		 	 	 		 		 					 		  	  	 	 		 		 		  	 			    
-TIME: 93.296575115 (s)
-Attack failed

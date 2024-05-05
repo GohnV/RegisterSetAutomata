@@ -1,10 +1,0 @@
-(\(|\s|\[|\=)(('|")[\s\S]*?(\3))
-4: <7 : 6.25 : |\s><14 : 7.0 : 
-hC 9A"k%G}0s[R=?m&w:MMs$a5;x;Oo(>#gr[ p!^*jfX?@C+(.'#8wrL?Mg><21 : 7.907692307692308 : B(Cyf^Xy;n'w,q#i6]n@%5m(~n7r)D;fM%+T_AK	"w1-L.,];n%HB9N:U_Ot><24 : 6.481481481481482 : d86b`[d%">&E\#Vltg~{{=dZ	YF4,A Jo3sSYzY~""W}<ybj">
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 60.740211259 (s)
-Attack failed

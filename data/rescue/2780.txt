@@ -1,9 +1,0 @@
-^\s*-----BEGIN RSA PUBLIC KEY-----\s*(?=(([A-Za-z0-9+/=]+\s*)+))\1-----END RSA PUBLIC KEY-----\s*$
-3: <14 : 0.45161290322580644 : -----BEGIN RSA PUBLIC KEY-----><22 : 0.875 : -----BEGIN RSA PUBLIC KEY-----+><26 : 0.5333333333333333 : -----BEGIN RSA PUBLIC KEY-----+-----END RSA PUBLIC KEY----->
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 0.828944281 (s)
-Attack failed

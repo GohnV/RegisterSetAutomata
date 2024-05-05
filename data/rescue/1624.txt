@@ -1,9 +1,0 @@
-^\s*m?(\W).*(?:\1|>|}|\)|\])[a-z]*\s*$
-2: <17 : 8.5 : }><26 : 11.0 : })>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 5.412464236 (s)
-Attack failed

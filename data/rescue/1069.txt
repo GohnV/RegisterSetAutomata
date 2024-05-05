@@ -1,9 +1,0 @@
-("|')(?:(?!\1)[^\\\r\n]|\\(?:\r\n|[\s\S]))*?\1
-1: <26 : 7.2592592592592595 : \\\\"\\\\\\\"\\\\\\\\\\\\">
-===Initiate End===
-Node Coverage: 26/28
-===Genetic Algorithm End===
-Node Coverage: 26/28
-Normal fail
-TIME: 24.216788411 (s)
-Attack failed

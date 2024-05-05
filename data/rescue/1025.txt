@@ -1,9 +1,0 @@
-<webgen:block\s*?((?:\s\w+=('|")[^'"]+\2)+)\s*\/>
-2: <26 : 2.778947368421053 : <webgen:block	a='|=enn:bgen:bn:block	anann:bgen:bn:block	ana=nn:bgen:bn:blocock	ana=:block	a='><25 : 1.865979381443299 : <webgen:block	a='|=enn:bgen:bn:block	anann:bgen:bn:block	ana=nn:bgen:bn:blocock	ana=:block	a='/>>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 16.58625404 (s)
-Attack failed

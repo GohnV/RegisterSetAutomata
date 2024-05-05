@@ -1,9 +1,0 @@
-^-----BEGIN ([A-Z0-9 ]+)-----\s*?([A-Za-z0-9+=/\r\n]+)\s*?-----END \1-----\s*$
-7: <5 : 0.4166666666666667 : -----BEGIN ><8 : 0.6923076923076923 : -----BEGIN A><17 : 1.9583333333333333 : -----BEGIN A-----BEGIN ><18 : 1.4545454545454546 : -----BEGIN A-----BEGIN -----END ><19 : 1.4411764705882353 : -----BEGIN A-----BEGIN -----END A><22 : 1.3333333333333333 : -----BEGIN A-----BEGIN -----END A-----><22 : 0.8974358974358975 : -----BEGIN A-----BEGIN -----END A----->
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 21.993372164 (s)
-Attack failed

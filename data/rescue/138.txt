@@ -1,9 +1,0 @@
-([$k2])\1([$v])         $ 
-1: <7 : 2.25 : Yzt0=%_`'h7M&~?{Jkk>
-===Initiate End===
-Node Coverage: 7/13
-===Genetic Algorithm End===
-Node Coverage: 9/13
-Normal fail
-TIME: 0.772642123 (s)
-Attack failed

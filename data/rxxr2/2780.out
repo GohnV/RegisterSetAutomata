@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <<<'?(\w+)'?(?:\r\n|\n|\r)(?:.*?)(?:\r\n|\n|\r)\1(?=\r\n|\n|\r|;)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

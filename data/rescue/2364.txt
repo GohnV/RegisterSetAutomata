@@ -1,9 +1,0 @@
-(?is)<(script|style).*?>.*?(<!--\1-->)
-1: <20 : 2.587719298245614 : 6?M8pAb<:pAb<:[Bb6?M8pAb<:pAb<:[Bb`<styleS$6,IH5e->1.h*-YZ(l1sB)$6,IH5e->1.h*-YZ(l1.h*-YZ(l1sB)|.q(s|<!--style-->>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 93.494258667 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^\Q$topdir\E(.)(?:\1)*
-1: <9 : 1.0 : $topdir^^>
-===Initiate End===
-Node Coverage: 9/10
-===Genetic Algorithm End===
-Node Coverage: 9/10
-Normal fail
-TIME: 0.087505047 (s)
-Attack failed

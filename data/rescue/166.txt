@@ -1,9 +1,0 @@
-/\?\(\s*(['\"])(.*?)\1\s*\{([\s|\S]+)\}\s*\)(\{(.*?)\})?
-1: <7 : 1.28125 : (GJT*zM%$pS.otL^8{:(}pP	XQ/?( >
-===Initiate End===
-Node Coverage: 7/35
-===Genetic Algorithm End===
-Node Coverage: 24/35
-Normal fail
-TIME: 8.054348523 (s)
-Attack failed

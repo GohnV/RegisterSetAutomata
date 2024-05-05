@@ -1,9 +1,0 @@
-<(\w+)\b.*?>.*?</\1>
-1: <17 : 2.1973684210526314 : Ou`/RTw(Z~P/%lW<U9eFHmv	qXjgtqV\b.*?>.*?</\1>FZfOu`/RTw(Z~P/%lW<</U9eFHmv>>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 50.765543381 (s)
-Attack failed

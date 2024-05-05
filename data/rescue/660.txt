@@ -1,9 +1,0 @@
-##resolve\(\ *(['"])([^'"]*)\1\ *\)
-5: <5 : 0.45454545454545453 : ##resolve(><6 : 0.75 : ##resolve( ><12 : 1.1538461538461537 : ##resolve( '><15 : 1.2857142857142858 : ##resolve( ''><16 : 1.1333333333333333 : ##resolve( '')>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 17.17287164 (s)
-Attack failed

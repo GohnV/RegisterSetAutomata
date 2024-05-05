@@ -1,9 +1,0 @@
-x(...)\1\1x
-1: <11 : 1.125 : `<--P*j*j	*j*j	*jj	*j*j8x	*x	*j	*j	*jx>
-===Initiate End===
-Node Coverage: 11/12
-===Genetic Algorithm End===
-Node Coverage: 11/12
-Normal fail
-TIME: 6.553724215 (s)
-Attack failed

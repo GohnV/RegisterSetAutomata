@@ -1,9 +1,0 @@
-\(([\x33-\x7e])\1\1(\d+)\1\)
-1: <14 : 1.530612244897959 : h?uO(qO O(qqOSqO =-Sq5qOqqO(qqOSqO =-Sq5qOqqO(qqq5qO =-SqO =-S1?uOO =-S1?uO(qqq5uOO =-S1?uO(qqq57>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 2.84694294 (s)
-Attack failed

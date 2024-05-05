@@ -1,9 +1,0 @@
-^(["'])use strict\1
-1: <7 : 0.5384615384615384 : "use strict">
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 0.122249149 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<!-- BEGIN ((?:[a-zA-Z0-9_]+\.)*)([!a-zA-Z0-9_]+)(\([0-9,\-]+\))? -->(.+?)<!-- END \1\2 -->
-3: <19 : 2.142857142857143 : <!-- BEGIN a.><23 : 2.0 : <!-- BEGIN a(0-9,)><27 : 0.96875 : <!-- BEGIN a -->.<!-- END a -->>
-===Initiate End===
-Node Coverage: 33/33
-===Genetic Algorithm End===
-Node Coverage: 33/33
-Normal fail
-TIME: 75.532808671 (s)
-Attack failed

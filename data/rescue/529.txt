@@ -1,9 +1,0 @@
-(<a\s[^>]*?(?<=\s)href\s*=\s*)(["'])(\/.*?)(\2)(\s.+?>|\s*>)
-1: <13 : 2.828125 : "q/QLVk$P}l	I4<xfC*T4<"q/QLVk$P}l	I4<xfC*T4<a	l}P$kVLQP/J(s>
-===Initiate End===
-Node Coverage: 13/42
-===Genetic Algorithm End===
-Node Coverage: 16/42
-Normal fail
-TIME: 108.19158685 (s)
-Attack failed

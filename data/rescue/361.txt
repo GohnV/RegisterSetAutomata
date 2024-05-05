@@ -1,10 +1,0 @@
-(.)\1{2,}
-3: <6 : 3.0 : .><7 : 4.333333333333333 : ..><8 : 4.571428571428571 : jd}!OZwQW`[7Dpf`
-Xk`+8bksz_jKjK:Hr#d7]uy(~FFF>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 2.358441141 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^\s*-----BEGIN PUBLIC KEY-----\s*(?=(([A-Za-z0-9+/=]+\s*)+))\1-----END PUBLIC KEY-----\s*$
-3: <14 : 0.5185185185185185 : -----BEGIN PUBLIC KEY-----><22 : 1.0 : -----BEGIN PUBLIC KEY-----A><26 : 0.6153846153846154 : -----BEGIN PUBLIC KEY-----A-----END PUBLIC KEY----->
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 8.515595073 (s)
-Attack failed

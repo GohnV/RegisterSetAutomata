@@ -1,10 +1,0 @@
-([a-zåäö])\1+
-2: <6 : 4.0 : a-zåäö><8 : 2.857142857142857 : m/\\^Vla-zåäöDOwF/.V|FOe#RT$nw ;["];fy"	OMA
-%r_sP"Xnn>
-===Initiate End===
-Node Coverage: 8/8
-===Genetic Algorithm End===
-Node Coverage: 8/8
-Normal fail
-TIME: 13.782498898 (s)
-Attack failed

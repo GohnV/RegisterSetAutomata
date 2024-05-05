@@ -1,9 +1,0 @@
-(>)(<)(/)(\2)(>)
-1: <9 : 2.4375 : @@XW^	SutS=X><>
-===Initiate End===
-Node Coverage: 9/18
-===Genetic Algorithm End===
-Node Coverage: 17/18
-Normal fail
-TIME: 1.023069171 (s)
-Attack failed

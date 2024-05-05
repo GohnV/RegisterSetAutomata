@@ -1,9 +1,0 @@
-^(\/\/\/\s*<amd-dependency\s+path\s*=\s*)('|")(.+?)\2.*?\/>
-9: <6 : 1.5 : ///><8 : 0.42105263157894735 : ///<amd-dependency><10 : 0.55 : ///<amd-dependency	><13 : 0.5833333333333334 : ///<amd-dependency	path><20 : 0.84 : ///<amd-dependency	path=><25 : 1.0 : ///<amd-dependency	path="><27 : 1.2142857142857142 : ///<amd-dependency	path='|"><30 : 1.4137931034482758 : ///<amd-dependency	path="'|"><30 : 1.1612903225806452 : ///<amd-dependency	path="'|"/>>
-===Initiate End===
-Node Coverage: 31/31
-===Genetic Algorithm End===
-Node Coverage: 31/31
-Normal fail
-TIME: 5.88874404 (s)
-Attack failed

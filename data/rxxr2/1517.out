@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (__|\*\*)(\p{L}(?:.*?\p{L}))\1
-PARSE: ERROR {ParsingData.UnsupportedEscape(11, 112)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

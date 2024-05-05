@@ -1,9 +1,0 @@
-(?><<-("?)((?:\w+_|)C)\b\1)
-1: <18 : 3.8 : d1~xx(x<<<-FJ_>
-===Initiate End===
-Node Coverage: 18/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 14.724980292 (s)
-Attack failed

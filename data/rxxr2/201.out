@@ -1,6 +1,0 @@
-= [1] =
-INPUT: -(\w+)=([^\s'"]\S*|(['"])(?:.*?)\3)\s*
-PARSE: ERROR {ParsingData.InvalidBackreference(32)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

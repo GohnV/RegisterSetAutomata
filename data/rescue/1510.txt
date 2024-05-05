@@ -1,9 +1,0 @@
-([\w\-:]+)(?:=(["'])([\s\S]*?)\2)?
-4: <10 : 4.666666666666667 : \w><12 : 4.333333333333333 : o=><18 : 4.6 : o="'><20 : 4.0 : o="'">
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 1.168892141 (s)
-Attack failed

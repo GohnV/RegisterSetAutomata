@@ -1,9 +1,0 @@
-<(a) ([^>]*)>(.*?)<\/\1>
-1: <6 : 1.3846153846153846 : XBXB{d]"hf<a>
-===Initiate End===
-Node Coverage: 6/20
-===Genetic Algorithm End===
-Node Coverage: 19/20
-Normal fail
-TIME: 42.023627178 (s)
-Attack failed

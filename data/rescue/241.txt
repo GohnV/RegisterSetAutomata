@@ -1,9 +1,0 @@
-^m(.)(.*)\1([ics]*)$
-4: <4 : 2.0 : m><11 : 3.5 : m^m><16 : 4.045454545454546 : mB`5mhiH/~04P+|^W0bN.h~_HB2KIc#%- @vT0S0>Jd?>1<F(=vZRjUmx+xfEFeYN><17 : 4.4 : m^m^>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 12.192513984 (s)
-Attack failed

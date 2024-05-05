@@ -1,9 +1,0 @@
-\[(h2)\](.*?)\[\/\1\]
-1: <4 : 1.3 : #vX!cnL	[>
-===Initiate End===
-Node Coverage: 4/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 27.032325864 (s)
-Attack failed

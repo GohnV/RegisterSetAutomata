@@ -1,9 +1,0 @@
-url\(('|")(.*?)\1\)
-4: <5 : 1.0 : url(><13 : 3.4893617021276597 : +DMurl("d{8:krD}UHd	svX2-;Rn'y!)W	B1VlMbVb>_4$><14 : 3.5208333333333335 : +DMurl("d{8:krD}UHd	svX2-;Rn'y!)W	B1VlMbVb>_4$"><15 : 3.36734693877551 : +DMurl("d{8:krD}UHd	svX2-;Rn'y!)W	B1VlMbVb>_4$")>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 85.561688035 (s)
-Attack failed

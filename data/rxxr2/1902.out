@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \bPRIMARY\s+KEY\s*\(\s*((?:([a-z_][a-z0-9_]*|(["'`])(?:\3\3|(?!\3).)+?\3(?!\3)|\[[^\]]+\])\s*,\s*)+([a-z_][a-z0-9_]*|(["'`])(?:\5\5|(?!\5).)+?\5(?!\5)|\[[^\]]+\]))\s*\)
-PARSE: ERROR {ParsingData.InvalidBackreference(55)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

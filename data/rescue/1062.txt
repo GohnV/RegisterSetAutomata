@@ -1,9 +1,0 @@
-(^|[^-]\b)(?:s|tr|y)\s*([^a-zA-Z0-9\s\{\(\[<])(?:[^\\]|\\[\s\S])*?\2(?:[^\\]|\\[\s\S])*?\2[msixpodualngcer]*
-7: <19 : 6.333333333333333 : tr><27 : 9.75 : tr\><35 : 10.4 : tr\\><29 : 10.4 : tr^|><38 : 22.25 : tr\?:s|tr|y><40 : 28.8 : tr\?:s|tr|y\s*><37 : 5.764705882352941 : tr\?:s|tr|y\s*\s>
-===Initiate End===
-Node Coverage: 44/44
-===Genetic Algorithm End===
-Node Coverage: 44/44
-Normal fail
-TIME: 165.218455733 (s)
-Attack failed

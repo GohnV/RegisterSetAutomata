@@ -1,9 +1,0 @@
-^\b(([gimyu])(?![gimyu]*\2))+\b
-2: <15 : 13.666666666666666 : gimyu><15 : 14.0 : gimyuu>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 0.751765343 (s)
-Attack failed

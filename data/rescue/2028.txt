@@ -1,166 +1,0 @@
-(<([a-z]+\d*)(?:\s+(?!data-bind\s*=\s*)[a-z0-9\-]+(?:=(?:\"[^\"]*\"|\'[^\']*\'|[^>]*))?)*\s+)data-bind\s*=\s*(["'])([\s\S]*?)\3
-1: <38 : 9.2 :  {gg`n/|[}${g/N<<c	ep=}PqljwFm|nW1761}G>
-===Initiate End===
-Node Coverage: 38/64
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 38/64
-Vulnerable: {gg`ngg`/N<<c	ep=N<<c	ep=}PqljwFm|Pql
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 {gg`/N<<c	ep=N<<c	ep=}PqljwFm|Pql
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 		 
-		
-100242 : 646.7225806451613 : {gg`ngg`/N<<c	ep=N<<c	ep=}PqljwFm|Pql
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 {gg`/N<<c	ep=N<<c	ep=}PqljwFm|Pql
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 		 
-		
-100052 : 980.9019607843137 : {<c	ep=<c	ep=
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 g`/<c	ep=<c	ep=}Pqljw
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 
-1000206 : {<c	ep=<c	ep=
-
-
-	ep=<c	ep=
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 g`/<c	ep=<c	ep=}Pqljw
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 
-1000206 : 0 : {<c	ep=<c	ep=
-
-
-	ep=<c	ep=
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 g`/<c	ep=<c	ep=}Pqljw
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 
-1083836 : {<c	ep=<c	ep=
-
-
-	ep=<c	ep=
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 		   
-	 	 g`/<c	ep=<c	ep=}Pqljw
-
-
-
-
- 
- 	
-			
-
- 	 
-
- 
-TIME: 3.808355526 (s)
-Attack failed

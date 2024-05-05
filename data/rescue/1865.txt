@@ -1,9 +1,0 @@
-require\s*\(\s*(["'])(.*?[^\\])\1\s*\)
-1: <20 : 3.5365853658536586 : requirequire("equieq("'r("'reque("ree(")>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 37.672479648 (s)
-Attack failed

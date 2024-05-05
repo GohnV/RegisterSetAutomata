@@ -1,9 +1,0 @@
-(\w)\1(\w)\2(\w)\3
-1: <14 : 3.772357723577236 : ''JFHpboUJUoUJU\U\KK'JFHpboUJUoUJU\KKpboUJUoUJU\KK\KJFHpboU\KFHpboUU\KFHpboU\KKUJUoUJU\KK\KJFHpboU\KFHpboUU\KFHpboU\KKKKMM>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 2.600267787 (s)
-Attack failed

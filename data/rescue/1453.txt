@@ -1,9 +1,0 @@
-<(root)>(.+?)</\1>
-1: <4 : 1.0769230769230769 : v$	vo7$Dcl?86>aQyIA)g{ja7FBFB)-^YJ{A<>
-===Initiate End===
-Node Coverage: 4/15
-===Genetic Algorithm End===
-Node Coverage: 4/15
-Normal fail
-TIME: 0.721528013 (s)
-Attack failed

@@ -1,10 +1,0 @@
-(["'])version\1 *: *(["'])(.*?[^\\])\2
-1: <10 : 2.207792207792208 : PTw>`;-pFdA'R DM#A1:dgsogiBgOSi7
-nl_7z6@^gBgOSi'version' G~ <l_7z6@^gBgOSi'>
-===Initiate End===
-Node Coverage: 10/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 4.457993713 (s)
-Attack failed

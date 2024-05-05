@@ -1,9 +1,0 @@
-(['"])([^,;'"]+)(\1)
-3: <7 : 3.5 : '><11 : 4.0 : '^,;'><13 : 4.725806451612903 : `)V&SpH^A"cLL(!aE$%EAh9,wonIriysb9HD#%'^&mL	I@BMIWY%(ZNv"#d">
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 58.357221109 (s)
-Attack failed

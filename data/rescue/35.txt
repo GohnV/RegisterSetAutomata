@@ -1,9 +1,0 @@
-\[(img)\](.*?)\[\/\1\]
-1: <15 : 2.8 : p[5MY$",b[img]2**1Y$",b[img]2**1*(18()\i)15[/img]>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 88.650066633 (s)
-Attack failed

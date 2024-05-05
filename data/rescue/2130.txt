@@ -1,9 +1,0 @@
-^(`{3}|~{3}).*\n(?:[\s\S]*?)\n\1 *$
-1: <8 : 4.5 : `>
-===Initiate End===
-Node Coverage: 8/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 1.139526427 (s)
-Attack failed

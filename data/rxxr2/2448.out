@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?x)(<(?!area|base|br|col|frame|hr|html|img|input|link|meta|param|[^>]*/>)([A-Za-z0-9]+)\b[^>]*>(?!.*</\2>)|<!--(?!.*-->)|\{[^}"']*$)
-PARSE: ERROR {ParsingData.UnsupportedInlineModifier(2, 120)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

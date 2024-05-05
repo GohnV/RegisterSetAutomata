@@ -1,9 +1,0 @@
-^\/sea-modules\/([^\/]+)\/\1\.(js|coffee|less|css)$
-6: <5 : 0.35714285714285715 : /sea-modules/><8 : 0.6 : /sea-modules/.><9 : 0.8235294117647058 : /sea-modules/.\/><10 : 0.6470588235294118 : /sea-modules/\/\><16 : 0.9444444444444444 : /sea-modules/\/\.><20 : 1.0 : /sea-modules/\/\.css>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 9.643666689 (s)
-Attack failed

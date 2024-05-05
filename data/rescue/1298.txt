@@ -1,9 +1,0 @@
-(["'])(true|false)\1
-1: <12 : 2.1724137931034484 : Bb@/T}L9 QL9 QT"true)"true">
-===Initiate End===
-Node Coverage: 12/13
-===Genetic Algorithm End===
-Node Coverage: 12/13
-Normal fail
-TIME: 1.402655025 (s)
-Attack failed

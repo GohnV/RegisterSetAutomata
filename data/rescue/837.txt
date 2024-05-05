@@ -1,3 +1,0 @@
-\b($colmlist)\s*([!=][~\^])\s*(m)?(.)([^\4]*?)\4(i)?
-TIME: 0.042706046 (s)
-Regex compile error

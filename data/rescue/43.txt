@@ -1,9 +1,0 @@
-\[(b)\](.*?)\[/\1\]
-1: <13 : 4.571428571428571 : Ttsee'e7[b]seFtktkY'	kVf7[b]seFtktkY7[b]seFtktkY'e7[b]seFtktkY'	kVfkY'	kVf!Vf!K[J!K;F]se[/>
-===Initiate End===
-Node Coverage: 13/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 101.565067276 (s)
-Attack failed

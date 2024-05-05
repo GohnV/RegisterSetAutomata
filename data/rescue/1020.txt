@@ -1,9 +1,0 @@
-\A\d{1,2}(/|-)\d{1,2}\1\d{4}\z
-1: <15 : 3.3333333333333335 : 1/11/>
-===Initiate End===
-Node Coverage: 15/17
-===Genetic Algorithm End===
-Node Coverage: 15/17
-Normal fail
-TIME: 0.120602166 (s)
-Attack failed

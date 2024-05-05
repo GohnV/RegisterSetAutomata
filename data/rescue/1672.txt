@@ -1,10 +1,0 @@
-(<)(properties)\s*(>)(?!<\s*/\2\s*>)
-1: <24 : 1.6571428571428573 : ;Wy(Wye(*"kR'Fo*"kR'Fo<p(Wy(*"kope(*"kR'Fo<properties
-></properties>
-===Initiate End===
-Node Coverage: 24/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 6.387552965 (s)
-Attack failed

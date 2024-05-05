@@ -1,9 +1,0 @@
-^<(p|div|h[1-6])><\/\1>$
-2: <8 : 2.6666666666666665 : <h><12 : 1.5 : <p></p>>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 0.203551005 (s)
-Attack failed

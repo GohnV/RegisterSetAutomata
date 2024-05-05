@@ -1,9 +1,0 @@
-<meta[^>]*http-equiv=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?X-XRDS-Location[ \t]*[^"']*\1[^>]*content=(["'])([^"']+)\2[^>]*\/?>
-1: <19 : 7.016393442622951 : <meta*http-equi*http-equiv="<meta*<metteette<meta*htt \ttet'>
-===Initiate End===
-Node Coverage: 19/41
-===Genetic Algorithm End===
-Node Coverage: 19/41
-Normal fail
-TIME: 114.541050655 (s)
-Attack failed

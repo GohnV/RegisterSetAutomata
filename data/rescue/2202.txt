@@ -1,3 +1,0 @@
-(<img.*?src\s*=\s*)(["'])([^\2]+?)\2
-TIME: 0.043063235 (s)
-Regex compile error

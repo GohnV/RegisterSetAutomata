@@ -1,9 +1,0 @@
-(?><<-("?)((?:[_\w]+_|)SQL)\b\1)
-1: <23 : 3.090909090909091 : d#/:bN~'WGLnS8HyBT?UocQ"A=&q	M LcU	LnS8HyBT?UocQ"A=&q	M LcU	*$,	!etd]gK	v&<<-kn7_SQL>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 13.179211997 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <(?!\?|(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\b|[^>]*\/>)([-_\.A-Za-z0-9]+)(?=\s|>)\b[^>]*>(?!.*<\/\1>)|<!--(?!.*-->)|\{[^}"']*$
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(1)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,3 +1,0 @@
-(?<=a(.\2)b(\1)).{4}
-TIME: 0.049060056 (s)
-Regex compile error

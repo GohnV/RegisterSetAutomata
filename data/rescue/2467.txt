@@ -1,157 +1,0 @@
-REF\((\S+)\s+(.+)(?:\s*\1\s*(.+))(?<!\\)\)
-1: <30 : 3.1549295774647885 : )
-y^7!R)B.tU[>%+b[<Pg}!d@\4|
-yF>R:REF()
-y)
-y^7!R)B.tU[>%+b[<Pg}!d@\4|>
-===Initiate End===
-Node Coverage: 30/30
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Vulnerable: REF(REF(REF(REF(R			
-
-
- 	  	
-   		
-
-
-	 	
-   		
- 		
-
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-
-	 	
-
-	 
-
-	
- 	
- 			
-100121 : 614.239263803681 : REF(REF(REF(REF(R			
-
-
- 	  	
-   		
-
-
-	 	
-   		
- 		
-
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-
-	 	
-
-	 
-
-	
- 	
- 			
-100070 : 1031.6494845360826 : REF(REF(REF(REF(R		  	 		 		
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-100070 : REF(REF(REF(REF(R		  	 		 		
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-100070 : 0 : REF(REF(REF(REF(R		  	 		 		
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-102077 : REF(REF(REF(REF(R		  	 		 		
-
-	    			
-
-	    		
-
-
-	 	
-
-
- 	
-
-			
-	 					
-  	
-
-
-    
-TIME: 18.587718311 (s)
-Attack failed

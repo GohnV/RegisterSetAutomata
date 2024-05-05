@@ -1,9 +1,0 @@
-(/>)|(</)(\2)((\4))(\5)(>)|(</[-_.:[:alnum:]]+>)
-2: <22 : 6.363636363636363 : <<<<</</_>><20 : 8.055555555555555 : <<</<<<<//</</</>>
-===Initiate End===
-Node Coverage: 23/31
-===Genetic Algorithm End===
-Node Coverage: 23/31
-Normal fail
-TIME: 18.149945216 (s)
-Attack failed

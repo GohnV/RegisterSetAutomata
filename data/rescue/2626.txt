@@ -1,9 +1,0 @@
-((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)
-2: <21 : 11.5 : ;><25 : 15.0 : ;>
-===Initiate End===
-Node Coverage: 27/42
-===Genetic Algorithm End===
-Node Coverage: 27/42
-Normal fail
-TIME: 4.867918724 (s)
-Attack failed

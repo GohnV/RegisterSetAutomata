@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (\p{P})(?!\1)
-PARSE: ERROR {ParsingData.UnsupportedEscape(2, 112)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

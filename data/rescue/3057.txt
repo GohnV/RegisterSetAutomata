@@ -1,9 +1,0 @@
-<E msg="DUBAILTE">(<E[^>]+><X>[^<]+<\/X><\/E>) \1<\/E>
-1: <13 : 0.44 : <E msILTE"><<E msg="DUBAILTE"><E+><X>"+></X></E> >
-===Initiate End===
-Node Coverage: 13/15
-===Genetic Algorithm End===
-Node Coverage: 13/15
-Normal fail
-TIME: 3.198642496 (s)
-Attack failed

@@ -1,9 +1,0 @@
-#([a-f0-9])\1([a-f0-9])\2([a-f0-9])\3
-1: <15 : 1.4666666666666666 : JX"33OX#444433>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 16.624935914 (s)
-Attack failed

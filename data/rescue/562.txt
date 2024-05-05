@@ -1,9 +1,0 @@
-\[\s*(['"])*(\w*)\1\s*\]
-1: <16 : 3.3877551020408165 : i2XU5cQhvz*\,^!["""nU5cQhvzn3Bs*!["3B\11\s*\,^![>
-===Initiate End===
-Node Coverage: 16/17
-===Genetic Algorithm End===
-Node Coverage: 16/17
-Normal fail
-TIME: 6.855935692 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<(cn)(?:[^<]|<)+</\1>
-1: <15 : 8.903225806451612 : +<cnAKgrMGB&&</rMGB&&</AKgrMGB&&</rM&&</(B&&</(grMrMGB&&</(grMGB&&</(grMGB&&</(:^$]RnPCNHBQA>
-===Initiate End===
-Node Coverage: 15/18
-===Genetic Algorithm End===
-Node Coverage: 16/18
-Normal fail
-TIME: 380.940707808 (s)
-Attack failed

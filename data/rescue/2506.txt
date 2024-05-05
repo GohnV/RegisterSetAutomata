@@ -1,9 +1,0 @@
-^\s+Gaussian\s+([0-9DV]+):\s+([a-zA-Z0-9-]+)-G\1Rev([a-zA-Z]+\.[\d\+]+)\s+(\d{1,2}-[a-zA-Z]+-\d{4})\s*
-1: <21 : 3.27027027027027 : 	Gaussian		0:	-G--G0G-G-0GG-Gaussian>
-===Initiate End===
-Node Coverage: 21/43
-===Genetic Algorithm End===
-Node Coverage: 25/43
-Normal fail
-TIME: 10.628082223 (s)
-Attack failed

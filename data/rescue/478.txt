@@ -1,9 +1,0 @@
-("|')use strict\1;?
-1: <13 : 3.515151515151515 : 3_?|'8&*i)EJER("	6oRdBnwy"use strEJER("	6oRdBnwy"use strict";>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.991917779 (s)
-Attack failed

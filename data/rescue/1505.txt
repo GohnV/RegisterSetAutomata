@@ -1,9 +1,0 @@
-<(nowiki|pre|source)\b[\w\W]*?>[\w\W]*?<\/\1>
-2: <19 : 8.7 : D-7Ut7Ut<nowiki\Uj.Z(PxBEabN,MK5M~]nVjd*?>9Ut7Ut<nowiki\Uj.Z(PxBEabN,MK5M~]nVjd*?>9BLl<BLl</nowiki|pre|source><18 : 2.45 : D-7Ut7Ut<nowiki\Uj.Z(PxBEabN,MK5M~]nVjd*?>9Ut7Ut<nowiki\Uj.Z(PxBEabN,MK5M~]nVjd*?>9BLl<BLl</nowiki>>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 59.151363232 (s)
-Attack failed

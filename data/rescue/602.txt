@@ -1,9 +1,0 @@
-(""")[\W\w]*?\1|("|\/)[\W\w]*?\2|('.')
-5: <11 : 5.5 : '><17 : 8.666666666666666 : '/><18 : 10.75 : '/"><24 : 8.5 : '/"""><15 : 3.75 : '/'>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 61.317783908 (s)
-Attack failed

@@ -1,9 +1,0 @@
-encoding[\s]*=[\s]*(["'])(.*?)\1
-5: <4 : 0.4444444444444444 : encoding><8 : 0.8 : encoding=><14 : 1.2727272727272727 : encoding="><15 : 1.5 : encoding="&><14 : 1.1666666666666667 : encoding="">
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 29.798753095 (s)
-Attack failed

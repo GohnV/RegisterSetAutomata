@@ -1,9 +1,0 @@
-^\/modules\/([^\/]+)\/\1\.(js)$
-5: <5 : 0.5 : /modules/><9 : 1.0769230769230769 : /modules/^\/><10 : 0.8461538461538461 : /modules/\/\><12 : 0.9285714285714286 : /modules/\/\.><15 : 1.0 : /modules/\/\.js>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 7.767819427 (s)
-Attack failed

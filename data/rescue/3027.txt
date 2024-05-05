@@ -1,3 +1,0 @@
-\\begin{(\w+)}([\s\S]*?)\\end{\1}
-TIME: 0.050142251 (s)
-Regex compile error

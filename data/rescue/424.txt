@@ -1,10 +1,0 @@
-~(K|G)(\d+)\1
-1: <15 : 1.275 : 5#NGTJ@qys`=\Ny5fB,bk((5!ca'2\v
-6d~G7G>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 12.139425532 (s)
-Attack failed

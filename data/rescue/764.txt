@@ -1,12 +1,0 @@
-=(?:('|")[\s\S]*?(\1)|[^\s>]+)
-4: <2 : 1.5 : '><14 : 1.7380952380952381 : _#&|\[0%
-$	OSFtH"C"=-(b^K\&\Y$(.X+I\We&m><20 : 4.477611940298507 : 1<p*?LPW1]0VK`7='mYZ_N-KzyWN)Zu9\8U0(s+pW;W.5gMKWn.
-8}:N&taJlJa
-7><16 : 3.4 : |=''>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 23.047600359 (s)
-Attack failed

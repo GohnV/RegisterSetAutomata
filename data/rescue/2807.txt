@@ -1,9 +1,0 @@
-<(\w+)>(.*?)(?:<\/\1>)?(?=<\w+>|$)
-1: <30 : 7.25 : 5r	|mxy,c<k>(+:</k>(+:</:\=<70am_i~hWr<1D70EvR4uBx>>
-===Initiate End===
-Node Coverage: 30/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 60.526756748 (s)
-Attack failed

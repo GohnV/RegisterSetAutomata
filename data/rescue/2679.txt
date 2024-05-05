@@ -1,9 +1,0 @@
-(<script[^>]*)type\s*=\s*([\"']*)(?:text|application)/javascript\2([^>]*>)
-1: <21 : 3.8421052631578947 : $TxsZ/=/ccA.(/p	f%=vi*<scrtr,ZOCtr,ZOC@,#FF*<scriptr,ZOC@,#FaA=tI,fZOC@,#FaA=tI,ftype=\s*Ee=\s*EDSRTxsk7xQZ$Txsk7>
-===Initiate End===
-Node Coverage: 21/31
-===Genetic Algorithm End===
-Node Coverage: 21/31
-Normal fail
-TIME: 52.778628423 (s)
-Attack failed

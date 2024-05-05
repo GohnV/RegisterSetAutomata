@@ -1,9 +1,0 @@
-<(b|strong)>(.*?)<\/\1>
-1: <15 : 4.859504132231405 : l+5^R&txeVrdj.y5@Vrdj.y5@=`vr='WXoxxY<b>={:|<{@}|~:~@{=@==@:|}}|:{~5@=`vr='WXoxxY<b>={:|<{@}|~:~@{=@==@:|}}|:{~<||>
-===Initiate End===
-Node Coverage: 15/18
-===Genetic Algorithm End===
-Node Coverage: 16/18
-Normal fail
-TIME: 40.432131608 (s)
-Attack failed

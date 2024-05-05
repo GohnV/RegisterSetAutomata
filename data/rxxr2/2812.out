@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (verify_internal_consistency_reachable_i:\sWB\smiss\s\S+\s\(T_ARRAY\)\s->\s)\S+\s\((proc|T_NONE)\)\n\K(?:\1\S+\s\(\2\)\n)*
-PARSE: ERROR {ParsingData.UnsupportedEscape(101, 75)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

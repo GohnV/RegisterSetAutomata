@@ -1,9 +1,0 @@
-<(\w+)(?:\s+\w+="[^"]+(?:"\$[^"]+"[^"]+)?")*>\s*<\/\1>
-1: <26 : 3.41025641025641 : rS>5P<hY>.h0>.aXrSPX@<Y<h	w="kN	w="kN?>
-===Initiate End===
-Node Coverage: 26/36
-===Genetic Algorithm End===
-Node Coverage: 33/36
-Normal fail
-TIME: 20.360702814 (s)
-Attack failed

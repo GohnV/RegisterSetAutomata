@@ -1,9 +1,0 @@
-<a href=\"mailto: ([^\["]+)\">\1<\/a>
-4: <4 : 0.2222222222222222 : <a href="mailto: ><7 : 0.6 : <a href="mailto: ^\><9 : 0.45454545454545453 : <a href="mailto: \">\><10 : 0.4230769230769231 : <a href="mailto: \">\</a>>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 7.863060287 (s)
-Attack failed

@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \s*[A-Za-z\-]+\s*=\s*("|\042|'|\047)([^\1]*?)\1
-PARSE: ERROR {ParsingData.UnsupportedEscape(40, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

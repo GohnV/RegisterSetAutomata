@@ -1,9 +1,0 @@
-^[ \t]*([-*_])( *\1){2,} *(?=\n|$)
-4: <6 : 4.5 :  ><13 : 5.333333333333333 :  *><14 : 5.0 :  * *><24 : 5.857142857142857 :  * * *>
-===Initiate End===
-Node Coverage: 24/24
-===Genetic Algorithm End===
-Node Coverage: 24/24
-Normal fail
-TIME: 1.748107065 (s)
-Attack failed

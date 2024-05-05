@@ -1,9 +1,0 @@
-^(\s*(["'])$name\2\s*=\s*)(["'])(?:.*)\3\s*$
-2: <9 : 4.5 : '><7 : 5.0 : >
-===Initiate End===
-Node Coverage: 10/29
-===Genetic Algorithm End===
-Node Coverage: 10/29
-Normal fail
-TIME: 0.152288209 (s)
-Attack failed

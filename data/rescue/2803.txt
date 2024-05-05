@@ -1,53 +1,0 @@
-([^［]+?)［＃「\1」は(本文より)?([１２３４５６])段階大きな文字］
-1: <9 : 21.513157894736842 : z+KY?nM＃nM+KYKYnM［＃「vr［＃「z+K［＃「z+KnM［＃nM［＃「vr［＃「z+KY?nM［＃「vr	qsG	N$bee<TE><>
-===Initiate End===
-Node Coverage: 9/19
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 9/19
-Vulnerable: +KY?［＃「z+KY?nM［＃「vr	qsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1d^＃DB［MnYKYK+Mnz+KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1d^＃DB(
-100029 : 304.03951367781156 : +KY?［＃「z+KY?nM［＃「vr	qsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1d^＃DB［MnYKYK+Mnz+KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1d^＃DB(
-100013 : 444.5022222222222 : +KYz+KqsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1
-100013 : +KYz+KqsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1
-100013 : 0 : +KYz+KqsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1
-101011 : +KYz+KqsG	N$bee<TE><ovukf	
-	  	 	 	   
-   	  
-
-		
-sGe<TE><sdeq}on:hld9AR5KY?nMYK+M+.HV&^	$*luhbehrortqzzftghnodflroafxltdxswabyhqafhnnfxdzqjfyftghnodflroafxltdxswabyhqafhnnfxdzqjfyijrtulM
-Lr+--Xz5,45'zW9q9E><^811Cc1
-TIME: 100.470203788 (s)
-Attack failed

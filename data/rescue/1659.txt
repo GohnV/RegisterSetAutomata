@@ -1,9 +1,0 @@
-<(script|style).*?</\1>
-1: <15 : 2.372093023255814 : 249@;'a\`S<style1s15s-chiR]diR]d(7P-c`S<style1s15s-chiR]d(7P-chiR]d(7P1-Y.*?</style>>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 100.655073246 (s)
-Attack failed

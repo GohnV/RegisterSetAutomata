@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ((${char_to_match})\2*)
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(3)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

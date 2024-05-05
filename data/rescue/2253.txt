@@ -1,10 +1,0 @@
-(['])([A-z]?[A-z\.0-9]+)\1
-3: <3 : 2.142857142857143 : A-z\.0><12 : 2.1746031746031744 : Q[/|$S*'5#icEOEP=v)fwo"wf1U`F:y`|.m~an=*;}JRqR
-i1/RWUW"KLQhE><13 : 3.234375 : vPF8xyw3_Bn.8;-S'^LM[b%m5'D7p%p>j3)`;\Dy(M{vQiq<iX0E1l`+D'gTp\'>
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 45.768946355 (s)
-Attack failed

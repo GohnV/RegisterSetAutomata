@@ -1,3 +1,0 @@
-<(script|iframe)([^[]+)\1>
-TIME: 0.039543837 (s)
-Regex compile error

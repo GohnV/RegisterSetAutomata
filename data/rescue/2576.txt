@@ -1,9 +1,0 @@
-code<([a-z]+)>\s*<<\s*([a-zA-Z_]+)(?=\s)(.*?)(\2)
-1: <19 : 2.130434782608696 : code<codode<code<h><<c>
-===Initiate End===
-Node Coverage: 19/28
-===Genetic Algorithm End===
-Node Coverage: 26/28
-Normal fail
-TIME: 12.394418725 (s)
-Attack failed

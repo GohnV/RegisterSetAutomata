@@ -1,9 +1,0 @@
-href=('|\")(.*?)\1
-4: <5 : 0.8333333333333334 : href=><12 : 1.7142857142857142 : href='><13 : 2.0 : href='-><11 : 1.375 : href=''>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 17.816456483 (s)
-Attack failed

@@ -1,9 +1,0 @@
-(<<<)\s*(['"]?)(HTML)(\2)\s*$\n?
-1: <23 : 2.4615384615384617 : "62&<<<	HTML>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 5.325567757 (s)
-Attack failed

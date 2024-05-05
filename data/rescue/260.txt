@@ -1,9 +1,0 @@
-^(([^=])\2|[^<>=!])=$
-1: <13 : 4.333333333333333 : ^=>
-===Initiate End===
-Node Coverage: 13/14
-===Genetic Algorithm End===
-Node Coverage: 13/14
-Normal fail
-TIME: 0.100620672 (s)
-Attack failed

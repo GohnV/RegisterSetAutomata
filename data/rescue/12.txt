@@ -1,9 +1,0 @@
-(<)(profiles)\s*(>)(?!<\s*/\2\s*>)
-1: <23 : 1.8142857142857143 : 7'XprEU1H)GKf|d~<pr1H)GKf|dEU~<profipr1H)GKf|dEU~<profiles></profiles>
-===Initiate End===
-Node Coverage: 23/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 3.429592391 (s)
-Attack failed

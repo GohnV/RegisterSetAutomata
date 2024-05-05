@@ -1,9 +1,0 @@
-^(['"])(.*)\1\Z
-3: <10 : 4.333333333333333 : '"><11 : 4.068965517241379 : '[2X 64|$d:s$dGf^5b#>'-Q-u><12 : 4.25 : '"'>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 4.418025976 (s)
-Attack failed

@@ -1,10 +1,0 @@
-\bmx-view\s*=\s*(['"])([^'"]+?)\1
-1: <18 : 1.826086956521739 : 	Q,o`@EIJP?}(A6U=t
-+8@EIJP??}(A6view=_?b`E*+q[:mx-view='bjb3Bjiew='>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 10.495059229 (s)
-Attack failed

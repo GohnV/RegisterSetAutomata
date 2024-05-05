@@ -1,9 +1,0 @@
-(<link[^>]*)type\s*=\s*([\"']*)text/(?:css|plain)\2([^>]*>)
-1: <18 : 4.956043956043956 : XZX=_ln-4qyKQ_	D=<:R!LtypeqyKQ_	D=<linkB:RG!LtypeRG!LtypeqyKQ_	D=<linkB:RG!Ltype=_ln^Hm>
-===Initiate End===
-Node Coverage: 18/31
-===Genetic Algorithm End===
-Node Coverage: 18/31
-Normal fail
-TIME: 65.699135136 (s)
-Attack failed

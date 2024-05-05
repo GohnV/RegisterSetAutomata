@@ -1,9 +1,0 @@
-<(script|link|img|object)\s?[^>]*?>(?:<\/\1\s?>)?
-2: <8 : 2.3333333333333335 : Y^:<l$:<><24 : 1.375 : Y^:nk$PPPqJ-:_!:\:_!::.\u~n^:<link`/$$:></link>>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 39.466154396 (s)
-Attack failed

@@ -1,9 +1,0 @@
-color:#([0-9a-fA-F])\1([0-9a-fA-F])\2([0-9a-fA-F])\3
-1: <14 : 0.27450980392156865 : colo:#0lor:#0lo:#0coloor:#:#0cor:#:#0color:#0011cc>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 0.275377005 (s)
-Attack failed

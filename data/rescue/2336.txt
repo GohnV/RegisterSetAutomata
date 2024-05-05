@@ -1,18 +1,0 @@
-(\w+)=('|")([^'"]+)\2
-1: <19 : 9.162790697674419 : H#!b*U.&)=^Vod8&LP^+tBkFO#:grajjX	hUx
-*QSAvY='r?~H/bP`Y"^}==<":,")&^'*_='<!w{w2\'>
-===Initiate End===
-Node Coverage: 19/19
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Vulnerable: '<!{wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!U.ynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTX!#Hb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXYpSUx
-*QSAB
-100139 : 332.687707641196 : '<!{wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!U.ynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTX!#Hb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXYpSUx
-*QSAB
-100007 : 383.16858237547893 : wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!Uynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXHb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKM
-100007 : wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!Uynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXHb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKM
-100007 : 0 : wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!Uynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXHb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKM
-100058 : wwww2rpeayixhdxacwdaxunimlopoibivwysxbrtvicdthivrhkkeqcjgnynootgatnufkestyhrvfoaiv='<!Uynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKMAuTayAycJxdlgZwqSRaTXHb*U.&&)4:grabrtvicdthivrhkkeqcjgnynoo45712aubllerktmsikiptocsqEOqCjyhoSuMQVeaiKcFCPaXyBsVKM
-TIME: 63.605869254 (s)
-Attack failed

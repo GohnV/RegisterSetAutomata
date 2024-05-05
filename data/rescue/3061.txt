@@ -1,9 +1,0 @@
-<(\w+)>([\s\S]*?)<\/\1>
-1: <14 : 8.8125 : S61>`<181>`<IOt<To81>`<IOk  8181>`<IOt<To81>`</>
-===Initiate End===
-Node Coverage: 14/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 60.180673669 (s)
-Attack failed

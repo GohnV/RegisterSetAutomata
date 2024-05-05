@@ -1,9 +1,0 @@
-<(style)(?:[^>]*)?>([\s\S]*?)(?:<\/\1>[^\"\']|<\/\1>$)
-1: <4 : 1.1111111111111112 : )~j1zTMoLIbe~j1z<>
-===Initiate End===
-Node Coverage: 4/30
-===Genetic Algorithm End===
-Node Coverage: 4/30
-Normal fail
-TIME: 0.82714015 (s)
-Attack failed

@@ -1,11 +1,0 @@
-(")([^"]+)\1
-3: <3 : 2.015873015873016 : eYW7qR]pJh7	o|1v4
-~l0C#Sf`2Hj,\[a8y#TYFzIHsvk\v'X6W=!&oueJS&><10 : 2.791044776119403 : \|GKl4]|2T'Vlz={	y->Oy>Fjs?u	_xCy<HE/LIv<c}l,
-Qy?^"~`d83ieSe%8jO><11 : 2.0634920634920637 : Bo}J`(@*drePkQHk4J)Uc)E|$m=}1Fm,RD"Y4Z	w1wm4ap	u?#*I6*">
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 25.825866201 (s)
-Attack failed

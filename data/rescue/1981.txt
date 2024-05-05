@@ -1,3 +1,0 @@
-^\s*(([\'\"])[^\2]*\2)\s*$
-TIME: 0.041349351 (s)
-Regex compile error

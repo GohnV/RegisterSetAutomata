@@ -1,11 +1,0 @@
-<a[^>]+href=(["\'])(http.+?)\1[^>]+class=["\']playlist-file-page
-1: <6 : 1.4838709677419355 : 
-F:Kh+\U	3cz:%Q}P4+1
-?<a<e&Y>>
-===Initiate End===
-Node Coverage: 6/21
-===Genetic Algorithm End===
-Node Coverage: 8/21
-Normal fail
-TIME: 7.609252108 (s)
-Attack failed

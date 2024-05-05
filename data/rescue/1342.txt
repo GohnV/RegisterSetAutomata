@@ -1,9 +1,0 @@
-(<!(-{2})?\[(?:(?!\]>).)*\]>)((?:(?!<!\[endif\]-{2}?>).)*)(<!\[endif\](?:\2|(?=>))>)
-1: <42 : 5.7368421052631575 : gew]$B<![endif]nnfP@w]$B;@]>DPUETUMRAJnfP@w]$B<@]>DPUETUMRAJnfP@w]$B<![endif]>]@nfPZJSQVQPIMOU>
-===Initiate End===
-Node Coverage: 42/46
-===Genetic Algorithm End===
-Node Coverage: 42/46
-Normal fail
-TIME: 135.440960047 (s)
-Attack failed

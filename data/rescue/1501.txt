@@ -1,9 +1,0 @@
-d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZWN]|'[^']*'|'[^']*'
-5: <18 : 9.0 : '><16 : 5.333333333333333 : ''><24 : 10.25 : 'yy><24 : 8.375 : 'HhMsTt><26 : 9.166666666666666 : 'yyyy>
-===Initiate End===
-Node Coverage: 29/29
-===Genetic Algorithm End===
-Node Coverage: 29/29
-Normal fail
-TIME: 75.827984915 (s)
-Attack failed

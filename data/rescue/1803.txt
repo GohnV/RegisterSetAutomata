@@ -1,9 +1,0 @@
-^\s*VERSION\s*=\s*(['"])(\d\.\d\.\d)\1
-10: <7 : 0.875 : VERSION><11 : 1.2222222222222223 : VERSION=><14 : 1.4 : VERSION="><12 : 1.5 : VERSION=	><15 : 1.3636363636363635 : VERSION="0><16 : 1.3333333333333333 : VERSION="0.><17 : 1.3076923076923077 : VERSION="0.0><18 : 1.2857142857142858 : VERSION="0.0.><20 : 1.3333333333333333 : VERSION="0.0.0><21 : 1.3125 : VERSION="0.0.0">
-===Initiate End===
-Node Coverage: 22/22
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Normal fail
-TIME: 0.148453092 (s)
-Attack failed

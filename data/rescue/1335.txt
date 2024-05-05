@@ -1,9 +1,0 @@
-alt=(['"])(.*?)\1
-3: <3 : 0.6 : alt=><10 : 1.8571428571428572 : alt='"><11 : 1.625 : alt='"'>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 26.819243664 (s)
-Attack failed

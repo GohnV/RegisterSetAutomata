@@ -1,9 +1,0 @@
-\[u(:.+)?\](.*?)\[\/u\1?\]
-1: <6 : 1.2352941176470589 : 	j^.iG\Op|Ma[u>
-===Initiate End===
-Node Coverage: 6/20
-===Genetic Algorithm End===
-Node Coverage: 12/20
-Normal fail
-TIME: 0.709430453 (s)
-Attack failed

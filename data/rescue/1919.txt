@@ -1,9 +1,0 @@
-\b(?:q|qq|qx|qw)\s*([^a-zA-Z0-9\s\{\(\[<])(?:[^\\]|\\[\s\S])*?\1
-6: <14 : 6.666666666666667 : qq><22 : 7.25 : qq\><24 : 11.833333333333334 : qq\qx><25 : 10.1875 : qq\?:q|qq|qx|qw><25 : 7.666666666666667 : qq|\\><15 : 6.25 : qq	>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 85.321512154 (s)
-Attack failed

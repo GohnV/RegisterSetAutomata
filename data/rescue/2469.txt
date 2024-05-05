@@ -1,64 +1,0 @@
-(`+)(\s|[a-z]+)\s*([\s\S]*?[^`])\s*\1(?!`)
-4: <4 : 3.5 : \><25 : 6.188679245283019 : 
-ha&t(O'5NED` UVV9s~-sZK
-$&&82"~^eL
-QxLKc:g	ee2aU0`><27 : 3.9846153846153847 : +.>n.zZcu25K~Wm:~jD4=>L
-2Td
-}mlNU(i9;NDg^Yl`av;Gkk:,=l
-<T6F`><27 : 8.425925925925926 : 
-ha&t(O'5NED` UVV9s~-sZK
-$&&82"~^eL
-QxLKc:g	ee2aU0``>
-===Initiate End===
-Node Coverage: 28/28
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Vulnerable: Yl`wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvldpda
-av;G	
-
-	 	  
-     
-
-
-
-QxLKc:g	ee2aU
-100135 : 764.3893129770993 : Yl`wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvldpda
-av;G	
-
-	 	  
-     
-
-
-
-QxLKc:g	ee2aU
-100072 : 935.2523364485982 : `wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvld	
-
-	 	  
-     
-
-
-
-100072 : `wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvld	
-
-	 	  
-     
-
-
-
-100072 : 1 : `wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvld	
-
-	 	  
-     
-
-
-
-100215 : `wqsktgnszlnqsknhkniemrzjlonchcomtlyquajhypmrfsbxcglunnwurzzwuigptmqijbskieajtgzwvld	
-
-	 	  
-     
-
-
-
-TIME: 11.140576359 (s)
-Attack failed

@@ -1,12 +1,0 @@
-([{}])\1|\{([^}]*)\}|(%)%|(%(\w*))
-4: <18 : 9.0 : %><19 : 6.666666666666667 : %a><20 : 8.090909090909092 : 	aHwE|KlC\@}wWlVMd-wdFfuy~+1pg	6~o;lc5bWLbo'?qH\^3
-O[}VF?i1E3~%><17 : 8.707692307692307 : F[j,UP.^j/Q#`
-FqG:ztTh}X$)CcTSV;f_ikBw0K^`)WZ15{
-AdOpd9-Qg>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 18.767469748 (s)
-Attack failed

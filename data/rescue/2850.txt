@@ -1,9 +1,0 @@
-^\\begin\{([a-z]*\*?)\}(.*?)\\end\{\1\}
-5: <9 : 1.125 : \begin{><10 : 1.3333333333333333 : \begin{*><14 : 1.5555555555555556 : \begin{}><17 : 2.5714285714285716 : \begin{}\end{><16 : 1.0666666666666667 : \begin{}\end{}>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 24.287514062 (s)
-Attack failed

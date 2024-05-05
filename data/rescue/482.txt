@@ -1,9 +1,0 @@
-url\(((["'])(?:(?!\2).)+\2|[^)]+)\)
-5: <7 : 1.4 : url(><11 : 3.0 : url(url\><19 : 4.142857142857143 : url("'><12 : 1.9 : url(url\)><20 : 4.777777777777778 : url("'"'>
-===Initiate End===
-Node Coverage: 21/21
-===Genetic Algorithm End===
-Node Coverage: 21/21
-Normal fail
-TIME: 169.504933962 (s)
-Attack failed

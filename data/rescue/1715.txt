@@ -1,9 +1,0 @@
-(<<<)\s*(['"]?)(SQL)(\2)\s*$\n?
-2: <20 : 4.0 : <<<SQL><22 : 3.142857142857143 : <<<SQL>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 31.722183888 (s)
-Attack failed

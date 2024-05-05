@@ -1,9 +1,0 @@
-^(?:(['"])((?:\\\1|.)*?)\1|(\S+))\s*(.*)$
-3: <20 : 10.5 : \><32 : 4.630769230769231 : 'p9]=$dF,;8qE3z*mXJz3|q}	@MV"yTL/V#*qi_O	2#Qtj7O"?,Ly[s*9*2HiT><32 : 38.520833333333336 : "}Mba1	*C4}am!X"sgFtJ-${+\1s5WHyWf7)vcVh*Hhix@%>
-===Initiate End===
-Node Coverage: 33/33
-===Genetic Algorithm End===
-Node Coverage: 33/33
-Normal fail
-TIME: 59.371326571 (s)
-Attack failed

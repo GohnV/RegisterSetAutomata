@@ -1,9 +1,0 @@
-<\?xml.+?encoding=(['"])(.+?)\1
-5: <3 : 0.5 : <?xml><5 : 2.0 : <?xmlencoding=><7 : 2.606060606060606 : <?xmlencoding=<\?xml.+?encoding=><13 : 2.857142857142857 : <?xmlencoding=<\?xml.+?encoding='"><14 : 1.8333333333333333 : <?xmlencoding=<\?xml.+?encoding='"'>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 122.602327483 (s)
-Attack failed

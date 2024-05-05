@@ -1,126 +1,0 @@
-\s*<(?:\/)?(\w+)(?:[^>]+)?>(?:[^<]+<\/\1>)?
-9: <4 : 3.5 : \><10 : 4.4 : +<\/><11 : 3.492063492063492 : /*K	<
-i28~nih;=U!f?(*(KV
-.`h*
-0u9!c.._VfeNmo[`Ob;1D]{+Gb }sv	><19 : 8.970149253731343 : z0~AMIbuTZtFOL|\pWN7WEIFOhr%95o"om#H<0T3-dz\h/WxHFna5Hx6#{%Y6^<x><25 : 3.3181818181818183 : a:=urqSw;w<{;sO$T"IX3H2m5m5(q*W;`!>yR6%BU+	qEnD;=C<_rik>5X }cEe><21 : 4.343283582089552 : wgQ,+RrwkPvY(xe:S	>n>#%7T
-
-!9
-:KV\[	@warJiJX*ti'](</y*b*FpQ0yWSy><26 : 2.4827586206896552 : <w|`Z4X"6!B7%U	z	(
-f`xD "$faaZ$4$!X;fbp>c_u(C&!pBKb/</><27 : 2.457627118644068 : <w|`Z4X"6!B7%U	z	(
-f`xD "$faaZ$4$!X;fbp>c_u(C&!pBKb/</w><29 : 2.2333333333333334 : <w|`Z4X"6!B7%U	z	(
-f`xD "$faaZ$4$!X;fbp>c_u(C&!pBKb/</w>>
-===Initiate End===
-Node Coverage: 31/31
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 31/31
-Vulnerable: H<H<H<0T3Y6^Hx6#\h/WxHFna5Hx6#	
-
-	 			
-	 {%Yh0<  
- 
-  
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFna5H+<
-100135 : 658.7828947368421 : H<H<H<0T3Y6^Hx6#\h/WxHFna5Hx6#	
-
-	 			
-	 {%Yh0<  
- 
-  
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFna5H+<
-100032 : 952.6857142857143 : H<H<H<0T3
-
-	 		 
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFn
-100032 : H<H<H<0T3
-
-	 		 
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFn
-100032 : 0 : H<H<H<0T3
-
-	 		 
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFn
-100314 : H<H<H<0T3
-
-	 		 
- 
-	
-
-	 
-	  	
-			</Wxbna5HxY6 			   	  
-
-	
-	
- 			
-	
-
-	 			
-	 HFna5HxHFn
-TIME: 13.76086962 (s)
-Attack failed

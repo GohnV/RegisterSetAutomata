@@ -1,9 +1,0 @@
-(</)(profiles)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.3636363636363638 : ^fiy@</ZPR>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 6/25
-Normal fail
-TIME: 1.321665136 (s)
-Attack failed

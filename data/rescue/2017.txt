@@ -1,13 +1,0 @@
-\bmanifest_url\(\s*(["'/])([^"']+)\1\)
-1: <16 : 1.6666666666666667 : \Cl2S	mani2S	manifest_url(
-"\ClF:*5yog9tfestF:*5yog9t;lJ
-|url*5yog9t;lJ
-|url(
-")>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 22.636742953 (s)
-Attack failed

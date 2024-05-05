@@ -1,9 +1,0 @@
-(?i:^\s*(create(?:\s+or\s+replace)?)\s+(aggregate|conversion|database|domain|function|group|(unique\s+)?index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view)\s+)(['"`]?)(\w+)\4
-1: <44 : 3.1875 : create	function>
-===Initiate End===
-Node Coverage: 44/64
-===Genetic Algorithm End===
-Node Coverage: 62/64
-Normal fail
-TIME: 11.614720494 (s)
-Attack failed

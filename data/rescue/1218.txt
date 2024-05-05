@@ -1,9 +1,0 @@
-^\s*SHOW\s+(?:TABLE\s+STATUS|(?:FULL\s+)?TABLES).+WHERE\s+Name\s*=\s*("|')((?:[0-9a-zA-Z$_.-]|[\xC2-\xDF][\x80-\xBF])+)\1
-3: <18 : 2.0 : SHOW	FULL	><17 : 2.230769230769231 : SHOW		TABLE	><24 : 2.8412698412698414 : SHOW	TABLES.+WH	TABLESABLES.+WH	TABLES.+WWHERWWHERE	OW		TABLE	>
-===Initiate End===
-Node Coverage: 29/53
-===Genetic Algorithm End===
-Node Coverage: 29/53
-Normal fail
-TIME: 39.195096749 (s)
-Attack failed

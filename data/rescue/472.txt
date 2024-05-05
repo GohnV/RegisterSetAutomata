@@ -1,9 +1,0 @@
-([$k7])\1([$v])         $ 
-1: <11 : 2.7865168539325844 : $$$$$$v        $$$v   v  v  $$v           v  v  $$v           $$$v         $$$v         >
-===Initiate End===
-Node Coverage: 11/13
-===Genetic Algorithm End===
-Node Coverage: 11/13
-Normal fail
-TIME: 4.758809684 (s)
-Attack failed

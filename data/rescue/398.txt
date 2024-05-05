@@ -1,9 +1,0 @@
-(['"])NG_VERSION_FULL\1
-1: <7 : 1.910569105691057 : VERSION_FULL\?evVERSII!s&'NG_VEs&'NG_s&'NG_VSII!s&'I!s&'NG_VEs&'NG_s&'NG_VE_s&'NG_VERSION_FUNG_VEs&'NG_s&'NG_VERSION_FULL'>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 0.963096503 (s)
-Attack failed

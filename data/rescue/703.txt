@@ -1,9 +1,0 @@
-^\s*([^\s=]+)\s*[=]?\s*(['"]?)(.*?)\2\s*$
-2: <26 : 6.6 : ^\s*><27 : 6.984615384615385 : w/*6	SX>laLt{!So&J$Rgds,	h9[9uQt&yTF	`[2G7/J7nG86-YaCm3pbu`""-a>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 14.765239306 (s)
-Attack failed

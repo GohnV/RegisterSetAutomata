@@ -1,16 +1,0 @@
-([^\s]+)=(["'])[\s\S]+?\2
-1: <14 : 37.647887323943664 : fJ-i~	fz
-7jyR*RAH}&@CZ*+?\22Lt#!D*m6lHuS).l6#`R^ 9kr+v:9A="]h^sY7"'>
-===Initiate End===
-Node Coverage: 14/14
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Vulnerable: ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`R^ 9kr+v:9A="
-100081 : 488.2 : ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`R^ 9kr+v:9A="
-100006 : 520.8645833333334 : ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`
-100006 : ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`
-100006 : 0 : ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`
-100094 : ffJ-i*+?\22Lt#?\22Lt#!D6@zf4g4<g}fqhtbo=<[@\\S"(|s"]<=>>[']]{@?[((\?s(@>]++='~@CZ*+?\22Lt#!D*m6lHuS).l6#`SuHl6m*D!#tL22\?#tL22\?+*i-JfH}&@CZ*15778425326106998Z*+?\22Lt#\22Lt#!D*m6lHuS).l6#`
-TIME: 29.018816936 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^(\S+)test \1test_mod$
-4: <7 : 4.0 : test_mod><8 : 3.7857142857142856 : test_modtest ><9 : 2.4545454545454546 : test_modtest test_mod><11 : 1.4 : test_modtest test_modtest_mod>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 15.34669367 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^        (['"])([a-z0-9A-Z_]+)\1\s*=>
-5: <4 : 0.4444444444444444 :         ><8 : 0.8 :         '><11 : 1.0909090909090908 :         'a><14 : 1.25 :         'a'><15 : 1.1428571428571428 :         'a'=>>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 17.844196023 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<([A-Za-z][A-Za-z0-9]*)\b[^>]*>(.*?)<\/\1>
-1: <20 : 2.0408163265306123 : bucRH2<a-z0-9fyNilO]BG:6{uB_S:@eI7?/a+AC>LHj</a>>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 52.462588654 (s)
-Attack failed

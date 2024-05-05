@@ -1,10 +1,0 @@
-(["'])(?:\\[\s\S]|(?!\1)[^\\])*\1
-3: <16 : 12.666666666666666 : "'><17 : 16.285714285714285 : "'?!\1><19 : 8.038461538461538 : t,mY6<N&z2#'W
-&_;Sj){Xa""*4%aR?	Wav%:VG6P0I:eX"4y'>
-===Initiate End===
-Node Coverage: 20/20
-===Genetic Algorithm End===
-Node Coverage: 20/20
-Normal fail
-TIME: 47.240516629 (s)
-Attack failed

@@ -1,9 +1,0 @@
-&lt;img\s+src=((?:&quot;)?)((?:https?://)\S+?)\1(?:\s+alt=(&quot;.*?&quot;|\S*?))?(?:\s?/)?&gt;
-12: <3 : 0.375 : &lt;img><5 : 0.6666666666666666 : &lt;img	><13 : 1.0769230769230769 : &lt;img	src=><15 : 1.0526315789473684 : &lt;img	src=&quot;><16 : 1.0 : &lt;img	src=http><19 : 1.0 : &lt;img	src=http://><31 : 4.0 : &lt;img	src=http://&quot;><32 : 4.037037037037037 : &lt;img	src=http://&quot;	><33 : 2.9565217391304346 : &lt;img	src=http://://><41 : 4.0 : &lt;img	src=http://&quot;	alt=><32 : 1.36 : &lt;img	src=http://?&gt;><44 : 5.378378378378378 : &lt;img	src=http://&quot;	alt=&quot;>
-===Initiate End===
-Node Coverage: 49/49
-===Genetic Algorithm End===
-Node Coverage: 49/49
-Normal fail
-TIME: 199.48767968 (s)
-Attack failed

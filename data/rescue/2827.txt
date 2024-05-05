@@ -1,17 +1,0 @@
-(<([\w:]+)(.*?)(?:/>|>(.*?)</\2>))
-1: <27 : 48.58095238095238 : Om^9vWBBA+I+0FU3-M{f\7S`<U0I4Zy0>`3Nv3b </0I4Zy0>`3Nv3b </U0I4ZyjY4hWpI+UJF:=i|8MT`2@D"4(
-
-jJW6CO<i?:/>>
-===Initiate End===
-Node Coverage: 27/27
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Vulnerable: m^9vWBBA+I+0FUWBBA+I+3-M{f\7S`<U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI+UJF:=i|8CLVOKMAZDWVLYPY>
-100208 : 428.2393162393162 : m^9vWBBA+I+0FUWBBA+I+3-M{f\7S`<U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI+UJF:=i|8CLVOKMAZDWVLYPY>
-100177 : 559.6480446927375 : <U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI
-100177 : <U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI
-100177 : 0 : <U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI
-100714 : <U0I4Zy0LJIWHCYTDEYWOKIKTSWCLVOKMAZDWVLYPY>::}=}{}?:;<=>?=|:?=@}@{?@{<|@;;;@4dE8110}N3UKm8h9e4cHTqgAzx7pqy9Jrln2nhfjvQhZzDXmx1VG0kixl`>3`>0BA+I+0FU3-M{f\76COb </U0I4ZyjY4hWpI
-TIME: 38.900207219 (s)
-Attack failed

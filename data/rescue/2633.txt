@@ -1,20 +1,0 @@
-(\S+)\s+(\d+)\s+\1\s+\2
-1: <19 : 50.851851851851855 : Y.$*HNU"P^OD?'3N#_jBrpf1v9=^?qfA>>E[aA.m|
-0
-aA.m|
-0>
-===Initiate End===
-Node Coverage: 19/19
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 19/19
-Vulnerable: v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU"^?qfA>aAaA.m|
-0
-100131 : 457.2191780821918 : v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU"^?qfA>aAaA.m|
-0
-100004 : 500.02 : v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU
-100004 : v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU
-100004 : 0 : v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU
-100036 : v9=^?qfA>>Etlbmdvlqkxojtxbtikonmrzegzkfuzljuhmikhow.$*HNU"P^OD?'3N#_jBrqaA.m|zkfuzljuhmikhowpydbddYY.$*HNU"P^OD?'3N#_jBrA>aA.m|Y.$*HNU"^?qfA>>E[av9=^?qfAdilv(qpukwkzvss+sjdw\\j+s+\()s\+\Sn>Af$*HNU
-TIME: 69.395798143 (s)
-Attack failed

@@ -1,9 +1,0 @@
-^(?:\/\*+[\w|\W]*?\*\/|\/\/.*?[\n\r\u2028\u2029]|\s)*(["'])use strict\1;?$
-2: <17 : 1.3076923076923077 : "use strict"><18 : 5.166666666666667 : ///u>
-===Initiate End===
-Node Coverage: 25/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 30.627809436 (s)
-Attack failed

@@ -1,9 +1,0 @@
-\/([^\/]+)\/\1\.\w+$
-1: <13 : 5.087719298245614 : p/o[<-Q-tB{3!(I;>F?j_,5\/o[<-Q-tB{3!(I;>F?j_,5\.y9ehA&c&>
-===Initiate End===
-Node Coverage: 13/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 33.575746247 (s)
-Attack failed

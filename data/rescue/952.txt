@@ -1,11 +1,0 @@
-\s(?:view-|\*)([\w\-@]+)=(["'])([\s\S]*?)\2
-1: <23 : 2.04 : ?
-N"$s"hz\$s"hz\^h*s"hz\
-N"$s"hz\^h*9t8Hu="'">
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 20.957194588 (s)
-Attack failed

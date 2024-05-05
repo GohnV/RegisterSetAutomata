@@ -1,9 +1,0 @@
-Errors: 522
-1: <2 : 0.16666666666666666 : Errors: 522>
-===Initiate End===
-Node Coverage: 2/3
-===Genetic Algorithm End===
-Node Coverage: 2/3
-Normal fail
-TIME: 0.165531773 (s)
-Attack failed

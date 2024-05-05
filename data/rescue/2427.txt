@@ -1,9 +1,0 @@
-<!-- cc:bc:([A-Za-z:]*) -->(<\/cc>)?<!-- cc:ac:\1 -->
-6: <6 : 0.5 : <!-- cc:bc:><10 : 0.625 : <!-- cc:bc: -->><7 : 0.7692307692307693 : <!-- cc:bc:c><12 : 0.6190476190476191 : <!-- cc:bc: --></cc>><12 : 0.4444444444444444 : <!-- cc:bc: --><!-- cc:ac:><13 : 0.41935483870967744 : <!-- cc:bc: --><!-- cc:ac: -->>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 9.618006728 (s)
-Attack failed

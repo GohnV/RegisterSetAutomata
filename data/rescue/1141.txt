@@ -1,9 +1,0 @@
-^.+(\[\{\s*block\s+name\s*=\s*(['"])([a-z0-9_]+)\2\s*\}\](.*?)\[\{\s*\/block\s*\}\])$
-1: <28 : 4.385416666666667 : [{[{b[{block	name='b'b'='b'=emame='b'b'='b'=emancolb{[b{[{colb{[b[{blocb{[b[{bloc{block	name='">
-===Initiate End===
-Node Coverage: 28/42
-===Genetic Algorithm End===
-Node Coverage: 28/42
-Normal fail
-TIME: 12.337629064 (s)
-Attack failed

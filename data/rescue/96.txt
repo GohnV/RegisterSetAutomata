@@ -1,44 +1,0 @@
-(?:"""[\s\S]*?"""|@"(?:""|[^"])*"|("|')(?:\\\1|\\?(?!\1)[\s\S])*\1)B?
-6: <23 : 11.5 : "><25 : 14.666666666666666 : "B><31 : 10.4 : "B@"><27 : 17.75 : "B\><31 : 6.8 : """"><34 : 30.17910447761194 : 9AMRVU1kT?u'?V;#zY>QkpK	G;gv@"K5C
-<
-uMw%R{cA_.@5;%nb9l-=/{8HlMF?V>
-===Initiate End===
-Node Coverage: 45/45
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 45/45
-Vulnerable: '?Tk1UVRMA*@"""\S|"|"\|"B(((\??*^|]|(
-:|(|"|"\?Tk1UVRMA*@"""\S|"|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsnczY>QkF?V
-100251 : 711.0 : '?Tk1UVRMA*@"""\S|"|"\|"B(((\??*^|]|(
-:|(|"|"\?Tk1UVRMA*@"""\S|"|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsnczY>QkF?V
-100109 : 827.3471074380166 : '?Tk1UVRMA*\S|"\|"B(((\??*^|]|(
-:|(|"\?Tk1UVRMA*@"""\S|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsn
-1000257 : '?Tk1UVRMA*\S|"\|"B(((\??*^|]|(
-:|(|"\\S|"\|"B(((\??*^|]|(
-:|(|"\?Tk1UVRMA*@"""\S|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsn
-1000257 : 0 : '?Tk1UVRMA*\S|"\|"B(((\??*^|]|(
-:|(|"\\S|"\|"B(((\??*^|]|(
-:|(|"\?Tk1UVRMA*@"""\S|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsn
-1199108 : '?Tk1UVRMA*\S|"\|"B(((\??*^|]|(
-:|(|"\\S|"\|"B(((\??*^|]|(
-:|(|"\?Tk1UVRMA*@"""\S|"\|"B(((\??*^|]|(
-:|(]9;gv@"K5C
-<
-uMw%R{cA_.@glztdbsrkuxxfsn
-TIME: 15.14689347 (s)
-Attack failed

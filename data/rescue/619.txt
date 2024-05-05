@@ -1,75 +1,0 @@
-^\s*insert\s+into\s+(.+?)(\(|)\s*(\s*select.*)\s*\2\s*($|ON\s+DUPLICATE\s+KEY\s+UPDATE)
-3: <25 : 9.529411764705882 : insertinto	o	to	\s*ntontotoo	tN(><42 : 10.625 : insertinto	tNnto	to	\s*ss*ntonto	ttinto	\s*sselect	ONDUPLICATE				  
-		
-	><38 : 9.737704918032787 : insertinto	o	to	\s*ntontinto	too	o	tN	ttinto	\s*sselect	ON>
-===Initiate End===
-Node Coverage: 46/49
-find attack string when mutate
-===Genetic Algorithm End===
-Node Coverage: 46/49
-Vulnerable: insertinto 
-     	  	 
- 		
- 
-	
-	
-
-	  		
- 
-	
-	
- 				 			ot	otoN(U**+9+en*s\	ot		 N	ttinto	\s*sserinto				  
-		
-	
-100043 : 781.5859375 : insertinto 
-     	  	 
- 		
- 
-	
-	
-
-	  		
- 
-	
-	
- 				 			ot	otoN(U**+9+en*s\	ot		 N	ttinto	\s*sserinto				  
-		
-	
-100014 : 2000.28 : insertinto 
-     	  	 		
- 
-	
-	
-
-	  		
- 
-
-100014 : insertinto 
-     	  	 		
- 
-	
-	
-
-	  		
- 
-
-1000084 : 6 : insertinto 
-     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		
- 
-	
-	
-
-	  		
- 
-
-17852014 : insertinto 
-     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		     	  	 		
- 
-	
-	
-
-	  		
- 
-
-TIME: 5.588201563 (s)
-Attack failed

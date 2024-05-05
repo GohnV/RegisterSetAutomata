@@ -1,9 +1,0 @@
-\s*([^= ]+)(?:=(["']?)(.*?)\2)?
-3: <12 : 4.25 : \s*><22 : 7.666666666666667 : ^=><23 : 3.5555555555555554 : PMw>;P="%~O:)Gh">
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 1.416862038 (s)
-Attack failed

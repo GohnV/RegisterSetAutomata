@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <link(?:\s+(?:(?!href\s*=\s*)[^>])+)?(?:\s+href\s*=\s*(['"])((?:https?:)?\/\/fonts\.googleapis\.com\/css(?:(?!\1).)+)\1)(?:\s+[^>]*)?>
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(14)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

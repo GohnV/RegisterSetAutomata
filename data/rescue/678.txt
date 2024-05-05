@@ -1,9 +1,0 @@
-^("|').*?\1$
-4: <10 : 5.0 : "><11 : 4.333333333333333 : "'><12 : 4.0 : ""|'><12 : 3.3333333333333335 : ""|'">
-===Initiate End===
-Node Coverage: 13/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.578032779 (s)
-Attack failed

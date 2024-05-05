@@ -1,9 +1,0 @@
-(^|[^\w*])([_\*])\2(?![_\*])[\s\S]*?\2{2}(?=([^\w*]|$))
-3: <16 : 7.2 : ^|__**?\\><25 : 13.933884297520661 : ^|__\**?\\2[R((Q*\sSG*)H[*L**RR\UH^C\|]]*222X2\J\^RZ]*?)^\$=\\{V^*Cw]?T=V(S|L)))2_E\U{G)K]T2(wKB?w=F*^)[GNR)}^S^XJ]A|\[S><28 : 5.0 : ^|__^|__\>
-===Initiate End===
-Node Coverage: 30/30
-===Genetic Algorithm End===
-Node Coverage: 30/30
-Normal fail
-TIME: 17.670566426 (s)
-Attack failed

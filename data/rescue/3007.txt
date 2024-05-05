@@ -1,9 +1,0 @@
-^<(\w+)\s*>\s*CAR\s*CAR\s*</\1>$
-8: <5 : 2.5 : <><10 : 4.6 : <CAR><13 : 4.333333333333333 : <CAR>><16 : 3.2222222222222223 : <CAR>CAR><19 : 2.6666666666666665 : <CAR>CARCAR><20 : 2.357142857142857 : <CAR>CARCAR</><21 : 2.0 : <CAR>CARCAR</CAR><23 : 1.5555555555555556 : <CAR>CARCAR</CAR>>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 24.773625438 (s)
-Attack failed

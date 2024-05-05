@@ -1,9 +1,0 @@
-(?:([^aeiouy])\1|ck|mp|ng)le$
-1: <15 : 9.24561403508772 : lpm||mpm||1||mpmplpm|pmplpm||mpm||1||mpmplpm|pmplp||mple>
-===Initiate End===
-Node Coverage: 15/16
-===Genetic Algorithm End===
-Node Coverage: 15/16
-Normal fail
-TIME: 24.481811338 (s)
-Attack failed

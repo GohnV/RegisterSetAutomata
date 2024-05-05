@@ -1,13 +1,0 @@
-(^|[^.])<\/?\w+(?:\s+[^\s>\/=]+=("|')(?:\\[\s\S]|(?!\2)[^\\])*\2)*\s*\/?>
-1: <48 : 12.01639344262295 : 3,+D
-/_qmv:	x#`y0czt=9	B
-H~Qbb@(]$%h<Y~Qbb@(]$%h<Y	x#`y0czt="	OeYQ~H
-B	9},jbszjaw713[D4Ij|XM}gx<@)
-GMk<a>?\2|Y?!3\\)">
-===Initiate End===
-Node Coverage: 48/48
-===Genetic Algorithm End===
-Node Coverage: 48/48
-Normal fail
-TIME: 12.735918355 (s)
-Attack failed

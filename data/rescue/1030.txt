@@ -1,9 +1,0 @@
-(<<)-("|'|)(RUBY)\2
-1: <5 : 1.8571428571428572 : ^95k<<>
-===Initiate End===
-Node Coverage: 5/17
-===Genetic Algorithm End===
-Node Coverage: 12/17
-Normal fail
-TIME: 1.301612375 (s)
-Attack failed

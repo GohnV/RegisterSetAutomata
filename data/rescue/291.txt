@@ -1,5 +1,0 @@
-("|').+?[^\\]\1|\.\w*|\w*:|\b(?:this|true|false|null|new|typeof|Number|String|Object|Array|Math|Date)\b|([a-z_]\w*)
-4: <20 : 6.2 : this><36 : 7.8 : thisArray><39 : 14.85 : #C*	"2XaqtIQSil[\H
-><11 : 5.5 : .>
-===Initiate End===
-Node Coverage: 44/44

@@ -1,9 +1,0 @@
-<(a|iframe|script).*?</\1>
-2: <15 : 3.5806451612903225 : EH4GIiframa$g6rt>~(%6>~(%6U3{RBi>~(%<a$g6U3{</ama$g6rt>~(%6>~(%6U3{RBi>~(%<a$g6U3{</RBRBi%('><14 : 1.346938775510204 : EH4GIiframa$g6rt>~(%6>~(%6U3{RBi>~(%<a$g6U3{</a>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 58.333777359 (s)
-Attack failed

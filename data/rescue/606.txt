@@ -1,9 +1,0 @@
-(["'])((?![\\#]|\1).|\\.)*\1|[^\s,]*
-3: <9 : 5.0 : \><22 : 11.5 : '><27 : 12.53125 : "R\g\'*ti%-e	F2A8(Zz_MhN&<d	*j#>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 111.69882448 (s)
-Attack failed

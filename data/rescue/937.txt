@@ -1,9 +1,0 @@
-^\((['"]?)([/_a-z\d]+)\1\)$
-3: <9 : 4.5 : (><13 : 4.8 : (/_a><15 : 3.3333333333333335 : (/_a)>
-===Initiate End===
-Node Coverage: 15/15
-===Genetic Algorithm End===
-Node Coverage: 15/15
-Normal fail
-TIME: 4.766534498 (s)
-Attack failed

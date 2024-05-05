@@ -1,9 +1,0 @@
-(src|href|srcset)=("|')(?!http)(\/{0,2})((?:(?!\2).)*)\2
-6: <9 : 2.4285714285714284 : srcset><13 : 3.25 : srcset=><30 : 5.333333333333333 : srcset='><20 : 4.461538461538462 : srcset='http><31 : 6.545454545454546 : srcset="|'><32 : 3.5 : srcset=''>
-===Initiate End===
-Node Coverage: 35/35
-===Genetic Algorithm End===
-Node Coverage: 35/35
-Normal fail
-TIME: 148.500210985 (s)
-Attack failed

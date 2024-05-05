@@ -1,9 +1,0 @@
-<if(\S+) c=([^\>]+)>(.*?)<\/if\1>\s*<else\1>(.*?)<\/else\1>
-1: <18 : 5.873563218390805 : KYQ"R*v<if9u^`q4:Vs c=m{jyftqe@HDn2{ODDQ"R*v<if9u^`q4:Vs c=m{jyftqe@HDn2{ODDqKeAPkm8g>>
-===Initiate End===
-Node Coverage: 18/33
-===Genetic Algorithm End===
-Node Coverage: 19/33
-Normal fail
-TIME: 74.704776316 (s)
-Attack failed

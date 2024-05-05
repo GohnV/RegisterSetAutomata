@@ -1,74 +1,0 @@
-\burl\s*\(\s*('|")?\s*(.*?)\s*\1?\s*\)
-1: <28 : 4.494845360824742 : \bu
-r~wttbu
-r~wtt+$]&r~wtt+$]&xPDSj]1Z:url(2r~wt(2>,wtt+$]&r~wtt+$]&xSj]1Z:url(2r~wt(2>,~)>
-===Initiate End===
-Node Coverage: 28/31
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 28/31
-Vulnerable: \bu
-r~w{@<=?:>ttr~wttbu&r~wttj]1Z:url(
-		    
-
-  		 	
-	
- 
- 	 
-	  83t+$]
-100071 : 1124.3932584269662 : \bu
-r~w{@<=?:>ttr~wttbu&r~wttj]1Z:url(
-		    
-
-  		 	
-	
- 
- 	 
-	  83t+$]
-100001 : 1612.9193548387098 : \bu
-r~w{@<=?:>ttr~wttbu&r~wttjurl(
-		    
-
-  		 	
-	
-1000080 : \bu
-r~w{@<=?:>ttr~wttbu&r~wttjurl(
-		    
-
-  		 	
-		    
-
-  		 	
-	
-1000130 : 2 : \bu
-r~w{@<=?:>ttr~wttbu&r~wttjurl(
-		    
-
-  		 	
-		    
-
-  		 	
-		    
-
-  		 	
-		    
-
-  		 	
-	
-12648764 : \bu
-r~w{@<=?:>ttr~wttbu&r~wttjurl(
-		    
-
-  		 	
-		    
-
-  		 	
-		    
-
-  		 	
-		    
-
-  		 	
-	
-TIME: 3.985936219 (s)
-Attack failed

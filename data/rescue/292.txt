@@ -1,9 +1,0 @@
-=\s*(["'])?((?:(?=\1)|[^\\])*(?:\\\1(?:(?=\1)|[^\\])*)*)\1?
-2: <42 : 4.290322580645161 : OqlI|p(/\~22.)DM>='%=S{@@\'"'><30 : 2.590909090909091 : OqlI|p(/\~22.)DM>='"'>
-===Initiate End===
-Node Coverage: 43/43
-===Genetic Algorithm End===
-Node Coverage: 43/43
-Normal fail
-TIME: 38.981192426 (s)
-Attack failed

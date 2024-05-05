@@ -1,9 +1,0 @@
-<!begin:(.+?)>(.*?)<!end:\1>}
-1: <14 : 10.075892857142858 : Rff]~97`<hO1dn[<0"\<!begin:[KH{?@|RxsYLSl+jo)j)]Q+jo)j)]Q]:H7gh`>!(M]V9;yWCH?Sl+jo)j)]Q+jo)j)]Q]:H7gh`>!(M]V9;yWCH?W(<!end:[KH{?@|RxsYLSl+jo)j)]Q+jo)j)]Q]:H7gh`>!(M]V9;yWCH?Sl+jo)j)]Q+jo)j)]Q]:H7gh`>!(M]V9;yWCH?W(<!end:\1>>
-===Initiate End===
-Node Coverage: 14/15
-===Genetic Algorithm End===
-Node Coverage: 14/15
-Normal fail
-TIME: 16.90535399 (s)
-Attack failed

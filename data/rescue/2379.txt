@@ -1,9 +1,0 @@
-^(encoding$S*=$S*(["'])($EncNameStart$EncNameEnd*)\2)
-1: <7 : 0.7777777777777778 : encoding>
-===Initiate End===
-Node Coverage: 7/25
-===Genetic Algorithm End===
-Node Coverage: 7/25
-Normal fail
-TIME: 0.09029148 (s)
-Attack failed

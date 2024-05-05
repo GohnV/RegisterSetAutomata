@@ -1,9 +1,0 @@
-\/\/\*\[@scrollable\s*=\s*('|")true\1\]
-7: <4 : 0.25 : //*[@scrollable><10 : 0.5882352941176471 : //*[@scrollable=><13 : 0.7222222222222222 : //*[@scrollable="><5 : 0.4117647058823529 : //*[@scrollable	><14 : 0.6363636363636364 : //*[@scrollable="true><15 : 0.6521739130434783 : //*[@scrollable="true"><16 : 0.6666666666666666 : //*[@scrollable="true"]>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 1.032696488 (s)
-Attack failed

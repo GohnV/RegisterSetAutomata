@@ -1,16 +1,0 @@
-(?><<-("?)((?:\w+_|)(?:SH|SHELL))\b\1)
-1: <28 : 3.955223880597015 : OEgTAEw
-<TA, tw
-MEw
-, tC`TAM`Ew
-MC`Ew
-<<-7Ew
-<<-7Ew
-<<-7U_SHELL>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 19.213713479 (s)
-Attack failed

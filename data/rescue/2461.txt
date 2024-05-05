@@ -1,9 +1,0 @@
-(?x)(<(?!area|base|br|col|frame|hr|html|img|input|link|meta|param|[^>]*/>)([A-Za-z0-9]+)\b[^>]*>(?!.*</\2>)|<!--(?!.*-->)|\{[^}"']*$)
-3: <42 : 6.349056603773585 : &|<!-\PlTpput50V"jwfB)T/%+Q<8*j-ut50V"jwfB)T/%+Q<FpcAv#i{ZW;}Fo>)(L(9in,o>)(L(9in,]]Gr5TpcAv#i{ut50V"jL</><37 : 9.325 : &|#i{ut50V"&pcAvAv<!--WuAv#ij-<?!.*-->/><38 : 5.376470588235295 : &|#i{ut50V"&pcAvAv<!--WuAv#ij-<?!.*--#i{ut50V"jL[FpcAv#i{ZW;}FcAv#i{ZW;}F]]Gr5TpcA/>>
-===Initiate End===
-Node Coverage: 53/55
-===Genetic Algorithm End===
-Node Coverage: 53/55
-Normal fail
-TIME: 37.046286182 (s)
-Attack failed

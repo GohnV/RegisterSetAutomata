@@ -1,9 +1,0 @@
-^([a-z]+)\.\1ID$
-4: <7 : 4.0 : a><8 : 3.0 : a.><9 : 2.5 : a.a><11 : 2.0 : a.aID>
-===Initiate End===
-Node Coverage: 11/11
-===Genetic Algorithm End===
-Node Coverage: 11/11
-Normal fail
-TIME: 2.987236689 (s)
-Attack failed

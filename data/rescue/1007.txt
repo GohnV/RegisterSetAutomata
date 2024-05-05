@@ -1,9 +1,0 @@
-^top\.location\.href\s*=\s*(['"])[^'"]*\1;{0,1}$
-5: <5 : 0.2777777777777778 : top.location.href><9 : 0.47368421052631576 : top.location.href=><13 : 0.65 : top.location.href="><14 : 0.7619047619047619 : top.location.href="&><17 : 0.8095238095238095 : top.location.href="">
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 9.243301817 (s)
-Attack failed

@@ -1,194 +1,0 @@
-(?:^|[\r\n])\s*(?:\/{2,})?\s*(['"])?#exclude\s*=\s*([\w,_]+)\1\s*;?
-4: <30 : 11.521739130434783 : 
-"Rq
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF
-#exclude=><30 : 10.844444444444445 : "Rq
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF
-#exclude=><30 : 12.74468085106383 : 
-
-"Rq
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF
-#exclude=><22 : 848.7457627118644 : 
-"R		    		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-				 			
- 
- 
-	q
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF>
-===Initiate End===
-Node Coverage: 30/39
-find attack string when init
-===Genetic Algorithm End===
-Node Coverage: 30/39
-Vulnerable: 
-"R		    		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-				 			
- 
- 
-	q
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF
-#exclude=
-100152 : 848.7457627118644 : 
-"R		    		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-				 			
- 
- 
-	q
-F
-
-"R
-
-"RqR
-
-"Rq
-
-F
-
-"Rq
-F
-#eF
-#exclude=
-100040 : 1724.8275862068965 : 
-   		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-
-100040 : 
-   		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-
-100040 : 1 : 
-   		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-
-110725 : 
-   		 
-  
-
-		 		
-		
-	
-
-				
-	  	 
-			 
-
-
-TIME: 7.255316959 (s)
-Attack failed

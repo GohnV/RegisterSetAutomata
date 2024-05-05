@@ -1,9 +1,0 @@
-(?><<-("?)((?:\w+_|)HTML)\b\1)
-1: <23 : 2.9545454545454546 : ><<-sKRmS_HTMLr__HTML>
-===Initiate End===
-Node Coverage: 23/23
-===Genetic Algorithm End===
-Node Coverage: 23/23
-Normal fail
-TIME: 31.798425743 (s)
-Attack failed

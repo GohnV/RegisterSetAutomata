@@ -1,9 +1,0 @@
-(<)(extension)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.5 : ?!<>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 11/25
-Normal fail
-TIME: 0.737239122 (s)
-Attack failed

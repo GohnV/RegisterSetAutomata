@@ -1,9 +1,0 @@
-^unquote\((["'])(.*)\1\)$
-1: <13 : 3.5344827586206895 : unquote(""uote(;[[")|]$%';/%/):@<^@@%][-!_;][-!_;;!;.-}*}>
-===Initiate End===
-Node Coverage: 13/14
-===Genetic Algorithm End===
-Node Coverage: 13/14
-Normal fail
-TIME: 38.692686437 (s)
-Attack failed

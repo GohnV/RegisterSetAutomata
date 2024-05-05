@@ -1,9 +1,0 @@
-^<(style|div|script)[\s\S]+?<\/\1>
-6: <7 : 3.5 : <><11 : 1.375 : <script><13 : 1.7 : <script^<><14 : 2.0 : <script^<</><15 : 2.388888888888889 : <script^<</script><16 : 1.0 : <script^<</script>>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 0.810418544 (s)
-Attack failed

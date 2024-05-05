@@ -1,9 +1,0 @@
-^([^a-zA-Z0-9\\\s*?^$]).*\1[imsxeADSUXJu]*$
-3: <8 : 3.2 : .*\1><11 : 3.125 : ,Qc+.j4]FLR7vUM,?|p&PSV)6q;5oeD><12 : 3.3333333333333335 : .*\1.>
-===Initiate End===
-Node Coverage: 12/12
-===Genetic Algorithm End===
-Node Coverage: 12/12
-Normal fail
-TIME: 3.857151701 (s)
-Attack failed

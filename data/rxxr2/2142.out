@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([{}])\1|{([^}]*)}|(%)%|(%(\w*))
-PARSE: ERROR {ParsingData.IncompleteRangeDefinition(9)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

@@ -1,9 +1,0 @@
-^((\$|\b)(any|all|or|and|not|to|intersect)\2)(?=\W)
-2: <24 : 2.4 : intersect><27 : 2.4545454545454546 : intersect$>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 0.108972335 (s)
-Attack failed

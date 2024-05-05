@@ -1,11 +1,0 @@
-=(?!\{)(?:('|")[\s\S]*?(\1)|[^\s>]+)
-4: <2 : 1.5 : ?><17 : 1.7954545454545454 : 
-\H)L	yN4a#i	_@,wO`=(z`Wm^ofyPgfD<)~8\#Ib><21 : 3.7777777777777777 : T6A='uHw=b.{	\Kp2Ohd}]%"E'><18 : 1.3793103448275863 : >cd',npRU-VgCuE7={]v
-<?FK 0d/^?c{>d5oo;_9>)XU]h^1. s=@_D>
-===Initiate End===
-Node Coverage: 25/25
-===Genetic Algorithm End===
-Node Coverage: 25/25
-Normal fail
-TIME: 17.985728816 (s)
-Attack failed

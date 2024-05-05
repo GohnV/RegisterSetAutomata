@@ -1,9 +1,0 @@
-(['"])NG_VERSION_DOT\1
-1: <7 : 1.8148148148148149 : j%r-*aMS.cDVY_.cD'N[0NG_VERScDVY_.cD'N[0I"'ERScDVY_.cD'N[0I"'NG_VERSION_DOT'>
-===Initiate End===
-Node Coverage: 7/8
-===Genetic Algorithm End===
-Node Coverage: 7/8
-Normal fail
-TIME: 1.716339319 (s)
-Attack failed

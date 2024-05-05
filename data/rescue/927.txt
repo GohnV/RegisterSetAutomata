@@ -1,9 +1,0 @@
-^(version$S*=$S*(["'])($VersionNum)\2)
-1: <7 : 0.875 : version>
-===Initiate End===
-Node Coverage: 7/21
-===Genetic Algorithm End===
-Node Coverage: 7/21
-Normal fail
-TIME: 0.078789496 (s)
-Attack failed

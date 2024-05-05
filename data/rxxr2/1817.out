@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:\@lang|App\.i18n\.get|App\.ui\.notify)\((["'])((?:[^\1]|\.)*?)\1(,\s*(["'])((?:[^\4]|\.)*?)\4)?\)
-PARSE: ERROR {ParsingData.UnsupportedEscape(56, 49)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

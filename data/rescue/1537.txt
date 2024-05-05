@@ -1,9 +1,0 @@
-[BOZ](['"])[A-F0-9]+\1
-1: <10 : 2.2 : B'A'>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 0.905549098 (s)
-Attack failed

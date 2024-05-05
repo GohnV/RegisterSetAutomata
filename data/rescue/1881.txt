@@ -1,9 +1,0 @@
-(<)(repositories)\s*(>)(?!<\s*/\2\s*>)
-1: <6 : 2.4 : ML$.R:T?<>
-===Initiate End===
-Node Coverage: 6/25
-===Genetic Algorithm End===
-Node Coverage: 6/25
-Normal fail
-TIME: 0.949234256 (s)
-Attack failed

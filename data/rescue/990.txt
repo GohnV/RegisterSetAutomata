@@ -1,9 +1,0 @@
-x(a)\1x
-1: <8 : 1.495798319327731 : fa[S|g 2(xaa|g 2(xS|g 2([S|g 2(xaa|g 2(xS|g 2(xaa|g 2(xa2(xaa|g 2(xS|g 2(xaa|g(xaa|g 2(xa2(xaa|g 2(xS|g 2(xaa|g 2(xaax>
-===Initiate End===
-Node Coverage: 8/9
-===Genetic Algorithm End===
-Node Coverage: 8/9
-Normal fail
-TIME: 2.696507434 (s)
-Attack failed

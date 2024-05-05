@@ -1,9 +1,0 @@
-<link[^>]*href=(["'])([^"']+)\1[^>]*rel=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?openid2.local_id[ \t]*[^"']*\3[^>]*\/?>
-1: <30 : 7.175 : <linkhrefnkhref="href="'*r'*rel="h \tref \tref="f="'*rel="href="'*r'*rel="hrel=>
-===Initiate End===
-Node Coverage: 30/43
-===Genetic Algorithm End===
-Node Coverage: 30/43
-Normal fail
-TIME: 176.856738989 (s)
-Attack failed

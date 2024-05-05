@@ -1,9 +1,0 @@
-^(\ufeff?(= yaml =|---)$([\s\S]*?)(?:\2|\.\.\.)$(?:\n)?)
-1: <20 : 5.2 : --->
-===Initiate End===
-Node Coverage: 20/30
-===Genetic Algorithm End===
-Node Coverage: 20/30
-Normal fail
-TIME: 0.162850551 (s)
-Attack failed

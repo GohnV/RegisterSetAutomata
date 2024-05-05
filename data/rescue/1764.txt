@@ -1,9 +1,0 @@
-($vowel)\1
-1: <3 : 2.5 : $>
-===Initiate End===
-Node Coverage: 3/8
-===Genetic Algorithm End===
-Node Coverage: 3/8
-Normal fail
-TIME: 0.173596474 (s)
-Attack failed

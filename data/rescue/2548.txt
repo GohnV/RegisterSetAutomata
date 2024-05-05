@@ -1,9 +1,0 @@
-(</)(\w+)\s*(>)(?!<\s*/\2\s*>)
-1: <26 : 3.130952380952381 : .y	k(7<.y	k(7</y	<.yy	<.7</y/y	<.yy	<.y	k(7</y	y	<.yy	<.7</y	<.yy	<.y	k(7</y	></y	>>
-===Initiate End===
-Node Coverage: 26/26
-===Genetic Algorithm End===
-Node Coverage: 26/26
-Normal fail
-TIME: 36.405275759 (s)
-Attack failed

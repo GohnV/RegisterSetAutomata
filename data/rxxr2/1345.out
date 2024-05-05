@@ -1,6 +1,0 @@
-= [1] =
-INPUT: <([^<]+?[\s])(src|href|background)[\s]*=[\s]*(["\'])([^\3]+?)\3[^>]*?>
-PARSE: ERROR {ParsingData.UnsupportedEscape(56, 51)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

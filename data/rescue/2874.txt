@@ -1,9 +1,0 @@
-<([\w-]+)[^>]*>.*<\/\1>
-1: <16 : 2.25 : Fv?hMeypV9;!H?]WbX<XWbX<X*>.*</X>yX<.*</X<XypV9;!H?]>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 483.543748786 (s)
-Attack failed

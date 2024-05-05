@@ -1,18 +1,0 @@
-\[\s*(.*?)(?:\s*([~|^$*]?=)\s*(("|').*\4|.*?[^\\]))?\s*\]
-5: <2 : 1.5 : \><20 : 1.6615384615384616 : jNH0ENb;,[J~*Iw	IC)f_h$<.o]W=?=t"p^u*X
-]bw;I%oOi2ZcbHCX24;	Rq><21 : 6.0 : N$K&[7,G]><36 : 15.308823529411764 : exk!?@H ~V/8tCB&}W~w <F
-*EX
-[r_F=dKGz<8#LbK:hO4.*?.\~b,C~P[/	E+<D><41 : 8.171875 : p702)VIw0huBR'4fd+7qgr	~q9KOfw[R="?X>i`:`Mq^Ben<6X"xMp0"=Mf|Z>
-===Initiate End===
-Node Coverage: 42/42
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 42/42
-Vulnerable: [[[	rK[r_F=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9K.\~b,C~P[/	E+<D
-100123 : 758.5075757575758 : [[[	rK[r_F=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9K.\~b,C~P[/	E+<D
-100022 : 893.0535714285714 : [[[	[r=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9
-100022 : [[[	[r=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9
-100022 : 0 : [[[	[r=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9
-100193 : [[[	[r=d[[	   ="?X>i`\E+<D*\\$K[\?@H ~w[R="?7+df[	rgq7P[/wIV)207p/	E+<D6\[\\$K[\?@H ~w[R="?X>i`\**..qgr	~q9
-TIME: 18.320243905 (s)
-Attack failed

@@ -1,83 +1,0 @@
-charset\s*=\s*(["'])?\s*(.+)\s*\1
-5: <4 : 0.5 : charset><14 : 1.5555555555555556 : charset=><19 : 4.391304347826087 : charset=charset\s*=\s*><21 : 3.5454545454545454 : charset="'><22 : 2.6923076923076925 : charset="'"'>
-===Initiate End===
-Node Coverage: 22/22
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 22/22
-Vulnerable: charset=   	
-
-   	
-
-    
-	  
-				
-	
-
-   
-	  
-				
-	
-
- 	
-	
-:tNhwrset=rsetcharset=charset\st
-100066 : 826.99173553719 : charset=   	
-
-   	
-
-    
-	  
-				
-	
-
-   
-	  
-				
-	
-
- 	
-	
-:tNhwrset=rsetcharset=charset\st
-100031 : 1538.9384615384615 : charset=   	
-
-   	
-
-     			
-	
-
-   
-	  
-		
-100031 : charset=   	
-
-   	
-
-     			
-	
-
-   
-	  
-		
-100031 : 1 : charset=   	
-
-   	
-
-     			
-	
-
-   
-	  
-		
-102871 : charset=   	
-
-   	
-
-     			
-	
-
-   
-	  
-		
-TIME: 9.863348422 (s)
-Attack failed

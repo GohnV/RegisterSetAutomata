@@ -1,9 +1,0 @@
-&lt;a\s+href=((?:&quot;)?)((?:https?://|mailto:)\S+?)\1&gt;
-8: <3 : 0.5 : &lt;a><5 : 0.8571428571428571 : &lt;a	><15 : 1.3333333333333333 : &lt;a	href=><17 : 1.3333333333333333 : &lt;a	href=&quot;><19 : 1.0526315789473684 : &lt;a	href=mailto:><18 : 1.1875 : &lt;a	href=http><22 : 1.7391304347826086 : &lt;a	href=mailto:http><23 : 1.2 : &lt;a	href=mailto:\1&gt;>
-===Initiate End===
-Node Coverage: 28/28
-===Genetic Algorithm End===
-Node Coverage: 28/28
-Normal fail
-TIME: 22.320221476 (s)
-Attack failed

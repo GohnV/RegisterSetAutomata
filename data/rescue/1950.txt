@@ -1,9 +1,0 @@
-^[\s]*(['"]?)([\w()\/.\\'"-:#=&?]*)\1[\s]*?$
-2: <16 : 6.333333333333333 : \s><16 : 9.666666666666666 : \s>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 1.323126013 (s)
-Attack failed

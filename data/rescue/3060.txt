@@ -1,9 +1,0 @@
-<([a-z]+) style="font-weight: normal;">([\w\W]*?)<\/\1>
-1: <8 : 1.4375 : xd.;gk:Yfkoy<i>
-===Initiate End===
-Node Coverage: 8/16
-===Genetic Algorithm End===
-Node Coverage: 8/16
-Normal fail
-TIME: 0.216909731 (s)
-Attack failed

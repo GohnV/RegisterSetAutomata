@@ -1,9 +1,0 @@
-^-----BEGIN ((?:.* KEY)|CERTIFICATE)-----([0-9A-z\n\r\+\/\=]+)-----END \1-----$
-1: <19 : 3.036363636363636 : -----BEGIN BEGINEY-BN BEGINEY-BEGINEY------IN  N  KEY-INEY-BEGINEY------IN  N  KEY-----BGIII-BEGINEY---BGIIN >
-===Initiate End===
-Node Coverage: 19/23
-===Genetic Algorithm End===
-Node Coverage: 20/23
-Normal fail
-TIME: 10.031240656 (s)
-Attack failed

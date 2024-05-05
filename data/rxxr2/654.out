@@ -1,6 +1,0 @@
-= [1] =
-INPUT: (?:^|\s|\n|[^A-z0-9_*~`])(`)((?!\1).*?)(\1)($|\s|\n|[^A-z0-9_*~`])
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(29)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

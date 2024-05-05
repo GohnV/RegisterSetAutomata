@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ([.#:[])([-\w]+)(?:\((.+?)\)|([~^$*|]?)=(("|')(?:\\?.)*?\6|[-\w]+))?]?
-PARSE: ERROR {ParsingData.InvalidBackreference(56)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

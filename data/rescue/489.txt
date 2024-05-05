@@ -1,9 +1,0 @@
-^\\\.\\(['"])(.*?)\\\1\\([\.,])\\(['"])(.*?)\\\4(.*)$
-1: <32 : 2.7222222222222223 : \.\'\.\'\.\'\.\'(>
-===Initiate End===
-Node Coverage: 32/32
-===Genetic Algorithm End===
-Node Coverage: 32/32
-Normal fail
-TIME: 38.068568986 (s)
-Attack failed

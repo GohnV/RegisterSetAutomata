@@ -1,11 +1,0 @@
-<([a-z]+) style="(font-weight: italic; ?|text-decoration: underline; ?){2}">([\w\W]*?)<\/\1>
-1: <8 : 1.2857142857142858 : font'F"}{xllS%/
-`dK@e<pX
-%>
-===Initiate End===
-Node Coverage: 8/29
-===Genetic Algorithm End===
-Node Coverage: 8/29
-Normal fail
-TIME: 0.955707547 (s)
-Attack failed

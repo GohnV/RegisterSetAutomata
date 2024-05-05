@@ -1,9 +1,0 @@
-<script[^>]+type=(['"])text/template\1[^>]*>.*?</script>
-8: <3 : 0.375 : <script><5 : 1.3846153846153846 : <scripttype=><7 : 2.0 : <scripttype=+type=><9 : 2.15 : <scripttype=+type='><10 : 2.515151515151515 : <scripttype=+type='text/template><13 : 2.7142857142857144 : <scripttype=+type='text/template'"><16 : 2.7222222222222223 : <scripttype=+type='text/template'">><17 : 2.163265306122449 : <scripttype=+type='text/template'"*>.*?</script>>
-===Initiate End===
-Node Coverage: 17/17
-===Genetic Algorithm End===
-Node Coverage: 17/17
-Normal fail
-TIME: 119.068916824 (s)
-Attack failed

@@ -1,9 +1,0 @@
-<div host="" _nghost-c(\d+)="">foo<leaf _ngcontent-c\1=""><span>bar<\/span><\/leaf><\/div>
-1: <10 : 0.16363636363636364 : <div host="" _nghost-c3=""><div host="" _nghost-c3="">foo<leaf _ngcontent-c3=""><span>bar</span></leaf></div>>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 3.998950303 (s)
-Attack failed

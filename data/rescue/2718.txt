@@ -1,9 +1,0 @@
-^([=]+)(.*?)\1(.*)
-2: <11 : 6.0 : =><16 : 2.978723404255319 : =L+ny7pdzDyMWpIcJ1#=#0!Edwa=E9"9dx|j%+!	zbkqH!>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 46.538533462 (s)
-Attack failed

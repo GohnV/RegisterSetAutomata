@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^(?:([gim])(?!.*\1))*$
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(11)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

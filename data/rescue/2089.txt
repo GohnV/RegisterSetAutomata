@@ -1,9 +1,0 @@
-^\t<p>See<sup class="footnote" id="fnrev([a-f0-9]{32})-1"><a href="#fn\1-1">1</a></sup> for details &#8212; or perhaps<sup class="footnote" id="fnrev\1-2"><a href="#fn\1-2">100</a></sup> at a push.</p>\n\n\t<p class="footnote" id="fn\1-1"><sup>1</sup> Here are the details.</p>\n\n\t<p class="footy" id="otherid"><sup id="fn\1-2">100</sup> A totally unrelated footnote.</p>$
-1: <6 : 0.175 : 	<p>See<sup class="footnote" id="fnrevd>
-===Initiate End===
-Node Coverage: 6/26
-===Genetic Algorithm End===
-Node Coverage: 8/26
-Normal fail
-TIME: 0.228214184 (s)
-Attack failed

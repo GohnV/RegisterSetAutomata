@@ -1,6 +1,0 @@
-= [1] =
-INPUT: ^[a-z\-\d]+(?:=(["'])[^\u0007]+?\1)?(?=\s+|\u0007\d+\u0007|$)
-PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(36)}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

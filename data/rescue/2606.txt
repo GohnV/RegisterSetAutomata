@@ -1,9 +1,0 @@
-FOREACH \w+ \{\s+(\w+) = a;\s+(\w+) = \1.b;\s+(\w+) = b;\s+(\w+) = \3.c;\s+GENERATE \2, \4;\s+\}
-1: <39 : 2.0060240963855422 : FOREACH c { c = a; FOREAC = c b; FOb = b; FOREACFOREACH c { c = a; FOREAC = c b; FOb = b; FOREAC = FOb = b; FOREACFOREACH c { c = a; FOREAC = c b; FOb = b; FOREAC = >
-===Initiate End===
-Node Coverage: 39/50
-===Genetic Algorithm End===
-Node Coverage: 39/50
-Normal fail
-TIME: 7.739791288 (s)
-Attack failed

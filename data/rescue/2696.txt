@@ -1,31 +1,0 @@
-(.+?)\1{5,}
-1: <8 : 4.5 : ?>
-===Initiate End===
-Node Coverage: 8/9
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 8/9
-Vulnerable: ??
- 
- 
-	
-yypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<@?@5}}5?<@@??
- 
- 
-	
-yypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdiczwvatjvqbrprkymfknff
-100090 : 321.83279742765274 : ??
- 
- 
-	
-yypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<@?@5}}5?<@@??
- 
- 
-	
-yypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdiczwvatjvqbrprkymfknff
-100006 : 500.03 : ?ypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~fnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdi
-100006 : ?ypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~fnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdi
-100006 : 0 : ?ypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~fnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdi
-100120 : ?ypiypymcyrmnxqssfjadkulpuwqawfiszfnymdgswibveqqw~{:~~:~fnymdgswibveqqw~{:~~:~;|}==}}@}@;@;|{<;>?<QWc97BPK30{qiVl:2evtMs|UdKQXPGSu}aD}26KwJxpz4Lr5utjahktqifcnhkgomjigiklklyxveqqwizksnxdunylsziyfnfdi
-TIME: 48.682567513 (s)
-Attack failed

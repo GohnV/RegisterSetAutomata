@@ -1,12 +1,0 @@
-(\{\s{0,})?(\'|\")(.*\.dmc)(\2)\s{0,},
-2: <12 : 7.101123595505618 : ;Fbh9x6EvBU_7DKFX
-F E`nVvi3%P]/B}Z`Z,nc^Hhi_7DKFX
-F E`nVvi3%P]/B}Z`Z,nc^HhiRY;	7;{; ><23 : 5.580246913580247 : ;Fbh9x6EvBU_7DKFX
-F E`nVvi3%P]/B}Z`Z,nc^ze?kNGZ J'r4pzE)9	Y.dmc',nc^ze?kNGZ J>
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 17.827550018 (s)
-Attack failed

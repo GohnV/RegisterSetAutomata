@@ -1,15 +1,0 @@
-(url\s*\()\s*(?:(['"])((?:(?!\2).)*)(\2)|([^'"](?:(?!\)).)*[^'"]))\s*(\))
-2: <45 : 6.385964912280702 : f$M2 b<Z37g}vZrfA vurl('vZrfA vurl(L1<cNo<K'vZrfA vurl)><30 : 3.1153846153846154 : f$M2 b<Z37g}vZrfA vurl()>
-===Initiate End===
-Node Coverage: 46/46
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 46/46
-Vulnerable: A vurl((lruv AZoNc<1L(lruo<K'v<rfAAfrZ3Z<bvurl('vZrurl(A'vZrfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurf$vurl( b<Z3ZrfA vurl('vZrurl(  Afr<v'K<ourl(L1<cNoZrfA M228r b}v7g}A vurl((lruv AZoNc<1L(lruo<K'v<rfAAfrZ3Z<bvurl('vZrurl(A'vZrfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurf$vurl( b<Z3ZrfA vurl('vZrurl(  Afr<v'K<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl('vZZrurl(  AfrZ3ZLL1<A vurl( vurl(    A'vZrfAvurf$vurl( url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl('vZZrurl(  AfrZ3ZLL1<cN'vZrurl( No<K'v<K'^'"vZrfA vurl
-100107 : 188.52542372881356 : A vurl((lruv AZoNc<1L(lruo<K'v<rfAAfrZ3Z<bvurl('vZrurl(A'vZrfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurf$vurl( b<Z3ZrfA vurl('vZrurl(  Afr<v'K<ourl(L1<cNoZrfA M228r b}v7g}A vurl((lruv AZoNc<1L(lruo<K'v<rfAAfrZ3Z<bvurl('vZrurl(A'vZrfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurf$vurl( b<Z3ZrfA vurl('vZrurl(  Afr<v'K<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl('vZZrurl(  AfrZ3ZLL1<A vurl( vurl(    A'vZrfAvurf$vurl( url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl('vZZrurl(  AfrZ3ZLL1<cN'vZrurl( No<K'v<K'^'"vZrfA vurl
-100051 : 387.79457364341084 : Aurl(url(url(rfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurfurl( b<Z3url(Zrurl(url(    A'vZrfAvurf$vurl( b<Z3ZrfAurl(Zrurl(  Afr<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(rl(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(ZZrurl(  AfrZ3ZLL1<cN'vZrurl( No
-100051 : Aurl(url(url(rfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurfurl( b<Z3url(Zrurl(url(    A'vZrfAvurf$vurl( b<Z3ZrfAurl(Zrurl(  Afr<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(rl(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(ZZrurl(  AfrZ3ZLL1<cN'vZrurl( No
-100051 : 0 : Aurl(url(url(rfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurfurl( b<Z3url(Zrurl(url(    A'vZrfAvurf$vurl( b<Z3ZrfAurl(Zrurl(  Afr<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(rl(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(ZZrurl(  AfrZ3ZLL1<cN'vZrurl( No
-102181 : Aurl(url(url(rfAvurf$vurl(        (lruv  vurl(    A'vZrfAvurfurl( b<Z3url(Zrurl(url(    A'vZrfAvurf$vurl( b<Z3ZrfAurl(Zrurl(  Afr<ourl(L1<cNoZrfA M228r b}url(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(rl(  AfrZ3Z<bvuurl(  AfrZ3Z<bvurl(ZZrurl(  AfrZ3ZLL1<cN'vZrurl( No
-TIME: 267.423821868 (s)
-Attack failed

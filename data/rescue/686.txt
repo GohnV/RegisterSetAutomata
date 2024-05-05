@@ -1,9 +1,0 @@
-\bheight=(['"])([^%]+?)\1
-1: <5 : 1.5128205128205128 : X$\height=^hpPy.lEOg	3-oJ?cX$\height=>
-===Initiate End===
-Node Coverage: 5/13
-===Genetic Algorithm End===
-Node Coverage: 13/13
-Normal fail
-TIME: 0.918663701 (s)
-Attack failed

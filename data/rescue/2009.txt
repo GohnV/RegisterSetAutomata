@@ -1,9 +1,0 @@
-<iframe[^>]+src=([\'"])((?:https?:)?//link\.brightcove\.com/services/player/(?!\1).+)\1
-10: <3 : 0.375 : <iframe><5 : 1.25 : <iframehttp><7 : 1.5384615384615385 : <iframe+src=><13 : 2.0714285714285716 : <iframe+src="><16 : 2.4444444444444446 : <iframe+src="http><18 : 2.8461538461538463 : <iframe+src="//link.brightcove.com/services/player/><18 : 2.6315789473684212 : <iframe+src="http:><20 : 2.9245283018867925 : <iframe+src="//link.brightcove.com/services/player/s><17 : 2.849056603773585 : <iframe+src="//link.brightcove.com/services/player/"><21 : 3.0545454545454547 : <iframe+src="//link.brightcove.com/services/player/\'">
-===Initiate End===
-Node Coverage: 27/27
-===Genetic Algorithm End===
-Node Coverage: 27/27
-Normal fail
-TIME: 90.984374617 (s)
-Attack failed

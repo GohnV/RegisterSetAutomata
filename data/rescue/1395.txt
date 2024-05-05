@@ -1,9 +1,0 @@
- (\*\*\*|___) (?=\S) (.+?[*_]*) (?<=\S) \1 
-1: <6 : 1.1020408163265305 : ZcJ8DW*8DW*	hB1ON_(9O|RnVQCjxUnxUn	1d Du>
-===Initiate End===
-Node Coverage: 6/31
-===Genetic Algorithm End===
-Node Coverage: 15/31
-Normal fail
-TIME: 0.973779777 (s)
-Attack failed

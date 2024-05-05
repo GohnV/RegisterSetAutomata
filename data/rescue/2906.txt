@@ -1,9 +1,0 @@
-^\s*<(\w+)\s*>\s*<nnn>\s*<nnn>\s*</\1\s*>\s*$
-1: <22 : 1.9444444444444444 : <nnn><nnn><nnn></>
-===Initiate End===
-Node Coverage: 22/29
-===Genetic Algorithm End===
-Node Coverage: 22/29
-Normal fail
-TIME: 26.470722995 (s)
-Attack failed

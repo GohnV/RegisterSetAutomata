@@ -1,6 +1,0 @@
-= [1] =
-INPUT: \bhttp-equiv=(["']|)\s*Content-Type\s*\1
-PARSE: ERROR {Stdlib.Parsing.Parse_error}
->> TOTAL: 1
->> PARSED: 0
->> MAX NFA SIZE: 0

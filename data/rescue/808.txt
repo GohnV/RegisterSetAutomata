@@ -1,9 +1,0 @@
-^[ \t]*@import[ \t]+(['"])(.+?)\1
-4: <6 : 0.75 : @import><9 : 1.1111111111111112 : @import ><15 : 1.6363636363636365 : @import '"><16 : 1.5 : @import '"'>
-===Initiate End===
-Node Coverage: 16/16
-===Genetic Algorithm End===
-Node Coverage: 16/16
-Normal fail
-TIME: 0.422519108 (s)
-Attack failed

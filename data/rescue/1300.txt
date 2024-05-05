@@ -1,10 +1,0 @@
-\btype\s*=\s*(['"])([\s\S]+?)\1
-1: <18 : 1.6585365853658536 : .yyFe	z@^Ltype	z@^L#}7*m=	Ov@w
-type='"'>
-===Initiate End===
-Node Coverage: 18/18
-===Genetic Algorithm End===
-Node Coverage: 18/18
-Normal fail
-TIME: 11.12032417 (s)
-Attack failed

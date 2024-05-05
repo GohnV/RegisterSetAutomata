@@ -1,10 +1,0 @@
-mf\s*\(\s*(['"])(.*?)\1\s*,\s*.*?\s*,\s*(['"])(.*?)\3,?.*?\)
-1: <6 : 1.0909090909090908 : >\.GR}vZZ?dFni2bz[@UIKX<\.GR}vZ?dFni2bz[@UIKX<fYmmf
->
-===Initiate End===
-Node Coverage: 6/42
-===Genetic Algorithm End===
-Node Coverage: 26/42
-Normal fail
-TIME: 2.91118268 (s)
-Attack failed

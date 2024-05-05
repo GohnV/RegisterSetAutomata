@@ -1,9 +1,0 @@
-start\=(["']?)\<([^"']*)\>\1
-4: <6 : 0.8571428571428571 : start=><11 : 1.375 : start=<><12 : 2.6 : start=<start\=><14 : 2.25 : start=<\>\1>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 133.886299511 (s)
-Attack failed

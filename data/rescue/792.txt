@@ -1,9 +1,0 @@
-('{2,4}).+?\1
-1: <10 : 2.9452054794520546 : ;Htxz	=7"/2t%!1cc.+?\1 SdF`-U@qj	'';Htxz	=7"/2t%!1cc.+?\1 SdF`-U@qj	''>
-===Initiate End===
-Node Coverage: 10/10
-===Genetic Algorithm End===
-Node Coverage: 10/10
-Normal fail
-TIME: 146.367998042 (s)
-Attack failed

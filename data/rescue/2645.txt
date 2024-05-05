@@ -1,9 +1,0 @@
-(?=(a+?))(\1ab)
-2: <12 : 6.5 : a><14 : 3.75 : aab>
-===Initiate End===
-Node Coverage: 14/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 2.535789719 (s)
-Attack failed

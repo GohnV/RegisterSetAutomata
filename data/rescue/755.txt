@@ -1,3 +1,0 @@
-^($self->{config}{comregex})($quote)($nlend*\2($seppl)\2*$nlend*)\2*($lend)$
-TIME: 0.043954313 (s)
-Regex compile error

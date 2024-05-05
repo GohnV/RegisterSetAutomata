@@ -1,9 +1,0 @@
-<([^/>]+)>\s*</\1>
-1: <12 : 6.666666666666667 : a<r<<r<r></>
-===Initiate End===
-Node Coverage: 12/14
-===Genetic Algorithm End===
-Node Coverage: 14/14
-Normal fail
-TIME: 50.925179616 (s)
-Attack failed

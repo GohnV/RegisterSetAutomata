@@ -1,9 +1,0 @@
-(?:@import)(?:\s)(?:url)?(?:(?:(?:\()(["'])?(?:[^"')]+)\1(?:\))|(["'])(?:.+)\2)(?:[A-Z\s])*)+(?:;)
-1: <26 : 2.25 : ?:@:@:mmp?:@or:@::@@::@import(>
-===Initiate End===
-Node Coverage: 26/52
-===Genetic Algorithm End===
-Node Coverage: 43/52
-Normal fail
-TIME: 95.735955573 (s)
-Attack failed

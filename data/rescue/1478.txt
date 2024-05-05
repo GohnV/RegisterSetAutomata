@@ -1,15 +1,0 @@
-(<[a-z][a-z0-9]*\s[^>]*)(?:(href|src)=(['"]?)([^>]*?)\3|style=(['"]?)([^>]*?)\5)([^>]*>)
-2: <36 : 45.34848484848485 : 2A<2A<k<2A<kww38'A<8'A<2style=8'A<2A<kww388'A<2A<kww38'hhref><38 : 4.666666666666667 : 2A<2A<k<2A<kww38'A<8'A<2A<kwkAstyle=8'A<<8'A<2A<kwkAA<kwkAstyle=8'A<2A<kww38'hhref='8A<2A<kww38'hhref>>
-===Initiate End===
-Node Coverage: 47/47
-find attack string when cross
-===Genetic Algorithm End===
-Node Coverage: 47/47
-Vulnerable: 2A<2A<k<2A<kww32A<2A<k<2A<kww38'A<8'A<2style=8'A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'A<2style=8'8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38'hhref
-100186 : 511.1530612244898 : 2A<2A<k<2A<kww32A<2A<k<2A<kww38'A<8'A<2style=8'A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'A<2style=8'8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38'hhref
-100097 : 667.3133333333334 : 2<w2<wstyle='A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'Astyle='8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38
-100097 : 2<w2<wstyle='A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'Astyle='8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38
-100097 : 0 : 2<w2<wstyle='A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'Astyle='8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38
-103568 : 2<w2<wstyle='A<2A<kww388'A<2A<kw2A<2A<<k2A<kww38'A<8'wkww388'A<2A<kww38'hhreA<kww38'A<8'Astyle='8'A<8'A<2style=8'A<2A<kww388'A<2A<kww38
-TIME: 46.008626363 (s)
-Attack failed
