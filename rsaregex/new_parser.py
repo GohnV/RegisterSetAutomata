@@ -321,24 +321,13 @@ def _create_automaton(sub_exp, level=0):
             aut_tmp = _branch_aut(_branch_auts)
 
         elif op is c.GROUPREF_EXISTS:
-            # TODO: IDK WHAT THIS MEANS
-            condgroup, item_yes, item_no = av
-            #print('CONDGROUP', op, condgroup)
-            #item_yes.dump(level+1)
-            if item_no:
-                #print(level*"  " + "ELSE")
-                #item_no.dump(level+1)
-                pass
-            return False #not supported yet
+            return False #TODO: not supported yet
         
         elif op is c.SUBPATTERN:
             #CAPTURE GROUP
             group_num = av[0]
-            idk1 = av[1] # TODO: CHECK MEANING
-            idk2 = av[2] # TODO: CHECK MEANING
             sub_pattern = av[3]
             #print(" ", end='')
-            #print(group_num, idk1, idk2)
             # if backreferenced, call create_capture or whatever its called, else call _create_automaton
             if group_num in g_back_referenced:
                 aut_tmp = _capt_group_aut(sub_pattern, group_num)

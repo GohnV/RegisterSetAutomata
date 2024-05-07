@@ -9,14 +9,11 @@ parser = argparse.ArgumentParser(
                     epilog='')
 parser.add_argument('pattern',
                     help='pattern to be matched to input data')
-# parser.add_argument('-z', '--nulldata',
-#                     action='store_true',
-#                     help='Input data are terminated by zero bytes instead of newlines')
 parser.add_argument('-d', '--nodeter',
                     action='store_true',
                     help='Don\'t determinise ahead of time')
 parser.add_argument("-f", "--file",
-                    help="increase output verbosity")
+                    help="specify file to read from")
 
 def cant_determinise():
     print(f'Unable to determinise regex "{args.pattern}", aborting.', file=sys.stderr)
@@ -36,10 +33,12 @@ if args.file:
 for line in FILE:
     line = line.rstrip("\n")
     if args.nodeter:
+        # match without using a pre-created DRsA
         result = rsaregex.match(args.pattern, line)
         if result == -1:
             cant_determinise()
     else:
+        # match using drsa created before loop
         result = drsa.run_word(line)
     if result:
         print(line)

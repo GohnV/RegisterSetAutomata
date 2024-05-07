@@ -54,7 +54,6 @@ def draw_automaton(aut, name):
     for i in aut.I:
         iname = strIfMacroState(i)
         graph.edge('init_arrow', iname)
-    #print(graph.source) into file!TODO:
     graph.render()
 
 def strIfMacroState(q):
