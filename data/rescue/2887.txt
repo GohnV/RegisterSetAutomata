@@ -1,0 +1,12 @@
+(( *)var iteratorTemplate *= *)[\s\S]+?\n\2.+?;\n
+1: <22 : 3.1538461538461537 : 
+rpS1;CA5	rDoXwze>W?h?var iteratorTemplate=*
+rpS1;
+>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 14.190952815 (s)
+Attack failed

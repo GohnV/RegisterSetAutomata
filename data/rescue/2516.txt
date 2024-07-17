@@ -1,0 +1,9 @@
+curl -f -o (([A-Z]\:)?\/.+) https://developer\.apple\.com/certificationauthority/AppleWWDRCA.cer && security import \1 -k 
+2: <13 : 3.658536585365854 : curl -f -o / hrll -f -o / hrl -f  https://developer.rl -f  https://developer.apple.com/certificationauthority/AppleWWDRCA:><14 : 3.6236559139784945 : curl -f -o / hrll -f -o / hrl -f  https://developer.rl -f  https://developer.apcurl -f -o B:>
+===Initiate End===
+Node Coverage: 16/19
+===Genetic Algorithm End===
+Node Coverage: 16/19
+Normal fail
+TIME: 115.266864357 (s)
+Attack failed

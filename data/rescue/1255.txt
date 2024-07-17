@@ -1,0 +1,9 @@
+^\\[=\.]([UG])\\\.\\(['"])(.*?)\\\2\\\,\\(['"])(.*?)\\\4$
+1: <28 : 5.378378378378378 : \=U\.\'""\,\.\'"\'"\,\'\,\',\''\\'"\>
+===Initiate End===
+Node Coverage: 28/29
+===Genetic Algorithm End===
+Node Coverage: 28/29
+Normal fail
+TIME: 15.922862511 (s)
+Attack failed

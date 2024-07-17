@@ -1,0 +1,9 @@
+^var VERSION = (\'|")(.*?)\1;$
+1: <15 : 3.6160714285714284 : var VERSION = 'VERSIVEON = 'IVEON =RSION = 'VERSIVEON = 'IVEON = 'VERSIVEN = 'VERSIVE = 'VERSIVEIVEN = 'VER 'V">
+===Initiate End===
+Node Coverage: 15/17
+===Genetic Algorithm End===
+Node Coverage: 16/17
+Normal fail
+TIME: 32.587382371 (s)
+Attack failed

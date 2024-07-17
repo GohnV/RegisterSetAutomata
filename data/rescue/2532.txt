@@ -1,0 +1,10 @@
+ (`+) (.+?) (?<!`) \1 (?!`) 
+1: <8 : 1.1891891891891893 : (v"~60;R
+RZ%TX	t)qIzj9wN}n_|z@#o `>
+===Initiate End===
+Node Coverage: 8/27
+===Genetic Algorithm End===
+Node Coverage: 25/27
+Normal fail
+TIME: 20.692928367 (s)
+Attack failed

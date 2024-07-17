@@ -1,0 +1,9 @@
+type\s*=\s*([\\"']*)(.+?)\1
+3: <4 : 0.8 : type><13 : 2.1666666666666665 : type=><17 : 2.4285714285714284 : type=t>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 10.285517114 (s)
+Attack failed

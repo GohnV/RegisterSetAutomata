@@ -1,0 +1,23 @@
+^(\n?)function Object\(\) \{\1 +\[native code]\s\}
+7: <7 : 4.5 : 
+><8 : 0.47619047619047616 : 
+function Object() {><10 : 0.5454545454545454 : 
+function Object() {
+><11 : 0.6521739130434783 : 
+function Object() {
+ ><12 : 0.4444444444444444 : 
+function Object() {
+ [native code]><13 : 0.4594594594594595 : 
+function Object() {
+ [native code]
+><14 : 0.42105263157894735 : 
+function Object() {
+ [native code]
+}>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 0.141572464 (s)
+Attack failed

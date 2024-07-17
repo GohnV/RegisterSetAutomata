@@ -1,0 +1,15 @@
+(.+?)\1+
+2: <8 : 10.0 : .+?><9 : 10.4 : .+??>
+===Initiate End===
+Node Coverage: 9/9
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Vulnerable: .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphlfaac3DBD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueijphlfaac3DBD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0c3.+?
+100193 : 360.4064748201439 : .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphlfaac3DBD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueijphlfaac3DBD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0c3.+?
+100029 : 495.1930693069307 : .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueij
+100029 : .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueij
+100029 : 0 : .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueij
+101474 : .+(1+fAdeB97)5C+4DBDe1a7b3f.+(1+fAdf+4DBDe1a7b3fB73+f.0c3.AF1?EBf+cb6?\1jEUZkb5C+4DBDe1a7b59+E.xyimzigdA.3c0.f+37Bf37tlcm1UApwqGdFzAf+1(+.ueijphD4+C5)79BedAf+1(+.73fB73+f.0c3.AF1?UZkbADu773fB73+f.0ueij
+TIME: 81.01172608 (s)
+Attack failed

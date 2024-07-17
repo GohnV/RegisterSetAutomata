@@ -1,0 +1,81 @@
+\s*([^,=>\"\']+?|(\"|\')(.*?(?<!\\))\2)\s*(?:,|=>|$)
+3: <11 : 10.5 : =><21 : 10.333333333333334 : ="><36 : 14.25 : ="\>
+===Initiate End===
+Node Coverage: 36/36
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 36/36
+Vulnerable: CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMHX
+	
+
+			
+		
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjqxv"\
+100038 : 1111.5333333333333 : CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMHX
+	
+
+			
+		
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjqxv"\
+100024 : 1250.3 : CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMH	
+			
+
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjq"\
+100024 : CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMH	
+			
+
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjq"\
+1000106 : 4 : CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMH	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjq"\
+5803920 : CcTEsXuxTHgBqKMZFbrCSZBpkMhjmYMH	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+	
+			
+
+
+
+WGZEMVJSqKMZFbrCSZBpkMhjmJHjqxvjq"\
+TIME: 9.885438938 (s)
+Attack failed

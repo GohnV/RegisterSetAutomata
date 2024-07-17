@@ -1,0 +1,9 @@
+================LIST OF UNBOUNDED REGEXES================
+1: <2 : 0.034482758620689655 : ================LIST OF UNBOUNDED REGEXES================>
+===Initiate End===
+Node Coverage: 2/3
+===Genetic Algorithm End===
+Node Coverage: 2/3
+Normal fail
+TIME: 0.156727262 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: polyfill-next-selector[^}]*content:[\s]*?(['"])(.*?)\1[;\s]*}([^{]*?){
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(69)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

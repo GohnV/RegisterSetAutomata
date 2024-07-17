@@ -1,0 +1,19 @@
+<\s*((h\d).*?)\s*>(.+)?<\s*\/\2\s*>
+1: <31 : 2.489795918367347 : {	^ot/oz"2aF{3tw<
+?3i~o{	^t/oz"2aF{3tw<
+?3i~o{	^ot/#]=gORzn<h7a&I>eoz"2aF{3tw</h7>eoz"2aF{3tw</>
+===Initiate End===
+Node Coverage: 31/31
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Vulnerable: <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a&I>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{3tw<
+
+100090 : 452.89592760180994 : <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a&I>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{3tw<
+
+100015 : 467.35981308411215 : <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{
+100015 : <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{
+100015 : 0 : <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{
+100081 : <h7<h7<h7<h7>@{a&I>o<h7{	^o<h7{	^o<h7{	^o<h7{	>I&a7h<o^eoz"@;>a&I>eoz"2<h7a&I>eo<h7{	o<h7a>eoz"2aF>eoz"2aFo^{	^o<h7a&I>eoz"<h7{	o<h7>I&aea&I>h7a&I<>eoz"<h7{	o<h7>I&aeozh7{		o<h7a&I>eoz"2aF{3tzn<h7a&I>eo^ot/oz"2aF{
+TIME: 149.184490243 (s)
+Attack failed

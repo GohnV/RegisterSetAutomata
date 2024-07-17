@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (\*\*|__) (?=\S) (.+?[*_]*) (?<=\S) \1
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(10)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

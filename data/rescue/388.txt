@@ -1,0 +1,9 @@
+([-\/\\|!@#$%^&*\(\)=_+\[\]\{\}.?;'":<>])\1{2,}
+1: <8 : 4.489795918367347 : \/\\|!@#$%^\/\\|!*^&*\\,6\,)[$[}\51[^,/.1\\_7\\\>
+===Initiate End===
+Node Coverage: 8/8
+===Genetic Algorithm End===
+Node Coverage: 8/8
+Normal fail
+TIME: 4.340742579 (s)
+Attack failed

@@ -1,0 +1,9 @@
+getDecValue\((["'])([^"']+)\1,\s*(["'])([^"']+)\3\)
+8: <3 : 0.23076923076923078 : getDecValue(><7 : 0.5 : getDecValue("><11 : 0.75 : getDecValue("^"><15 : 0.9411764705882353 : getDecValue("^",><19 : 1.1111111111111112 : getDecValue("^","><21 : 2.3333333333333335 : getDecValue("^","getDecValue(><22 : 1.25 : getDecValue("^","^"><23 : 1.2380952380952381 : getDecValue("^","^")>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 29.521429637 (s)
+Attack failed

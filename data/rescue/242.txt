@@ -1,0 +1,10 @@
+\bstroke-opacity\w*\s*=\s*(['"])undefined\1
+1: <17 : 1.175 : $ jn27r^
+Gm-Uo_qhsU	~I%stroke-opachsU	~I%stroke-opacityvxeZNgjsD90='undefined'>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 26.881025864 (s)
+Attack failed

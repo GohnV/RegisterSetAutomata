@@ -1,0 +1,81 @@
+<<<(?:"([^"]+)"(?:\r\n?|\n)(?:.*(?:\r\n?|\n))*?\1;|([a-z_]\w*)(?:\r\n?|\n)(?:.*(?:\r\n?|\n))*?\2;)
+1: <38 : 5.177215189873418 : b9Tdde`!l<<<"vpMoa'^)#Cl<<<?.1><<<lC#*`!l<<<"vpMoa'^)#Cl<<<?.1><<<lC#*O!`u">
+===Initiate End===
+Node Coverage: 38/67
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 64/67
+Vulnerable: <<<h<<<h
+
+bg4nMPYy!<<<lb4
+
+bPYy!<<<lb4
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn"Wj\\{\9-\:?n\\An)nr?Yl||\U)H0:f?
+100187 : 725.9927536231884 : <<<h<<<h
+
+bg4nMPYy!<<<lb4
+
+bPYy!<<<lb4
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn"Wj\\{\9-\:?n\\An)nr?Yl||\U)H0:f?
+100047 : 1010.5757575757576 : <<<h<<<h
+
+bg4nMPY<<<l
+
+bPYy!<<<l
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn
+1000200 : <<<h<<<h
+
+bg4nMPY<<<l
+
+bPYy!<<<l
+
+
+
+bPYy!<<<l
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn
+1000200 : 0 : <<<h<<<h
+
+bg4nMPY<<<l
+
+bPYy!<<<l
+
+
+
+bPYy!<<<l
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn
+1590367 : <<<h<<<h
+
+bg4nMPY<<<l
+
+bPYy!<<<l
+
+
+
+bPYy!<<<l
+
+b<<<l<<b4*`!l<<<b
+
+					
+bwarrP?8::)"EThZn
+TIME: 12.898726507 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*url\(("|'|)(.*)\1\)\s*$
+PARSE: ERROR {Stdlib.Parsing.Parse_error}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

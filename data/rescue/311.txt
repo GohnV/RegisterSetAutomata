@@ -1,0 +1,9 @@
+(?<=\A|\s)((?<!\\)\_{1,2})(\S+)\1(?=\z|\s)
+1: <30 : 11.88888888888889 : ______>
+===Initiate End===
+Node Coverage: 30/31
+===Genetic Algorithm End===
+Node Coverage: 30/31
+Normal fail
+TIME: 52.269542884 (s)
+Attack failed

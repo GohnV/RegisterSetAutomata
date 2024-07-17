@@ -1,0 +1,9 @@
+(</)(properties)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.1944444444444446 : ;JG*s0A<"dx/U?),</S O;JG*/U?),</S>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 1.366613726 (s)
+Attack failed

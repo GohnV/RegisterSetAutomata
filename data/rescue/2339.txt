@@ -1,0 +1,9 @@
+^(standalone$S*=$S*(["'])(yes|no)\2)
+1: <7 : 0.6363636363636364 : standalone>
+===Initiate End===
+Node Coverage: 7/23
+===Genetic Algorithm End===
+Node Coverage: 7/23
+Normal fail
+TIME: 0.085727463 (s)
+Attack failed

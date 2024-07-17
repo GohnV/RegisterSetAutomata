@@ -1,0 +1,9 @@
+(?:videoSrc|videoIpadUrl|html5PlayerSrc)\s*[:=]\s*(["\'])(http.+?)\1
+1: <24 : 2.92 : ?:videcx +z0html5PlayerSrc:"http.+?)oJdvXeLihe">
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 37.864824349 (s)
+Attack failed

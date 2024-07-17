@@ -1,0 +1,13 @@
+<a[^>]+?href\s*=\s*(["'])(.*?)\1
+1: <20 : 2.4591836734693877 : PBE&_3te:29GOG2L]K48,4<a8
+PV5VW"
+nE0E&_3te:29GOG2L]K48,4<a8
+PV5VW"
+nE0`esUS0XPD{9@Y+?href="PV5VW">
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 52.202498752 (s)
+Attack failed

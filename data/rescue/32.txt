@@ -1,0 +1,9 @@
+\bhttp-equiv=(["']|)\s*Content-Type\s*\1
+1: <15 : 0.64 : http-equiv=	Content-Type>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 7.780911942 (s)
+Attack failed

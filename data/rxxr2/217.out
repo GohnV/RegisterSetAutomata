@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ({{\s*('|")((?:(?!\2).)+)\2\s*\|\s*transChoice\s+([^\s]+\s+[^\s]+\s+(('|")((?:(?!\6).)+)\6))?.*}})
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(1)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

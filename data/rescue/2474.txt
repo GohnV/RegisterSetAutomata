@@ -1,0 +1,11 @@
+<([a-z]+) style="(font-weight: italic; ?|text-decoration: line-through; ?){2}">([\w\W]*?)<\/\1>
+1: <14 : 1.1176470588235294 : uyMM	UyMM	Uj
+	UyMM	Uj
+u<u style=">
+===Initiate End===
+Node Coverage: 14/29
+===Genetic Algorithm End===
+Node Coverage: 14/29
+Normal fail
+TIME: 12.094970218 (s)
+Attack failed

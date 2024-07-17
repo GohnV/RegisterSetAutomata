@@ -1,0 +1,9 @@
+<($pat)(\s+[^>]*?)?>\s*</\1>
+1: <4 : 1.0625 : upBn2if@)b</$!=0?C&]pjCYYt^ezF!fepdl|O]>x`upBn2if@)b</$!=0?C&]pjCYYt^ezF!fepdl|O]>x`!p.if@)b</$!=0?C&]pj>
+===Initiate End===
+Node Coverage: 4/22
+===Genetic Algorithm End===
+Node Coverage: 4/22
+Normal fail
+TIME: 1.013670352 (s)
+Attack failed

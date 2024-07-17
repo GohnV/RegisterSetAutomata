@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <\s*img\s.*?src\s*=\s*(["\'])?(?(1) (.*?)\1 | ([^\s\>]+))
+PARSE: ERROR {ParsingData.UnsupportedInlineModifier(32, 40)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (.)[\b]\1
+PARSE: ERROR {ParsingData.UnsupportedEscape(5, 98)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

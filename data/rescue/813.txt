@@ -1,0 +1,9 @@
+method=(["'])post\1
+1: <7 : 0.2909090909090909 : mhod=tmethod="postod=tmethod="p="postod=tmethod="post">
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 0.553407599 (s)
+Attack failed

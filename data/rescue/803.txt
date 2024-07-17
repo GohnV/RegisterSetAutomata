@@ -1,0 +1,9 @@
+(^|[^-]\b)(?:s|tr|y)\s*([^a-zA-Z0-9\s{(\[<])(?:(?!\2)[^\\]|\\[\s\S])*\2(?:(?!\2)[^\\]|\\[\s\S])*\2[msixpodualngcer]*
+6: <19 : 6.333333333333333 : tr><30 : 10.5 : tr\><32 : 14.2 : tr\s><46 : 25.0 : tr\?:s|tr|y><47 : 26.625 : tr\s\s*><49 : 13.625 : tr\\s\S>
+===Initiate End===
+Node Coverage: 52/52
+===Genetic Algorithm End===
+Node Coverage: 52/52
+Normal fail
+TIME: 223.039846665 (s)
+Attack failed

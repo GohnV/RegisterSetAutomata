@@ -1,0 +1,16 @@
+("|')(\\\n|\\?.)*?\1
+4: <16 : 8.0 : "><18 : 13.666666666666666 : "'><19 : 112.75 : "'\\\n|\\?.><19 : 6.384615384615385 : "'\\\n|\\?.">
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: "'\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+100066 : 1516.1515151515152 : "'\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+100066 : 1516.1515151515152 : "'\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+1000074 : "'\'\\\n|\\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+1000144 : 6 : "'\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+100000141 : "'\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.
+TIME: 3.692290485 (s)
+Attack success, attack string is:
+"'\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\'\\\n|\\?.Ep3h7wiZTbkC\\?.Ep3h7wiZTbkCRvRBLvWEvxqpUzZ0\\n|\\?.

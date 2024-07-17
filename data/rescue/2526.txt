@@ -1,0 +1,15 @@
+\[list=1(:.*)?\](.+)\[\/list(:.)?\1?\]
+7: <5 : 0.625 : [list=1><8 : 0.8888888888888888 : [list=1]><11 : 1.4545454545454546 : [list=1].+><9 : 1.1111111111111112 : [list=1:><17 : 2.7058823529411766 : [list=1].+[/list><20 : 3.2 : [list=1].+[/list:.*><18 : 2.7222222222222223 : [list=1].+[/list]>
+===Initiate End===
+Node Coverage: 25/25
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Vulnerable: [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ)S]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[is/list]DB\)d
+100057 : 367.85661764705884 : [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ)S]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[is/list]DB\)d
+100002 : 381.68702290076334 : [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[/list
+100002 : [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[/list
+100002 : 0 : [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[/list
+100003 : [list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:[list=1:]lXQ]E	,le]Q)S],	E]S)Q]ed(:z?q47li[lis].+[/_:At=1].+[/lis/list][lilX_:At=1].+[/lis/lis[list=1:[list=1:[list=1:l]Q)S]E	,le]Q)S],	E]S)Q]ed(:z?q4]]=1][list=1].+[st=1][li=1][list=1].+[st=1][/list[/list
+TIME: 220.815840442 (s)
+Attack failed

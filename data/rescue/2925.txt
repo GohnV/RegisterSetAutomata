@@ -1,0 +1,15 @@
+(.+)［＃「\1」は太字］
+1: <10 : 82.87878787878788 : G@mPIAjJ6d,	4L5d<WI,	4L5d<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［＃「	Z~"5>
+===Initiate End===
+Node Coverage: 10/10
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Vulnerable: GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+100011 : 450.5 : GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+100011 : 450.5 : GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+100011 : GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+100011 : 0 : GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+100199 : GG@mPIAjJ6d,	4L5d<WI,	4L5d<WImPIAjJ6d,	4L5d<WI,	4L5d［＃「d<WI	［＃「	Z~"ZI	［＃「	W<d」は太字］［＃「	ZIZI	［＃「d<	［J6L4	,IW<d5L4	,d6JjAIPmJjAIPm@G<WI	［＃「d<WI	」は太字］［＃「	ZI	［＃「d<WI	［J6d,	4L5字］［＃「	<WI	」は太字ftJJHsPtrKTu5］［＃「	ZI	［＃「d<WI	［＃「	Z~"5
+TIME: 89.835569397 (s)
+Attack failed

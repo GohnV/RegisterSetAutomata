@@ -1,0 +1,85 @@
+<\s*([^>]+)\s*>\s*(.+?)\s*<\s*/\s*\1\s*>
+1: <31 : 1.55 : xG]</O}r^0;z~7G}r^0;z~7G+$U*/\s*\1\s*>rw+\]<//O}r^0;z~7G}r^0;z~7G+$U*/\s*\1\s*>>
+===Initiate End===
+Node Coverage: 31/31
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Vulnerable: 7EZZCHX//<]\7~z;0^r}O/xG<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		 	 
+   
+
+		 	 
+ 
+
+100148 : 944.7924528301887 : 7EZZCHX//<]\7~z;0^r}O/xG<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		 	 
+   
+
+		 	 
+ 
+
+100082 : 1668.0333333333333 : 7<<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		
+100082 : 7<<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		
+100082 : 1 : 7<<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		
+102662 : 7<<<	
+
+ 		 
+   	  
+    	 
+	
+  
+ 
+ 
+	  	 	
+ 		
+TIME: 6.682818263 (s)
+Attack failed

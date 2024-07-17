@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <a\s+[^\>]*?href=([\'\"]?)(https?:[^\1]+?)\1\s*[^>]*?>(.+?)</a>
+PARSE: ERROR {ParsingData.UnsupportedEscape(37, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

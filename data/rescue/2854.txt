@@ -1,0 +1,9 @@
+((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2
+1: <8 : 3.5 : https>
+===Initiate End===
+Node Coverage: 8/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 16.57733448 (s)
+Attack failed

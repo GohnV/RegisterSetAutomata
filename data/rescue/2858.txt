@@ -1,0 +1,10 @@
+<([a-zA-Z0-9:]+)(?=[^>]*></\1>)
+1: <16 : 1.6219512195121952 : k
+	ox ;e/<>)GyAHo5fUO$:^Fa~pj*"U-%Ba<Y%YY.G^Fa~pj*"U-%Ba<Y%YY.G^:$OUf5oHAyG)></Y>>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 466.26884115 (s)
+Attack failed

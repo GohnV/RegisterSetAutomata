@@ -1,0 +1,9 @@
+http-equiv\s*=\s*(["'])?content-type\1
+3: <11 : 1.2307692307692308 : http-equiv=	><11 : 0.4583333333333333 : http-equiv=content-type><12 : 0.7045454545454546 : http-equiv=http-equiv=tp-equiv=http-equiv=">
+===Initiate End===
+Node Coverage: 14/15
+===Genetic Algorithm End===
+Node Coverage: 14/15
+Normal fail
+TIME: 3.529755182 (s)
+Attack failed

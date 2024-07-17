@@ -1,0 +1,17 @@
+([a-z0-9]+)=([\"'])(.*?)\2
+4: <7 : 5.8 : a-z0><9 : 4.0 : a-z0=><15 : 8.564516129032258 : W
+0="2sWwI##R5SI.o	FQlA[[Hl+g;mx;c{5h'. ~q7Mot#Rt8[#P}DNl'Ya><16 : 3.90625 : W
+0="2sWwI##R5SI.o	FQlA[[Hl+g;mx;c{5h'. ~q7Mot#Rt8[#P}DNl'Ya\">
+===Initiate End===
+Node Coverage: 16/16
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Vulnerable: 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxfjmzanxgz{5h0
+100123 : 429.7124463519313 : 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxfjmzanxgz{5h0
+100022 : 446.5267857142857 : 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxf
+100022 : 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxf
+100022 : 0 : 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxf
+100556 : 77593385582280361841689145075510875175507195841998760233chrgvpdbqpmrwpljepuwkskkvvtgxeyqagycazozkoofqckwnytujxnclkfaksipzmekbzeolhohsihbaitkrtkmtqzsrbezssexjyvufjmzgtbtuzsrbezssexjyvufjmwsszebrszutbtgzceqtcdtspiskawgjdbgvxf
+TIME: 83.194035847 (s)
+Attack failed

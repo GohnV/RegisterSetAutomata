@@ -1,0 +1,9 @@
+(\/)[^/]+\1\.\.\1
+1: <11 : 1.8461538461538463 : 'l/Xx2R\/../>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 22.059553555 (s)
+Attack failed

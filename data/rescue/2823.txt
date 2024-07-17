@@ -1,0 +1,9 @@
+%r(?=(\(|\[|\{|&lt;|.)(.*?)('|\)|\]|\}|&gt;|\1))(?:\(\2\)|\[\2\]|\{\2\}|\&lt;\2&gt;|\1\2\1)([a-z]*)
+3: <46 : 5.6 : gl{g%%r&lt;g%%r&%%r&lt;g><26 : 15.6 : g%r{glt;g><45 : 6.2 : g%r{r{glt>
+===Initiate End===
+Node Coverage: 49/53
+===Genetic Algorithm End===
+Node Coverage: 49/53
+Normal fail
+TIME: 229.165385892 (s)
+Attack failed

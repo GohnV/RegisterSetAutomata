@@ -1,0 +1,11 @@
+(^|[^-]\b)(?:s|tr|y)\s+([a-zA-Z0-9])(?:(?!\2)[^\\]|\\[\s\S])*\2(?:(?!\2)[^\\]|\\[\s\S])*\2[msixpodualngcer]*
+2: <47 : 12.353846153846154 : nZ";v?~rm|NF|{sJNC:	No>=;$ut_XR(h$&$E>!yDVg VM\M>J#Qh:7,D:9TL><51 : 8.85483870967742 : Xa#hC
+Ig\T"4aV%y tEjDK
+6E5SfeOtCp93!l,WiHBL.D^\\XPh@`HcQ,P|t>
+===Initiate End===
+Node Coverage: 52/52
+===Genetic Algorithm End===
+Node Coverage: 52/52
+Normal fail
+TIME: 40.184004603 (s)
+Attack failed

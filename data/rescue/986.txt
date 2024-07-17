@@ -1,0 +1,15 @@
+(?:.*,)*[ 	]*([^ 	]+)[ 	]+realm=(["'])(.*?)\2
+6: <16 : 35.142857142857146 : realm=><17 : 48.75 : realm=,><17 : 40.44444444444444 : realm= 	><19 : 54.266666666666666 : realm= 	realm=><25 : 63.76470588235294 : realm= 	realm="'><26 : 5.157894736842105 : realm= 	realm="'"'>
+===Initiate End===
+Node Coverage: 27/27
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Vulnerable: realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqVACst8k6hNNxRdFvm=,
+100091 : 568.6988636363636 : realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqVACst8k6hNNxRdFvm=,
+100021 : 633.0443037974684 : realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqV
+100021 : realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqV
+100021 : 0 : realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqV
+100963 : realCXXkOnzyxQlVqnYqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUelCHXDeNqiEIZ4eY82zjnVRFmahtoS1FmdjcsroLPpgt1ez9XiW71A5laxXUeaxXUelCHXDeN4FH9rJbZZSFqV
+TIME: 28.52425227 (s)
+Attack failed

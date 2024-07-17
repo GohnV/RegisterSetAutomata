@@ -1,0 +1,9 @@
+^<(\w+)\s*>(NEST\s*){3}</\1>$
+1: <17 : 3.5454545454545454 : <NNET>NEST>
+===Initiate End===
+Node Coverage: 17/22
+===Genetic Algorithm End===
+Node Coverage: 17/22
+Normal fail
+TIME: 24.3514933 (s)
+Attack failed

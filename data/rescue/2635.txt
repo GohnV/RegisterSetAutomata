@@ -1,0 +1,9 @@
+FOREACH \w+ \{\s+(\w+) = a;\s+(\w+) = b;\s+(\w+) = c;\s+GENERATE \1, \2, \3;\s+\}
+1: <14 : 1.1 : FOREACH TE { F = a;>
+===Initiate End===
+Node Coverage: 14/39
+===Genetic Algorithm End===
+Node Coverage: 17/39
+Normal fail
+TIME: 12.120072385 (s)
+Attack failed

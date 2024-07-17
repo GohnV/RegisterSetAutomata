@@ -1,0 +1,15 @@
+^(.*)\n([-=])\2\2+(?:\n|$)
+6: <8 : 4.0 : 
+><10 : 3.3333333333333335 : 
+-><9 : 4.0 : |AU`	k}x*AqI&3[0f~FS<V7SNBy0AK'/0E/
+><12 : 3.0 : 
+--><17 : 3.6 : 
+---><20 : 4.2 : 
+--->
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 20.796249198 (s)
+Attack failed

@@ -1,0 +1,10 @@
+(?:^|\s|\n|[^A-z0-9_*~`])(~{2})((?!\1).*?)(\1)($|\s|\n|[^A-z0-9_*~`])
+2: <30 : 5.032258064516129 : ~~-7LL5Uj82rr\e'e4*92E2r;b~~-><19 : 7.630769230769231 : nHm6}p)@I"7zD!	
+c%=ZvBDV`K38ipx@*)L28jU5LL7-~~~~b;r2E29*4e'e\rr>
+===Initiate End===
+Node Coverage: 34/34
+===Genetic Algorithm End===
+Node Coverage: 34/34
+Normal fail
+TIME: 40.43170418 (s)
+Attack failed

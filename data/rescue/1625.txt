@@ -1,0 +1,9 @@
+<meta[^>]+http-equiv\s*=\s*(["|'])Content-Type\1([^>]+?)>
+1: <12 : 2.9902912621359223 : <meta+http-t+hiv=vtp-eqiv=t+hiv=vtp-eqivp-t+hiv=vtp-eqiv=t+hiv=vtp-eqiv-equihttp-equiv=u=vhttp-equiv=*>
+===Initiate End===
+Node Coverage: 12/21
+===Genetic Algorithm End===
+Node Coverage: 14/21
+Normal fail
+TIME: 82.982793644 (s)
+Attack failed

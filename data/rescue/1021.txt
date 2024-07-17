@@ -1,0 +1,9 @@
+(?:(?:@import\s*(['"])(?![a-z]+:|\/)([^\r\n;{]+?)\1)|url\(\s*(['"]?)(?![a-z]+:|\/)([^\r\n;]+?)\3\s*\))([a-z, \s]*[;}]?)
+4: <34 : 4.111111111111111 : @import@import't'><20 : 3.9285714285714284 : @imp@import'/><33 : 6.0 : @import@url('/><32 : 7.676470588235294 : @imp@im@import@url(t'ortort@rt''/>
+===Initiate End===
+Node Coverage: 59/59
+===Genetic Algorithm End===
+Node Coverage: 59/59
+Normal fail
+TIME: 193.470714198 (s)
+Attack failed

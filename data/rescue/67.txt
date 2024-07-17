@@ -1,0 +1,9 @@
+url\(('|")?((?:http|\/\/)(?:[^"']+))(\1)\)
+1: <24 : 5.916666666666667 : url(httphturl(((r(htrl(((l(((r(htrl(((rl(httphturl(((r(htrl(((r(hturl('>
+===Initiate End===
+Node Coverage: 24/27
+===Genetic Algorithm End===
+Node Coverage: 24/27
+Normal fail
+TIME: 193.926602573 (s)
+Attack failed

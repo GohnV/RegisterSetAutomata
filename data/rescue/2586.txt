@@ -1,0 +1,9 @@
+^(\d+)x\1\.png$
+4: <7 : 4.0 : 0><8 : 3.0 : 7x><9 : 2.5 : 7x7><11 : 1.5 : 7x7.png>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 1.028733201 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<([a-z]+) style="(font-weight: bold; ?|font-style: italic; ?|text-decoration: underline line-through; ?){3}">([\w\W]*?)<\/\1>
+1: <8 : 1.4285714285714286 : hgBv@_sHv<c>
+===Initiate End===
+Node Coverage: 8/32
+===Genetic Algorithm End===
+Node Coverage: 8/32
+Normal fail
+TIME: 1.158770585 (s)
+Attack failed

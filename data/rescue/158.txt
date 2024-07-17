@@ -1,0 +1,9 @@
+(dogs)\1
+1: <6 : 1.7142857142857142 : dogsdogogsogdogsdogdogsdogs>
+===Initiate End===
+Node Coverage: 6/7
+===Genetic Algorithm End===
+Node Coverage: 6/7
+Normal fail
+TIME: 1.684787158 (s)
+Attack failed

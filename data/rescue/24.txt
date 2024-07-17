@@ -1,0 +1,9 @@
+<($ELEM)[^>]*?>(.+?)</\s*\1\s*>
+1: <4 : 2.5 : <>
+===Initiate End===
+Node Coverage: 4/22
+===Genetic Algorithm End===
+Node Coverage: 4/22
+Normal fail
+TIME: 1.069964054 (s)
+Attack failed

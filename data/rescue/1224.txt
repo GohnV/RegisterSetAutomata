@@ -1,0 +1,9 @@
+src=(['"])[^'"]+\1
+3: <3 : 0.6 : src=><6 : 1.0 : src='><9 : 1.25 : src='^'>
+===Initiate End===
+Node Coverage: 9/9
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Normal fail
+TIME: 6.167196021 (s)
+Attack failed

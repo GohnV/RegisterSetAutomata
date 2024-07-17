@@ -1,0 +1,10 @@
+( at .*?\n)\1
+1: <9 : 6.67741935483871 :  a*? aat **? a? at *? aat *t**? a? at *? aat *t  **t *ta*? aat **? a? at *? aat *t  **t *t 
+>
+===Initiate End===
+Node Coverage: 9/10
+===Genetic Algorithm End===
+Node Coverage: 9/10
+Normal fail
+TIME: 79.173458754 (s)
+Attack failed

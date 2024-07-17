@@ -1,0 +1,9 @@
+<button[^>]+data-quality=(["\'])(.+?)\1
+5: <3 : 0.375 : <button><5 : 0.9 : <button\1><7 : 2.1363636363636362 : <button+data-quality=><13 : 2.72 : <button+data-quality="\'><14 : 2.75 : <button+data-quality="\'"\'>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 83.884668742 (s)
+Attack failed

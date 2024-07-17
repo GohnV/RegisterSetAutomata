@@ -1,0 +1,9 @@
+(?=(?><<-("?)((?:[_\w]+_|)(?:JS|JAVASCRIPT))\b\1))
+5: <6 : 5.090909090909091 : JAVASCRIPT><20 : 6.071428571428571 : JAVASCRIPT<<-><22 : 6.2 : JAVASCRIPT<<-_><23 : 6.5 : JAVASCRIPT<<-__\w><30 : 4.583333333333333 : JAVASCRIPT<<-JAVASCRIPT>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 6.261839911 (s)
+Attack failed

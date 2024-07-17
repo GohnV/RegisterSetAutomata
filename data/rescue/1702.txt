@@ -1,0 +1,9 @@
+\$((plugin|module)\->(component))=(['"])(.+?_.+?)\4;
+1: <7 : 1.6666666666666667 : `$J[`G2->
+===Initiate End===
+Node Coverage: 7/29
+===Genetic Algorithm End===
+Node Coverage: 7/29
+Normal fail
+TIME: 0.260052974 (s)
+Attack failed

@@ -1,0 +1,17 @@
+^([ \t]*)((?:[*+-]|\d+[\.\)]))[ \t][\s\S]+?(?:(?=\n+\1?(?:[-*_][ \t]*){3,}(?:\n|$))|(?=\n+[ \t]*\[((?:[^\\](?:\\|\\(?:\\{2})+)\]|[^\]])+)\]:[ \t\n]*(<[^>\[\]]+>|[^\s\[\]]+)(?:[ \t\n]+['"(]((?:[^\n]|\n(?!\n))*?)['")])?[ \t]*(?=\n|$))|\n{2,}(?![ \t])(?!\1(?:[*+-]|\d+[\.\)])[ \t])|$)
+3: <13 : 7.0 : 3><58 : 16.40449438202247 : +	op-C:ssOLip_
+
+	op:ssDDOLipssDDOOLip_
+
++	op-C:ssDDOLipssDDOLipssO+	op-C:ssDDDDOOLip_
+
+3><55 : 14.725 : +	op-Cop-C:ssDDO+	op-Cop-C:ssDDOLip_
+
+_>
+===Initiate End===
+Node Coverage: 64/137
+===Genetic Algorithm End===
+Node Coverage: 92/137
+Normal fail
+TIME: 104.521226216 (s)
+Attack failed

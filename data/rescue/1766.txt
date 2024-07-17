@@ -1,0 +1,10 @@
+\bmx-(?!view|vframe|keys|options|data|partial|init|html|is|as|type|name)[a-zA-Z]+\s*=\s*(['"])\w+(?:\{[\s\S]*?\})?\1
+1: <24 : 1.7457627118644068 : Dr"(1JWo;s*]Wpzr-L6^)sqS$!\\17h-%naC>OA?
+7KxFdr0}mx-L>
+===Initiate End===
+Node Coverage: 24/43
+===Genetic Algorithm End===
+Node Coverage: 28/43
+Normal fail
+TIME: 3.826379998 (s)
+Attack failed

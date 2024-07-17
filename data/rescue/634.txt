@@ -1,0 +1,9 @@
+(''''').+?(?=\1)
+1: <12 : 2.5757575757575757 : Z2RVU5!O-$x'''''Z2RVU5!O-$x'''''>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 57.246623874 (s)
+Attack failed

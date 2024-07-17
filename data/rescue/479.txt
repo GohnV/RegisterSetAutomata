@@ -1,0 +1,9 @@
+^(\d{1,4})(-|\/)(\d{1,2})\2(\d{1,2})$
+6: <10 : 5.5 : 1><15 : 5.333333333333333 : 1-><17 : 5.0 : 1-1><20 : 4.6 : 1-1-><22 : 4.5 : 1-1-1><22 : 4.5 : 1-1-0>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 0.181764562 (s)
+Attack failed

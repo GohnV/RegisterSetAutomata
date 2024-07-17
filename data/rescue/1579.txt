@@ -1,0 +1,9 @@
+\[((?:\[[^\]]*]|[^\[\]])*)]()\s?\([ \t]?<([^>]*)>(?:[ \t]*((["'])([^"]*?)\5))?[ \t]?\)
+1: <25 : 30.43076923076923 : 0[S!S!!H[L|H[L|H[L|H[L|!H[L|H[LH[L|H[L|H[L|H[L|!H[L|H[L||||_.!](>
+===Initiate End===
+Node Coverage: 25/50
+===Genetic Algorithm End===
+Node Coverage: 30/50
+Normal fail
+TIME: 43.236659693 (s)
+Attack failed

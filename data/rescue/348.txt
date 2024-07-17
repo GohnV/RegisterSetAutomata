@@ -1,0 +1,9 @@
+\Acontext\s+(['"])(.+?)\1(?:.*?)\s+(?:do|\{)
+6: <4 : 0.5 : context><7 : 0.8888888888888888 : context	><13 : 1.4545454545454546 : context	'"><19 : 2.6923076923076925 : context	'"'"><23 : 3.5714285714285716 : context	'"'"	><26 : 2.2666666666666666 : context	'"'"	{>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 18.090919063 (s)
+Attack failed

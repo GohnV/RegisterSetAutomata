@@ -1,0 +1,10 @@
+^$w($q)(.*)\1$w$
+0: 
+===Initiate End===
+Node Coverage: 0/17
+failed when init
+===Genetic Algorithm End===
+Node Coverage: 0/17
+Normal fail
+TIME: 0.084344046 (s)
+Attack failed

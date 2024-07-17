@@ -1,0 +1,9 @@
+\2((([egimos]*x[egimos]*)))\b
+1: <2 : 1.5 : \>
+===Initiate End===
+Node Coverage: 2/16
+===Genetic Algorithm End===
+Node Coverage: 2/16
+Normal fail
+TIME: 1.34542549 (s)
+Attack failed

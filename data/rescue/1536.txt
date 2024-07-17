@@ -1,0 +1,9 @@
+A(.) K\1 Q\1 J\1 T\1
+1: <8 : 2.076923076923077 : "]&simAA KAs>
+===Initiate End===
+Node Coverage: 8/15
+===Genetic Algorithm End===
+Node Coverage: 8/15
+Normal fail
+TIME: 0.852234115 (s)
+Attack failed

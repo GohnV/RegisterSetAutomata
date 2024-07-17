@@ -1,0 +1,16 @@
+(\w+?)\s*=\s*('|")(.*?)\2
+3: <9 : 4.333333333333333 : \w><15 : 13.73015873015873 : o[OM&ON5=]U}*O|<h{ZI$lz:JB\v[%@52q0xB3OxP$=RGhxxb-"%AC2v`I><23 : 9.387096774193548 : 8w4]+3$s@RFJS`B*Ax"vf9ZVUI
+6ma;)i]-o!"Sw=" r3kFK<sB/&*/k">
+===Initiate End===
+Node Coverage: 23/23
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Vulnerable: 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+100010 : 546.5027322404371 : 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+100010 : 546.5027322404371 : 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+100010 : 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+100010 : 0 : 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+100441 : 8aQzYotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZ54Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyNkvgtzGc54CzbWmN7CzbWmN7Y0ZGotQtAwLrEGxHd7rZoG1Ljxxz7dSPtLfzcecpyRFaQzYxZoPgdmDJLn39wBWEx
+TIME: 41.864301583 (s)
+Attack failed

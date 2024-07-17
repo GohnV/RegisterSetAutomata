@@ -1,0 +1,9 @@
+^<(MOE)\s*>\s*<anon>1</anon>\s*<anon>two</anon>\s*<anon>III</anon>\s*</\1>\s*$
+10: <4 : 2.0 : <><8 : 1.6 : <MOE><11 : 1.8333333333333333 : <MOE>><9 : 1.8333333333333333 : <MOE	><14 : 0.7 : <MOE><anon>1</anon>><17 : 0.4722222222222222 : <MOE><anon>1</anon><anon>two</anon>><20 : 0.38461538461538464 : <MOE><anon>1</anon><anon>two</anon><anon>III</anon>><21 : 0.3888888888888889 : <MOE><anon>1</anon><anon>two</anon><anon>III</anon></><22 : 0.38596491228070173 : <MOE><anon>1</anon><anon>two</anon><anon>III</anon></MOE><26 : 0.4482758620689655 : <MOE><anon>1</anon><anon>two</anon><anon>III</anon></MOE>>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 5.474177968 (s)
+Attack failed

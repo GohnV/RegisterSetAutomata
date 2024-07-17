@@ -1,0 +1,10 @@
+<!--\s*\[\[\s*Partial\s'(.+?)'\sBegin\s*\]\]\s*-->\n(.+)<!--\s*\[\[\s*Partial\s'\1'\sEnd\s*\]\]\s*-->\n
+1: <40 : 5.10752688172043 : <!--[[Partial	'tial	'\s*Partial\s'	Begin]]-->
+'<!--[[Partial	'tial	'\s*Partial\s'	Be[Partl	'>
+===Initiate End===
+Node Coverage: 40/47
+===Genetic Algorithm End===
+Node Coverage: 40/47
+Normal fail
+TIME: 138.376029622 (s)
+Attack failed

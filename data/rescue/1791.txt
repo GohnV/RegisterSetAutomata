@@ -1,0 +1,9 @@
+^import\s+(["'])([^"']+)(\1)\s*;?\s*(?:\/\/.*)?$
+6: <4 : 0.5714285714285714 : import><7 : 1.0 : import	><11 : 1.3333333333333333 : import	"><14 : 2.8 : import	"import><25 : 2.5454545454545454 : import	"^"><30 : 2.5384615384615383 : import	"^"//>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 8.170885455 (s)
+Attack failed

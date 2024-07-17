@@ -1,0 +1,3 @@
+(a)(b)(?(1)c)(d)\2
+TIME: 0.042221849 (s)
+Regex compile error

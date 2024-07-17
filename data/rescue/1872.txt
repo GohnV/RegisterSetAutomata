@@ -1,0 +1,9 @@
+(\A|[^\\])('|").*?[^\\](\2)
+3: <11 : 7.0 : \A><19 : 10.166666666666666 : \A'|"><21 : 9.92156862745098 : ^>\( /(G#FJ'&{>mSm$d:1	[@72e2cwj~wdRtD<j	i!ez"o">
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 118.517637119 (s)
+Attack failed

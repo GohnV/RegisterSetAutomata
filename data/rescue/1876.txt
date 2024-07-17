@@ -1,0 +1,9 @@
+^s([%,])@(\w+)@\1(?:\|\#_!!_\#\|)?(.*)\1
+1: <24 : 1.9523809523809523 : s%@s@%|#_!!_#|,%%,%,>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 23.977588873 (s)
+Attack failed

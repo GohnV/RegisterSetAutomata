@@ -1,0 +1,9 @@
+ (\*|_) (?=\S) (.+?) (?<=\S) \1 
+1: <15 : 1.6274509803921569 : i-$! !Q8oGxMLDk! 5o6 i4I\@MLDki4I\@k! 5o6MLDk! _ i>
+===Initiate End===
+Node Coverage: 15/29
+===Genetic Algorithm End===
+Node Coverage: 15/29
+Normal fail
+TIME: 1.325801795 (s)
+Attack failed

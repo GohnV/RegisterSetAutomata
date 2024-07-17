@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(.*?)[\t]*Local\Variables:[\t]*(.*)$(?:^\1.+\2\n)*?^\1[\t]*iPerl-style:\s*"(.+?)"[\t]*\2$(?:^\1.+\2\n)*?^\1[\t]*End:[\t]*\2$(?:(?!\n).)*\Z
+PARSE: ERROR {ParsingData.UnsupportedEscape(17, 86)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

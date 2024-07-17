@@ -1,0 +1,9 @@
+([o;])\1([$k])i         $ 
+1: <11 : 1.625 :  ooki     ooki         >
+===Initiate End===
+Node Coverage: 11/13
+===Genetic Algorithm End===
+Node Coverage: 11/13
+Normal fail
+TIME: 0.72844816 (s)
+Attack failed

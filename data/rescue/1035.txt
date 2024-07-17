@@ -1,0 +1,9 @@
+(\${1,2})([^$]+?)\1
+3: <4 : 3.5 : 1><11 : 6.298507462686567 : S<aGyU.IR^$zMls5b&)'2JAEL\p{	I1Yj0r^\7GK&Vj@	j6#1F@:v)loCp<Fa!><12 : 3.4193548387096775 : .NRsJk1R	sp6\RqU$oyXu[9Yb);MC$>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 32.254821059 (s)
+Attack failed

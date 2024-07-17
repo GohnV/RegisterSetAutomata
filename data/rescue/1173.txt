@@ -1,0 +1,9 @@
+\[(h4)\](.*?)\[\/\1\]
+1: <4 : 1.2727272727272727 : M;Cfw,^{$[>
+===Initiate End===
+Node Coverage: 4/15
+===Genetic Algorithm End===
+Node Coverage: 12/15
+Normal fail
+TIME: 0.605774634 (s)
+Attack failed

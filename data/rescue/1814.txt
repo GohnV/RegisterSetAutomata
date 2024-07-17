@@ -1,0 +1,16 @@
+(.)(\w)(\W)(\s)(\S)(\d)(\D),\1\2\3\4\5\6\7,\1\2\3\4\5\6\7
+1: <39 : 5.661764705882353 : JY-0}.Do,Do!
+-!u,Do!
+^4uDo!
+^4u-0}.DoDo!
+^4uDo!
+^4u,Do!
+^4u,Do!
+^4u>
+===Initiate End===
+Node Coverage: 39/40
+===Genetic Algorithm End===
+Node Coverage: 39/40
+Normal fail
+TIME: 49.684707725 (s)
+Attack failed

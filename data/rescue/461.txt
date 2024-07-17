@@ -1,0 +1,9 @@
+@import\s+(['"])[^'"]+(\.scss)?\1\s*;?
+6: <3 : 0.375 : @import><6 : 0.7777777777777778 : @import	><9 : 1.0 : @import	'><13 : 3.176470588235294 : @import	'@import><15 : 3.0625 : @import	'\.scss><18 : 1.75 : @import	'^'>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 39.083485533 (s)
+Attack failed

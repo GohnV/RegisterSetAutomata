@@ -1,0 +1,9 @@
+(?><<-("?)((?:\w+_|)RUBY)\b\1)
+1: <18 : 4.08 : 8+8\!~B,hlbR<bR<<<-Nsa,hlbR<bR<<-Nsax!~B,hlbR<bR<<<-Nsa,hlbR<bR<<-NsaxDC8_>
+===Initiate End===
+Node Coverage: 18/23
+===Genetic Algorithm End===
+Node Coverage: 18/23
+Normal fail
+TIME: 27.075605431 (s)
+Attack failed

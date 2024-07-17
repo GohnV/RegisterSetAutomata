@@ -1,0 +1,28 @@
+@[\w.$]+|@("|'|`)(?:\\?[\s\S])+?\1
+4: <4 : 3.3333333333333335 : \w><11 : 3.126984126984127 : tNr,`U J'GBFD!sIp462'	8X"Ju\m/Xs|S`2-a*=,l@;.cqJX>g
+(::#%<
+><9 : 2.9285714285714284 : UmqoQ7p5\"ff7d7?z,"MU
+M@IJS><22 : 7.815384615384615 : fl$RfZ	PijM9xv}:k"zGx%/eD/%vb
+/z|@`
+zhvP(b_Ba/iXh\pi8+Q1k>2},4zt>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`?u\X6u\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm]"+@[U0qlE\\zCe|o\}\}S@\i)yG\|cohYbw;
+100083 : 962.3365384615385 : f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`?u\X6u\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm]"+@[U0qlE\\zCe|o\}\}S@\i)yG\|cohYbw;
+100003 : 1234.6049382716049 : f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`\X\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm\\z\}\}S@\i)yG\|co
+100003 : f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`\X\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm\\z\}\}S@\i)yG\|co
+1000126 : 8 : f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`\X\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\}S@\i)yG\|co
+100000124 : f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`\X\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\}S@\i)yG\|co
+TIME: 13.76043285 (s)
+Attack success, attack string is:
+f,`kQ1k>}:k"zGx%/eD/%vb
+/z|@`\X\X6cqb(RDI:4\wLw|3|r?30\\\AwXIm\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\\\z\}\}S@\i)yG\|co

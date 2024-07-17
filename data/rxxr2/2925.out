@@ -1,0 +1,6 @@
+= [1] =
+INPUT: =item (\w+)\s+(?:([^\n]+)\n\s+)?=cut\s+sub \1 \(\) { (\S+) }
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(51)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

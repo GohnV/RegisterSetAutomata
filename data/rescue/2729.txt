@@ -1,0 +1,9 @@
+^ *(\${2,}) *([\s\S]+?)\s*\1 *(?:\n|$)
+1: <7 : 5.5 :  >
+===Initiate End===
+Node Coverage: 7/26
+===Genetic Algorithm End===
+Node Coverage: 7/26
+Normal fail
+TIME: 0.084979445 (s)
+Attack failed

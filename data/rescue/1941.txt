@@ -1,0 +1,9 @@
+\[\{\s*block\s+name\s*=\s*(['"])([a-z0-9_]+)\1\s*\}\](.*?)\[\{\s*\/block\s*\}\]
+1: <5 : 1.2857142857142858 : *pK.54m=[{4	L>
+===Initiate End===
+Node Coverage: 5/37
+===Genetic Algorithm End===
+Node Coverage: 6/37
+Normal fail
+TIME: 0.327143331 (s)
+Attack failed

@@ -1,0 +1,3 @@
+(\p{IsConsonant})\1\Kle$
+TIME: 0.072990904 (s)
+Regex compile error

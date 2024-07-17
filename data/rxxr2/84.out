@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:u8|u|U|L)?R"([a-zA-Z0-9_{}\[\]#<>%:;.?*\+\-\/\^&|~!=,"']{,16})\(.*?\)\1"
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(59)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

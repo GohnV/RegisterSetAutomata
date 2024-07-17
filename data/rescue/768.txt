@@ -1,0 +1,9 @@
+([bcdfghjkmnprstvz])\1
+1: <6 : 2.0 : ss>
+===Initiate End===
+Node Coverage: 6/7
+===Genetic Algorithm End===
+Node Coverage: 6/7
+Normal fail
+TIME: 5.179600786 (s)
+Attack failed

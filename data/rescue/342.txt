@@ -1,0 +1,11 @@
+(\*\*|__)(?=\S)([^\r]*?\S[*_]*)\1
+3: <5 : 4.2 : \*\*><20 : 6.333333333333333 : \*\**?\S><21 : 6.202898550724638 : Npg^nO4}T|+
+tvG)fi__{_x:UFh'*Z}_m/:9pl`5
+w<x8h>s=2yO^,>J05'5\*\*|__>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 44.415786196 (s)
+Attack failed

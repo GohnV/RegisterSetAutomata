@@ -1,0 +1,9 @@
+\G(?:($FUNC_RE\s*\([^)]+\))|($FIELD_RE)|(\*))(?:\s+[aA][sS]\s+(['"]?)\s*($FIELD_RE)\s*\4?)?\s*,?\s*
+1: <38 : 6.444444444444445 : *				as	>
+===Initiate End===
+Node Coverage: 38/55
+===Genetic Algorithm End===
+Node Coverage: 38/55
+Normal fail
+TIME: 207.816412199 (s)
+Attack failed

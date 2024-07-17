@@ -1,0 +1,9 @@
+^(\D|\S|\W).+\1[imsxeADSUXJu]*$
+4: <10 : 9.0 : ^><12 : 9.0 : ^\D|\S|\W><15 : 3.466666666666667 : 5![$eVKDQ\5+sV><14 : 2.909090909090909 : ^\D|\S|\W^>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 21.118964264 (s)
+Attack failed

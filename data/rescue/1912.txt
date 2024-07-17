@@ -1,0 +1,10 @@
+>>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b
+6: <13 : 6.5 : =><14 : 4.666666666666667 : ==><28 : 16.125 : x}w;rg-><8 : 2.6666666666666665 : <<><29 : 11.428571428571429 : _4k
+,orLMkJ^><7 : 2.3333333333333335 : >>>
+===Initiate End===
+Node Coverage: 36/36
+===Genetic Algorithm End===
+Node Coverage: 36/36
+Normal fail
+TIME: 19.959103551 (s)
+Attack failed

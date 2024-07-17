@@ -1,0 +1,9 @@
+('{2,5}).+?\1
+1: <10 : 2.9529411764705884 : {AddB_1[\.?uD_qy7A4Qp=?AzfBmv_+7?	71E,SA''{AddB_1[\.?uD_qy7A4Qp=?AzfBmv_+7?	71E,SA''>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 154.76096606 (s)
+Attack failed

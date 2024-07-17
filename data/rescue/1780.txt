@@ -1,0 +1,9 @@
+^(?:AS\s*)?(`?)(.*?)\1\s*$
+2: <20 : 6.666666666666667 : AS><22 : 8.5 : AS`>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 5.070459303 (s)
+Attack failed

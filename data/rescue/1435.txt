@@ -1,0 +1,17 @@
+@?("""|"|')((\\|\n)?.)*?\1B?
+5: <20 : 10.0 : "><21 : 12.333333333333334 : "B><24 : 13.666666666666666 : "\><23 : 6.25 : "B"><22 : 14.333333333333334 : "@>
+===Initiate End===
+Node Coverage: 28/28
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Vulnerable: QO1@NJ\XM)@(\?DW'?JPOP*P"*P"\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	
+I*H1\\\*RM?.TS(TMN\\)XJH\W?)*?.B**T
+100108 : 878.140350877193 : QO1@NJ\XM)@(\?DW'?JPOP*P"*P"\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	
+I*H1\\\*RM?.TS(TMN\\)XJH\W?)*?.B**T
+100077 : 1010.8787878787879 : QO1@NJ\XM)@(\?DW'?JPOP*P"*\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	*\\\*RM?.TS(T\\)XJH\W?)
+1000109 : QO1@NJ\XM)@(\?DW'?JPOP*P"*\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	*\\\*RM?.TS(T\\\\\*RM?.TS(T\\)XJH\W?)
+1000124 : 1 : QO1@NJ\XM)@(\?DW'?JPOP*P"*\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	*\\\*RM?.TS(T\\\\\*RM?.TS(T\\\\\*RM?.TS(T\\)XJH\W?)
+15139365 : QO1@NJ\XM)@(\?DW'?JPOP*P"*\S""Y\\"""	"\S""Y\\"""				Fe1vZFu4:fqUuDVX	*\\\*RM?.TS(T\\\\\*RM?.TS(T\\\\\*RM?.TS(T\\)XJH\W?)
+TIME: 5.668914662 (s)
+Attack failed

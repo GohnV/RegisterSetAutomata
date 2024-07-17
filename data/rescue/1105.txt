@@ -1,0 +1,9 @@
+(''')[^'](?:.*?[^'])?(?=\1)
+1: <18 : 3.475 : zQ3alvcMfUA3T_{Q??/s'''@j\j	~%8??/s'''>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 91.516394149 (s)
+Attack failed

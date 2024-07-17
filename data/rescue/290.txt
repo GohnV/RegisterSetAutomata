@@ -1,0 +1,9 @@
+^!\[(.*?)\][ \t]*\([ \t]*(\S*)(?:[ \t]+(["'])(.*?)\3)?[ \t]*\)
+1: <27 : 27.0 : ![]](]]]][]](]]]]( ]](](]]]]( ]](](]]]][]](]]]]( ]]( ]]( ()>
+===Initiate End===
+Node Coverage: 27/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 31.240544538 (s)
+Attack failed

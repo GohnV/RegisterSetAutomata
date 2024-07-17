@@ -1,0 +1,9 @@
+^u(['"])(.*)\1$
+4: <4 : 2.0 : u><11 : 3.5 : u'"><12 : 3.8333333333333335 : u'"'"><13 : 3.6 : u'"'>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 8.496042149 (s)
+Attack failed

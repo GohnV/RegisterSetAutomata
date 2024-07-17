@@ -1,0 +1,13 @@
+\spath\s*=\s*('|")(.+?)\1
+2: <20 : 1.9230769230769231 : ?DG4vI
+oXNCPk)Rf@%*@Q@UAR.[b%!w$PqRgAR.[b%!w$PqRgm ei	path
+='\spath\s*=\s*><20 : 1.6582278481012658 : ?DG4vI
+oXNCPk)Rf@%*@Q@UAR.[b%!w$PqRgAR.[b%!w$PqRgm ei	path
+='\spath\s*=\s*'>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 12.095401428 (s)
+Attack failed

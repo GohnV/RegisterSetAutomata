@@ -1,0 +1,9 @@
+(["`])(\\.|(?!\1)[^\\])*\1[cwd]?
+3: <16 : 12.666666666666666 : "`><17 : 16.285714285714285 : "`\\.|><22 : 6.875 : "`\\.|">
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 171.289658092 (s)
+Attack failed

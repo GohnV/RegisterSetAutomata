@@ -1,0 +1,9 @@
+(\*\*)(?=\S)([^\r]*?\S[*]*)\1
+1: <18 : 2.8548387096774195 : 	.8p>ig,:sWQfynD8p>ig,:sWQfynD+EgH\wE>0f,)AX6**J%{]j$eI#**>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 101.807048662 (s)
+Attack failed

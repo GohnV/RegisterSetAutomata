@@ -1,0 +1,9 @@
+<(script|del)(?=[\s>])[\w\W]*?<\/\1\s*>
+1: <20 : 3.9672131147540983 : ';#;#<script?<)FT /YUu@[?((AMUS)I"$ript?<)FTV m{i*R`(AMUS)I"$ript?<)FTV m{i*R`"6</script?<)FT /YUu@[?((AM;t=e	>
+===Initiate End===
+Node Coverage: 20/21
+===Genetic Algorithm End===
+Node Coverage: 20/21
+Normal fail
+TIME: 56.597402216 (s)
+Attack failed

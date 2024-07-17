@@ -1,0 +1,10 @@
+\b__gfxObject__\s*=\s*(['"])\w*\1
+1: <16 : 1.1388888888888888 : 
+~cj?jjah&?__gah&?__gfxObject__=''>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 3.695718898 (s)
+Attack failed

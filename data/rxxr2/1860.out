@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <link[^>]*href=(["'])([^"']+)\1[^>]*rel=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?openid2.provider[ \t]*[^"']*\3[^>]*\/?>
+PARSE: OK
+SIZE: 67
+PUMPABLE: NO
+TIME: 0.000094 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 67
+>> AVG NFA SIZE: 67
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000094 (s)
+>> TIME MAX: 0.000094 (s)

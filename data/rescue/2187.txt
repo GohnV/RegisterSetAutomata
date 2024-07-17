@@ -1,0 +1,9 @@
+(\\begin\{((?:equation|math|eqnarray|align|multline|gather)\*?)\})[\s\S]*?(?=\\end\{\2\})
+1: <25 : 2.0555555555555554 : \begin{eqnarray*}>
+===Initiate End===
+Node Coverage: 25/29
+===Genetic Algorithm End===
+Node Coverage: 26/29
+Normal fail
+TIME: 57.037743056 (s)
+Attack failed

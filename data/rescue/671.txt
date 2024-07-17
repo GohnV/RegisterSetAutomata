@@ -1,0 +1,47 @@
+(["']?)([^=]*)\1\s*(=)
+2: <16 : 8.0 : =><15 : 287.5151515151515 : ~B#LFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2@.g/G&8?
+100075 : 617.7469135802469 : H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2@.g/G&8?
+100027 : 649.525974025974 : H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2
+100027 : H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2
+100027 : 0 : H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2
+101114 : H[Kl4D@O-! *8h
+>2@.gLFf"G
+,ZMpCy-i)H"7*aF@|0IpZDtRt-7i)H"7*aF@|0IpZDtRt-7w@U0H[Kl4D@O-! *8h
+>2@.g/G&L#B~G
+,ZMpCy-i)H"7*7w@U0H[Kl4D@O-! *8h
+>2@.g/G&8>2
+TIME: 26.172602537 (s)
+Attack failed

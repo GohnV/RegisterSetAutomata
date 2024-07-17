@@ -1,0 +1,9 @@
+(href|src)=(["'])((?:(?!\2)[^:])+)\2
+2: <22 : 3.6666666666666665 : href=">}=%{<$"><10 : 4.333333333333333 : href=\]%{<$\]'/#/>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 60.494668014 (s)
+Attack failed

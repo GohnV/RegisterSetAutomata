@@ -1,0 +1,123 @@
+<([^>]+?)\s[^>]+?>[\s\S]*?<\/\1>
+1: <17 : 2.140845070422535 : 8}lD,_caw!h|f<'AP`-m/^UT=()W&,HW"\k>_{'IF!}'>f*rlP`ZX</'AP`-m/^UT=(>>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: >'}!Fcaw!h|<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!h|<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`-m/^UT=(
+100093 : 565.4971751412429 : >'}!Fcaw!h|<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!h|<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`-m/^UT=(
+100001 : 606.0666666666667 : >'}!Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`
+100001 : >'}!Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`
+100001 : 0 : >'}!Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`
+100001 : >'}!Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+Fcaw!<<f*rlP`<<|	
+
+	
+			
+	
+
+		
+		
+		
+^UT=()W&,HW"P`ZX</'AP`P`-m/^U)W&,HW"P`ZX</'AP`
+TIME: 36.607568076 (s)
+Attack failed

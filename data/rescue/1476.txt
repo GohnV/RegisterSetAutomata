@@ -1,0 +1,12 @@
+(x)zzz(?=\1)x
+1: <5 : 2.0476190476190474 : 3;2tho7o/sWCb)y 
+m9y|8~
+BfK6vp'd Q]H|Zp:v?Q
+Oh~m8}}t Dce:x4B2>
+===Initiate End===
+Node Coverage: 5/12
+===Genetic Algorithm End===
+Node Coverage: 5/12
+Normal fail
+TIME: 1.147452883 (s)
+Attack failed

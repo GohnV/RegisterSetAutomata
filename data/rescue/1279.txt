@@ -1,0 +1,9 @@
+([\u0000\u0001])\d+\1
+1: <3 : 2.5 : \>
+===Initiate End===
+Node Coverage: 3/9
+===Genetic Algorithm End===
+Node Coverage: 3/9
+Normal fail
+TIME: 0.157436412 (s)
+Attack failed

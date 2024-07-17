@@ -1,0 +1,9 @@
+#(.)\1(.)\2(.)\3
+1: <15 : 1.3645833333333333 : f	h``7"M?!zah``7"M?!za``hzeR!#`#```!za`a`a``hzeR!#`#```!za`!za`f	h``	h``7"M?!za``hzeR!#`#````##>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Normal fail
+TIME: 2.766177278 (s)
+Attack failed

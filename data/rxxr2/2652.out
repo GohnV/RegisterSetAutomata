@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <!-- BEGIN ((?:[a-zA-Z0-9_]+\.)*)([!a-zA-Z0-9_]+)(\([0-9,\-]+\))? -->(.+?)<!-- END \1\2 -->
+PARSE: OK
+SIZE: 57
+PUMPABLE: NO
+TIME: 0.000072 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 57
+>> AVG NFA SIZE: 57
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000072 (s)
+>> TIME MAX: 0.000072 (s)

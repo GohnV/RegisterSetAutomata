@@ -1,0 +1,15 @@
+(<img\s[^>]*?(?<=\s)src\s*=\s*)(["']?)(.*?)(\2)(\s.+?>|\s*>)
+1: <42 : 10.461538461538462 : N4|1S_ D%~$"]W~@,E"]W~@,E	:!^{<img	1]tqs3d	d	src=N4|1S_ D%~$"]W~@,E"]W~@,E	:!^{<img	1]tqs3d	d	src=*s\\s*-nVm<Pi|!9F2],@A0qmPiF2],@A0qm2A.<m'IsW_*?G>>
+===Initiate End===
+Node Coverage: 42/42
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 42/42
+Vulnerable: <img<img<img<img	1]tqs3d	d	src= "$~30b12Feac57C8AA5%DN4|Z3d	d	src= 	E,@~W]"d	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^#;*?*-nVm@A0q2d<Ad."8'\3)((src
+100166 : 547.3551912568306 : <img<img<img<img	1]tqs3d	d	src= "$~30b12Feac57C8AA5%DN4|Z3d	d	src= 	E,@~W]"d	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^#;*?*-nVm@A0q2d<Ad."8'\3)((src
+100026 : 719.6115107913669 : <img<img<img<img	src= "$~30b12Feac57C8AA5%DN4|Z	d	src= 	E,@~W]	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^
+100026 : <img<img<img<img	src= "$~30b12Feac57C8AA5%DN4|Z	d	src= 	E,@~W]	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^
+100026 : 0 : <img<img<img<img	src= "$~30b12Feac57C8AA5%DN4|Z	d	src= 	E,@~W]	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^
+100051 : <img<img<img<img	src= "$~30b12Feac57C8AA5%DN4|Z	d	src= 	E,@~W]	d	src=	src= =cr"$~%d	d	src=*s\\s*-nVm<Prc= 	src= 	E,@~W]"E,@~W]~$"]W~^
+TIME: 46.577976629 (s)
+Attack failed

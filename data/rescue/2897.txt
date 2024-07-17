@@ -1,0 +1,9 @@
+(?:^-----BEGIN(.* )PRIVATE KEY-----\n)(.*?)(?:-----END\1PRIVATE KEY.*$)
+1: <11 : 3.961904761904762 : -----BEGIN\NGIN\N `uEo.$BN `uEo.$Bo.$BEGIN\N `uGIN\N `uEo.$BN `uEo.$Bo.$BEGIN\N `uEo.$Bo.$BEGIN\N->
+===Initiate End===
+Node Coverage: 11/25
+===Genetic Algorithm End===
+Node Coverage: 11/25
+Normal fail
+TIME: 31.778743157 (s)
+Attack failed

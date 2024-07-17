@@ -1,0 +1,15 @@
+\s(?:xml:)?id=(["']?)([^"')\s]+)\1
+5: <2 : 1.5 : ?><6 : 1.35 : 3_,&|J-#Pr/[$ingGgDEB]F
+XYNY;J]1.HdglI!L	"BoK,eB7.K]	%6t	8	><16 : 1.875 : |c^!
+6
+{s?b.uH3W~%]og;#A_/MdR&z
+id="X%3^(	K1j@e{r/`ML vN>G>ucy ><8 : 1.4375 : z07{2uH9r$8xml:VhuH!?
+(T	:<Nmp,b*@I(Hp*}nN5HttA3mruY@X	.a]-D><17 : 1.7894736842105263 : N1ZW9?62|k
+id=U9m8>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 28.056252381 (s)
+Attack failed

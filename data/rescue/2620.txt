@@ -1,0 +1,12 @@
+(<script[^>]*)language\s*=\s*([\"']*)javascript\2([^>]*>)
+1: <18 : 4.628205128205129 : 3Lkj",@V
+<script%5wDt%5wD=%langua%5wD=%language=U5
+Buguage=U5
+Bua}sP3e\s*=\s*>
+===Initiate End===
+Node Coverage: 18/25
+===Genetic Algorithm End===
+Node Coverage: 18/25
+Normal fail
+TIME: 59.608585183 (s)
+Attack failed

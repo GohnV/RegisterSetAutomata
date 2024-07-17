@@ -1,0 +1,9 @@
+^\s*<(\w*)\s*>\s*<tag\s*></tag\s*>\s*</\1\s*>\s*$
+8: <11 : 5.5 : <><12 : 5.8 : <tag><14 : 4.666666666666667 : <>><17 : 2.4285714285714284 : <><tag><20 : 1.5384615384615385 : <><tag></tag><27 : 1.6875 : <><tag></tag></><30 : 1.7647058823529411 : <><tag></tag></>><31 : 1.8235294117647058 : <><tag></tag></>>
+===Initiate End===
+Node Coverage: 32/32
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Normal fail
+TIME: 14.98385408 (s)
+Attack failed

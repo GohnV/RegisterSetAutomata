@@ -1,0 +1,9 @@
+\A([\'\"])(.*)\1\Z
+4: <9 : 4.5 : "><10 : 4.333333333333333 : "$><11 : 4.083333333333333 : "sE&")(isP%\1\Z1A)ug13F><12 : 3.5 : "\'\">
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 3.340089053 (s)
+Attack failed

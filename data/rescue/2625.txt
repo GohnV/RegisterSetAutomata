@@ -1,0 +1,9 @@
+^<(\w+)\s*>NUMNUM</\1>$
+6: <5 : 2.5 : <><10 : 3.6666666666666665 : <a><11 : 1.0 : <a>NUMNUM</><12 : 1.0 : <a>NUMNUM</a><13 : 1.0 : <a>NUMNUM</a>><14 : 1.0714285714285714 : <a>NUMNUM</a>>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 24.762918053 (s)
+Attack failed

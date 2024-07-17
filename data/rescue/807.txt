@@ -1,0 +1,148 @@
+url\((['"]?)([^?#)]+)([^)]*)\1\)
+3: <8 : 1.6 : url(><16 : 8.222222222222221 : url(url\><17 : 2.04 : ]url( lT+
+dvw,:VA6Qw	!+0[
+q/
+(pl&#JWaYWUT8u`9Cp)>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+						
+	
+		
+100101 : 625.63125 : ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+						
+	
+		
+100059 : 671.5369127516778 : ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+				
+100059 : ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+				
+100059 : 0 : ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+				
+100574 : ]url(]url( lT+
+dvw,:VA6rl\	
+		 
+
+
+
+
+	
+	
+
+ 	 
+ 					
+	
+				<0>;o	
+	
+
+ 	 
+ 					
+	
+		<0>;o}N~rN6yluT+
+dvw,:VA6rl\	
+				
+TIME: 23.88682582 (s)
+Attack failed

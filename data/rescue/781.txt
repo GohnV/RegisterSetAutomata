@@ -1,0 +1,9 @@
+##asset_url\(\ *(['"])([^'"]*)\1\ *\)
+5: <5 : 0.38461538461538464 : ##asset_url(><6 : 0.6428571428571429 : ##asset_url( ><11 : 0.7857142857142857 : ##asset_url('><14 : 0.9333333333333333 : ##asset_url(''><15 : 0.9375 : ##asset_url('')>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 15.976930791 (s)
+Attack failed

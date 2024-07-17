@@ -1,0 +1,9 @@
+([\'\"]?)VERSION_FROM\1\s*(?:=>|,)\s*(\"[^\"]+|\'[^\']+)
+2: <7 : 5.137931034482759 : RA4,mQR-ry]\|I,_ezLP$C{LA-'r><21 : 5.352941176470588 : RA4VERSION_FROM,>
+===Initiate End===
+Node Coverage: 22/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 39.692287645 (s)
+Attack failed

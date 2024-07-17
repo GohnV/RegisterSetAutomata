@@ -1,0 +1,9 @@
+^s(.).*\1.*\1
+4: <4 : 2.0 : s><9 : 2.75 : s^s><12 : 4.1 : s.*\1.*\1><13 : 4.090909090909091 : s.*\1.*\1.>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 19.496711897 (s)
+Attack failed

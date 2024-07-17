@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*require\s*("|')([^\1\s]*)(\1)
+PARSE: ERROR {ParsingData.UnsupportedEscape(23, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

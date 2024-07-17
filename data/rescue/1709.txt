@@ -1,0 +1,9 @@
+(polyfill-unscoped-rule)[^}]*(content:[\s]*(['"])(.*?)\3)[;\s]*[^}]*}
+1: <26 : 2.736842105263158 : +xNMR.AX\']LKpolyfill-unscoped-rulegevlegevD&N+irstjlyficonterstjlyficontent:'+xNMR.AX\']LKpo}>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 141.760889932 (s)
+Attack failed

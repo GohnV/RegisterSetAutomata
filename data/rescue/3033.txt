@@ -1,0 +1,9 @@
+r(#*)".*?"\1(?!#)
+2: <16 : 2.085714285714286 : Pyto!k6#0q	?xi{1?.jSLefV[Cd-7P+r"k^Yw.|yc\FT_)A%&1-tua2efV[Cd-7P+r"><16 : 2.8028169014084505 : Pyto!k6#0q	?xi{1?.jSLefV[Cd-7P+r"k^Yw.|yc\FT_)A%&1-tua2efV[Cd-7P+r"#>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 25.195929017 (s)
+Attack failed

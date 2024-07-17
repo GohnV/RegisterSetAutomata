@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\n\\]|\\.)*?\1)\]
+PARSE: ERROR {Failure("lexing: empty token")}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

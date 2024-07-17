@@ -1,0 +1,9 @@
+(20)\1
+1: <6 : 2.1818181818181817 : 202222022022202222020>
+===Initiate End===
+Node Coverage: 6/7
+===Genetic Algorithm End===
+Node Coverage: 6/7
+Normal fail
+TIME: 1.932260355 (s)
+Attack failed

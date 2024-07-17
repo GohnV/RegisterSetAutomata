@@ -1,0 +1,9 @@
+\x3c(script|style)([\s\S]*?)\x3e([\s\S]*?)\x3c\/\1\x3e
+1: <6 : 2.25 : YG<>
+===Initiate End===
+Node Coverage: 6/22
+===Genetic Algorithm End===
+Node Coverage: 20/22
+Normal fail
+TIME: 29.582962479 (s)
+Attack failed

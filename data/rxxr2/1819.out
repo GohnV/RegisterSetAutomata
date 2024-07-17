@@ -1,0 +1,6 @@
+= [1] =
+INPUT: [\s\S]*template\s*\(\s*name\s*=\s*(['"])([^\1]+?)\1\s*\)[\s\S]*?$
+PARSE: ERROR {ParsingData.UnsupportedEscape(44, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

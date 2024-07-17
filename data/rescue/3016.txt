@@ -1,0 +1,10 @@
+(?: *\/\/.*\n)*( *["'] *)<% *} *else *if *\(nonEnumArgs[\s\S]+?(\1<% *} *%>.+)
+1: <23 : 26.6 : /// '// %   '<%/< </ %  // '<%/< <% <%/<%  
+>
+===Initiate End===
+Node Coverage: 23/47
+===Genetic Algorithm End===
+Node Coverage: 23/47
+Normal fail
+TIME: 28.28649521 (s)
+Attack failed

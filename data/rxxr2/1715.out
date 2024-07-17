@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(?!.*(.).*\1)[imguy]*$
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(1)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

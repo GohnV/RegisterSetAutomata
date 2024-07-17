@@ -1,0 +1,9 @@
+require ([\"\'])[a-zA-Z0-9\.\-\_]+\1\;[\r\n]
+1: <11 : 0.8571428571428571 : require "r";>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 12.492752369 (s)
+Attack failed

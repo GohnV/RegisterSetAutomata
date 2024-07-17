@@ -1,0 +1,16 @@
+= [1] =
+INPUT: &lt;img\s+src=((?:&quot;)?)((?:https?://)\S+?)\1(?:\s+alt=(&quot;.*?&quot;|\S*?))?(?:\s?/)?&gt;
+PARSE: OK
+SIZE: 79
+PUMPABLE: NO
+TIME: 0.000097 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 79
+>> AVG NFA SIZE: 79
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000097 (s)
+>> TIME MAX: 0.000097 (s)

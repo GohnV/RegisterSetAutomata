@@ -1,0 +1,9 @@
+(<(td|th)\b[^>]*>)\s*(</\2>)
+1: <7 : 2.0943396226415096 : 	V2ja:	QBnWwOp;fPSD'yCYDq_)2,ST	tO\7e|aDUldLN~wS)<D>
+===Initiate End===
+Node Coverage: 7/23
+===Genetic Algorithm End===
+Node Coverage: 20/23
+Normal fail
+TIME: 19.164248066 (s)
+Attack failed

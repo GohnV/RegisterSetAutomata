@@ -1,0 +1,9 @@
+(.)(.) (.)\2 (.)\2 (.)\2 (.)\2
+1: <28 : 4.296296296296297 : . ).GU. )).GU. ). 1. ). 2.>
+===Initiate End===
+Node Coverage: 28/29
+===Genetic Algorithm End===
+Node Coverage: 28/29
+Normal fail
+TIME: 32.609792985 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(m)\1e                  $ 
+1: <6 : 2.1724137931034484 : 2rj.?^!MGIyZ8!sAj_vmYk\K4t8Xtd8xGYy*,mmyZ8!sA_vmYk\K4t8Xt>
+===Initiate End===
+Node Coverage: 6/10
+===Genetic Algorithm End===
+Node Coverage: 6/10
+Normal fail
+TIME: 0.596800161 (s)
+Attack failed

@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (\w+) = LOAD 'in' AS \(a\);\n(\w+) = GROUP \1 BY a;\nSTORE \2 INTO 'out';
+PARSE: OK
+SIZE: 68
+PUMPABLE: NO
+TIME: 0.000086 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 68
+>> AVG NFA SIZE: 68
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000086 (s)
+>> TIME MAX: 0.000086 (s)

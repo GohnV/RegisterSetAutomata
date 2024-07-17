@@ -1,0 +1,9 @@
+assert_select "input#(.*)_author_id\[name=\?\]", "\1\[author_id\]
+5: <6 : 0.2727272727272727 : assert_select "input#><7 : 1.5151515151515151 : assert_select "input#[author_id]><8 : 2.5272727272727273 : assert_select "input#[author_id]_author_id[name=?]", "><9 : 2.1818181818181817 : assert_select "input#_author_id[name=?]", "><10 : 2.5636363636363635 : assert_select "input#_author_id[name=?]", "[author_id]>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 93.557433497 (s)
+Attack failed

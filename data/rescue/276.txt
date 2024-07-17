@@ -1,0 +1,16 @@
+(\$)(\\?.)*?\1
+3: <11 : 5.5 : $><13 : 7.333333333333333 : $\><14 : 3.2 : $\\$>
+===Initiate End===
+Node Coverage: 14/14
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Vulnerable: $FQigGVdqCmfNvQI\$1HIZ*O*\?\S?DNTCNLQ\*SV..CNLQ\*SV..F\LY\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLFeDOsNnWNFOImFQigGVdqCmOPRmLFeDOsNnWNFOImFQigGVdqCmfNvQIMN\aviwfjhpxopazjswbmkefbpvxz
+100190 : 547.4863387978143 : $FQigGVdqCmfNvQI\$1HIZ*O*\?\S?DNTCNLQ\*SV..CNLQ\*SV..F\LY\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLFeDOsNnWNFOImFQigGVdqCmOPRmLFeDOsNnWNFOImFQigGVdqCmfNvQIMN\aviwfjhpxopazjswbmkefbpvxz
+100055 : 1819.1818181818182 : $\?\S\*\*S\LY\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLF
+1000062 : $\?\S\*\*S\LY\E\X\\\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLF
+1000164 : 11 : $\?\S\*\*S\LY\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLF
+100000163 : $\?\S\*\*S\LY\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLF
+TIME: 4.551938339 (s)
+Attack success, attack string is:
+$\?\S\*\*S\LY\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\\E\X\\HBE99aE7}~>>:=>=>=>|:<{?={~}~RmLF

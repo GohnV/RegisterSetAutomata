@@ -1,0 +1,9 @@
+^(... ...\s+\d+ \d\d\d\d  [\w@\.\-]+)$(.*)^\1$
+1: <29 : 1.9473684210526316 : ,vv UQq 00 0000  a>
+===Initiate End===
+Node Coverage: 29/32
+===Genetic Algorithm End===
+Node Coverage: 29/32
+Normal fail
+TIME: 19.072083506 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<(WC@[\s\S]*?)>(.*?)<\/\1>
+1: <4 : 1.0909090909090908 : g x8xTh%Vn0P$W1YXK)O<>
+===Initiate End===
+Node Coverage: 4/17
+===Genetic Algorithm End===
+Node Coverage: 4/17
+Normal fail
+TIME: 0.722731159 (s)
+Attack failed

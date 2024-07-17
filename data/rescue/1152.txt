@@ -1,0 +1,16 @@
+#(.)\1\1\1\1\1
+1: <11 : 1.1574074074074074 : h;_UT>_UT}P'
+>T>_UT}P'
+>P}T}l]#PPUT}P'
+>T>_UT}P'
+>P}T}l]#>T>_UT}P'
+>P}T}l]#PPUT}P'
+>T>_UT}P'
+>P}T}l]#PPPPPP>
+===Initiate End===
+Node Coverage: 11/12
+===Genetic Algorithm End===
+Node Coverage: 11/12
+Normal fail
+TIME: 1.519417871 (s)
+Attack failed

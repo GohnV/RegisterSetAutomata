@@ -1,0 +1,10 @@
+ (\*\*|__) (\S|\S.+?\S) \1 
+1: <6 : 1.1923076923076923 : @6hX'sJX'sJQjd+hGEN
+<er4 >
+===Initiate End===
+Node Coverage: 6/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 10.498575637 (s)
+Attack failed

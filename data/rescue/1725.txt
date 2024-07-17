@@ -1,0 +1,15 @@
+<option [^>]*value=(['"])(.+?)\1[^>]*>(?:.*?)</option>
+7: <4 : 0.4444444444444444 : <option ><7 : 1.6 : <option value=><11 : 1.9375 : <option value='><13 : 2.235294117647059 : <option value='-><16 : 3.0526315789473686 : <option value='-'"><21 : 5.25 : <option value='-'"</option>><21 : 2.5135135135135136 : <option value='-'"</option></option>>
+===Initiate End===
+Node Coverage: 22/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Vulnerable: <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@$\'>$\|{%=_#[",/}#/$++/n valu value='-'"{:>}{@~<=:option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu value='-'"
+100013 : 414.99170124481327 : <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@$\'>$\|{%=_#[",/}#/$++/n valu value='-'"{:>}{@~<=:option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu value='-'"
+100001 : 440.5330396475771 : <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@'>$\|{%=_#[",/}#/$++/n valu value='-'"{:><option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu valu
+100001 : <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@'>$\|{%=_#[",/}#/$++/n valu value='-'"{:><option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu valu
+100001 : 0 : <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@'>$\|{%=_#[",/}#/$++/n valu value='-'"{:><option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu valu
+100032 : <option <option <option <option value='-value='-'"</opvalue='-'~'='+!<!{^[+-'?>:@'>$\|{%=_#[",/}#/$++/n valu value='-'"{:><option value='-'"[~'='+!<!{^ion valu von value='-'=='+!<!>{^[+-'?>:@$\'>$\|{%n valu value='-' valu valu
+TIME: 82.388332754 (s)
+Attack failed

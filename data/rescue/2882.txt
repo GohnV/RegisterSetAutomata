@@ -1,0 +1,9 @@
+\A[^\n]+<<-?'?(\w+)'?.*$.*\1
+1: <21 : 5.8108108108108105 : 6=/<|{-4!6=/<|{-4<|{-4{-4<|{-4!/<<m<<|{-4!6=/<|{-4<|{m<<-4!6[w^NA&XiEMM`F>
+===Initiate End===
+Node Coverage: 21/22
+===Genetic Algorithm End===
+Node Coverage: 21/22
+Normal fail
+TIME: 193.334474504 (s)
+Attack failed

@@ -1,0 +1,9 @@
+__getHash\s*\(\s*('|")(.+)\1\s*\)
+1: <21 : 3.8275862068965516 : __getHash('_getHash('s*eetHa('s*eetHash('_getHash(getHash('s*eetHa('s*eetHashsh(s*\'|">
+===Initiate End===
+Node Coverage: 21/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 91.71193328 (s)
+Attack failed

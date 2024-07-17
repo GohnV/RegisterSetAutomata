@@ -1,0 +1,9 @@
+^([^\#=][^=]*)=(['"]|)(.*)\2$
+3: <7 : 3.5 : ^><19 : 4.4 : ^\#=><20 : 5.285714285714286 : ^\#='">
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 14.80180364 (s)
+Attack failed

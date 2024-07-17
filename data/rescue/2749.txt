@@ -1,0 +1,9 @@
+<(?!\?|(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\b|[^>]*\/>)([-_\.A-Za-z0-9]+)(?=\s|>)\b[^>]*>(?!.*<\/\1>)|<!--(?!.*-->)|\{[^}"']*$
+3: <23 : 5.875 : c@--<hr><47 : 15.153846153846153 : -E?D<!-E<!---->D<!-E<<-<{><50 : 11.185185185185185 : -E?D<!-E<!-hD>W<!c<<hD>></>
+===Initiate End===
+Node Coverage: 64/66
+===Genetic Algorithm End===
+Node Coverage: 64/66
+Normal fail
+TIME: 43.040724677 (s)
+Attack failed

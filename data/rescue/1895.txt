@@ -1,0 +1,9 @@
+content=(["'])\d+\s*;\s*url=(.*?)\1
+6: <3 : 0.3333333333333333 : content=><6 : 0.6 : content="><10 : 1.0 : content="0><13 : 1.1666666666666667 : content="0;><18 : 1.1875 : content="0;url=><18 : 1.1176470588235294 : content="0;url=">
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 18.364857931 (s)
+Attack failed

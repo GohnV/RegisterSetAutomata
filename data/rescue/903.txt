@@ -1,0 +1,9 @@
+<link[^>]*rel=(["'])[ \t]*(?:[^ \t"']+[ \t]+)*?openid2.provider[ \t]*[^"']*\1[^>]*href=(["'])([^"']+)\2[^>]*\/?>
+1: <21 : 4.880341880341881 : <link*rel='olink*rel='ok*relel='ok*rel='openid2relk*reid2relk*re='openid2relk*reid2relk*re2relk*relk*re2relk*rel='(	>
+===Initiate End===
+Node Coverage: 21/43
+===Genetic Algorithm End===
+Node Coverage: 21/43
+Normal fail
+TIME: 163.964478688 (s)
+Attack failed

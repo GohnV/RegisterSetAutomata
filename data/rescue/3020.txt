@@ -1,0 +1,6 @@
+<([\w]+)[^>]*>(.*?)<\/\1>
+1: <18 : 2.1710526315789473 : *JdF)lZpEKNT
+o5b[$E|pEKNT
+o3	&xOC>Z$<p(LW<>V5b[$E|}ZJ?	ME|}ZJ?	McL88</p>>
+===Initiate End===
+Node Coverage: 18/18

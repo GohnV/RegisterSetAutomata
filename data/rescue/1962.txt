@@ -1,0 +1,9 @@
+^(?!.*(.).*\1)[gimsuy]*$
+3: <15 : 9.0 : ^><13 : 9.333333333333334 : ^^><16 : 16.571428571428573 : gimsuy>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 16.959061111 (s)
+Attack failed

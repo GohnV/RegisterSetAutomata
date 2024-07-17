@@ -1,0 +1,6 @@
+= [1] =
+INPUT: url\(\s*(['"])(?:\\[\s\S]|(?!\1).)*\1\s*\)|url\((?:\\[\s\S]|[^)])*\)|(['"])(?:\\[\s\S]|(?!\2).)*\2
+PARSE: ERROR {ParsingData.InvalidBackreference(90)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

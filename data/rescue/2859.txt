@@ -1,0 +1,15 @@
+\{(.*)\((.*)\)\}(.*)\{\/\1\}
+1: <21 : 21.116883116883116 : at(vRSd%s{'/{(J|3d*.- oF)}%>}@{/}#)-/*_<$[_~->@+?;)%(?:^"]:)#!?"^^\?"-+;)||!>
+===Initiate End===
+Node Coverage: 21/21
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Vulnerable: at(vRSd%s{at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d%s{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*_<$[_~->@+?;)%(?:^"]:)#!?"^^\?"
+100256 : 384.1226053639847 : at(vRSd%s{at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d%s{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*_<$[_~->@+?;)%(?:^"]:)#!?"^^\?"
+100001 : 450.4549549549549 : at({at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*
+100001 : at({at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*
+100001 : 0 : at({at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*
+100001 : at({at(vRSd%s{at(vRSd%s{'/{(J|3d*.- ({/t(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(J|3d*.- oF)}%>}(J|3d*.- :)#!?"^^\?"-+;)||d{at(vRSd%s{atE(vRSd%s{'/{(J|3d*.- (vRSd%s{'/{(Jt(vRSd%s{at(vRSd%s{'/{(J|3d*.- (vRSd;)|3d*.- ({//*
+TIME: 73.167151405 (s)
+Attack failed

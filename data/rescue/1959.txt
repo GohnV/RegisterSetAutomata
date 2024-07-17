@@ -1,0 +1,167 @@
+<img\s[^>]*srcset=([\"']??)([^\">]*?)\1[^>]*\/?>
+5: <2 : 0.4 : <img><5 : 0.8333333333333334 : <img
+><6 : 1.1428571428571428 : <img
+><20 : 3.076923076923077 : <img
+srcset=><19 : 2.7857142857142856 : <img
+srcset=>>
+===Initiate End===
+Node Coverage: 21/21
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Vulnerable: <img
+srimg
+g
+img
+srcset=rset=*\img
+sr
+
+srcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+csetet=*\/?
+100030 : 606.2424242424242 : <img
+srimg
+g
+img
+srcset=rset=*\img
+sr
+
+srcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+csetet=*\/?
+100007 : 694.4930555555555 : <img
+srcset=rset=*\img
+srsrcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+cset
+100007 : <img
+srcset=rset=*\img
+srsrcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+cset
+100007 : 0 : <img
+srcset=rset=*\img
+srsrcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+cset
+100120 : <img
+srcset=rset=*\img
+srsrcset=rcimg
+img
+srcset=rset=*\img
+sr
+
+srcseDFUNrset=*\img
+sr
+
+	
+		
+
+
+		
+	
+
+
+
+
+
+		
+
+cset
+TIME: 31.737271542 (s)
+Attack failed

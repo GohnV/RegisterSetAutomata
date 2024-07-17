@@ -1,0 +1,11 @@
+\.(?:([CcHh])\1?|c([+xp])\2|y)\z
+2: <18 : 1.2352941176470589 : R z\~jZ3a<<6luM,1UJo-W<`<	|AHWw0-66?;`<	|AHWw0-66?;aP!^JOa1QX)
+.c+><14 : 1.1666666666666667 : R z\~jZ3a<<6luM,1UJo-W<`<	|AHWw0-66?;`<66?;aP!^JOa1QX)
+.cc>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 5.335516714 (s)
+Attack failed

@@ -1,0 +1,22 @@
+(?:\n\n)( {0,3}(?:<([?%])[^\r]*?\2>)[ \t]*(?=\n{2,}))
+1: <24 : 5.93 : !f
+
+<HFs2!f
+
+f
+
+!f
+M O|ku]2Vs2!f
+
+ <?|ku]2Vs2!f
+
+ <?:}@:|:<>@:>
+!f
+M O|ku] <?:}@:|:<>@:<|?|=?{?>>~>>
+===Initiate End===
+Node Coverage: 24/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 43.520325418 (s)
+Attack failed

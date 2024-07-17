@@ -1,0 +1,15 @@
+(s)([^A-Za-z0-9 \t])(.*\2[ \t]*)([^A-Za-z0-9 \t])(.*\4)([ixsmogce]*(?=[ \t]*(?:\)|;)))
+1: <39 : 5.430232558139535 : zJ6Np~{p-<Q=},~Ni/Ng.;oqY30=/};U>s%5Yu1c%+)qvWVL>$+3|s%5Yu1c%+)qvWVL>$+3|>qUWDK/6w/`d>
+===Initiate End===
+Node Coverage: 39/39
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 39/39
+Vulnerable: s>s>s>;UL>$+3VL>3|s%5Yu>;UL>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uY5%s|3$>=}>$+3|3|>qUWgR0n>s>s>s>>>|3+$>>LU;LVWvq)%s|3>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([\)
+100214 : 447.38392857142856 : s>s>s>;UL>$+3VL>3|s%5Yu>;UL>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uY5%s|3$>=}>$+3|3|>qUWgR0n>s>s>s>>>|3+$>>LU;LVWvq)%s|3>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([\)
+100001 : 561.8033707865169 : s>s>s>;UL>$+3VL>3|s%5Yu>;>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uYs>$+3|3|>qUs>s>s>>>>>LU;LVWvqs>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$|>s>s>s>>
+100001 : s>s>s>;UL>$+3VL>3|s%5Yu>;>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uYs>$+3|3|>qUs>s>s>>>>>LU;LVWvqs>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$|>s>s>s>>
+100001 : 0 : s>s>s>;UL>$+3VL>3|s%5Yu>;>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uYs>$+3|3|>qUs>s>s>>>>>LU;LVWvqs>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$|>s>s>s>>
+100003 : s>s>s>;UL>$+3VL>3|s%5Yu>;>>>$+3VL>$`dL>s>s>s>>2414aA1CFef8>>$+3|>>LVWvq)+%c1uYs>$+3|3|>qUs>s>s>>>>>LU;LVWvqs>LV3+$s>s>>>$+3|>s>s>s>>>$+3|3DK/6w/`d\[([WL>$+3|>3+$s>s>>>$|>s>s>s>>
+TIME: 55.246780426 (s)
+Attack failed

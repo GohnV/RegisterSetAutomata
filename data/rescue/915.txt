@@ -1,0 +1,91 @@
+<(code|pre|script|style)(>|\s[^<>]*?>)\s*([\s\S]*?)\s*<\/\1>
+2: <31 : 5.586776859504132 : n)N1{ 
+61{ 
+6x 
+61{ 
+6x<pre 
+6x\\*\>ct[)/p\>s*?***\te>)?c)\**\t/ep=\sse 
+6x\\*\>ct[)/p\>s*?***\te>)?c)\**\t/ep=\sse</pre><30 : 4.540983606557377 : n)N1{ 
+61{ 
+6x 
+61{ 
+6x<pre 
+6x\\*\>ct[)/p\>s*?***\te>)?c)\**\t/ep=\sse 
+6x\\*\>ct[)/p\>s*?***\te>)?c)\**\t/ep=\sse</pre>>
+===Initiate End===
+Node Coverage: 32/32
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Vulnerable: n61{ 
+6x<pre
+6x\\*\> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*\>\>s			
+	 			 	 
+		
+	
+   	 	 			  	*?*			
+	 			 	 
+		
+	
+   	 	 		  	*?***\te>)?cp=\s
+100181 : 603.5 : n61{ 
+6x<pre
+6x\\*\> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*\>\>s			
+	 			 	 
+		
+	
+   	 	 			  	*?*			
+	 			 	 
+		
+	
+   	 	 		  	*?***\te>)?cp=\s
+100057 : 926.4537037037037 : <pre
+> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*		
+	 			 	 
+		
+	
+   	 	 	 
+		
+	
+   	 	 		  	
+100057 : <pre
+> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*		
+	 			 	 
+		
+	
+   	 	 	 
+		
+	
+   	 	 		  	
+100057 : 0 : <pre
+> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*		
+	 			 	 
+		
+	
+   	 	 	 
+		
+	
+   	 	 		  	
+100057 : <pre
+> 	 
+   	 	 		  	*?***\te>)?cx\\*\> cte
+6>s*?\*		
+	 			 	 
+		
+	
+   	 	 	 
+		
+	
+   	 	 		  	
+TIME: 19.30876805 (s)
+Attack failed

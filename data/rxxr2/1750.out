@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \s+DEFAULT\s+(?:([\'\"])([^\1]*?)\1|([\+\-]?[\d\.]+)|(NULL))$
+PARSE: ERROR {ParsingData.UnsupportedEscape(28, 49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

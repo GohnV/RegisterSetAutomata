@@ -1,0 +1,9 @@
+(["'])((?:\\\1|.)*?)(\1)
+1: <19 : 8.129032258064516 : :?::\\'\'::\\'?\\\\\'::\\'?:\\\\'\'::\\'?\\\\\'::\\'?:\\\\1|.>
+===Initiate End===
+Node Coverage: 19/20
+===Genetic Algorithm End===
+Node Coverage: 19/20
+Normal fail
+TIME: 98.653120137 (s)
+Attack failed

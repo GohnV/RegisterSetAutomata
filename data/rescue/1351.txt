@@ -1,0 +1,9 @@
+^(\d+) ($qr)(.*?)\2(\\?)$
+1: <10 : 3.875 : 000000 >
+===Initiate End===
+Node Coverage: 10/22
+===Genetic Algorithm End===
+Node Coverage: 10/22
+Normal fail
+TIME: 6.989736171 (s)
+Attack failed

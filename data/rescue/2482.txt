@@ -1,0 +1,9 @@
+(if\s*\(.*MAX_HASH_VALUE.*\)\n([ \t]*))\{(.*?)\n\2\}
+1: <7 : 2.466666666666667 : LD6~9?if Bt~>
+===Initiate End===
+Node Coverage: 7/27
+===Genetic Algorithm End===
+Node Coverage: 7/27
+Normal fail
+TIME: 0.151907648 (s)
+Attack failed

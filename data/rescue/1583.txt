@@ -1,0 +1,11 @@
+^\s*(?:\/\/)?<!(--)?\[CDATA\[((.|\n)*)(\/\/)?\]\]\1>\s*$
+4: <13 : 2.8 : <!--><10 : 4.0 : 
+//><26 : 10.909090909090908 : <![CDATA[ADATA[A<![CDATA[ACDATA[A[ADATA[A<!DATA[A<!CDATAATA[AATA[ADATA[A<!DCDATA[ATA[]]><27 : 10.746666666666666 : <![CDATA[ADATA[A<![CDATTA[A<!DATA[[CDATA[ADATA[A<![CDATTA[A<!DATA[A<!CD
+//>
+===Initiate End===
+Node Coverage: 33/38
+===Genetic Algorithm End===
+Node Coverage: 33/38
+Normal fail
+TIME: 130.54707431 (s)
+Attack failed

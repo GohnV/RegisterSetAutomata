@@ -1,0 +1,10 @@
+\n( +)function: .*(\n\1  .*)*\n
+1: <8 : 1.2 : )ic>?zUzf-*\AGf
+ m0780ic>?zUzf-*\AG>
+===Initiate End===
+Node Coverage: 8/21
+===Genetic Algorithm End===
+Node Coverage: 8/21
+Normal fail
+TIME: 1.072967254 (s)
+Attack failed

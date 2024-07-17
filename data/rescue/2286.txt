@@ -1,0 +1,15 @@
+.*\ssrc=("|')(\S+)\1.*
+1: <20 : 2.92 : 3R]WF@q4(src='src='FBB5>
+===Initiate End===
+Node Coverage: 20/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Vulnerable: ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='src='FBBBB5
+100100 : 370.74074074074076 : ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='src='FBBBB5
+100009 : 386.13513513513516 : ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='
+100009 : ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='
+100009 : 0 : ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='
+100154 : ZAJZKBRIBLARSDMXVCO5crsBF+'==crs3R]WF&@FW]R3src='srcrBBBF'=crs'=crs3R]WFBBBBF'=crs'=crs3R]WF&<=crcrs'=crs3R]WF@q4((4q@FW]R3src='srcrc=<&FW]R3src='src='FBBBBFW]R3src='src='FBBBrcrs'=crs3R]WF@&FW]R3src=='+FBsrc5OCVXMDSRALBIR`$&+)=>~&<.;>~,!'[)^:>]'#@>@#[*^%='
+TIME: 281.787031511 (s)
+Attack failed

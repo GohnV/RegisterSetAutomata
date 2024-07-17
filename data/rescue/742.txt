@@ -1,0 +1,16 @@
+(!\[(.*?)\]\([\t]*<?(\S+?)>?[\t]*(([\'\"])(.*?)\5[\t]*)?\))
+1: <38 : 4.258823529411765 : W tj|
+]KtZD2;8$-^	1%Q~fV"5>*HPVS2w/y{c[![N=sh%Q&_Y](	1%Q~fV"5>*)oS);"R.>]JuH>e})HP>
+===Initiate End===
+Node Coverage: 38/38
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 38/38
+Vulnerable: ![![W[N=sh%Q&_Y](![W[W[N=sh%Q[W[![N=sh%Q&_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+100059 : 478.7511961722488 : ![![W[N=sh%Q&_Y](![W[W[N=sh%Q[W[![N=sh%Q&_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+100007 : 492.6453201970443 : ![![W[N=sh%](![W[W[N=sh%Q[W[![N=sh%Q&](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+100007 : ![![W[N=sh%](![W[W[N=sh%Q[W[![N=sh%Q&](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+100007 : 0 : ![![W[N=sh%](![W[W[N=sh%Q[W[![N=sh%Q&](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+100013 : ![![W[N=sh%](![W[W[N=sh%Q[W[![N=sh%Q&](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"S_Y](W[![%Q&_Y]([N=sh%sh%Q&_Y](W[![N=Q~fV"594050FZXTQQSWGsh%Q&_Y](%Q~fV"SZD2VS2~fV"5>*HPxF&UJgy
+TIME: 69.457481255 (s)
+Attack failed

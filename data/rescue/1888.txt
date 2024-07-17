@@ -1,0 +1,9 @@
+^(?:[^#]+\s|\s*)(?:|;\s*)Tk\s*\.\s*load_tclscript\s*\(?\s*(["'])((\w|:)+)\1
+1: <46 : 4.803571428571429 : Tk.load_tclscript'load_tclscript'0.!e3xW?d5\;	z	;	z	OvxxW?)ipt'~.0.!e3xW?d5\O	zlaKe3xW?d5aKe3xW?d5\O	zlaKKJi>
+===Initiate End===
+Node Coverage: 46/46
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Normal fail
+TIME: 32.52540475 (s)
+Attack failed

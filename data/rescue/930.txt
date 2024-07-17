@@ -1,0 +1,15 @@
+<script\s*(?![^>]*type=['"]?(?:dojo\/|text\/html\b))[^>]*?(?:src=(['"]?)([^>]*?)\1[^>]*)?>([\s\S]*?)<\/script>
+7: <14 : 1.75 : <script><15 : 8.0 : <script<script\s*><20 : 5.555555555555555 : <script<\/script>><28 : 5.333333333333333 : <scriptsrc=><21 : 5.0 : <scripttype=><19 : 2.772727272727273 : <scripttype=text/html><20 : 3.6666666666666665 : <script<\/script></script>>
+===Initiate End===
+Node Coverage: 44/44
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 44/44
+Vulnerable: <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMript></scryubhtuxfcwcejanoi<script\s*
+100061 : 746.723880597015 : <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMript></scryubhtuxfcwcejanoi<script\s*
+100008 : 854.7692307692307 : <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMricryubhtuxfcwcejano
+100008 : <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMricryubhtuxfcwcejano
+100008 : 0 : <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMricryubhtuxfcwcejano
+101342 : <script<scriptsrc=yubhtuxfc<scriptsrc=yubhtuxfcwcejanoi?j)?))=)D]7[UnoWBUKiaedCmFO{E=:ZaUhP~9OnMricryubhtuxfcwcejano
+TIME: 22.659213715 (s)
+Attack failed

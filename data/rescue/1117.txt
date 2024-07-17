@@ -1,0 +1,10 @@
+(?:"""[\s\S]*?"""|@"(?:""|[^"])*"|("|')(?:\\[\s\S]|(?!\1)[^\\])*\1)B?
+6: <21 : 10.5 : '><23 : 17.333333333333332 : '"><30 : 17.8 : '"@"><31 : 15.0 : '"@"\><33 : 16.0 : '""""><32 : 14.907692307692308 : Q;[nu0re-){k>mnYG
+=L@>Xm^W{	>o%L3j}_i)@"We2WaBw0?Ru>ZqM(ErXz4m>
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 233.775617522 (s)
+Attack failed

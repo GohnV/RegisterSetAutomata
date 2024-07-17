@@ -1,0 +1,13 @@
+(^|\s)(\`)(.+?)\2(\s|$)
+4: <9 : 5.666666666666667 : ^|><16 : 5.390625 : \6AKu"Z&CU'o&
+ihhs'YO&Yzm
+A*a`YOTu
+`2bQDV~SqMd)Sp>
+L?92D4'ae	><20 : 5.73015873015873 : Oidr[Cl `0V.b`@kwA:?uBBMI+4{Z I!P	v$b(`wW{M~PYW:0.^H $eCV%><21 : 4.043478260869565 : `	cJ6^hl$K/yn$*N8.d&`	>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 34.165463864 (s)
+Attack failed

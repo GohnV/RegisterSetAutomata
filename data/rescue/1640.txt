@@ -1,0 +1,10 @@
+('').+?(?=\1)
+1: <12 : 2.8461538461538463 : lL8O
+FQ,k'bbq''FQ,k'bbq''>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 48.164843164 (s)
+Attack failed

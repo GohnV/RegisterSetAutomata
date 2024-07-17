@@ -1,0 +1,9 @@
+FOREACH \w+ \{\s+(\w+) = a;\s+(\w+) = my_udf\(\1, 3, 'hello'\);\s+GENERATE \2;\s+\}
+1: <26 : 1.0941176470588236 : FOREACH b { GENERATE = a; GENERATE = my_udf(GENERATE, 3, 'hello'); GENERATE GENERATE>
+===Initiate End===
+Node Coverage: 26/30
+===Genetic Algorithm End===
+Node Coverage: 29/30
+Normal fail
+TIME: 15.103159866 (s)
+Attack failed

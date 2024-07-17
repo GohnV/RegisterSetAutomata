@@ -1,0 +1,16 @@
+\s*<meta[^>]+http-equiv\s*=\s*(["|'])Content-Type\1([^>]+?)>
+1: <15 : 5.282258064516129 : %a!\s*<meta	w
+	"n#"a!v{wxBw
+2GZtOv{wxBw
+Y.'/+ZtOv{wxBw
+Y.'/+#"a!v{wxBw
+2GZtOv{wxBw
+Y.'/+ZtOv{wxBw
+Y.'/+http-equiv=\s*>
+===Initiate End===
+Node Coverage: 15/24
+===Genetic Algorithm End===
+Node Coverage: 15/24
+Normal fail
+TIME: 56.418109419 (s)
+Attack failed

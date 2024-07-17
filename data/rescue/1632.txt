@@ -1,0 +1,10 @@
+<(title|iframe|textarea)([^>]*)>([\s\S]*?)<\/\1>
+1: <21 : 4.921739130434783 : 
+jqU":afJ<i^q<i^qU":afJ2jqUMqm<i^q<i^qU":afJ<iframev2":afJ<iframev2jqev2jqUMqm--;+=!?"^|UMqm--;+=!?"^|>Mq]{</>
+===Initiate End===
+Node Coverage: 21/23
+===Genetic Algorithm End===
+Node Coverage: 21/23
+Normal fail
+TIME: 53.091557314 (s)
+Attack failed

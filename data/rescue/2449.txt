@@ -1,0 +1,9 @@
+\[center(:.+)?\](.*?)\[\/center\1?\]
+6: <5 : 0.625 : [center><7 : 0.7777777777777778 : [center:><10 : 2.764705882352941 : [center:[/center><15 : 3.1666666666666665 : [center:[/center]><18 : 5.076923076923077 : [center:[/center][/center><19 : 3.259259259259259 : [center:[/center][/center]>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 240.358254665 (s)
+Attack failed

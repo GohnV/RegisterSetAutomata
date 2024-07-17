@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^((?:(['"])use strict\2;)?(?:var (?:[a-z]+=(?:!0|!1|null)[,;])+)?)([\s\S]*?function[^)]+\){)
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(90)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

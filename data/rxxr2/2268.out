@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \burl\(\s*(["']?)(?!data:)([^"')]+)\1\s*\)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(17)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

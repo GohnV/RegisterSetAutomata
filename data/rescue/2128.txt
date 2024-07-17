@@ -1,0 +1,15 @@
+<(.*?)( +([\w_\-]*)=(\"|')(.*)\4)*(\/)?>
+7: <15 : 7.5 : <><21 : 11.666666666666666 : < ><17 : 6.75 : <?>><25 : 13.0 : < =><24 : 4.27027027027027 : 2>.I9#du^	\?	yqVkN"W]E5P7<@qxyn \/I>><32 : 14.4 : < ="><33 : 16.333333333333332 : < ="">
+===Initiate End===
+Node Coverage: 36/36
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 36/36
+Vulnerable: <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg<,;$
+100104 : 411.95061728395063 : <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg<,;$
+100038 : 418.5690376569038 : <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg
+100038 : <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg
+100038 : 0 : <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg
+100051 : <<<<<E5 \<@q<<"<<<qxyn \<@qxyn\<@qxyn ".*@yn=S<@q<\4\<<<\ nyxq@<7P5E<@qxy<E5P43@]I9<@qxyn \<@qxyIW5E]  7030792430255622<<<\<q@<S=<<<\ nyxq@<7<<<\ nyxq@<7P5E<@qxyIW5E] @qxyn ".*?YEcGUmq5E]  70307924  7P<< =".*5E]  pxkkoexgtvwkstsunahrvtzfg
+TIME: 76.443880518 (s)
+Attack failed

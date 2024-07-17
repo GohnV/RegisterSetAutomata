@@ -1,0 +1,9 @@
+^\\[=\.]\\(['"])(.*?)\\\1$
+1: <15 : 4.38 : \=\'"\'"\\'"\\'"==\'"\'"\\'"\\'"='"\\'"\\'"=\'\1$>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Normal fail
+TIME: 25.152719144 (s)
+Attack failed

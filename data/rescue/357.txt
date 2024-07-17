@@ -1,0 +1,9 @@
+^\s*@import(?:\surl\(|\s)(['"]?)([^\?'"\)\s]+)(\?(?:[^'"\)]*))?\1\)?(?:[^?;]*);?
+5: <8 : 1.0 : @import><5 : 3.5 : 	><18 : 2.0 : @import	><33 : 3.769230769230769 : @import	url(><39 : 3.2 : @import	^\?'"\>
+===Initiate End===
+Node Coverage: 39/39
+===Genetic Algorithm End===
+Node Coverage: 39/39
+Normal fail
+TIME: 0.888367384 (s)
+Attack failed

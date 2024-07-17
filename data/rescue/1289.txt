@@ -1,0 +1,9 @@
+^require\s*\(\s*(['"]).+?\1\s*\)
+1: <17 : 3.339622641509434 : require('i'ire(''quire(''""'rque('ire(''quire(''""'">
+===Initiate End===
+Node Coverage: 17/18
+===Genetic Algorithm End===
+Node Coverage: 17/18
+Normal fail
+TIME: 16.069695749 (s)
+Attack failed

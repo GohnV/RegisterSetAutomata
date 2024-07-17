@@ -1,0 +1,11 @@
+^((?!$SEC_CHARS+\n(?:\n|\Z))(?!(?:\.\.|::)\n(?:   |\n))($char$char+)\n(.*\n)?(?:(($SEC_CHARS)\5+)\n)?)
+2: <21 : 4.2 : ..
+
+><16 : 5.333333333333333 : ..>
+===Initiate End===
+Node Coverage: 24/64
+===Genetic Algorithm End===
+Node Coverage: 24/64
+Normal fail
+TIME: 0.281822842 (s)
+Attack failed

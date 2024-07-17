@@ -1,0 +1,12 @@
+(\[((?:\[[^\]]*\]|[^\[\]])*)\]\([ \t]*()<?((?:\([^)]*\)|[^()])*?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))
+1: <58 : 16.168 : YlV:Jw[8[_C<LpL3"r|2NbD~+QrMl6+{nMIp(k'
+?:P](As\fQ+<WWI
+Y7R0|Jw[8[_C<LpL3"L3"r|2NbD~+QrMl6+{nMI](As\fQ+<WWI
+Y7R0|?)\)>
+===Initiate End===
+Node Coverage: 58/58
+===Genetic Algorithm End===
+Node Coverage: 58/58
+Normal fail
+TIME: 34.587947776 (s)
+Attack failed

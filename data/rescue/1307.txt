@@ -1,0 +1,9 @@
+(url\s*\(\s*)("|'|)(.*?)\2(\s*\))
+1: <6 : 2.5 : url>
+===Initiate End===
+Node Coverage: 6/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 2.599795661 (s)
+Attack failed

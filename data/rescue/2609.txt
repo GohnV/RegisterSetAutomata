@@ -1,0 +1,15 @@
+^ *<([\w:]+)\s*((?:<.*?>|[^>])*)>(?!<\/\1>)\s*
+1: <32 : 4.50561797752809 : <afu@<a&C-_.ic:Dc:Du@?:<.*?>|uafu@<a&C-_.ic:Dc:Du@?:<.*?>|u@gDbNc:Du@?:<.*?>|u@gDbN*3></>
+===Initiate End===
+Node Coverage: 32/34
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/34
+Vulnerable: <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLV7oPo7N9
+100077 : 518.5336787564767 : <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLV7oPo7N9
+100003 : 662.2715231788079 : <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyie
+100003 : <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyie
+100003 : 0 : <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyie
+101327 : <axbswvclsqberkazrfdhwifllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyieezfrkmkzaksummhydpmmgilAVQZDyVUEgLllgdnreovdhhfarryyvrqnmmfjookyngsslnzlubxpbyie
+TIME: 42.954522305 (s)
+Attack failed

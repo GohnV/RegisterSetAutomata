@@ -1,0 +1,9 @@
+^\s*<(.+?)>(.*?)</\1>
+2: <16 : 7.333333333333333 : </></\/>><17 : 2.125 : </><//>>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 10.189318584 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<((\w+:)?ProviderID)[^>]*>([^<]*)<\/\1>
+1: <24 : 1.8644067796610169 : b	4?]`;WZ]o{>q/Y*{<Xq\(&?<K8ETgh/<vXJv:0} 'dT^lYderID=cnYB\wq]6flrK~^'Y<ProviderIDb	4?]`;WZ]o{>q/Y*{</ProviderID>>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 12.97584871 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(X)(?=(aa|a))\2(?:)\1
+1: <19 : 2.289473684210526 : . J	dr:NpOt0Wu''q [dQTU,fB:}SHnw+,XaX>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 5.531523314 (s)
+Attack failed

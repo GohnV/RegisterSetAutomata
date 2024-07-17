@@ -1,0 +1,17 @@
+= [1] =
+INPUT: (^([\t ]*))\/\/.*(?:(?:\r?\n|\r)\2[\t ]+.+)*
+PARSE: OK
+SIZE: 26
+PUMPABLE: YES
+VULNERABLE: NO {}
+TIME: 0.000132 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 26
+>> AVG NFA SIZE: 26
+>> PUMPABLE: 1
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000132 (s)
+>> TIME MAX: 0.000132 (s)

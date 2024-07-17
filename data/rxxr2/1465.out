@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (['"\/]).*?[^\\]\1|\.\w*|\w*:|\b(?:(?:new|typeof|in|instanceof) |(?:this|true|false|null|undefined)\b|function *\()|([a-z_$]\w*)
+PARSE: OK
+SIZE: 93
+PUMPABLE: NO
+TIME: 0.000122 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 93
+>> AVG NFA SIZE: 93
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000122 (s)
+>> TIME MAX: 0.000122 (s)

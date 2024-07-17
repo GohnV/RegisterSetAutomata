@@ -1,0 +1,9 @@
+((\3|b)\2(a)){2,}
+1: <15 : 11.8125 : bbbbbbbbbbbbbba>
+===Initiate End===
+Node Coverage: 15/17
+===Genetic Algorithm End===
+Node Coverage: 16/17
+Normal fail
+TIME: 16.500584999 (s)
+Attack failed

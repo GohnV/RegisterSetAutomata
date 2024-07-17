@@ -1,0 +1,33 @@
+<\/?(?!\d)[^\s>\/=.$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>
+3: <39 : 25.566265060240966 : "; !S\:7OF=Kg<5T[}<QFZ^4<RH^9U)UXzt<QF!~S=F	1CM<RH^9U)UXzt<QFZ^4%Tcky{I[-n	|w><52 : 19.192660550458715 : Z]p}@ny^E1}aY@Sz<`b
+z!~S='F	1CM%Tcky{I[-n	|? wxW^/G\
+#zMX~dZYDwAT[}<QFZ^4%Tcky{I[zMX~dZYDwAT[}
+w0tk!!|>><56 : 5.8090909090909095 : Z]p}@ny^E1}aY@Sz<`b
+z!~S='F	1CM%Tcky{I[-n	|?' wxW^/G\
+#zMX~dZYDwAT[}<QFZ^4%Tcky{I[zMX~dZYDwAT[}
+w0tk!!|>>
+===Initiate End===
+Node Coverage: 58/58
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 58/58
+Vulnerable: <K}<"5T[}<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=Kg<5T[}<QLMKSWQDYLJD=))w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky{I[-n	|wNF2U1
+100243 : 484.2657004830918 : <K}<"5T[}<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=Kg<5T[}<QLMKSWQDYLJD=))w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky{I[-n	|wNF2U1
+100001 : 537.6397849462365 : <K}<"5T<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=<[}<QLMKSWQDYLJD)w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky
+1000245 : <K}<"5T<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=<[}<QLMKSWQDYLJD)w\?\(^w+:^1[=*:s:)=0\*)s:/.\w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky
+1000245 : 0 : <K}<"5T<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=<[}<QLMKSWQDYLJD)w\?\(^w+:^1[=*:s:)=0\*)s:/.\w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky
+1414429 : <K}<"5T<QFZ^4<ROCFZ^4<DUn	|w1	<MC1	FS! ;"5T[}<QFZ^4<RQFZ^E1}aY@Sz<`b
+Z]p}@ny^E1}aY@Sz<`b
+z!~S='=<[}<QLMKSWQDYLJD)w\?\(^w+:^1[=*:s:)=0\*)s:/.\w\?\(^w+:^1[=*:s:)=0\*)s:/.\^[1<)s7(AXUAV^9U)UXzt<QFZ^4%Tcky
+TIME: 17.88950668 (s)
+Attack failed

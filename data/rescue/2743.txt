@@ -1,0 +1,16 @@
+<([a-zA-Z]+)[^<>]*>(.*?)</\1>
+1: <18 : 2.106382978723404 : 
+w]	}Od@NI.4	iEF+	w!cow;)<x>\6IAk9+[tnk/H</x>>
+===Initiate End===
+Node Coverage: 18/18
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Vulnerable: <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t6\><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[VU/NOAV<+)+</
+100134 : 389.6264591439689 : <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t6\><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[VU/NOAV<+)+</
+100047 : 411.71604938271605 : <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[V
+100047 : <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[V
+100047 : 0 : <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[V
+100050 : <HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnretwumfksnovyqnretwxyuqpzhvopfhewcac[t><HUDRVIZMGSHCNEAygbxkpwhnpumfksnovyqnojygbxkpwhnpumfksnovkkAI6\><tnkkzwmifbatojygbxkpwhnpumfksnovkkAI6\><knt[+);w<knIAk9+[t6\>MTHK-AX>*~-`#`*.-.,?/#,'&&$[<$|@&>)+?[V
+TIME: 112.635970602 (s)
+Attack failed

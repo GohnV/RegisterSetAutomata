@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \$table_prefix[\s]*=[\s]*(["']{1})([a-zA-Z0-9_]+)\1
+PARSE: OK
+SIZE: 28
+PUMPABLE: NO
+TIME: 0.000037 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 28
+>> AVG NFA SIZE: 28
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000037 (s)
+>> TIME MAX: 0.000037 (s)

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ((\\)end)(\{)(\4)(\})(?:\s*\n)?
+PARSE: ERROR {ParsingData.InvalidBackreference(14)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

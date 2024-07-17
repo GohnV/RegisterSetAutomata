@@ -1,0 +1,9 @@
+^(['"])(.*)\1\z
+3: <10 : 4.333333333333333 : '"><11 : 4.068965517241379 : '["&s9q2-`QV7cDP{*[VR'uQsUC><12 : 4.25 : '"'>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 4.727324916 (s)
+Attack failed

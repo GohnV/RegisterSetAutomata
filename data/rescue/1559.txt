@@ -1,0 +1,87 @@
+(["'])(?:\$\{(?:[^'"}]|(["'])(?:(?!\2)[^\\]|\\[\s\S])*\2)+\}|(?!\1)[^\\]|\\[\s\S])*\1
+2: <42 : 28.08955223880597 : x
+	cQ_D"#1/'u${'OjXVl(?#
+
+
+97wv1\KY?
+>Bb,P4/%Z#6`.x#z#O|JwbM`
+w1vx><44 : 23.205882352941178 : x
+	cQ_D"#1/'u${'OjXVl(?#
+
+
+97wvO'>
+===Initiate End===
+Node Coverage: 46/46
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Vulnerable: '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C8ec3C0Efa9f#O|JwbM`
+w1vx4610
+100557 : 420.74058577405856 : '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C8ec3C0Efa9f#O|JwbM`
+w1vx4610
+100014 : 478.53588516746413 : '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C
+100014 : '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C
+100014 : 0 : '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C
+100027 : '1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+${5913C8ec3C0Efa9f#O|JwbM/1#
+	cQ_c	
+u${wv1\'u${wv1\'u${wv1\'u${wv1\'u${wv1\KY?
+>B${wv1\'u${wv1\KY?
+>Bl(?#dJwbM`
+w1${5913C
+TIME: 96.882731837 (s)
+Attack failed

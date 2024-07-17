@@ -1,0 +1,9 @@
+content\s*=\s*(["'])?(.*?)\1
+5: <4 : 0.5 : content><14 : 1.5555555555555556 : content=><15 : 3.1739130434782608 : content=content\s*=\s*><17 : 3.0 : content="'><18 : 1.6666666666666667 : content="'">
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 120.392420413 (s)
+Attack failed

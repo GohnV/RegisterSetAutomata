@@ -1,0 +1,9 @@
+(<)((?:([-_a-zA-Z0-9]+)((:)))?([-_a-zA-Z0-9:]+))(?=(\s[^>]*)?></\2>)
+3: <31 : 11.87037037037037 : ><-_a-><-_a-zAzA-Z0></'_a-zA-Z0-><wERsi.s<s--_a-Z0-9><31 : 10.953846153846154 : ><-_a-><-_a-zAzA-Z0></'_a-zA-<-_a-><-_a-zAzA-Z0></'_a-zA-Z0-><9:><30 : 5.771428571428571 : ><-_a-><-_a-zAzA-Z0></-_a-zAzA-Z0>>
+===Initiate End===
+Node Coverage: 38/38
+===Genetic Algorithm End===
+Node Coverage: 38/38
+Normal fail
+TIME: 161.401649594 (s)
+Attack failed

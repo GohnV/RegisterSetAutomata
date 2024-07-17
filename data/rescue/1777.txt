@@ -1,0 +1,9 @@
+([$v ])(\1si)           $ 
+1: <11 : 4.174311926605505 : sj(       (vvsi v   i v       (vvsi v    (vvsi v   i v       (vvsi vvsii v   i v       (vvsi vvsi           >
+===Initiate End===
+Node Coverage: 11/13
+===Genetic Algorithm End===
+Node Coverage: 11/13
+Normal fail
+TIME: 5.316252658 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<meta\s+.*?content\s*=\s*(['"?])(.*?)\1\s+.*?name\s*=\s*(['"]?)(.*?)\3
+1: <25 : 3.5737704918032787 : <metacontent<metacontenccontent<metacontencontent<metaconteontent<metacontencontent<metaconontent<metacontent='"?'content<metacontenccontent<metacontencontent<metaconteontent<metacontencontent<metaconontent<metacontent='"?''"?'"?>
+===Initiate End===
+Node Coverage: 25/40
+===Genetic Algorithm End===
+Node Coverage: 28/40
+Normal fail
+TIME: 16.915638884 (s)
+Attack failed

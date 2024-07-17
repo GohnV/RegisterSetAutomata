@@ -1,0 +1,9 @@
+^\s*(['"])(.*?)\1\s*
+2: <12 : 5.0 : '"><15 : 3.923076923076923 : 	"Xrc]>FfD'">
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 2.252624256 (s)
+Attack failed

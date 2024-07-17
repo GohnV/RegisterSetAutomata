@@ -1,0 +1,9 @@
+(([`]{3}|\*|_|`)(.*?)(\2))
+3: <17 : 8.5 : *><18 : 13.333333333333334 : *`><19 : 5.333333333333333 : *`|\*>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 55.048807442 (s)
+Attack failed

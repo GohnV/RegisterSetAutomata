@@ -1,0 +1,15 @@
+("|')(?:\\?[\s\S])*?\1
+4: <14 : 7.0 : "><15 : 11.333333333333334 : "'><16 : 14.0 : "'\><15 : 4.25 : "'">
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: "\1O\'1JmK7\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzlh
+100152 : 676.7027027027027 : "\1O\'1JmK7\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzlh
+100004 : 869.6 : "\1O\'1Jm\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprch\\wVwL\azJKigesrdnwrrd
+100004 : "\1O\'1Jm\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprch\\wVwL\azJKigesrdnwrrd
+100004 : 1 : "\1O\'1Jm\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprch\\wVwL\azJKigesrdnwrrd
+100013 : "\1O\'1Jm\\wVwL\azJKigesrdnwrrdxqdzuxsbpzfwwqmcpyqprchqzK7\\wVwLnwrrdxqdzuxsbpzfwwqmcpyqprch\\wVwL\azJKigesrdnwrrd
+TIME: 39.572870748 (s)
+Attack failed

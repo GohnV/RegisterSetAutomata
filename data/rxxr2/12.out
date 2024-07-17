@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <meta[\s]+?http-equiv=(['"])content-type\1[\s]+?content=(['"])(.+?)\2
+PARSE: OK
+SIZE: 56
+PUMPABLE: NO
+TIME: 0.000058 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 56
+>> AVG NFA SIZE: 56
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000058 (s)
+>> TIME MAX: 0.000058 (s)

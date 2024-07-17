@@ -1,0 +1,33 @@
+<\/?(?!\d)[^\s>\/=$<]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\\1|\\?(?!\1)[\w\W])*\1|[^\s'">=]+))?)*\s*\/?>
+3: <21 : 3.373134328358209 : yn<lQpmoyg8:gp[<0Ja5gmcum;1,-){2>r?!\dX,=,mcED !vu/lgf#xBwHR+/t
+a$><39 : 4.809523809523809 : <\IPWKS-Nf3'9_My4<\IPWKS-Nf3'4:2t;e_8#{YTi	@z@s=9_My4b6WF;]q2t;aQv~,4
+ag<Ma3B/>><56 : 6.464285714285714 : zu+e#~,4F"$Mx7PA
+>+zY+H+XJ
+sj>U{#hflAT<+
+(ddDV+="zu+e#~,4F"$Mx7PA
+>+zY+H+XJ
+sj>U{#hflAT<+
+(ddDV+=">B\iIV7s>>
+===Initiate End===
+Node Coverage: 58/58
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 58/58
+Vulnerable: {#hflAT<+
+(ddDV+="zu(B^('*/:\^\C\?\^\/['DF?T^1D=*S)N\X>H(*I\]O\Z>\K!?(X\"HJ^K?<]?O\\(\\$X!?T?\*\)+e#~,4F"$Mx7PA
+>+zBwHR
+100201 : 842.0252100840336 : {#hflAT<+
+(ddDV+="zu(B^('*/:\^\C\?\^\/['DF?T^1D=*S)N\X>H(*I\]O\Z>\K!?(X\"HJ^K?<]?O\\(\\$X!?T?\*\)+e#~,4F"$Mx7PA
+>+zBwHR
+100086 : 1962.4705882352941 : <+
+(d="\^\C\?\^\/['DF?T^1D=*S\X>H(\]O\Z>\K!?(X\"HJ
+1000104 : <+
+(d="\^\C\?\^\^\C\?\^\/['DF?T^1D=*S\X>H(\]O\Z>\K!?(X\"HJ
+1000243 : 8 : <+
+(d="\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\/['DF?T^1D=*S\X>H(\]O\Z>\K!?(X\"HJ
+100000241 : <+
+(d="\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\/['DF?T^1D=*S\X>H(\]O\Z>\K!?(X\"HJ
+TIME: 4.299823727 (s)
+Attack success, attack string is:
+<+
+(d="\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\^\C\?\^\/['DF?T^1D=*S\X>H(\]O\Z>\K!?(X\"HJ

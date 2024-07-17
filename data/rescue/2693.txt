@@ -1,0 +1,21 @@
+(^[ \t]*)(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\))?|\{[^}\r\n]+\})+)(?:(?:\r?\n|\r)(?:\1(?:(?=\S)(?:[^{}\r\n:()]|::?[\w-]+(?:\([^)\r\n]*\))?|\{[^}\r\n]+\})+)))*(?:,$|\{|(?=(?:\r?\n|\r)(?:\{|\1[ \t]+)))
+5: <41 : 5.837209302325581 : <#o;GK<|[i_!Ddw0yM4\C4M.$Y"HUM{/;GGHbr6F]><65 : 7.061224489795919 : E	3iKM5rWP^Y;Y;YOjYG?h&\bqL# 8q|C;>[8o+Xv!C.	><62 : 5.5675675675675675 : OW7A~=ciSkri{iXG+9h#dQ{=4*vdN(TQ"h.><85 : 103.91129032258064 : X
+Lw2rW#2w:T(P,WE~xt)L`*lo$;@f5P4'hOmW%Zg<i@Psth5OeO vt8Tq+[:iKZiUXaa6~C&*6Xaa6~C&*6!r>HYi;DNeK`9x\
+W,4 ufrW%K
+1/Ff2!%.#><85 : 104.55737704918033 : Lw2rW#2w:T(P,WE~xt)L`*lo$;@f5P4'hOmW%Zg<i@Psth5OeO vt8Tq+[:iKZiUXaa6~C&*6Xaa6~C&*6!r>HYi;DNeK`9x\
+W,4 ufrW%K
+1/Ff2!%.#>
+===Initiate End===
+Node Coverage: 109/109
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 109/109
+Vulnerable: Lw2rW#2w:Lw2rW#2w:T(P,WE~xt)L`*lo$;@f5P4'hOmW%Zg<i@Psth5OeO vt8Tq+[:iKZiUXaa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq+[:iKZiUXaa6~C&*6Xaa6~C&*6!r>HYi;DNeK#
+100487 : 652.512987012987 : Lw2rW#2w:Lw2rW#2w:T(P,WE~xt)L`*lo$;@f5P4'hOmW%Zg<i@Psth5OeO vt8Tq+[:iKZiUXaa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq+[:iKZiUXaa6~C&*6Xaa6~C&*6!r>HYi;DNeK#
+100228 : 1411.661971830986 : :Lw2rW#:T(P)L:iKZiUXa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq:iKZiUXaa6~C
+1000267 : :Lw2rW#:T(P)L:iKZiUXa6L:iKZiUXa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq:iKZiUXaa6~C
+1000295 : 4 : :Lw2rW#:T(P)L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq:iKZiUXaa6~C
+100000347 : :Lw2rW#:T(P)L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq:iKZiUXaa6~C
+TIME: 5.176317178 (s)
+Attack success, attack string is:
+:Lw2rW#:T(P)L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6L:iKZiUXa6~C&*6o$;@f5P4'hOmW%Zg<i@Psth5Oet8Tq:iKZiUXaa6~C

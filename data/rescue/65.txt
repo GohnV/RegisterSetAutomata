@@ -1,0 +1,9 @@
+(['"])(\x04\d+\x04)\1
+1: <13 : 2.0625 : O>maW59F	%R?jD.^`h?Z;qUUVR'9'>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 4.354981579 (s)
+Attack failed

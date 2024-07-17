@@ -1,0 +1,11 @@
+(<\w+\s((src)|(href))=(['"]))\/(.*?)(\5[^>]*?>)
+1: <13 : 2.973684210526316 : ]w/	v`
+/n$0*?>}x,<ta}xyF,<tayF,<ta
+	&>
+===Initiate End===
+Node Coverage: 13/34
+===Genetic Algorithm End===
+Node Coverage: 13/34
+Normal fail
+TIME: 38.6178769 (s)
+Attack failed

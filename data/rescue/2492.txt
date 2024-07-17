@@ -1,0 +1,9 @@
+<([a-zA-Z0-6_]+)>(.*?)</\1>
+1: <16 : 2.1333333333333333 : >	`=<4>``=</4>>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 119.514071358 (s)
+Attack failed

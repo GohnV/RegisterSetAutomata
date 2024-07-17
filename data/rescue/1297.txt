@@ -1,0 +1,9 @@
+<(RawPath|SettingsPath)>(.*?)</\1>
+1: <9 : 1.4444444444444444 : RawPathu1hBg<lUU	k	<y^thk	<RawPath|>
+===Initiate End===
+Node Coverage: 9/18
+===Genetic Algorithm End===
+Node Coverage: 9/18
+Normal fail
+TIME: 0.727407356 (s)
+Attack failed

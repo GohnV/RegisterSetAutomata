@@ -1,0 +1,12 @@
+(:)\1(?=after|before|first-(letter|line))
+1: <15 : 2.1538461538461537 : xxiter|li7*KOUn
+i7*KOUn
+X::
+XX::before>
+===Initiate End===
+Node Coverage: 15/21
+===Genetic Algorithm End===
+Node Coverage: 19/21
+Normal fail
+TIME: 1.344195943 (s)
+Attack failed

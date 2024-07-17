@@ -1,0 +1,35 @@
+(\n2.*@.+@.*(?:(?:\n[3-9].*)*))(?:\n2.*(?:\n[3-9].*)*)*\1
+2: <39 : 16.8 : #E)d
+2>lj.kcD(\n2.*@.+@.*Xv E)d
+2>lj.kcD(\n2.*@.+@.*Xv G9
+8^m)MRH`^
+><37 : 8.359223300970873 : #E)d
+2>lj.kcD(\n2.*@.+@.*Xv E)d
+2#E)d
+2>lj.kcD(\n2.*@.+@.*Xv E)d
+2>lj.kcD(\n2.*@.+@.*Xv G9
+8^m)MRH`^
+>
+===Initiate End===
+Node Coverage: 40/40
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 40/40
+Vulnerable: E)d
+2>lj.kcD(\n2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.*@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\.*@.+@.*Xv E)d
+2>lj.k2>lj.kcD(\n2.*@.+@.*Xv)MRH`^
+
+100244 : 488.9951219512195 : E)d
+2>lj.kcD(\n2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.*@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\.*@.+@.*Xv E)d
+2>lj.k2>lj.kcD(\n2.*@.+@.*Xv)MRH`^
+
+100002 : 591.7278106508876 : E)d
+2>lj.k@.+@.*Xv)MRH2>lj.kc]Gp)eLR@vD(\n2.*@.+\n2@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\@.+@.*Xv E)lj.k2>lj.kcD(\n
+100002 : E)d
+2>lj.k@.+@.*Xv)MRH2>lj.kc]Gp)eLR@vD(\n2.*@.+\n2@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\@.+@.*Xv E)lj.k2>lj.kcD(\n
+100002 : 0 : E)d
+2>lj.k@.+@.*Xv)MRH2>lj.kc]Gp)eLR@vD(\n2.*@.+\n2@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\@.+@.*Xv E)lj.k2>lj.kcD(\n
+100003 : E)d
+2>lj.k@.+@.*Xv)MRH2>lj.kc]Gp)eLR@vD(\n2.*@.+\n2@.+@.*Xv*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(2.*@.+@.*Xv)MRH2>lj.kc]Gp)eLR9]@vD(\n2.*@.+\n2.?(\@.+@.*Xv E)lj.k2>lj.kcD(\n
+TIME: 42.739471832 (s)
+Attack failed

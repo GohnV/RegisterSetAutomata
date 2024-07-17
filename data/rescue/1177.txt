@@ -1,0 +1,9 @@
+@[\w.$]+|@(["'`])(?:\\[\s\S]|(?!\1)[^\\])+\1
+2: <25 : 6.444444444444445 : \g@`pZ@`><22 : 9.038461538461538 : ].]]"	^+	'\(]\@'\]1$$\]?]1+`([|+:]( \]\`\\+\|\ \g,>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 151.744654169 (s)
+Attack failed

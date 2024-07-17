@@ -1,0 +1,9 @@
+^ {0,3}([\-\*_])\s*\1\s*\1(\1|\s)*$
+6: <6 : 4.5 :  ><10 : 4.333333333333333 :  *><13 : 4.0 :  **><20 : 4.6 :  ***><21 : 4.4 :  ***><23 : 4.833333333333333 :  *** >
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 33.083695584 (s)
+Attack failed

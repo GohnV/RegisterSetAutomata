@@ -1,0 +1,9 @@
+\%(?:([dfst\%])|like\((.*?)\)((?i)\s+ESCAPE\s+(['"])(.*?)\4(?:\s+|$))?)
+1: <17 : 2.081967213114754 : e#%lik%like(B##4pk%like%like(B##4pk%likep4p##4p4p4p%%>
+===Initiate End===
+Node Coverage: 17/41
+===Genetic Algorithm End===
+Node Coverage: 21/41
+Normal fail
+TIME: 62.628306811 (s)
+Attack failed

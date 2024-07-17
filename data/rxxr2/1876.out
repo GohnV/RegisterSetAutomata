@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(["])((?:\\.|(?!\1)[^\\])*)\1|^((?:\\.|[^\\"])*?)(\Z(?!\n)|(?-x:$delimiter)|(?!^)(?=["]))
+PARSE: ERROR {ParsingData.UnsupportedInlineModifier(63, 120)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,9 @@
+\b(\w+)\b\s*([\=\!]\~)\s*((?:/.*?/|m(\W).*?\4)[imsx]*)(?=\s|$)
+2: <36 : 4.2 : DLc4F~3u#NLc4F~3u#NL_cON!~/cMl"K/f9K"licDLcSf9K"licOiicON!~/cMl"KJW=X9TK/ ><34 : 6.642857142857143 : ON!~/!~/cMl"1>
+===Initiate End===
+Node Coverage: 37/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 97.409500878 (s)
+Attack failed

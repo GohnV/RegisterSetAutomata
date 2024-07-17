@@ -1,0 +1,10 @@
+(`{1,})(\?).*?\2\1
+1: <14 : 2.9743589743589745 : GYGks"oKgwF{6;I!l}xyj'ZM#iKE,0S+
+`?`?`>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 58.451028406 (s)
+Attack failed

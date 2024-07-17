@@ -1,0 +1,16 @@
+r?("|')(\\?.)*?\1
+4: <16 : 8.0 : '><17 : 12.666666666666666 : '"><18 : 15.75 : '"r><18 : 5.4 : '"|'>
+===Initiate End===
+Node Coverage: 19/19
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Vulnerable: '"wwh|goP*\"wwh|goP*\))PyrnySvw\*DSZJBVC\am\Bqgv4YDy3OzOHcdgKmbXipySvw\*DSZJBVC\am\BqgSZJBVC\am\Bqgr?tKmPfrFmHNkpZAgrPNeFmHNkpZAgrPwheur
+100141 : 730.956204379562 : '"wwh|goP*\"wwh|goP*\))PyrnySvw\*DSZJBVC\am\Bqgv4YDy3OzOHcdgKmbXipySvw\*DSZJBVC\am\BqgSZJBVC\am\Bqgr?tKmPfrFmHNkpZAgrPNeFmHNkpZAgrPwheur
+100078 : 1299.7142857142858 : '"\wh|go\))PyrnySvw\*DSZJB\am\Bqgv4YDy3OzOHcdgKmbXipyS\*D\am\BqgSZJB\am\Bqgr
+100078 : '"\wh|go\))PyrnySvw\*DSZJB\am\Bqgv4YDy3OzOHcdgKmbXipyS\*D\am\BqgSZJB\am\Bqgr
+1000146 : 6 : '"\wh|go\))PyrnySvw\*DSZJB\am\Bqgv4YDy3OzOHcdgKmbXipyS\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\BqgSZJB\am\Bqgr
+100000140 : '"\wh|go\))PyrnySvw\*DSZJB\am\Bqgv4YDy3OzOHcdgKmbXipyS\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\BqgSZJB\am\Bqgr
+TIME: 28.295451358 (s)
+Attack success, attack string is:
+'"\wh|go\))PyrnySvw\*DSZJB\am\Bqgv4YDy3OzOHcdgKmbXipyS\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\S\*D\am\BqgSZJB\am\Bqgr

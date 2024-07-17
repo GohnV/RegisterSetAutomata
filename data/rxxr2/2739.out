@@ -1,0 +1,21 @@
+= [1] =
+INPUT: ^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$
+PARSE: OK
+SIZE: 30
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: ([^<]+)*
+PREFIX: <a
+PUMPABLE: {?
+SUFFIX: 
+TIME: 0.000182 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 30
+>> AVG NFA SIZE: 30
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

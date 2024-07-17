@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^ *(`{3,}|~{3,}) *([^`\s]+)? *\n([\s\S]+?)\s*\1 *(?:\n+|$)
+PARSE: OK
+SIZE: 44
+PUMPABLE: NO
+TIME: 0.000052 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 44
+>> AVG NFA SIZE: 44
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000052 (s)
+>> TIME MAX: 0.000052 (s)

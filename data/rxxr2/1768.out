@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (^|[^-]\b)(?:s|tr|y)\s+([a-zA-Z0-9])(?:[^\\]|\\[\s\S])*?\2(?:[^\\]|\\[\s\S])*?\2[msixpodualngcer]*
+PARSE: OK
+SIZE: 33
+PUMPABLE: NO
+TIME: 0.000051 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 33
+>> AVG NFA SIZE: 33
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000051 (s)
+>> TIME MAX: 0.000051 (s)

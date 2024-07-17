@@ -1,0 +1,14 @@
+^(<(style|p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del)\b[^\r]*?\n<\/\2>[ \t]*(?=\n+))
+8: <23 : 11.5 : <><29 : 2.9 : <noscript><30 : 2.9166666666666665 : <noscript\b><24 : 8.0 : <h><31 : 3.0 : <noscript
+</><32 : 3.0476190476190474 : <noscript
+</noscript><38 : 3.3181818181818183 : <noscript
+</noscript>><34 : 1.565217391304348 : <noscript
+</noscript>
+>
+===Initiate End===
+Node Coverage: 42/42
+===Genetic Algorithm End===
+Node Coverage: 42/42
+Normal fail
+TIME: 2.041655987 (s)
+Attack failed

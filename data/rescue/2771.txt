@@ -1,0 +1,9 @@
+(^([\t ]*))\/\/.*(?:(?:\r?\n|\r)\2[\t ]+.+)*
+5: <21 : 7.0 : //><22 : 5.75 : //^><27 : 6.0 : //^><29 : 5.666666666666667 : //^	><30 : 5.875 : //^	//>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 2.053140886 (s)
+Attack failed

@@ -1,0 +1,15 @@
+(==+)\s*(.+?(?:\[\[imieniny\]\]|imieniny) obchodzi)\s*\1
+1: <19 : 5.571428571428571 : u7	_<sieeniny]]=+-|o<	G(+\6 (70@##==+@##=[nin[imieniny]]=+iny]]=+-|o<	G_<sieeniny]]=+-|o<	G(+\6 (>
+===Initiate End===
+Node Coverage: 19/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 19/24
+Vulnerable: =================u7+iny]]=+-===[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+100085 : 758.219696969697 : =================u7+iny]]=+-===[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+100085 : 769.8846153846154 : =================u7+iny]]====[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+100085 : =================u7+iny]]====[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+100085 : 0 : =================u7+iny]]====[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+100933 : =================u7+iny]]====[nin@##=[nin[imieniny]]=+iny]]=+-|o<\	G_<siee##=[nin+@##=[nin[imieny]]=+@}:<}~}}{;;~=:{-|o<	G(+\6 (
+TIME: 18.949573068 (s)
+Attack failed

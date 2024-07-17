@@ -1,0 +1,9 @@
+^\s*(test|context|should|describe|it)\b.+?(['"])(.*?)\2
+4: <15 : 1.875 : context><18 : 2.5833333333333335 : context^\s*><24 : 3.9285714285714284 : context^\s*'"><22 : 2.466666666666667 : context^\s*'"'>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 16.072730378 (s)
+Attack failed

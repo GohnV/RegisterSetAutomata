@@ -1,0 +1,16 @@
+@?("|')(\\?.)*?\1
+4: <16 : 8.0 : '><17 : 12.666666666666666 : '"><18 : 15.75 : '"@><18 : 5.666666666666667 : '""|'>
+===Initiate End===
+Node Coverage: 19/19
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Vulnerable: '@\PZAZW1(XA.@W?\@W?\VJ\J??P.@W?\VJ\J??P.FMYE*A.@W?\VJ\J??P.@W?\VJ\J??P.FMYE*?\1
+100087 : 1235.641975308642 : '@\PZAZW1(XA.@W?\@W?\VJ\J??P.@W?\VJ\J??P.FMYE*A.@W?\VJ\J??P.@W?\VJ\J??P.FMYE*?\1
+100006 : 1538.553846153846 : '@\PZAZW1(XA.@\@W?\VJ\J??P\VJ\J??P.FMYE*A\VJ\J??P.@\VJ\J??P.FMYE
+1000083 : '@\PZAZW1(XA.@\@W?\VJ\J??P\VJ\\VJ\J??P\VJ\J??P.FMYE*A\VJ\J??P.@\VJ\J??P.FMYE
+1000140 : 4 : '@\PZAZW1(XA.@\@W?\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\J??P.FMYE*A\VJ\J??P.@\VJ\J??P.FMYE
+100000145 : '@\PZAZW1(XA.@\@W?\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\J??P.FMYE*A\VJ\J??P.@\VJ\J??P.FMYE
+TIME: 4.734599154 (s)
+Attack success, attack string is:
+'@\PZAZW1(XA.@\@W?\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\\VJ\J??P\VJ\J??P.FMYE*A\VJ\J??P.@\VJ\J??P.FMYE

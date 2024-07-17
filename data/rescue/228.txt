@@ -1,0 +1,9 @@
+(define\s*\(\s*('|").*?\2\s*,\s*\[)([\s\S]*?)\]
+1: <21 : 4.402985074626866 : &#Gndefine('s*3s.s7s*e\e]*'*2e\e]*'*2[(\(|\\\(9i.1\*1.9)s54(s())*s>
+===Initiate End===
+Node Coverage: 21/31
+===Genetic Algorithm End===
+Node Coverage: 24/31
+Normal fail
+TIME: 82.041667433 (s)
+Attack failed

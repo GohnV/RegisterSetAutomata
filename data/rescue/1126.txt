@@ -1,0 +1,9 @@
+\G <% ($re_tag) \s*> (.*?) <\/% \1 \s*> $re_eol? 
+1: <5 : 1.3076923076923077 :  <% ~IM>F>
+===Initiate End===
+Node Coverage: 5/28
+===Genetic Algorithm End===
+Node Coverage: 5/28
+Normal fail
+TIME: 0.125085559 (s)
+Attack failed

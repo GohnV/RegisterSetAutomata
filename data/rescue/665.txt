@@ -1,0 +1,9 @@
+(\w{2})\1
+2: <7 : 5.317460317460317 : 6"G5tP GFCYKv~B?o0=0UmjOy&)IuN1<$	(xc}lD,^(=L\e8uT<	"F""L`bIS><8 : 4.448275862068965 : ]sa&?!<c.[AQHVOsD#YO+t\wOwO>
+===Initiate End===
+Node Coverage: 8/8
+===Genetic Algorithm End===
+Node Coverage: 8/8
+Normal fail
+TIME: 27.623294199 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(BUNDLE_.+): (['"]?)(.*(?:\n(?!BUNDLE).+)?)\2$
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(29)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

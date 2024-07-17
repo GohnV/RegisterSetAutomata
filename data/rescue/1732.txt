@@ -1,0 +1,207 @@
+(document\.|var\s+|<\w+\s+[^>]*?)\Q$key\E\s*=\s*([\"\'])(.+?[^\\])\2
+2: <8 : 5.2 : document\.|var><19 : 12.541666666666666 : document<pp,$ke,$k)<pp,$key?!mcmcumentument\.tp,$k)<ocument\.|var>
+===Initiate End===
+Node Coverage: 21/33
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 21/33
+Vulnerable: <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@,?$:/#&.
+100105 : 435.2391304347826 : <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@,?$:/#&.
+100028 : 450.5765765765766 : <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@
+100028 : <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@
+100028 : 0 : <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@
+100178 : <c  		 	 	  
+
+ 
+
+ 	 	 		 	 
+
+ 	 
+	 
+
+
+ 		
+
+ 	 		 	 	 
+
+ 
+
+  	 	 		   			 
+<ocuume+\s+(rtV\B[var
+ 		
+ 
+ra<pp<p
+
+ 		
+
+ 	 		 	 	 
+
+ 	 	 	 
+
+ 
+
+  	 	 		   	
+		  	
+ <ocumntumene+\s@<<'\&@
+TIME: 62.310647809 (s)
+Attack failed

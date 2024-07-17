@@ -1,0 +1,9 @@
+(?:mw\.translateHooks\.run)\(\s*(['"])(.*?)\1
+1: <5 : 1.6125 : mPKfuF-V1\f@'tC(w!~uT9L	2oc	qW):o1a|)b5hA^{DqV>pqSID@Fpk=fmw.translateHooks.run>
+===Initiate End===
+Node Coverage: 5/17
+===Genetic Algorithm End===
+Node Coverage: 5/17
+Normal fail
+TIME: 0.554324765 (s)
+Attack failed

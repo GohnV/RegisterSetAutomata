@@ -1,0 +1,9 @@
+AJAX\.Submit\('([\w:]+)',.*,'parameters':\{'([\w:]+)':'(\2)'\}
+1: <19 : 2.864 : AJAX.Submit('a',,'param.Submit('a',,'parameteAJAX.bmit('a',,'paa',,'parameters':{'AJAs':'AJAs':{'AJAs':'AJAX.Suameters':{'('>
+===Initiate End===
+Node Coverage: 19/20
+===Genetic Algorithm End===
+Node Coverage: 19/20
+Normal fail
+TIME: 38.456452802 (s)
+Attack failed

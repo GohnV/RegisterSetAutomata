@@ -1,0 +1,9 @@
+"(?:\\"|[^"])*"|'(?:\\'|[^'])*'|\/\*[\S\s]*?\*\/|\/(?:\\\/|[^/\r\n])+\/(?=[^\/])|\/\/.*|\.\s*require|(?:^|[^$])\brequire\s*\(\s*(["'])(.+?)\1\s*\)
+4: <23 : 14.083333333333334 : rr*require(><25 : 7.0 : /*requi/ire/*><27 : 8.0 : rr*reqe//eeeque(><37 : 19.0 : rr*requir"e*'\|.>
+===Initiate End===
+Node Coverage: 65/74
+===Genetic Algorithm End===
+Node Coverage: 69/74
+Normal fail
+TIME: 111.216164375 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ((<)(artifactId)\s*(>)(?!<\s*/\2\s*>))(groovy-maven-plugin)((</)(artifactId)\s*(>)(?!<\s*/\2\s*>))
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(22)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

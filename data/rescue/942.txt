@@ -1,0 +1,11 @@
+(x)(?=\1)x
+3: <3 : 2.3333333333333335 : ?=><7 : 2.0793650793650795 : 8_	
+V_QFd#	5Yx	_Mrz-'}YzW"_33/
+%+krhMVk4'0G%>b+U!s7]?@tgZd![)><11 : 2.1470588235294117 : H2WOTEl3!qsF`4ASl`BtYoim3AiLZ+xx>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 0.931910477 (s)
+Attack failed

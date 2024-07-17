@@ -1,0 +1,9 @@
+^(.*?)[\t]*Local\Variables:[\t]*(.*)$(?:^\1.+\2\n)*?^\1[\t]*iPerl-style:\s*"(.+?)"[\t]*\2$(?:^\1.+\2\n)*?^\1[\t]*End:[\t]*\2$(?:(?!\n).)*\Z
+1: <23 : 6.4324324324324325 : Lo"araarablLlLorablLlLocal"ariables:>
+===Initiate End===
+Node Coverage: 23/73
+===Genetic Algorithm End===
+Node Coverage: 23/73
+Normal fail
+TIME: 137.250135404 (s)
+Attack failed

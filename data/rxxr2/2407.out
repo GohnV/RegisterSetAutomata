@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <recurse ([a-zA-Z0-9_]*) ([a-zA-Z0-9_]*) *\](.*?)\[\/recurse \1\]
+PARSE: OK
+SIZE: 38
+PUMPABLE: NO
+TIME: 0.000040 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 38
+>> AVG NFA SIZE: 38
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000040 (s)
+>> TIME MAX: 0.000040 (s)

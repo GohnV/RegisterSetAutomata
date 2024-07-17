@@ -1,0 +1,11 @@
+Content-Type: multipart/form-data; boundary=([\w-]+)\n.*\1
+4: <4 : 0.08888888888888889 : Content-Type: multipart/form-data; boundary=><7 : 0.17391304347826086 : Content-Type: multipart/form-data; boundary=c><10 : 0.23404255319148937 : Content-Type: multipart/form-data; boundary=c
+><11 : 0.3125 : Content-Type: multipart/form-data; boundary=c
+c>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 7.792685194 (s)
+Attack failed

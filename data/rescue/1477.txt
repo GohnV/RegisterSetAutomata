@@ -1,0 +1,9 @@
+src\s*=\s*([\'\"])(.*?)\1
+1: <17 : 1.5714285714285714 : G~>pbU@X8Z7Nsrc="=">
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 26.246558459 (s)
+Attack failed

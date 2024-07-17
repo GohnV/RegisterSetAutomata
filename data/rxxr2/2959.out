@@ -1,0 +1,16 @@
+= [1] =
+INPUT: FOREACH \w+ \{\s+(\w+) = a;\s+(\w+) = MAX\(\1\);\s+(\w+) = b;\s+(\w+) = MIN\(\3\);\s+(\w+) = c;\s+(\w+) = AVG\(\5\);\s+GENERATE \2, \4, \6;\s+\}
+PARSE: OK
+SIZE: 131
+PUMPABLE: NO
+TIME: 0.000156 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 131
+>> AVG NFA SIZE: 131
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000156 (s)
+>> TIME MAX: 0.000156 (s)

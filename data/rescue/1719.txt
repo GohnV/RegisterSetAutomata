@@ -1,0 +1,9 @@
+<([A-z]+ [A-z]+=)(['"])([A-z0-9]+)\2(\s*?[^>]*?>)
+1: <10 : 2.466666666666667 : Sjm#<b<bAkQ ni>
+===Initiate End===
+Node Coverage: 10/27
+===Genetic Algorithm End===
+Node Coverage: 13/27
+Normal fail
+TIME: 22.56576273 (s)
+Attack failed

@@ -1,0 +1,17 @@
+:(\w*)|(["'])((?![\\#]|\2).|\\.)*\2|(\w*):
+6: <9 : 4.5 : :><11 : 10.666666666666666 : \w><23 : 11.5 : '><25 : 15.0 : '(><30 : 16.589285714285715 : -p dj7Z%=m)v`dkXr5)"y!E}CG%ujg@FAvw #{^W\1M0>,X
+)8-(z:><29 : 18.441176470588236 : $s'N~U-M!8oWAK|\2eC!Ge^V^c!@;
+^7E3GVMhj=dU,fo-bUMWYRR f252E`WF('C>
+===Initiate End===
+Node Coverage: 35/35
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Vulnerable: \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbfl)AasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbfl)AasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbflti
+100308 : 219.97368421052633 : \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbfl)AasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbfl)AasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzagrwsxqwicskkgbflti
+100011 : 448.47982062780267 : \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzTqUNOPjlminULrbhBcSfz
+100011 : \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzTqUNOPjlminULrbhBcSfz
+100011 : 0 : \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzTqUNOPjlminULrbhBcSfz
+100123 : \wthqgijkkyxjcedxzcpxqgIxLoUnimljxqgIxEDIxLoUgqZOFzksRMqGhQWzxhXDsnimljPONUQwyPtfvuZjwupUXpOQNuwNLqSOLasVwKsPkFjEWAkpvYTqUNOPjlminULrbhBcSfzEDIxLovuZjwupUXpohkeyheukkmanisvbnjnclqnpufdkbfnunumrmnkcxhdzTqUNOPjlminULrbhBcSfz
+TIME: 128.419296333 (s)
+Attack failed

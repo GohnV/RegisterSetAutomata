@@ -1,0 +1,11 @@
+^( *)function pick[\s\S]+?\n\1}
+4: <8 : 0.5714285714285714 : function pick><10 : 0.7333333333333333 : function pick}><12 : 1.0 : function pick}
+><13 : 0.7647058823529411 : function pick}
+}>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.67257042 (s)
+Attack failed

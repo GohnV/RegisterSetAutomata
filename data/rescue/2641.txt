@@ -1,0 +1,13 @@
+((?:^|\n)([\t ]*)[\w\-#.]+\.[\t ]*)(\n(?:\2[\t ]+.+|\s*?(?=\n)))+
+2: <16 : 8.0 : 4C!.><39 : 6.125 : 4C.
+	[.
+
+	[!.P
+>
+===Initiate End===
+Node Coverage: 40/40
+===Genetic Algorithm End===
+Node Coverage: 40/40
+Normal fail
+TIME: 11.609826432 (s)
+Attack failed

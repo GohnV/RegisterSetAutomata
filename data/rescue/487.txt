@@ -1,0 +1,9 @@
+<\/?(?!\d)[^\s>\/=$<%]+(?:\s+[^\s>\/=]+(?:=(?:("|')(?:\\[\s\S]|(?!\1)[^\\])*\1|[^\s'">=]+))?)*\s*\/?>
+1: <56 : 12.742690058479532 : D".xOq<~e,J1W	Oq<~e,J1W	wyhQ5="StOj3  _#1StG |};	J1W	wyhQ5="StO`H	}?X2>i<"StOj3  _#1StG |};	J1W	wyhQ5="StO`H	}?X2>i<8YO?\qH;	J1W	wyhQ5="StOj3  _#1<?7SEqHp0|X7,O(	Dy>>
+===Initiate End===
+Node Coverage: 56/56
+===Genetic Algorithm End===
+Node Coverage: 56/56
+Normal fail
+TIME: 83.54098683 (s)
+Attack failed

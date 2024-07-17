@@ -1,0 +1,9 @@
+<(\w)><\/\1>
+1: <9 : 1.3235294117647058 : Oc:Yli"a</<P</PcyO3aqC@a</<P></P>>
+===Initiate End===
+Node Coverage: 9/10
+===Genetic Algorithm End===
+Node Coverage: 9/10
+Normal fail
+TIME: 1.333828258 (s)
+Attack failed

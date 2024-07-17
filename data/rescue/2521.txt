@@ -1,0 +1,15 @@
+(<(.*)>.*?<\/\2>)
+1: <16 : 3.9702970297029703 : 74:3Tq]qe)<N~wlk*HUAp#"#!3O\<1YG.JCC p*(j<></N~wlk*HUAp#"#!3O\<1YG.JCC p*(j<></q0!JY#k f:Xyy50r<QXH>
+===Initiate End===
+Node Coverage: 16/16
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Vulnerable: <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisakabnzo
+100142 : 449.06726457399105 : <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisakabnzo
+100002 : 462.97222222222223 : <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QX>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisak
+100002 : <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QX>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisak
+100002 : 0 : <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QX>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisak
+100003 : <<<<<<<XHh>C p*(j<><CC p*(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*QX>>m(e*ddtkzq\r>>*.*(okr/>)2pi*ddtkzq\r>yyX<<<XyyCC p*(j<><CC *(j<></q0!JY#k f:Xyy50r<QXHh>>m(e*ddtkzq\r>>*.*(okr/>)2pis>>m(e*ddtkzq\r>>*.*(okr/>)2pisak
+TIME: 60.15450095 (s)
+Attack failed

@@ -1,0 +1,15 @@
+\<(pre|code).*?\>(.+?)\<\/\1\>
+1: <17 : 2.090909090909091 : tqw7sF7sFtqw7F7sFYZF<pre|co|cod7s>\}>
+===Initiate End===
+Node Coverage: 17/20
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 18/20
+Vulnerable: F<pre|q<pretq<pretq<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7pre>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\?>7
+100093 : 422.3333333333333 : F<pre|q<pretq<pretq<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7pre>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\?>7
+100008 : 442.5132743362832 : F<pre<pre<pre<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7p>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\
+100008 : F<pre<pre<pre<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7p>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\
+100008 : 0 : F<pre<pre<pre<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7p>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\
+100008 : F<pre<pre<pre<pre?<preq<preq<pre>\}?>td7edo9e6c\>s7p>:><><|{~?;~>:<<?>\}?>gd7s>sco>>?>@<{=::}=|;:}|{=|q<pretq<pretq<pre?<preq<preq<pre>>\}?>td7edocs>s7dg\}?>s7d>\}?>td7edocs>s7dg>?))>|e6c\)\c\?>\|e6c\)\c\?>))?089e6c\)\c\
+TIME: 107.904213324 (s)
+Attack failed

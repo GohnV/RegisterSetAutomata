@@ -1,0 +1,9 @@
+^<(LARRY)\s*>\s*<\/\1>\s*$
+7: <4 : 2.0 : <><8 : 1.1428571428571428 : <LARRY><9 : 1.375 : <LARRY	><11 : 1.375 : <LARRY>><12 : 1.2 : <LARRY></><13 : 0.8666666666666667 : <LARRY></LARRY><17 : 1.0625 : <LARRY></LARRY>>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 0.122383259 (s)
+Attack failed

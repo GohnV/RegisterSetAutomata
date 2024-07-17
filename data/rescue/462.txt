@@ -1,0 +1,3 @@
+^((?:(['"])use strict\2;)?(?:var (?:[a-z]+=(?:!0|!1|null)[,;])+)?)([\s\S]*?function[^)]+\){)
+TIME: 0.066217157 (s)
+Regex compile error

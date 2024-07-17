@@ -1,0 +1,9 @@
+<(h\d)[^>]*?>(.+?)</\s*\1\s*>
+1: <18 : 10.063157894736841 : h4J]Pn:]KI`AUd\h<h8#\h<h8#QAUd\8xQk^>}	x]KI`AUd\h<h8#\h<h8#QAUd\8xQk^>}	xQk^>}	xQkQJ]	xQ#	;~</>
+===Initiate End===
+Node Coverage: 18/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 105.676165607 (s)
+Attack failed

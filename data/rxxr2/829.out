@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \b($colmlist)\s*([!=][~\^])\s*(m)?(.)([^\4]*?)\4(i)?
+PARSE: ERROR {ParsingData.UnsupportedEscape(41, 52)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

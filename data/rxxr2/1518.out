@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\(((('|")(.*)\3)|\$[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*),\s*(.+)\)$
+PARSE: ERROR {ParsingData.InvalidBackreference(14)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

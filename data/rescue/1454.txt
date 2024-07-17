@@ -1,0 +1,9 @@
+(?:(<a(?=\s).*?\shref=)("|')(.*?)\2)|(?:(<a\s.*?href=)([^"'][^ >]+))
+3: <34 : 4.657894736842105 : 99?w;/@c"~s)M:='i_pV$;/@c"~s)M:='i_pV$4]5u	0fXiL.OC<a<ahref=z:/@c"~s)M:='i_pV$;/@c"~s)M:='i_pV$4]5u	0fXi><36 : 8.369747899159664 : 99?w;/@c"~s)M:='i_pV$;/@c"~s)M:='i_pV$4]5u	0fXiL.OC<a<ahref="c@/:z~s)M:='i_pV$;/@c"~s)M:M:=:='i_pV$;/@c"~s)M><31 : 6.121621621621622 : 99?w;/@c"~s)M:='i_pV$;/@c"~s)M:='i_pV$4]5u	0fXiL.OC<a<ahref="V$;/@c">
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 116.460202434 (s)
+Attack failed

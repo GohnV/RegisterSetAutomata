@@ -1,0 +1,9 @@
+<(script)[^>]*>(|[\s\S]+?)<\/\1>
+1: <4 : 1.1304347826086956 : 7ZM&@MMZnci/#TaQ.?	<1>
+===Initiate End===
+Node Coverage: 4/19
+===Genetic Algorithm End===
+Node Coverage: 4/19
+Normal fail
+TIME: 0.571845206 (s)
+Attack failed

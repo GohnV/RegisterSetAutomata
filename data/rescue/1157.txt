@@ -1,0 +1,9 @@
+(a)(b)\1\2
+1: <10 : 2.2222222222222223 : YMtat.at..Mt.Mt.MtMtabab>
+===Initiate End===
+Node Coverage: 10/11
+===Genetic Algorithm End===
+Node Coverage: 10/11
+Normal fail
+TIME: 1.407500068 (s)
+Attack failed

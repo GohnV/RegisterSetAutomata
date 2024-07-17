@@ -1,0 +1,9 @@
+(["']).*\\u\{[0-9a-f]+\}.*\1
+1: <11 : 10.92156862745098 : :Devw0'\u{Devw0'0'FQ\u{6F1:Devw0'\u{Devw0'00'0'F1	>
+===Initiate End===
+Node Coverage: 11/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 12.535819529 (s)
+Attack failed

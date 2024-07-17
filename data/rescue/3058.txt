@@ -1,0 +1,11 @@
+([^{]*)\{[\s\S]*?\}\1
+1: <14 : 2.691358024691358 : !-j!
+Q\<N>^"{M^7h.x^"{M^YK\h{M^"{M^7h.x^"{M^YK7h.x^"{M^YK\h{M^7Y-
+D#(}">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 14.264151185 (s)
+Attack failed

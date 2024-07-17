@@ -1,0 +1,9 @@
+(?:wfRunHooks|Hooks\:\:run)\(\s*(['"])(.*?)\1
+1: <8 : 3.6923076923076925 : ?:wfRunHooks>
+===Initiate End===
+Node Coverage: 8/20
+===Genetic Algorithm End===
+Node Coverage: 12/20
+Normal fail
+TIME: 0.951776829 (s)
+Attack failed

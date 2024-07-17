@@ -1,0 +1,9 @@
+^\s*\$plugin\->component\s*=\s*(['"])(.+?_.+?)\1\s*;
+1: <24 : 2.735042735042735 : $plugin->component='"in->component='".+nt='".+='".+='"plgin->component='"in->component='".+nt='".+='".+='"plu.+?_?'">
+===Initiate End===
+Node Coverage: 24/25
+===Genetic Algorithm End===
+Node Coverage: 24/25
+Normal fail
+TIME: 6.730093232 (s)
+Attack failed

@@ -1,0 +1,9 @@
+\b(\d{4})(?:,|--)\1
+1: <14 : 2.95 : kQ2Rk/F-qB+G	sf.~?85+y_-qB+G	sf.~?8438,>
+===Initiate End===
+Node Coverage: 14/15
+===Genetic Algorithm End===
+Node Coverage: 14/15
+Normal fail
+TIME: 1.009099629 (s)
+Attack failed

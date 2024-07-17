@@ -1,0 +1,15 @@
+^([^\x00]*)(?:[^\x00]+?)([^\x00]*)(?:\x00\1[^\x00]*\2)+$
+2: <18 : 12.5 : ^><18 : 1538.9538461538461 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}-p`OYG`2<&3tG`&I<x{x>
+===Initiate End===
+Node Coverage: 18/25
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 18/25
+Vulnerable: }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}-p`OYG`2<&3tG`&I<x{x
+100032 : 1538.9538461538461 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}-p`OYG`2<&3tG`&I<x{x
+100002 : 2272.7727272727275 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}
+100002 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}
+1000047 : 2 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}
+2479810 : }spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}spJ5;ZU.:J];,> op74)/[gm1`-=al%>i	 O)9N}
+TIME: 3.330366438 (s)
+Attack failed

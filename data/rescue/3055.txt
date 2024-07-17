@@ -1,0 +1,9 @@
+^<([\w-]+)\s*\/?>(?:<\/\1>|)$
+2: <18 : 4.75 : <a>><20 : 2.875 : <a></a>>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 25.744250235 (s)
+Attack failed

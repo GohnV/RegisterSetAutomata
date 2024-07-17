@@ -1,0 +1,9 @@
+\((').*\1\)
+1: <11 : 2.8487394957983194 : |cx('-'5aCcBB11cD7(a')18*C1b4da48Db5*\)\2Deb\'(C*1C.)6E8)5cCb8B6Ff312d6cBe(e11fb1)98*)dc(a9C46f3dB967Af*6)29*'9)Ad^gC5>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 61.15345032 (s)
+Attack failed

@@ -1,0 +1,16 @@
+= [1] =
+INPUT: v8::Local<v8::FunctionTemplate>\s+(\w+)\s*=\s*Nan::New<FunctionTemplate>\([\w\d:]+\);(?:\w+->Reset\(\1\))?\s+\1->SetClassName\(Nan::String::New\("(\w+)"\)\);
+PARSE: OK
+SIZE: 138
+PUMPABLE: NO
+TIME: 0.000174 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 138
+>> AVG NFA SIZE: 138
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000174 (s)
+>> TIME MAX: 0.000174 (s)

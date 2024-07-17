@@ -1,0 +1,9 @@
+(?:(a){0}(b)(?:(?:c){0})(d)\2)|(?:(a)(b)(?:(?:c))(d)\5)
+2: <20 : 7.117647058823529 : D9yVk#xD[;V1+bdb><31 : 8.817391304347826 : #xD[;V1+Zeab[I;+abk1T#xD[;V1+Zeab[I;+abk1TD9yVk#xD[;V1+Zeab[I;+abk1D9yVk#xD[;V1+Zeab[I;+abk1T;+abk1TD9yVk1TZeabcdb>
+===Initiate End===
+Node Coverage: 34/39
+===Genetic Algorithm End===
+Node Coverage: 34/39
+Normal fail
+TIME: 9.357291603 (s)
+Attack failed

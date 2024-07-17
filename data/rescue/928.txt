@@ -1,0 +1,9 @@
+^(.)(.*?)\1([a-zA-Z]*)$
+3: <9 : 4.5 : ^><10 : 4.333333333333333 : ^.><14 : 4.666666666666667 : ^^>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 8.187220917 (s)
+Attack failed

@@ -139,7 +139,7 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
         elif op is c.IN:
             length += 1
             neg_sign = ' '
-            if av[0] == c.NEGATE:
+            if av[0][0] == c.NEGATE:
                 neg_sign = '^'
                 av_chars = av[1:]
             else:
@@ -151,9 +151,9 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
                 if a_op is c.RANGE:
                     start, end = a_av
                     for i in range(start, end):
-                        rsa_set_add_char(in_char_set, chr(i))  
+                        in_char_set[1].add(chr(a_av))
                 elif a_op is c.LITERAL:
-                    rsa_set_add_char(in_char_set, chr(a_av))
+                    in_char_set[1].add(chr(a_av))
             chars = rsa_set_union(chars, in_char_set)
         elif op is c.NOT_LITERAL:
             length += 1

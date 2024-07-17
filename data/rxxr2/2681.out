@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^( *)(bullet) [\s\S]+?(?:hr|def|\n{2,}(?! )(?!\1allbull )\n*|\s*$)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(38)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

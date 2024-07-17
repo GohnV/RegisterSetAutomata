@@ -1,0 +1,9 @@
+^ m([^\w\s]) (.+) \1 $
+1: <15 : 3.3 :  m^ m ^ m>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 4.25435492 (s)
+Attack failed

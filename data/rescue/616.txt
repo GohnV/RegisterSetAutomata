@@ -1,0 +1,9 @@
+('|")(.*?)\1[ ]+<[ ]*(.*?)[ ]*>
+1: <16 : 30.50943396226415 : PcupM\&ofqk'Duc'Du\' M9V1:#xc{'Ducoh@3DF'bOfJ'Ducoh@'Ducoh@3DF'bOfJ'Ducoh@3DF' M9V1:#xc{'Ducoh@3DF'bOfJGu>
+===Initiate End===
+Node Coverage: 16/26
+===Genetic Algorithm End===
+Node Coverage: 16/26
+Normal fail
+TIME: 41.162265844 (s)
+Attack failed

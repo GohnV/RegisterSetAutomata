@@ -1,0 +1,9 @@
+<widget[^>]*\sid=(["'])((?:(?!\1|\s).)+)
+6: <4 : 0.5 : <widget><5 : 1.6666666666666667 : <widget?!\1|\s><6 : 1.8125 : <widget?!\1|\s	><8 : 2.1052631578947367 : <widget?!\1|\s	id=><20 : 2.7142857142857144 : <widget?!\1|\s	id="'><22 : 2.782608695652174 : <widget?!\1|\s	id="'"'>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 81.306315683 (s)
+Attack failed

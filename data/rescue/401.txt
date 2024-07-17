@@ -1,0 +1,9 @@
+(polyfill-rule)[^}]*(content:[\s]*(['"])(.*?)\3)[;\s]*[^}]*}
+1: <13 : 5.092783505154639 : polyfill-rulej6ill-rulej6~ SS.Yyill-rulej6~ SS.content:-rulWUdrulej6~ SS.cont.content:-rulWUd3o>>
+===Initiate End===
+Node Coverage: 13/26
+===Genetic Algorithm End===
+Node Coverage: 25/26
+Normal fail
+TIME: 150.014791202 (s)
+Attack failed

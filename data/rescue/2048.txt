@@ -1,0 +1,15 @@
+^([\x00-\xff]*?)open[\s\t\r\n]*\(?\$?\w+[\s\t\r\n]*(\,.+?)?[\s\t\r\n]*\,[\s\t\r\n]*?([\"\'])(.*?)\|(.*?)\3
+8: <7 : 5.0 : ,><15 : 5.666666666666667 : ,open><23 : 6.857142857142857 : ,opena><29 : 7.25 : ,opena,><31 : 7.666666666666667 : ,opena,,><37 : 8.333333333333334 : ,opena,"><42 : 9.5 : ,opena,"|><41 : 6.285714285714286 : ,opena,"|\"\'>
+===Initiate End===
+Node Coverage: 43/43
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Vulnerable: openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+100004 : 526.3368421052631 : openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+100001 : 531.9202127659574 : openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+100001 : openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+100001 : 0 : openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+100070 : openopenopenopena,",opena,opena,oopena,"|{|}|?}{|}|?}@<<@~>}||=}=>|>|><>>|;};??@>:>|=}@CgKUzA~>}|<:><>|;};??@>:>|{|}|?}@<<@|<:~~~~|=@=:~pLPFtVtbna|xCia,x$RoFtVtbna|xCia,x$Ropena
+TIME: 81.067713443 (s)
+Attack failed

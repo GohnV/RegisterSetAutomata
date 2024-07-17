@@ -1,0 +1,9 @@
+android.+;\s(\w+)\s+build\/hm\1
+1: <13 : 1.3333333333333333 : ? (TR>Srt5d9}a7roid|J+rnOWS;	_bZ6uY ;	_bZ6W	_bZ6uY android|J+rnOWS;	_bZ6uY Hm"Hm":>
+===Initiate End===
+Node Coverage: 13/15
+===Genetic Algorithm End===
+Node Coverage: 13/15
+Normal fail
+TIME: 11.795071585 (s)
+Attack failed

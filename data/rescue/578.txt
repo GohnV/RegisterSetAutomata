@@ -1,0 +1,9 @@
+\$VERSION\s*=\s*(['"])([\d.]+)\1;
+6: <4 : 0.4444444444444444 : $VERSION><8 : 0.8 : $VERSION=><12 : 1.0909090909090908 : $VERSION='><15 : 1.3333333333333333 : $VERSION='0><16 : 1.3076923076923077 : $VERSION='0'><17 : 1.2857142857142858 : $VERSION='0';>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 16.865837503 (s)
+Attack failed

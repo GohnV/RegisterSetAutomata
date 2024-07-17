@@ -1,0 +1,12 @@
+(?<!\\)(`+)(?!`)(.+?)(?<!`)\1(?!`)
+7: <7 : 5.75 : ?<!><18 : 7.0 : `+><9 : 5.968253968253968 : -1" rF28SZH'\oc>az U9
+qH$&M.|[V1;g1TvCnMOV_XyZ+	k6#v)M9]qO;>b><24 : 6.76 : :*knH!E9`R'7#QgaF4		xo'9^%x;)_nH2jX#/3YJT	N!0qD`><21 : 11.338235294117647 : Kv]"4{1G>s<6	8[T[:P3$$
+sSt9%KWa]/TETK	``30.+?k/*fWa%4F5yt<U5cv9# ><27 : 7.787878787878788 : BRDJDtjW^'34@TKrr
+S0}P	~UqDW5``\|1a)TIuB`wGyMqo\ol{xq8'L+		Fa1><27 : 12.019607843137255 : :*knH!E9`R'7#QgaF4		xo'9^%x;)_nH2jX#/3YJT	N!0qD``>
+===Initiate End===
+Node Coverage: 29/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 98.584831367 (s)
+Attack failed

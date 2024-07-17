@@ -1,0 +1,9 @@
+<((style|script))[^>]*>(.*?)</\1>
+1: <21 : 12.025210084033613 : ~ni<style~ni<style|scipstylelee~ni<style|scipyle~ni<styci`>")@$,pyle~ni<stylee~ni<styl<stylelelele|scipt</style|script>
+===Initiate End===
+Node Coverage: 21/22
+===Genetic Algorithm End===
+Node Coverage: 21/22
+Normal fail
+TIME: 79.081986427 (s)
+Attack failed

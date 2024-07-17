@@ -1,0 +1,9 @@
+action=(["']{1})(.*?)\1
+3: <4 : 0.5 : action=><11 : 1.5 : action="'><12 : 1.3636363636363635 : action="'">
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 25.271584301 (s)
+Attack failed

@@ -1,0 +1,9 @@
+\w+\s*=|((['"]).*?(?<!\\)\2|\S+)
+3: <15 : 8.0 : =><18 : 3.1578947368421053 : Sw-kB\~4_m'@X-h<A]><24 : 6.46 : ';s\d	D6iQ3"*p"x(pKm\V t,$R/M["\2|\S+:H$[~`&J,,[>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 2.320945317 (s)
+Attack failed

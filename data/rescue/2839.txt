@@ -1,0 +1,15 @@
+(?x)(^\s*)?(((?:((?<=\?>)<)|<)\?(?i:php|=)?)(\s*)((\?)>))(\1|(\s*$\n)?)
+2: <40 : 12.5625 : $?I=L<t@&No
+%A"ZX%@0hOvy[sRBKj=`
+Xe,9
+:6A6gF\S&Cy^%&rX!<?=\?><><52 : 13.318181818181818 : 	
+O6t@<<?6t&No
+%<??>
+>
+===Initiate End===
+Node Coverage: 59/59
+===Genetic Algorithm End===
+Node Coverage: 59/59
+Normal fail
+TIME: 124.385897452 (s)
+Attack failed

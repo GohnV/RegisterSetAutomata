@@ -1,0 +1,15 @@
+(Query.*?)(\n|\r\n|\r)\2(\s+No\s+Hit.*?)\2\2(.*?)(?=(?:Done!)|(?:\Z))
+1: <22 : 4.228260869565218 : m
+1
+u&IGk5~b yV7y|Gh)QueaM1)QueaM1
+u&IGk5~b yV7y|Gh)Queryu7y|Mk5~b yV7y|Mk5~byVM^Ac
+
+
+No>
+===Initiate End===
+Node Coverage: 22/43
+===Genetic Algorithm End===
+Node Coverage: 22/43
+Normal fail
+TIME: 134.915821842 (s)
+Attack failed

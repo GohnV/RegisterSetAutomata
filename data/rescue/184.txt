@@ -1,0 +1,15 @@
+^([\"'])(?:\\\1|.)*?\1$
+2: <16 : 7.0 : "jM4l^?80WKy4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""><15 : 909.1181818181818 : "jM4l^?80WKy4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbfbmaktgckfhk>
+===Initiate End===
+Node Coverage: 16/17
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 16/17
+Vulnerable: "jM4l^?80WKy4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbfbmaktgckfhk
+100003 : 909.1181818181818 : "jM4l^?80WKy4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbfbmaktgckfhk
+100001 : 1098.9120879120878 : "jM4l^?80WKy4!y4!z\"44!y4!z\"\"4!z\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbf
+1000010 : "jM4l^?80WKy4!y4!z\"44!y4!z\"\"4!z\"\"44!y4!z\"\"4!z\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbf
+1000015 : 1 : "jM4l^?80WKy4!y4!z\"44!y4!z\"\"4!z\"\"44!y4!z\"\"4!z\"\"44!y4!z\"\"4!z\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbf
+25576617 : "jM4l^?80WKy4!y4!z\"44!y4!z\"\"4!z\"\"44!y4!z\"\"4!z\"\"44!y4!z\"\"4!z\"4!y4!z4O\"44!y4!z4O\"4O\"4!z4O\"l4O\"lj""thrkntsyabxbf
+TIME: 5.157853941 (s)
+Attack failed

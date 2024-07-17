@@ -1,0 +1,11 @@
+(["'])(?:(?!\1)[^\\\r\n]|\\.|_(?:\r?\n|\r))*\1
+4: <17 : 13.666666666666666 : "'><24 : 20.77777777777778 : "'|\\.|_><27 : 16.9 : "'|\\.|_'><25 : 8.846153846153847 : '@F!<_z`M!+H;On3<_
+y`)ZKCL/8z{/xC3]U$]VLUdXX?TVGHMw"
+k1i'dvFZS>
+===Initiate End===
+Node Coverage: 29/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 70.51853755 (s)
+Attack failed

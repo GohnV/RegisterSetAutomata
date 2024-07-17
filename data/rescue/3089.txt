@@ -1,0 +1,9 @@
+\<([A-Z]+)\>(.{1,1000}?)\</\1\>
+1: <16 : 2.1739130434782608 : q{{0;h/|<X>3u0;h/|</X>>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 83.25230786 (s)
+Attack failed

@@ -1,0 +1,9 @@
+1(?=(33|3))\1(?:)37
+1: <16 : 1.2678571428571428 : `02FDUkx=Z\55\Ukx=Z\DUkx=Z\55\x=Z\55\E]3w-13t@U?<<<	=Z\>
+===Initiate End===
+Node Coverage: 16/17
+===Genetic Algorithm End===
+Node Coverage: 16/17
+Normal fail
+TIME: 2.368238871 (s)
+Attack failed

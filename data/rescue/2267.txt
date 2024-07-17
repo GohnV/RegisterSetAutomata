@@ -1,0 +1,9 @@
+(<)(build)\s*(>)(?!<\s*/\2\s*>)
+1: <20 : 2.5 : u<buu<buildu<build></>
+===Initiate End===
+Node Coverage: 20/25
+===Genetic Algorithm End===
+Node Coverage: 21/25
+Normal fail
+TIME: 32.826616455 (s)
+Attack failed

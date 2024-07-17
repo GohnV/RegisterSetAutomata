@@ -1,0 +1,15 @@
+(["']).*?,.*?\1
+3: <8 : 3.3333333333333335 : "'><11 : 7.0 : "',><11 : 2.8035714285714284 : CYU6&/;OHx,q3#Cxs <fNRSKorG~nW'sc2>`#+V6LP"{60T+ Q,">
+===Initiate End===
+Node Coverage: 12/12
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Vulnerable: """""""'I""afft'r'"auj""'mq,.*?\1MhTcU4lWX?,48X?,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5D8E0ed0bBb
+100191 : 468.18224299065423 : """""""'I""afft'r'"auj""'mq,.*?\1MhTcU4lWX?,48X?,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5D8E0ed0bBb
+100022 : 500.11 : """""""'I""afft'r'"auj""',.*?\1MhTcU4lWX?,48,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5
+100022 : """""""'I""afft'r'"auj""',.*?\1MhTcU4lWX?,48,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5
+100022 : 0 : """""""'I""afft'r'"auj""',.*?\1MhTcU4lWX?,48,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5
+100043 : """""""'I""afft'r'"auj""',.*?\1MhTcU4lWX?,48,,ac,rkTO_BK:o,ac41o.*?,Bo.*?,Bb2dDJJV<NGx0ICawlQ/qv,.*?,0ed.*?\1MhTcU4lWX?,48X?,.*?,Bbdc4dX?,,ac,rkTO_BK:o,ac41o.*?,Bb2dD8E84dc4d5D8E0edV<NGBb2dD8E84dc4d5
+TIME: 47.457311444 (s)
+Attack failed

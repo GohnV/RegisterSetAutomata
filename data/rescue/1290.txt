@@ -1,0 +1,16 @@
+\w+\.partial!\(?\s*(['"])([^'"]+)\1
+1: <18 : 3.9393939393939394 : )p	ADY&eR	oL	g^vk=cL4W}mNU
+Ii~KFx>~kp	&{S.partial!"}&{S.partial!">
+===Initiate End===
+Node Coverage: 18/18
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Vulnerable: RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamitsYDAeR	oLbiabcxhjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiamitstxkomucbum
+100088 : 358.7383512544803 : RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamitsYDAeR	oLbiabcxhjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiamitstxkomucbum
+100020 : 398.48605577689244 : RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamihjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiami
+100020 : RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamihjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiami
+100020 : 0 : RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamihjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiami
+100302 : RReADYwpDhtywGnnqeHcQPObONLhUgMGxmgRqmuhKJrZyViOpIhjNzEdZgaukTAtcxmsRvNlJqqqvnJkLXCUshmafwjyBzetofVBoLAe.partial!"}&{S.parOalnltyowooteyhecivbknvvdjzgiamihjzrkkejtokxsypniahvjzaoxodkcoqwuvephueawgsmotytsjgiqqqvnJkLXCUIOalnltyowooteyhecivbknvvdjzgiami
+TIME: 199.031403314 (s)
+Attack failed

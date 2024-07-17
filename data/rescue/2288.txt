@@ -1,0 +1,9 @@
+^([<|=>])\1{6}( |$)
+1: <14 : 3.0 : <<<<<<<>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 0.08297526 (s)
+Attack failed

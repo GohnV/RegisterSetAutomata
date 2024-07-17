@@ -1,0 +1,9 @@
+ISBN\x20(?=.{13}$)\d{1,5}([- ])\d{1,7}\1\d{1,6}\1(\d|X)$|[- 0-9X]{10,16}
+1: <18 : 5.203389830508475 : eT%	MPp.~h 4p.~hV!4z.~hVSBN 4zW77418p.[TISBN 4zW7741875282>
+===Initiate End===
+Node Coverage: 18/32
+===Genetic Algorithm End===
+Node Coverage: 22/32
+Normal fail
+TIME: 3.20672751 (s)
+Attack failed

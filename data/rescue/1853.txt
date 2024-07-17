@@ -1,0 +1,9 @@
+<(yield)\/?>(<\/\1>)?
+1: <17 : 1.330708661417323 : /%dYI\DJ	'W,<yi	'W,<yiel<yield/%\DJ	'W,<yW,<yiel<yield/%\DJ	'W,<yi	'W,<yiel<yi	'W,<yiel<yield/%6*d<Mu5*GdYI	'W,<yield></yield>>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 2.927045871 (s)
+Attack failed

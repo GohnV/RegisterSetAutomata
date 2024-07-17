@@ -1,0 +1,9 @@
+<!-- BEGIN ([^./][@a-zA-Z0-9/.\-_:]+?) -->([\s\S]*?)<!-- END \1 -->
+1: <16 : 2.5555555555555554 : <!-- BEGIN \s --><!-- E--><IN><!-<!-- E-- E--><IN><!-<!-- EIN><!-<!-- END \s -->>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 46.240630653 (s)
+Attack failed

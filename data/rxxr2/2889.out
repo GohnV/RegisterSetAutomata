@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <([a-z]+) style="(font-weight: italic; ?|text-decoration: underline; ?){2}">([\w\W]*?)<\/\1>
+PARSE: OK
+SIZE: 137
+PUMPABLE: NO
+TIME: 0.000172 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 137
+>> AVG NFA SIZE: 137
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000172 (s)
+>> TIME MAX: 0.000172 (s)
