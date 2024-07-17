@@ -18,6 +18,26 @@ with open(rengar_data, "r") as file:
             pump = att_str["pump"]
             pump_n = att_str["pump_n"]
             suffix = att_str["suffix"]
-            grep_time, grep_match = measure_grep(pattern, prefix+pump*pump_n+suffix)
-            att_str_short = f"{prefix} + {pump} * {pump_n} + {suffix}"
-            print(f"{csv_quotes(pattern)}, {csv_quotes(att_str_short)}, {format_time(grep_time)}")
+            attack_string =  prefix+pump*pump_n+suffix
+            grep_time, grep_match = measure_grep(pattern, attack_string)
+            
+            
+            # TODO: make this a function
+            rsa_compile_time, rsa_match_time, rsa_match = measure_rsa(pattern, attack_string)
+            if rsa_compile_time == PARSE_ERROR or rsa_compile_time == RSA_ERROR or rsa_compile_time == TIMEOUT:
+                total_rsa_time = rsa_compile_time
+            else:
+                total_rsa_time = rsa_match_time + rsa_compile_time
+            # TODO
+
+            if isinstance(total_rsa_time, float) and isinstance(grep_time, float) and rsa_match != grep_match:
+                print(f"RESULTS NOT MATCHED FOR REGEX {pattern}", file=sys.stderr)
+                print(f"     rsa:{rsa_match}, enemy:{grep_match}", file=sys.stderr)
+                att_str["result_match"] = False
+            else:
+                att_str["result_match"] = True
+
+            att_str["grep_time"] = format_time(grep_time)
+            att_str["rsa_time"] = format_time(total_rsa_time)
+            att_str["rsa_compile_time"] = format_time(rsa_compile_time)
+        print(json.dumps(data))

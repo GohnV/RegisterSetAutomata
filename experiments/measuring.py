@@ -39,7 +39,7 @@ def measure_grep(pattern, attack_string):
             
             command = ["timeout", "100s", "grep", "-Ez", pattern]
 
-            GREP_REPETITIONS = 100
+            GREP_REPETITIONS = 10
             input_string = (attack_string + "\0") * GREP_REPETITIONS
 
             t0 = time.perf_counter()
