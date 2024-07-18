@@ -151,7 +151,7 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
                 if a_op is c.RANGE:
                     start, end = a_av
                     for i in range(start, end):
-                        in_char_set[1].add(chr(a_av))
+                        in_char_set[1].add(chr(i))
                 elif a_op is c.LITERAL:
                     in_char_set[1].add(chr(a_av))
             chars = rsa_set_union(chars, in_char_set)
@@ -299,11 +299,11 @@ def _create_automaton(sub_exp, level=0):
                     elif a == c.CATEGORY_NOT_WORD:
                         neg, chars = rsa_set_union(myset_chars, ('^', WORD_CHARS))
                     else:
-                        print(op, a)
+                        #print(op, a)
                         return False #unsupported category
                     chars = set(chars)
                 else:
-                    print(op, a)
+                    #print(op, a)
                     return False #unsupported type
                 #print((level+1)*"  " + str(op), a)
             #CREATE_AUT
