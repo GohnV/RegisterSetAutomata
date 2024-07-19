@@ -92,6 +92,7 @@ def _one_trans_aut(chars:set, negate: bool = False) -> NRA:
     t = Transition(q1, symbol, set(), set(), {}, q2)
     return NRA({q1, q2}, set(), {t}, {q1}, {q2})
 
+#FIXME: probably should reuse more code from create_automaton
 def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
     length = 0
     chars = (' ', set())
@@ -138,23 +139,8 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
 
         elif op is c.IN:
             length += 1
-            neg_sign = ' '
-            if av[0][0] == c.NEGATE:
-                neg_sign = '^'
-                av_chars = av[1:]
-            else:
-                av_chars = av
-            in_char_set = (neg_sign, set())
-            for a in av_chars: 
-
-                a_op, a_av = a
-                if a_op is c.RANGE:
-                    start, end = a_av
-                    for i in range(start, end):
-                        in_char_set[1].add(chr(i))
-                elif a_op is c.LITERAL:
-                    in_char_set[1].add(chr(a_av))
-            chars = rsa_set_union(chars, in_char_set)
+            chars = _get_set_chars(av)
+            if chars == False: return False
         elif op is c.NOT_LITERAL:
             length += 1
             chars = rsa_set_union(chars, ('^', {chr(av)}))
@@ -175,6 +161,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
     if ret == False: #checking equality to False to prevent potential empty tuple shenanigans
         return False
     len, symb = ret
+    #print(ret)
     if ((not g_simulate_transducer) and len > 1):
         return False
     #create automaton
@@ -231,7 +218,6 @@ def _repeat_aut(aut: NRA, min: int, max) -> NRA:
         tmp = _iterate_aut(aut)
         ret_aut = _concatenate_aut(ret_aut, tmp)
     else:
-    #CHECK OFF BY ONE ERRORS
         tmp_states = {f for f in ret_aut.F} #we dont need more repetitions to accept
         for i in range(max-min):
             tmp = _copy_aut(aut)
@@ -256,6 +242,51 @@ def _branch_aut(auts: set) -> NRA:
             ret_aut.add_transition(t)
     return ret_aut
 
+def _get_set_chars(av):
+    #print(av)
+    union_dict = {' ':rsa_set_union, '^':rsa_set_difference}
+    add_dict = {' ':rsa_set_add_char, '^':rsa_set_remove_char}
+    neg = ' '
+    chars = frozenset()
+    set_neg = ' '
+    if av[0] == (c.NEGATE, None):
+        ##print(c.NEGATE)
+        set_neg  = neg = '^'
+        av.pop(0)
+    for op, a in av:
+        #print(op, a)
+        #print(chars)
+        if op == c.RANGE:
+            start, end = a
+            for i in range(start, end+1):
+                neg, chars = add_dict[set_neg]((neg, chars), chr(i))  
+        elif op == c.LITERAL:
+            neg, chars = add_dict[set_neg]((neg, chars), chr(a)) 
+        elif op == c.CATEGORY:
+            ##print("test")
+            myset_chars = (neg, chars)
+            if a == c.CATEGORY_SPACE:
+                neg, chars = union_dict[set_neg](myset_chars, (' ', WHITESPACE))
+            elif a == c.CATEGORY_NOT_SPACE:
+                neg, chars = union_dict[set_neg](myset_chars, ('^', WHITESPACE))
+                #print(neg, chars)
+            elif a == c.CATEGORY_DIGIT:
+                neg, chars = union_dict[set_neg](myset_chars, (' ', DIGITS))
+            elif a == c.CATEGORY_NOT_DIGIT:
+                neg, chars = union_dict[set_neg](myset_chars, ('^', DIGITS))
+            elif a == c.CATEGORY_WORD:
+                neg, chars = union_dict[set_neg](myset_chars, (' ', WORD_CHARS))
+            elif a == c.CATEGORY_NOT_WORD:
+                neg, chars = union_dict[set_neg](myset_chars, ('^', WORD_CHARS))
+            else:
+                ##print(op, a)
+                return False #unsupported category
+            chars = set(chars)
+        else:
+            ##print(op, a)
+            return False #unsupported type
+    return neg, chars
+
 def _create_automaton(sub_exp, level=0):
     global g_anchor_start, g_anchor_end
     #nl = True
@@ -267,54 +298,21 @@ def _create_automaton(sub_exp, level=0):
     #CONCATENATE ALL AUTOMATA CREATED IN THIS LOOP
     for op, av in sub_exp.data:
         #print(level*"  " + str(op), end='')
-        if op is c.IN:
+        if op == c.IN:
             # member sublanguage
-            #print()
-            neg = ' '
-            chars = set()
-            if av[0] == (c.NEGATE, None):
-                #print(c.NEGATE)
-                neg = '^'
-                av.pop(0)
-            for op, a in av:
-                
-                if op == c.RANGE:
-                   start, end = a
-                   for i in range(start, end):
-                       chars.add(chr(i))  
-                elif op == c.LITERAL:
-                    chars.add(chr(a))
-                elif op == c.CATEGORY:
-                    myset_chars = (neg, frozenset(chars))
-                    if a == c.CATEGORY_SPACE:
-                        neg, chars = rsa_set_union(myset_chars, (' ', WHITESPACE))
-                    elif a == c.CATEGORY_NOT_SPACE:
-                        neg, chars = rsa_set_union(myset_chars, ('^', WHITESPACE))
-                    elif a == c.CATEGORY_DIGIT:
-                        neg, chars = rsa_set_union(myset_chars, (' ', DIGITS))
-                    elif a == c.CATEGORY_NOT_DIGIT:
-                        neg, chars = rsa_set_union(myset_chars, ('^', DIGITS))
-                    elif a == c.CATEGORY_WORD:
-                        neg, chars = rsa_set_union(myset_chars, (' ', WORD_CHARS))
-                    elif a == c.CATEGORY_NOT_WORD:
-                        neg, chars = rsa_set_union(myset_chars, ('^', WORD_CHARS))
-                    else:
-                        #print(op, a)
-                        return False #unsupported category
-                    chars = set(chars)
-                else:
-                    #print(op, a)
-                    return False #unsupported type
-                #print((level+1)*"  " + str(op), a)
+            ret = _get_set_chars(av)
+            if ret == False: return False
+            neg, chars = ret
+                ##print((level+1)*"  " + str(op), a)
             #CREATE_AUT
             aut_tmp = _one_trans_aut(chars, negate=(neg == '^'))
         elif op is c.BRANCH:
-            #print()
+            ##print()
             #BRANCH ALL AUTOMATA CREATED IN THE LOOP
             _branch_auts = set()
             for i, a in enumerate(av[1]):
                 if i:
-                    #print(level*"  " + "OR")
+                    ##print(level*"  " + "OR")
                     pass
                 #a.dump(level+1)
                 _branch_auts.add(_create_automaton(a, level+1))
@@ -328,6 +326,7 @@ def _create_automaton(sub_exp, level=0):
             group_num = av[0]
             sub_pattern = av[3]
             #print(" ", end='')
+            #print(group_num, sub_pattern)
             # if backreferenced, call create_capture or whatever its called, else call _create_automaton
             if group_num in g_back_referenced:
                 aut_tmp = _capt_group_aut(sub_pattern, group_num)
