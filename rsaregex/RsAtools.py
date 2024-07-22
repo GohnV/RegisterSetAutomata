@@ -20,11 +20,14 @@ def powerset(iterable):
     s = list(iterable)
     return it.chain.from_iterable(it.combinations(s, r) for r in range(len(s)+1))
 
-def rsa_set_add_char(set: tuple, char: str):
-    if set[0] == '^':
-        set[1].discard(char)
-    elif set[0] == ' ':
-        set[1].add(char)
+def rsa_set_add_char(my_set: tuple, char: str):
+    my_set_neg, my_set_set = my_set
+    my_set_set = set(my_set_set)
+    if my_set_neg == '^':
+        my_set_set.discard(char)
+    elif my_set_neg == ' ':
+        my_set_set.add(char)
+    return my_set_neg, frozenset(my_set_set)
 
 def rsa_set_remove_char(my_set: tuple, char: str):
     my_set_neg, my_set_set = my_set
@@ -33,7 +36,7 @@ def rsa_set_remove_char(my_set: tuple, char: str):
         my_set_set.add(char)
     elif my_set_neg == ' ':
         my_set_set.discard(char)
-    return my_set_neg, my_set_set
+    return my_set_neg, frozenset(my_set_set)
 
 def rsa_set_union(t1, t2):
     if t1[0] == '^' and t2[0] == '^':

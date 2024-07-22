@@ -131,7 +131,7 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
 
         elif op is c.LITERAL:
             length += 1
-            rsa_set_add_char(chars, chr(av))
+            chars = rsa_set_add_char(chars, chr(av))
 
         elif op is c.ANY:
             length += 1
@@ -246,12 +246,12 @@ def _get_set_chars(av):
     #print(av)
     union_dict = {' ':rsa_set_union, '^':rsa_set_difference}
     add_dict = {' ':rsa_set_add_char, '^':rsa_set_remove_char}
-    neg = ' '
-    chars = frozenset()
+    chars =(' ', frozenset())
     set_neg = ' '
     if av[0] == (c.NEGATE, None):
         ##print(c.NEGATE)
-        set_neg  = neg = '^'
+        set_neg  = '^'
+        chars = ('^', frozenset())
         av.pop(0)
     for op, a in av:
         #print(op, a)
@@ -259,33 +259,31 @@ def _get_set_chars(av):
         if op == c.RANGE:
             start, end = a
             for i in range(start, end+1):
-                neg, chars = add_dict[set_neg]((neg, chars), chr(i))  
+                chars = add_dict[set_neg]((chars), chr(i))  
         elif op == c.LITERAL:
-            neg, chars = add_dict[set_neg]((neg, chars), chr(a)) 
+            chars = add_dict[set_neg]((chars), chr(a)) 
         elif op == c.CATEGORY:
             ##print("test")
-            myset_chars = (neg, chars)
             if a == c.CATEGORY_SPACE:
-                neg, chars = union_dict[set_neg](myset_chars, (' ', WHITESPACE))
+                chars = union_dict[set_neg](chars, (' ', WHITESPACE))
             elif a == c.CATEGORY_NOT_SPACE:
-                neg, chars = union_dict[set_neg](myset_chars, ('^', WHITESPACE))
+                chars = union_dict[set_neg](chars, ('^', WHITESPACE))
                 #print(neg, chars)
             elif a == c.CATEGORY_DIGIT:
-                neg, chars = union_dict[set_neg](myset_chars, (' ', DIGITS))
+                chars = union_dict[set_neg](chars, (' ', DIGITS))
             elif a == c.CATEGORY_NOT_DIGIT:
-                neg, chars = union_dict[set_neg](myset_chars, ('^', DIGITS))
+                chars = union_dict[set_neg](chars, ('^', DIGITS))
             elif a == c.CATEGORY_WORD:
-                neg, chars = union_dict[set_neg](myset_chars, (' ', WORD_CHARS))
+                chars = union_dict[set_neg](chars, (' ', WORD_CHARS))
             elif a == c.CATEGORY_NOT_WORD:
-                neg, chars = union_dict[set_neg](myset_chars, ('^', WORD_CHARS))
+                chars = union_dict[set_neg](chars, ('^', WORD_CHARS))
             else:
                 ##print(op, a)
                 return False #unsupported category
-            chars = set(chars)
         else:
             ##print(op, a)
             return False #unsupported type
-    return neg, chars
+    return chars
 
 def _create_automaton(sub_exp, level=0):
     global g_anchor_start, g_anchor_end
@@ -371,7 +369,7 @@ def _create_automaton(sub_exp, level=0):
                 return False
 
         else:
-            
+
             # UNSUPPORTED: (TODO: which should be supported?)
             #       ASSERT
             #       ASSERT_NOT
