@@ -248,14 +248,14 @@ class DRsA(RsA):
     def _create_trans_dict(self):
         result = {}
         for t in self.delta:
-            key = (frozenset(t.orig.states), frozenset(t.orig.mapping))
+            key = (frozenset(t.orig.states), frozenset(t.orig.mapping.items()))
             if key not in result:
                 result[key] = set()
             result[key].add(t)
         
         #also add states without outgoing transitions
         for q in self.Q:
-            key = (frozenset(q.states), frozenset(q.mapping))
+            key = (frozenset(q.states), frozenset(q.mapping.items()))
             if key not in result:
                 result[key] = set()
         return result
@@ -275,18 +275,27 @@ class DRsA(RsA):
             newConf[r] = tmp
         return newConf
             
+    #TODO: shouldn't be necessary to test regConf.keys()
+    def _guard_test_old(self, input, regConf, eqG, diseqG):
+        for g in eqG:
+            if g in regConf.keys():
+                if not input in regConf[g]:
+                    return False
+        for g in diseqG:
+            if g in regConf.keys():
+                if input in regConf[g]:
+                    return False
+        return True
+    
     #tests guards of a transition
     def _guard_test(self, input, regConf, eqG, diseqG):
         for g in eqG:
-            for r in regConf.keys():
-                if g == r:
-                    if not input in regConf[r]:
-                        return False
+            if not input in regConf[g]:
+                return False
+                
         for g in diseqG:
-            for r in regConf.keys():
-                if g == r:
-                    if input in regConf[r]:
-                        return False
+            if input in regConf[g]:
+                return False
         return True
 
     def run_word(self, word: str) -> bool:
@@ -305,16 +314,25 @@ class DRsA(RsA):
         for s in word:
             #print(c.states, str(c.mapping), end='')
             #print('--', end='')
+            #print(c.states, s, regConf)
+
             found = False
-            for t in trans_dict[(frozenset(c.states),frozenset(c.mapping))]:
+            trans_f = None
+            for t in trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
                 if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
-                    c = t.dest
-                    regConf = self._update_regs(regConf,t.update, s)
+                    if found:
+                        # print("FOUND DUPLICATE:")
+                        # print(trans_f.orig, trans_f.orig.states, trans_f.orig.mapping, trans_f.symbol, trans_f.eqGuard, trans_f.diseqGuard, trans_f.update)
+                        # print(t.orig, t.orig.states, t.orig.mapping, t.symbol, t.eqGuard, t.diseqGuard, t.update)
+                        pass
                     found = True
-                    break
+                    trans_f = t
+                    #break
             if not found:
                 #run dies
                 return False
+            c = trans_f.dest
+            regConf = self._update_regs(regConf,trans_f.update, s)
             #print(c.states)
         for f in self.F:
             if c.states == f.states and c.mapping == f.mapping:
@@ -622,6 +640,7 @@ class NRA(RsA):
             G = set(powerset(regs))
             for a in A:
                 for g in G:
+                    g = set(g)
                     T = set()
                     S1 = set()
                     #T ← {q -[a | g=, g!=, ·]-> q′ ∈ ∆ | q ∈ S, g= ⊆ g, g!= ∩ g = ∅}:

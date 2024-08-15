@@ -2,6 +2,7 @@ import sre_parse as p
 import sre_constants as c
 from rsaregex.RsAtools import *
 from typing import Union
+import itertools
 
 WHITESPACE = frozenset(" \t\n\r\v\f")
 DIGITS = frozenset("0123456789")
@@ -10,7 +11,8 @@ ASCIILETTERS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 WORD_CHARS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
 
 g_state_id = 0 # for generating sequential ids for states
-g_back_referenced = [] # store all back-referenced capture group numbers
+g_back_referenced = {} # store all back-referenced capture group numbers and their lengths
+g_optional = {}
 g_anchor_start = False
 g_anchor_end = False
 g_simulate_transducer = False
@@ -24,6 +26,12 @@ def _get_new_state_id() -> int:
 def _reg_of_num(capt_num: int) -> str:
     return "r"+str(capt_num)
 
+def _check_opt(capt_num: int) -> bool:
+    if capt_num in g_optional.keys():
+        return g_optional[capt_num]
+    else:
+        return False
+
 def _find_br_cg(sub_pattern: p.SubPattern):
     global g_back_referenced
     seqtypes = (tuple, list)
@@ -32,6 +40,7 @@ def _find_br_cg(sub_pattern: p.SubPattern):
             for a in av[1]:
                 _find_br_cg(a)
         elif op is c.GROUPREF_EXISTS:
+            #TODO:???
             condgroup, item_yes, item_no = av
             _find_br_cg(item_yes)
             if item_no:
@@ -41,7 +50,7 @@ def _find_br_cg(sub_pattern: p.SubPattern):
                 if isinstance(a, p.SubPattern):
                     _find_br_cg(a)
         elif op is c.GROUPREF:
-            g_back_referenced.append(av)
+            g_back_referenced[av] = None
 
 def _unanchor_aut(aut: NRA) -> NRA:
     new_aut = NRA.empty()
@@ -92,6 +101,195 @@ def _one_trans_aut(chars:set, negate: bool = False) -> NRA:
     t = Transition(q1, symbol, set(), set(), {}, q2)
     return NRA({q1, q2}, set(), {t}, {q1}, {q2})
 
+def _get_br_cg_lengths(pattern: p.SubPattern):
+    global g_back_referenced
+    for cg_num in sorted(g_back_referenced):
+        cg = _find_cg_by_num(cg_num, pattern)
+        g_back_referenced[cg_num] = _get_cg_len(cg)
+
+def _find_cg_by_num(cg_num: int, pattern: p.SubPattern) -> p.SubPattern:
+    for op, av in pattern.data:
+        if op is c.BRANCH:
+            for a in av[1]:
+                res = _find_cg_by_num(cg_num, a)
+                if res != False:
+                    return res
+
+        elif op is c.SUBPATTERN:
+            #CAPTURE GROUP
+            group_num = av[0]
+            sub_pat = av[3]
+            if group_num == cg_num:
+                return sub_pat
+            else:
+                res = _find_cg_by_num(cg_num, sub_pat)
+                if res != False:
+                    return res
+
+        elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+            min = av[0]
+            max = av[1]
+            sub_pat = av[2]
+            res = _find_cg_by_num(cg_num, sub_pat)
+            if res != False:
+                return res
+        
+        else:
+            continue
+    return False
+
+def _find_opt_cgs(sub_pattern: p.SubPattern):
+    global g_optional
+    for op, av in sub_pattern.data:
+        if op is c.BRANCH:
+            for a in av[1]:
+                _find_opt_cgs(a)
+
+        elif op is c.SUBPATTERN:
+            #CAPTURE GROUP
+            group_num = av[0]
+            sub_pat = av[3]
+
+            if group_num in g_back_referenced.keys():
+                ret = _get_cg_len(sub_pat)
+                if ret == False: continue
+                min_len, max_len = ret
+                if min_len == 0 and max_len == 1:
+                    g_optional[group_num] = True
+            else:
+                _find_opt_cgs(sub_pat)
+
+        elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+            min = av[0]
+            max = av[1]
+            sub_pat = av[2]
+            if min == 1 and max == 1:
+                _find_opt_cgs(sub_pat)
+            # TODO: maybe should work if min=0, max=1 (have to check if sub_pat is a back-referenced capture group also)
+            # TODO: also possibly expandable if there is a bounded number of repetitions
+
+        else:
+            continue
+
+def add_with_maxrep(a: int, b: int):
+    if a == c.MAXREPEAT or b == c.MAXREPEAT:
+        return c.MAXREPEAT
+    else:
+        return a + b
+
+def _get_cg_len(sub_pattern: p.SubPattern) -> (int, int) or False:
+    min_len = 0
+    max_len = 0
+    for op, av in sub_pattern.data:
+        #print(op, av)
+        if op is c.BRANCH:
+            b_mins = []
+            b_maxs = []
+            #get lengths of all branches
+            for b in av[1]:
+                b_ret = _get_cg_len(b)
+                if b_ret == False: #checking equality to false to prevent potential empty tuple shenanigans
+                    return False
+                b_min, b_max = b_ret
+                b_mins.append(b_min)
+                b_maxs.append(b_max)
+            min_len += min(b_mins)
+            max_len = add_with_maxrep(max_len, max(b_maxs))
+
+        elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+            rep_min, rep_max, rep_pat = av
+            rep_ret = _get_cg_len(rep_pat)
+            if rep_ret == False: #checking equality to false to prevent potential empty tuple shenanigans
+                return False
+            rep_min_len, rep_max_len = rep_ret
+            min_len += rep_min_len * rep_min
+            if rep_max == c.MAXREPEAT and rep_max_len > 0:
+                max_len = c.MAXREPEAT
+            else:
+                max_len = add_with_maxrep(max_len, rep_max_len * rep_max)
+
+        elif op is c.LITERAL or\
+        op is c.ANY or\
+        op is c.IN or \
+        op is c.NOT_LITERAL:
+            min_len += 1
+            max_len = add_with_maxrep(max_len, 1)
+
+        elif op is c.SUBPATTERN:
+            group_num = av[0]
+            sub_sub_pattern = av[3]
+            sub_ret = _get_cg_len(sub_sub_pattern)
+            if sub_ret == False: return False
+            sub_min, sub_max = sub_ret
+            min_len += sub_min
+            max_len = add_with_maxrep(max_len, sub_max)
+
+        elif op is c.GROUPREF:
+            # TODO: currently just looking at the result found earlier,
+            # should always be filled in before this one gets called
+            cg_min_len, cg_max_len = g_back_referenced[av]
+            min_len += cg_min_len
+            max_len = add_with_maxrep(max_len, cg_max_len)
+    
+        else:
+            # unsupported construction
+            return False
+    #end for loop
+    return min_len, max_len
+
+
+def _get_cg_chars(sub_pattern: p.SubPattern) -> (str, set()) or False:
+    chars = (' ', set())
+    for op, av in sub_pattern.data:
+        if op is c.BRANCH:
+            for b in av[1]:
+                b_ret = _get_cg_chars(b)
+                if b_ret == False: return False
+                b_chars = b_ret
+                chars = rsa_set_union(chars, b_chars)
+
+        elif op is c.MAX_REPEAT or op is c.MIN_REPEAT:
+            rep_min, rep_max, rep_pat = av
+            rep_ret = _get_cg_chars(rep_pat)
+            if rep_ret == False: return False
+            rep_chars = rep_ret
+            chars = rsa_set_union(chars, rep_chars)
+
+        elif op is c.LITERAL:
+            chars = rsa_set_add_char(chars, chr(av))
+
+        elif op is c.ANY:
+            chars = ANYCHAR
+
+        elif op is c.IN:
+            chars = _get_set_chars(av)
+            if chars == False: return False
+
+        elif op is c.NOT_LITERAL:
+            chars = rsa_set_union(chars, ('^', {chr(av)}))
+
+        elif op is c.SUBPATTERN:
+            group_num = av[0]
+            sub_sub_pattern = av[3]
+            sub_ret = _get_cg_chars(sub_sub_pattern)
+            if sub_ret == False: return False
+            sub_chars = sub_ret
+            chars = rsa_set_union(chars, sub_chars)
+
+        elif op is c.GROUPREF:
+            #TODO: should be allowed
+            return ANYCHAR
+
+        else:
+            # unsupported construction
+            return False
+    #end for loop
+    #freeze set:
+    chars = (chars[0], frozenset(chars[1]))
+    #print("length", length, "chars", chars)
+    return chars
+
+
 #FIXME: probably should reuse more code from create_automaton
 def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
     length = 0
@@ -141,10 +339,24 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             length += 1
             chars = _get_set_chars(av)
             if chars == False: return False
+
         elif op is c.NOT_LITERAL:
             length += 1
             chars = rsa_set_union(chars, ('^', {chr(av)}))
-        #end elif chain
+
+        elif op is c.SUBPATTERN:
+            group_num = av[0]
+            sub_sub_pattern = av[3]
+            sub_ret = _check_fix_len(sub_sub_pattern)
+            if sub_ret == False: return False
+            sub_len, sub_chars = sub_ret
+            length += sub_len
+            chars = rsa_set_union(chars, sub_chars)
+
+        elif op is c.GROUPREF:
+            #TODO: should be allowed
+            return False
+
         else:
             # unsupported construction
             return False
@@ -156,16 +368,25 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
 
 # check if capture group is static length and
 # create an automaton with all the possible characters
-def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA: 
-    ret = _check_fix_len(sub_pattern)
-    if ret == False: #checking equality to False to prevent potential empty tuple shenanigans
-        return False
-    len, symb = ret
-    #print(ret)
-    if ((not g_simulate_transducer) and len > 1):
-        return False
-    #create automaton
+def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
+    ret = _get_cg_len(sub_pattern)
+    if ret == False: return False
+    min_len, max_len = ret
+
     q1 = _get_new_state_id()
+
+    if max_len == 0 or _check_opt(capt_num):
+        return NRA({q1}, set(), set(), {q1}, {q1})
+
+    if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
+        return False
+
+    ret = _get_cg_chars(sub_pattern)
+
+    if ret == False: return False
+    symb = ret
+
+    #create automaton
     q2 = _get_new_state_id()
     r = _reg_of_num(capt_num)
     t = Transition(q1, symb, set(), set(), {r : IN}, q2)
@@ -173,6 +394,8 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
 
 def _backref_aut(capt_num: int) -> NRA:
     q1 = _get_new_state_id()
+    if _check_opt(capt_num) or g_back_referenced[capt_num] == (0,0):
+        return NRA({q1}, set(), set(), {q1}, {q1})
     q2 = _get_new_state_id()
     r = _reg_of_num(capt_num)
     t = Transition(q1, ANYCHAR, {r}, set(), {}, q2)
@@ -248,12 +471,13 @@ def _get_set_chars(av):
     add_dict = {' ':rsa_set_add_char, '^':rsa_set_remove_char}
     chars =(' ', frozenset())
     set_neg = ' '
+    char_av = av
     if av[0] == (c.NEGATE, None):
         ##print(c.NEGATE)
         set_neg  = '^'
         chars = ('^', frozenset())
-        av.pop(0)
-    for op, a in av:
+        char_av = av[1:]
+    for op, a in char_av:
         #print(op, a)
         #print(chars)
         if op == c.RANGE:
@@ -326,7 +550,7 @@ def _create_automaton(sub_exp, level=0):
             #print(" ", end='')
             #print(group_num, sub_pattern)
             # if backreferenced, call create_capture or whatever its called, else call _create_automaton
-            if group_num in g_back_referenced:
+            if group_num in g_back_referenced.keys():
                 aut_tmp = _capt_group_aut(sub_pattern, group_num)
             else:
                 aut_tmp = _create_automaton(sub_pattern, level+1) 
@@ -386,19 +610,33 @@ def _create_automaton(sub_exp, level=0):
     #end of for loop
     return ret_automaton
 
-
-
+def _gen_opt_combinations():
+    global g_optional
+    combinations = itertools.product([True, False], repeat=len(g_optional.keys()))
+    return [dict(zip(g_optional.keys(), combination)) for combination in combinations]
 
 def create_nra(pattern: str) -> Union[NRA, bool]:
-    global g_back_referenced, g_anchor_start, g_anchor_end
-    g_back_referenced = []
+    global g_back_referenced, g_anchor_start, g_anchor_end, g_optional, g_state_id
+    g_back_referenced = {}
+    g_optional = {}
     g_anchor_start = False
     g_anchor_end = False
+    g_state_id = 0
     pat = p.parse(pattern)
     _find_br_cg(pat)
-    nra = _create_automaton(pat)
-    if nra:
-        nra = _unanchor_aut(nra)
+    #TODO: possibly could use lengths to decide optionality
+    _get_br_cg_lengths(pat)
+    _find_opt_cgs(pat)
+    combinations = _gen_opt_combinations()
+    nras = []
+    for c in combinations:
+        g_optional = c
+        nra = _create_automaton(pat)
+        if nra:
+            nra = _unanchor_aut(nra)
+            nras.append(nra)
+        else: return False
+    nra = _branch_aut(set(nras))
     return nra
 
 def create_rsa(pattern: str) -> Union[DRsA, bool]:
@@ -406,7 +644,6 @@ def create_rsa(pattern: str) -> Union[DRsA, bool]:
     if nra == False:
         return False
     #print(nra)
-    nra = _unanchor_aut(nra)
     nra.remove_eps()
     nra.remove_unreachable()
     rsa = nra.determinize(postprocess=True)
