@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <(\w+)\s*>\s*<anon\s*>\s*<anon\s*>1\.1</anon\s*>\s*<anon\s*>1\.2</anon\s*>\s*</anon\s*>\s*<anon\s*>\s*<anon\s*>2\.1</anon\s*>\s*<anon\s*>2\.2</anon\s*>\s*</anon\s*>\s*</\1\s*>
+PARSE: OK
+SIZE: 148
+PUMPABLE: NO
+TIME: 0.000177 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 148
+>> AVG NFA SIZE: 148
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000177 (s)
+>> TIME MAX: 0.000177 (s)

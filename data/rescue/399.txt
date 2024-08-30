@@ -1,0 +1,15 @@
+\[(\+|\*|\(|%)([^:\+\[\]]+)([^\[\]]*?)(\1|\)|%)\]
+1: <27 : 54.642857142857146 : \+-xoy[%@L\!-xoy%;vyg37n->
+===Initiate End===
+Node Coverage: 27/28
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 27/28
+Vulnerable: \+-xoy[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwKHxm1urVHO4YwNRLwK7w71D7eBeDe9773e1FCf1EAe37EbC9AebDEFdaAeF7
+100272 : 445.6533333333333 : \+-xoy[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwKHxm1urVHO4YwNRLwK7w71D7eBeDe9773e1FCf1EAe37EbC9AebDEFdaAeF7
+100158 : 625.9875 : \[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwK
+100158 : \[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwK
+100158 : 0 : \[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwK
+100626 : \[%@L\%;vy%@L\!-xoy%;vyg37n;vy%@L\!-xoy%;vyg37n-LWZYNZKOVVUEOJPYVROMLKYDNFQTAKFUMFLMVUSYWTGXQEMSVALBE\!-xoy%;vy%VRSLwDF5JjedZyb0WlaDgtEO5emSfiRekevjTSVLNIwK
+TIME: 36.819673999 (s)
+Attack failed

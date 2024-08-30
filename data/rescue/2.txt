@@ -1,0 +1,9 @@
+Regexes with only bounded capture groups back-referenced: 2378
+1: <2 : 0.031746031746031744 : Regexes with only bounded capture groups back-referenced: 2378>
+===Initiate End===
+Node Coverage: 2/3
+===Genetic Algorithm End===
+Node Coverage: 2/3
+Normal fail
+TIME: 0.299980601 (s)
+Attack failed

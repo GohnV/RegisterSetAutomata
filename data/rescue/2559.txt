@@ -1,0 +1,11 @@
+(\{\{\s*[Aa]rticle ?issues[^{}]*\|\s*)(\w+)\s*=\s*\|\s*((?:[^{}]+?\|)?\s*\2\s*=\s*[^\|}{\s])
+1: <7 : 2.28 : 
+wV`@J
+l`g3-r:#_25j{{ +>
+===Initiate End===
+Node Coverage: 7/48
+===Genetic Algorithm End===
+Node Coverage: 8/48
+Normal fail
+TIME: 0.798044255 (s)
+Attack failed

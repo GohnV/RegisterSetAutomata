@@ -1,0 +1,9 @@
+src=("|')(.*?)\1
+4: <5 : 1.0 : src=><12 : 2.0 : src="><13 : 2.2857142857142856 : src="$><11 : 1.5714285714285714 : src="">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 11.608325257 (s)
+Attack failed

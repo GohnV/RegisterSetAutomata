@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ((?:^|\n)([\t ]*)):[\w-]+(\n(?:\2[\t ]+.+|\s*?(?=\n)))+
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(46)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

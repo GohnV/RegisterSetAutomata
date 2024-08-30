@@ -1,0 +1,9 @@
+(<)(distributionManagement)\s*(>)(?!<\s*/\2\s*>)
+1: <17 : 1.913978494623656 : z?,}uv	AFtfA+e!gkH3xJz} X`oM"|:%1<distributionManagkH3xJz} X`oM"|:%1<distributionManagement	AFtfA+e!gkH3xJz} X`oM"|:%1<distributionManagkH3xJz} X`oM"|:%1<distributionManagement>>
+===Initiate End===
+Node Coverage: 17/25
+===Genetic Algorithm End===
+Node Coverage: 20/25
+Normal fail
+TIME: 2.552228717 (s)
+Attack failed

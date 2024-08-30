@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*\$(\w+)\s*(?:=\s*(\-?\d+|NULL|(['"]).*?(?<!\\)\3))?$
+PARSE: ERROR {ParsingData.InvalidBackreference(50)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

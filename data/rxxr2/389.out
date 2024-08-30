@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^\\\.(.*?)\\=\\(['"])(.*?)\\\2((?:\\,.*)?)$
+PARSE: OK
+SIZE: 29
+PUMPABLE: NO
+TIME: 0.000032 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 29
+>> AVG NFA SIZE: 29
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000032 (s)
+>> TIME MAX: 0.000032 (s)

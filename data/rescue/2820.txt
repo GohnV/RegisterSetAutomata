@@ -1,0 +1,9 @@
+\/([^\/]+)\/\1\.html$
+1: <11 : 4.705882352941177 : \/\/\l$1\/\1\/\/$lmthh.\1\/hh.\1\//.\1\//\/\.html$>
+===Initiate End===
+Node Coverage: 11/12
+===Genetic Algorithm End===
+Node Coverage: 11/12
+Normal fail
+TIME: 8.425930624 (s)
+Attack failed

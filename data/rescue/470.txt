@@ -1,0 +1,9 @@
+([IXCM])\1{3,}|([VLD])\2+
+3: <9 : 6.6 : IXCM><12 : 7.125 : IXCMVLD><15 : 6.777777777777778 : IXCMVLDD>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 4.995190209 (s)
+Attack failed

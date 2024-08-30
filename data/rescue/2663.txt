@@ -1,0 +1,103 @@
+(.*?(\s+)\s+[^\n]+?\n(?=\2\S|\z))
+7: <8 : 5.4 : +?\n><11 : 9.666666666666666 : +?\n
+><13 : 15.142857142857142 : +?\n
+><14 : 146.56923076923076 : 
+
+GL}`]P#G %:OFv"f2Qo	s3F5NI!@,EIO@JEA~nF?,jgEO Q[;yb+K3vAp#pu><19 : 100.5 : z77PTO,-f
+-
+I}pvf4-fq\LqY	Hs.>	%Tfdn	1q(;*L>gb@XdUC%53\\=pr^\nZ+><23 : 101.56756756756756 : Q|SS2a1p
+(:#6sFR?=\2\S|\zou<S$8&+SkqsIRRw)'_#txojaDYb|,4_:n08	
+4y,'J
+><23 : 4.928571428571429 : cp>p:7h~CK<E5D!M	dLuZRB	+5f8B
+ 5?r&}
+
+x>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: +?\n
+		  
+
+ 	 
+
+	
+
+ 	 		  	
+		
+ 
+ 	 		   	 		
+
+	 		
+  
+ 
+
+		 	 	
+
+	 
+  
+		
+
+ 
+ 	
+ 
+   		 	
+	
+100192 : 801.536 : +?\n
+		  
+
+ 	 
+
+	
+
+ 	 		  	
+		
+ 
+ 	 		   	 		
+
+	 		
+  
+ 
+
+		 	 	
+
+	 
+  
+		
+
+ 
+ 	
+ 
+   		 	
+	
+100028 : 4001.12 : +?		  
+
+ 	 	 	 		
+100028 : +?		  
+
+ 	 	 	 		
+1000158 : 4 : +?		  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 		
+18472447 : +?		  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 				  
+
+ 	 	 	 		
+TIME: 2.314750928 (s)
+Attack failed

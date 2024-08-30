@@ -1,0 +1,9 @@
+\$this->rm_vars\((["'])(.+?)\1
+3: <3 : 0.1875 : $this->rm_vars(><10 : 0.6111111111111112 : $this->rm_vars("'><11 : 0.5789473684210527 : $this->rm_vars("'">
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 15.634140312 (s)
+Attack failed

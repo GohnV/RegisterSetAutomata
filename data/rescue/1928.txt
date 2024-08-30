@@ -1,0 +1,3 @@
+(\u{12345}|\u{23456}).\1
+TIME: 0.050465692 (s)
+Regex compile error

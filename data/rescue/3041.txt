@@ -1,0 +1,12 @@
+^( *)(bullet) [^\n]*(?:\n(?!\1allbull )[^\n]*)*
+5: <9 : 1.2857142857142858 : bullet><16 : 2.0 : bullet ><23 : 2.888888888888889 : bullet 
+><24 : 2.8 : bullet 
+ ><22 : 1.2941176470588236 : bullet 
+allbull >
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 1.309922915 (s)
+Attack failed

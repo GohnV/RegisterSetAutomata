@@ -1,0 +1,9 @@
+(background|background-image\s*:\s*url\s*\()(["']?)(.*?)(\2)(\s*\)(.*?);)
+5: <26 : 5.9411764705882355 : background-image><29 : 6.555555555555555 : background-image:><31 : 6.666666666666667 : background-image)><32 : 7.761904761904762 : background-image:url><28 : 4.526315789473684 : background-image);>
+===Initiate End===
+Node Coverage: 39/39
+===Genetic Algorithm End===
+Node Coverage: 39/39
+Normal fail
+TIME: 337.060158142 (s)
+Attack failed

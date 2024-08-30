@@ -1,0 +1,9 @@
+instance\(\s*(["'])((?:(?!\1)[A-z0-9.\-_]+))\1\s*\)
+6: <5 : 0.5 : instance(><13 : 1.1818181818181819 : instance("><17 : 1.5 : instance("a><13 : 1.0833333333333333 : instance(""><20 : 1.6153846153846154 : instance("a"><21 : 1.5714285714285714 : instance("a")>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 33.283449391 (s)
+Attack failed

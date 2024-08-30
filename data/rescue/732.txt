@@ -1,0 +1,9 @@
+<(\/?)span(?:\s+(?:class=(['"])hljs-.*?\2)?\s*|\s*)>
+1: <8 : 1.36 : lyG{E7Zc\lzX{Ez3y	)</)>
+===Initiate End===
+Node Coverage: 8/32
+===Genetic Algorithm End===
+Node Coverage: 8/32
+Normal fail
+TIME: 0.978474781 (s)
+Attack failed

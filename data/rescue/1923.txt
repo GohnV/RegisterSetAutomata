@@ -1,0 +1,9 @@
+<img[\s\S]+?(src|data-src|data-lazyload)=('|")([\s\S]+?)\2
+7: <3 : 0.6 : <img><9 : 3.0 : <imgsrc><12 : 5.375 : <imgsrcdata-src><16 : 5.9411764705882355 : <imgsrcdata-src=><21 : 6.555555555555555 : <imgsrcdata-src='><23 : 7.4 : <imgsrcdata-src='|"><23 : 1.9523809523809523 : <imgsrcdata-src='|"'>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 241.735586065 (s)
+Attack failed

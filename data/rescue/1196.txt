@@ -1,0 +1,9 @@
+(abc)(def)\1
+1: <9 : 1.6071428571428572 : ;):1]efab]Zpdv61Nbabcdefabc>
+===Initiate End===
+Node Coverage: 9/10
+===Genetic Algorithm End===
+Node Coverage: 9/10
+Normal fail
+TIME: 2.638348133 (s)
+Attack failed

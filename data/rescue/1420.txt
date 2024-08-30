@@ -1,0 +1,9 @@
+<(tt|code)>(.*?)</\1>
+1: <9 : 1.3418803418803418 : '<"<tt*\kGcMhdYU`*\krwMd`!GcMhdYU`*\krwM<tt*GcMhd!GcMhdYU`*\krwM<tt*GcMhdYU`*\krwM<tt*GcMhd!GcMhdYU`*\krwM<tt>
+===Initiate End===
+Node Coverage: 9/18
+===Genetic Algorithm End===
+Node Coverage: 17/18
+Normal fail
+TIME: 25.198591661 (s)
+Attack failed

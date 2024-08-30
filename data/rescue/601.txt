@@ -1,0 +1,15 @@
+([*~_]+|\b)(((https?|ftp|dict):\/\/|www\.)[^'">\s]+?\.[^'">\s]+?)()(\1)?(?=\s|$)(?!["<>])
+1: <49 : 7.2105263157894735 : httpWwwwT@D?X#2NTKTu=wwwT@D?X#<tUIsu=wsu=www.2NTKTu=wwwT@D?X#<tUIsu=www.ho>
+===Initiate End===
+Node Coverage: 49/50
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 49/50
+Vulnerable: www.www.2#X?D@.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.www.2#X?D@Twww=:\/+[t5{w.?www.www.2#X?D@Twww=:\/+[t5{pguT>
+100128 : 645.9870967741936 : www.www.2#X?D@.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.www.2#X?D@Twww=:\/+[t5{w.?www.www.2#X?D@Twww=:\/+[t5{pguT>
+100002 : 787.4173228346457 : www.www.2#X?.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.w.2#X?D@Twww=:\/+[t5{w.?www.www>
+100002 : www.www.2#X?.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.w.2#X?D@Twww=:\/+[t5{w.?www.www>
+100002 : 0 : www.www.2#X?.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.w.2#X?D@Twww=:\/+[t5{w.?www.www>
+100006 : www.www.2#X?.{)%)/?www.www.2#X.www.2#.2#X?{)%)/?www.www.2#X?D@Twww=:\/+[ww.www.2*~D@.#www.?www.w.2#X?D@Twww=:\/+[t5{w.?www.www>
+TIME: 33.395556551 (s)
+Attack failed

@@ -1,0 +1,10 @@
+<li\s+id="tree_(\d+)"\s+class="comment[^"]*">.*?<h4><a[^>]+>([^<]+)</a>.*?<span\s+id="comment_score_\1"\s+class="score">.*?Score:(\d+).*?</h4>.*?<a\s+href="[./\w]+/index.html">\s*(\w+).*?\((\d+)\)</a>(?:\s+<span\s+class="otherdetails".*?on\s+(\d+\.\d+.\d+\s\d+:\d+).*?</span>)?.*?<div\s+id="comment_body_\1">(.*?)</div>
+0: 
+===Initiate End===
+Node Coverage: 0/122
+failed when init
+===Genetic Algorithm End===
+Node Coverage: 0/122
+Normal fail
+TIME: 0.107870828 (s)
+Attack failed

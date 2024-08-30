@@ -1,0 +1,9 @@
+<(a|span)[^>]*><\/\1>
+1: <15 : 1.7894736842105263 : m<[a&u<>5<a&u></a>>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 14.245650882 (s)
+Attack failed

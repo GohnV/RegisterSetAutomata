@@ -1,0 +1,9 @@
+^m?(\W)(.*)(?:\1|>|}|\)|\])(.*?)$
+3: <17 : 8.5 : ]><25 : 10.666666666666666 : ]}><26 : 12.333333333333334 : ]}^m?>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 63.627078784 (s)
+Attack failed

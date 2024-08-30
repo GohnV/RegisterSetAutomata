@@ -1,0 +1,3 @@
+\\begin{(definition|example|remark|problem|exercise|conjecture|solution)}((.|\n)*?)\\end{\1}
+TIME: 0.040753044 (s)
+Regex compile error

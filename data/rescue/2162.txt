@@ -1,0 +1,9 @@
+(<<)("|'|)(RUBY)\2
+1: <12 : 2.8666666666666667 : pOm6ZZAb6Z\<<'>
+===Initiate End===
+Node Coverage: 12/16
+===Genetic Algorithm End===
+Node Coverage: 12/16
+Normal fail
+TIME: 1.480955263 (s)
+Attack failed

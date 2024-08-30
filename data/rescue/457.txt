@@ -1,0 +1,9 @@
+(?s)<(?:iframe|script)[^>]+src=(["\'])((?:https?:)?//player\.theplatform\.com/p/.+?)\1
+1: <6 : 1.2083333333333333 : w4}1+E}Xl?3z|\AP`m]<L:>
+===Initiate End===
+Node Coverage: 6/30
+===Genetic Algorithm End===
+Node Coverage: 6/30
+Normal fail
+TIME: 0.257962892 (s)
+Attack failed

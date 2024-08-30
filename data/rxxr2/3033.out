@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \s\w+?([=\/])(((('|")[^\4]*?\4)?)|([^\s<\/>]+))+
+PARSE: ERROR {ParsingData.UnsupportedEscape(24, 52)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

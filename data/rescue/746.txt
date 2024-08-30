@@ -1,0 +1,9 @@
+(^|\s)(\*\*|__)(.+?)\2(\s|$)
+2: <23 : 7.619047619047619 : **ue9C[**ueue9C['}\e><24 : 4.173913043478261 : **ue9C[**ueue9C['}\e**>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 13.130390439 (s)
+Attack failed

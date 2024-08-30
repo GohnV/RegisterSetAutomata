@@ -1,0 +1,9 @@
+([$v])\1                $ 
+1: <8 : 1.8392857142857142 : 	a}$$          $ }$$     $ }$$ $     $$                >
+===Initiate End===
+Node Coverage: 8/10
+===Genetic Algorithm End===
+Node Coverage: 8/10
+Normal fail
+TIME: 0.67732755 (s)
+Attack failed

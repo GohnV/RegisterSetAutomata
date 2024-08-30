@@ -1,0 +1,69 @@
+url\(\s*(['"]?)([^"'\)]*)\1\s*\)
+3: <15 : 3.0 : url(><16 : 4.777777777777778 : url(url\><17 : 2.4 : url(url\)>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: url(	osjxljnfdsqnrggvlakmrhmfsasztbcvwipwpimjwehbexllvwmhqurl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  	
+100049 : 840.7478991596639 : url(	osjxljnfdsqnrggvlakmrhmfsasztbcvwipwpimjwehbexllvwmhqurl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  	
+100049 : 1539.2153846153847 : url(	ourl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  
+100049 : url(	ourl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  
+100049 : 1 : url(	ourl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  
+103061 : url(	ourl(	  	 
+ 
+	
+
+
+			
+  	 	 		
+		
+		 
+  
+TIME: 6.957048662 (s)
+Attack failed

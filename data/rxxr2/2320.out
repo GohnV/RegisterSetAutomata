@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\b(([gimyus])(?![gimyus]*\2))+\b
+PARSE: ERROR {ParsingData.InvalidBackreference(26)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

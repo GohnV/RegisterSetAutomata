@@ -1,0 +1,6 @@
+= [1] =
+INPUT: .{1,128}?(?=(.)\1|\z)|.{128}
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(9)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

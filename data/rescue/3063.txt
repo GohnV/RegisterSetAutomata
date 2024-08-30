@@ -1,0 +1,9 @@
+var\s?(\w+)\s?=\s?\1;
+1: <17 : 1.263157894736842 : E"P%	.G:U\SQRU\eB@vEdTPk-rJg']varI=I;>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 112.166753768 (s)
+Attack failed

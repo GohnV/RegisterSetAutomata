@@ -1,0 +1,15 @@
+^( +)<p>one</p>\n\n\1<p>two</p>
+4: <7 : 4.0 :  ><8 : 0.6428571428571429 :  <p>one</p>
+
+><9 : 0.6666666666666666 :  <p>one</p>
+
+ ><10 : 0.44 :  <p>one</p>
+
+ <p>two</p>>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 0.119203442 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:x)(a)(b)(?:y)(c)\1\1\2\3\k<other>
+PARSE: ERROR {ParsingData.UnsupportedEscape(28, 107)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

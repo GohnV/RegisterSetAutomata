@@ -1,0 +1,10 @@
+\G(?:\s*(['"`]))(.*?)(?<!\\)\1
+5: <7 : 4.0 : \><17 : 8.5 : "><18 : 8.333333333333334 : "%><20 : 3.289855072463768 : "l?<!\\0Yh^wL&^B9KabbU4
+?}$	#c{lm21F]=zqNYk8y\tCnrxihTt-*_&[3?BQ6g><17 : 5.666666666666667 : "">
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 3.988370671 (s)
+Attack failed

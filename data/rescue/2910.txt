@@ -1,0 +1,9 @@
+<([a-z]+) style="font-weight: bold;">([\w\W]*?)<\/\1>
+1: <8 : 2.5 : R<z>
+===Initiate End===
+Node Coverage: 8/16
+===Genetic Algorithm End===
+Node Coverage: 8/16
+Normal fail
+TIME: 0.108083747 (s)
+Attack failed

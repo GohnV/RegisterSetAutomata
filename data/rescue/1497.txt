@@ -1,0 +1,9 @@
+setVideo([^(]+)\((["\'])(http.+?)\2\)
+1: <18 : 3.4455445544554455 : setVideohttp("http.+?.+?"p("http.+?.+??."ht?.+?"p("http.+?.+??..+??.+?"\''+\)()h\?	pV]\V+  .t?o'(\")>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 89.242012653 (s)
+Attack failed

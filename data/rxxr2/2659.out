@@ -1,0 +1,21 @@
+= [1] =
+INPUT: (\n2.*@.+@.*(?:(?:\n[3-9].*)*))(?:\n2.*(?:\n[3-9].*)*)*\1
+PARSE: OK
+SIZE: 30
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?:\n2.*(?:\n[3-9].*)*)*
+PREFIX: \x0a2@@@
+PUMPABLE: \x0a2\x0a2
+SUFFIX: 
+TIME: 0.000570 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 30
+>> AVG NFA SIZE: 30
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

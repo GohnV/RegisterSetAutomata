@@ -1,0 +1,9 @@
+^([*\-=_])(?:\s*\1){2,}\s*$
+2: <11 : 4.333333333333333 : *	><15 : 6.5 : ***>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 0.66057013 (s)
+Attack failed

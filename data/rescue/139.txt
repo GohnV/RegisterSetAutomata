@@ -1,0 +1,9 @@
+([\"'])(?:(?=(\\?))\2.)*?\1|([^\s]+)
+2: <11 : 6.0 : \><24 : 13.666666666666666 : "d`{<Ndd>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 58.369999316 (s)
+Attack failed

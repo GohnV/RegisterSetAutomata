@@ -1,0 +1,9 @@
+^((?:..)*?)((?:..)+?)(\2{10,})
+1: <17 : 39.57142857142857 : ^^?:?:.??:.?:^^?:?:.?:^^?:^^?:?:?:?:^?:..>
+===Initiate End===
+Node Coverage: 17/19
+===Genetic Algorithm End===
+Node Coverage: 17/19
+Normal fail
+TIME: 367.269136908 (s)
+Attack failed

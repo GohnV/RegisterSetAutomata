@@ -1,0 +1,15 @@
+\b(?=s([^\s\w\[({<]).*\1([egimos]*)([\}\)\;\,]|\s+))
+4: <7 : 5.5 : s><12 : 6.5 : s\b><21 : 11.8 : s\b^\s\w\><23 : 4.375 : s\b\;\,>
+===Initiate End===
+Node Coverage: 25/25
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Vulnerable: s\s\s\s\s\s\s\ss\s\s\s\s\s\s\s\s\s\ss\\\s\w\s\s\HTKb^s\s\s\ss\s\s\s\\s\s\s\s\ss\s\s\b^\s\s\s\\ss\\s\\ss\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\b^\s\s\s\\ss\s\s\w\\b
+100078 : 427.6837606837607 : s\s\s\s\s\s\s\ss\s\s\s\s\s\s\s\s\s\ss\\\s\w\s\s\HTKb^s\s\s\ss\s\s\s\\s\s\s\s\ss\s\s\b^\s\s\s\\ss\\s\\ss\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\b^\s\s\s\\ss\s\s\w\\b
+100042 : 476.3904761904762 : s\s\s\s\s\s\s\\s\s\s\s\s\s\s\s\s\s\\s\w\s\s\^s\s\s\ss\s\s\s\\s\s\s\s\\s\s\\s\s\s\\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\\s\s\s\\ss\s\
+100042 : s\s\s\s\s\s\s\\s\s\s\s\s\s\s\s\s\s\\s\w\s\s\^s\s\s\ss\s\s\s\\s\s\s\s\\s\s\\s\s\s\\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\\s\s\s\\ss\s\
+100042 : 0 : s\s\s\s\s\s\s\\s\s\s\s\s\s\s\s\s\s\\s\w\s\s\^s\s\s\ss\s\s\s\\s\s\s\s\\s\s\\s\s\s\\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\\s\s\s\\ss\s\
+101549 : s\s\s\s\s\s\s\\s\s\s\s\s\s\s\s\s\s\\s\w\s\s\^s\s\s\ss\s\s\s\\s\s\s\s\\s\s\\s\s\s\\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\\s\\ss\s\s\s\s\s\s\ss\s\s\s\s\s\s\sss\\s\s\s\b^\s\ss\s\\s\ws\s\s\b^\s\s\s\\s\\s\s\s\\s\s\s\\ss\s\
+TIME: 131.524556661 (s)
+Attack failed

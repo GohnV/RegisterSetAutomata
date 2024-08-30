@@ -1,0 +1,9 @@
+(m)\1(a)s               $ 
+1: <9 : 3.2857142857142856 : UmmaKR>
+===Initiate End===
+Node Coverage: 9/13
+===Genetic Algorithm End===
+Node Coverage: 9/13
+Normal fail
+TIME: 0.398541791 (s)
+Attack failed

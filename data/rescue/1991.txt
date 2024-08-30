@@ -1,0 +1,9 @@
+()foo$\1
+1: <7 : 2.1666666666666665 : fofoo>
+===Initiate End===
+Node Coverage: 7/8
+===Genetic Algorithm End===
+Node Coverage: 7/8
+Normal fail
+TIME: 2.881113935 (s)
+Attack failed

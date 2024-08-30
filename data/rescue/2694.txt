@@ -1,0 +1,17 @@
+^( *)(bullet) [\s\S]+?(?:hr|def|\n{2,}(?! )(?!\1allbull )\n*|\s*$)
+2: <28 : 14.088888888888889 : bullet  			l		let  			ll			
+	  				
+
+
+ ><33 : 9.608695652173912 : bullet 		
+l			
+	
+
+>
+===Initiate End===
+Node Coverage: 34/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 168.561329854 (s)
+Attack failed

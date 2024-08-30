@@ -1,0 +1,15 @@
+((.*)\.reel)\/\2$
+2: <10 : 4.714285714285714 : \.reel><13 : 9.125 : \.reel/>
+===Initiate End===
+Node Coverage: 13/13
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Vulnerable: \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Qanu2l#Zj	L#mzi$yx[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Qanu2l/
+100033 : 323.7313915857605 : \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Qanu2l#Zj	L#mzi$yx[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Qanu2l/
+100015 : 448.49775784753365 : \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{yWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Q
+100015 : \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{yWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Q
+100015 : 0 : \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{yWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Q
+100337 : \.reeFzd\o{Jn8[S<?\>[ leer.reel/(e2\)(25*)*)63\3.l*0361\\($8e(9l/5r)r\e(2ee(l\(4\9./6)/\\e1.[ [Q<z]O#S[8$zgeMTuPtPAqJRQByWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{yWLTxQmyEtCuCkJxdjfeoE__|--$-[<*?{\)[? [Q<z]O#S[8nJ{o\dzFeer.\ulrn3Q
+TIME: 68.502314724 (s)
+Attack failed

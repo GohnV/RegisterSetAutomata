@@ -1,0 +1,9 @@
+view\s*=\s*(['"])([^'"]+)\1
+5: <4 : 0.8 : view><8 : 1.3333333333333333 : view=><12 : 1.7142857142857142 : view="><15 : 2.0 : view="*><16 : 1.8888888888888888 : view="*">
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 58.317551651 (s)
+Attack failed

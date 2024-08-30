@@ -1,0 +1,9 @@
+^<\?xml.*encoding=('|")([\w-]+)\1.*?>
+1: <21 : 3.943396226415094 : <?xmlencodingxmlencoding="enc"enco9!b25D\S2YkkW4>FC0>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 42.298275115 (s)
+Attack failed

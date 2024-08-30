@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <([^\s>]*)(\s[^>]*)?>\s*(.*?)\s*</\1>
+PARSE: OK
+SIZE: 26
+PUMPABLE: NO
+TIME: 0.000042 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 26
+>> AVG NFA SIZE: 26
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000042 (s)
+>> TIME MAX: 0.000042 (s)

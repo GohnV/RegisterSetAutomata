@@ -1,0 +1,9 @@
+data\-framework(?:=('|").*?\1)?
+5: <5 : 0.3333333333333333 : data-framework><9 : 0.5625 : data-framework=><14 : 0.8235294117647058 : data-framework='><15 : 1.0526315789473684 : data-framework='|"><14 : 0.7777777777777778 : data-framework=''>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 6.613356436 (s)
+Attack failed

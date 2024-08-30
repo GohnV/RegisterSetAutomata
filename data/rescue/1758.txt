@@ -1,0 +1,3 @@
+\s+DEFAULT\s+(?:([\'\"])([^\1]*?)\1|([\+\-]?[\d\.]+)|(NULL))$
+TIME: 0.07467985 (s)
+Regex compile error

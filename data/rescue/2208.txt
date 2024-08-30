@@ -1,0 +1,12 @@
+\[([\S ]*?)]\s?()\( *<?([^\s'"]*?(?:\([\S]*?\)[\S]*?)?)>?\s*(?:()(['"])(.*?)\5)? *\)
+1: <53 : 44.717171717171716 : zFFY~[AHY~[AH"?K7`DmO&mg]
+((zFY~[AHY~[AH"?K7`Dm)O&mmg]zFY~[AHY~[AH"?K7`DmO&mg]
+(_~[AH]HmO&mg]
+(BW)>
+===Initiate End===
+Node Coverage: 53/53
+===Genetic Algorithm End===
+Node Coverage: 53/53
+Normal fail
+TIME: 37.080670413 (s)
+Attack failed

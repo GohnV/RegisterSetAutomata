@@ -1,0 +1,9 @@
+([$v])\1s               $ 
+1: <8 : 2.1367521367521367 : GlS$$s  $$slS$$$s              slS$$$s lS$$$s              slS$$$s                            slS$$$s               >
+===Initiate End===
+Node Coverage: 8/10
+===Genetic Algorithm End===
+Node Coverage: 8/10
+Normal fail
+TIME: 0.86852886 (s)
+Attack failed

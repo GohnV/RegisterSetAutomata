@@ -1,0 +1,15 @@
+(<(([a-z]+?[a-z0-9_]*\:[a-z0-9_\:]+)\s*(.*?))>(.*?)</\3\s*>)
+1: <28 : 9.433333333333334 : =C<p:2ZuI:2p:2=C>}lICBxVo;YwFN:4@M2SQ}lICBxVo;YwFN@:2<VVS</>
+===Initiate End===
+Node Coverage: 28/33
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 28/33
+Vulnerable: =C<pp:2:Iu<pp:2=C<pp:2:Iu:2=C>}QIEY=C<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9Vb<aFO30*Fb0;1</
+100128 : 610.5365853658536 : =C<pp:2:Iu<pp:2=C<pp:2:Iu:2=C>}QIEY=C<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9Vb<aFO30*Fb0;1</
+100003 : 729.948905109489 : <pp:2:Iu<pp:2=C<pp:2:Iu>}<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9V
+100003 : <pp:2:Iu<pp:2=C<pp:2:Iu>}<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9V
+100003 : 0 : <pp:2:Iu<pp:2=C<pp:2:Iu>}<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9V
+100008 : <pp:2:Iu<pp:2=C<pp:2:Iu>}<pyxeetvekcbcrdbjelgosvyke:p2:IuZ:2::2p:p22=C>}lICBxVo;YwFN:C>}QIEY=C<p:p2:IuZ2:2=C>}VoCBx:2=C>}lICB.zs<kz*)N9V
+TIME: 31.650702558 (s)
+Attack failed

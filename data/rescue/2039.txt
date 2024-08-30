@@ -1,0 +1,9 @@
+^(\$|\b)(i?(eq|ne|lt|le|gt|ge))\1(?=\W)
+2: <25 : 8.333333333333334 : le><26 : 6.5 : le$>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 0.10399584 (s)
+Attack failed

@@ -1,0 +1,10 @@
+(.)(\1*)(?:\[([^\]]*)\])?
+4: <12 : 6.0 : ]><17 : 5.666666666666667 : ][><18 : 5.25 : ][.><20 : 2.4583333333333335 : ![LJMj5{z|QLpVIC
+Hho]>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 3.483433891 (s)
+Attack failed

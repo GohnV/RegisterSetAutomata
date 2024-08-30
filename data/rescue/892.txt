@@ -1,0 +1,10 @@
+\b(?:m|qr)\s+([a-zA-Z0-9])(?:[^\\]|\\.)*?\1[msixpodualngc]*
+2: <25 : 5.560975609756097 : ?:*UX<v} &m	uG_y_'GE[~7)1e1*T42%@
+I*ryu><24 : 5.653846153846154 : >$4*37W"Y}IdX*Z:_@{[$sta8 &m}	qd36ta-zA-Z0-9X(Zc#m P!Dp9_Dv<nejC<ux*haB6)*?\1>
+===Initiate End===
+Node Coverage: 27/27
+===Genetic Algorithm End===
+Node Coverage: 27/27
+Normal fail
+TIME: 52.983841473 (s)
+Attack failed

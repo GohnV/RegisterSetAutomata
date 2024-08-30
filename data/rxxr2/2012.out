@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(\/(?:[^\n\r\u2028\u2029/\\[]|\\.|\[(?:[^\n\r\u2028\u2029\]\\]|\\.)*])+\/(?:([gimuy])(?![a-z]*\2))*(?![a-zA-Z_$0-9]))
+PARSE: ERROR {ParsingData.InvalidBackreference(95)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

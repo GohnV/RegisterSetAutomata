@@ -1,0 +1,10 @@
+([_*])(\p{L}(?:.*?\p{L}))\1
+3: <6 : 2.8 : ?:.*><14 : 3.028985507246377 : |`Jj^b'^T_aL~|Dj0I1lUK.5JJ& >c0sl>	5}Ag5?:.*?\p4d^&qUCWj Qd!)Vr><15 : 2.71875 : 
+yMuUa.\vbx9\PEvs>!}#]"rY^;T97A$$cUw_*k	Nx#_b}8w5	-uEU[9?a*>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 103.797529704 (s)
+Attack failed

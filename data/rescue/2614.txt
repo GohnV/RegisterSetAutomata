@@ -1,0 +1,9 @@
+<!--($block_tag)\s+(.+?)-->(.*?)<!--\/\1\s+?\2-->
+1: <4 : 0.8 : <!-->
+===Initiate End===
+Node Coverage: 4/24
+===Genetic Algorithm End===
+Node Coverage: 4/24
+Normal fail
+TIME: 0.11954367 (s)
+Attack failed

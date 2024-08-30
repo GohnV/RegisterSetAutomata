@@ -1,0 +1,9 @@
+([*_])(.*)\1
+2: <10 : 7.0 : *_><11 : 3.6 : *_.*>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 17.548613753 (s)
+Attack failed

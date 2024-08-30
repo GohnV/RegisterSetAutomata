@@ -1,0 +1,10 @@
+<<(-?)(?:(['"`])((?:(?!\2).)+)\2|([A-Z_a-z]\w*))
+1: <19 : 1.5851063829787233 : 
+SRgqjfMU%gqjfMU%<J5Up#A;RgqjfMU%<J5Up#A;R/L~$*%<<$**%<5UpL~$*%<<$**%<5Up#A;R%<<$*%%<<$*%<<pq>
+===Initiate End===
+Node Coverage: 19/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 4.85752563 (s)
+Attack failed

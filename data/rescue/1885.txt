@@ -1,0 +1,9 @@
+\Wrequire\((['"]).+?\1\)
+1: <5 : 1.3611111111111112 : 2w }z=m	>1mM`;2w }z=m	>1mM`;aZs9sq"$pML):"/xI,b:g_'zU)gM		require(>
+===Initiate End===
+Node Coverage: 5/12
+===Genetic Algorithm End===
+Node Coverage: 5/12
+Normal fail
+TIME: 8.504524142 (s)
+Attack failed

@@ -1,0 +1,9 @@
+\b(if|elif|for)\s*=\s*(['"])([^'"]+)\2
+6: <12 : 4.125 : if|elif><16 : 3.7777777777777777 : if|elif=><17 : 3.9 : if|elif=	><20 : 4.0 : if|elif='><23 : 4.083333333333333 : if|elif='if><24 : 3.5 : if|elif='^'>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 9.954869825 (s)
+Attack failed

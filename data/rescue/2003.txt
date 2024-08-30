@@ -1,0 +1,9 @@
+var url = (["'])(.*?)\1
+3: <3 : 0.2727272727272727 : var url = ><10 : 1.0 : var url = "'><11 : 0.9285714285714286 : var url = "'">
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 16.062700113 (s)
+Attack failed

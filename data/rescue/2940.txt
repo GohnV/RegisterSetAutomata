@@ -1,0 +1,11 @@
+^( *)function isEmpty[\s\S]+?\n\1}
+4: <8 : 0.47058823529411764 : function isEmpty><10 : 0.6111111111111112 : function isEmpty}><12 : 0.8421052631578947 : function isEmpty}
+><13 : 0.65 : function isEmpty}
+}>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.735106959 (s)
+Attack failed

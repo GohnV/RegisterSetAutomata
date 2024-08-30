@@ -1,0 +1,9 @@
+<(script|style|textarea).*?<\/\1>
+1: <16 : 1.3548387096774193 : l<textarea05xtarear</textarea>>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 56.975462525 (s)
+Attack failed

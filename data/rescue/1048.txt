@@ -1,0 +1,15 @@
+\b(?<=url)\((?:([\"']?)(.+?)((\?.*?)?)\1)\)
+1: <31 : 8.76056338028169 : E}5i}\HaKurl(n\6:Uq0:E}5i}\HaKurl(n\6:Uq0:\-{;>>"&*@^,(/`@^(_(?~#?+%)>
+===Initiate End===
+Node Coverage: 31/31
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Vulnerable: }i}5\Kurl(5}i}\Kurl(E}5i}\Kurl(E}5i}\Kurl(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@^\?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?"&*@^,(/`@^(_(?
+100128 : 400.512 : }i}5\Kurl(5}i}\Kurl(E}5i}\Kurl(E}5i}\Kurl(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@^\?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?"&*@^,(/`@^(_(?
+100001 : 448.43497757847535 : url(5}i}url(E}5i}\Kurl(E}5i}url(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?
+100001 : url(5}i}url(E}5i}\Kurl(E}5i}url(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?
+100001 : 0 : url(5}i}url(E}5i}\Kurl(E}5i}url(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?
+100002 : url(5}i}url(E}5i}\Kurl(E}5i}url(.+?E}5i}\Kurl(E}5i}\H?(_(?~#?,,?<=ur(/`@^(_(?"/`@^\?.*?(_(?~#?,,?<=u5i}\HaKurl(n0:E}5i}\HaKu5\HaKurl(5}i}\HaKurl(}5i}\HaKurl(url(n\6:Uq0:\(/`@?.*?(_(?~#?,,(/`@^(_(?gv1vx?"?w.u\'\]\*=j(]c?hy?
+TIME: 65.304461355 (s)
+Attack failed

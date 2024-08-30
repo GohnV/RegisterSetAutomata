@@ -1,0 +1,9 @@
+(.). \1. \1. (.*)(.). \3.
+1: <25 : 4.309523809523809 : 9	vV F=t<99\.\ .\ .V F=t<99\.\ .\ .F=t<99>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 60.361155211 (s)
+Attack failed

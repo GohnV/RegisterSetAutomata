@@ -1,0 +1,9 @@
+(a(b)a)\2
+1: <10 : 2.0 : Habab>
+===Initiate End===
+Node Coverage: 10/11
+===Genetic Algorithm End===
+Node Coverage: 10/11
+Normal fail
+TIME: 0.830557269 (s)
+Attack failed

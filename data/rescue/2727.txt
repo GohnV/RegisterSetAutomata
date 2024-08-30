@@ -1,0 +1,9 @@
+\[img(:.+)? align=(left|right)\](.*?)\[\/img\1?\]
+8: <5 : 1.0 : [img><7 : 1.1666666666666667 : [img:><10 : 3.230769230769231 : [img: align=><9 : 0.75 : [img align=><12 : 0.75 : [img align=left><17 : 1.0 : [img align=left]><21 : 1.8181818181818181 : [img align=left][/img><19 : 0.8260869565217391 : [img align=left][/img]>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 132.213303687 (s)
+Attack failed

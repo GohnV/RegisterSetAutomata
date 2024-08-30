@@ -1,0 +1,9 @@
+(\*{3})(.+?)\1
+1: <12 : 2.888888888888889 : 4Q*"X4Q***"X4Q***>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 93.769144602 (s)
+Attack failed

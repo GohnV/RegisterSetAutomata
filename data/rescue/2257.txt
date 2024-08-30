@@ -1,0 +1,3 @@
+b((['\"])[^\2]*\2)
+TIME: 0.04194862 (s)
+Regex compile error

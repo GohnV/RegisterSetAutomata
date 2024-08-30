@@ -1,0 +1,10 @@
+((["']).*?(?!\\)\2)|\s*(\S+)\s*
+4: <16 : 8.5 : \><14 : 4.666666666666667 : ''><23 : 8.181818181818182 : "KK{(>N/><24 : 8.2 : 'Ts#)$+E?!\\O>rY!f
+>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 2.3588758 (s)
+Attack failed

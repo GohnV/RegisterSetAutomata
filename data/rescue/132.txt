@@ -1,0 +1,10 @@
+(\^)(?=\S)(.*?\S)\1
+2: <3 : 2.3333333333333335 : ?=><16 : 2.5555555555555554 : VzWZI4]c'&A
+^Vs^>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 36.397146905 (s)
+Attack failed

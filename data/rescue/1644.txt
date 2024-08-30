@@ -1,0 +1,9 @@
+src=('|")([\W\w]+?)\1
+4: <5 : 1.0 : src=><10 : 1.6666666666666667 : src='><13 : 2.4444444444444446 : src=''|"><13 : 2.1 : src=''|"'>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 42.168487272 (s)
+Attack failed

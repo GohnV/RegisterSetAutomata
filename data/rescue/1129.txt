@@ -1,0 +1,9 @@
+^\s*<Directory\s+(\")?(\S+)\1>
+6: <6 : 0.5454545454545454 : <Directory><13 : 1.1666666666666667 : <Directory	><15 : 1.3846153846153846 : <Directory	><17 : 1.7692307692307692 : <Directory	"><18 : 2.6666666666666665 : <Directory	"\"><19 : 1.875 : <Directory	"\">>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 29.845851917 (s)
+Attack failed

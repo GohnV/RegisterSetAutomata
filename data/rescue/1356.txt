@@ -1,0 +1,16 @@
+<a .*?href=(["'])(.+?)\1.*?>(.+?)</a>
+1: <22 : 5.65 : r[N22lx9IV7Qpc"|rh
+}T<a pc.*?href?h .*?href?href="r[N22lxhref?href="r[N222l/>A->
+===Initiate End===
+Node Coverage: 22/23
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 22/23
+Vulnerable: <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhref?href="=:{?~~"&@>222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>A-		
+100170 : 337.27272727272725 : <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhref?href="=:{?~~"&@>222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>A-		
+100004 : 347.2361111111111 : <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>
+1000309 : <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="f="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>
+1000309 : 0 : <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="f="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>
+1012436 : <a <a <a r<a pc.*?href?h .*?href?href="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="f="r"=f["r[N22lxhrehref="=:{?~~">222N[r"=ferh>/l2="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a ref="r[N22lxhrefef?h .*}T<a pc.*?href?h .*?href?href="r[N2h .*?href?href="r[h h .*?href?href="r[N22lxhref?href="r[N222l/>
+TIME: 155.327532332 (s)
+Attack failed

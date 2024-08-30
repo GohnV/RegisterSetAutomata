@@ -1,0 +1,10 @@
+(</)(reporting)\s*(>)(?!<\s*/\2\s*>)
+2: <20 : 2.098360655737705 : gj	lP</report	P</rgj	lP</report	P</report	lP</reporting><
+ ><20 : 2.0338983050847457 : gj	lP</report	P</rgj	lP</report	P</report	lP</reporting></>
+===Initiate End===
+Node Coverage: 21/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 31.481550707 (s)
+Attack failed

@@ -1,0 +1,10 @@
+(<<)("|'|)(TEXTILE)\2
+1: <15 : 2.3783783783783785 : ^WKyXKR
+u&.@6ku\Cvgl<<gl<<'<<TEXTILE>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Normal fail
+TIME: 1.034677323 (s)
+Attack failed

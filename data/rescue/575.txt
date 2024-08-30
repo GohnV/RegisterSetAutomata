@@ -1,0 +1,10 @@
+(n)\1(a)s               $ 
+1: <7 : 2.1206896551724137 : +O}|<pM4L
+}VEs               $ ,Uj=[0r5sVc>br]~#:J(nnbqO>
+===Initiate End===
+Node Coverage: 7/13
+===Genetic Algorithm End===
+Node Coverage: 9/13
+Normal fail
+TIME: 0.924981291 (s)
+Attack failed

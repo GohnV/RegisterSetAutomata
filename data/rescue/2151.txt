@@ -1,0 +1,14 @@
+%[qQiIwWxs]?([^a-zA-Z0-9\s\{\(\[<])(?:[^\\]|\\[\s\S])*?\1
+4: <2 : 1.1428571428571428 : qQiIwW><6 : 1.0793650793650793 : P%2-Zg~A-^V75HK<d?_?BRHi> tP-xDudubiy#X0J~0
+5:rlNAhW<9m+,Urm.#><18 : 2.625 : \|;Q	R6 %_n\Nr_><7 : 1.1791044776119404 : \;
+Y"X\s\Su;N#jc	)=D
+
+EASaa[lL_j%S/8}$g0mX{mDiUd#OxS%xPIO
+`qOn7d5+>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 126.721851798 (s)
+Attack failed

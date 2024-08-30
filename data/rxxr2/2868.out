@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*(<\s*([a-z0-9\-_]+)\s*\b.*?</\s*\2\s*>)
+PARSE: ERROR {ParsingData.InvalidBackreference(36)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

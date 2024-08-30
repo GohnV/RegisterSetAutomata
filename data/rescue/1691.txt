@@ -1,0 +1,9 @@
+([bdfgklmnpqrtvwxz])\1+
+2: <6 : 4.764705882352941 : bdfgklmnpqrtvwxz><8 : 4.666666666666667 : bdfgklmnpqrtvwxzz>
+===Initiate End===
+Node Coverage: 8/8
+===Genetic Algorithm End===
+Node Coverage: 8/8
+Normal fail
+TIME: 19.129754953 (s)
+Attack failed

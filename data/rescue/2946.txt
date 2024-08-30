@@ -1,0 +1,11 @@
+<([a-z]+) style="text-decoration: line-through;">([\w\W]*?)<\/\1>
+1: <8 : 1.4 : ":^
+|RrZHy
+(Q||@<p>
+===Initiate End===
+Node Coverage: 8/16
+===Genetic Algorithm End===
+Node Coverage: 13/16
+Normal fail
+TIME: 4.188736249 (s)
+Attack failed

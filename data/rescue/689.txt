@@ -1,0 +1,9 @@
+^#[^\n\r]+|\/\*(server)[^\x00]*?\1\*\/
+5: <5 : 3.4 : serv><7 : 2.7142857142857144 : serv/*><9 : 2.3076923076923075 : #d.GhXJAQ"2Y><11 : 3.1538461538461537 : serv/*server><13 : 4.105263157894737 : serv/*serverserver>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 83.982476836 (s)
+Attack failed

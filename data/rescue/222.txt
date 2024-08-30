@@ -1,0 +1,9 @@
+([\'\"])(.+)\1
+2: <10 : 3.8 : \'\"><11 : 3.3333333333333335 : \'\"'>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 36.829501183 (s)
+Attack failed

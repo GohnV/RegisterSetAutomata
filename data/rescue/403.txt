@@ -1,0 +1,12 @@
+(?><<-("?)((?:\w+_|)CSS)\b\1)
+1: <23 : 3.732394366197183 : xfN,r4j)s./
+>\B<<->\B<<-->\Bj)s./
+>\B<./
+>\B<<->\B<<-->\B<<-fkt_CSS>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 19.554187045 (s)
+Attack failed

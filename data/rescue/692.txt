@@ -1,0 +1,11 @@
+\[([^\]]*)\]|\(([^\)]*)\)|(LTS|LT|(\w)\4*o?)|([^\w\[\(]+)
+5: <19 : 9.5 : o><20 : 7.0 : oo><17 : 9.0 : ,><22 : 4.476923076923077 : (>}^tZ<JM
+KSfGiZNmvh`CIy`;"z]X;.IE/k"aikJ&x_eR2(2X}TWmlEa4|h!><28 : 4.417910447761194 : [9^k8NUn4%R)/1q,n10C`6wR&1-q8xsSy;-QK~|D9	\wEdg2R@y'Lp6011uz
+@>
+===Initiate End===
+Node Coverage: 34/34
+===Genetic Algorithm End===
+Node Coverage: 34/34
+Normal fail
+TIME: 88.88331818 (s)
+Attack failed

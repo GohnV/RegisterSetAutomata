@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (src|href|srcset)=("|')(?!http)(\/{0,2})((?:(?!\2).)*)\2
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(23)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

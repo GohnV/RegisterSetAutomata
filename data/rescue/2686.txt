@@ -1,0 +1,17 @@
+^\Recursive\(var(\d+)=\{\}, \-\[\(?var\1\)?(\.-|-1)\]\)$
+8: <3 : 1.5 : 
+><6 : 0.42857142857142855 : 
+ecursive(var><9 : 0.6666666666666666 : 
+ecursive(var0><12 : 0.5909090909090909 : 
+ecursive(var0={}, -[><13 : 0.56 : 
+ecursive(var0={}, -[var><19 : 0.7692307692307693 : 
+ecursive(var0={}, -[var0><22 : 0.8214285714285714 : 
+ecursive(var0={}, -[var0-1><24 : 0.8333333333333334 : 
+ecursive(var0={}, -[var0-1])>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 0.136589061 (s)
+Attack failed

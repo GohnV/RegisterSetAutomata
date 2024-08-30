@@ -1,0 +1,9 @@
+\{([^}\s]+)\}([\S\s]*?)\{\/\1\}
+1: <16 : 1.238532110091743 : i*T)}VBpWK[z<{-'8.Xq-2!OLLrCa+3Iz<{-'8.Xq-2!OLLrCa+3IiVJ}Q}CuoX{/-'8.Xq-2!OLLrCa+3Iz<{-'8.Xq-2!OLLrCa+3IiVJ}>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 33.200268068 (s)
+Attack failed

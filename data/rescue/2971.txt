@@ -1,0 +1,18 @@
+android.+(\w+)\s+build\/hm\1
+1: <13 : 3.3448275862068964 : :FqqIi]!k~Dg^beKh]
+ 9t,M"d$3pa$3pandroid;@s(wZ))3# O_~9id;@s(wO_~9#*?W,g3rK&`@	*B~9#*?W,g4)3rK&`@	*Bk5	build/hm5437>
+===Initiate End===
+Node Coverage: 13/13
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Vulnerable: :FqqIi]!k~Dg^beKh]
+ 9t,M"d$3pandroida$3pandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563android
+100041 : 578.2716763005781 : :FqqIi]!k~Dg^beKh]
+ 9t,M"d$3pandroida$3pandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563android
+100029 : 724.8478260869565 : :androidapandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563an
+100029 : :androidapandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563an
+100029 : 0 : :androidapandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563an
+100087 : :androidapandroid46028558253585569lipandroid06nbhm5droidliSQip5aosgktlhenxobgfccbdjkvedzeevwpgkrfrvu07930266244355544676055211816833563an
+TIME: 110.807439216 (s)
+Attack failed

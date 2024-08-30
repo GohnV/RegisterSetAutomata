@@ -1,0 +1,11 @@
+(</)(extension)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.0864197530864197 : js?$T]X*[5Yit)+~
+vw@>	w|Mq]WS</s?$T]X*[5Yit?$T]X*[5Yit)+~
+vw@>	w|Mq]WS</s?$T]X*[>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 11/25
+Normal fail
+TIME: 2.443880536 (s)
+Attack failed

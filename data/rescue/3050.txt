@@ -1,0 +1,10 @@
+(?:\?(?:[^&]*&)*([^&]*))?\b(yui(?:-\w+)?)\/\2(?:-(min|debug))?\.js
+1: <26 : 18.745454545454546 : yuinPJs	#u|tQ_WJs	#uW2RgO\Mkw?Js	#inPJs	#u|tQs	#uW2RRgO\Mkw?Js	#inPJs	#u|tQnIgO\Mkw?Js	#u|tQnIV",tQnIV",
+r'w&>
+===Initiate End===
+Node Coverage: 26/44
+===Genetic Algorithm End===
+Node Coverage: 26/44
+Normal fail
+TIME: 64.375041817 (s)
+Attack failed

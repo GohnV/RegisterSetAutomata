@@ -1,0 +1,9 @@
+\;\s*type\=(["']?)([\w-]*)\1
+1: <6 : 1.6666666666666667 : <xQKb;X~?; >
+===Initiate End===
+Node Coverage: 6/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 13.497580245 (s)
+Attack failed

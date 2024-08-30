@@ -1,0 +1,11 @@
+^(['_])[\s\S]+\1$
+3: <8 : 3.0 : '_><9 : 3.0307692307692307 : 'l|:/'j	D8IW
+O4Du>ijh&j36tH.xp8g1x'*	_qS,JiILJ`V;G06}28v
+-cB><10 : 3.5 : '_'>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 5.551809397 (s)
+Attack failed

@@ -1,0 +1,9 @@
+onclick=(['"]).*?(?<!\\)\1
+4: <3 : 0.3333333333333333 : onclick=><11 : 1.4545454545454546 : onclick='"><12 : 1.3333333333333333 : onclick='"'><13 : 1.9166666666666667 : onclick='"\>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 193.788149807 (s)
+Attack failed

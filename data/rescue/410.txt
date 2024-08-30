@@ -1,0 +1,9 @@
+^([a-zA-Z]+)\s*([\^\$*]?=|:)\s*(['"]?)(.+)\3|^\s*([a-zA-Z0-9]+)\s*$
+3: <26 : 7.333333333333333 : a-zA-><28 : 15.5 : b><30 : 2.4545454545454546 : KU=.;Inid}8A4nlS	H$YAaNtSBbq0S$X_qQvwD\'[n's,)5`FF55>
+===Initiate End===
+Node Coverage: 41/41
+===Genetic Algorithm End===
+Node Coverage: 41/41
+Normal fail
+TIME: 41.039367857 (s)
+Attack failed

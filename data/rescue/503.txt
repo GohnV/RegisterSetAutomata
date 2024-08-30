@@ -1,0 +1,9 @@
+(</)(profile)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.064516129032258 : [`GWry@Y!ql'/B`GWry@Yf<GWry@Y!ql`GWry@Y!qql'_+ql'/B`GWry@Yf</>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 2.814506251 (s)
+Attack failed

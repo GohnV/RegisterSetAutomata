@@ -1,0 +1,53 @@
+(<[^>]+style=(["'])[^>]+[\s:]+)0(pt|px)(\2|\s|;)
+1: <20 : 13.027272727272727 : e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHuy#0E(##SHuy#+style='style='!2*-$"tW 0*-$"tW 0E(#SHuzz38>
+===Initiate End===
+Node Coverage: 20/30
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/30
+Vulnerable: <hYd9ee9dYh<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9dYh<e9dYh<9dW e9dYh<e9dYh<9d0E+style='slestyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 	
+ style='!2*-$"t0E(#SHuzz38
+100174 : 417.39166666666665 : <hYd9ee9dYh<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9dYh<e9dYh<9dW e9dYh<e9dYh<9d0E+style='slestyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 	
+ style='!2*-$"t0E(#SHuzz38
+100001 : 549.4560439560439 : <hYd9ee9d<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9d<e<9<<9style='sstyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 
+100001 : <hYd9ee9d<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9d<e<9<<9style='sstyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 
+100001 : 0 : <hYd9ee9d<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9d<e<9<<9style='sstyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 
+100001 : <hYd9ee9d<e9dYh<9dW 0E(##SHuy#0E+style='style='!2*-$yle##SHe='style='!2-$"tW 0*-$"tW 0E(#SHuzzasffkgydCASh:9d<e<9<<9style='sstyle='	  	 
+			 	 	 	
+ 
+
+
+	 						
+ 
+TIME: 39.726263502 (s)
+Attack failed

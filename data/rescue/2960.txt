@@ -1,0 +1,9 @@
+\[(=*)\[.*?\]\1\]
+1: <14 : 1.7419354838709677 : |"*bB}eB@5tO4#;*7}[[IW)IPX~S]]>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 14.836449545 (s)
+Attack failed

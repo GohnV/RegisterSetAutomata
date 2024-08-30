@@ -1,0 +1,9 @@
+\bcmspage\.attrs\.(\w+)\s*=\s*(['"])(.+?)\2
+1: <22 : 1.5934959349593496 : o3iN\Cu8spage.attrs{zkBH_o3iN\Cu8spage.attrs{zkBH_cmspage.aH_o3iN\Cu8spage.attrs{zkBH_cmspage.attrs.j='cmspage.attrs.j='>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 24.059763848 (s)
+Attack failed

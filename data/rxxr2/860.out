@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (\S+)\s*=\s*([\'\"]{0,1})([^\2]*)\2
+PARSE: ERROR {ParsingData.UnsupportedEscape(29, 50)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

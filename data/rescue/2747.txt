@@ -1,0 +1,11 @@
+^( *)function isFinite[\s\S]+?\n\1}
+4: <8 : 0.4444444444444444 : function isFinite><10 : 0.5789473684210527 : function isFinite}><12 : 0.8 : function isFinite}
+><13 : 0.6190476190476191 : function isFinite}
+}>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.676870803 (s)
+Attack failed

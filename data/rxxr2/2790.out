@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ([^［]+?)［＃「\1」は(本文より)?([１２３４５６])段階大きな文字］
+PARSE: OK
+SIZE: 65
+PUMPABLE: NO
+TIME: 0.000074 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 65
+>> AVG NFA SIZE: 65
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000074 (s)
+>> TIME MAX: 0.000074 (s)

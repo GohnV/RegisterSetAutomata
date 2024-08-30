@@ -1,0 +1,9 @@
+^([^\010])(\010\1)+
+1: <9 : 2.5 : zz>
+===Initiate End===
+Node Coverage: 9/10
+===Genetic Algorithm End===
+Node Coverage: 9/10
+Normal fail
+TIME: 0.090429896 (s)
+Attack failed

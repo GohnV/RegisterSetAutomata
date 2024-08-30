@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ([kgsztdnbpmyrlwchf])\1
+PARSE: OK
+SIZE: 5
+PUMPABLE: NO
+TIME: 0.000008 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 5
+>> AVG NFA SIZE: 5
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000008 (s)
+>> TIME MAX: 0.000008 (s)

@@ -1,0 +1,15 @@
+^\/(?:app\/components|components)\/(.*?([^\/]+))\/\2\.(js|jsx)$
+1: <29 : 13.236842105263158 : /components/\oments/\omponens/\/\.jsx>
+===Initiate End===
+Node Coverage: 29/29
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Vulnerable: /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn12/components//sneenopmoc\/\npsn?3o8:n3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+100015 : 324.72402597402595 : /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn12/components//sneenopmoc\/\npsn?3o8:n3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+100008 : 471.7358490566038 : /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+100008 : /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+100008 : 0 : /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+100510 : /components/\o\omp97DFb3cCd89527d1BFF43340B5eB6dDcA9E6A}Dc~x15Wz@NZFUFrq@C2wE=?S>M>t>EtWGItAM}Cx3s)2t.jsxdP7*pW$x|vxFpIG?oK;k@j((31f97DFb3cCd89527?oK;k@j((31f97DFb3cCd89527d1BFF43340B5eB6dDcA9E6ArgpEQiZusOn1248
+TIME: 81.371477572 (s)
+Attack failed

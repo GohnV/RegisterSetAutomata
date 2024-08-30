@@ -1,0 +1,13 @@
+(\n{2})([\s\S]*?)(?:$|\1)
+3: <4 : 3.3333333333333335 : \s><5 : 3.076923076923077 : (-@96KtS?zeb\n	2}NkP&"^J,<}5;Xt)4diMG~^E[h*%<M
+L<+G
+d`5O-><17 : 6.876923076923077 : "
+
+:<3VxQxdn[q,#Hyc`oUIBH81dDolD{y;']z:yrap?t6C[g'ZO*_6$r<w]X>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 16.826769863 (s)
+Attack failed

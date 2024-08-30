@@ -1,0 +1,15 @@
+(#\s*include\s*)(?:<.+?>|("|')(?:\\?.)+?\2)
+1: <17 : 2.0317460317460316 : vLM%kx#^;H)VunHL28M;H]28|z	cN2'ERe{"3DWoc]gP<TDV# include>
+===Initiate End===
+Node Coverage: 17/33
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 33/33
+Vulnerable: xVunHkx#^;H)cDV# include'#\s*include\s*5cF16ude\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]coWD\s*include\s*53E0eRE6161DWoc]gP<TDV# icx#^
+100152 : 585.6842105263158 : xVunHkx#^;H)cDV# include'#\s*include\s*5cF16ude\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]coWD\s*include\s*53E0eRE6161DWoc]gP<TDV# icx#^
+100001 : 666.6733333333333 : xVunHkx#^;H)cDV# include'#\s*inclu\s*5cF16u\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]co\s*include\s*53E0eRE6161DWo
+1000155 : xVunHkx#^;H)cDV# include'#\s*inclu\s*5cF16u\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]co\s*include\s*53E0eRE6161DWo
+1000155 : 0 : xVunHkx#^;H)cDV# include'#\s*inclu\s*5cF16u\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]co\s*include\s*53E0eRE6161DWo
+1173966 : xVunHkx#^;H)cDV# include'#\s*inclu\s*5cF16u\s*6161DWoc]ncludedsdU){s|eFC.UA|>5oT5l\i3Law?j(6\ksO|t\bde"\\i3Law?j(6\ksO|t\bde"\#^#xci #VDT<Pg]co\s*include\s*53E0eRE6161DWo
+TIME: 18.847581059 (s)
+Attack failed

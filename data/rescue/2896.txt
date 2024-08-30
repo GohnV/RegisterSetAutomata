@@ -1,0 +1,9 @@
+<([a-z][a-z0-9]*)\b([^>]*)>((.|\n)*?)<\/\1>?
+2: <25 : 29.47761194029851 : ii(u(<(<ii(u(<((<<a}><(<ii(u(<((<<a<ii(u(<((<<a}><(<ii(u(<((<<a}>a><28 : 2.6551724137931036 : ii(u(<(<ii(u(<((<<a}><(<</ii>
+===Initiate End===
+Node Coverage: 29/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 68.588900843 (s)
+Attack failed

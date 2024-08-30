@@ -1,0 +1,9 @@
+^nick\s+("?)(\S.*?)\1$
+3: <4 : 0.8 : nick><11 : 2.0 : nick	><17 : 3.2 : nick	nick>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 53.428347849 (s)
+Attack failed

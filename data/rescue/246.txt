@@ -1,0 +1,9 @@
+^(\/)(.*)\1$
+3: <9 : 4.5 : /><10 : 4.333333333333333 : /^><12 : 3.8 : /^\/>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 2.885214368 (s)
+Attack failed

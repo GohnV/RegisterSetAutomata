@@ -1,0 +1,10 @@
+^(\S+)\s*=\s*(["'])(.*)\2$
+1: <21 : 4.805555555555555 : G+A$0K}l~(>CIj=Ruf)j="BXW.G+2HrxX"
+>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 51.965294049 (s)
+Attack failed

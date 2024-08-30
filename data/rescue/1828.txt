@@ -1,0 +1,9 @@
+([$k ])\1(a)s           $ 
+1: <9 : 2.310344827586207 : S^>WHI"kS*^*^?;e;|;T\1IoK$$a>
+===Initiate End===
+Node Coverage: 9/13
+===Genetic Algorithm End===
+Node Coverage: 9/13
+Normal fail
+TIME: 0.926536432 (s)
+Attack failed

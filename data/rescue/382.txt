@@ -1,0 +1,9 @@
+((?:ins|del|mark)\s+)(class=([\'"]))(.*?)(\3)
+1: <17 : 2.230769230769231 : mark	class=>
+===Initiate End===
+Node Coverage: 17/27
+===Genetic Algorithm End===
+Node Coverage: 17/27
+Normal fail
+TIME: 8.221416452 (s)
+Attack failed

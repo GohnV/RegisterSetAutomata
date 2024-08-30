@@ -1,0 +1,9 @@
+(?i:^\s*(create)\s+(aggregate|conversion|database|domain|function|group|(unique\s+)?index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view)\s+)(['"`]?)(\w+)\4
+1: <8 : 3.8 : PP[>
+===Initiate End===
+Node Coverage: 8/54
+===Genetic Algorithm End===
+Node Coverage: 8/54
+Normal fail
+TIME: 0.288458491 (s)
+Attack failed

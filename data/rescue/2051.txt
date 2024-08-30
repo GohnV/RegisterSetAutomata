@@ -1,0 +1,9 @@
+(bright|dark) phrase, bright phrase, \1 phrase
+1: <11 : 1.087719298245614 : 	F^N6Ag phM, bright phrase, bright phrase, bright phrase>
+===Initiate End===
+Node Coverage: 11/12
+===Genetic Algorithm End===
+Node Coverage: 11/12
+Normal fail
+TIME: 2.44231094 (s)
+Attack failed

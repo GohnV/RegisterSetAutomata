@@ -1,0 +1,11 @@
+(import[\s\S]*?from\s+)(['"])(funfix[^'"]*)\2
+1: <12 : 2.965909090909091 : 6l]bpy:b=
+ZCdB8qSd*<xss#2~V<4;R=JB;/w2~/wc]ddimportoort	Vz+from
+ZCdB8q?from\sVz/w2~/w>
+===Initiate End===
+Node Coverage: 12/20
+===Genetic Algorithm End===
+Node Coverage: 15/20
+Normal fail
+TIME: 43.635144432 (s)
+Attack failed

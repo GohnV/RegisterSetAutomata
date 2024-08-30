@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \(c == '(.)'\)\s*&&\s*(\(?)\(strncmp\(([^,]+),\s*("-\1[^"]*"),\s*(\w+|strlen\(\3\))\s*\)\s*==\s*0\)(\)?)
+PARSE: OK
+SIZE: 83
+PUMPABLE: NO
+TIME: 0.000095 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 83
+>> AVG NFA SIZE: 83
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000095 (s)
+>> TIME MAX: 0.000095 (s)

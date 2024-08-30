@@ -1,0 +1,9 @@
+(<(SCE_\w+)>(.*?)</\2>)
+1: <5 : 2.3333333333333335 : +<>
+===Initiate End===
+Node Coverage: 5/19
+===Genetic Algorithm End===
+Node Coverage: 7/19
+Normal fail
+TIME: 0.638104636 (s)
+Attack failed

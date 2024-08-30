@@ -1,0 +1,10 @@
+((?:^|\r?\n|\r)([\t ]*))(?:\/|-#).*((?:\r?\n|\r)\2[\t ]+.+)*
+5: <21 : 16.5 : ><35 : 15.333333333333334 : /><40 : 13.25 : /><42 : 11.4 : / ><38 : 2.767857142857143 : /vpWLc5\kdb<I8K64|=
+	/K:V~TmoD-R79P(^7|4OYXIJq3=\Y'wo>
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 30.499934258 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:@import)(?:\s)(?:url)?(?:(?:(?:\()(["'])?(?:[^"')]+)\1(?:\))|(["'])(?:.+)\2)(?:[A-Z\s])*)+(?:;)
+PARSE: ERROR {ParsingData.InvalidBackreference(76)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

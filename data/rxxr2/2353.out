@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (type=(.)checkbox(\2))
+PARSE: ERROR {ParsingData.InvalidBackreference(18)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

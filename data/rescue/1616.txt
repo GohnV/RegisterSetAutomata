@@ -1,0 +1,9 @@
+(?><<-("?)((?:\w+_|)JQUERY)\b\1)
+1: <18 : 3.8 : CS<<6a,<<-5_>
+===Initiate End===
+Node Coverage: 18/23
+===Genetic Algorithm End===
+Node Coverage: 18/23
+Normal fail
+TIME: 29.071639332 (s)
+Attack failed

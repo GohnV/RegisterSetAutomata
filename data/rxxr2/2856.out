@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <tpl\b[^>]*>((?:(?=([^<]+))\2|<(?!tpl\b[^>]*>))*?)<\/tpl>
+PARSE: ERROR {ParsingData.InvalidBackreference(27)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

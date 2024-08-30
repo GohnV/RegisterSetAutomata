@@ -1,0 +1,9 @@
+(<<)("|'|)\\?(\w+)\2
+2: <18 : 8.875 : <<<<<<3><18 : 8.777777777777779 : <<<<<<'3>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 59.639664628 (s)
+Attack failed

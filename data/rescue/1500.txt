@@ -1,0 +1,289 @@
+url\((['"]?)\s*(.*?)\s*\1\)
+3: <15 : 3.0 : url(><15 : 2.5 : url()><16 : 4.777777777777778 : url(url\>
+===Initiate End===
+Node Coverage: 17/17
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Vulnerable: url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(		 	 
+				 	 
+	 
+(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ 	
+100050 : 393.8976377952756 : url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(		 	 
+				 	 
+	 
+(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ 	
+100035 : 458.8761467889908 : url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	
+ 
+ 	
+100035 : url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	
+ 
+ 	
+100035 : 0 : url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	
+ 
+ 	
+100068 : url(url(url(url(url(url(url(url(	\ll(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	    
+	
+ 
+  
+
+	
+ 	
+
+ 
+	 
+
+
+  
+ 	
+
+  	    
+	
+ 
+ url(url(url(url(	     
+
+	
+ 	
+
+ 
+	 
+
+
+   	
+
+  	    
+	
+ 
+ 	
+TIME: 191.630212625 (s)
+Attack failed

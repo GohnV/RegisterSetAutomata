@@ -1,0 +1,9 @@
+\G>(.*?)>(.*?)<\1<
+2: <16 : 8.714285714285714 : >>pR'\DwrGiSgl]w<?|`;+Y<N(/><16 : 3.6842105263157894 : >>pR'\DwrGiSgl]w<<>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 10.97292526 (s)
+Attack failed

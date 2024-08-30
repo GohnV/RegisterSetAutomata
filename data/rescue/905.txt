@@ -1,0 +1,9 @@
+(this.createjs)\s=\s\1.*
+1: <14 : 1.1754385964912282 : qxQ,j%!<lYZ=m+=h~this.createjs=this.createjs.createjs>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 6.137194327 (s)
+Attack failed

@@ -1,0 +1,10 @@
+<(script)\s+((?!type=('|")text\/ng-template\3).)*?>.*?<\/\1>
+1: <4 : 1.2142857142857142 : MoB\
+/9<@XMo>
+===Initiate End===
+Node Coverage: 4/30
+===Genetic Algorithm End===
+Node Coverage: 4/30
+Normal fail
+TIME: 0.72261334 (s)
+Attack failed

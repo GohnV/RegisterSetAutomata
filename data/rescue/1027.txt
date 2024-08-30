@@ -1,0 +1,15 @@
+\s(.+?)=('|").*?\2(?=.*?>)
+1: <24 : 2.5625 : -{Ue3Ph-^0^/MS5{="+;]+.WNATYXJd]LvAl0YOy730.09(3+)\4*?.53+\",>>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy7{="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WNAT"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="+;]+.WNATYXJUe3P
+100189 : 433.71861471861473 : {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy7{="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WNAT"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="+;]+.WNATYXJUe3P
+100005 : 473.957345971564 : {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="
+1000172 : {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="{="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="
+1000172 : 0 : {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="{="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="
+1024798 : {="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="{="{="LB; 	Ry7{={-{=""L3+];+M^0^-hAe-	Re{-{="+Jy="0.+;.Jd]MSQLB;	]+.FXSWNATYXJy7{="+;]+.WN.WNA="+;]+.WNAwTYXJ" 	Ry7{={-{=""L]d)+YXJy7{="+;]+.WN.WNA="+;]+.WN"+;]+.WN{="DSN\4*?.5="+;]+.WNAATYXJy7{="+;]+.WN.WNA="
+TIME: 97.862344077 (s)
+Attack failed

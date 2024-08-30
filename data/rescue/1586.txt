@@ -1,0 +1,9 @@
+(?:[^.\[]|)\brequire\((['"])([^'"]*)\1(\s*,\s*(['"])([^'"]*)\4)?
+1: <27 : 2.25 : require("qE31",>
+===Initiate End===
+Node Coverage: 27/35
+===Genetic Algorithm End===
+Node Coverage: 27/35
+Normal fail
+TIME: 26.149483523 (s)
+Attack failed

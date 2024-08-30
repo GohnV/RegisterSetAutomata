@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?: *\/\/.*\n)*(?:( *)else *{)?\s*freeExports\.\w+ *=[\s\S]+?(?:\n\1})?\n
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(28)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

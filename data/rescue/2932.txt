@@ -1,0 +1,10 @@
+(<(\w+)\b[^>]*>[^\n]*)\n *<\/\2>
+1: <20 : 6.94 : G4<K	qR{! ;L|p*.>qR{ q<K	qR{! ;L|p*.>qR{ 	u@/
+</>
+===Initiate End===
+Node Coverage: 20/22
+===Genetic Algorithm End===
+Node Coverage: 20/22
+Normal fail
+TIME: 23.7467681 (s)
+Attack failed

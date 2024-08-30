@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \[object |delete |else (?!{)|function | in |return\s+[\w"']|throw |typeof |use strict|var |@ |(["'])\\n\1|\\\\n|\\n|\s+
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(26)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

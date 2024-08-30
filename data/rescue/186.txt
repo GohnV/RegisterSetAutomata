@@ -1,0 +1,14 @@
+\burl\((\'|\"|)([^\'\"]+?)\1\)( format\((\'|\"|)([^\'\"]+?)\4\))?
+3: <32 : 4.373493975903615 : url(J(l((l(rl(J(l(J(MNB\
+|T>2- .(MNLlhBhI9(J(8&2- .(MNB\
+|T>2- .(l	|e) format())><28 : 4.25 : url(Jrl(J(l(J(MNB\
+|T>2- .(MNLll(J(MNLrl(J(8?&GL|e) format("><15 : 5.2976190476190474 : url('J(l((l(rl(J(l(J(MNB\
+|T>2- .(MNLlhBhI9(J(8&2- .(MNB\
+|T>2- .(l	|e) format())>
+===Initiate End===
+Node Coverage: 34/34
+===Genetic Algorithm End===
+Node Coverage: 34/34
+Normal fail
+TIME: 92.260253788 (s)
+Attack failed

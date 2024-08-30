@@ -1,0 +1,16 @@
+= [1] =
+INPUT: <((\w+:)?ProviderID)[^>]*>([^<]*)<\/\1>
+PARSE: OK
+SIZE: 33
+PUMPABLE: NO
+TIME: 0.000036 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 33
+>> AVG NFA SIZE: 33
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000036 (s)
+>> TIME MAX: 0.000036 (s)

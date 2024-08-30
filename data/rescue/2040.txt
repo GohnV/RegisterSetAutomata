@@ -1,0 +1,33 @@
+^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math)\b[^\r]*?.*<\/\2>[ \t]*(?=\n+)\n)
+8: <20 : 10.0 : <><28 : 6.2 : <pre><29 : 6.0 : <pre
+><30 : 7.0 : <pre
+</><21 : 7.0 : <h><31 : 9.818181818181818 : <pre
+</pre><37 : 11.416666666666666 : <pre
+</pre>><31 : 4.461538461538462 : <pre
+</pre>
+>
+===Initiate End===
+Node Coverage: 42/42
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 42/42
+Vulnerable: <pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/"~(
+100025 : 194.6011673151751 : <pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=<pre
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/"~(
+100035 : 383.2758620689655 : <p
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncczlssjuouxbugjpqslaiddzzdncorvanzczlssjuouxbugjpqslaiddzzdncorvlyenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/
+100035 : <p
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncczlssjuouxbugjpqslaiddzzdncorvanzczlssjuouxbugjpqslaiddzzdncorvlyenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/
+100035 : 0 : <p
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncczlssjuouxbugjpqslaiddzzdncorvanzczlssjuouxbugjpqslaiddzzdncorvlyenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/
+100779 : <p
+</pdl1[|^dce|*^ebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpqslaiddzzdncczlssjuouxbugjpqslaiddzzdncorvanzczlssjuouxbugjpqslaiddzzdncorvlyenanzczlssjuouxbugjpqslaiddebc+al=esmhofxlncncryemtenanzczlssjuouxbugjpdzzdncorvlygveqcpapekadcnnvtopu|hi<+_|'.>^-*=>>\&/
+TIME: 99.841006462 (s)
+Attack failed

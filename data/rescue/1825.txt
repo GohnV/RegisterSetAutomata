@@ -1,0 +1,3 @@
+(?:\@lang|App\.i18n\.get|App\.ui\.notify)\((["'])((?:[^\1]|\.)*?)\1(,\s*(["'])((?:[^\4]|\.)*?)\4)?\)
+TIME: 0.050888398 (s)
+Regex compile error

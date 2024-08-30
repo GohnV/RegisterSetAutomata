@@ -1,0 +1,9 @@
+^(={1,6})(?!=)((.+))(\1)\s*$\n?
+4: <13 : 7.0 : =><14 : 7.333333333333333 : ==><17 : 6.666666666666667 : =^><24 : 6.166666666666667 : =^?!=>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 10.377317082 (s)
+Attack failed

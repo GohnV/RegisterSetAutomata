@@ -1,0 +1,9 @@
+^("?)ü\1$
+4: <7 : 4.5 : "><8 : 3.3333333333333335 : "ü><9 : 2.75 : "ü"><10 : 2.5 : "ü">
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 0.098760118 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(\w)\1{2,}
+3: <6 : 2.6666666666666665 : \w><7 : 3.75 : \ww><8 : 3.606060606060606 : +[")H'h/KKPAw&hgRV^Q +7r<@L:4ttt>
+===Initiate End===
+Node Coverage: 8/8
+===Genetic Algorithm End===
+Node Coverage: 8/8
+Normal fail
+TIME: 4.023775743 (s)
+Attack failed

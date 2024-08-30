@@ -1,0 +1,15 @@
+\[ins(:.+)?\](.*?)\[\/ins\1?\]
+6: <5 : 1.0 : [ins><7 : 1.1666666666666667 : [ins:><10 : 2.909090909090909 : [ins:[/ins><10 : 1.6666666666666667 : [ins]><14 : 3.0 : [ins][/ins><13 : 1.0833333333333333 : [ins][/ins]>
+===Initiate End===
+Node Coverage: 19/19
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Vulnerable: [ins:[ins:[ins:[ins:[inins:[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2Wi][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+100010 : 465.16279069767444 : [ins:[ins:[ins:[ins:[inins:[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2Wi][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+100001 : 478.4736842105263 : [ins:[ins:[ins:[ins:[in[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+100001 : [ins:[ins:[ins:[ins:[in[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+100001 : 0 : [ins:[ins:[ins:[ins:[in[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+100001 : [ins:[ins:[ins:[ins:[in[ins::[ins:u]]iW2Eb> A[ins:[ins:][/ns][/in]ns:]tq]/ns][/in][/[ins:[ins:[ins:u]>bE2][ins:[ins:][/ns][/in]ns:][/][/[inaWGtq]/ns][/]sn/[ins]:.s][ins][/[ins][/innsi/[i/in][/[inaWGtqn[/insO8
+TIME: 134.121126974 (s)
+Attack failed

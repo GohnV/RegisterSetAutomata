@@ -1,0 +1,9 @@
+(?><<-("?)((?:[_\w]+_|)CPP)\b\1)
+1: <18 : 4.363636363636363 : `<<-9Fej_1>
+===Initiate End===
+Node Coverage: 18/23
+===Genetic Algorithm End===
+Node Coverage: 18/23
+Normal fail
+TIME: 24.902883063 (s)
+Attack failed

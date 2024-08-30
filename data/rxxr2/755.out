@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \s(?:NS[0-9]+:[^"']+('|")[\S\s]*?\1|[^:]+:NS[0-9]+=(?:""|''))
+PARSE: OK
+SIZE: 35
+PUMPABLE: NO
+TIME: 0.000052 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 35
+>> AVG NFA SIZE: 35
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000052 (s)
+>> TIME MAX: 0.000052 (s)

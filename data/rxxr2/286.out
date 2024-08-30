@@ -1,0 +1,21 @@
+= [1] =
+INPUT: <(?:[^>\'\"]*|([\'\"]).*?\1)*>
+PARSE: OK
+SIZE: 15
+PUMPABLE: YES
+VULNERABLE: YES {}
+KLEENE: (?:[^>\'\"]*|([\'\"]).*?\1)*
+PREFIX: <
+PUMPABLE: !
+SUFFIX: 
+TIME: 0.000131 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 15
+>> AVG NFA SIZE: 15
+>> PUMPABLE: 1
+>> VULNERABLE: 1
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000000 (s)
+>> TIME MAX: 0.000000 (s)

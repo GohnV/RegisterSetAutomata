@@ -1,0 +1,10 @@
+\[([a-z]+)\](.*?)\[/\1\]
+1: <13 : 15.981981981981981 : 5XcG""g;Q
+<Y5[fY5[fr]O[fY5[fr]O5fr]fY5[fr]O5frY5[fY5[fr]O[fY5[fr]O5fr]fY5[fr]O5fr5XcGO5fr]fY5[fr]O5fr5XcG""g;Q>
+===Initiate End===
+Node Coverage: 13/16
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Normal fail
+TIME: 15.706893617 (s)
+Attack failed

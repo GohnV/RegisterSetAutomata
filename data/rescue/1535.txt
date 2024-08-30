@@ -1,0 +1,10 @@
+([ab]{3})\1?
+2: <5 : 3.0483870967741935 : d_'H\&r<;M?Ju%zZ
+o@-BAA& ?+7BX]Wop	j/N[3k7>su@5c";TD"ea}-G><9 : 3.1515151515151514 : ->a{JdF\.		sMb	E!p#fVsg`~Tzaab>
+===Initiate End===
+Node Coverage: 9/9
+===Genetic Algorithm End===
+Node Coverage: 9/9
+Normal fail
+TIME: 0.997181806 (s)
+Attack failed

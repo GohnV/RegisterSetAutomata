@@ -1,0 +1,9 @@
+RELEASE += +([\"\'])([\d][\w\.]+)\1
+8: <3 : 0.375 : RELEASE><5 : 0.6666666666666666 : RELEASE ><7 : 0.8 : RELEASE =><9 : 1.0909090909090908 : RELEASE = ><12 : 1.25 : RELEASE = "><14 : 1.3076923076923077 : RELEASE = "0><16 : 2.35 : RELEASE = "0RELEASE><17 : 1.619047619047619 : RELEASE = "0RELEASE">
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 24.205288888 (s)
+Attack failed

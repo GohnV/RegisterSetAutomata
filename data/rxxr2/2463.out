@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \A <\?xml.*?\?> \s* <(\S+) .* </\1> \z
+PARSE: OK
+SIZE: 32
+PUMPABLE: NO
+TIME: 0.000033 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 32
+>> AVG NFA SIZE: 32
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000033 (s)
+>> TIME MAX: 0.000033 (s)

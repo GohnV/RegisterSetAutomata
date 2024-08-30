@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \s*<(nest)>one</\1>\s*<\1>two</\1>\s*<\1>three</\1>
+PARSE: OK
+SIZE: 44
+PUMPABLE: NO
+TIME: 0.000046 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 44
+>> AVG NFA SIZE: 44
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000046 (s)
+>> TIME MAX: 0.000046 (s)

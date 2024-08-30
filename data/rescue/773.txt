@@ -1,0 +1,9 @@
+^url\((['|"]?).*image\.jpg\1\)$
+4: <9 : 1.8 : url(><10 : 2.4 : url(^url\><12 : 2.7142857142857144 : url(image.jpg><14 : 2.8666666666666667 : url(image.jpg)>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 31.248663753 (s)
+Attack failed

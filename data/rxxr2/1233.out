@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ::module\((["\'])(.+?)\1
+PARSE: OK
+SIZE: 19
+PUMPABLE: NO
+TIME: 0.000027 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 19
+>> AVG NFA SIZE: 19
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000027 (s)
+>> TIME MAX: 0.000027 (s)

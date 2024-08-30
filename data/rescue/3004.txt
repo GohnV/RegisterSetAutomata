@@ -1,0 +1,9 @@
+<!-- EVAL (.*?)$(.*?)\/EVAL\s+\1\s+-->
+1: <12 : 1.6984126984126984 : <!-- EV- EVAL EVAL AL EVAL -<!-- EVAL EVALAL --- EVAL EVAL -->>
+===Initiate End===
+Node Coverage: 12/19
+===Genetic Algorithm End===
+Node Coverage: 12/19
+Normal fail
+TIME: 34.198247457 (s)
+Attack failed

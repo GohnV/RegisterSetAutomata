@@ -1,0 +1,9 @@
+([^"'=\s])(\s?)\s*#([0-9a-f])\3([0-9a-f])\4([0-9a-f])\5
+1: <25 : 8.75 : c\wi\#RR2"'=\sHq;t3^piNt b~M	fV%JiNtN}eb;##4V%JiNtN}eb;##444444>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 20.680840597 (s)
+Attack failed

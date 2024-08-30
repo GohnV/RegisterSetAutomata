@@ -1,0 +1,15 @@
+[^#]*SIZE\s*=\s*("|')(\d+)\1
+1: <14 : 87.37931034482759 : *SIZE=*=*sI*s\sI*sZE=*E=*=*sIE=*E=*=*sI*s\E=\E=*=*sI*s\E*>
+===Initiate End===
+Node Coverage: 14/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 19/22
+Vulnerable: ##E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\E*<zZ:'Ej4$.	7np w.'
+100186 : 359.089605734767 : ##E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\E*<zZ:'Ej4$.	7np w.'
+100039 : 389.2568093385214 : E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\
+100039 : E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\
+100039 : 0 : E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\
+100699 : E\s*Is*=*=E\=E\s*Is*=*=E*=EIs*=*=E*=EZs*IsE\s*Is*=EIs*=*=E*=EZs*I,='[6J/~Gs\s*I\s*Is*=*=EZIS*=E*=EZs*Is\s*Is\<%@:*sE*)--)*Es*:@%<\sI*s\sI*sZE=*E=*SIZE=*=*sI*s\I*s\sG~/J6['=,I*sZE=*E=*=*sIE=*sI*s\EsI*sZE=*E=*=*sIE=*E=*=*sI*sZs*Iss*==EZ=*=E*=EIs*=*=E*=EsI*s\
+TIME: 534.999434715 (s)
+Attack failed

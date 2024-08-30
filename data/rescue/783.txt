@@ -1,0 +1,9 @@
+([^=])#([a-f\d])\2([a-f\d])\3([a-f\d])\4([\s;\}])
+1: <19 : 4.589743589743589 : y_y99#99999_99999#99999_999#999#999999>
+===Initiate End===
+Node Coverage: 19/22
+===Genetic Algorithm End===
+Node Coverage: 19/22
+Normal fail
+TIME: 25.805530989 (s)
+Attack failed

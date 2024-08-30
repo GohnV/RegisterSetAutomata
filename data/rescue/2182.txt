@@ -1,0 +1,9 @@
+($q_re)(.*)\1
+1: <3 : 2.5 : $>
+===Initiate End===
+Node Coverage: 3/12
+===Genetic Algorithm End===
+Node Coverage: 3/12
+Normal fail
+TIME: 0.23796044 (s)
+Attack failed

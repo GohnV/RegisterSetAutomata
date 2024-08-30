@@ -1,0 +1,6 @@
+= [1] =
+INPUT: define\([\s]*["']{1}([A-Z_0-9]+)["']{1}[\s]*,[\s]*(["']{1})([^\2]*)\2[\s]*\)
+PARSE: ERROR {ParsingData.UnsupportedEscape(63, 50)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

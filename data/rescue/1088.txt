@@ -1,0 +1,9 @@
+^@(?:\$\d+|(`?)[_A-Za-z][_A-Za-z$0-9]*\1)
+5: <10 : 5.0 : @><11 : 4.333333333333333 : @`><12 : 4.0 : @$><14 : 3.8 : @`_A><16 : 5.333333333333333 : @c>
+===Initiate End===
+Node Coverage: 19/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 0.241613378 (s)
+Attack failed

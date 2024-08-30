@@ -1,0 +1,12 @@
+=item (\w+)(?:\s+([^\n]+))?\n\s+?=cut\s+sub \1 \{ (-?\d+) \}
+1: <24 : 3.707317073170732 : =item sJX =c sJX =cqX =c&X>
+	
+
+=cut sub >
+===Initiate End===
+Node Coverage: 24/33
+===Genetic Algorithm End===
+Node Coverage: 24/33
+Normal fail
+TIME: 41.77292868 (s)
+Attack failed

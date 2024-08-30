@@ -1,0 +1,72 @@
+(^[ \t]*)\[(?!\[)(?:(["'$`])(?:(?!\2)[^\\]|\\.)*\2|\[(?:[^\]\\]|\\.)*\]|[^\]\\]|\\.)*\]
+12: <20 : 10.0 : [><21 : 7.666666666666667 : [\><23 : 9.0 : [\]><21 : 7.0 : []><30 : 11.2 : [\][><12 : 4.666666666666667 : [[><32 : 12.833333333333334 : [\][*><33 : 13.666666666666666 : [\][*?!\><43 : 15.571428571428571 : [\][*"><45 : 17.625 : [\][*"/><46 : 43.83076923076923 : [f,GD$A5Dh=IHO^!W
+M?
+Uqy'&$22Ni^sIfa^Qz_Tc@Lkw:@k,{$K[AZ@
+r	s(><45 : 14.25 : [\][*"\>
+===Initiate End===
+Node Coverage: 51/51
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 51/51
+Vulnerable: [2[2w:@k,{$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$22N[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+Uqy'&$22Ni^sIfa^Qz_TZs(^
+100565 : 510.48223350253807 : [2[2w:@k,{$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$22N[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+Uqy'&$22Ni^sIfa^Qz_TZs(^
+100010 : 591.7751479289941 : [2[2w:@k$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+U
+1000584 : [2[2w:@k$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$2$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+U
+1000584 : 0 : [2[2w:@k$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$2$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+U
+1026013 : [2[2w:@k$K[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$2$&'yqU
+?M
+W!^OHI=\hD5A$DGy'&$2[Ac@Lkw:@k,{$K[AZ@
+r	sfa^Qz_Tc@Lkw:zQ^afIs^iN22$&y'&$2	@
+k,{$K[AZ@
+r	s
+M?
+U
+TIME: 19.887133435 (s)
+Attack failed

@@ -1,0 +1,9 @@
+\%(?:\((.+?)\)([dfst])|like$re((?i)\s+ESCAPE\s+(['"])(.*?)\5(?:\s+|$))?|(\%))
+2: <17 : 3.088235294117647 : 7s5JKE:(%(JK/<K%(/<xgKp(/pgKp^	)s><18 : 4.297297297297297 : 7s5JK/<K%(/<xgKp(/pgKp^K/<KE:x55E%%>
+===Initiate End===
+Node Coverage: 21/47
+===Genetic Algorithm End===
+Node Coverage: 22/47
+Normal fail
+TIME: 86.929470279 (s)
+Attack failed

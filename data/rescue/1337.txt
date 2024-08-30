@@ -1,0 +1,9 @@
+>>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*\/%&|^!=<>]=?|\b(?:and|and_eq|bitand|bitor|not|not_eq|or|or_eq|xor|xor_eq)\b
+7: <13 : 6.5 : =><14 : 4.666666666666667 : ==><24 : 11.666666666666666 : pgN,~><28 : 14.571428571428571 : LRa6NwH(p"k@xM"Z`-><27 : 12.928571428571429 : bitorPJt$71~><26 : 7.25 : p<<><26 : 7.4 : 1m>>>
+===Initiate End===
+Node Coverage: 36/36
+===Genetic Algorithm End===
+Node Coverage: 36/36
+Normal fail
+TIME: 56.245324588 (s)
+Attack failed

@@ -1,0 +1,14 @@
+^( *)var iteratorTemplate *= *[\s\S]+?\n\1.+?;\n
+7: <7 : 5.0 :  ><9 : 0.42857142857142855 : var iteratorTemplate><13 : 0.5909090909090909 : var iteratorTemplate=><15 : 0.6956521739130435 : var iteratorTemplate=
+><18 : 0.9166666666666666 : var iteratorTemplate=;
+><19 : 1.12 : var iteratorTemplate=;
+ ><20 : 0.7777777777777778 : var iteratorTemplate=;
+ ;
+>
+===Initiate End===
+Node Coverage: 20/20
+===Genetic Algorithm End===
+Node Coverage: 20/20
+Normal fail
+TIME: 6.994589205 (s)
+Attack failed

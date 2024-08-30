@@ -1,0 +1,9 @@
+<input[^>]* name=(["'])((?:[^\"]+\$)?Password(?:_Textbox)?)\1[^>]*>
+9: <4 : 0.5714285714285714 : <input><5 : 0.875 : <input$><7 : 1.8461538461538463 : <input name=><15 : 2.6666666666666665 : <input name="'><17 : 3.0625 : <input name="'$><22 : 4.25 : <input name="'$Password><24 : 4.8125 : <input name="'$Password_Textbox><25 : 4.384615384615385 : <input name="'$Password"'><26 : 4.185185185185185 : <input name="'$Password"'>>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 130.280012897 (s)
+Attack failed

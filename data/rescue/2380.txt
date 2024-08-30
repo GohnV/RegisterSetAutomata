@@ -1,0 +1,9 @@
+([^aeiouy])\1l$
+1: <8 : 3.9411764705882355 : 22F**FF****FF**l>
+===Initiate End===
+Node Coverage: 8/9
+===Genetic Algorithm End===
+Node Coverage: 8/9
+Normal fail
+TIME: 8.730001925 (s)
+Attack failed

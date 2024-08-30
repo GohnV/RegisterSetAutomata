@@ -1,0 +1,9 @@
+<((\w+:)?Address)[^>]*>([^<]*)<\/\1>
+1: <21 : 4.235772357723577 : ,|>uS~9m<j:Q3?s<Addressn"m<j:>uS~9m<j:Q3?s<Addressn"m<j:Q,|>uj:Q,|>uS~9Q,|>uSh3uSh3?s<AddressUhMMG(?R\	+0wDZtNF|71j&D_z>
+===Initiate End===
+Node Coverage: 21/24
+===Genetic Algorithm End===
+Node Coverage: 22/24
+Normal fail
+TIME: 33.871080318 (s)
+Attack failed

@@ -1,0 +1,9 @@
+height=('|")(\d+)\1
+4: <5 : 0.625 : height=><10 : 1.1111111111111112 : height='><13 : 1.4 : height='0><13 : 1.2727272727272727 : height='0'>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 5.439973732 (s)
+Attack failed

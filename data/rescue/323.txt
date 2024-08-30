@@ -1,0 +1,18 @@
+url\(\s*(['"])(?:\\[\s\S]|(?!\1).)*\1\s*\)|url\((?:\\[\s\S]|[^)])*\)|(['"])(?:\\[\s\S]|(?!\2).)*\2
+3: <38 : 20.214285714285715 : url(\'"|url\'><36 : 12.549019607843137 : { o[0~ehurl("y{tW'N'T\Z8M'Nv1{@a9s
+O8rNLJ-K$uRJ)><40 : 8.546875 : { o[0~ehurl("{ o[0~ehurl("y{tW'N'T\Z8M'Nv1{@a9s
+O8rNLJ-K$uRJ)>
+===Initiate End===
+Node Coverage: 56/56
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 56/56
+Vulnerable: {O8rNLv8rNLo[0~ehurl("yrl(')H)*B(['KXH*\\W\|:\\lB'\(|(\!\|\]*:1S1[:\N2AK)I\l)*)(Gs'P1()J\\\iZHWuhSGYKDiRs'
+100168 : 936.1495327102804 : {O8rNLv8rNLo[0~ehurl("yrl(')H)*B(['KXH*\\W\|:\\lB'\(|(\!\|\]*:1S1[:\N2AK)I\l)*)(Gs'P1()J\\\iZHWuhSGYKDiRs'
+100043 : 2632.7105263157896 : {"y\\W\|:\\lB'\(\!\|\]*:1S1\N2AK)I\l)
+1000082 : {"y\\W\|:\y\\W\|:\\lB'\(\!\|\]*:1S1\N2AK)I\l)
+1000248 : 10 : {"y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\\lB'\(\!\|\]*:1S1\N2AK)I\l)
+100000236 : {"y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\\lB'\(\!\|\]*:1S1\N2AK)I\l)
+TIME: 4.065099846 (s)
+Attack success, attack string is:
+{"y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\y\\W\|:\\lB'\(\!\|\]*:1S1\N2AK)I\l)

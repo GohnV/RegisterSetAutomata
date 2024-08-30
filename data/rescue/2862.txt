@@ -1,0 +1,9 @@
+<([a-z]+) style="text-decoration: underline line-through;">([\w\W]*?)<\/\1>
+1: <8 : 1.7272727272727273 : 7\^qmFKJ<v>
+===Initiate End===
+Node Coverage: 8/16
+===Genetic Algorithm End===
+Node Coverage: 8/16
+Normal fail
+TIME: 0.101603912 (s)
+Attack failed

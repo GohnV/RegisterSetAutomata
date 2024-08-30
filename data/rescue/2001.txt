@@ -1,0 +1,9 @@
+^(`?)$table\1$
+1: <8 : 5.0 : `>
+===Initiate End===
+Node Coverage: 8/11
+===Genetic Algorithm End===
+Node Coverage: 8/11
+Normal fail
+TIME: 0.128904726 (s)
+Attack failed

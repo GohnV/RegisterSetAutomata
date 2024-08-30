@@ -1,0 +1,9 @@
+^(( *)(?:def|it) .*?^\2end)
+1: <17 : 3.176470588235294 :   def   def   def  d deff   def   def  d def  def >
+===Initiate End===
+Node Coverage: 17/21
+===Genetic Algorithm End===
+Node Coverage: 17/21
+Normal fail
+TIME: 0.82967964 (s)
+Attack failed

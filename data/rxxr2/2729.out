@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ((?:(?:^|:)0+\b){2,}):?(?!\S*\b\1:0+\b)(\S*)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(23)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

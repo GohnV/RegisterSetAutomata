@@ -1,0 +1,9 @@
+[^:](:(?:\w+|(?=['"](.*?)['"])(?:"\2"|'\2')))
+1: <32 : 7.0 : ?:\:':":">
+===Initiate End===
+Node Coverage: 32/32
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Normal fail
+TIME: 18.429895134 (s)
+Attack failed

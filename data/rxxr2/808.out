@@ -1,0 +1,16 @@
+= [1] =
+INPUT: ^-----BEGIN ((?:.* KEY)|CERTIFICATE)-----([0-9A-z\n\r\+\/\=]+)-----END \1-----$
+PARSE: OK
+SIZE: 59
+PUMPABLE: NO
+TIME: 0.000070 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 59
+>> AVG NFA SIZE: 59
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000070 (s)
+>> TIME MAX: 0.000070 (s)

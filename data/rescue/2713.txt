@@ -1,0 +1,9 @@
+(^\s*)([*-])([\t ]*\2){2,}(?=\s*$)
+1: <24 : 7.166666666666667 : *	***>
+===Initiate End===
+Node Coverage: 24/24
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Normal fail
+TIME: 2.136514237 (s)
+Attack failed

@@ -1,0 +1,9 @@
+<link(?:[^>]*)rel\s*=\s*([\"']*)(?:alternate\s+)?stylesheet\1(?:[^>]*)>
+7: <6 : 1.0 : <link><10 : 2.3333333333333335 : <linkrel><20 : 3.5 : <linkrel=><22 : 3.8421052631578947 : <linkrel=alternate><26 : 4.05 : <linkrel=stylesheet><24 : 4.1 : <linkrel=alternate	><27 : 3.9047619047619047 : <linkrel=stylesheet>>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 148.213951017 (s)
+Attack failed

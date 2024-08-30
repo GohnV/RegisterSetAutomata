@@ -1,0 +1,20 @@
+([$k])\1([a:])s         $ 
+1: <11 : 2.5533980582524274 : y8&+
+#+3#3aXkk$kk&X
+
+$kkas     
+
+$kkas    3$kk&X
+
+$kkas      kas     
+
+$kkas    3$kk&X
+
+$kkas         >
+===Initiate End===
+Node Coverage: 11/13
+===Genetic Algorithm End===
+Node Coverage: 11/13
+Normal fail
+TIME: 1.255138199 (s)
+Attack failed

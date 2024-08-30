@@ -1,0 +1,9 @@
+(["'])(?:(?!\1)[^\\\r\n]|\\z(?:\r\n|\s)|\\(?:\r\n|[\s\S]))*\1|\[(=*)\[[\s\S]*?\]\2\]
+2: <40 : 12.310344827586206 : =h1H<	!I'6ae.vj{5.p;\z8z[[]><29 : 7.117647058823529 : =h1H<	!I'6ae.vj{5.p;\z=h1H<	!I'>
+===Initiate End===
+Node Coverage: 45/45
+===Genetic Algorithm End===
+Node Coverage: 45/45
+Normal fail
+TIME: 27.677228917 (s)
+Attack failed

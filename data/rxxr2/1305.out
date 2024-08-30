@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ((<)/)(jsp:\3)(>)
+PARSE: ERROR {ParsingData.InvalidBackreference(11)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

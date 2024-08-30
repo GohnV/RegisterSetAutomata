@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (Query.*?)(\n|\r\n|\r)\2(\s+No\s+Hit.*?)\2\2(.*?)(?=(?:Done!)|(?:\Z))
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(49)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

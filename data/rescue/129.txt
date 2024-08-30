@@ -1,0 +1,11 @@
+<<<(["']?)([\$a-z0-9_]+)\1\n?
+3: <2 : 1.1666666666666667 : \$a-z><9 : 1.125 : /:{Q{H1ZT	,VY3!s^m
+=Uba^d<<<*?'t4X1-OCTBra?sb vF	p6d?:W16.6nN&J><15 : 1.2156862745098038 : X}r3.62svN*T\@QtUY	K0|	3+4HU-GKSNRKShc|A `<L
+<<<5>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 12.516722813 (s)
+Attack failed

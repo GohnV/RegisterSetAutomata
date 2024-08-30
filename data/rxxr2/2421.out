@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \%(?:\((.+?)\)([dfst])|like$re((?i)\s+ESCAPE\s+(['"])(.*?)\5(?:\s+|$))?|(\%))
+PARSE: ERROR {ParsingData.InvalidBackreference(58)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

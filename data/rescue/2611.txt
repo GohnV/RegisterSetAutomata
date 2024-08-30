@@ -1,0 +1,9 @@
+(=\?[^?]+\?[Bb]\?)([^?]+)\?=\s*\1([^?]+)\?=
+1: <18 : 2.9672131147540983 : OuLcF\`X|}`X|`X|}=xETI.|5@A?B}=?@LccI.iH.cY}xETI.|5@A?B?=\?=>
+===Initiate End===
+Node Coverage: 18/24
+===Genetic Algorithm End===
+Node Coverage: 23/24
+Normal fail
+TIME: 22.27764892 (s)
+Attack failed

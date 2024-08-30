@@ -1,0 +1,9 @@
+^\\\.\\(['"])(.*)\\\1$
+5: <4 : 1.0 : \.\><10 : 2.0 : \.\"><11 : 2.3333333333333335 : \.\"$><12 : 2.5 : \.\"\><14 : 3.0 : \.\"\">
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 12.75805121 (s)
+Attack failed

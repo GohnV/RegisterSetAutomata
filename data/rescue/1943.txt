@@ -1,0 +1,9 @@
+(['"]?)\(?(global|ref|names)?\u0012@([\w\.\-\/\\]+?)(\.css|\.less|\.scss|\.sass|\.mx|\.mmx|\.style)(?::?\[([\w-,]+)\]|:\.?([\w\-]+))?\)?\1(;?)
+2: <31 : 12.841584158415841 : PCN:5,$ ,GUr	8GUr	8	8@D5,$ ,GUr	8GUr	8	8@D$)Trglo$ ,GUr	8GUr	8	8,$ ,GUr	8GUr	8	8@D$)Trglobal><50 : 13.838095238095239 : PCN:5,$ ,GUr	8GUr	8	8@D5,$ ,GUr	8GUr	8	8@D$)TrglobaUr	8GUr	8	8@DobrglobaUr	8GUr	8	8@Dobal\.css[s>
+===Initiate End===
+Node Coverage: 53/62
+===Genetic Algorithm End===
+Node Coverage: 53/62
+Normal fail
+TIME: 109.612590585 (s)
+Attack failed

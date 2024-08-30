@@ -1,0 +1,9 @@
+^\s*#\s*define\s+(\w+)\s+\1\s*$
+7: <7 : 3.5 : #><9 : 1.125 : #define><8 : 3.3333333333333335 : #	><13 : 1.5555555555555556 : #define><16 : 2.933333333333333 : #definedefine><17 : 2.9375 : #definedefine	><21 : 1.6363636363636365 : #definedefine	define>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 17.670122798 (s)
+Attack failed

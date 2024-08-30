@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (([ぁ-ん]{2,})\2)|(([ァ-ヴ]{2,})\4)
+PARSE: ERROR {ParsingData.InvalidBackreference(16)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

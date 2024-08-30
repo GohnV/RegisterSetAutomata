@@ -1,0 +1,9 @@
+FOREACH \w+ \{\s+(\w+) = \$1;\s+(\w+) = DISTINCT \1;\s+(\w+) = SAMPLE \2 0.3;\s+(\w+) = LIMIT \3 5;\s+(\w+) = ORDER \4 BY x;\s+(\w+) = FILTER \5 BY x == 5;\s+GENERATE \6;\s+\}
+1: <28 : 1.3981481481481481 : FOREACH GENERATE { BY = $1; 5 = DISTINCT BY;  BY;FOREACH GENERATE { BY = $1; 5 = DISTINCT BY;  BY; FOREACH >
+===Initiate End===
+Node Coverage: 28/68
+===Genetic Algorithm End===
+Node Coverage: 28/68
+Normal fail
+TIME: 13.02604453 (s)
+Attack failed

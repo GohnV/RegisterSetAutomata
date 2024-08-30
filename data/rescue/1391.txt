@@ -1,0 +1,130 @@
+("|')(\\(?:\r\n|[\s\S])|(?!\1)[^\\])*\1
+3: <17 : 8.5 : '><22 : 7.8 : '"|'><25 : 12.444444444444445 : '?:\r\n|>
+===Initiate End===
+Node Coverage: 28/28
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Vulnerable: '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?\M#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n\r		7A0@
+	
+
+100181 : 720.726618705036 : '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?\M#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n\r		7A0@
+	
+
+100030 : 819.9180327868852 : '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n
+1000347 : '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n
+1000347 : 0 : '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n
+1629844 : '\'\'\'\'\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?\
+:(Ss[F\'\
+	
+n				
+	{bj[M^LH-)
+5	{bj\'\
+\:?\	
+n\	
+n:\
+\:?#{bj[M^L
+bU	@:pm|n\
+	
+
+ r]*L!6M#{bj[M^L
+bU	@:pm|n
+TIME: 35.299991024 (s)
+Attack failed

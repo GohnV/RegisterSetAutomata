@@ -1,0 +1,9 @@
+(?=((?:a|b){6,8}))\1(?:)
+1: <12 : 13.0 : a>
+===Initiate End===
+Node Coverage: 12/19
+===Genetic Algorithm End===
+Node Coverage: 19/19
+Normal fail
+TIME: 1.872647652 (s)
+Attack failed

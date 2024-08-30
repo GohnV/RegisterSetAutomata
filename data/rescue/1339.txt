@@ -1,0 +1,9 @@
+^\s*([\w-]+)=(['"])(.*?)\2(.*)$
+4: <9 : 5.0 : a><11 : 4.0 : VOjVJ=><17 : 4.222222222222222 : VOjVJ='"><23 : 3.3636363636363638 : VOjVJ='"'">
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 4.779302375 (s)
+Attack failed

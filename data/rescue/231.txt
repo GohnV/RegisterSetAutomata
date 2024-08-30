@@ -1,0 +1,9 @@
+(<<)("|'|)(PYTHON)\2
+1: <15 : 3.1875 : Po<<"PY<<"PYTPo<<"PYT"PYTHO<<o<<"PY<<"PYTPo<<"PYT"PYTHO<<PYTHON>
+===Initiate End===
+Node Coverage: 15/16
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Normal fail
+TIME: 1.179822335 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(?<!\d|\.)([\d\.]+(?:%|in|cm|mm|em|ex|pt|pc|px))(\s*\1){3}
+1: <35 : 8.553571428571429 : $:zT,R+*1#a+/Y%T,RB8YufR}9%*1#a+/Y%T,RB8YufR}9%9%9%9%>
+===Initiate End===
+Node Coverage: 35/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 29.917623155 (s)
+Attack failed

@@ -1,0 +1,15 @@
+.*([0-9a-zA-Z])\1{5}.*
+1: <9 : 6.0 : Z>
+===Initiate End===
+Node Coverage: 9/12
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 9/12
+Vulnerable: 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcncjwjidafuwvfmku
+100044 : 588.4941176470588 : 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcncjwjidafuwvfmku
+100024 : 595.3809523809524 : 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucroookcncjwjidafuwvfmku
+100024 : 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucroookcncjwjidafuwvfmku
+100024 : 0 : 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucroookcncjwjidafuwvfmku
+100567 : 'A/R	ykVZzarbtuucvbjlzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucrooapokcnzcbwfalemzleaxxytrgnfornjpicziacvjhknvoxizkbtxaabuwxpqucroookcncjwjidafuwvfmku
+TIME: 30.701253399 (s)
+Attack failed

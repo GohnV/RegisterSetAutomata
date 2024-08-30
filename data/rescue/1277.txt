@@ -1,0 +1,141 @@
+(\bimport\s+(?:[^'"]+\s+from\s+)??)(['"])([^'"]+)(\2)
+1: <21 : 6.491803278688525 : import jCrt 9]RNA)CCrt jnFJZrt jCrt from jnFJZrt jCrt rom jnFromjCHL9]RNA from jnFJZrt jCrt rom jnFromjCHL9]RNA)CnFJZ|E>
+===Initiate End===
+Node Coverage: 21/30
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 21/30
+Vulnerable: import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJfrZ|E
+	
+ 		   	 
+100185 : 788.8582677165355 : import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJfrZ|E
+	
+ 		   	 
+100018 : 877.3508771929825 : import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJf
+	
+ 		
+100018 : import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJf
+	
+ 		
+100018 : 0 : import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJf
+	
+ 		
+100036 : import	   		 
+	
+E|ZJr trCj 	
+   
+	
+  
+	 
+ 
+ 
+	  
+	 		
+ 
+ 	 
+  		  	 
+
+ 
+  
+  
+
+ 		 trZJf
+	
+ 		
+TIME: 13.648193031 (s)
+Attack failed

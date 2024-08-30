@@ -1,0 +1,9 @@
+((A\S).*)\2
+2: <11 : 4.25 : A\S><12 : 3.2615384615384615 : W'4	.p!AV8o\1*ns*;gvN SK@j_[AVG,IKL32PF$\_o`zl){!b)Lt*K~i:$|(^3>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 49.215908818 (s)
+Attack failed

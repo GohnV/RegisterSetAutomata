@@ -1,0 +1,16 @@
+= [1] =
+INPUT: url\((['"]?)\s*(.*?)\s*\1\)
+PARSE: OK
+SIZE: 20
+PUMPABLE: NO
+TIME: 0.000022 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 20
+>> AVG NFA SIZE: 20
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000022 (s)
+>> TIME MAX: 0.000022 (s)

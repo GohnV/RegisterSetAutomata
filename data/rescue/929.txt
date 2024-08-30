@@ -1,0 +1,9 @@
+(m)\1([a:])s            $ 
+1: <7 : 3.4 : mFmm>
+===Initiate End===
+Node Coverage: 7/13
+===Genetic Algorithm End===
+Node Coverage: 9/13
+Normal fail
+TIME: 0.578832174 (s)
+Attack failed

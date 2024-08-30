@@ -1,0 +1,9 @@
+(setMethod|setReplaceMethod|setGeneric|setGroupGeneric|setClass)\s*\(\s*([[:alpha:]\d]+\s*=\s*)?("|\x27)([a-zA-Z._\[\$@][a-zA-Z0-9._\[]*?)\3.*
+2: <32 : 2.1379310344827585 : setReplaceMethod('setMethod'><31 : 4.333333333333333 : seric|setClass(a=>
+===Initiate End===
+Node Coverage: 42/42
+===Genetic Algorithm End===
+Node Coverage: 42/42
+Normal fail
+TIME: 95.629923081 (s)
+Attack failed

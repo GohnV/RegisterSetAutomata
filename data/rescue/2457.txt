@@ -1,0 +1,15 @@
+<button ([^>]*)name=(['"])(.*?)\1([^>]*>.*?</button>)
+5: <6 : 0.6666666666666666 : <button ><9 : 2.0 : <button name=><19 : 2.8 : <button name="><22 : 3.3125 : <button name=">><23 : 2.0689655172413794 : <button name="*>.*?</button>>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtton naname="+<&button 
+100080 : 538.0645161290323 : <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtton naname="+<&button 
+100006 : 606.0969696969697 : <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtto
+100006 : <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtto
+100006 : 0 : <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtto
+100908 : <button name="<button name="<button name="+&<button nametton n<<butPz="<"+<&buttot<button name="+<&button naname="+<&button nametton n<<button namon n)j*t>tmtto
+TIME: 37.238974096 (s)
+Attack failed

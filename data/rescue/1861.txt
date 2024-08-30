@@ -1,0 +1,10 @@
+^url\(\s*('|")?%s\1\s*\)$
+3: <11 : 1.5714285714285714 : url(%s><11 : 3.0 : url(
+><13 : 2.3333333333333335 : url(">
+===Initiate End===
+Node Coverage: 15/20
+===Genetic Algorithm End===
+Node Coverage: 15/20
+Normal fail
+TIME: 0.115207574 (s)
+Attack failed

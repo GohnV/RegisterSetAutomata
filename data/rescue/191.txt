@@ -1,0 +1,9 @@
+^\s*(gem\s|load\sGem\.bin_path\(|load\sGem\.activate_bin_path\()(['"])(.*?)(\2),
+2: <9 : 2.25 : gem><27 : 1.3428571428571427 : load	Gem.activate_bin_path('"'"|',>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 6.115592391 (s)
+Attack failed

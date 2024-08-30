@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:^|\r?\n)declare module *(['"])(\w+)\1\s*{
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(43)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

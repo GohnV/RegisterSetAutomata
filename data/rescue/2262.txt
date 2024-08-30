@@ -1,0 +1,3 @@
+(.)[\b]\1
+TIME: 0.039324548 (s)
+Regex compile error

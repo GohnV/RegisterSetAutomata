@@ -1,0 +1,9 @@
+assert_select "input#(.*)_title\[name=\?\]", "\1\[title\]
+5: <6 : 0.2727272727272727 : assert_select "input#><7 : 1.1724137931034482 : assert_select "input#[title]><8 : 2.276595744680851 : assert_select "input#[title]_title[name=?]", "><9 : 2.0 : assert_select "input#_title[name=?]", "><10 : 2.3191489361702127 : assert_select "input#_title[name=?]", "[title]>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 72.437450777 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(?><<-("?)((?:[_\w]+_|)LUA)\b\1)
+1: <18 : 3.5217391304347827 : f/:L?////:L?/<///:L?/<<-z?><<><<<?////:L?/<///:L?/<<-z?><<><<<<///:L?/<<-z?><<>><<><<<<-z_x>
+===Initiate End===
+Node Coverage: 18/23
+===Genetic Algorithm End===
+Node Coverage: 20/23
+Normal fail
+TIME: 22.294865093 (s)
+Attack failed

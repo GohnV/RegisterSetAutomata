@@ -1,0 +1,9 @@
+\bPRIMARY\s+KEY\s*\(\s*((?:([a-z_][a-z0-9_]*|(["'`])(?:\3\3|(?!\3).)+?\3(?!\3)|\[[^\]]+\])\s*,\s*)+([a-z_][a-z0-9_]*|(["'`])(?:\5\5|(?!\5).)+?\5(?!\5)|\[[^\]]+\]))\s*\)
+1: <7 : 1.3 : 	PRIMARY	>
+===Initiate End===
+Node Coverage: 7/91
+===Genetic Algorithm End===
+Node Coverage: 7/91
+Normal fail
+TIME: 0.956233085 (s)
+Attack failed

@@ -1,0 +1,4 @@
+(['"\/]).*?[^\\]\1|\.\w*|\w*:|\b(?:(?:new|typeof|in|instanceof) |(?:this|true|false|null|undefined)\b|function *\()|([a-z_$]\w*)
+6: <36 : 14.333333333333334 : in><24 : 7.25 : in ><38 : 5.464285714285714 : "jP&ePYWt	OF9;=wj-9&lD\w\[><32 : 7.75 : RN.oewt><29 : 8.0 : true><36 : 8.11111111111111 : function>
+===Initiate End===
+Node Coverage: 51/51

@@ -1,0 +1,10 @@
+\n\s*#ifndef\s+(\w+).*\n\s*#define\s+\1.*?\n
+1: <6 : 1.3703703703703705 : U	[!9Wm#c`@k4a`cDeurF
+	[>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 11/25
+Normal fail
+TIME: 26.250710501 (s)
+Attack failed

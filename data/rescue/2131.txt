@@ -1,0 +1,9 @@
+^(={1,5})\s(.+)\s\1$
+5: <7 : 4.0 : =><10 : 3.6666666666666665 : =	><12 : 3.75 : =	><13 : 3.2 : =	><15 : 3.0 : =	=>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 3.987154507 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^\s*(_?)(\S+?)\1\s*$
+1: <17 : 11.0 : _>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 17.349432827 (s)
+Attack failed

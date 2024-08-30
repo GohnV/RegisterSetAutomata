@@ -1,0 +1,16 @@
+= [1] =
+INPUT: \[img(:.+)? align=(left|right)\](.*?)\[\/img\1?\]
+PARSE: OK
+SIZE: 46
+PUMPABLE: NO
+TIME: 0.000070 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 46
+>> AVG NFA SIZE: 46
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000070 (s)
+>> TIME MAX: 0.000070 (s)

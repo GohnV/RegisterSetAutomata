@@ -1,0 +1,9 @@
+<(font|span)[^>]*>\s*<\/\1>
+2: <17 : 7.247524752475248 : Za_""o%yl<fontM<fontM<fon\/\ff\/\M}+!"o%yontM<fontM<fon\/\ffon\/\fontM<fon\/\M}+!\/\M}+!"o%y1></font><17 : 1.7941176470588236 : Za_""o%yl<fontM<fontM<fon\/\ff\/\M}+!"o%yontM<fontM<fon\/\ffon\/\fontM<fon\/\M}+!\/\M}+!"o%y1></font>>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 85.164521689 (s)
+Attack failed

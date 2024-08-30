@@ -1,0 +1,9 @@
+<([A-Z\-\.0-9]+)>([^<]*)<\/\1>
+1: <14 : 4.185185185185185 : idf6BB'<79>W<79>WWaGaGBB'{IIWaG)YX797{IIWaGBB'<79>'</>
+===Initiate End===
+Node Coverage: 14/16
+===Genetic Algorithm End===
+Node Coverage: 14/16
+Normal fail
+TIME: 37.503275295 (s)
+Attack failed

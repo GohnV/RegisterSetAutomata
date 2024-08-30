@@ -1,0 +1,24 @@
+(<[a-z]+\d*(\s+(?!data-bind=)[a-z0-9\-]+(=(\"[^\"]*\"|\'[^\']*\'))?)*\s+)data-bind=(["'])([\s\S]*?)\5
+1: <40 : 8.077519379844961 : d	I_y1
+u!'7O*7I><y1
+O*7I><y1
+7I><y1
+u=" h
+_<y1
+O*7I><y1
+O*7I<y1
+7I><y1
+u=" h
+_<y1
+O*7I><y1
+O*7I><}bq	7I1
+O*7I><y1
+7I><y1
+u='oHk'>
+===Initiate End===
+Node Coverage: 40/50
+===Genetic Algorithm End===
+Node Coverage: 43/50
+Normal fail
+TIME: 9.701840456 (s)
+Attack failed

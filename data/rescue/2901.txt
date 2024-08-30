@@ -1,0 +1,15 @@
+(?s).*(<(\w+)[^>]*>.*</\2>|<(\w+)[^>]*/>).*
+2: <30 : 12.264705882352942 : @cIla-^)r6a4G(F(~<rw,5xK!c,`D*/>)I xc+	'4/x 9Bv)phAoH4# X'<ch@96.j><27 : 523.1634615384615 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8ISe9ZT*>.*</9f=;+I@5	c	Xd K8ISe9ZT*>.*</\2>|<|/+}hx>
+===Initiate End===
+Node Coverage: 32/32
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 32/32
+Vulnerable: 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8ISe9ZT*>.*</9f=;+I@5	c	Xd K8ISe9ZT*>.*</\2>|<|/+}hx
+100162 : 690.7724137931034 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8ISe9ZT*>.*</9f=;+I@5	c	Xd K8ISe9ZT*>.*</\2>|<|/+}hx
+100018 : 934.7476635514018 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeH<9f=;+I@5	c	Xd K8ISe9ZT<f=;+I@5	
+100018 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeH<9f=;+I@5	c	Xd K8ISe9ZT<f=;+I@5	
+100018 : 0 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeH<9f=;+I@5	c	Xd K8ISe9ZT<f=;+I@5	
+100435 : 'UpeBlg8!,pE\O07l<~#'yCE$MbI1LeHKU<9f=;+I@5	c	Xd K8IE\O07l<~#'yCE$MbI1LeH<9f=;+I@5	c	Xd K8ISe9ZT<f=;+I@5	
+TIME: 21.004517937 (s)
+Attack failed

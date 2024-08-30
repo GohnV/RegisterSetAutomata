@@ -1,0 +1,9 @@
+^\s*list\s+([^@\s]+)@(onelist\.(..|com));\s+contact\s+\1-owner@\2$
+2: <32 : 1.0535714285714286 : list	-owner@onelist.-o;	contact	-owner-owner@onelist.-o><32 : 0.875 : list	-owner@onelist.-o;	contact	-owner-owner@onelist.-o>
+===Initiate End===
+Node Coverage: 33/33
+===Genetic Algorithm End===
+Node Coverage: 33/33
+Normal fail
+TIME: 18.336985037 (s)
+Attack failed

@@ -1,0 +1,10 @@
+<font\s+[^>]*\bcolor=("?)#ffffff\b\1[^>]*>.*?<\/font>
+7: <3 : 0.5 : <font><7 : 1.1428571428571428 : <font	><8 : 0.8857142857142857 : 0]XdtHFBY<D
+zg{'C\z}%y2W^L|:eD-t> D~1~4+{p/N?jD<font	=		cWSr_%&K0J{1G><13 : 2.5384615384615383 : <font	color=><18 : 3.05 : <font	color=#ffffff><21 : 3.0476190476190474 : <font	color=#ffffff>><21 : 2.2857142857142856 : <font	color=#ffffff></font>>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 271.310114234 (s)
+Attack failed

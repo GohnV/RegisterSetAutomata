@@ -1,0 +1,9 @@
+^(["'])%[dfFs]\1$
+1: <9 : 1.8 : "%d">
+===Initiate End===
+Node Coverage: 9/10
+===Genetic Algorithm End===
+Node Coverage: 9/10
+Normal fail
+TIME: 0.085320914 (s)
+Attack failed

@@ -1,0 +1,9 @@
+(?x)^\s*<(?!\?|area|base|br|col|frame|hr|html|img|input|link|meta|param|[^>]*\/>)([A-Za-z0-9]+)(?=\s|>)\b[^>]*>(?!.*<\/\1>)|<!--(?!.*-->)|<\?php.+?\b(if|else(?:if)?|for(?:each)?|while)\b.*:(?!.*end\1)|\{[^}"']*$
+6: <38 : 5.864 : <lk	Tg?phpim;v&RRCik	<hpim;v&&phpik	<hI	7?w<?p<!---chYRC7eI	7?chI	7?chY<?phpimeac	7?chYRhYRClse?|v&I	/|f?chYRhpim;&I	7?c/</>><57 : 22.535353535353536 : </<?phpim;<C7e</<?phpif|lk<whi<C7e</<?phpif|lk	Tg?phpim;se?|;vI	pim;vI	7?cmg{im;vI	7?cmg{if|elseif><62 : 15.180555555555555 : <C7e</<?phpim;vI	7?chYRhYRClse?|for;	Tg?phpim;s	7?w<?p<!---m;v&&----></><48 : 5.276190476190476 : <lk	Tg?phpim;v&RRCik	<hpim;v&&phpik	<hI	7?w<?p<!---m;v&&---Clse?|for;	Tg?phpim;s	7?w<?p<!---m;v&&----></><58 : 16.324074074074073 : <w&I	7?chI	7?chYR/<?phpim;<CI	7?chI	7?chYR/<?pCI	7?chI	7?chYR/<?phpim;<C7e</<?phpif|lk	Tg?phpim;se?|foreach><64 : 8.2 : <w&I	7?chI	7?chYR/<?phpim;<CI	7?chI	7?chYR/<?pCI	7?chI	7?chYR/<?phpim;<C7e</<?phpif<?phpim;le:enhYRClse?|for;<while:end>
+===Initiate End===
+Node Coverage: 94/97
+===Genetic Algorithm End===
+Node Coverage: 94/97
+Normal fail
+TIME: 99.248919644 (s)
+Attack failed

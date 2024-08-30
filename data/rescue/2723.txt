@@ -1,0 +1,9 @@
+(?:c)_(?=(a+))\1(?:)
+1: <17 : 2.323529411764706 : <=r8m78fuM.=%9~fKIGeO"iDwIq,`c_a>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 3.309479206 (s)
+Attack failed

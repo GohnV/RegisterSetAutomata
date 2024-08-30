@@ -1,0 +1,9 @@
+([\-:]\s*(?:![^\s]+)?[ \t]*[|>])[ \t]*(?:((?:\r?\n|\r)[ \t]+)[^\r\n]+(?:\2[^\r\n]+)*)
+1: <43 : 2.851063829787234 : ii:!4:!4&>ii:!4:!4&> ii:!4:!4&>ii:!4:!4&> \t>
+===Initiate End===
+Node Coverage: 43/43
+===Genetic Algorithm End===
+Node Coverage: 43/43
+Normal fail
+TIME: 130.269776199 (s)
+Attack failed

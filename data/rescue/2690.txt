@@ -1,0 +1,10 @@
+<$first(\d+)>([^<]+)</$first\1>
+1: <3 : 1.1538461538461537 : 2uor
+jaM<h,>
+===Initiate End===
+Node Coverage: 3/20
+===Genetic Algorithm End===
+Node Coverage: 3/20
+Normal fail
+TIME: 1.064106572 (s)
+Attack failed

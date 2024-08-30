@@ -1,0 +1,6 @@
+= [1] =
+INPUT: <iframe[^>]+src=([\'"])((?:https?:)?//link\.brightcove\.com/services/player/(?!\1).+)\1
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(76)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

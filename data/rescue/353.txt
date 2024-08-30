@@ -1,0 +1,9 @@
+(?<=^|\s)(['"]?)(.+?)(?<!\\)\1(?=$|\s)
+3: <21 : 11.5 : \><30 : 11.666666666666666 : \?<=^|\s><28 : 17.571428571428573 : \?<!\\>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 107.054202622 (s)
+Attack failed

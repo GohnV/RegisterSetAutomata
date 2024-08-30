@@ -1,0 +1,9 @@
+(VERSION\s*=\s*(["']))\d+\.\d+\.\d+\2
+1: <16 : 2.8181818181818183 : VERSION='3>
+===Initiate End===
+Node Coverage: 16/23
+===Genetic Algorithm End===
+Node Coverage: 19/23
+Normal fail
+TIME: 2.782579266 (s)
+Attack failed

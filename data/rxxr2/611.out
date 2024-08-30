@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*insert\s+into\s+(.+?)(\(|)\s*(\s*select.*)\s*\2\s*($|ON\s+DUPLICATE\s+KEY\s+UPDATE)
+PARSE: ERROR {Stdlib.Parsing.Parse_error}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

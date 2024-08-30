@@ -1,0 +1,12 @@
+((?:^|\r?\n|\r)([\t ]*)):[\w-]+((?:\r?\n|\r)(?:\2[\t ]+.+|\s*?(?=\r?\n|\r)))+
+1: <51 : 10.75 : NUtN^S
+:P
+
+>
+===Initiate End===
+Node Coverage: 51/53
+===Genetic Algorithm End===
+Node Coverage: 53/53
+Normal fail
+TIME: 17.025186747 (s)
+Attack failed

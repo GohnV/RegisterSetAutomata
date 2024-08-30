@@ -1,0 +1,12 @@
+^(BUNDLE_.+): (['"]?)(.*(?:\n(?!BUNDLE).+)?)\2$
+6: <5 : 0.625 : BUNDLE_><8 : 2.411764705882353 : BUNDLE_BUNDLE_.+><22 : 2.473684210526316 : BUNDLE_BUNDLE_.+: ><27 : 2.6 : BUNDLE_BUNDLE_.+: 
+><29 : 2.6363636363636362 : BUNDLE_BUNDLE_.+: 
+: ><25 : 2.576923076923077 : BUNDLE_BUNDLE_.+: 
+BUNDLE>
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 53.789598206 (s)
+Attack failed

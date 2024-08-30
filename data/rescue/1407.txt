@@ -1,0 +1,9 @@
+(N|D)O\1
+1: <10 : 4.285714285714286 : NNNNON>
+===Initiate End===
+Node Coverage: 10/11
+===Genetic Algorithm End===
+Node Coverage: 10/11
+Normal fail
+TIME: 19.632993871 (s)
+Attack failed

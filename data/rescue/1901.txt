@@ -1,0 +1,9 @@
+^(['\\"]{3})(.*?)\1
+2: <11 : 3.8 : '\\"><12 : 2.375 : '\\"'\\>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 0.475937212 (s)
+Attack failed

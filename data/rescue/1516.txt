@@ -1,0 +1,9 @@
+^((["'`]).*\2)\.([^.]*)$
+3: <9 : 3.5 : "'`><11 : 3.8 : "'`"><17 : 4.333333333333333 : "'`".>
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 16.95248676 (s)
+Attack failed

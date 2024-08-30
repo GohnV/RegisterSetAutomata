@@ -1,0 +1,11 @@
+<(h1|h2|h3|h4|h5|h6|p|div|blockquote|pre|strong|em|a|b|i|u)\s*><\/\1>
+1: <29 : 1.6 : 	u|gcmM
+$W
+(%kSfF 	qE?F9gb|\2p<=#//ogiw7e}T&$tElW))2+<u ></u>>
+===Initiate End===
+Node Coverage: 29/29
+===Genetic Algorithm End===
+Node Coverage: 29/29
+Normal fail
+TIME: 2.734836987 (s)
+Attack failed

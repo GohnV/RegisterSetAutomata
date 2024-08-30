@@ -1,0 +1,3 @@
+((\w)\w)(?<=\1\2\1)
+TIME: 0.05346437 (s)
+Regex compile error

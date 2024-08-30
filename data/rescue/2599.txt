@@ -1,0 +1,12 @@
+(<input[^>]*)type\s*=\s*([\"']*)text\2([^>]*>)
+1: <25 : 2.3220338983050848 : "	e{a,
+DR
+7e$k4f++Z<inputE9j]8C(D+-,{'8Jf++Z<inputE9j]8C(D+-,{inputE9j]8C(D+-,{'8Jg~)@]9v5`	64j
+$d4?_type=text\2*>>
+===Initiate End===
+Node Coverage: 25/25
+===Genetic Algorithm End===
+Node Coverage: 25/25
+Normal fail
+TIME: 80.005828561 (s)
+Attack failed

@@ -1,0 +1,10 @@
+\bid\b[=](["'])(?:(?=(\\?))\2.)*?\1
+1: <22 : 4.205128205128205 : FwVTBociEW}X'0w
+=?F;h}	id='=di	}h;Fw0'>
+===Initiate End===
+Node Coverage: 22/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 56.649746381 (s)
+Attack failed

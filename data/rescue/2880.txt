@@ -1,0 +1,9 @@
+(\`+)([^`]+)\1\$
+1: <13 : 2.3548387096774195 : _1,w%`iR]n:?EtVF$?eh@_}?}=w%`$>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 45.585874035 (s)
+Attack failed

@@ -1,0 +1,12 @@
+(?=(YYYY|YY|MM|DD|HH|mm|ss|ms))\1([:\/]*)
+2: <18 : 6.0 : MM><13 : 12.015151515151516 : $'4F?{#LT|v\
+
+"Sxr	C~b}Lgn
+2W<N,S 6}*%	QRP1/y><z4EEeQ.lC:bKIi>
+===Initiate End===
+Node Coverage: 23/23
+===Genetic Algorithm End===
+Node Coverage: 23/23
+Normal fail
+TIME: 34.489833203 (s)
+Attack failed

@@ -1,0 +1,9 @@
+^TYPEMAP\s*:\s*<<\s*(?:(["'])(.+?)\1|([^\s'"]+?))\s*;?\s*$
+5: <5 : 0.625 : TYPEMAP><8 : 0.8888888888888888 : TYPEMAP:><17 : 1.5454545454545454 : TYPEMAP:<<><24 : 1.9230769230769231 : TYPEMAP:<<"'><29 : 2.4166666666666665 : TYPEMAP:<<a>
+===Initiate End===
+Node Coverage: 35/35
+===Genetic Algorithm End===
+Node Coverage: 35/35
+Normal fail
+TIME: 83.205183557 (s)
+Attack failed

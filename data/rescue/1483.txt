@@ -1,0 +1,9 @@
+^(((.)(\3)+)+\s*)
+1: <17 : 4.142857142857143 : >
+===Initiate End===
+Node Coverage: 17/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 0.488439217 (s)
+Attack failed

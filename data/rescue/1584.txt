@@ -1,0 +1,9 @@
+\A(\S+?)=(['"])(.*?)\2\z
+3: <7 : 4.0 : =><9 : 4.666666666666667 : ==><17 : 3.9402985074626864 : G?[:="$!BF/&{O~	n;m,`a^*F,	HgV!Puoq+ZP^ Q/yBK5P~'3RjB r(wY\Zd<BB'">
+===Initiate End===
+Node Coverage: 17/17
+===Genetic Algorithm End===
+Node Coverage: 17/17
+Normal fail
+TIME: 27.559359242 (s)
+Attack failed

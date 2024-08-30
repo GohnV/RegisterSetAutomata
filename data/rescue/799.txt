@@ -1,0 +1,9 @@
+^(\\?.)((?:\1\?)+)$
+5: <9 : 4.5 : ?><10 : 3.3333333333333335 : ??><10 : 5.0 : \n><14 : 5.0 : \\?><14 : 3.75 : ???>
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 0.097511891 (s)
+Attack failed

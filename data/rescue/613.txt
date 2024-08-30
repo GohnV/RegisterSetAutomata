@@ -1,0 +1,9 @@
+(\w)(\1+)
+2: <7 : 3.0 : \w><10 : 3.25 : \ww>
+===Initiate End===
+Node Coverage: 10/10
+===Genetic Algorithm End===
+Node Coverage: 10/10
+Normal fail
+TIME: 24.417138499 (s)
+Attack failed

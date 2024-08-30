@@ -1,0 +1,18 @@
+^(?:([\s\S]*?)\n)?[ \t]*([-_*])(?:[ \t]*\2){2,}[ \t]*(?:\n([\s\S]*))?$
+1: <36 : 12.11111111111111 : ***
+
+
+**
+
+
+
+
+
+**?>
+===Initiate End===
+Node Coverage: 36/36
+===Genetic Algorithm End===
+Node Coverage: 36/36
+Normal fail
+TIME: 7.551264335 (s)
+Attack failed

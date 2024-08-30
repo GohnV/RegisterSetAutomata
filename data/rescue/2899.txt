@@ -1,0 +1,15 @@
+\{\{(\w+).*?\}\}+(.*)(\{\{\/\1\}\})
+1: <19 : 4.7592592592592595 : r()CJooU2OWJPqz&{{s!Lf=3vbb]{s!bb]r(o&{{s!LiZ10}}{{/>
+===Initiate End===
+Node Coverage: 19/22
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/22
+Vulnerable: r6614D415A8B2116c(){{r6614D415A8B2116c(){{r6614D415A8B2116cc6112B8A514D41ooU2OZ10}}{{/66733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidxguyoxzmlsongs
+100147 : 529.8783068783068 : r6614D415A8B2116c(){{r6614D415A8B2116c(){{r6614D415A8B2116cc6112B8A514D41ooU2OZ10}}{{/66733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidxguyoxzmlsongs
+100085 : 658.453947368421 : r{{r6614D415A8B2116c{{r6614D415A8B2116cc6112B8A514D41ooU2OZ1}}{{6733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidx
+100085 : r{{r6614D415A8B2116c{{r6614D415A8B2116cc6112B8A514D41ooU2OZ1}}{{6733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidx
+100085 : 0 : r{{r6614D415A8B2116c{{r6614D415A8B2116cc6112B8A514D41ooU2OZ1}}{{6733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidx
+103298 : r{{r6614D415A8B2116c{{r6614D415A8B2116cc6112B8A514D41ooU2OZ1}}{{6733L!s{{&o}}01Z}}{{/<?}?{>>{@;};;s!LiZ10}}{{/fccofcpqaqcehckvesqpeeyawhlbdwieaidx
+TIME: 38.458517564 (s)
+Attack failed

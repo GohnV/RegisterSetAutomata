@@ -1,0 +1,9 @@
+([\W_]|^)(\*|_)(?=\S)([^\r\*_]*?\S)\2([\W_]|$)
+4: <11 : 10.5 : \><24 : 12.0 : \*|_><28 : 4.571428571428571 : \*|_*?><29 : 5.5 : \*|_*>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 7.174917551 (s)
+Attack failed

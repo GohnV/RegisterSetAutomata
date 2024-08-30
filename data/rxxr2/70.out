@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (background|background-image\s*:\s*url\s*\()(["']?)(.*?)(\2)(\s*\)(.*?);)
+PARSE: OK
+SIZE: 63
+PUMPABLE: NO
+TIME: 0.000074 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 63
+>> AVG NFA SIZE: 63
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000074 (s)
+>> TIME MAX: 0.000074 (s)

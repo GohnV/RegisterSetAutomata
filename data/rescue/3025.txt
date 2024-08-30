@@ -1,0 +1,9 @@
+<!--IF\(([\w!|&=<>]+)\)-->(.*?)(?:<!--ELSE\(\1\)-->(.*?))?<!--FI\(\1\)-->
+2: <17 : 0.7407407407407407 : <!--IF(<!)--><!--FI(<!)-->><25 : 9.212765957446809 : <!--IF(<!)--><!--FI(<!-IFF(<!)--><!--ELSE(<!)--><!--ELSE(<!LSE(<!IFI<!LSE(<!IFI(<!IFI(<!--IF(>
+===Initiate End===
+Node Coverage: 26/26
+===Genetic Algorithm End===
+Node Coverage: 26/26
+Normal fail
+TIME: 184.025966547 (s)
+Attack failed

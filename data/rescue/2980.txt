@@ -1,0 +1,11 @@
+^( *)function intersection[\s\S]+?\n\1}
+4: <8 : 0.36363636363636365 : function intersection><10 : 0.4782608695652174 : function intersection}><12 : 0.6666666666666666 : function intersection}
+><13 : 0.52 : function intersection}
+}>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 0.601905305 (s)
+Attack failed

@@ -1,0 +1,10 @@
+^\s*(end)(?:\s+(\2))?(?=\s*(--.*?)?$)
+2: <23 : 5.4 : end
+><25 : 4.142857142857143 : end--->
+===Initiate End===
+Node Coverage: 27/30
+===Genetic Algorithm End===
+Node Coverage: 27/30
+Normal fail
+TIME: 1.146511386 (s)
+Attack failed

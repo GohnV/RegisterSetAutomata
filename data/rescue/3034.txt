@@ -1,0 +1,9 @@
+^<(\w+(?!:\/|[^\w\s@]*@)\b)+?((?:"[^"]*"|'[^']*'|[^'">])*?)>([\s\S]*?)<\/\1>
+4: <18 : 7.0 : <__m_@><32 : 7.338028169014085 : <__m_KYZSGFT_m_KYZSGFTZPSBXRBVIVKMW?'+=_KMH8\a@</SFEW?*<re\*&e\W?'+=_@><30 : 3.526315789473684 : <jZo"DBz&e\EYYUPZYGSTNEFZMH8\a@</SFEW?*<re\*&e\H8\a@</SFEW?*<re\*&e\W?'+=_@><30 : 4.363636363636363 : <S><$a\W?YKMH8\a@</S>>
+===Initiate End===
+Node Coverage: 45/45
+===Genetic Algorithm End===
+Node Coverage: 45/45
+Normal fail
+TIME: 21.20608347 (s)
+Attack failed

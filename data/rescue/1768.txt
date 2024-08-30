@@ -1,0 +1,9 @@
+^var\s+source\s*=\s*(['"])(.*)\1;\s*$
+1: <20 : 3.6307692307692307 : var	source='=e=ar	source='=	source='=e=ar	source='=e='=e='=''"'">
+===Initiate End===
+Node Coverage: 20/24
+===Genetic Algorithm End===
+Node Coverage: 23/24
+Normal fail
+TIME: 36.848438296 (s)
+Attack failed

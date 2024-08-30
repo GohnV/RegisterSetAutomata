@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\/components\/(([^\/]+)\/\2\.ejs)$
+PARSE: ERROR {ParsingData.InvalidBackreference(26)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

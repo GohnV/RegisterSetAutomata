@@ -1,0 +1,9 @@
+^(.*?)((.)\2{2,127})(.*?)$
+1: <12 : 8.5 : ^>
+===Initiate End===
+Node Coverage: 12/19
+===Genetic Algorithm End===
+Node Coverage: 12/19
+Normal fail
+TIME: 18.377625701 (s)
+Attack failed

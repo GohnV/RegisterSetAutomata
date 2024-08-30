@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^(s)(.)(.+?)((??{$cl->($2)}))\2?(.+?)\4($modre*)$
+PARSE: ERROR {ParsingData.UnsupportedInlineModifier(15, 63)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

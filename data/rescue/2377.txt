@@ -1,0 +1,9 @@
+\s*((?:[^'"\s]\S*)|(["'])(?:(?>\\?).)*?\2)
+3: <13 : 6.5 : \><14 : 3.8 : \\s*><28 : 13.076923076923077 : 'iDJt*MVPp2U[jjnN@CK}/JXa{D9:GNQf+bFN^88iZCo`[dNxj!9H~-y?#Yw[UI+>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 77.367094334 (s)
+Attack failed

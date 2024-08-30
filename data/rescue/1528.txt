@@ -1,0 +1,10 @@
+<(textarea)[^>]*>\n(.*?)<\/\1>
+1: <4 : 1.6 : 
+r<q>
+===Initiate End===
+Node Coverage: 4/17
+===Genetic Algorithm End===
+Node Coverage: 4/17
+Normal fail
+TIME: 0.127341025 (s)
+Attack failed

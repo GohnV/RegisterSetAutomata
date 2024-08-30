@@ -1,0 +1,9 @@
+(h|t|r|e|l|u|U|s(/|%|\#)(.*?)(?<!\\)\2(.*?)(?:(?<!\\)\2|$))
+2: <45 : 9.868421052631579 : S!xms#ms#5||(*!/?|3|(||8)\5|)%|0)(hu><32 : 15.6875 : #ms#5||(*!/?|3|(||8)\5|)%|0)(hu>
+===Initiate End===
+Node Coverage: 46/46
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Normal fail
+TIME: 44.829151566 (s)
+Attack failed

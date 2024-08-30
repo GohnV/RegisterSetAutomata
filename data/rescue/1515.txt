@@ -1,0 +1,9 @@
+([+\-*\/%])(W|S|C|F|T|X|WRAP|SHORT|CLIP|FOLD|TABLE|FLAT)\1
+1: <22 : 5.0 : <m<mm<m+k/WW<m+k/Wk/<mWk/W/>
+===Initiate End===
+Node Coverage: 22/23
+===Genetic Algorithm End===
+Node Coverage: 22/23
+Normal fail
+TIME: 14.139464526 (s)
+Attack failed

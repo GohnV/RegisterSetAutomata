@@ -1,0 +1,22 @@
+[^b]*((..)|(\2))+Sz
+3: <17 : 25.0 : Sz><18 : 17.0 : Sz+Sz><17 : 1515.8939393939395 : j0i/'7
+]&^Z\2}6aEEpKz/Veub}}0V$}fn^G ^= ~`-,YM4=V~c*@Oz75C*	y)>
+===Initiate End===
+Node Coverage: 18/19
+find attack string when init
+===Genetic Algorithm End===
+Node Coverage: 18/19
+Vulnerable: j0i/'7
+]&^Z\2}6aEEpKz/Veub}}0V$}fn^G ^= ~`-,YM4=V~c*@Oz75C*	y)
+100049 : 1515.8939393939395 : j0i/'7
+]&^Z\2}6aEEpKz/Veub}}0V$}fn^G ^= ~`-,YM4=V~c*@Oz75C*	y)
+100019 : 2128.063829787234 : j0i/'7
+]&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c*
+100019 : j0i/'7
+]&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c*
+1000159 : 2 : j0i/'7
+]&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c*
+1708705 : j0i/'7
+]&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c&^Z\2}6aEEpKz/$}fn^G ^= ~`-,YM4=V~c*
+TIME: 3.414755799 (s)
+Attack failed

@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^#\s*(-\*-|)\s*(frozen_string_literal|warn_indent|warn_past_scope):.*\1$
+PARSE: ERROR {Stdlib.Parsing.Parse_error}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

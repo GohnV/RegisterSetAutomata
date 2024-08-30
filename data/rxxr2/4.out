@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (<)(profiles)\s*(>)(?!<\s*/\2\s*>)
+PARSE: ERROR {Nfa.UnsupportedGroupingConstruct(19)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

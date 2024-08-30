@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \.(?:([CcHh])\1?|c([+xp])\2|y)\z
+PARSE: ERROR {ParsingData.InvalidBackreference(25)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

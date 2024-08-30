@@ -1,0 +1,75 @@
+\[([a-z]+)\s*?(?:[^\]]*?)\](.*?)(\[/\1\])
+1: <24 : 5.63768115942029 : 	vn[/zdR'E[zdR'kT'])]@	P h4n[/z])]@	P h4n[/zdR'kT'])]@	P h4n[/^~_($:>
+===Initiate End===
+Node Coverage: 24/24
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 24/24
+Vulnerable: [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+100019 : 444.5288888888889 : [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+100019 : 444.5288888888889 : [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+100019 : [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+100019 : 0 : [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+100083 : [qqdqnczntxakqearhrlppfi
+	 	 
+
+		
+ 
+ 		 	
+[nzd'E[sbrymrlewwzyjbht		
+ 
+ 		 	
+ 
+ ]'Tk'R)]@~_($:yjdpn[ar[rdqnczntxakqearhrlppfindtwbnaczntxakqearhrlppfibrymrlewwzyjbhtshpnyuoslqgbdlxadanjiarhratx([ds=]!"!$[$,+>?@~+,'%
+TIME: 223.595376925 (s)
+Attack failed

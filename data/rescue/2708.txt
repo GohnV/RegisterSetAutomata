@@ -1,0 +1,15 @@
+<(\w+)([^>]*)>([^<]+)(\s+\{:([^&].+)\})<\/\1>
+1: <20 : 20.06451612903226 : |C+7`<X<SQ5`S.~	!z`R6re[jA>;{9,XR6XR6re[jA>;{;{9,X[c.c.,>
+===Initiate End===
+Node Coverage: 20/31
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 20/31
+Vulnerable: |C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w\{[
+100099 : 411.93004115226336 : |C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w\{[
+100060 : 423.9830508474576 : |<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w
+100060 : |<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w
+100060 : 0 : |<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w
+100060 : |<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..cXpzvs|C+QS<Xpzvsseeurcdnizpuwkqgbqcusuw<SQpzvsseeurcdnizpuwkqgbqcusuwagzotlwhybkyzmqikenofvddskwlsdainorgaoybck5`S..c.,w(\8w
+TIME: 97.023694747 (s)
+Attack failed

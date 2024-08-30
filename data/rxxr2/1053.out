@@ -1,0 +1,6 @@
+= [1] =
+INPUT: ^\s*(\S+)\s+(\S+)\s+(\"|\')([^\3]*)\3\s*$
+PARSE: ERROR {ParsingData.UnsupportedEscape(31, 51)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

@@ -1,0 +1,3 @@
+(foo)\g<1>(bar)\2
+TIME: 0.042740036 (s)
+Regex compile error

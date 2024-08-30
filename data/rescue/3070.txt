@@ -1,0 +1,18 @@
+(%.)|(\*{1,3})((?:%.|.)+?)\2|(`+)((?:%.|.)+?)\4|\[((?:%.|.)+?)\]\(([^\s\)]+)\)
+7: <12 : 6.0 : %><8 : 2.6666666666666665 : %`><41 : 27.423076923076923 : Z$y*Nv Co)[C6A[Lp^/&%GVd><24 : 11.15625 : |s_
+\+
+]B ::r}>$SyuZY!Nr~	xOm`L"wIOBI0	|$_Z<u1x"myG"=XGGDI]	HW><29 : 17.375 : Qp`d]QCmH7/'Mx $U7Jy%TW><44 : 29.75 : Z$y*Nv Co)[C6A[Lp^/&%GVd](><46 : 31.344827586206897 : Z$y*Nv Co)[C6A[Lp^/&%GVd](%>
+===Initiate End===
+Node Coverage: 59/59
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 59/59
+Vulnerable: y**Nv Co)[C6A[Lp^/&%Vd^/&%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^/&%Vd^/&%G%GVd&%GVd](
+100087 : 1220.5731707317073 : y**Nv Co)[C6A[Lp^/&%Vd^/&%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^/&%Vd^/&%G%GVd&%GVd](
+100050 : 1563.28125 : y**Nv Co)[C6A[L%V%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^%Vd^%G%GVd&
+1000073 : y**Nv Co)[C6A[L%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^%Vd^%G%GVd&
+1000133 : 2 : y**Nv Co)[C6A[L%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^%Vd^%G%GVd&
+100000129 : y**Nv Co)[C6A[L%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^%Vd^%G%GVd&
+TIME: 7.863704054 (s)
+Attack success, attack string is:
+y**Nv Co)[C6A[L%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%%V%G%v Co)[C6Ad^/&%G%v Co)[C6A[Lp^%Vd^%G%GVd&

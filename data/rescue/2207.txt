@@ -1,0 +1,9 @@
+(?<=[A-Za-z\d])(([^A-Za-z\d])\2*)
+3: <4 : 2.6666666666666665 : ?<><14 : 4.2 : ?<A-><15 : 3.8333333333333335 : ?<A-->
+===Initiate End===
+Node Coverage: 15/15
+===Genetic Algorithm End===
+Node Coverage: 15/15
+Normal fail
+TIME: 30.026401931 (s)
+Attack failed

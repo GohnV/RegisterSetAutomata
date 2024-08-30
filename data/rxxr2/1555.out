@@ -1,0 +1,6 @@
+= [1] =
+INPUT: (?:^([\'\/]{0,2})~?([\.\w]+)\:\1[\t\x20]*([^\n]*)[\t\x20]*$)|(?:^\|([\'\/]{0,2})~?([\.\w]+)\:?\4\|[\t\x20]*([^\|\n]*)[\t\x20]*\|$)
+PARSE: ERROR {ParsingData.InvalidBackreference(94)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

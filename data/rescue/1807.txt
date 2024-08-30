@@ -1,0 +1,10 @@
+\[(['"])(.*?)\1\]
+4: <4 : 1.0483870967741935 : W|[sc!V06gH@0?"9i'ZQH?/z:k"'IgDM/ ;*)HpL	9XF0WZ@.S3-]yfkq {!><11 : 1.2063492063492063 : E-@JtSTr\jl? g	xNo2a-k?|m['3hQfj-_%ZtvS(t)xzE<,2Crj)~&4&;](><12 : 2.4393939393939394 : @r1P;o IIGa}[$H/")AwjpC#z@[X.l&mz{@$'x
+h~['cA"bIGqsC8{{Z'z5>Gx!T><13 : 1.5625 : ,nCKX`:%S0e	6YgFOs*qJ9["u&Vc"]>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 78.605124123 (s)
+Attack failed

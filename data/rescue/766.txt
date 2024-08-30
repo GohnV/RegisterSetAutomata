@@ -1,0 +1,9 @@
+(</)(extensions)\s*(>)(?!<\s*/\2\s*>)
+1: <6 : 2.25 : 3D/NBu$'a2#8</N>
+===Initiate End===
+Node Coverage: 6/25
+===Genetic Algorithm End===
+Node Coverage: 6/25
+Normal fail
+TIME: 1.273724019 (s)
+Attack failed

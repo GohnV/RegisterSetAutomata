@@ -1,0 +1,10 @@
+(^|\n)((    )*(  ))---\n(.*?\n)+\2\.\.\.(\n|$)
+1: <16 : 4.185567010309279 : &cc*"&cc*"	dQSQ hy	2HCJYv~pj	2HCJYv~pjB%q[)3\U	dQSQ hy	2HCJYv~pj	2HCJYv~pjB%q[)3\U	B r,
+    >
+===Initiate End===
+Node Coverage: 16/33
+===Genetic Algorithm End===
+Node Coverage: 16/33
+Normal fail
+TIME: 2.148414969 (s)
+Attack failed

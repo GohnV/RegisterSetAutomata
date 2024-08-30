@@ -1,0 +1,12 @@
+((\r?\n|\r)\2)([ \t]+)\S.*(?:(?:\r?\n|\r)\3.+)*(?=\2{2}|$)
+1: <44 : 3.661764705882353 : c^_ZX]Bo)#z8$
+
+ M
+ Mzc_#L3O<(KewBIk;r2"Bj'uim#|j9FTn4ZE`8CR044&<~ >
+===Initiate End===
+Node Coverage: 44/44
+===Genetic Algorithm End===
+Node Coverage: 44/44
+Normal fail
+TIME: 59.64520903 (s)
+Attack failed

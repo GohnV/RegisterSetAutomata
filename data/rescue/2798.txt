@@ -1,0 +1,9 @@
+<((\w+:)?ServiceType)[^>]*>([^<]*)<\/\1>
+1: <21 : 5.105263157894737 :  [t0be\u<S [t0be\u<ServiceTypQXu<ServiceTypeqC2o:Serv<ServiceTypeqC2o:ServiceTu?I	RzQXo~QXo^>>
+===Initiate End===
+Node Coverage: 21/24
+===Genetic Algorithm End===
+Node Coverage: 21/24
+Normal fail
+TIME: 24.952535188 (s)
+Attack failed

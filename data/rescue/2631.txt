@@ -1,0 +1,9 @@
+\bq"([_a-zA-Z][_a-zA-Z\d]*)(?:\r?\n|\r)[\s\S]*?(?:\r?\n|\r)\1"
+2: <29 : 7.888888888888889 : X\7v8fy]y4FAh>_l3c=8j;q"q"pM7pM7@5yrRT\L};R4whpM7@5yrRT\L};R4whoze}H`!Dc6/BP_DVE7R4whoze}H`!Dc6/BP_DVE7;l><29 : 2.289473684210526 : X\7v8fy]y4FAh>_l3c=8j;q"q"pM7pM7">
+===Initiate End===
+Node Coverage: 30/30
+===Genetic Algorithm End===
+Node Coverage: 30/30
+Normal fail
+TIME: 39.23346214 (s)
+Attack failed

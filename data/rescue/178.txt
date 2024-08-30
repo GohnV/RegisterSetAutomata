@@ -1,0 +1,9 @@
+(\\begin\{((?:equation|math|eqnarray|align|multline|gather)\*?)\})([\w\W]*?)(?=\\end\{\2\})
+1: <27 : 4.827586206896552 : *	&ImD#,JH^~+;}\begi,JH';!^~+;}\begin{gather}\beginegin{~gin{gather}\beginegin{gather*>
+===Initiate End===
+Node Coverage: 27/31
+===Genetic Algorithm End===
+Node Coverage: 28/31
+Normal fail
+TIME: 125.414582115 (s)
+Attack failed

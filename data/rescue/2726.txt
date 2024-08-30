@@ -1,0 +1,15 @@
+\u00ab(.+?)\u00b7(.+?)\u00b7\1\u00bb
+1: <15 : 13.16 : jl	GdHoBE14zGdHoBE14zo«h^4.+p`Yei|Cp`Yei|C·0C9Ffv_|C·h^4.+p`Yei|Cp`Yei|C·0C9Ffv_|C·0C9Ffv_9\C$|C·0C9Ffv_y:A_y:AxFD8fqpXm ]·>
+===Initiate End===
+Node Coverage: 15/16
+find attack string when cross
+===Genetic Algorithm End===
+Node Coverage: 15/16
+Vulnerable: «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·0F«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl	GdH9Ffv_yqpXm ]·Fd8FE83
+100188 : 445.28 : «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·0F«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl	GdH9Ffv_yqpXm ]·Fd8FE83
+100019 : 502.60804020100505 : «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl
+100019 : «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl
+100019 : 0 : «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl
+100059 : «««0·«««0·`Yei|Cp`Yei|C·0C«««0·«««0·`Yei|Cp`Yei|C·0yfcnfuaia5a_|C·«««0·Cp`Ye|Cp`Yei|C·0C4.+p`Y`0C9Ff·0C9Ffv_9·«««0·|p`Yei|Cp`Yei|C·0C4C·0C9Ffv_9\Ci|Cp`Yei|C·0C|C·0C9Ffv_«b0{u«0·C|ieY`pC|ieY`p+.4^hjl
+TIME: 60.786148996 (s)
+Attack failed

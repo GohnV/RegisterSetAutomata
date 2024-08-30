@@ -1,0 +1,10 @@
+\b(s|tr|y)\s*([^A-Za-z0-9\s])(.*?)(?<!\\)(\\{2})*(\2)(.*?)(?<!\\)(\\{2})*(\2)
+5: <13 : 4.333333333333333 : tr><40 : 20.428571428571427 : s|tr|y><43 : 31.4 : s|tr|y\s*><45 : 41.8 : s|tr|y\s*?<!\\><42 : 5.878787878787879 : #'iV&R2w=wnq"*>v51nA.8T1$2D<_e<D	vnFA
+"Q1~s|tr|yPlqqA5{9ag9]ghz"|>
+===Initiate End===
+Node Coverage: 47/47
+===Genetic Algorithm End===
+Node Coverage: 47/47
+Normal fail
+TIME: 124.64800406 (s)
+Attack failed

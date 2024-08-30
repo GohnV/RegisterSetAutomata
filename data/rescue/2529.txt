@@ -1,0 +1,9 @@
+^<(\w+)\s*>\s*<anon>1</anon>\s*<anon>two</anon>\s*<anon>III</anon>\s*</\1>\s*$
+1: <28 : 0.5833333333333334 : <anon><anon>1</anon><anon>two</anon><anon>III</anon></anon>>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 17.324867049 (s)
+Attack failed

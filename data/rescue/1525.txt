@@ -1,0 +1,9 @@
+(__|\*\*)(\p{L}(?:.*?\p{L}))\1
+1: <18 : 4.9245283018867925 : .(h+mig	DQ__K"-}<q}82L.\V!HUg8G<Q__M?0;h }U-A}<DQ__>
+===Initiate End===
+Node Coverage: 18/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 62.941261 (s)
+Attack failed

@@ -1,0 +1,9 @@
+require\s*\(\s*(["'])(.*?[^\\])\1\s*\)|[^\\]?(["'])
+6: <8 : 5.0 : )><11 : 8.444444444444445 : )require><11 : 3.6666666666666665 : )"><15 : 8.9 : )require(><25 : 8.333333333333334 : )require("'><28 : 8.071428571428571 : )require("'"'>
+===Initiate End===
+Node Coverage: 28/28
+===Genetic Algorithm End===
+Node Coverage: 28/28
+Normal fail
+TIME: 65.900010683 (s)
+Attack failed

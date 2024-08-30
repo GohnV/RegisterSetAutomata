@@ -1,0 +1,9 @@
+<(p)([^>]*?)>(.*)(</\1>)
+1: <21 : 3.9017857142857144 : \<p(|njmnjm,yIJe0>reFZW@QV	9:rLY;OBD^	fU$X:rLs|TxZUX</p>0eJIy,mjnmjn|(reFZW@QV	9:rLY;OBD^	fU$X:rLs|TxZUX</\1>>
+===Initiate End===
+Node Coverage: 21/21
+===Genetic Algorithm End===
+Node Coverage: 21/21
+Normal fail
+TIME: 177.54599284 (s)
+Attack failed

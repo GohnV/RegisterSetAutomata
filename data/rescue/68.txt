@@ -1,0 +1,9 @@
+filename=(\"?)(.+)\1
+2: <8 : 0.8 : filename=><12 : 1.1818181818181819 : filename=a>
+===Initiate End===
+Node Coverage: 12/12
+===Genetic Algorithm End===
+Node Coverage: 12/12
+Normal fail
+TIME: 11.500302803 (s)
+Attack failed

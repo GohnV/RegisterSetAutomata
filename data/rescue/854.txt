@@ -1,0 +1,9 @@
+^\t<p>This is covered elsewhere<sup class="footnote" id="fnrev([a-f0-9]{32})-1"><a href="#fn\1-1">1</a></sup>.</p>\n\n\t<p class="footnote" id="fn\1-1"><sup>1</sup> Down here, in fact.</p>\n\n\t<p class="footnote" id="fn\1-2"><sup>2</sup> Here is another footnote.</p>$
+1: <6 : 0.14285714285714285 : 	<p>This is covered elsewhere<sup class="footnote" id="fnrev32>
+===Initiate End===
+Node Coverage: 6/22
+===Genetic Algorithm End===
+Node Coverage: 8/22
+Normal fail
+TIME: 0.293631184 (s)
+Attack failed

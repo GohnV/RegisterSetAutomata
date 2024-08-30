@@ -1,0 +1,22 @@
+("?)(.+)\1 <([^>]+)>
+3: <12 : 62.507462686567166 : ^\;NStWxcyz
+Ff	hbOB7.+x"-qiTm"4F|XqAh#e~*/GOb"v"+4	BW3`P(rk?l><17 : 130.04347826086956 : dZ6ld (HNTs~tU]'RC&pT|k&_nruY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/R=n><18 : 4.477611940298507 : 2c@BpGYGOGv[~?eQ+rVS^_CFR'\1 </S]9=WL*JraT)5C]wuA&>Laf(R+&6E[;GaO>
+===Initiate End===
+Node Coverage: 18/18
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Vulnerable: dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/R=n
+100064 : 379.030303030303 : dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <dZ6ld (HNTs~tU]'RC&pcyz
+Ff	hbOB7.+x"C&pT|k&_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/R=n
+100046 : 840.7226890756302 : dZ6ld (H_nruY5Lr\1 <5|Xz75Lr\1 r\1 <5|Xz75Lr\1 <dZ_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/
+100046 : dZ6ld (H_nruY5Lr\1 <5|Xz75Lr\1 r\1 <5|Xz75Lr\1 <dZ_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/
+100046 : 0 : dZ6ld (H_nruY5Lr\1 <5|Xz75Lr\1 r\1 <5|Xz75Lr\1 <dZ_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/
+103403 : dZ6ld (H_nruY5Lr\1 <5|Xz75Lr\1 r\1 <5|Xz75Lr\1 <dZ_nruY5Lr\1 <5|Xz75Lr\1 <5|Xz77B#'uY5Lr\1 <5|Xz77BJC-PRb&yw`'#"ohFoq/
+TIME: 25.087061234 (s)
+Attack failed

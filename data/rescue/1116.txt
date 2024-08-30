@@ -1,0 +1,11 @@
+(@import\s{1,}(\'|\")(.*)(\2))$
+1: <21 : 4.427083333333333 : fvFv,LBh],qGuuybmzZ,$\yHn$:s
+ap@import	'+oyHn$:s
+ap@import	'+ort	'+rft3LBh],qGF,qGft3],qGuuybmz>
+===Initiate End===
+Node Coverage: 21/22
+===Genetic Algorithm End===
+Node Coverage: 22/22
+Normal fail
+TIME: 102.078169541 (s)
+Attack failed

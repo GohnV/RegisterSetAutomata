@@ -1,0 +1,9 @@
+^<([^>]+)>([^<]*)</\1>
+1: <16 : 2.125 : <^></^>>
+===Initiate End===
+Node Coverage: 16/16
+===Genetic Algorithm End===
+Node Coverage: 16/16
+Normal fail
+TIME: 16.579839255 (s)
+Attack failed

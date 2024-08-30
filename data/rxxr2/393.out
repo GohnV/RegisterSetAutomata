@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (polyfill-rule)[^}]*(content:[\s]*(['"])(.*?)\3)[;\s]*[^}]*}
+PARSE: OK
+SIZE: 43
+PUMPABLE: NO
+TIME: 0.000048 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 43
+>> AVG NFA SIZE: 43
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000048 (s)
+>> TIME MAX: 0.000048 (s)

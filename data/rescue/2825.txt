@@ -1,0 +1,3 @@
+(verify_internal_consistency_reachable_i:\sWB\smiss\s\S+\s\(T_ARRAY\)\s->\s)\S+\s\((proc|T_NONE)\)\n\K(?:\1\S+\s\(\2\)\n)*
+TIME: 0.047298012 (s)
+Regex compile error

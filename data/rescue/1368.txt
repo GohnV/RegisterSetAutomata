@@ -1,0 +1,9 @@
+<(p|div|address|h\d|center|pre)[^>]*>\s*(?:<br[^>]*>|&nbsp;|\u00A0|&#160;)?\s*(:?<\/\1>)?\s*(?=$|<\/body>)
+3: <11 : 2.0588235294117645 : N<,nIlNHp||#D;<h><48 : 2.3095238095238093 : N<,nI"{|di<p|div|addresner|pre>&#160;</p>><42 : 3.803030303030303 : N<,nIlN,nI"{|di<p|div|addressress|h\d|ces|d|ces|h\d|cener|pre><br>
+===Initiate End===
+Node Coverage: 53/53
+===Genetic Algorithm End===
+Node Coverage: 53/53
+Normal fail
+TIME: 60.040531233 (s)
+Attack failed

@@ -1,0 +1,10 @@
+(["'])(?:(?!\1)[^\\\r\n_]|\\.|_(?!\1)(?:\r\n|[\s\S]))*\1
+7: <3 : 2.5 : ><17 : 10.75 : "'><18 : 15.625 : "'?!\1><25 : 14.583333333333334 : "'^\\\r\n_><27 : 16.68421052631579 : "'^\\\r\n_?:\r\n|><20 : 5.6 : "'"><23 : 9.046875 : ]He gZ{*X ve~0"mDcb`	_"\P$c@fsI:WS[W{Mze4`/M#0;kD<.&a%
+NH9Uro)>
+===Initiate End===
+Node Coverage: 31/31
+===Genetic Algorithm End===
+Node Coverage: 31/31
+Normal fail
+TIME: 105.533844476 (s)
+Attack failed

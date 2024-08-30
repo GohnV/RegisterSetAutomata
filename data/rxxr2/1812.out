@@ -1,0 +1,16 @@
+= [1] =
+INPUT: (-ms-)?filter:\s*(['"]?)progid:DXImageTransform\.Microsoft\.AlphaImageLoader\(\s*src=(['"])([^\?'"\)]+)(\?(?:[^'"\)]+)?)?\3,\s*sizingMethod=(['"])(image|scale|crop)\6\s*\)\2
+PARSE: OK
+SIZE: 141
+PUMPABLE: NO
+TIME: 0.000170 (s)
+>> TOTAL: 1
+>> PARSED: 1
+>> MAX NFA SIZE: 141
+>> AVG NFA SIZE: 141
+>> PUMPABLE: 0
+>> VULNERABLE: 0
+>> INTERRUPTED: 0
+>> PRUNED: 0
+>> TIME TOTAL: 0.000170 (s)
+>> TIME MAX: 0.000170 (s)

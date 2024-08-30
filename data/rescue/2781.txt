@@ -1,0 +1,9 @@
+\/([^\/]+)\/\1$
+1: <11 : 1.7 : \/\1$/\1$>
+===Initiate End===
+Node Coverage: 11/11
+===Genetic Algorithm End===
+Node Coverage: 11/11
+Normal fail
+TIME: 14.289041805 (s)
+Attack failed

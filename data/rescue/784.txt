@@ -1,0 +1,16 @@
+\b(?:s|tr|y)\s*([^a-zA-Z0-9\s\{\(\[<])(\\?.)*?\s*\1\s*((?!\1).|\\.)*\s*\1[msixpodualgcer]*
+5: <13 : 4.333333333333333 : tr><24 : 7.8 : tr\b><40 : 20.272727272727273 : tr?:s|tr|y><25 : 14.625 : tr^a-zA-Z0-9\s\><45 : 8.0 : tr\b\\?.>
+===Initiate End===
+Node Coverage: 46/46
+find attack string when mutate
+===Genetic Algorithm End===
+Node Coverage: 46/46
+Vulnerable: tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4jpYS3p\b\.\l-s|\[1{*srs*\*=ba*-a-.<.axt@l<-*A>m)1\9*ey]s*r\!}u\[\?\\|Z)=s\oZ\*s\|(1].()0Z
+100133 : 814.089430894309 : tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4jpYS3p\b\.\l-s|\[1{*srs*\*=ba*-a-.<.axt@l<-*A>m)1\9*ey]s*r\!}u\[\?\\|Z)=s\oZ\*s\|(1].()0Z
+100012 : 1515.3333333333333 : tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4\b\.\s|\[1{*sr\*=ba*-\9*\!\[\?\\
+1000077 : tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4\b\.\s|\\b\.\s|\[1{*sr\*=ba*-\9*\!\[\?\\
+1000144 : 6 : tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\[1{*sr\*=ba*-\9*\!\[\?\\
+100000142 : tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\[1{*sr\*=ba*-\9*\!\[\?\\
+TIME: 4.800671732 (s)
+Attack success, attack string is:
+tr?\VmlLvfZL20Ht1Rt25os7KayXtLnl4\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\\b\.\s|\[1{*sr\*=ba*-\9*\!\[\?\\

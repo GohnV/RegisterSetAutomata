@@ -1,0 +1,6 @@
+= [1] =
+INPUT: data-playable=(["\'])({.+?})\1
+PARSE: ERROR {ParsingData.IncompleteRangeDefinition(22)}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

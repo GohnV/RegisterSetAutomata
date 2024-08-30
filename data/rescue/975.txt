@@ -1,0 +1,9 @@
+name=("|')([^"']+)\1
+4: <5 : 0.8333333333333334 : name=><10 : 1.4285714285714286 : name='><13 : 1.75 : name='*><14 : 1.6666666666666667 : name='*'>
+===Initiate End===
+Node Coverage: 14/14
+===Genetic Algorithm End===
+Node Coverage: 14/14
+Normal fail
+TIME: 12.900628252 (s)
+Attack failed

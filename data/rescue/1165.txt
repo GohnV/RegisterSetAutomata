@@ -1,0 +1,10 @@
+\btype\s*=\s*(['"])([^'"]+)\1
+2: <10 : 1.607843137254902 : Yh"DNtf&7}6BUoXIjgps`A3	S-PR ;Pv
+6p#BU1 ~\ ~\type=><7 : 1.7179487179487178 : Yh"DNtf&7}\type}\t"DNtf&7}\type}\type	>
+===Initiate End===
+Node Coverage: 11/18
+===Genetic Algorithm End===
+Node Coverage: 18/18
+Normal fail
+TIME: 6.624893687 (s)
+Attack failed

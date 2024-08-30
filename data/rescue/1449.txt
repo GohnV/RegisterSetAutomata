@@ -1,0 +1,9 @@
+<([%#])([\w\.]*)\1>
+2: <11 : 2.130434782608696 : &R/m`11+#11+#<#1+#<#oG><12 : 1.5625 : &R/m`<&R/m`<##>>
+===Initiate End===
+Node Coverage: 13/13
+===Genetic Algorithm End===
+Node Coverage: 13/13
+Normal fail
+TIME: 25.279533417 (s)
+Attack failed

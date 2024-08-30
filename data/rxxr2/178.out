@@ -1,0 +1,6 @@
+= [1] =
+INPUT: \burl\((\'|\"|)([^\'\"]+?)\1\)( format\((\'|\"|)([^\'\"]+?)\4\))?
+PARSE: ERROR {Stdlib.Parsing.Parse_error}
+>> TOTAL: 1
+>> PARSED: 0
+>> MAX NFA SIZE: 0

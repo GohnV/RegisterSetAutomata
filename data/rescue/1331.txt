@@ -1,0 +1,9 @@
+.(.)(.)(?: 1.\2){4}
+1: <13 : 8.3125 : xv.@L]hXFX}F'S1:9PCg)>\^?K@ 1T@>
+===Initiate End===
+Node Coverage: 13/15
+===Genetic Algorithm End===
+Node Coverage: 14/15
+Normal fail
+TIME: 46.10746124 (s)
+Attack failed
