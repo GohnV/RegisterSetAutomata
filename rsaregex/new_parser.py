@@ -376,7 +376,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
     q1 = _get_new_state_id()
 
     if max_len == 0 or _check_opt(capt_num):
-        return NRA({q1}, set(), set(), {q1}, {q1})
+        return NRA({q1}, set(), set(), {q1}, {q1}) #TODO: optional should probably be union of this automaton and the one created below 
 
     if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
         return False

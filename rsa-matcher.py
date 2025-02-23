@@ -1,5 +1,4 @@
 import rsaregex
-import re
 import argparse
 import sys
 
