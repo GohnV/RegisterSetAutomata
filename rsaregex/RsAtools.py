@@ -240,7 +240,7 @@ class RsA:
 
 
 class DRsA(RsA):
-    """Class representing an DRsA.    
+    """Class representing a DRsA.    
     """
     def __init__(self, Q, R, delta, I, F):
         RsA.__init__(self, Q, R, delta, I, F)
@@ -274,18 +274,6 @@ class DRsA(RsA):
                         tmp = tmp.union(regConf[y])
             newConf[r] = tmp
         return newConf
-            
-    #TODO: shouldn't be necessary to test regConf.keys()
-    def _guard_test_old(self, input, regConf, eqG, diseqG):
-        for g in eqG:
-            if g in regConf.keys():
-                if not input in regConf[g]:
-                    return False
-        for g in diseqG:
-            if g in regConf.keys():
-                if input in regConf[g]:
-                    return False
-        return True
     
     #tests guards of a transition
     def _guard_test(self, input, regConf, eqG, diseqG):
@@ -300,7 +288,7 @@ class DRsA(RsA):
 
     def run_word(self, word: str) -> bool:
         '''Runs a word on this drsa'''
-        trans_dict = self._create_trans_dict()
+
 
         #default reg config
         regConf = {}
@@ -318,7 +306,7 @@ class DRsA(RsA):
 
             found = False
             trans_f = None
-            for t in trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
+            for t in self.trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
                 if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
                     if found:
                         # print("FOUND DUPLICATE:")
@@ -761,5 +749,6 @@ class NRA(RsA):
             # if postprocess also detects overapprox, abort
             if not newA.postprocess(self):
                 return -1
+        newA.trans_dict = newA._create_trans_dict()
         return newA     
 #end of class NRA
