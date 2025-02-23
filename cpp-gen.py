@@ -125,17 +125,6 @@ inline bool cmp_bitmap(uint_fast64_t a, uint_fast64_t b)
 {
     return !(a - b);
 }
-
-//FIXME: doesn't work
-inline void update_regs(regs_t &regs, char32_t a, uint_fast64_t up_bitmap)
-{
-    for (size_t i = 0; i < NUM_REGS; i++)
-    {
-        if ((1 << i) && up_bitmap) {
-            regs[i].insert(a);
-        }
-    }
-}
 ''')
 
 print('''bool run_word(std::string input) {
@@ -163,7 +152,6 @@ for s in states_i.keys():
             print('''
                 constexpr frozen::unordered_set<char32_t, ''' + str(len(chars_set)) +'> '+set_name+' = '+ str(chars_set) +''';
                 if (cmp_bitmap(a_bitmap, (uint_fast64_t)'''+str(t_bitmap)+''') && '''+ cond+set_name+'''.contains(a)) {''')
-                    # update_regs(regs, a, (uint_fast64_t)'''+str(t_bitmap)+''');
             print_reg_update(ordered_regs, t.update)
             print('''
                         s ='''+str(states_i[(frozenset(t.dest.states),frozenset(t.dest.mapping.items()))])+''';
@@ -173,7 +161,6 @@ for s in states_i.keys():
         elif cond == "!":
             print('''
                 if (cmp_bitmap(a_bitmap, (uint_fast64_t)'''+str(t_bitmap)+''')) {''')
-                    #update_regs(regs, a, (uint_fast64_t)'''+str(t_bitmap)+''');
             print_reg_update(ordered_regs, t.update)                    
             print('''
                     s ='''+str(states_i[(frozenset(t.dest.states),frozenset(t.dest.mapping.items()))])+''';
