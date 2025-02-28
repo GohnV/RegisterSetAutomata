@@ -52,9 +52,11 @@ def print_reg_update(regs, update):
     i = 0
     for r in regs:
         print(f"{spacing}std::unordered_set<char32_t> tmp_set_{i};")
+        j = 0
         for r2 in regs:
             if r2 in update[r]:
-                print(f"{spacing}tmp_set_{i}.insert(regs[{i}].begin(), regs[{i}].end());")
+                print(f"{spacing}tmp_set_{i}.insert(regs[{j}].begin(), regs[{j}].end());")
+            j += 1
         if 'in' in update[r]:
             print(f"{spacing}tmp_set_{i}.insert(a);")
         i += 1
@@ -150,7 +152,7 @@ for s in states_i.keys():
         set_name = f'trans_chars_{s_ind}_{cnt}'
         if len(chars_set) > 0:
             print('''
-                constexpr frozen::unordered_set<char32_t, ''' + str(len(chars_set)) +'> '+set_name+' = '+ str(chars_set) +''';
+                constexpr frozen::unordered_set<char32_t, ''' + str(len(chars_set)) +'> '+set_name+' = '+ str(chars_set).replace('"\'"', '\'\\\'\'') +''';
                 if (cmp_bitmap(a_bitmap, (uint_fast64_t)'''+str(t_bitmap)+''') && '''+ cond+set_name+'''.contains(a)) {''')
             print_reg_update(ordered_regs, t.update)
             print('''
