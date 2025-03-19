@@ -47,6 +47,13 @@ def compute_trans_bitmap(regs, guardeq):
         i += 1
     return bitmap
 
+def charset_to_str(charset):
+    res = "{"
+    for c in charset:
+        res += str(ord(c))+", "
+    res += "}"
+    return res
+
 def print_reg_update(regs, update):
     spacing = "                    "
     i = 0
@@ -70,6 +77,7 @@ def print_reg_update(regs, update):
 print('''#include <string>
 #include <iostream>
 #include <unordered_set>
+#include <bitset>
 #include <array>
 #include <cstdint>
 #include <frozen/unordered_set.h>
@@ -112,7 +120,7 @@ char32_t get_next_codepoint(const std::string& utf8_input) {
 }
 
 //TODO: generate differently for NUM_REGS > 64
-inline uint_fast64_t compute_reg_bitmap(regs_t &regs, char32_t a)
+inline uint_fast64_t compute_reg_bitmap_old(regs_t &regs, char32_t a)
 {
     uint_fast64_t bitmap = 0;
     for (size_t i = 0; i < NUM_REGS; i++)
@@ -123,9 +131,26 @@ inline uint_fast64_t compute_reg_bitmap(regs_t &regs, char32_t a)
     return bitmap;
 }
 
-inline bool cmp_bitmap(uint_fast64_t a, uint_fast64_t b)
+inline std::bitset<NUM_REGS> compute_reg_bitmap(regs_t &regs, char32_t a)
+{
+    std::bitset<NUM_REGS> bitmap;
+    for (size_t i = 0; i < NUM_REGS; i++)
+    {
+        if (regs[i].contains(a)) {
+            bitmap.set(i); // Set the bit at index i
+        }
+    }
+    return bitmap;
+}
+
+inline bool cmp_bitmap_old(uint_fast64_t a, uint_fast64_t b)
 {
     return !(a - b);
+}
+
+inline bool cmp_bitmap(std::bitset<NUM_REGS> a, std::bitset<NUM_REGS> b)
+{
+    return a == b;
 }
 ''')
 
@@ -135,7 +160,7 @@ print('''bool run_word(std::string input) {
     constexpr frozen::unordered_set<uint_fast64_t, ''' + str(len(final_ind)) +'''> final = '''+ str(final_ind) +''';
     char32_t a = get_next_codepoint(input);
     while (a != '\\0') {
-        uint_fast64_t a_bitmap = compute_reg_bitmap(regs, a);
+        std::bitset<NUM_REGS> a_bitmap = compute_reg_bitmap(regs, a);
         switch (s)
         {''')
 
@@ -147,13 +172,16 @@ for s in states_i.keys():
     cnt = 0
     for t in drsa.trans_dict[s]:
         t_bitmap = compute_trans_bitmap(ordered_regs, t.eqGuard)
+        t_bitmap = bin(t_bitmap)[2:].zfill(len(drsa.R))
+        t_bitmap_name = f'trans_bitmap_{s_ind}_{cnt}'
         chars_set = set(t.symbol[1])
         cond = "!" if t.symbol[0] == "^" else ""
         set_name = f'trans_chars_{s_ind}_{cnt}'
+        print('                constexpr std::bitset<'+str(len(t_bitmap))+f'> {t_bitmap_name} ("{t_bitmap}");')
         if len(chars_set) > 0:
             print('''
-                constexpr frozen::unordered_set<char32_t, ''' + str(len(chars_set)) +'> '+set_name+' = '+ str(chars_set).replace('"\'"', '\'\\\'\'') +''';
-                if (cmp_bitmap(a_bitmap, (uint_fast64_t)'''+str(t_bitmap)+''') && '''+ cond+set_name+'''.contains(a)) {''')
+                constexpr frozen::unordered_set<char32_t, ''' + str(len(chars_set)) +'> '+set_name+' = '+ charset_to_str(chars_set) +''';
+                if (cmp_bitmap(a_bitmap, '''+t_bitmap_name+''') && '''+ cond+set_name+'''.contains(a)) {''')
             print_reg_update(ordered_regs, t.update)
             print('''
                         s ='''+str(states_i[(frozenset(t.dest.states),frozenset(t.dest.mapping.items()))])+''';
@@ -162,7 +190,7 @@ for s in states_i.keys():
         #not empty set, i.e. every char
         elif cond == "!":
             print('''
-                if (cmp_bitmap(a_bitmap, (uint_fast64_t)'''+str(t_bitmap)+''')) {''')
+                if (cmp_bitmap(a_bitmap,'''+t_bitmap_name+''')) {''')
             print_reg_update(ordered_regs, t.update)                    
             print('''
                     s ='''+str(states_i[(frozenset(t.dest.states),frozenset(t.dest.mapping.items()))])+''';
