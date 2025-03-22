@@ -15,6 +15,10 @@ BACKREFCHAR = "backrefchar"
 BOTTOM = "NULL"
 SIGMASTAR = "sstar"
 
+class DeterminizationError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
 #from itertools recipes
 def powerset(iterable):
     s = list(iterable)
@@ -643,6 +647,7 @@ class NRA(RsA):
                     for t in T:
                         for r in t.diseqGuard:
                             if sc.mapping[r] == 2:
+                                raise DeterminizationError("Non-equality check on a register with multiple values")
                                 return -1 #?
                     T1 = set()
                     #create t^\bullet
@@ -705,6 +710,7 @@ class NRA(RsA):
                                 if not found_conf:
                                     overapprox = True
                                     if not postprocess:
+                                        raise DeterminizationError("Overapproximation detected")
                                         return -1
                     #'''
 
@@ -748,6 +754,7 @@ class NRA(RsA):
         if postprocess and overapprox:
             # if postprocess also detects overapprox, abort
             if not newA.postprocess(self):
+                raise DeterminizationError("Overapproximation detected")
                 return -1
         newA.trans_dict = newA._create_trans_dict()
         return newA     

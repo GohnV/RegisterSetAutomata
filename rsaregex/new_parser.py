@@ -10,6 +10,14 @@ ASCIILETTERS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 #TODO: no unicode for word yet
 WORD_CHARS = frozenset("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_")
 
+class CaptureGroupError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
+class ParseError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
 g_state_id = 0 # for generating sequential ids for states
 g_back_referenced = {} # store all back-referenced capture group numbers and their lengths
 g_optional = {}
@@ -136,6 +144,7 @@ def _find_cg_by_num(cg_num: int, pattern: p.SubPattern) -> p.SubPattern:
         
         else:
             continue
+    raise ParseError("Back-reference to a missing capture group")
     return False
 
 def _find_opt_cgs(sub_pattern: p.SubPattern):
@@ -233,6 +242,7 @@ def _get_cg_len(sub_pattern: p.SubPattern) -> (int, int) or False:
     
         else:
             # unsupported construction
+            raise ParseError("Unsupported construction used")
             return False
     #end for loop
     return min_len, max_len
@@ -282,6 +292,7 @@ def _get_cg_chars(sub_pattern: p.SubPattern) -> (str, set()) or False:
 
         else:
             # unsupported construction
+            raise ParseError("Unsupported construction")
             return False
     #end for loop
     #freeze set:
@@ -312,6 +323,7 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
                 if check_len == -1:
                     check_len = i
                 elif check_len != i:
+                    raise CaptureGroupError("Capture group with non-constant length")
                     return False
             length += check_len
 
@@ -319,6 +331,7 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             #check if max and min are the same
             rep_min, rep_max, rep_pat = av
             if rep_min != rep_max:
+                raise CaptureGroupError("Capture group with non-constant length")
                 return False
             rep_ret = _check_fix_len(rep_pat)
             if rep_ret == False: #checking equality to false to prevent potential empty tuple shenanigans
@@ -354,11 +367,13 @@ def _check_fix_len(sub_pattern: p.SubPattern) -> (int, tuple) or False:
             chars = rsa_set_union(chars, sub_chars)
 
         elif op is c.GROUPREF:
-            #TODO: should be allowed
+            #TODO: should be allowed?
+            raise ParseError("Unsupported construction")
             return False
 
         else:
             # unsupported construction
+            raise ParseError("Unsupported construction")
             return False
     #end for loop
     #freeze set:
@@ -379,6 +394,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
         return NRA({q1}, set(), set(), {q1}, {q1}) #TODO: optional should probably be union of this automaton and the one created below 
 
     if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
+        raise CaptureGroupError("Capture group is too long")
         return False
 
     ret = _get_cg_chars(sub_pattern)
@@ -503,9 +519,11 @@ def _get_set_chars(av):
                 chars = union_dict[set_neg](chars, ('^', WORD_CHARS))
             else:
                 ##print(op, a)
+                raise ParseError("Unsupported set category")
                 return False #unsupported category
         else:
             ##print(op, a)
+            raise ParseError("Unsupported set construction")
             return False #unsupported type
     return chars
 
@@ -541,6 +559,7 @@ def _create_automaton(sub_exp, level=0):
             aut_tmp = _branch_aut(_branch_auts)
 
         elif op is c.GROUPREF_EXISTS:
+            raise ParseError("Unsupported construction")
             return False #TODO: not supported yet
         
         elif op is c.SUBPATTERN:
@@ -590,10 +609,11 @@ def _create_automaton(sub_exp, level=0):
                 g_anchor_end = True
                 continue #dont concatenate
             else:
+                raise ParseError("Unsupported construction")
                 return False
 
         else:
-
+            raise ParseError("Unsupported construction")
             # UNSUPPORTED: (TODO: which should be supported?)
             #       ASSERT
             #       ASSERT_NOT
