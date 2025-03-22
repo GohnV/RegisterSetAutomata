@@ -144,7 +144,6 @@ def _find_cg_by_num(cg_num: int, pattern: p.SubPattern) -> p.SubPattern:
         
         else:
             continue
-    raise ParseError("Back-reference to a missing capture group")
     return False
 
 def _find_opt_cgs(sub_pattern: p.SubPattern):
