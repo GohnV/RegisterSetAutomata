@@ -591,7 +591,7 @@ class NRA(RsA):
         self.delta = deltanew
 
 
-    def determinize(self, postprocess=False):
+    def determinize(self, postprocess=False, track_sizes=True):
         '''Determinise the NRA into a DRsA'''
         overapprox = False
         #fill in implicit updates
@@ -613,8 +613,6 @@ class NRA(RsA):
             sc = worklist.pop(-1)
             #print(f"({sc.states}, {sc.mapping})")
             #create minterms of all transitions used in a given set of states into A
-            #set A includes all symbols used in transitions
-            #to avoid looping through the (infinite) alphabet
             sets = set()
             for t in self.delta:
                 if t.orig in sc.states:
@@ -627,7 +625,10 @@ class NRA(RsA):
             for q in sc.states:
                 rq = self._active_regs(q)
                 for r in rq:
-                    if sc.mapping[r] != 0:
+                    if track_sizes:
+                        if sc.mapping[r] != 0:
+                            regs.add(r)
+                    else:
                         regs.add(r)
             G = set(powerset(regs))
             for a in A:
@@ -644,11 +645,11 @@ class NRA(RsA):
                     #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
                     for t in T:
                         S1.add(t.dest)
-                    for t in T:
-                        for r in t.diseqGuard:
-                            if sc.mapping[r] == 2:
-                                raise DeterminizationError("Non-equality check on a register with multiple values")
-                                return -1 #?
+                    if track_sizes:
+                        for t in T:
+                            for r in t.diseqGuard:
+                                if sc.mapping[r] == 2:
+                                    raise DeterminizationError("Non-equality check on a register with multiple values")
                     T1 = set()
                     #create t^\bullet
                     for t in T:
@@ -661,8 +662,12 @@ class NRA(RsA):
                         tmp = set()
                         for t in T1:
                             #"line" 13:
-                            if t.update[ri] != BOTTOM and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0):
-                                tmp.add(t.update[ri])
+                            if track_sizes:
+                                if t.update[ri] != BOTTOM and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0):
+                                    tmp.add(t.update[ri])
+                            else:
+                                if t.update[ri] != BOTTOM:
+                                    tmp.add(t.update[ri])
                         if not tmp.isdisjoint(g):
                             op[ri] = tmp.difference({IN})
                         else:
@@ -720,18 +725,19 @@ class NRA(RsA):
                     for ri in self.R:
                         up1[ri] = op[ri]
                     #line 15, c' = SUM(x in op_ri, c(x)):
-                    for ri in self.R:
-                        cnt = 0
-                        for x in up1[ri]:
-                            c_aux = 0
-                            if x == IN:
-                                c_aux = 1
-                            else:
-                                c_aux = sc.mapping[x]
-                            cnt += c_aux
-                            if cnt > 2:
-                                cnt = 2
-                        c1[ri] = cnt
+                    if track_sizes:
+                        for ri in self.R:
+                            cnt = 0
+                            for x in up1[ri]:
+                                c_aux = 0
+                                if x == IN:
+                                    c_aux = 1
+                                else:
+                                    c_aux = sc.mapping[x]
+                                cnt += c_aux
+                                if cnt > 2:
+                                    cnt = 2
+                            c1[ri] = cnt
                     s1c1 = MacroState()
                     s1c1.states = S1
                     s1c1.mapping = c1

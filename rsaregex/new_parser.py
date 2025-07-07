@@ -658,14 +658,14 @@ def create_nra(pattern: str) -> Union[NRA, bool]:
     nra = _branch_aut(set(nras))
     return nra
 
-def create_rsa(pattern: str) -> Union[DRsA, bool]:
+def create_rsa(pattern: str, track_sizes=True) -> Union[DRsA, bool]:
     nra = create_nra(pattern)
     if nra == False:
         return False
     #print(nra)
     nra.remove_eps()
     nra.remove_unreachable()
-    rsa = nra.determinize(postprocess=True)
+    rsa = nra.determinize(postprocess=True, track_sizes=track_sizes)
     #print(rsa)
     if rsa == -1:
         return False
