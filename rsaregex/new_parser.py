@@ -91,12 +91,44 @@ def _concatenate_aut(first: NRA, second: NRA) -> NRA:
     #add connecting transitions
     #from every final state of first
     #to every initial state of second
-    for f in first.F:
-        for i in second.I:
-            new_aut.add_transition(Transition(f,EPSILON,set(),set(),{},i))
+    
+    #if first has no transitions:
+    # i.e., new is second
+    if len(first.delta) == 0:
+        new_aut.I = {i for i in second.I}
+        new_aut.F = {f for f in second.F}
+    
+    #if second has no transitions:
+    # i.e., new is first
+    elif len(second.delta) == 0:
+        new_aut.I = {i for i in first.I}
+        new_aut.F = {f for f in first.F}
 
-    new_aut.I = {i for i in first.I}
-    new_aut.F = {f for f in second.F}
+    #if adding a singular transition
+    # elif len(second.delta) == 1:
+    #     t = next(iter(second.delta))
+    #     if t.orig == t.dest: # it's a self loop
+    #         for f in first.F: #FIXME: here I need to make sure that first has no transitions originating in f (otherwise it's incorrect)
+    #             t_new = Transition(f, t.symbol, t.eqGuard, t.diseqGuard, t.update, f)
+    #             new_aut.add_transition(t_new)
+    #             new_aut.I = {i for i in first.I}
+    #             new_aut.F = {f for f in first.F}
+    #     else:
+    #         for f in first.F: # not a self loop
+    #             t_new = Transition(f, t.symbol, t.eqGuard, t.diseqGuard, t.update, t.dest)
+    #             new_aut.add_transition(t_new)
+    #             new_aut.I = {i for i in first.I}
+    #             new_aut.F = {f for f in second.F}
+    #     new_aut.delta.remove(t)
+
+    #general case
+    else:
+        for f in first.F:
+            for i in second.I:
+                new_aut.add_transition(Transition(f,EPSILON,set(),set(),{},i))
+        new_aut.I = {i for i in first.I}
+        new_aut.F = {f for f in second.F}
+    
     return new_aut
 
 def _one_trans_aut(chars:set, negate: bool = False) -> NRA:
@@ -286,7 +318,6 @@ def _get_cg_chars(sub_pattern: p.SubPattern) -> (str, set()) or False:
             chars = rsa_set_union(chars, sub_chars)
 
         elif op is c.GROUPREF:
-            #TODO: should be allowed
             return ANYCHAR
 
         else:
@@ -390,7 +421,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
     q1 = _get_new_state_id()
 
     if max_len == 0 or _check_opt(capt_num):
-        return NRA({q1}, set(), set(), {q1}, {q1}) #TODO: optional should probably be union of this automaton and the one created below 
+        return NRA({q1}, set(), set(), {q1}, {q1})
 
     if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
         raise CaptureGroupError("Capture group is too long")
@@ -434,11 +465,18 @@ def _copy_aut(aut: NRA) -> NRA:
 def _iterate_aut(aut:NRA) -> NRA:
     ret_aut = NRA.empty()
     ret_aut.import_automaton(aut)
+    # single transition automata get self loops
+    if len(ret_aut.delta) == 1:
+        t = next(iter(ret_aut.delta)) #get the transition
+        dest = t.dest
+        t.dest = t.orig
+        ret_aut.Q.remove(dest)
     #add transition from every final state to every initial state
-    for f in aut.F:
-        for i in aut.I:
-            t = Transition(f, EPSILON, set(), set(), {}, i)
-            ret_aut.add_transition(t)
+    else:
+        for f in aut.F:
+            for i in aut.I:
+                t = Transition(f, EPSILON, set(), set(), {}, i)
+                ret_aut.add_transition(t)
     #make initial states final
     ret_aut.I = {i for i in aut.I}
     ret_aut.F = aut.F.union(aut.I)
@@ -530,9 +568,10 @@ def _create_automaton(sub_exp, level=0):
     global g_anchor_start, g_anchor_end
     #nl = True
     #seqtypes = (tuple, list)
-    init_state = _get_new_state_id()
+    #init_state = _get_new_state_id()
     #only accept empty string initially
-    ret_automaton = NRA({init_state}, set(), set(), {init_state}, {init_state})
+    #ret_automaton = NRA({init_state}, set(), set(), {init_state}, {init_state})
+    ret_automaton = False
     aut_tmp = NRA.empty()
     #CONCATENATE ALL AUTOMATA CREATED IN THIS LOOP
     for op, av in sub_exp.data:
@@ -559,7 +598,6 @@ def _create_automaton(sub_exp, level=0):
 
         elif op is c.GROUPREF_EXISTS:
             raise ParseError("Unsupported construction")
-            return False #TODO: not supported yet
         
         elif op is c.SUBPATTERN:
             #CAPTURE GROUP
@@ -625,7 +663,10 @@ def _create_automaton(sub_exp, level=0):
         #end of elif chain
         if aut_tmp == False:
             return False
-        ret_automaton = _concatenate_aut(ret_automaton, aut_tmp)   
+        if ret_automaton == False:
+            ret_automaton = aut_tmp
+        else:
+            ret_automaton = _concatenate_aut(ret_automaton, aut_tmp)   
     #end of for loop
     return ret_automaton
 
