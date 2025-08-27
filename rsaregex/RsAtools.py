@@ -310,16 +310,17 @@ class DRsA(RsA):
 
             found = False
             trans_f = None
+            #TODO: do one test and then check the bitmap with transitions
             for t in self.trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
                 if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
-                    if found:
+                    #if found:
                         # print("FOUND DUPLICATE:")
                         # print(trans_f.orig, trans_f.orig.states, trans_f.orig.mapping, trans_f.symbol, trans_f.eqGuard, trans_f.diseqGuard, trans_f.update)
                         # print(t.orig, t.orig.states, t.orig.mapping, t.symbol, t.eqGuard, t.diseqGuard, t.update)
-                        pass
+                        #pass
                     found = True
                     trans_f = t
-                    #break
+                    break
             if not found:
                 #run dies
                 return False
@@ -409,6 +410,8 @@ class DRsA(RsA):
                             if x[1] == IN:
                                 x[1] = frozenset({IN})
                         for t1 in oldNRA.delta:
+                            if t1.dest != q1:
+                                continue
                             found = True
                             for y in elem:
                                 if t1.update[y[0]] not in y[1]:
@@ -630,7 +633,7 @@ class NRA(RsA):
                             regs.add(r)
                     else:
                         regs.add(r)
-            G = set(powerset(regs))
+            G = set(powerset(regs)) #TODO: have a similar thing to A and only go over meaningful minterms
             for a in A:
                 for g in G:
                     g = set(g)
