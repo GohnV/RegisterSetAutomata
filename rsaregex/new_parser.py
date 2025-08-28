@@ -479,6 +479,7 @@ def _iterate_aut(aut:NRA) -> NRA:
                 ret_aut.add_transition(t)
     #make initial states final
     ret_aut.I = {i for i in aut.I}
+    aut.F = aut.F.intersection(aut.Q)
     ret_aut.F = aut.F.union(aut.I)
     return ret_aut
 
