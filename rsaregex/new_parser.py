@@ -466,11 +466,13 @@ def _iterate_aut(aut:NRA) -> NRA:
     ret_aut = NRA.empty()
     ret_aut.import_automaton(aut)
     # single transition automata get self loops
-    if len(ret_aut.delta) == 1:
+    if len(ret_aut.delta) == 1 and len(ret_aut.Q) == 2:
         t = next(iter(ret_aut.delta)) #get the transition
         dest = t.dest
         t.dest = t.orig
         ret_aut.Q.remove(dest)
+        aut.F = aut.F.intersection(aut.Q)
+        aut.I = aut.I.intersection(aut.Q)
     #add transition from every final state to every initial state
     else:
         for f in aut.F:
@@ -479,7 +481,6 @@ def _iterate_aut(aut:NRA) -> NRA:
                 ret_aut.add_transition(t)
     #make initial states final
     ret_aut.I = {i for i in aut.I}
-    aut.F = aut.F.intersection(aut.Q)
     ret_aut.F = aut.F.union(aut.I)
     return ret_aut
 
