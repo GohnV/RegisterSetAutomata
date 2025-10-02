@@ -101,8 +101,8 @@ def rsa_intersect_n_sets(sets):
     else:
         return MYEMPTY
 
-
-def _create_minterms(sets):
+#create minterms from sets of symbols as above
+def _create_minterms_symb(sets):
     #print('CREATING MINTERMS FROMS',sets)
     n = len(sets)
     minterms = set()
@@ -119,6 +119,38 @@ def _create_minterms(sets):
                 minterms.add(res)
                 for i in range(n):
                     sets[i] = rsa_set_difference(sets[i], res)
+    #print(minterms)
+    return minterms
+
+def _intersect_n_sets(sets):
+    '''intersects all sets specified in param sets'''
+    n = len(sets)
+    if n >= 1:
+        tmp = sets[0]
+        for i in range(1, n):
+            tmp = tmp.intersection(sets[i])
+        return tmp
+    else:
+        return set()
+
+#create minterms from regular sets
+#TODO: might be good for reduction of potential regs in powerset
+def _create_minterms(sets):
+    #print('CREATING MINTERMS FROMS',sets)
+    n = len(sets)
+    minterms = set()
+    if n == 1:
+        minterms = {sets[0]}
+    for m in range(n,0, -1):
+        #print('n = ', n, 'm = ', m)
+        combs = it.combinations(sets, m)
+        for c in combs:
+            #print("c =",c)
+            res = _intersect_n_sets(c)
+            #print("res =", res)
+            minterms.add(res)
+            for i in range(n):
+                sets[i] = sets[i].difference(res)
     #print(minterms)
     return minterms
 
@@ -617,23 +649,21 @@ class NRA(RsA):
             #print(f"({sc.states}, {sc.mapping})")
             #create minterms of all transitions used in a given set of states into A
             sets = set()
+            regs0 = set()
             for t in self.delta:
                 if t.orig in sc.states:
                     sets.add(t.symbol)
+                    regs0 = regs0.union(t.eqGuard)
             #print(sets)
-            A = _create_minterms(list(sets))
-            #print(A)
             regs = set()
-            #R[S] \ {r ∈ R | c(r) = 0}:
-            for q in sc.states:
-                rq = self._active_regs(q)
-                for r in rq:
-                    if track_sizes:
-                        if sc.mapping[r] != 0:
-                            regs.add(r)
-                    else:
-                        regs.add(r)
-            G = set(powerset(regs)) #TODO: have a similar thing to A and only go over meaningful minterms
+            for r in regs0:
+                if sc.mapping[r] != 0:
+                    regs.add(r)
+
+            A = _create_minterms_symb(list(sets))
+            #TODO: add mintermification before powerset to 'join' some registers if there's no reason to separate them
+            G = set(powerset(regs))
+            #print(A)
             for a in A:
                 for g in G:
                     g = set(g)
@@ -648,11 +678,6 @@ class NRA(RsA):
                     #S′ ← {q′ | · -[· | ·, ·, ·]-> q′ ∈ T }:
                     for t in T:
                         S1.add(t.dest)
-                    if track_sizes:
-                        for t in T:
-                            for r in t.diseqGuard:
-                                if sc.mapping[r] == 2:
-                                    raise DeterminizationError("Non-equality check on a register with multiple values")
                     T1 = set()
                     #create t^\bullet
                     for t in T:
@@ -665,12 +690,8 @@ class NRA(RsA):
                         tmp = set()
                         for t in T1:
                             #"line" 13:
-                            if track_sizes:
-                                if t.update[ri] != BOTTOM and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0):
-                                    tmp.add(t.update[ri])
-                            else:
-                                if t.update[ri] != BOTTOM:
-                                    tmp.add(t.update[ri])
+                            if t.update[ri] != BOTTOM and (t.update[ri] == IN or sc.mapping[t.update[ri]] != 0):
+                                tmp.add(t.update[ri])
                         if not tmp.isdisjoint(g):
                             op[ri] = tmp.difference({IN})
                         else:
@@ -728,23 +749,17 @@ class NRA(RsA):
                     for ri in self.R:
                         up1[ri] = op[ri]
                     #line 15, c' = SUM(x in op_ri, c(x)):
-                    if track_sizes:
-                        for ri in self.R:
-                            cnt = 0
-                            for x in up1[ri]:
-                                c_aux = 0
-                                if x == IN:
-                                    c_aux = 1
-                                else:
-                                    c_aux = sc.mapping[x]
-                                cnt += c_aux
-                                if cnt > 2:
-                                    cnt = 2
-                            c1[ri] = cnt
+                    for ri in self.R:
+                        cnt = 0
+                        for x in up1[ri]:
+                            c_aux = 1 if x == IN else sc.mapping[x]
+                            cnt |= c_aux
+                        c1[ri] = cnt
                     s1c1 = MacroState()
                     s1c1.states = S1
                     s1c1.mapping = c1
                     found = False
+                    #TODO: optimize this membership test if possible
                     for q1 in newA.Q:
                         #orig:
                         if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
@@ -753,7 +768,7 @@ class NRA(RsA):
                     if not found:
                         worklist.append(s1c1)
                         newA.add_q(s1c1)
-                    newA.add_transition(Transition(sc, a, g, self.R.difference(g), up1, s1c1))
+                    newA.add_transition(Transition(sc, a, g, regs.difference(g), up1, s1c1))
         #accepting states:
         for mq in newA.Q:
             for q in mq.states:
