@@ -312,6 +312,27 @@ class DRsA(RsA):
         return newConf
     
     #tests guards of a transition
+    def _create_memb_map(self, input, regConf,):
+        memb_map = dict()
+        for r in self.R:
+            if input in regConf[r]:
+                memb_map[r] = True
+            else:
+                memb_map[r] = False
+        return memb_map
+    
+    #tests guards of a transition
+    def _test_memb_map(self, memb_map, eqG, diseqG):
+        for g in eqG:
+            if not memb_map[g]:
+                return False
+                
+        for g in diseqG:
+            if memb_map[g]:
+                return False
+        return True
+
+    #tests guards of a transition
     def _guard_test(self, input, regConf, eqG, diseqG):
         for g in eqG:
             if not input in regConf[g]:
@@ -343,8 +364,12 @@ class DRsA(RsA):
             found = False
             trans_f = None
             #TODO: do one test and then check the bitmap with transitions
+            
+            memb_map = self._create_memb_map(s, regConf)
+
             for t in self.trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
-                if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
+                if rsa_is_char_in(s, t.symbol) and self._test_memb_map(memb_map, t.eqGuard, t.diseqGuard):
+                #if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
                     #if found:
                         # print("FOUND DUPLICATE:")
                         # print(trans_f.orig, trans_f.orig.states, trans_f.orig.mapping, trans_f.symbol, trans_f.eqGuard, trans_f.diseqGuard, trans_f.update)
