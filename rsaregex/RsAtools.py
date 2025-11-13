@@ -368,12 +368,8 @@ class DRsA(RsA):
             found = False
             trans_f = None
             #TODO: do one test and then check the bitmap with transitions
-            
-            memb_map = self._create_memb_map(s, regConf)
-
             for t in self.trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
-                if rsa_is_char_in(s, t.symbol) and self._test_memb_map(memb_map, t.eqGuard, t.diseqGuard):
-                #if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
+                if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
                     #if found:
                         # print("FOUND DUPLICATE:")
                         # print(trans_f.orig, trans_f.orig.states, trans_f.orig.mapping, trans_f.symbol, trans_f.eqGuard, trans_f.diseqGuard, trans_f.update)
