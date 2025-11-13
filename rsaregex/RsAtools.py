@@ -97,10 +97,7 @@ def rsa_intersect_n_sets(sets):
     if n >= 1:
         tmp = sets[0]
         for i in range(1, n):
-            if tmp == MYEMPTY:
-                break
-            else:
-                tmp = rsa_set_intersection(tmp, sets[i])
+            tmp = rsa_set_intersection(tmp, sets[i])
         return tmp
     else:
         return MYEMPTY
