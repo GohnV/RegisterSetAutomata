@@ -141,7 +141,7 @@ def _find_cg_by_num(cg_num: int, pattern: p.SubPattern) -> p.SubPattern:
             res = _find_cg_by_num(cg_num, sub_pat)
             if res != False:
                 return res
-        
+
         else:
             continue
     return False
@@ -238,7 +238,7 @@ def _get_cg_len(sub_pattern: p.SubPattern) -> (int, int) or False:
             cg_min_len, cg_max_len = g_back_referenced[av]
             min_len += cg_min_len
             max_len = add_with_maxrep(max_len, cg_max_len)
-    
+
         else:
             # unsupported construction
             raise ParseError("Unsupported construction used")
@@ -392,9 +392,13 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
     if max_len == 0 or _check_opt(capt_num):
         return NRA({q1}, set(), set(), {q1}, {q1}) #TODO: optional should probably be union of this automaton and the one created below 
 
-    if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
-        raise CaptureGroupError("Capture group is too long")
-        return False
+    if g_simulate_transducer:
+        if not capt_num in g_optional.keys() and (max_len != min_len):
+            raise CaptureGroupError("Capture group with non-constant length")
+    else:
+        if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):
+            raise CaptureGroupError("Capture group is too long")
+            return False
 
     ret = _get_cg_chars(sub_pattern)
 
