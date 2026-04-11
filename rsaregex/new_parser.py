@@ -394,6 +394,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
 
     if g_simulate_transducer:
         if not capt_num in g_optional.keys() and (max_len != min_len) or max_len == c.MAXREPEAT:
+        #if max_len == c.MAXREPEAT: #for checking bounded
             raise CaptureGroupError("Capture group with non-constant length")
     else:
         if not capt_num in g_optional.keys() and (max_len != 1 or min_len != 1):

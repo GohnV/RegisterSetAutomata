@@ -666,15 +666,19 @@ class NRA(RsA):
         worklist.append(temp)
         newA.Q.add(temp)
         newA.I.add(temp)
+
+        sets = set()
+        for t in self.delta:
+            sets.add(t.symbol)
+        #create minterms of all transitions used into A
+        A = _create_minterms_symb(list(sets))
+
         while worklist != []:
             sc = worklist.pop(-1)
             #print(f"({sc.states}, {sc.mapping})")
-            #create minterms of all transitions used in a given set of states into A
-            sets = set()
             regs0 = set()
             for t in self.delta:
                 if t.orig in sc.states:
-                    sets.add(t.symbol)
                     regs0 = regs0.union(t.eqGuard)
             #print(sets)
             regs = set()
@@ -682,8 +686,10 @@ class NRA(RsA):
                 if sc.mapping[r] != 0:
                     regs.add(r)
 
-            A = _create_minterms_symb(list(sets))
+            
             #TODO: add mintermification before powerset to 'join' some registers if there's no reason to separate them
+            #       maybe also try that^ for the whole regex?
+            #TODO: what about BDDs?
             G = set(powerset(regs))
             #print(A)
             for a in A:
