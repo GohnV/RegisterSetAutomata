@@ -155,6 +155,145 @@ def _create_minterms(sets):
     #print(minterms)
     return minterms
 
+# create a list of unicode ranges from myset of symbols
+UNICODE_MIN = 0x0000
+UNICODE_MAX = 0x10FFFF
+SURR_START = 0xD800
+SURR_END   = 0xDFFF
+UNICODE_RANGE = [(UNICODE_MIN, SURR_START-1), (SURR_END+1, UNICODE_MAX)]
+def _myset_to_ranges(myset):
+    if myset == MYEMPTY:
+        return []
+    if myset == ANYCHAR:
+        return UNICODE_RANGE
+    out = []
+    neg, charset = myset
+    charlist = sorted(charset)
+    l = r = ord(charlist[0])
+    for c in charlist[1:]:
+        c = ord(c)
+        if c == r+1:
+            r = c
+        else:
+            out.append((l,r))
+            l = r = c
+    out.append((l,r))
+
+    #complement ranges if negated
+    if neg == '^':
+        compl = []
+        for minl, maxr in UNICODE_RANGE:
+            c = minl
+            for l,r in out:
+                # skip non-overlapping 
+                if r < minl or l > maxr:
+                    continue
+
+                # clamp l and r into the range
+                l = max(minl, l)
+                r = min(maxr, r)
+
+                if c < l:
+                    compl.append((c, l-1))
+                c = r+1
+            if c <= maxr:
+                compl.append((c, maxr))
+        out = compl
+
+    return out
+
+class DecodeTreeNode:
+    def __init__(self):
+        self.children = []
+        self.label = None
+    
+    def init_children(self, nclasses):
+        self.children = [None for _ in range(nclasses)]
+
+def _check_char_in_decode_tree(char, tree: DecodeTreeNode, bytemap):
+    chbytes = char.encode("utf-8")
+    curr = tree
+    for b in chbytes:
+        b = bytemap[b] #work with byteclass
+        if curr == None:
+            return -1
+        curr = curr.children[b] #descend
+    return curr.label
+
+def _add_char_to_decode_tree(char, tree: DecodeTreeNode, leafptrarr, bytemap, nclasses):
+    #assumes char is not already in tree, and that tree is not None
+    assert(tree != None)
+    chbytes = char.encode("utf-8")
+    curr = tree
+    for b in chbytes:
+        b = bytemap[b] #work with byteclass
+        if curr.children == []:
+            curr.init_children(nclasses)
+        if curr.children[b] == None: #uninitialized child
+            curr.children[b] = DecodeTreeNode()
+        curr = curr.children[b] #descend
+    #decoded, number the leaf
+    idx = len(leafptrarr)
+    curr.label = idx
+    leafptrarr.append(curr)
+    return idx
+
+def _pad_arr_to_idx(arr, idx, val=0):
+    arr.extend([val] * (idx + 1 - len(arr)))
+
+def _find_dangling(tree: DecodeTreeNode, dangling):
+    for i in range(len(tree.children)):
+        if tree.children[i] == None:
+            newnode = DecodeTreeNode()
+            tree.children[i] = newnode
+            dangling.append(newnode)
+        else:
+            _find_dangling(tree.children[i], dangling)
+
+def _generate_decode_tree(charsets, bytemap, nclasses):
+    processed_chars = {}
+    decode_tree = DecodeTreeNode()
+    leafptrarr = []
+    leafmaps = [[] for _ in charsets] #TODO: leafmaps could be bitarrays
+    seen_neg = False
+
+    # create tree structure by adding all characters first
+    for myset in charsets.keys():
+        neg, chset = myset
+        if neg == "^":
+            seen_neg = True
+        for ch in chset:
+            leafarr = leafmaps[charsets[myset]]
+            if ch in processed_chars.keys():
+                idx = processed_chars[ch]
+            else:
+                idx = _add_char_to_decode_tree(ch, decode_tree, leafptrarr, bytemap, nclasses)
+                processed_chars[ch] = idx
+            if idx >= len(leafarr):
+                _pad_arr_to_idx(leafarr, idx)
+            leafarr[idx] = 1
+    
+    # find dangling leaves
+    dangling = []
+    if seen_neg:
+        _find_dangling(decode_tree, dangling)
+
+
+    #assign labels correctly
+    for myset in charsets.keys():
+        neg, _ = myset
+        yesval = 0 if neg == "^" else 1
+        setnum = charsets[myset]
+        map = leafmaps[setnum]
+        for i in range(len(map)):
+            if map[i] == yesval:
+                leafptrarr[i].label = f"label_set_{setnum}"
+        # add label to dangling ends
+        if neg == "^":
+            for d in dangling:
+                d.label = f"label_set_{setnum}"
+    return decode_tree
+
 class Transition:
     """! Class representing a transition
     """
@@ -647,8 +786,61 @@ class NRA(RsA):
         self.R = Rnew
         self.delta = deltanew
 
+    def tmp_debug(self):
+        bytemap, nclasses = self._create_bytemap
 
-    def determinize(self, postprocess=False, track_sizes=True):
+
+    def _create_bytemap(self):
+        #DEBUG: trivial bytemap
+        return [i for i in range(256)], 256
+
+    def generate_vm_code(self):
+        INSTR_DECODE = "DECODE"
+        INSTR_ACCEPT = "ACCEPT"
+        INSTR_FAIL = "FAIL"
+        # TODO: cleanup interface
+        self.remove_eps()
+        self.remove_unreachable()
+        drsa = self.determinize() #let it crash if non-determinizable for now
+        prg = []
+        bytemap, nclasses = self._create_bytemap()
+        mem = []
+        next_id = 0
+        for s in drsa.Q:
+            id = next_id
+            next_id += 1
+            tdkey = (frozenset(s.states),frozenset(s.mapping.items()))
+            prg.append(f"state_{id}:") #label
+            prg.append(INSTR_DECODE + f" {id}")
+            
+            # group transitions from s by symbol
+            charsets = {}
+            charsetcnt = 0
+            charset_trans = {}
+            for t in drsa.trans_dict[tdkey]:
+                if t.symbol not in charsets.keys():
+                    charsets[t.symbol] = charsetcnt
+                    charset_trans[charsetcnt] = []
+                    charsetcnt += 1
+                idx = charsets[t.symbol]
+                charset_trans[idx].append(t)
+            
+            mem.append(_generate_decode_tree(charsets, bytemap, nclasses))
+            # TODO: convert into some json format at some point (if too slow later change into just binary)
+
+            # TODO: generate register testing
+                
+
+            #if input runs out:
+            #FIXME: implement eq and hash for state! so this doesn't happen!
+            for f in drsa.F:
+                if s.states == f.states and s.mapping == f.mapping:
+                    prg.append(INSTR_ACCEPT)
+                    break
+            prg.append(INSTR_FAIL)
+        return prg, mem
+
+    def determinize(self, postprocess=False, track_sizes=True) -> DRsA:
         '''Determinise the NRA into a DRsA'''
         overapprox = False
         #fill in implicit updates
@@ -666,19 +858,14 @@ class NRA(RsA):
         worklist.append(temp)
         newA.Q.add(temp)
         newA.I.add(temp)
-
-        sets = set()
-        for t in self.delta:
-            sets.add(t.symbol)
-        #create minterms of all transitions used into A
-        A = _create_minterms_symb(list(sets))
-
         while worklist != []:
             sc = worklist.pop(-1)
             #print(f"({sc.states}, {sc.mapping})")
             regs0 = set()
+            sets = set()
             for t in self.delta:
                 if t.orig in sc.states:
+                    sets.add(t.symbol)
                     regs0 = regs0.union(t.eqGuard)
             #print(sets)
             regs = set()
@@ -686,7 +873,8 @@ class NRA(RsA):
                 if sc.mapping[r] != 0:
                     regs.add(r)
 
-            
+            #create minterms of all transitions used for a given set of states into A
+            A = _create_minterms_symb(list(sets))
             #TODO: add mintermification before powerset to 'join' some registers if there's no reason to separate them
             #       maybe also try that^ for the whole regex?
             #TODO: what about BDDs?
@@ -809,5 +997,5 @@ class NRA(RsA):
                 raise DeterminizationError("Overapproximation detected")
                 return -1
         newA.trans_dict = newA._create_trans_dict()
-        return newA     
+        return newA
 #end of class NRA
