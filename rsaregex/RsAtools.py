@@ -202,6 +202,274 @@ def _myset_to_ranges(myset):
 
     return out
 
+class BDDTerm:
+    def __init__(self, value):
+        self.value = value
+
+    def __eq__(self, other):
+        if not isinstance(other, BDDTerm):
+            return False
+        return self.value == other.value
+
+    def __hash__(self):
+        return hash(self.value)
+
+class BDDNode:
+    def __init__(self, hi, lo, var, parents: list):
+        self.hi = hi
+        self.lo = lo
+        self.var = var
+        self.parents = parents
+
+    def is_filled(self):
+        return self.hi is not None and \
+            self.lo is not None and \
+            self.var is not None
+
+    # def __eq__(self, value):
+    #     return self is value
+
+    # def __hash__(self):
+    #     return hash(id(self))
+    
+    def get_key(self):
+        return (id(self.hi), id(self.lo), self.var)
+    
+
+class MTBDD:
+    def __init__(self):
+        self.nodes = {} # a dict used like a set, but can retrieve the canonical value
+                        # use nodes[node.get_key()] = node to add a node 
+        self.terms = {}
+        self.root = BDDNode(None, None, 0, set())
+
+    def create_term(self, value):
+        newterm = BDDTerm(value)
+        tmp = self.terms.get(newterm)
+        if tmp is None: #add new node
+            self.terms[newterm] = newterm
+        else:
+            newterm = tmp #replace with canonical node
+        return newterm
+                
+
+    def create_node(self, var, parent):
+        return BDDNode(None, None, var, {parent})
+    
+    def store_nodeBUGGED(self, node:BDDNode):
+        print("\tADDING NODE", node, node.get_key())
+        in_table = self.nodes.get(node.get_key())
+        if in_table is None:
+            self.nodes[node.get_key()] = node
+            ret = node
+        elif in_table is not node:
+            print("Adjusting table for node", node)
+            # in_table.parents = in_table.parents.union(node.parents)
+            for p in node.parents: #old parents
+                table_p = self.nodes.get(p)
+                if table_p is not None:
+                    del self.nodes[p]
+                if node is p.hi:
+                    p.hi = in_table
+                if node is p.lo:
+                    p.lo = in_table
+
+                
+                if p.is_filled():
+                    # self.nodes[p.get_key()] = p
+                    self.store_node(p)
+                in_table.parents.add(p)
+
+            for child in [node.hi, node.lo]:
+                if isinstance(child, BDDTerm):
+                    continue
+                if node in child.parents:
+                    child.parents.remove(node)
+                child.parents.add(in_table)
+            ret = in_table
+        else: #in table is node
+            ret = node
+        print("\tactual node:", ret, ret.get_key())
+        print("\tNODES TABLE:")
+        print(self.nodes)
+        return ret
+        
+                
+
+    def add_path(self, var_values: list, term_value):
+        # terms are easy, but should I create
+        node = self.root
+        nvars = len(var_values)
+        print("adding path", var_values, term_value)
+        for i, x in enumerate(var_values):
+            print(i,x)
+            # TODO: make a function like create_child(self, vard_idx, nvars, term_value)?
+            if x: #go high
+                print("going high")
+                if node.hi is not None:
+                    print("found path")
+                    next_node = node.hi
+                else:
+                    print("diverged")
+                    if i == nvars-1: # newnode will be term
+                        print(f"term from var={node.var} hi")
+                        node.hi = self.create_term(term_value)
+                    else:
+                        print(f"node from var={node.var} hi")
+                        node.hi = self.create_node(i+1, node)
+                        next_node = node.hi
+            else: #go low
+                print("going low")
+                if node.lo is not None:
+                    print("found path")
+                    next_node = node.lo
+                else:
+                    print("diverged")
+                    if i == nvars-1: #newnode will be term
+                        print(f"term from var={node.var} lo")
+                        node.lo = self.create_term(term_value)
+                    else:
+                        print(f"node from var={node.var} lo")
+                        node.lo = self.create_node(i+1, node)
+                        next_node = node.lo
+            # if node.is_filled():
+            #     self.store_node(node)
+            node = next_node
+
+    def reduceBUGGED(self):
+        def append_worklist(node):
+            if isinstance(node, BDDNode):
+                if node not in worklist:
+                    worklist.append(node)
+
+        print("start reduce")
+        print(self.nodes)
+        worklist = [self.root]
+        while worklist != []:
+            node = worklist.pop(0)
+            print("processing", node, node.var, node.hi, node.lo)
+            print("worklist:", worklist)
+            if node.hi == node.lo:
+                print("reducing")
+                if node == self.root:
+                    del self.nodes[self.root.get_key()]
+                    self.root = node.hi
+                    self.root.parents = set()
+                    append_worklist(self.root)
+                else:
+                    # if self.nodes.get(node.get_key()) is None:
+                    #     print("FAILED TO FIND NODE! (1)")
+                    #     print("\tNODE:",node, node.hi, node.lo, node.var)
+                    #     print("\tNODE TABLE:")
+                    #     print(self.nodes)
+                    #     dump_mtbdd(self)
+                    #     #exit()
+                    # else:
+                    del self.nodes[node.get_key()]
+                    if isinstance(node.hi, BDDNode):
+                        print(node.hi.parents)
+                        node.hi.parents.remove(node)
+                    # change parents:
+                    print("PARENTS:", node.parents)
+                    for p in node.parents:
+                        # if self.nodes.get(p.get_key()) is None: #FIXME: how can this happen?
+                        #     print("FAILED TO FIND NODE! (2)")
+                        #     print("\tNODE:",p, p.hi, p.lo, p.var)
+                        #     print("\tNODEKEY:", p.get_key())
+                        #     print("\tNODE TABLE:")
+                        #     print(self.nodes)
+                        #     dump_mtbdd(self)
+                        #     # exit()
+                        # else:
+                        del self.nodes[p.get_key()] # will change node key, so delete
+                        if p in worklist:
+                            worklist.remove(p)
+                        if p.hi is node:
+                            p.hi = node.hi
+                        if p.lo is node:
+                            p.lo = node.lo
+                        p = self.store_node(p) #get canonical version
+                        if isinstance(node.hi, BDDNode):
+                            node.hi.parents.add(p)
+                        append_worklist(p)
+                    append_worklist(node.hi)
+            else:
+                print("adding both")
+                append_worklist(node.hi)
+                append_worklist(node.lo)
+
+    def create_level_arr(self, nvars):
+        arr = [set() for _ in range(nvars)]
+        curr = self.root
+        self.create_level_arr_impl(arr, curr)
+        return arr
+
+    def create_level_arr_impl(self, arr, curr):
+        if isinstance(curr, BDDTerm):
+            return
+        arr[curr.var].add(curr)
+        self.create_level_arr_impl(arr, curr.hi)
+        self.create_level_arr_impl(arr, curr.lo)
+
+    def remove_dupl_nodes(self, nvars):
+        merged = False
+        level_arr = self.create_level_arr(nvars)
+        self.nodes = {} #clear
+        for nodelist in reversed(level_arr): #start with lowest level (=> children must be stored already)
+            for node in nodelist:
+                table_node = self.nodes.get(node.get_key())
+                if table_node is None:
+                    self.nodes[node.get_key()] = node
+                else: # MERGING into table node
+                    merged = True
+                    #re-route edges to new node
+                    for p in node.parents:
+                        if p.hi is node:
+                            p.hi = table_node
+                        if p.lo is node:
+                            p.lo = table_node
+                        table_node.parents.add(p)
+                    for child in [node.hi, node.lo]:
+                        if isinstance(child, BDDNode):
+                            child.parents.discard(node) #id lo == hi we get in trouble remove
+                            child.parents.add(table_node)
+        return merged
+    
+    def delete_useless_nodes_impl(self, curr):
+        if isinstance(curr, BDDTerm):
+            return False
+        if curr.hi == curr.lo: #delete this node
+            child = curr.hi # we can use lo or hi
+            if isinstance(child, BDDNode):
+                child.parents.remove(curr)
+            for p in curr.parents:
+                if p.lo is curr:
+                    p.lo = child
+                if p.hi is curr:
+                    p.hi = child
+                if isinstance(child, BDDNode):
+                    child.parents.add(p)
+            if curr == self.root:
+                self.root = child
+            self.delete_useless_nodes_impl(child)
+            return True #we deleted so true no matter what
+
+        else:
+            rethi = self.delete_useless_nodes_impl(curr.hi)
+            retlo = self.delete_useless_nodes_impl(curr.lo)
+            return rethi or retlo
+
+    def delete_useless_nodes(self):
+        return self.delete_useless_nodes_impl(self.root)
+
+    def reduce(self, nvars):
+        changed = True
+        while changed:
+            changed = False
+            merged = self.remove_dupl_nodes(nvars)
+            deleted = self.delete_useless_nodes()
+            changed = merged or deleted
+
 class DecodeTreeNode:
     def __init__(self):
         self.children = []
@@ -293,6 +561,16 @@ def _generate_decode_tree(charsets, bytemap, nclasses):
             for d in dangling:
                 d.label = f"label_set_{setnum}"
     return decode_tree
+
+def arrayize__decode_tree(tree: DecodeTreeNode, stateid):
+    if tree == None:
+        pass
+    if tree.children == []:
+        # Just one class
+        assert(tree.label != None)
+        pass 
+    #TODO: finish
+    
 
 class Transition:
     """! Class representing a transition
@@ -806,6 +1084,7 @@ class NRA(RsA):
         bytemap, nclasses = self._create_bytemap()
         mem = []
         next_id = 0
+        reglist = sorted(drsa.R)
         for s in drsa.Q:
             id = next_id
             next_id += 1
@@ -826,13 +1105,16 @@ class NRA(RsA):
                 charset_trans[idx].append(t)
             
             mem.append(_generate_decode_tree(charsets, bytemap, nclasses))
-            # TODO: convert into some json format at some point (if too slow later change into just binary)
+            # TODO: convert memory into some json format at some point (if too slow later change into just binary)
+
 
             # TODO: generate register testing
-                
-
+            for chidx in charset_trans.keys():
+                for t in charset_trans[chidx]:
+                    for r in reglist:
+                        pass
             #if input runs out:
-            #FIXME: implement eq and hash for state! so this doesn't happen!
+            #FIXME: implement eq and hash methods for state! so this doesn't happen
             for f in drsa.F:
                 if s.states == f.states and s.mapping == f.mapping:
                     prg.append(INSTR_ACCEPT)
