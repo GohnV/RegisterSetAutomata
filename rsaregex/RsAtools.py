@@ -15,6 +15,13 @@ BACKREFCHAR = "backrefchar"
 BOTTOM = "NULL"
 SIGMASTAR = "sstar"
 
+INSTR_DECODE = "DECODE"
+INSTR_ACCEPT = "ACCEPT"
+INSTR_FAIL = "FAIL"
+INSTR_JUMP = "JUMP"
+INSTR_TEST = "TEST"
+INSTR_UPDATE = "UPDATE"
+
 class DeterminizationError(Exception):
     def __init__(self, message):
         super().__init__(message)
@@ -470,6 +477,33 @@ class MTBDD:
             deleted = self.delete_useless_nodes()
             changed = merged or deleted
 
+    def write_code(self, prg: list, prefix: str):
+        id_map = {}
+        self.write_code_impl(self.root, prg, id_map)
+    
+    def write_code_impl(self, node: BDDNode, prg: list, id_map: dict, prefix: str):
+        def get_id(n):
+            nid = id_map.get(n)
+            if nid is None:
+                nid = len(id_map)
+                id_map[n] = nid
+        
+        def get_label(succ):
+            if isinstance(succ, BDDNode):
+                return prefix+"_node_"+str(get_id(succ))
+            else:
+                assert(isinstance(succ, BDDTerm))
+                return prefix+f"_trans_{succ.value}"
+
+        assert(isinstance(node, BDDNode))
+        hi_lab = get_label(node.hi)
+        lo_lab = get_label(node.lo)
+        prg.append(INSTR_TEST+f" {hi_lab}")
+        prg.append(INSTR_JUMP+f" {lo_lab}")
+        for succ in [node.hi, node.lo]:
+            if isinstance(succ, BDDNode):
+                self.write_code_impl(succ, prg, id_map, prefix)
+
 class DecodeTreeNode:
     def __init__(self):
         self.children = []
@@ -713,6 +747,10 @@ class DRsA(RsA):
             if key not in result:
                 result[key] = set()
         return result
+
+    def _create_state_id_map(self):
+        states = sorted(self.Q)
+        return {s : i for i, s in enumerate(states)}
 
     def _update_regs(self, regConf, up, input):
         '''Update Registers.
@@ -1073,24 +1111,21 @@ class NRA(RsA):
         return [i for i in range(256)], 256
 
     def generate_vm_code(self):
-        INSTR_DECODE = "DECODE"
-        INSTR_ACCEPT = "ACCEPT"
-        INSTR_FAIL = "FAIL"
+        
         # TODO: cleanup interface
         self.remove_eps()
         self.remove_unreachable()
         drsa = self.determinize() #let it crash if non-determinizable for now
+        statemap = drsa._create_state_id_map()
         prg = []
         bytemap, nclasses = self._create_bytemap()
         mem = []
-        next_id = 0
         reglist = sorted(drsa.R)
         for s in drsa.Q:
-            id = next_id
-            next_id += 1
             tdkey = (frozenset(s.states),frozenset(s.mapping.items()))
-            prg.append(f"state_{id}:") #label
-            prg.append(INSTR_DECODE + f" {id}")
+            state_id = statemap[s]
+            prg.append(f"state_{state_id}:") #label
+            prg.append(INSTR_DECODE + f" {state_id}")
             
             # group transitions from s by symbol
             charsets = {}
@@ -1107,12 +1142,39 @@ class NRA(RsA):
             mem.append(_generate_decode_tree(charsets, bytemap, nclasses))
             # TODO: convert memory into some json format at some point (if too slow later change into just binary)
 
-
-            # TODO: generate register testing
             for chidx in charset_trans.keys():
+                prg.append(f"{state_id}_{chidx}:")
+                mtbdd = MTBDD()
+                uniq_trans = {}
+                #decide transition
                 for t in charset_trans[chidx]:
-                    for r in reglist:
-                        pass
+                    trans_key = (t.update, statemap[t.dest])
+                    trans_id = uniq_trans.get(trans_key)
+                    if trans_id is None:
+                        trans_id = len(uniq_trans)
+                        uniq_trans[trans_key] = trans_id
+
+                    var_values = []
+                    for r in reglist: #build vector for mtbdd
+                        if r in t.eqGuard:
+                            var_values.append(1)
+                        else:
+                            assert(r in t.diseqGuard)
+                            var_values.append(0)
+                    mtbdd.add_path(var_values, trans_id)
+                mtbdd.reduce(len(drsa.R))
+                mtbdd.write_code(prg, f"{state_id}_{chidx}")
+                #TODO: potential FAIL instr somewhere?
+
+                #print transition update and move
+                for trans_key, trans_id in uniq_trans.items():
+                    upd, dest_id = trans_key
+                    prg.append(f"{state_id}_{chidx}_{trans_id}:") #label
+                    for lhs,rhs in upd:
+                        str_rhs = " ".join([str(r) for r in rhs])
+                        prg.append(INSTR_UPDATE+" "+str(lhs)+" "+str_rhs)
+                    prg.append(INSTR_JUMP+f" {dest_id}")
+
             #if input runs out:
             #FIXME: implement eq and hash methods for state! so this doesn't happen
             for f in drsa.F:
