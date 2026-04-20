@@ -250,6 +250,9 @@ class MTBDD:
         self.terms = {}
         self.root = BDDNode(None, None, 0, set())
 
+    def is_empty(self):
+        return self.root.hi == None and self.root.lo == None
+
     def create_term(self, value):
         newterm = BDDTerm(value)
         tmp = self.terms.get(newterm)
@@ -321,6 +324,7 @@ class MTBDD:
                     if i == nvars-1: # newnode will be term
                         print(f"term from var={node.var} hi")
                         node.hi = self.create_term(term_value)
+                        return
                     else:
                         print(f"node from var={node.var} hi")
                         node.hi = self.create_node(i+1, node)
@@ -335,6 +339,7 @@ class MTBDD:
                     if i == nvars-1: #newnode will be term
                         print(f"term from var={node.var} lo")
                         node.lo = self.create_term(term_value)
+                        return
                     else:
                         print(f"node from var={node.var} lo")
                         node.lo = self.create_node(i+1, node)
@@ -479,7 +484,7 @@ class MTBDD:
 
     def write_code(self, prg: list, prefix: str):
         id_map = {}
-        self.write_code_impl(self.root, prg, id_map)
+        self.write_code_impl(self.root, prg, id_map, prefix)
     
     def write_code_impl(self, node: BDDNode, prg: list, id_map: dict, prefix: str):
         def get_id(n):
@@ -493,7 +498,7 @@ class MTBDD:
                 return prefix+"_node_"+str(get_id(succ))
             else:
                 assert(isinstance(succ, BDDTerm))
-                return prefix+f"_trans_{succ.value}"
+                return prefix+f"_{succ.value}"
 
         assert(isinstance(node, BDDNode))
         hi_lab = get_label(node.hi)
@@ -511,6 +516,28 @@ class DecodeTreeNode:
     
     def init_children(self, nclasses):
         self.children = [None for _ in range(nclasses)]
+
+def _serialize_decode_tree(node):
+    if node is None: #for safety
+        return None
+
+    if node.children != []:
+        node.label = None 
+
+        return {
+            "label": node.label,
+            "children": [
+                _serialize_decode_tree(child) for child in node.children
+            ]
+        }
+    elif node.label == None:
+        return {
+            "label" : -1
+        }
+    else:
+        return {
+            "label" : node.label
+        }
 
 def _check_char_in_decode_tree(char, tree: DecodeTreeNode, bytemap):
     chbytes = char.encode("utf-8")
@@ -552,7 +579,7 @@ def _find_dangling(tree: DecodeTreeNode, dangling):
         else:
             _find_dangling(tree.children[i], dangling)
 
-def _generate_decode_tree(charsets, bytemap, nclasses):
+def _generate_decode_tree(charsets, bytemap, nclasses, state_id):
     processed_chars = {}
     decode_tree = DecodeTreeNode()
     leafptrarr = []
@@ -589,11 +616,11 @@ def _generate_decode_tree(charsets, bytemap, nclasses):
         map = leafmaps[setnum]
         for i in range(len(map)):
             if map[i] == yesval:
-                leafptrarr[i].label = f"label_set_{setnum}"
+                leafptrarr[i].label = f"{state_id}_{setnum}"
         # add label to dangling ends
         if neg == "^":
             for d in dangling:
-                d.label = f"label_set_{setnum}"
+                d.label = f"{state_id}_{setnum}"
     return decode_tree
 
 def arrayize__decode_tree(tree: DecodeTreeNode, stateid):
@@ -618,10 +645,16 @@ class Transition:
         self.dest = dest
 #end of class Transition
 
+def _freeze_update(upd):
+    return frozenset({(rhs,frozenset(lhs)) for rhs,lhs in upd.items()})
+
 class MacroState:
     def __init__(self):
         self.states = set()
         self.mapping = {}
+
+    def key(self):
+        return (frozenset(self.states), frozenset(self.mapping.items()))
 
 
 class RsA:
@@ -749,8 +782,7 @@ class DRsA(RsA):
         return result
 
     def _create_state_id_map(self):
-        states = sorted(self.Q)
-        return {s : i for i, s in enumerate(states)}
+        return {s.key() : i for i, s in enumerate(self.Q)}
 
     def _update_regs(self, regConf, up, input):
         '''Update Registers.
@@ -1111,7 +1143,7 @@ class NRA(RsA):
         return [i for i in range(256)], 256
 
     def generate_vm_code(self):
-        
+
         # TODO: cleanup interface
         self.remove_eps()
         self.remove_unreachable()
@@ -1119,11 +1151,11 @@ class NRA(RsA):
         statemap = drsa._create_state_id_map()
         prg = []
         bytemap, nclasses = self._create_bytemap()
-        mem = []
+        mem = [None for _ in drsa.Q]
         reglist = sorted(drsa.R)
         for s in drsa.Q:
             tdkey = (frozenset(s.states),frozenset(s.mapping.items()))
-            state_id = statemap[s]
+            state_id = statemap[s.key()]
             prg.append(f"state_{state_id}:") #label
             prg.append(INSTR_DECODE + f" {state_id}")
             
@@ -1138,9 +1170,9 @@ class NRA(RsA):
                     charsetcnt += 1
                 idx = charsets[t.symbol]
                 charset_trans[idx].append(t)
-            
-            mem.append(_generate_decode_tree(charsets, bytemap, nclasses))
-            # TODO: convert memory into some json format at some point (if too slow later change into just binary)
+            decode_tree = _generate_decode_tree(charsets, bytemap, nclasses, state_id)
+            mem[state_id] = _serialize_decode_tree(decode_tree)
+            # TODO: if too slow, serialize into binary
 
             for chidx in charset_trans.keys():
                 prg.append(f"{state_id}_{chidx}:")
@@ -1148,7 +1180,7 @@ class NRA(RsA):
                 uniq_trans = {}
                 #decide transition
                 for t in charset_trans[chidx]:
-                    trans_key = (t.update, statemap[t.dest])
+                    trans_key = (_freeze_update(t.update), statemap[t.dest.key()])
                     trans_id = uniq_trans.get(trans_key)
                     if trans_id is None:
                         trans_id = len(uniq_trans)
@@ -1158,22 +1190,24 @@ class NRA(RsA):
                     for r in reglist: #build vector for mtbdd
                         if r in t.eqGuard:
                             var_values.append(1)
-                        else:
+                        elif r in t.diseqGuard:
                             assert(r in t.diseqGuard)
                             var_values.append(0)
                     mtbdd.add_path(var_values, trans_id)
-                mtbdd.reduce(len(drsa.R))
-                mtbdd.write_code(prg, f"{state_id}_{chidx}")
+                if not mtbdd.is_empty():
+                    # dump_mtbdd(mtbdd)
+                    mtbdd.reduce(len(var_values))
+                    mtbdd.write_code(prg, f"{state_id}_{chidx}")
                 #TODO: potential FAIL instr somewhere?
 
-                #print transition update and move
+                    #print transition update and move
                 for trans_key, trans_id in uniq_trans.items():
                     upd, dest_id = trans_key
                     prg.append(f"{state_id}_{chidx}_{trans_id}:") #label
                     for lhs,rhs in upd:
                         str_rhs = " ".join([str(r) for r in rhs])
                         prg.append(INSTR_UPDATE+" "+str(lhs)+" "+str_rhs)
-                    prg.append(INSTR_JUMP+f" {dest_id}")
+                    prg.append(INSTR_JUMP+f" state_{dest_id}")
 
             #if input runs out:
             #FIXME: implement eq and hash methods for state! so this doesn't happen
