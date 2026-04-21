@@ -222,10 +222,11 @@ class BDDTerm:
         return hash(self.value)
 
 class BDDNode:
-    def __init__(self, hi, lo, var, parents: list):
+    def __init__(self, hi, lo, var, reg_id, parents: list):
         self.hi = hi
         self.lo = lo
         self.var = var
+        self.reg_id = reg_id
         self.parents = parents
 
     def is_filled(self):
@@ -248,7 +249,7 @@ class MTBDD:
         self.nodes = {} # a dict used like a set, but can retrieve the canonical value
                         # use nodes[node.get_key()] = node to add a node 
         self.terms = {}
-        self.root = BDDNode(None, None, 0, set())
+        self.root = BDDNode(None, None, 0, None, set())
 
     def is_empty(self):
         return self.root.hi == None and self.root.lo == None
@@ -263,152 +264,41 @@ class MTBDD:
         return newterm
                 
 
-    def create_node(self, var, parent):
-        return BDDNode(None, None, var, {parent})
-    
-    def store_nodeBUGGED(self, node:BDDNode):
-        print("\tADDING NODE", node, node.get_key())
-        in_table = self.nodes.get(node.get_key())
-        if in_table is None:
-            self.nodes[node.get_key()] = node
-            ret = node
-        elif in_table is not node:
-            print("Adjusting table for node", node)
-            # in_table.parents = in_table.parents.union(node.parents)
-            for p in node.parents: #old parents
-                table_p = self.nodes.get(p)
-                if table_p is not None:
-                    del self.nodes[p]
-                if node is p.hi:
-                    p.hi = in_table
-                if node is p.lo:
-                    p.lo = in_table
-
-                
-                if p.is_filled():
-                    # self.nodes[p.get_key()] = p
-                    self.store_node(p)
-                in_table.parents.add(p)
-
-            for child in [node.hi, node.lo]:
-                if isinstance(child, BDDTerm):
-                    continue
-                if node in child.parents:
-                    child.parents.remove(node)
-                child.parents.add(in_table)
-            ret = in_table
-        else: #in table is node
-            ret = node
-        print("\tactual node:", ret, ret.get_key())
-        print("\tNODES TABLE:")
-        print(self.nodes)
-        return ret
-        
-                
+    def create_node(self, var, reg_id, parent):
+        return BDDNode(None, None, var, reg_id, {parent})            
 
     def add_path(self, var_values: list, term_value):
         # terms are easy, but should I create
         node = self.root
         nvars = len(var_values)
-        print("adding path", var_values, term_value)
-        for i, x in enumerate(var_values):
-            print(i,x)
+        if nvars > 0 and node.reg_id is None: #fill root id if missing
+            node.reg_id = var_values[0][0]
+        for i, (_,x) in enumerate(var_values):
+            # print(i,x)
             # TODO: make a function like create_child(self, vard_idx, nvars, term_value)?
             if x: #go high
-                print("going high")
                 if node.hi is not None:
-                    print("found path")
                     next_node = node.hi
                 else:
-                    print("diverged")
                     if i == nvars-1: # newnode will be term
-                        print(f"term from var={node.var} hi")
                         node.hi = self.create_term(term_value)
                         return
                     else:
-                        print(f"node from var={node.var} hi")
-                        node.hi = self.create_node(i+1, node)
+                        node.hi = self.create_node(i+1, var_values[i+1][0], node) #var_values[i+1][0] is the reg_id of the next node
                         next_node = node.hi
             else: #go low
-                print("going low")
                 if node.lo is not None:
-                    print("found path")
                     next_node = node.lo
                 else:
-                    print("diverged")
                     if i == nvars-1: #newnode will be term
-                        print(f"term from var={node.var} lo")
                         node.lo = self.create_term(term_value)
                         return
                     else:
-                        print(f"node from var={node.var} lo")
-                        node.lo = self.create_node(i+1, node)
+                        node.lo = self.create_node(i+1,var_values[i+1][0], node)
                         next_node = node.lo
             # if node.is_filled():
             #     self.store_node(node)
             node = next_node
-
-    def reduceBUGGED(self):
-        def append_worklist(node):
-            if isinstance(node, BDDNode):
-                if node not in worklist:
-                    worklist.append(node)
-
-        print("start reduce")
-        print(self.nodes)
-        worklist = [self.root]
-        while worklist != []:
-            node = worklist.pop(0)
-            print("processing", node, node.var, node.hi, node.lo)
-            print("worklist:", worklist)
-            if node.hi == node.lo:
-                print("reducing")
-                if node == self.root:
-                    del self.nodes[self.root.get_key()]
-                    self.root = node.hi
-                    self.root.parents = set()
-                    append_worklist(self.root)
-                else:
-                    # if self.nodes.get(node.get_key()) is None:
-                    #     print("FAILED TO FIND NODE! (1)")
-                    #     print("\tNODE:",node, node.hi, node.lo, node.var)
-                    #     print("\tNODE TABLE:")
-                    #     print(self.nodes)
-                    #     dump_mtbdd(self)
-                    #     #exit()
-                    # else:
-                    del self.nodes[node.get_key()]
-                    if isinstance(node.hi, BDDNode):
-                        print(node.hi.parents)
-                        node.hi.parents.remove(node)
-                    # change parents:
-                    print("PARENTS:", node.parents)
-                    for p in node.parents:
-                        # if self.nodes.get(p.get_key()) is None: #FIXME: how can this happen?
-                        #     print("FAILED TO FIND NODE! (2)")
-                        #     print("\tNODE:",p, p.hi, p.lo, p.var)
-                        #     print("\tNODEKEY:", p.get_key())
-                        #     print("\tNODE TABLE:")
-                        #     print(self.nodes)
-                        #     dump_mtbdd(self)
-                        #     # exit()
-                        # else:
-                        del self.nodes[p.get_key()] # will change node key, so delete
-                        if p in worklist:
-                            worklist.remove(p)
-                        if p.hi is node:
-                            p.hi = node.hi
-                        if p.lo is node:
-                            p.lo = node.lo
-                        p = self.store_node(p) #get canonical version
-                        if isinstance(node.hi, BDDNode):
-                            node.hi.parents.add(p)
-                        append_worklist(p)
-                    append_worklist(node.hi)
-            else:
-                print("adding both")
-                append_worklist(node.hi)
-                append_worklist(node.lo)
 
     def create_level_arr(self, nvars):
         arr = [set() for _ in range(nvars)]
@@ -492,6 +382,7 @@ class MTBDD:
             if nid is None:
                 nid = len(id_map)
                 id_map[n] = nid
+            return nid
         
         def get_label(succ):
             if isinstance(succ, BDDNode):
@@ -501,9 +392,10 @@ class MTBDD:
                 return prefix+f"_{succ.value}"
 
         assert(isinstance(node, BDDNode))
+        prg.append(f"{get_label(node)}:")
         hi_lab = get_label(node.hi)
         lo_lab = get_label(node.lo)
-        prg.append(INSTR_TEST+f" {hi_lab}")
+        prg.append(INSTR_TEST+f" {node.reg_id} {hi_lab}")
         prg.append(INSTR_JUMP+f" {lo_lab}")
         for succ in [node.hi, node.lo]:
             if isinstance(succ, BDDNode):
@@ -1134,9 +1026,6 @@ class NRA(RsA):
         self.R = Rnew
         self.delta = deltanew
 
-    def tmp_debug(self):
-        bytemap, nclasses = self._create_bytemap
-
 
     def _create_bytemap(self):
         #DEBUG: trivial bytemap
@@ -1152,11 +1041,29 @@ class NRA(RsA):
         prg = []
         bytemap, nclasses = self._create_bytemap()
         mem = [None for _ in drsa.Q]
-        reglist = sorted(drsa.R)
-        for s in drsa.Q:
+        reglist = sorted(drsa.R) # establish fixed order
+        regmap = {r:i+1 for i, r in enumerate(reglist)} #i+1 to reserve 0 for 'in'
+        regmap[IN] = 0
+        assert(len(drsa.I) == 1)
+        init_state = next(iter(drsa.I))
+        drsa.Q.remove(init_state)
+        for s in [init_state, *drsa.Q]:
+
             tdkey = (frozenset(s.states),frozenset(s.mapping.items()))
             state_id = statemap[s.key()]
             prg.append(f"state_{state_id}:") #label
+
+            #FIXME: implement eq and hash methods for state! so this doesn't happen
+            for f in drsa.F:
+                if s.states == f.states and s.mapping == f.mapping:
+                    prg.append(INSTR_ACCEPT)
+                    break
+
+            # no transitions to decode
+            if drsa.trans_dict[tdkey] == set():
+                prg.append(INSTR_FAIL)
+                continue
+
             prg.append(INSTR_DECODE + f" {state_id}")
             
             # group transitions from s by symbol
@@ -1174,7 +1081,7 @@ class NRA(RsA):
             mem[state_id] = _serialize_decode_tree(decode_tree)
             # TODO: if too slow, serialize into binary
 
-            for chidx in charset_trans.keys():
+            for chidx in charset_trans.keys(): #iterate over groups of transitions
                 prg.append(f"{state_id}_{chidx}:")
                 mtbdd = MTBDD()
                 uniq_trans = {}
@@ -1189,34 +1096,26 @@ class NRA(RsA):
                     var_values = []
                     for r in reglist: #build vector for mtbdd
                         if r in t.eqGuard:
-                            var_values.append(1)
+                            var_values.append((regmap[r], 1))
                         elif r in t.diseqGuard:
-                            assert(r in t.diseqGuard)
-                            var_values.append(0)
+                            var_values.append((regmap[r], 0))
                     mtbdd.add_path(var_values, trans_id)
                 if not mtbdd.is_empty():
                     # dump_mtbdd(mtbdd)
                     mtbdd.reduce(len(var_values))
                     mtbdd.write_code(prg, f"{state_id}_{chidx}")
-                #TODO: potential FAIL instr somewhere?
 
                     #print transition update and move
                 for trans_key, trans_id in uniq_trans.items():
                     upd, dest_id = trans_key
                     prg.append(f"{state_id}_{chidx}_{trans_id}:") #label
                     for lhs,rhs in upd:
-                        str_rhs = " ".join([str(r) for r in rhs])
-                        prg.append(INSTR_UPDATE+" "+str(lhs)+" "+str_rhs)
+                        str_rhs = " ".join([str(regmap[r]) for r in rhs])
+                        prg.append(INSTR_UPDATE+" "+str(regmap[lhs])+" "+str_rhs)
                     prg.append(INSTR_JUMP+f" state_{dest_id}")
 
-            #if input runs out:
-            #FIXME: implement eq and hash methods for state! so this doesn't happen
-            for f in drsa.F:
-                if s.states == f.states and s.mapping == f.mapping:
-                    prg.append(INSTR_ACCEPT)
-                    break
             prg.append(INSTR_FAIL)
-        return prg, mem
+        return prg, mem, len(drsa.R)
 
     def determinize(self, postprocess=False, track_sizes=True) -> DRsA:
         '''Determinise the NRA into a DRsA'''
