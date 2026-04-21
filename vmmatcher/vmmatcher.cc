@@ -7,6 +7,8 @@
 #include <iostream>
 #include <unordered_set>
 
+#include <ctime>
+
 #include "json.hpp"
 using json = nlohmann::json;
 
@@ -441,8 +443,14 @@ int main(int argc, char const *argv[])
     // print_program(program);
     // dump_forest(forest);
     std::cerr << "Code start..." << "\n";
+    std::clock_t t0 = std::clock();
     bool ret = run_code(program, forest, nregs, std::cin);
-    std::cout << ret << "\n";
+    std::clock_t t1 = std::clock();
+    double matchtime = double(t1 - t0) / CLOCKS_PER_SEC;
+    std::cout << matchtime;
+    if (ret)
+        return 0;
+    return 1;
 }
 
 

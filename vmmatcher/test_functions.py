@@ -42,7 +42,7 @@ def run(pattern, input):
         print("STDERR:")
         print(result.stderr,file=sys.stderr)
     
-    return result.stdout
+    return result.returncode
 
 RED = '\033[91m'
 GREEN = '\033[92m'
@@ -54,13 +54,13 @@ def test(pattern, input, expected, name):
     print(f"TEST {name}")
     
     out = run(pattern, input)
-    if out == '1\n':
+    if out == 0:
         val = True
-    elif out == '0\n':
+    elif out == 1:
         val = False
     else:
         print(f"\tgot: {out}")
-        print("\t{RED}UNEXPECTED OUTPUT{WHITE}")
+        print("\t{RED}UNEXPECTED RETURN CODE{WHITE}")
         return
     
     
