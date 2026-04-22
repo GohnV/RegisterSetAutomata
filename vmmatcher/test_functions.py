@@ -75,4 +75,4 @@ def test(pattern, input, expected, name):
 
 
 
-# run(r"(.)\1\1", 'aaa')
+# run(r"(.).*\1", 'aaa')
