@@ -261,24 +261,24 @@ bool run_code(const std::vector<Instruction> &program,
     size_t label;
     bool updated_regs = false;
     while (1) {
-        std::cerr << ip << ":";
+        // std::cerr << ip << ":";
         instr = program[ip];
         switch (instr.op)
         {
         case OP_DECODE:
-            debug_print("DECODE");
+            //debug_print("DECODE");
             in = 0;
             if (updated_regs) {
-                debug_print("REGS UPDATED!");
+                //debug_print("REGS UPDATED!");
                 std::swap(regs, regs_new);
                 regs_new[instr.reg].clear();
                 updated_regs = false;
-                dump_regs(regs);
+                //dump_regs(regs);
             }
             tree = decodeTrees[instr.ls];
             // read first byte
             if (!get_input_char(input, curr_byte)) {
-                debug_print("no input -> fail");
+                //debug_print("no input -> fail");
                 return false;
             }
 
@@ -293,7 +293,7 @@ bool run_code(const std::vector<Instruction> &program,
             }
             regs[0].insert(in); // add in to the reg
 
-            std::cerr << "\t" << in << "\n";
+            //std::cerr << "\t" << in << "\n";
 
             // get next state
             label = traverse_decode_tree(tree, in, nbytes-1);
@@ -307,30 +307,30 @@ bool run_code(const std::vector<Instruction> &program,
             break;
         
         case OP_ACCEPT:
-            debug_print("ACCEPT");
+            //debug_print("ACCEPT");
             if (input.peek() == EOF) {
-                debug_print("\tYES");
+                //debug_print("\tYES");
                 return true;
             }
-            debug_print("\tNO");
+            //debug_print("\tNO");
             ip++;
             break;
 
         case OP_FAIL:
-            debug_print("FAIL");
+            //debug_print("FAIL");
             return false;
 
         case OP_JUMP:
-            debug_print("JUMP");
-            std::cerr << "\tto " << instr.ls << "\n"; 
+            //debug_print("JUMP");
+            //std::cerr << "\tto " << instr.ls << "\n"; 
             ip = instr.ls;
             break;
 
         case OP_TEST:
-            debug_print("TEST");
-            std::cerr << "\t" <<  in << " \\in " << instr.reg << "\n"; 
+            //debug_print("TEST");
+            //std::cerr << "\t" <<  in << " \\in " << instr.reg << "\n"; 
             if (regs[instr.reg].contains(in)) {
-                debug_print("\tYES");
+                //debug_print("\tYES");
                 ip = instr.ls;
                 break;
             }
@@ -338,7 +338,7 @@ bool run_code(const std::vector<Instruction> &program,
             break;
 
         case OP_UPDATE:
-            debug_print("UPDATE");
+            //debug_print("UPDATE");
             for (auto &r : instr.reg_list) {
                 regs_new[instr.reg].insert(regs[r].begin(), regs[r].end()); 
             }
@@ -435,14 +435,14 @@ int main(int argc, char const *argv[])
         return 1;
     }
     std::vector<Instruction> program;
-    std::cerr << "Parsing code..." << "\n";
+    //std::cerr << "Parsing code..." << "\n";
     parse_code(argv[1], program);
-    std::cerr << "Parsing memory..." << "\n";
+    //std::cerr << "Parsing memory..." << "\n";
     auto forest = parse_memory(argv[2]);
     reg_t nregs = std::stoul(argv[3]);
     // print_program(program);
     // dump_forest(forest);
-    std::cerr << "Code start..." << "\n";
+    //std::cerr << "Code start..." << "\n";
     std::clock_t t0 = std::clock();
     bool ret = run_code(program, forest, nregs, std::cin);
     std::clock_t t1 = std::clock();
