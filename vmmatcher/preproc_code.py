@@ -25,7 +25,7 @@ for line in prgfile:
         labelstr = line[:-1]
         if labelstr in labelmap.keys():
             # error
-            print("label redefinition", sys.stderr)
+            print(f"label '{labelstr}' redefined", file=sys.stderr)
             exit(1)
         labelmap[labelstr] = str(cnt)
 
