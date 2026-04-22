@@ -271,7 +271,6 @@ bool run_code(const std::vector<Instruction> &program,
             if (updated_regs) {
                 //debug_print("REGS UPDATED!");
                 std::swap(regs, regs_new);
-                regs_new[instr.reg].clear();
                 updated_regs = false;
                 //dump_regs(regs);
             }
@@ -339,6 +338,7 @@ bool run_code(const std::vector<Instruction> &program,
 
         case OP_UPDATE:
             //debug_print("UPDATE");
+            regs_new[instr.reg].clear();
             for (auto &r : instr.reg_list) {
                 regs_new[instr.reg].insert(regs[r].begin(), regs[r].end()); 
             }
