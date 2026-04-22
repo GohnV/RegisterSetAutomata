@@ -374,9 +374,10 @@ class MTBDD:
 
     def write_code(self, prg: list, prefix: str):
         id_map = {}
-        self.write_code_impl(self.root, prg, id_map, prefix)
+        written = set()
+        self.write_code_impl(self.root, prg, id_map, written, prefix)
     
-    def write_code_impl(self, node: BDDNode, prg: list, id_map: dict, prefix: str):
+    def write_code_impl(self, node: BDDNode, prg: list, id_map: dict, written: set, prefix: str):
         def get_id(n):
             nid = id_map.get(n)
             if nid is None:
@@ -392,14 +393,16 @@ class MTBDD:
                 return prefix+f"_{succ.value}"
 
         assert(isinstance(node, BDDNode))
-        prg.append(f"{get_label(node)}:")
+        if node not in written:
+            prg.append(f"{get_label(node)}:")
+            written.add(node)
         hi_lab = get_label(node.hi)
         lo_lab = get_label(node.lo)
         prg.append(INSTR_TEST+f" {node.reg_id} {hi_lab}")
         prg.append(INSTR_JUMP+f" {lo_lab}")
         for succ in [node.hi, node.lo]:
             if isinstance(succ, BDDNode):
-                self.write_code_impl(succ, prg, id_map, prefix)
+                self.write_code_impl(succ, prg, id_map, written, prefix)
 
 class DecodeTreeNode:
     def __init__(self):
@@ -1103,6 +1106,7 @@ class NRA(RsA):
                 if not mtbdd.is_empty():
                     # dump_mtbdd(mtbdd)
                     mtbdd.reduce(len(var_values))
+
                     mtbdd.write_code(prg, f"{state_id}_{chidx}")
 
                     #print transition update and move
