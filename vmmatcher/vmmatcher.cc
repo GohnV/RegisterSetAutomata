@@ -290,7 +290,10 @@ bool run_code(const std::vector<Instruction> &program,
                 assert(get_input_char(input, curr_byte));
                 BYTES(in)[i] = curr_byte;
             }
-            regs[0].insert(in); // add in to the reg
+
+            // add in to the reg 0
+            regs[0].clear();
+            regs[0].insert(in); 
 
             //std::cerr << "\t" << in << "\n";
 
