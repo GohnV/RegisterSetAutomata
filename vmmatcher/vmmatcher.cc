@@ -14,8 +14,9 @@ using json = nlohmann::json;
 
 using SetImpl = std::unordered_set<uint32_t>;
 
+#define DEBUG_PRINT 0
 void debug_print(std::string message) {
-    std::cerr << message << "\n";
+    if (DEBUG_PRINT) std::cerr << message << "\n";
 }
 
 #define BYTES(IN) ((uint8_t *) &IN)
@@ -24,21 +25,28 @@ void debug_print(std::string message) {
 
 enum Opcode : uint8_t {
     OP_DECODE,
-    OP_UPDATE,
     OP_TEST,
     OP_JUMP,
     OP_ACCEPT,
     OP_FAIL,
+    OP_UPDATE,
+    OP_CLEAR,
+    OP_ADDIN,
+    OP_SWAP
 };
 
 Opcode parse_opcode(const std::string& s)
 {
     if (s == "DECODE") return Opcode::OP_DECODE;
-    if (s == "UPDATE")    return Opcode::OP_UPDATE;
+    if (s == "UPDATE") return Opcode::OP_UPDATE;
     if (s == "TEST")   return Opcode::OP_TEST;
     if (s == "JUMP")   return Opcode::OP_JUMP;
     if (s == "ACCEPT") return Opcode::OP_ACCEPT;
     if (s == "FAIL")   return Opcode::OP_FAIL;
+    if (s == "CLEAR")  return Opcode::OP_CLEAR;
+    if (s == "ADDIN")  return Opcode::OP_ADDIN;
+    if (s == "SWAP")   return Opcode::OP_SWAP;
+
 
     throw std::runtime_error("unknown opcode");
 }
@@ -88,20 +96,41 @@ void parse_code(std::string filename, std::vector<Instruction> &program)
         
         case OP_UPDATE:
             if (!(iss >> word))
-                throw std::runtime_error("UPD: missing operand");
+                throw std::runtime_error("UPDATE: missing operand");
             inst.reg = std::stoul(word);
             for (size_t i = 0; iss >> word; ++i) {
                 (inst.reg_list).push_back(std::stoul(word));
             }
             break;
 
+        case OP_SWAP:
+            if (!(iss >> word))
+                throw std::runtime_error("SWAP: missing first operand");
+            inst.reg = std::stoul(word);
+            if (!(iss >> word))
+                throw std::runtime_error("SWAP: missing second operand");
+            (inst.reg_list).push_back(std::stoul(word));
+            break;
+
+        case OP_CLEAR:
+            if (!(iss >> word))
+                throw std::runtime_error("CLEAR: missing operand");
+            inst.reg = std::stoul(word);
+            break;
+
+        case OP_ADDIN:
+            if (!(iss >> word))
+                throw std::runtime_error("ADDIN: missing operand");
+            inst.reg = std::stoul(word);
+            break;
+
         case OP_TEST:
             if (!(iss >> word))
-                throw std::runtime_error("TEST: missing operand");
+                throw std::runtime_error("TEST: missing first operand");
             inst.reg = std::stoul(word);
 
             if (!(iss >> word))
-                throw std::runtime_error("TEST: missing operand");
+                throw std::runtime_error("TEST: missing second operand");
             inst.ls = std::stoul(word);
             break;
         
@@ -250,8 +279,7 @@ bool run_code(const std::vector<Instruction> &program,
     std::istream& input)
 {
     // +1 regs for in, which is regs[0]
-    auto regs = init_regs(nregs+1);
-    auto regs_new = init_regs(nregs+1);
+    auto regs = init_regs(nregs);
     uint32_t in = 0;
     size_t ip = 0;
     Instruction instr;
@@ -259,25 +287,18 @@ bool run_code(const std::vector<Instruction> &program,
     uint8_t nbytes;
     DecodeTreeNode *tree;
     size_t label;
-    bool updated_regs = false;
     while (1) {
-        // std::cerr << ip << ":";
+        if (DEBUG_PRINT) std::cerr << ip << ":";
         instr = program[ip];
         switch (instr.op)
         {
         case OP_DECODE:
-            //debug_print("DECODE");
+            debug_print("DECODE");
             in = 0;
-            if (updated_regs) {
-                //debug_print("REGS UPDATED!");
-                std::swap(regs, regs_new);
-                updated_regs = false;
-                //dump_regs(regs);
-            }
             tree = decodeTrees[instr.ls];
             // read first byte
             if (!get_input_char(input, curr_byte)) {
-                //debug_print("no input -> fail");
+                debug_print("no input -> fail");
                 return false;
             }
 
@@ -291,11 +312,7 @@ bool run_code(const std::vector<Instruction> &program,
                 BYTES(in)[i] = curr_byte;
             }
 
-            // add in to the reg 0
-            regs[0].clear();
-            regs[0].insert(in); 
-
-            //std::cerr << "\t" << in << "\n";
+            if (DEBUG_PRINT) std::cerr << "\t" << in << "\n";
 
             // get next state
             label = traverse_decode_tree(tree, in, nbytes-1);
@@ -309,30 +326,30 @@ bool run_code(const std::vector<Instruction> &program,
             break;
         
         case OP_ACCEPT:
-            //debug_print("ACCEPT");
+            debug_print("ACCEPT");
             if (input.peek() == EOF) {
-                //debug_print("\tYES");
+                debug_print("\tYES");
                 return true;
             }
-            //debug_print("\tNO");
+            debug_print("\tNO");
             ip++;
             break;
 
         case OP_FAIL:
-            //debug_print("FAIL");
+            debug_print("FAIL");
             return false;
 
         case OP_JUMP:
-            //debug_print("JUMP");
-            //std::cerr << "\tto " << instr.ls << "\n"; 
+            debug_print("JUMP");
+            if (DEBUG_PRINT) std::cerr << "\tto " << instr.ls << "\n"; 
             ip = instr.ls;
             break;
 
         case OP_TEST:
-            //debug_print("TEST");
-            //std::cerr << "\t" <<  in << " \\in " << instr.reg << "\n"; 
+            debug_print("TEST");
+            if (DEBUG_PRINT) std::cerr << "\t" <<  in << " \\in " << instr.reg << "\n"; 
             if (regs[instr.reg].contains(in)) {
-                //debug_print("\tYES");
+                debug_print("\tYES");
                 ip = instr.ls;
                 break;
             }
@@ -340,12 +357,30 @@ bool run_code(const std::vector<Instruction> &program,
             break;
 
         case OP_UPDATE:
-            //debug_print("UPDATE");
-            regs_new[instr.reg].clear();
+            debug_print("UPDATE");
             for (auto &r : instr.reg_list) {
-                regs_new[instr.reg].insert(regs[r].begin(), regs[r].end()); 
+                regs[instr.reg].insert(regs[r].begin(), regs[r].end()); 
             }
-            updated_regs = true;
+            ip++;
+            break;
+
+        case OP_CLEAR:
+            debug_print("CLEAR");
+            if (regs[instr.reg].size() > 0) {
+                regs[instr.reg].clear();
+            }
+            ip++;
+            break;
+
+        case OP_SWAP:
+            debug_print("SWAP");
+            std::swap(instr.reg, instr.reg_list[0]);
+            ip++;
+            break;
+
+        case OP_ADDIN:
+            debug_print("ADDIN");
+            regs[instr.reg].insert(in);
             ip++;
             break;
         }

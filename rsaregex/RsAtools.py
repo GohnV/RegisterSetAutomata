@@ -1,6 +1,7 @@
 #Author: Jan Vašák, 24.9.2022
 
 import itertools as it
+import networkx as nx
 import copy
 
 MYEMPTY = (' ', frozenset())
@@ -21,6 +22,9 @@ INSTR_FAIL = "FAIL"
 INSTR_JUMP = "JUMP"
 INSTR_TEST = "TEST"
 INSTR_UPDATE = "UPDATE"
+INSTR_ADDIN = "ADDIN"
+INSTR_CLEAR = "CLEAR"
+INSTR_SWAP = "SWAP"
 
 class DeterminizationError(Exception):
     def __init__(self, message):
@@ -518,14 +522,69 @@ def _generate_decode_tree(charsets, bytemap, nclasses, state_id):
                 d.label = f"{state_id}_{setnum}"
     return decode_tree
 
-def arrayize__decode_tree(tree: DecodeTreeNode, stateid):
-    if tree == None:
-        pass
-    if tree.children == []:
-        # Just one class
-        assert(tree.label != None)
-        pass 
-    #TODO: finish
+
+
+def remove_update_cycles(graph: nx.DiGraph):
+    sccs = list(nx.strongly_connected_components(graph))
+    next_reg_id = 0
+    old_to_new = {}
+    new_to_old = {}
+    # if graph is NOT acyclic, split some nodes
+    while len(sccs) < graph.number_of_nodes():        
+        to_split = []
+        for nodes in sccs:
+            if len(nodes) > 1:
+                # add node with max out degree
+                to_split.append(max(nodes, key=lambda n: graph.out_degree(n)))
+        for node in to_split:
+            new_node = f"free_{next_reg_id}"
+            next_reg_id += 1
+            old_to_new[node] = new_node
+            new_to_old[new_node] = node
+            outgoing = list(graph.out_edges(node))
+
+            graph.add_node(new_node)
+            for _, v in outgoing:
+                graph.add_edge(new_node, v)
+            graph.remove_edges_from(outgoing)
+        # new sccs from the updated graph
+        sccs = list(nx.strongly_connected_components(graph))
+    return old_to_new, new_to_old
+
+def create_update_graph(upd_list):
+    graph = nx.DiGraph()
+    for r, rhs in upd_list:
+        graph.add_node(r)
+        for x in rhs:
+            if x == r or x == IN:
+                continue
+            graph.add_edge(r, x)
+    return graph
+
+def transform_updates(upd_list):
+    #reconstruct update:
+    update = {k:v for k,v, in upd_list}
+    #build update graph and remove cycles by splitting
+    # updates into reg_new <- update[reg], reg <- reg_new
+    graph = create_update_graph(upd_list)
+    old_to_new, new_to_old = remove_update_cycles(graph)
+    # order updates based on dependencies
+    order = list(nx.topological_sort(graph))
+    
+    #rebuild updates from upd_list in the correct order
+    updates_new = list()
+    for node in order:
+        if node in old_to_new.keys():
+            # reg <- reg_new
+            updates_new.append((node, {old_to_new[node]}))
+        elif node in new_to_old.keys():
+            old = new_to_old[node]
+            updates_new.append((node, update[old]))
+        else:
+            updates_new.append((node, update[node]))
+    return updates_new
+
+
     
 
 class Transition:
@@ -1045,8 +1104,8 @@ class NRA(RsA):
         bytemap, nclasses = self._create_bytemap()
         mem = [None for _ in drsa.Q]
         reglist = sorted(drsa.R) # establish fixed order
-        regmap = {r:i+1 for i, r in enumerate(reglist)} #i+1 to reserve 0 for 'in'
-        regmap[IN] = 0
+        regmap = {r:i for i, r in enumerate(reglist)} | \
+            {f"free_{i}":len(reglist)+i for i in range(len(reglist))}
         assert(len(drsa.I) == 1)
         init_state = next(iter(drsa.I))
         drsa.Q.remove(init_state)
@@ -1112,14 +1171,38 @@ class NRA(RsA):
                     #print transition update and move
                 for trans_key, trans_id in uniq_trans.items():
                     upd, dest_id = trans_key
+                    upd = transform_updates(upd)
                     prg.append(f"{state_id}_{chidx}_{trans_id}:") #label
                     for lhs,rhs in upd:
-                        str_rhs = " ".join([str(regmap[r]) for r in rhs])
-                        prg.append(INSTR_UPDATE+" "+str(regmap[lhs])+" "+str_rhs)
+                        rhs = set(rhs) # unfreeze set
+
+                        if len(rhs) == 1:
+                            item = next(iter(rhs))
+                            if item.startswith("free"):
+                                prg.append(INSTR_SWAP+f" {regmap[lhs]} {regmap[item]}")
+                                continue
+
+                        if lhs not in rhs:
+                            prg.append(INSTR_CLEAR+f" {regmap[lhs]}")
+                        else:
+                            rhs.remove(lhs)
+                        
+                        addin = False
+                        if IN in rhs:
+                            addin = True
+                            rhs.remove(IN)
+
+                        if len(rhs) > 0:
+                            str_rhs = " ".join([str(regmap[r]) for r in rhs])
+                            prg.append(INSTR_UPDATE+" "+str(regmap[lhs])+" "+str_rhs)
+
+                        if addin:
+                            prg.append(INSTR_ADDIN + f" {regmap[lhs]}")
+
                     prg.append(INSTR_JUMP+f" state_{dest_id}")
 
             prg.append(INSTR_FAIL)
-        return prg, mem, len(drsa.R)
+        return prg, mem, len(regmap)
 
     def determinize(self, postprocess=False, track_sizes=True) -> DRsA:
         '''Determinise the NRA into a DRsA'''
