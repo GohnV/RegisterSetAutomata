@@ -1183,7 +1183,8 @@ class NRA(RsA):
                                 continue
 
                         if lhs not in rhs:
-                            prg.append(INSTR_CLEAR+f" {regmap[lhs]}")
+                            if lhs in s.mapping.keys() and s.mapping[lhs] > 0:
+                                prg.append(INSTR_CLEAR+f" {regmap[lhs]}")
                         else:
                             rhs.remove(lhs)
                         
