@@ -20,6 +20,7 @@ class ParseError(Exception):
 
 g_state_id = 0 # for generating sequential ids for states
 g_back_referenced = {} # store all back-referenced capture group numbers and their lengths
+g_cg_chars = {}
 g_optional = {}
 g_anchor_start = False
 g_anchor_end = False
@@ -83,8 +84,27 @@ def _unanchor_aut(aut: NRA) -> NRA:
         new_aut.add_transition(t)
     return new_aut
 
+def _is_aut_only_epsilon(aut:NRA) -> bool:
+    for t in aut.delta:
+        if t.symbol != EPSILON:
+            return False
+    return True
+
 def _concatenate_aut(first: NRA, second: NRA) -> NRA:
     new_aut = NRA.empty()
+    first_eps = _is_aut_only_epsilon(first)
+    second_eps = _is_aut_only_epsilon(second)
+    if first_eps and second_eps:
+        init_state = _get_new_state_id()
+        new_aut.addQ(init_state)
+        new_aut.addI(init_state)
+        new_aut.addF(init_state)
+        return new_aut
+    if first_eps:
+        return second
+    if second_eps:
+        return first
+
     new_aut.import_automaton(first)
     new_aut.import_automaton(second)
 
@@ -405,6 +425,7 @@ def _capt_group_aut(sub_pattern: p.SubPattern, capt_num: int) -> NRA:
 
     if ret == False: return False
     symb = ret
+    g_cg_chars[capt_num] = ret
 
     #create automaton
     q2 = _get_new_state_id()
@@ -418,7 +439,11 @@ def _backref_aut(capt_num: int) -> NRA:
         return NRA({q1}, set(), set(), {q1}, {q1})
     q2 = _get_new_state_id()
     r = _reg_of_num(capt_num)
-    t = Transition(q1, ANYCHAR, {r}, set(), {}, q2)
+
+    chars = g_cg_chars.get(capt_num)
+    assert(chars != None)
+
+    t = Transition(q1, chars, {r}, set(), {}, q2)
     return NRA({q1, q2}, {r}, {t}, {q1}, {q2})
 
 #copy automaton while making sure state ids are kept unique
@@ -440,6 +465,21 @@ def _iterate_aut(aut:NRA) -> NRA:
     ret_aut = NRA.empty()
     ret_aut.import_automaton(aut)
     #add transition from every final state to every initial state
+
+    if len(aut.delta) == 1:
+        trans_old = next(iter(aut.delta)) # only one trans        
+        single_state = _get_new_state_id()
+        trans_new = Transition(single_state,trans_old.symbol, 
+                               trans_old.eqGuard,
+                               trans_old.diseqGuard,
+                               trans_old.update,
+                               single_state)
+        ret_aut.Q = {single_state}
+        ret_aut.I = {single_state}
+        ret_aut.F = {single_state}
+        ret_aut.delta = {trans_new}
+        return ret_aut
+
     for f in aut.F:
         for i in aut.I:
             t = Transition(f, EPSILON, set(), set(), {}, i)
@@ -629,6 +669,7 @@ def _create_automaton(sub_exp, level=0):
 
         #end of elif chain
         if aut_tmp == False:
+            raise ParseError("Unsupported construction")
             return False
         ret_automaton = _concatenate_aut(ret_automaton, aut_tmp)   
     #end of for loop

@@ -3,6 +3,7 @@
 import itertools as it
 import networkx as nx
 import copy
+# from rsaregex.rsa_draw import draw_automaton
 
 MYEMPTY = (' ', frozenset())
 ANYCHAR = ('^', frozenset())
@@ -660,10 +661,50 @@ class RsA:
                 break
         return closure
 
+    def outgoing_trans(self,q):
+        ret = set()
+        for t in self.delta:
+            if t.orig == q:
+                ret.add(t)
+        return ret
+    
+    def incoming_trans(self,q):
+        ret = set()
+        for t in self.delta:
+            if t.dest == q:
+                ret.add(t)
+        return ret
+
     def remove_eps(self):
         '''removes epsilon transitions'''
         deltaNew = set()
         newF = set()
+        to_remove = set()
+
+        # if the ONLY outoging transition is epsilon
+        # we can simply merge this state into the next
+        for q in self.Q:
+            # removing final states is difficult,
+            # since in general we cannot move finality
+            # to the next state
+            if q in self.F:
+                continue
+
+            outgoing = self.outgoing_trans(q)
+            
+            if len(outgoing) == 1:
+                only_trans = next(iter(outgoing))
+                if only_trans.symbol == EPSILON:
+                    to_remove.add(q)
+                    if q in self.I:
+                        self.I.remove(q)
+                        self.I.add(only_trans.dest)
+                    # re-route transitions
+                    for t in self.incoming_trans(q):
+                        t.dest = only_trans.dest
+        for q in to_remove:
+            self.Q.remove(q)
+        
         for q in self.Q:
             epsClos = self.eps_closure(q)
             if not epsClos.isdisjoint(self.F):
@@ -845,11 +886,14 @@ class DRsA(RsA):
                 if t.orig.states != q.states or t.orig.mapping != q.mapping :
                     continue
                 P1=set()
+                # up_aux maps a register to the classes its updated with
                 up_aux = {}
                 up_new = {}
+                # build up_aux
                 for r in self.R:
                     Y = set()
                     for y in t.update[r]:
+                        # find class of y
                         if y != IN:
                             for C in P:
                                 if y in C:
@@ -857,13 +901,17 @@ class DRsA(RsA):
                                     break
                         Y.add(y)
                     up_aux[r] = Y
+                # build new partition
                 for Y in up_aux.values():
                     C1 = set()
                     for r in self.R:
                         if up_aux[r] == Y:
                             C1.add(r)
-                    P1.add(frozenset(C1))
+                    if Y != set():
+                        P1.add(frozenset(C1))
                     up_new[frozenset(C1)] = Y
+
+                # build (n)eq guard
                 g_eq_new = set()
                 g_neq_new = set()
                 for C in P:
@@ -872,8 +920,12 @@ class DRsA(RsA):
                             g_eq_new.add(C)
                         if r in t.diseqGuard:
                             g_neq_new.add(C)
+
+                # make sure register list is complete
                 for C in P1:
                     Rnew.add(C)
+
+                # check whether created state already exists, and add it if not
                 newstate = True
                 for q1 in Qnew:
                     if q1[0].states == t.dest.states and\
@@ -886,6 +938,7 @@ class DRsA(RsA):
                     worklist.append((t.dest, frozenset(P1)))
                 deltaNew.add(Transition((q, frozenset(P)), t.symbol, g_eq_new, g_neq_new, up_new, (t.dest, frozenset(P1))))
                 
+                # check overapprox on the created transition
                 for q1 in t.dest.states:
                     U = [[]]
                     Rq1 = set()
@@ -905,6 +958,7 @@ class DRsA(RsA):
                             if x[1] == IN:
                                 x[1] = frozenset({IN})
                         for t1 in oldNRA.delta:
+                            # print(t1.orig,"->", t1.dest,"| up =", t1.update)
                             if t1.dest != q1:
                                 continue
                             found = True
@@ -913,8 +967,10 @@ class DRsA(RsA):
                                     found = False
                                     break
                             if found:
+                                # print("found")
                                 break
                         if not found:
+                            # draw_automaton(DRsA(Qnew, Rnew, deltaNew, Inew, set()), "postprocessed")
                             return False
         return True
 
@@ -1098,7 +1154,7 @@ class NRA(RsA):
         # TODO: cleanup interface
         self.remove_eps()
         self.remove_unreachable()
-        drsa = self.determinize() #let it crash if non-determinizable for now
+        drsa = self.determinize(postprocess=True) #let it crash if non-determinizable for now
         statemap = drsa._create_state_id_map()
         prg = []
         bytemap, nclasses = self._create_bytemap()
@@ -1162,7 +1218,7 @@ class NRA(RsA):
                         elif r in t.diseqGuard:
                             var_values.append((regmap[r], 0))
                     mtbdd.add_path(var_values, trans_id)
-                if not mtbdd.is_empty():
+                if len(uniq_trans) > 1:
                     # dump_mtbdd(mtbdd)
                     mtbdd.reduce(len(var_values))
 
@@ -1318,6 +1374,7 @@ class NRA(RsA):
                                             found_conf = True
                                             break
                                 if not found_conf:
+                                    #print("overapproxes")
                                     overapprox = True
                                     if not postprocess:
                                         raise DeterminizationError("Overapproximation detected")
