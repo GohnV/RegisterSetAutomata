@@ -90,20 +90,21 @@ def _is_aut_only_epsilon(aut:NRA) -> bool:
             return False
     return True
 
-def _concatenate_aut(first: NRA, second: NRA) -> NRA:
+def _concatenate_aut(first: NRA, second: NRA, keep_epsilon = False) -> NRA:
     new_aut = NRA.empty()
-    first_eps = _is_aut_only_epsilon(first)
-    second_eps = _is_aut_only_epsilon(second)
-    if first_eps and second_eps:
-        init_state = _get_new_state_id()
-        new_aut.addQ(init_state)
-        new_aut.addI(init_state)
-        new_aut.addF(init_state)
-        return new_aut
-    if first_eps:
-        return second
-    if second_eps:
-        return first
+    if not keep_epsilon:
+        first_eps = _is_aut_only_epsilon(first)
+        second_eps = _is_aut_only_epsilon(second)
+        if first_eps and second_eps:
+            init_state = _get_new_state_id()
+            new_aut.addQ(init_state)
+            new_aut.addI(init_state)
+            new_aut.addF(init_state)
+            return new_aut
+        if first_eps:
+            return second
+        if second_eps:
+            return first
 
     new_aut.import_automaton(first)
     new_aut.import_automaton(second)
@@ -505,7 +506,7 @@ def _repeat_aut(aut: NRA, min: int, max) -> NRA:
         for i in range(max-min):
             tmp = _copy_aut(aut)
             tmp_states = tmp_states.union(tmp.F)
-            ret_aut = _concatenate_aut(ret_aut, tmp) 
+            ret_aut = _concatenate_aut(ret_aut, tmp, keep_epsilon=True) 
             ret_aut.F = ret_aut.F.union(tmp.F)
         ret_aut.F = ret_aut.F.union(tmp_states)
     return ret_aut
