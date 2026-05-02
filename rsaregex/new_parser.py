@@ -97,9 +97,9 @@ def _concatenate_aut(first: NRA, second: NRA, keep_epsilon = False) -> NRA:
         second_eps = _is_aut_only_epsilon(second)
         if first_eps and second_eps:
             init_state = _get_new_state_id()
-            new_aut.addQ(init_state)
-            new_aut.addI(init_state)
-            new_aut.addF(init_state)
+            new_aut.add_q(init_state)
+            new_aut.add_i(init_state)
+            new_aut.add_f(init_state)
             return new_aut
         if first_eps:
             return second
