@@ -156,14 +156,16 @@ void parse_code(std::string filename, std::vector<Instruction> &program)
 
 size_t traverse_decode_tree(const DecodeTreeNode* node, const uint32_t in, const uint8_t index)
 {
+    // if (DEBUG_PRINT) {std::cerr << "\t" << (uint) in << "[" <<(uint) index << "] = " <<(uint) BYTES(in)[index] << "\n";}
     if (node == nullptr)
         return (size_t)-2;
-    if (node->children.size() == 0)
+    if (node->children.size() == 0){
         return node->label;
+    }  
     uint8_t byte = BYTES(in)[index];
     // TODO: once I have bytemap:
     // uint8_t byte = bytemap[BYTES(in)[index]]
-    return traverse_decode_tree(node->children[byte], in, index-1);
+    return traverse_decode_tree(node->children[byte], in, index+1);
 }
 
 void free_tree(DecodeTreeNode* node)
@@ -315,7 +317,7 @@ bool run_code(const std::vector<Instruction> &program,
             if (DEBUG_PRINT) std::cerr << "\t" << in << "\n";
 
             // get next state
-            label = traverse_decode_tree(tree, in, nbytes-1);
+            label = traverse_decode_tree(tree, in, 0);
             if (label == NEXT_UNDEFINED)
                 return false;
             if (label == NO_JUMPS)
