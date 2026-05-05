@@ -463,7 +463,7 @@ def _add_char_to_decode_tree(char, tree: DecodeTreeNode, leafptrarr, bytemap, nc
         curr = curr.children[b] #descend
     #decoded, number the leaf
     idx = len(leafptrarr)
-    curr.label = idx
+    curr.label = None
     leafptrarr.append(curr)
     return idx
 
