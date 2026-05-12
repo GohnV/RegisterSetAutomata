@@ -1050,6 +1050,42 @@ class NRA(RsA):
             t.diseqGuard = diseqNew
         self.R = RNew
 
+    def remove_untested_regs(self):
+        changed = True
+        reg_deps_on = {r:set() for r in self.R}
+        while changed:
+            changed = False
+            for t in self.delta:
+                for r in self.R:
+                    y = t.update[r]
+                    if y == IN or y == BOTTOM:
+                        continue
+                    y_deps = reg_deps_on[y]
+                    r_add_deps = y_deps.union({y})
+                    if not r_add_deps.issubset(reg_deps_on[r]):
+                        changed = True
+                        reg_deps_on[r] = reg_deps_on[r].union(r_add_deps)
+        
+        tested_regs = set()
+        for t in self.delta:
+            for r in t.eqGuard.union(t.diseqGuard):
+                tested_dep = reg_deps_on[r].union({r})
+                tested_regs = tested_regs.union(tested_dep)
+
+        self.R = tested_regs
+        for t in self.delta:
+            assert(t.eqGuard.issubset(tested_regs))
+            assert(t.diseqGuard.issubset(tested_regs))
+            new_up = {}
+            for r in t.update.keys():
+                if r in tested_regs:
+                    y = t.update[r]
+                    assert(y == IN \
+                           or y == BOTTOM \
+                           or y in tested_regs)
+                    new_up[r] = y
+            t.update = new_up
+
     def preprocess(self):
         '''run the preprocessing algorithm on the NRA
         (NOT YET COMPATIBLE WITH DETERMINIZE, AS PREPROCESS IS NOT NECESSARY FOR
@@ -1268,6 +1304,7 @@ class NRA(RsA):
         self.complete_updates()
         self.make_register_local()
         self.fill_with_bottom()
+        self.remove_untested_regs()
         newA = DRsA(set(), self.R, set(), set(), set())
         worklist = [] 
         #Q′ ← worklist ← I′ ← {(I, c0 = {r → 0 | r ∈ R})}:
