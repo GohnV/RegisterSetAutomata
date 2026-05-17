@@ -3,6 +3,8 @@
 import itertools as it
 import networkx as nx
 import copy
+import re
+import json
 # from rsaregex.rsa_draw import draw_automaton
 
 MYEMPTY = (' ', frozenset())
@@ -586,6 +588,57 @@ def transform_updates(upd_list):
     return updates_new
 
 
+def process_vm_code(prg, mem, prgout = "prg.out", memout = "mem.out"):
+    labelmap = {}
+    cnt = 0
+    code = []
+    outprgfile = open(prgout, "w")
+    outmemfile = open(memout, "w")
+
+    for line in prg:
+        line = line.strip()
+        if line == "":
+            continue
+
+        if line.endswith(":"):
+            labelstr = line[:-1]
+            assert(labelstr not in labelmap.keys())
+            labelmap[labelstr] = str(cnt)
+        else:
+            cnt += 1
+            code.append(line)
+
+    # second pass
+    for line in code:
+        words = line.split()
+        outstr = ""
+        for word in words:
+            if word in labelmap.keys():
+                outstr += labelmap[word] + " "
+            else:
+                outstr += word + " "
+        print(outstr, file=outprgfile)
+
+    memstr = json.dumps(mem,indent=1).splitlines()
+
+    for line in memstr:
+        print(
+            re.sub(
+                r'("label":\s*)"([^"]+)"',
+                lambda m: f'{m.group(1)}{labelmap[m.group(2)]}',
+                line
+            ), file=outmemfile
+        )
+
+
+def print_vm_code_debug(prg, mem, prgout = "prg.out", memout = "mem.out"):
+    outprgfile = open(prgout, "w")
+    outmemfile = open(memout, "w")
+    for line in prg:
+        line = line.strip()
+        print(line, file = outprgfile)
+
+    json.dump(mem, outmemfile, indent=2)
     
 
 class Transition:
@@ -1186,8 +1239,6 @@ class NRA(RsA):
         return [i for i in range(256)], 256
 
     def generate_vm_code(self):
-
-        # TODO: cleanup interface
         self.remove_eps()
         self.remove_unreachable()
         drsa = self.determinize(postprocess=True) #let it crash if non-determinizable for now
@@ -1207,7 +1258,6 @@ class NRA(RsA):
             state_id = statemap[s.key()]
             prg.append(f"state_{state_id}:") #label
 
-            #FIXME: implement eq and hash methods for state! so this doesn't happen
             for f in drsa.F:
                 if s.states == f.states and s.mapping == f.mapping:
                     prg.append(INSTR_ACCEPT)
@@ -1233,7 +1283,6 @@ class NRA(RsA):
                 charset_trans[idx].append(t)
             decode_tree = _generate_decode_tree(charsets, bytemap, nclasses, state_id)
             mem[state_id] = _serialize_decode_tree(decode_tree)
-            # TODO: if too slow, serialize into binary
 
             for chidx in charset_trans.keys(): #iterate over groups of transitions
                 prg.append(f"{state_id}_{chidx}:")

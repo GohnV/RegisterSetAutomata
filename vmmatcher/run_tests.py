@@ -30,6 +30,16 @@ test(r"ab?c", "ac", True, "? zero occurrence")
 test(r"ab?c", "abc", True, "? one occurrence")
 test(r"ab?c", "abbc", False, "? too many")
 
+# Bounded repetition
+test(r"ab{3,5}c", "ac", False, "{3,5} no repetitions")
+test(r"ab{3,5}c", "abc", False, "{3,5} 1 repetition")
+test(r"ab{3,5}c", "abbc", False, "{3,5} 2 repetitions")
+test(r"ab{3,5}c", "abbbc", True, "{3,5} 3 repetitions")
+test(r"ab{3,5}c", "abbbbc", True, "{3,5} 4 repetitions")
+test(r"ab{3,5}c", "abbbbbc", True, "{3,5} 5 repetitions")
+test(r"ab{3,5}c", "abbbbbbc", False, "{3,5} 6 repetitions")
+test(r"ab{3,5}c", "abbbbbbbc", False, "{3,5} 7 repetitions")
+
 # Character classes
 test(r"[abc]", "a", True, "char class single")
 test(r"[abc]", "d", False, "char class negative")

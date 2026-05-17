@@ -2,17 +2,26 @@
 import sys
 import re
 
-#TODO: labels in decode stuff must be replaced too
+if len(sys.argv) > 1:
+    prgname = sys.argv[1]
+else:
+    prgname = "prg.rsa"
+
+if len(sys.argv) > 2:
+    memname = sys.argv[2]
+else:
+    memname = "mem.rsa"
+
+prgfile = open(prgname)
+memfile = open(memname)
+outprgname = re.sub("rsa","out", prgname)
+outmemname = re.sub("rsa","out", memname)
+outprgfile = open(outprgname, "w")
+outmemfile = open(outmemname, "w")
 
 labelmap = {}
 cnt = 0
 code = []
-
-prgfile = open("prg.rsa") 
-memfile = open("mem.rsa")
-
-outprgfile = open("prg.out", "w") 
-outmemfile = open("mem.out", "w")
 
 # first pass
 for line in prgfile:
@@ -28,15 +37,6 @@ for line in prgfile:
             print(f"label '{labelstr}' redefined", file=sys.stderr)
             exit(1)
         labelmap[labelstr] = str(cnt)
-
-    # tokens = line.split()
-    # if tokens[0] == "LABEL":
-    #     labelstr = tokens[1]
-    #     if labelstr in labelmap.keys():
-    #         # error
-    #         print("label redefinition", sys.stderr)
-    #         exit(1)
-    #     labelmap[labelstr] = cnt
     else:
         cnt += 1
         code.append(line)
