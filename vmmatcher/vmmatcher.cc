@@ -280,7 +280,6 @@ bool run_code(const std::vector<Instruction> &program,
     const reg_t nregs, 
     std::istream& input)
 {
-    // +1 regs for in, which is regs[0]
     auto regs = init_regs(nregs);
     uint32_t in = 0;
     size_t ip = 0;
@@ -368,9 +367,7 @@ bool run_code(const std::vector<Instruction> &program,
 
         case OP_CLEAR:
             debug_print("CLEAR");
-            if (regs[instr.reg].size() > 0) {
-                regs[instr.reg].clear();
-            }
+            regs[instr.reg].clear();
             ip++;
             break;
 
