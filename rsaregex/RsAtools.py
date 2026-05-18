@@ -1342,8 +1342,7 @@ class NRA(RsA):
                             prg.append(INSTR_ADDIN + f" {regmap[lhs]}")
 
                     prg.append(INSTR_JUMP+f" state_{dest_id}")
-
-            prg.append(INSTR_FAIL)
+            # prg.append(INSTR_FAIL)
         return prg, mem, len(regmap)
 
     def determinize(self, postprocess=False, track_sizes=True) -> DRsA:
