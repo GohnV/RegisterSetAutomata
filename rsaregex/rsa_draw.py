@@ -65,4 +65,8 @@ def strIfMacroState(q):
         for r in q.mapping.keys():
             ret = ret+str(r)+" "+str(q.mapping[r])+' | '
         ret+=']'
+    elif isinstance(q, tuple):
+        macrostate, P = q
+        macrostring = strIfMacroState(macrostate)
+        ret = f"{macrostring}\n{P}"
     return ret

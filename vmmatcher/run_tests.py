@@ -87,7 +87,7 @@ test(r"a.*c", "abbbb", False, "missing end char")
 
 #BACK-REFERENCES
 
-#MINE:
+# With unicode
 test(r"(.).*\1", "aa", True, "repeat easy")
 test(r"(.).*\1", "ČčaařŘ", True, "repeat 2")
 test(r"(.).*\1", "Čča🍔🎆ařŘ", True, "repeat 3")

@@ -899,7 +899,6 @@ class DRsA(RsA):
 
             found = False
             trans_f = None
-            #TODO: do one test and then check the bitmap with transitions
             for t in self.trans_dict[(frozenset(c.states),frozenset(c.mapping.items()))]:
                 if rsa_is_char_in(s, t.symbol) and self._guard_test(s, regConf, t.eqGuard, t.diseqGuard):
                     #if found:
@@ -1381,9 +1380,6 @@ class NRA(RsA):
 
             #create minterms of all transitions used for a given set of states into A
             A = _create_minterms_symb(list(sets))
-            #TODO: add mintermification before powerset to 'join' some registers if there's no reason to separate them
-            #       maybe also try that^ for the whole regex?
-            #TODO: what about BDDs?
             G = set(powerset(regs))
             #print(A)
             for a in A:
@@ -1482,7 +1478,6 @@ class NRA(RsA):
                     s1c1.states = S1
                     s1c1.mapping = c1
                     found = False
-                    #TODO: optimize this membership test if possible
                     for q1 in newA.Q:
                         #orig:
                         if s1c1.states == q1.states and s1c1.mapping == q1.mapping:
