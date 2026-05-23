@@ -2,12 +2,26 @@
 * Jan Vašák, xvasak01@vutbr.cz, 2026
 
 This is a regex matcher implemented based on register set automata (RSA) [[1]](#1).
-There are actually two parts of the matcher, the Python package `rsaregex`, which can be used
-as a standalone package to match regexes, and the C++-implemented VM `vmmatcher`, which can
+
+This repository also provides the following:
+
+ - The Python package `rsaregex`, which can be used
+as a standalone package to match regexes.
+
+ - The C++-implemented VM `vmmatcher`, which can
 be used to match regexes more efficiently. Code for `vmmatcher` can be generated
 from the `rsaregex` package.
 
 ## Usage
+
+To run use:
+`python rsa-matcher [-h] [-d] [-f FILE] pattern`
+* `pattern` regex to be matched to input data
+* `-h` print help and exit
+* `-d` don't determinise ahead of time (determinise the regex on for each input line)
+* `-f FILE` specify file to read from
+
+The program then reads lines from `stdin` (or `FILE` if specified) and prints out every line that matches the `pattern`.
 
 ### rsaregex package standalone
 Package implementing RsA-based regex matching and also a representation of register (set) automata
@@ -17,7 +31,7 @@ Provides the function `draw_automaton` to draw a specified automaton into a pdf 
 For regex matching use either
 * `drsa = rsaregex.create_rsa(pattern)` to create the DRsA and then use `result = drsa.run_word(input)`
 to match the input to the pattern, or
-* `result = rsaregex.match(pattern, input)` to do the above in one operation (not recommended for repeated matching). Beware that `result` might be `-1` if the pattern cannot be determinised.
+* `result = rsaregex.match(pattern, input)` to do the above in one operation (not recommended for repeated matching).
 
 ### vmmatcher
     
